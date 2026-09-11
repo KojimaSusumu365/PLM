@@ -1,0 +1,21 @@
+Verified/restored 1/1 files
+Original ZIP differs from the retained snapshot layout; using preservation assets.
+Verified/restored 2/2 files
+Verified/restored 2/2 files
+Verified/restored 1/1 files
+test_conflicting_existing_file_is_not_overwritten (test_restore_archive.RestoreTests.test_conflicting_existing_file_is_not_overwritten) ... ok
+test_corrupt_asset_rejected (test_restore_archive.RestoreTests.test_corrupt_asset_rejected) ... ok
+test_direct_asset (test_restore_archive.RestoreTests.test_direct_asset) ... ok
+test_missing_asset_rejected (test_restore_archive.RestoreTests.test_missing_asset_rejected) ... ok
+test_missing_scope_and_version_rejected (test_restore_archive.RestoreTests.test_missing_scope_and_version_rejected) ... ok
+test_original_version_zip_fast_path (test_restore_archive.RestoreTests.test_original_version_zip_fast_path) ... ok
+test_original_version_zip_missing_snapshot_member_falls_back (test_restore_archive.RestoreTests.test_original_version_zip_missing_snapshot_member_falls_back) ... ok
+test_path_traversal_and_absolute_paths_rejected (test_restore_archive.RestoreTests.test_path_traversal_and_absolute_paths_rejected) ... ok
+test_restore_preserves_bytes_and_duplicate_paths (test_restore_archive.RestoreTests.test_restore_preserves_bytes_and_duplicate_paths) ... ok
+test_windows_length_independent_restore (test_restore_archive.RestoreTests.test_windows_length_independent_restore) ... ok
+test_wrong_blob_digest_rejected (test_restore_archive.RestoreTests.test_wrong_blob_digest_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.134s
+
+OK

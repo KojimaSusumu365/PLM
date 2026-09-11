@@ -1,0 +1,14 @@
+{
+  "source_paths": 52225,
+  "source_bytes": 14167352222,
+  "browseable_copies_verified": 15140,
+  "versions_verified": 45,
+  "assets_verified": 52,
+  "unique_blobs_verified": 10675,
+  "restored_paths_verified": 0,
+  "status": "passed",
+  "original_path_set_unchanged": true,
+  "original_sizes_and_mtimes_unchanged": true,
+  "restoration_tool_tests": 11,
+  "historical_experiments_rerun": false
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "version": "PLM-C0-v0.1",
+    "exit_code": 0,
+    "tests": 10,
+    "scope": "Unit tests in separately restored copy; not the full numerical evaluation"
+  },
+  {
+    "version": "PLM-L1-SS-core-v0.4",
+    "exit_code": 0,
+    "tests": 95,
+    "scope": "Unit tests in separately restored copy; not the full numerical evaluation"
+  }
+]

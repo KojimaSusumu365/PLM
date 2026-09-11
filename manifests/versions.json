@@ -1,0 +1,452 @@
+[
+  {
+    "name": "PLM-C0-v0.1",
+    "source_scope": "work",
+    "source_prefix": "PLM-C0-v0.1/",
+    "browse_path": "versions/C0/v0.1",
+    "files": 16,
+    "bytes": 80505,
+    "original_zip_asset": "PLM-C0-v0.1.zip",
+    "zip_sha256": "27ad5afd0e155044c3fa663807d2ffd8060a4a23c2550dbc5e1b500c1e1c1da1"
+  },
+  {
+    "name": "PLM-C0-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C0-v0.2/",
+    "browse_path": "versions/C0/v0.2",
+    "files": 17,
+    "bytes": 91720,
+    "original_zip_asset": "PLM-C0-v0.2.zip",
+    "zip_sha256": "dcc6a0014aa545f70ba7a24ae586e175f6368a888ef2ad8f7207fc32844e20c6"
+  },
+  {
+    "name": "PLM-C0-v0.3",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C0-v0.3/",
+    "browse_path": "versions/C0/v0.3",
+    "files": 18,
+    "bytes": 1544535,
+    "original_zip_asset": "PLM-C0-v0.3.zip",
+    "zip_sha256": "98746a5ab965d9f02b1f6cd5aa08c217dfeef586c6574b462d5446a3f6da273e"
+  },
+  {
+    "name": "PLM-C1-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C1-v0.1/",
+    "browse_path": "versions/C1/v0.1",
+    "files": 25,
+    "bytes": 1464922,
+    "original_zip_asset": "PLM-C1-v0.1.zip",
+    "zip_sha256": "fa6d1cb2d5dafc139463c8e59bf2ec3942f0acc8b094c3c378e692a8b26b92b2"
+  },
+  {
+    "name": "PLM-C1-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C1-v0.2/",
+    "browse_path": "versions/C1/v0.2",
+    "files": 31,
+    "bytes": 2454302,
+    "original_zip_asset": "PLM-C1-v0.2.zip",
+    "zip_sha256": "fe6936fcc2677a4f14cfd654b5987a8578d1c907e720f9ac1d947cfa791877c4"
+  },
+  {
+    "name": "PLM-C1-v0.3",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C1-v0.3/",
+    "browse_path": "versions/C1/v0.3",
+    "files": 37,
+    "bytes": 3231861,
+    "original_zip_asset": "PLM-C1-v0.3.zip",
+    "zip_sha256": "0f2b6720b35ce11c4c86bd1ff0423f73204d864bb98cbf84e67610a95cfaa3cc"
+  },
+  {
+    "name": "PLM-C2-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C2-v0.1/",
+    "browse_path": "versions/C2/v0.1",
+    "files": 43,
+    "bytes": 3981464,
+    "original_zip_asset": "PLM-C2-v0.1.zip",
+    "zip_sha256": "50eeda8cbdb936e0080fad1bcd364eaafa3bc1c4efba9969dcff3dc1b469ae68"
+  },
+  {
+    "name": "PLM-C2-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C2-v0.2/",
+    "browse_path": "versions/C2/v0.2",
+    "files": 49,
+    "bytes": 4813948,
+    "original_zip_asset": "PLM-C2-v0.2.zip",
+    "zip_sha256": "39369c55d24f4a0ced9b40afd53a69028de7a8670c79044932cc5cd008d0310f"
+  },
+  {
+    "name": "PLM-C2-v0.3",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C2-v0.3/",
+    "browse_path": "versions/C2/v0.3",
+    "files": 58,
+    "bytes": 6001680,
+    "original_zip_asset": "PLM-C2-v0.3.zip",
+    "zip_sha256": "3ab215c142741a3e75d41f5e2a3977984b8ab68f626a7b48899116c1cc3e3765"
+  },
+  {
+    "name": "PLM-C2-v0.4",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-C2-v0.4/",
+    "browse_path": "versions/C2/v0.4",
+    "files": 80,
+    "bytes": 2248569,
+    "original_zip_asset": "PLM-C2-v0.4.zip",
+    "zip_sha256": "d9b238c72e8bac897d67bc1f674d47576fb003288112b0ffabfb8b519e77797f"
+  },
+  {
+    "name": "PLM-R1-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-R1-v0.1/",
+    "browse_path": "versions/R1/v0.1",
+    "files": 117,
+    "bytes": 3878047,
+    "original_zip_asset": "PLM-R1-v0.1.zip",
+    "zip_sha256": "81b6eac5558dbed93813282a6a45c07bee29f6b9309de3da44dca709bced071f"
+  },
+  {
+    "name": "PLM-P1-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-P1-v0.1/",
+    "browse_path": "versions/P1/v0.1",
+    "files": 177,
+    "bytes": 10002616,
+    "original_zip_asset": "PLM-P1-v0.1.zip",
+    "zip_sha256": "d0eaa508fcd2b9dbd5c945d1f25ccdaa9fcfee72fd2ae280370183c0810cc7ac"
+  },
+  {
+    "name": "PLM-P1-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-P1-v0.2/",
+    "browse_path": "versions/P1/v0.2",
+    "files": 260,
+    "bytes": 128226972,
+    "original_zip_asset": "PLM-P1-v0.2.zip",
+    "zip_sha256": "2d143150d24da46f71786bbb36e73d8979d20dedd1c1cb6e67671fe048553887"
+  },
+  {
+    "name": "PLM-S1-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-S1-v0.1/",
+    "browse_path": "versions/S1/v0.1",
+    "files": 330,
+    "bytes": 181316011,
+    "original_zip_asset": "PLM-S1-v0.1.zip",
+    "zip_sha256": "650475873cf67dd323b53e263c8ef96f1943440d4d7490f34fb588b160d0bddb"
+  },
+  {
+    "name": "PLM-S1-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-S1-v0.2/",
+    "browse_path": "versions/S1/v0.2",
+    "files": 414,
+    "bytes": 246150162,
+    "original_zip_asset": "PLM-S1-v0.2.zip",
+    "zip_sha256": "b9e2c610ad195ebcf411fb6479f5b90d2335ddaffa61be916a0952d5cceb3ee6"
+  },
+  {
+    "name": "PLM-L1-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.1/",
+    "browse_path": "versions/L1/v0.1",
+    "files": 35,
+    "bytes": 7937796,
+    "original_zip_asset": "PLM-L1-v0.1.zip",
+    "zip_sha256": "3376c00ce78a6686db0a56112fc28afb3a53059545c7df73c4d6eb4d8edb32a3"
+  },
+  {
+    "name": "PLM-L1-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.2/",
+    "browse_path": "versions/L1/v0.2",
+    "files": 91,
+    "bytes": 21203211,
+    "original_zip_asset": "PLM-L1-v0.2.zip",
+    "zip_sha256": "85be51958df16ededa0d8f5edf5e1d3738ff42de3786129a6578e320e835dab4"
+  },
+  {
+    "name": "PLM-L1-v0.3",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.3/",
+    "browse_path": "versions/L1/v0.3",
+    "files": 143,
+    "bytes": 50254908,
+    "original_zip_asset": "PLM-L1-v0.3.zip",
+    "zip_sha256": "00665a299d1d3746124508049adbdefb44ca9ae09a6683a6392f90d8f6e6f955"
+  },
+  {
+    "name": "PLM-L1-v0.4",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.4/",
+    "browse_path": "versions/L1/v0.4",
+    "files": 203,
+    "bytes": 88065135,
+    "original_zip_asset": "PLM-L1-v0.4.zip",
+    "zip_sha256": "9883fb2a30d32f8baa6d0feda32f08de5b9de69a1a8b1a2cdd48b61ecf16cbf1"
+  },
+  {
+    "name": "PLM-L1-v0.5",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.5/",
+    "browse_path": "versions/L1/v0.5",
+    "files": 268,
+    "bytes": 143214277,
+    "original_zip_asset": "PLM-L1-v0.5.zip",
+    "zip_sha256": "9b653488396b2953b0d6e13be74896ff5b66c31aac18bcbef0c6705b14012670"
+  },
+  {
+    "name": "PLM-L1-v0.6",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.6/",
+    "browse_path": "versions/L1/v0.6",
+    "files": 337,
+    "bytes": 201653885,
+    "original_zip_asset": "PLM-L1-v0.6.zip",
+    "zip_sha256": "63e8e31784def18d241cf7585a590dfaa636cfd3f76fccd7d67da58323169ce7"
+  },
+  {
+    "name": "PLM-L1-v0.7",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.7/",
+    "browse_path": "versions/L1/v0.7",
+    "files": 411,
+    "bytes": 238215208,
+    "original_zip_asset": "PLM-L1-v0.7.zip",
+    "zip_sha256": "7a76ca3f85d26fc0f38bc99c3d6ae9f43e3859f899ec6867d3e93e53b485a393"
+  },
+  {
+    "name": "PLM-L1-v0.8",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.8/",
+    "browse_path": "versions/L1/v0.8",
+    "files": 493,
+    "bytes": 302561089,
+    "original_zip_asset": "PLM-L1-v0.8.zip",
+    "zip_sha256": "b672639e0e734230ffe1c4fef781aeafe10e4b68e9ba5ce9fc34b0c5646fd751"
+  },
+  {
+    "name": "PLM-L1-v0.9",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.9/",
+    "browse_path": "versions/L1/v0.9",
+    "files": 107,
+    "bytes": 27335052,
+    "original_zip_asset": "PLM-L1-v0.9.zip",
+    "zip_sha256": "08e62cb7251f9cc125cb60691bccb997a4e9ad55c6a4ff27c921e687f3df5bdb"
+  },
+  {
+    "name": "PLM-L1-v0.10",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.10/",
+    "browse_path": "versions/L1/v0.10",
+    "files": 132,
+    "bytes": 68122150,
+    "original_zip_asset": "PLM-L1-v0.10.zip",
+    "zip_sha256": "00f2265ab4c8af2d827e3da4320f0adeff0dca3d8271cac0ba3a53f1a18967d8"
+  },
+  {
+    "name": "PLM-L1-v0.11",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.11/",
+    "browse_path": "versions/L1/v0.11",
+    "files": 73,
+    "bytes": 106625459,
+    "original_zip_asset": "PLM-L1-v0.11.zip",
+    "zip_sha256": "73c87a79af05acbbd9cc04400c36afdbbe5594534d31e4dc83baf72fd0193c21"
+  },
+  {
+    "name": "PLM-L1-v0.12",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.12/",
+    "browse_path": "versions/L1/v0.12",
+    "files": 87,
+    "bytes": 184482011,
+    "original_zip_asset": "PLM-L1-v0.12.zip",
+    "zip_sha256": "ac77bd1073110b270d17b5b55939fc7bf079cd0f1b5c8202e1b6cfb2137cc68a"
+  },
+  {
+    "name": "PLM-L1-v0.13",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-v0.13/",
+    "browse_path": "versions/L1/v0.13",
+    "files": 84,
+    "bytes": 462752041,
+    "original_zip_asset": "PLM-L1-v0.13.zip",
+    "zip_sha256": "e4251ee2c510c028f316e1428cb722d5e2eac40d26dfe307b50fd75a647606c6"
+  },
+  {
+    "name": "PLM-L1-SS-weighting-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-weighting-v0.1/",
+    "browse_path": "versions/L1/ss-weighting/v0.1",
+    "files": 114,
+    "bytes": 86542642,
+    "original_zip_asset": "PLM-L1-SS-weighting-v0.1.zip",
+    "zip_sha256": "74603cf710373c0cc34cba8f52f8db2ffb00352f5672483481778fc6e4306525"
+  },
+  {
+    "name": "PLM-L1-SS-online-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-online-v0.1/",
+    "browse_path": "versions/L1/ss-online/v0.1",
+    "files": 131,
+    "bytes": 201035504,
+    "original_zip_asset": "PLM-L1-SS-online-v0.1.zip",
+    "zip_sha256": "8f6bc734ec6578fc7756168c298c87f43f3d8fb838f1f0104bd6c0b16a1c3c1a"
+  },
+  {
+    "name": "PLM-L1-SS-multicode-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-multicode-v0.1/",
+    "browse_path": "versions/L1/ss-multicode/v0.1",
+    "files": 156,
+    "bytes": 194101088,
+    "original_zip_asset": "PLM-L1-SS-multicode-v0.1.zip",
+    "zip_sha256": "66f0876a6b143bda19545a12a7a33f505b3944f403f43e79f47ddafdb4164676"
+  },
+  {
+    "name": "PLM-L1-SS-active-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-active-v0.1/",
+    "browse_path": "versions/L1/ss-active/v0.1",
+    "files": 512,
+    "bytes": 334774766,
+    "original_zip_asset": "PLM-L1-SS-active-v0.1.zip",
+    "zip_sha256": "cdbfe39c88dccca72700a595f113771cbc40ce4b04f94230beac11aa7e297e56"
+  },
+  {
+    "name": "PLM-L1-SS-active-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-active-v0.2/",
+    "browse_path": "versions/L1/ss-active/v0.2",
+    "files": 809,
+    "bytes": 594650729,
+    "original_zip_asset": "PLM-L1-SS-active-v0.2.zip",
+    "zip_sha256": "23e8dceb7d1c333210823b456b6cb29be540a1fbb8a892f80432a1ae3238186f"
+  },
+  {
+    "name": "PLM-L1-SS-active-v0.3",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-active-v0.3/",
+    "browse_path": "versions/L1/ss-active/v0.3",
+    "files": 2453,
+    "bytes": 228607165,
+    "original_zip_asset": "PLM-L1-SS-active-v0.3.zip",
+    "zip_sha256": "fb9d2f6fb1bb5f4ec16b50405f8e7a8c603883bd8cdd12bcaaaf59a37a9bcc1c"
+  },
+  {
+    "name": "PLM-L1-SS-doc-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-doc-v0.1/",
+    "browse_path": "versions/L1/ss-doc/v0.1",
+    "files": 197,
+    "bytes": 196133641,
+    "original_zip_asset": "PLM-L1-SS-doc-v0.1.zip",
+    "zip_sha256": "31dea5f405a4a9fe091d6d6b506d80c42c96938a0863a28cba06b59600d8cbdd"
+  },
+  {
+    "name": "PLM-L1-SS-doc-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-doc-v0.2/",
+    "browse_path": "versions/L1/ss-doc/v0.2",
+    "files": 185,
+    "bytes": 47308890,
+    "original_zip_asset": "PLM-L1-SS-doc-v0.2.zip",
+    "zip_sha256": "4a82d0843b63f71968d7741841b8e87f41e5400c596733183753334f544ed9c0"
+  },
+  {
+    "name": "PLM-L1-SS-doc-v0.3",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-doc-v0.3/",
+    "browse_path": "versions/L1/ss-doc/v0.3",
+    "files": 303,
+    "bytes": 26527616,
+    "original_zip_asset": "PLM-L1-SS-doc-v0.3.zip",
+    "zip_sha256": "0f211402a9f3943f47976ac5ce21d6f3b6414dd420c614c95dd5713b906da82d"
+  },
+  {
+    "name": "PLM-L1-SS-doc-v0.4",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-doc-v0.4/",
+    "browse_path": "versions/L1/ss-doc/v0.4",
+    "files": 451,
+    "bytes": 40080546,
+    "original_zip_asset": "PLM-L1-SS-doc-v0.4.zip",
+    "zip_sha256": "1619cec489278b9f6dcea02dbe3540a4afbde6a9b71cd5f8f1031ac8a6bacf80"
+  },
+  {
+    "name": "PLM-L1-SS-doc-v0.5",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-doc-v0.5/",
+    "browse_path": "versions/L1/ss-doc/v0.5",
+    "files": 463,
+    "bytes": 50266126,
+    "original_zip_asset": "PLM-L1-SS-doc-v0.5.zip",
+    "zip_sha256": "7848196c2a72b0903264dce3926afb21187d05d697766edd10ca7f0faf45e464"
+  },
+  {
+    "name": "PLM-L1-SS-doc-v0.6",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-doc-v0.6/",
+    "browse_path": "versions/L1/ss-doc/v0.6",
+    "files": 1063,
+    "bytes": 95384385,
+    "original_zip_asset": "PLM-L1-SS-doc-v0.6.zip",
+    "zip_sha256": "f2638b73e7f12766f6a2f6e4dc2fc26a2b733d5a909ce56becb1fb9a080442d9"
+  },
+  {
+    "name": "PLM-L1-P1-S1-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-P1-S1-v0.1/",
+    "browse_path": "versions/L1/p1-s1/v0.1",
+    "files": 1718,
+    "bytes": 56014279,
+    "original_zip_asset": "PLM-L1-P1-S1-v0.1.zip",
+    "zip_sha256": "4381b35a799ec74b856e2483235e284d91aa20edb98e33dfe37c9516e1f7d5ad"
+  },
+  {
+    "name": "PLM-L1-SS-core-v0.1",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-core-v0.1/",
+    "browse_path": "versions/L1/ss-core/v0.1",
+    "files": 233,
+    "bytes": 18799733,
+    "original_zip_asset": "PLM-L1-SS-core-v0.1.zip",
+    "zip_sha256": "4907b054343aeaad4fbfa000a41afa311c9f58a1fdeaa10da800597076a31f1d"
+  },
+  {
+    "name": "PLM-L1-SS-core-v0.2",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-core-v0.2/",
+    "browse_path": "versions/L1/ss-core/v0.2",
+    "files": 3281,
+    "bytes": 96803591,
+    "original_zip_asset": "PLM-L1-SS-core-v0.2.zip",
+    "zip_sha256": "d9343ef33150c220abd93ae229edbc5e2ff3aab1944425edceb9f07eefee583f"
+  },
+  {
+    "name": "PLM-L1-SS-core-v0.3",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-core-v0.3/",
+    "browse_path": "versions/L1/ss-core/v0.3",
+    "files": 348,
+    "bytes": 19697397,
+    "original_zip_asset": "PLM-L1-SS-core-v0.3.zip",
+    "zip_sha256": "8601201a25abeac1f32c637662447db311125ecfc2657af40a01eaca31eafc7f"
+  },
+  {
+    "name": "PLM-L1-SS-core-v0.4",
+    "source_scope": "outputs",
+    "source_prefix": "PLM-L1-SS-core-v0.4/",
+    "browse_path": "versions/L1/ss-core/v0.4",
+    "files": 1002,
+    "bytes": 70999582,
+    "original_zip_asset": "PLM-L1-SS-core-v0.4.zip",
+    "zip_sha256": "d31c06907fce29390ad8ddbf14bf73f0c0d8f1a72ff38d3635a7a6239c0cad78"
+  }
+]

@@ -1,0 +1,337 @@
+{
+  "state": {
+    "schema": "plm-ss-online-learner-01",
+    "method": "replay32",
+    "seed": "replay-fixed",
+    "step": 768,
+    "updates": 3836,
+    "history": "051ce171def577f63c99014b7f387b9a77093a1979dcb29727d1678e937163f0",
+    "buffer": [
+      {
+        "context": {
+          "f0": "0",
+          "f1": "1",
+          "f2": "6",
+          "f3": "0"
+        },
+        "label": "3",
+        "observed_step": 497
+      },
+      {
+        "context": {
+          "f0": "2",
+          "f1": "3",
+          "f2": "4",
+          "f3": "1"
+        },
+        "label": "0",
+        "observed_step": 466
+      },
+      {
+        "context": {
+          "f0": "2",
+          "f1": "5",
+          "f2": "7",
+          "f3": "1"
+        },
+        "label": "1",
+        "observed_step": 455
+      },
+      {
+        "context": {
+          "f0": "7",
+          "f1": "1",
+          "f2": "2",
+          "f3": "4"
+        },
+        "label": "1",
+        "observed_step": 742
+      },
+      {
+        "context": {
+          "f0": "5",
+          "f1": "7",
+          "f2": "1",
+          "f3": "6"
+        },
+        "label": "0",
+        "observed_step": 751
+      },
+      {
+        "context": {
+          "f0": "7",
+          "f1": "0",
+          "f2": "1",
+          "f3": "3"
+        },
+        "label": "0",
+        "observed_step": 224
+      },
+      {
+        "context": {
+          "f0": "0",
+          "f1": "6",
+          "f2": "0",
+          "f3": "0"
+        },
+        "label": "0",
+        "observed_step": 212
+      },
+      {
+        "context": {
+          "f0": "7",
+          "f1": "3",
+          "f2": "2",
+          "f3": "2"
+        },
+        "label": "1",
+        "observed_step": 728
+      },
+      {
+        "context": {
+          "f0": "5",
+          "f1": "0",
+          "f2": "0",
+          "f3": "3"
+        },
+        "label": "2",
+        "observed_step": 489
+      },
+      {
+        "context": {
+          "f0": "3",
+          "f1": "2",
+          "f2": "5",
+          "f3": "3"
+        },
+        "label": "2",
+        "observed_step": 251
+      },
+      {
+        "context": {
+          "f0": "1",
+          "f1": "0",
+          "f2": "7",
+          "f3": "6"
+        },
+        "label": "1",
+        "observed_step": 202
+      },
+      {
+        "context": {
+          "f0": "7",
+          "f1": "5",
+          "f2": "6",
+          "f3": "4"
+        },
+        "label": "2",
+        "observed_step": 738
+      },
+      {
+        "context": {
+          "f0": "5",
+          "f1": "7",
+          "f2": "7",
+          "f3": "4"
+        },
+        "label": "1",
+        "observed_step": 504
+      },
+      {
+        "context": {
+          "f0": "0",
+          "f1": "6",
+          "f2": "4",
+          "f3": "2"
+        },
+        "label": "1",
+        "observed_step": 451
+      },
+      {
+        "context": {
+          "f0": "3",
+          "f1": "7",
+          "f2": "6",
+          "f3": "2"
+        },
+        "label": "0",
+        "observed_step": 501
+      },
+      {
+        "context": {
+          "f0": "0",
+          "f1": "2",
+          "f2": "3",
+          "f3": "5"
+        },
+        "label": "0",
+        "observed_step": 492
+      },
+      {
+        "context": {
+          "f0": "2",
+          "f1": "1",
+          "f2": "6",
+          "f3": "4"
+        },
+        "label": "3",
+        "observed_step": 507
+      },
+      {
+        "context": {
+          "f0": "5",
+          "f1": "4",
+          "f2": "2",
+          "f3": "4"
+        },
+        "label": "1",
+        "observed_step": 762
+      },
+      {
+        "context": {
+          "f0": "1",
+          "f1": "4",
+          "f2": "7",
+          "f3": "7"
+        },
+        "label": "0",
+        "observed_step": 195
+      },
+      {
+        "context": {
+          "f0": "4",
+          "f1": "1",
+          "f2": "4",
+          "f3": "6"
+        },
+        "label": "1",
+        "observed_step": 713
+      },
+      {
+        "context": {
+          "f0": "4",
+          "f1": "5",
+          "f2": "1",
+          "f3": "6"
+        },
+        "label": "1",
+        "observed_step": 242
+      },
+      {
+        "context": {
+          "f0": "0",
+          "f1": "4",
+          "f2": "0",
+          "f3": "0"
+        },
+        "label": "1",
+        "observed_step": 495
+      },
+      {
+        "context": {
+          "f0": "4",
+          "f1": "1",
+          "f2": "0",
+          "f3": "7"
+        },
+        "label": "1",
+        "observed_step": 766
+      },
+      {
+        "context": {
+          "f0": "0",
+          "f1": "7",
+          "f2": "5",
+          "f3": "7"
+        },
+        "label": "1",
+        "observed_step": 734
+      },
+      {
+        "context": {
+          "f0": "1",
+          "f1": "2",
+          "f2": "0",
+          "f3": "1"
+        },
+        "label": "2",
+        "observed_step": 465
+      },
+      {
+        "context": {
+          "f0": "0",
+          "f1": "2",
+          "f2": "4",
+          "f3": "6"
+        },
+        "label": "2",
+        "observed_step": 482
+      },
+      {
+        "context": {
+          "f0": "7",
+          "f1": "1",
+          "f2": "1",
+          "f3": "4"
+        },
+        "label": "1",
+        "observed_step": 710
+      },
+      {
+        "context": {
+          "f0": "4",
+          "f1": "0",
+          "f2": "7",
+          "f3": "5"
+        },
+        "label": "2",
+        "observed_step": 709
+      },
+      {
+        "context": {
+          "f0": "7",
+          "f1": "5",
+          "f2": "1",
+          "f3": "3"
+        },
+        "label": "2",
+        "observed_step": 733
+      },
+      {
+        "context": {
+          "f0": "6",
+          "f1": "6",
+          "f2": "1",
+          "f3": "4"
+        },
+        "label": "3",
+        "observed_step": 716
+      },
+      {
+        "context": {
+          "f0": "4",
+          "f1": "0",
+          "f2": "1",
+          "f3": "5"
+        },
+        "label": "1",
+        "observed_step": 491
+      },
+      {
+        "context": {
+          "f0": "5",
+          "f1": "6",
+          "f2": "2",
+          "f3": "4"
+        },
+        "label": "2",
+        "observed_step": 228
+      }
+    ],
+    "model_fingerprint": "acda73cc6704dc3eac15426bedc18ea565426c790811127737c680119e78db0b",
+    "learning_rate": 0.5,
+    "replay_capacity": 32,
+    "eligible_for_inference": false
+  },
+  "fingerprint": "6d926648744c007ff910402ff326f3b003fee20d4d65bf65006c128d5c8f3f70"
+}

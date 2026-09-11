@@ -1,0 +1,27 @@
+{
+  "files": {
+    "ss_multicode/__init__.py": "cf7fa7c2195ade25dd192b6749af718ed93d7183f91483e9d58d6070591e7cde",
+    "ss_multicode/algebra.py": "da712b6d3a6fad932b556ec801933502e84b2832ce027e8c69b32ccd3a3192b2",
+    "ss_multicode/learning.py": "dbf8645a01ae57e1ab98d7dc896b73d92c43d069b40d5e3338aa18e37e536832",
+    "ss_multicode/model.py": "3f11dd833e70f752e6576f134ff454ca2529cc130c877af4435dcdffbfd44d67",
+    "ss_active/__init__.py": "da1cd8c8d4e071d30c7c7607225dfdd62e6a12c6f2b583371c3b562e7b9685c9",
+    "ss_active/__main__.py": "603085bbf1a8527b6dd5957d4a4834d1ff744f87be309fc862343b65b63f7fea",
+    "ss_active/base_selection.py": "56c64d02e408b3238ff318283da7bb96ecb06a97a267afa7636396f084345e29",
+    "ss_active/selection.py": "c2dfc86240eef058d18128509a89d8a26b35d2d74cf7e827498ee7b62e155c7e",
+    "ss_active/session.py": "5a06873bad43463108664127daaa40db8369627031b7916744058c45d5e2b626",
+    "evaluation/__init__.py": "c9d41f86572f176890589a79fc94e0c4b131445c6e89f21d1a1deddfb03abf97",
+    "evaluation/cases.py": "80043d10893ba66a9f24853b65b46e1f108c60e6c8e2bdfade3e1cec140398cc",
+    "evaluation/choose_config.py": "adf35d8b821d1839e081860bdbaab366ccd3504389a7be0a5dfdddd92e44b3d2",
+    "evaluation/integrity.py": "2b0e5287b34b7a6df6560d494b86b260ea99ec1dac43a084a173b85d85df91ef",
+    "evaluation/metrics.py": "6878ac20b902eb5d2b748da04c0df1183aa4cca9c8a8066a187f5fdf5efb73d0",
+    "evaluation/prepare.py": "739499edcca30a70b985503adfc5844b035c282cf31f5498a28e13884730dbc1",
+    "evaluation/PROTOCOL.json": "c32c2be5bf6b070f845f96b5dc41e07bbfcb36bdbc47da9bd9ef00a67c420079",
+    "evaluation/SELECTED.json": "cd83b0f41bef5a6b76dbc7d09199f1312e6c8b8ea076958a5319c3be805b19b4",
+    "data/CASES.json": "f80722295ee8a72c474651b31e1d06a3e90b8482467660a1bc6660abb3f50d4c",
+    "tests/test_active2.py": "a4f0bb770a05b671a63c1e07ad3bc60ed44c632ddfc1626abfd525c6bcdfd7d7",
+    "evaluate.py": "78a7b7ea5dc50e214a02175c5317393af6f4a5853cadf5d3981e6cfb090cce27",
+    "verify_release.py": "9b4d2ce5c64f708fb7a7aed25d97cfbcfe668121234966281443d36e1d423bd1",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  "freeze_hash": "0a57371d27733f3ba2aed8feed4e07d4eccabb52cafcdf2c9b4299b3f28246fa"
+}

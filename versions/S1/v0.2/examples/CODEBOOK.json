@@ -1,0 +1,7 @@
+{
+  "algorithm": "shake256-u53-unit-phase-v1",
+  "dimension": 2048,
+  "seed": "s1-v02-demo",
+  "symbol_serialization": "canonical-json-utf8-v1",
+  "phase_units": "radians"
+}

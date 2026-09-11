@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "schema": "plm-memory-v011",
+    "config": {
+      "representation": "hybrid3",
+      "selector": "validation",
+      "backend": "ss",
+      "requested_dimension": 2048,
+      "seed": "evaluation-0",
+      "budget": "per_candidate",
+      "fields": [
+        "f0",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "vocabulary": {
+        "f0": [
+          "0",
+          "1"
+        ],
+        "f1": [
+          "0",
+          "1"
+        ],
+        "f2": [
+          "0",
+          "1"
+        ],
+        "f3": [
+          "0",
+          "1"
+        ],
+        "f4": [
+          "0",
+          "1"
+        ],
+        "f5": [
+          "0",
+          "1"
+        ]
+      },
+      "labels": [
+        "class:0",
+        "class:1"
+      ],
+      "min_margin": 0.02,
+      "max_candidates": 4,
+      "max_selection_loss": 0.25,
+      "max_interaction_order": 3
+    },
+    "training": {
+      "rows": 16,
+      "selection_rows_used": 4,
+      "train_digest": "01803f684dfac83cf8a983f47c9270cf7fa95c048c2908ffda715cbb247d396c",
+      "selection_digest": "6e1508499e36bce0b5a9ee1ab525aa5c5bf98252c79944100e1042f92737a137",
+      "supported": true,
+      "plausible_masks": 1,
+      "overflow": false,
+      "weights_use_training_only": true,
+      "no_online_learning": true,
+      "phase_enabled": true
+    },
+    "threshold": 0.0,
+    "calibration": {
+      "rows": 4,
+      "digest": "e3beb2d37b5fc3f19e67ce54490d697254baf797b22b9454c65278ac157763ab",
+      "risk_target": 0.1,
+      "feasible": true,
+      "trials": [
+        {
+          "threshold": 0.0,
+          "accepted": 4,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 1.0142591859,
+          "accepted": 4,
+          "wrong": 0,
+          "risk": 0.0
+        }
+      ],
+      "statistical_guarantee": false,
+      "scope": "Complete clean calibration inputs only; not recalibrated for erased fields, numeric masks or shifts."
+    },
+    "members": [
+      {
+        "mask": [
+          "f4"
+        ],
+        "dimension": 2048,
+        "counts": {},
+        "class_counts": [
+          8,
+          8
+        ]
+      }
+    ],
+    "eligible_for_inference": false
+  },
+  "fingerprint": "80d4d294f31edde80f2db5ef150322cde8415b6a7c5e23a5aa41a5f05f6431a0"
+}

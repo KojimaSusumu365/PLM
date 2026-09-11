@@ -1,0 +1,381 @@
+{
+  "dataset": "PLM-C2-v0.4-calibration",
+  "schema_version": 3,
+  "independent_authorship": false,
+  "external_corpus": false,
+  "construction": "semantic fixtures; no dependent wrapper expansion",
+  "cases": [
+    {
+      "id": "cal_001",
+      "template_group": "cal_001",
+      "inputs": "A puppy slept.",
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_002",
+      "template_group": "cal_002",
+      "inputs": "A human walked.",
+      "expected": "HUMAN",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_003",
+      "template_group": "cal_003",
+      "inputs": "A vehicle stopped.",
+      "expected": "VEHICLE",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_004",
+      "template_group": "cal_004",
+      "inputs": "An animal rested.",
+      "expected": "ANIMAL",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_005",
+      "template_group": "cal_005",
+      "inputs": "A cat slept.",
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_006",
+      "template_group": "cal_006",
+      "inputs": "A dog slept.",
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_007",
+      "template_group": "cal_007",
+      "inputs": "A marten appeared.",
+      "expected": "UNRESOLVED",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_008",
+      "template_group": "cal_008",
+      "inputs": "Nothing relevant was recorded.",
+      "expected": "UNRESOLVED",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_009",
+      "template_group": "cal_009",
+      "inputs": "A dog and a cat slept.",
+      "expected": "ANIMAL",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_010",
+      "template_group": "cal_010",
+      "inputs": [
+        "A dog and a cat slept.",
+        "It was selected."
+      ],
+      "expected": "ANIMAL",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_011",
+      "template_group": "cal_011",
+      "inputs": [
+        "A cat and another cat slept.",
+        "It was selected."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_012",
+      "template_group": "cal_012",
+      "inputs": [
+        "A dog and a cat slept.",
+        "The latter was selected."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_013",
+      "template_group": "cal_013",
+      "inputs": "The bank granted aid for river research.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_014",
+      "template_group": "cal_014",
+      "inputs": "Aid for river research was granted by the bank.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_015",
+      "template_group": "cal_015",
+      "inputs": "The bank invested in a river project.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_016",
+      "template_group": "cal_016",
+      "inputs": "The bank financed a river study.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_017",
+      "template_group": "cal_017",
+      "inputs": "The bank was financed by a river association.",
+      "expected": "UNRESOLVED",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_018",
+      "template_group": "cal_018",
+      "inputs": "The bank did not fund a river study.",
+      "expected": "UNRESOLVED",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_019",
+      "template_group": "cal_019",
+      "inputs": "The bank is beside the river.",
+      "expected": "RIVER_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_020",
+      "template_group": "cal_020",
+      "inputs": "A river bank collapsed.",
+      "expected": "RIVER_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_021",
+      "template_group": "cal_021",
+      "inputs": "A bank lies near water.",
+      "expected": "RIVER_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_022",
+      "template_group": "cal_022",
+      "inputs": "The bank disbursed aid for river research.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_023",
+      "template_group": "cal_023",
+      "inputs": "Originally called cat: reassessed as dog.",
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_024",
+      "template_group": "cal_024",
+      "inputs": [
+        "A dog and a cat slept.",
+        "The feline was selected."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_025",
+      "template_group": "cal_025",
+      "inputs": "The bank supports an old wall.",
+      "expected": "UNRESOLVED",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_026",
+      "template_group": "cal_026",
+      "inputs": "犬、正しくは、猫。",
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_027",
+      "template_group": "cal_027",
+      "inputs": "猫、いや、犬。",
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_028",
+      "template_group": "cal_028",
+      "inputs": "The bank donated equipment to river research.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_029",
+      "template_group": "cal_029",
+      "inputs": "The bank sponsored river research.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    },
+    {
+      "id": "cal_030",
+      "template_group": "cal_030",
+      "inputs": "A dog was recorded. Later a cat was recorded.",
+      "expected": "UNRESOLVED",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "calibration"
+    }
+  ]
+}

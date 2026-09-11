@@ -1,0 +1,682 @@
+{
+  "state": {
+    "schema": "plm-teaching-session-v013",
+    "rows": [
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:花子"
+      },
+      {
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:太郎"
+      },
+      {
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:花子"
+      }
+    ],
+    "pool": [],
+    "settings": {
+      "backend": "ss",
+      "dimension": 2048,
+      "seed": "evaluation-0",
+      "retention": "all"
+    },
+    "receipts": [
+      {
+        "id": "b990a0eb59c869ffe351",
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎",
+        "request_fingerprint": "2172b1a60d2a322bb0a67cc51cb8c8259b4fe399669b21e25ec23a73544b6aec",
+        "prior_model_fingerprint": "9b2325870f34472e2dc99009ab6490ec651ba0059f9f7399510a48efa3504496"
+      },
+      {
+        "id": "d0f52c8eb809594af8e3",
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:花子",
+        "request_fingerprint": "f25c4cc35e104dba6fa2f22b17dbfa8a7a526a754c6c9560e6e0330498612634",
+        "prior_model_fingerprint": "c88b2d661f639d52fa05ff9a8ae89b80bf34b198233945a4dfe7f1c5c65c1d9d"
+      },
+      {
+        "id": "7980d5b4907a339d042b",
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:花子",
+        "request_fingerprint": "7f38c19202ca380cc23f70601c8b9336ca7047215a434e98f5ee70c08400af62",
+        "prior_model_fingerprint": "cdda6c203029292972ccd9ce7999b0c894697a70209ad79818444d6c9a39595c"
+      },
+      {
+        "id": "9822568d0e3c1a2bf7d9",
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎",
+        "request_fingerprint": "8423247de1e3552924659e4945861052eef94c5371f69c60a101c9a072c9f070",
+        "prior_model_fingerprint": "2997f561e310cd504ead7f2d22300bad916614ccfc39b0e8df97c552a7805e94"
+      },
+      {
+        "id": "f43282ff301d1e925789",
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子",
+        "request_fingerprint": "b08502f45b3df344156b8bdd01a003bee11cb749a41fd54f2f168ee10a48bb1f",
+        "prior_model_fingerprint": "2e2fc9754b16d6b3648345d05ad880e2dd0c9f28d68a5826ded0c9874e81bb9e"
+      },
+      {
+        "id": "13f5c49c856595d2a30e",
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子",
+        "request_fingerprint": "715b3e90c9b9e75d703f8b2a89c00073918b3a3b38ff03f605693152c32be0ff",
+        "prior_model_fingerprint": "4a86140950aadbdf07f1ade6e695588449f0d50f15c379b857103a99121ffb92"
+      },
+      {
+        "id": "d1b0c83727b4f59eaabc",
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:花子",
+        "request_fingerprint": "f4660ebf74c468a5d4b2966c4604db85015191dfa8a3b19580386c2050195377",
+        "prior_model_fingerprint": "e6133d7c090f9071f652408556e9124644c8ff44c9bc7211ce6d529a0dacf151"
+      },
+      {
+        "id": "527a2016e0625932a347",
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:太郎",
+        "request_fingerprint": "5bf36cafdaa9a41c8b07a756f0ef9f6ee1fb7142ea402dd73c623fbc6d114eff",
+        "prior_model_fingerprint": "9d3abb7f8822314299d32bd090690b549dda6aa75b2ae902ff42cfa6b4c918a5"
+      },
+      {
+        "id": "9ebb3d7cb6b758d64940",
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "0"
+        },
+        "label": "subject:太郎|object:太郎",
+        "request_fingerprint": "6cadc13ba33188c8a6f4ca0a15705140ff700a4d2387873c1b717ca02bee02bd",
+        "prior_model_fingerprint": "733a49ee7f78b4d76bebc6e73e40d6c2dd3c2a57f9210e1f944168d8690bda4f"
+      },
+      {
+        "id": "04a277034191f9c0f5b1",
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:花子",
+        "request_fingerprint": "a9ba656c62d77ed986fbbc925e1cba614484cd7823578cbff1078b1e41b28f36",
+        "prior_model_fingerprint": "e97090772a61da5e2321f057058a7d38128847ecf2a94a4fb93fdc85c6bf6d85"
+      },
+      {
+        "id": "5022ef93e203c6d84b12",
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:太郎",
+        "request_fingerprint": "e842e108f336f697e7731f0cc608ef66307d89f986e2db1bc04ad328a9e2b3d7",
+        "prior_model_fingerprint": "5f101a4dcf61b68898778bc6be70370bad696a2b5b5d243e615e8eb18d5794db"
+      },
+      {
+        "id": "23681be49e1ec71ed4b5",
+        "context": {
+          "first_name": "花子",
+          "second_name": "太郎",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:太郎",
+        "request_fingerprint": "5b8a8cedcca6cfd1527bf6c1bc8f128b64b53e29d5d02615347bd7bc0ba98340",
+        "prior_model_fingerprint": "2c44d6cf648dbde162f6d603c21f6cea7ccfc1b6878e7b0e041ceb6b5ee89b22"
+      },
+      {
+        "id": "0e838cdc90192f791e6d",
+        "context": {
+          "first_name": "太郎",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "1",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:太郎",
+        "request_fingerprint": "099f282d58ac7d17b232cc3f0b8dad21512cddf2e18ca8419add1338ce962cd0",
+        "prior_model_fingerprint": "4b704adea615bfc596a696fb443ca02c3c10de138981fc7729cdd5a93aac95eb"
+      },
+      {
+        "id": "0c332a8b3229eb229bd7",
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "subject_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "0"
+        },
+        "label": "subject:花子|object:花子",
+        "request_fingerprint": "dc0892b2f3de1156d0ed57c238fd2bb87e8b2340ed6daf3c0bfd6a6dd37bf021",
+        "prior_model_fingerprint": "68dc2d1427ca84832c222a0606f1bb800ed7b4885d34b5cffd585a00c64d892c"
+      },
+      {
+        "id": "9fa0922bd105056c02be",
+        "context": {
+          "first_name": "太郎",
+          "second_name": "太郎",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "1",
+          "style2": "1"
+        },
+        "label": "subject:太郎|object:太郎",
+        "request_fingerprint": "bc57186ddf24ee827c6eb7a9c962443ef7fd247db08c6c70ef60bc7fb79f4e09",
+        "prior_model_fingerprint": "a50b2ae5ae26d85afd3adcbd8cc44e470583e57881fc287d9a79e23574649c5f"
+      },
+      {
+        "id": "c89639407068bf878760",
+        "context": {
+          "first_name": "花子",
+          "second_name": "花子",
+          "order": "object_first",
+          "style0": "0",
+          "style1": "0",
+          "style2": "1"
+        },
+        "label": "subject:花子|object:花子",
+        "request_fingerprint": "574a9eb24d631e1665e4a99135b280ae794e0671c74b69cd71ba07caee26bb3b",
+        "prior_model_fingerprint": "7427dc39441ecea99f422f8ab6c074eb76c224cba6bdad128c8b74f0051e26eb"
+      }
+    ],
+    "model_fingerprint": "f836fdd508bb45e5f9a606f06436d0a64ff78ce0b0b841444d1f88325f375faa"
+  },
+  "fingerprint": "bda2caf9dfb219b28c1b82258fe36d3a4a2d258a0017d41604a56b743485e733"
+}

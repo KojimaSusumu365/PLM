@@ -1,0 +1,104 @@
+{
+  "format": "plm-public-nuisance-catalogue-v1",
+  "addresses": [
+    {
+      "document_id": "synthetic:doc",
+      "event_id": "event-000"
+    },
+    {
+      "document_id": "synthetic:doc",
+      "event_id": "event-001"
+    },
+    {
+      "document_id": "synthetic:doc",
+      "event_id": "event-002"
+    },
+    {
+      "document_id": "synthetic:doc",
+      "event_id": "event-003"
+    },
+    {
+      "document_id": "synthetic:doc",
+      "event_id": "absent-event-000"
+    },
+    {
+      "document_id": "synthetic:doc",
+      "event_id": "absent-event-001"
+    },
+    {
+      "document_id": "synthetic:doc",
+      "event_id": "absent-event-002"
+    },
+    {
+      "document_id": "synthetic:doc",
+      "event_id": "absent-event-003"
+    }
+  ],
+  "vocabulary": {
+    "predicate": [
+      {
+        "kind": "predicate",
+        "id": "chase",
+        "scope": "global"
+      },
+      {
+        "kind": "predicate",
+        "id": "watch",
+        "scope": "global"
+      },
+      {
+        "kind": "predicate",
+        "id": "follow",
+        "scope": "global"
+      }
+    ],
+    "polarity": [
+      {
+        "kind": "state",
+        "id": "polarity:positive",
+        "scope": "global"
+      },
+      {
+        "kind": "state",
+        "id": "polarity:negative",
+        "scope": "global"
+      }
+    ],
+    "modality": [
+      {
+        "kind": "state",
+        "id": "modality:asserted",
+        "scope": "global"
+      },
+      {
+        "kind": "state",
+        "id": "modality:hypothetical",
+        "scope": "global"
+      }
+    ],
+    "semantic_status": [
+      {
+        "kind": "state",
+        "id": "semantic_status:rule_checked",
+        "scope": "global"
+      },
+      {
+        "kind": "state",
+        "id": "semantic_status:quarantined",
+        "scope": "global"
+      }
+    ],
+    "applied": [
+      {
+        "kind": "state",
+        "id": "applied:false",
+        "scope": "global"
+      },
+      {
+        "kind": "state",
+        "id": "applied:true",
+        "scope": "global"
+      }
+    ]
+  }
+}

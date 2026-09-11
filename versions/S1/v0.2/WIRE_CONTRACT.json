@@ -1,0 +1,101 @@
+{
+  "document_kind": "descriptive_contract_not_JSON_Schema",
+  "format": "PLM-S1-chip-observation-packet-v2",
+  "authoritative_validator": "plm_s1_v02.packet.from_packet",
+  "required_exact_fields": [
+    "format",
+    "producer_version",
+    "codebook",
+    "codebook_fingerprint",
+    "link",
+    "link_fingerprint",
+    "normalization",
+    "samples",
+    "observed_mask",
+    "time_axis",
+    "phase_reference",
+    "source_digest",
+    "boundary",
+    "payload_hash"
+  ],
+  "link_exact_fields": [
+    "dimension",
+    "chips_per_component",
+    "guard_length",
+    "chip_rate_hz",
+    "max_delay_chips",
+    "max_abs_cfo_hz",
+    "acquisition_max_abs_cfo_hz",
+    "spreading_seed",
+    "mode",
+    "layout"
+  ],
+  "normalization_exact_fields": [
+    "payload_gain",
+    "pilot_amplitude",
+    "total_tx_energy"
+  ],
+  "samples_exact_fields": [
+    "real",
+    "imag"
+  ],
+  "sample_count_rule": "8480 fixed; payload 8192 + pilots 256 + guards 32",
+  "sample_type": "finite JSON number, not boolean",
+  "mask_type": "strict JSON boolean array of sample_count length",
+  "unobserved_samples": "both real and imaginary must be zero",
+  "time_axis_exact_fields": [
+    "origin_seconds",
+    "sample_spacing_seconds",
+    "sample_count"
+  ],
+  "time_axis_rule": "origin=0; spacing=1/chip_rate_hz; count=sample_count_rule",
+  "source_digest": "SHA256 of original input frames, evaluator/provenance audit only; not used by receiver for truth lookup",
+  "payload_hash": "SHA256 canonical UTF-8 JSON, sorted keys, compact separators, finite numbers, excluding payload_hash field",
+  "phase_reference": "pilot_estimation_required",
+  "pinned_receiver_information": [
+    "codebook",
+    "link"
+  ],
+  "prohibited_side_information": [
+    "gold",
+    "slots",
+    "input_frames",
+    "true_delay_chips",
+    "true_phase_rad",
+    "true_cfo_hz",
+    "channel_seed"
+  ],
+  "boundary": {
+    "mode": "observe_only",
+    "inference_enabled": false,
+    "independent_semantic_validation": "not_performed",
+    "ss_demodulation_implemented": true,
+    "implementation_scope": "synthetic_discrete_complex_baseband_only"
+  },
+  "query_exact_fields": [
+    "document_id",
+    "event_id",
+    "role",
+    "candidates"
+  ],
+  "authentication": "not implemented; hashes do not authenticate the sender or pilot",
+  "layouts": {
+    "distributed4": {
+      "pilot_starts": [
+        16,
+        3000,
+        4700,
+        8400
+      ],
+      "block_length": 64
+    },
+    "edge2": {
+      "pilot_starts": [
+        16,
+        8336
+      ],
+      "block_length": 128,
+      "scope": "ablation only"
+    }
+  }
+}

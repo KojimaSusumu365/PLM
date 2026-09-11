@@ -1,0 +1,3462 @@
+{
+  "comparisons": [
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/unary/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/xor2/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/and2/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/switch3/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/parity3/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/polarity_modality/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/simple",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/0",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/random",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "all/random",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "minimal/active",
+      "dimension": 512,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-0",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-0",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    },
+    {
+      "task_id": "evaluation/outside_order4/1",
+      "method": "minimal/active",
+      "dimension": 2048,
+      "code_seed": "evaluation-1",
+      "acquisition_seed": "acquisition-1",
+      "teacher_ids_and_labels_equal": true,
+      "discrete_predictions_and_masks_equal": true
+    }
+  ],
+  "all_equal": true,
+  "scope": "Posthoc equality audit, not an accuracy acceptance requirement or SS advantage claim."
+}

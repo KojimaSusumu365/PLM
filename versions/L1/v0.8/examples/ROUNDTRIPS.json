@@ -1,0 +1,270 @@
+{
+  "scope": "human audit only, not generator input",
+  "demos": [
+    {
+      "input_for_human_only": "太郎が花子を助けた。その後、花子が健太を褒めた。",
+      "read_status": "read",
+      "reason": null,
+      "meaning": {
+        "events": [
+          {
+            "id": "event:0",
+            "subject": "entity:太郎",
+            "object": "entity:花子",
+            "predicate": "predicate:help",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          },
+          {
+            "id": "event:1",
+            "subject": "entity:花子",
+            "object": "entity:健太",
+            "predicate": "predicate:praise",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          }
+        ],
+        "presentation": [
+          "event:0",
+          "event:1"
+        ],
+        "temporal": {
+          "kind": "before",
+          "source": "event:0",
+          "target": "event:1"
+        }
+      },
+      "preserve": {
+        "status": "generated",
+        "text": "太郎が花子を助けた。その後、花子が健太を褒めた。",
+        "event_order": [
+          "event:0",
+          "event:1"
+        ],
+        "eligible_for_inference": false
+      },
+      "reverse": {
+        "status": "generated",
+        "text": "花子が健太を褒めた。その前に、太郎が花子を助けた。",
+        "event_order": [
+          "event:1",
+          "event:0"
+        ],
+        "eligible_for_inference": false
+      }
+    },
+    {
+      "input_for_human_only": "花子が健太を褒めた。その前に、太郎が花子を助けた。",
+      "read_status": "read",
+      "reason": null,
+      "meaning": {
+        "events": [
+          {
+            "id": "event:0",
+            "subject": "entity:花子",
+            "object": "entity:健太",
+            "predicate": "predicate:praise",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          },
+          {
+            "id": "event:1",
+            "subject": "entity:太郎",
+            "object": "entity:花子",
+            "predicate": "predicate:help",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          }
+        ],
+        "presentation": [
+          "event:0",
+          "event:1"
+        ],
+        "temporal": {
+          "kind": "before",
+          "source": "event:1",
+          "target": "event:0"
+        }
+      },
+      "preserve": {
+        "status": "generated",
+        "text": "花子が健太を褒めた。その前に、太郎が花子を助けた。",
+        "event_order": [
+          "event:0",
+          "event:1"
+        ],
+        "eligible_for_inference": false
+      },
+      "reverse": {
+        "status": "generated",
+        "text": "太郎が花子を助けた。その後、花子が健太を褒めた。",
+        "event_order": [
+          "event:1",
+          "event:0"
+        ],
+        "eligible_for_inference": false
+      }
+    },
+    {
+      "input_for_human_only": "太郎が花子を助けた。花子が健太を褒めた。",
+      "read_status": "read",
+      "reason": null,
+      "meaning": {
+        "events": [
+          {
+            "id": "event:0",
+            "subject": "entity:太郎",
+            "object": "entity:花子",
+            "predicate": "predicate:help",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          },
+          {
+            "id": "event:1",
+            "subject": "entity:花子",
+            "object": "entity:健太",
+            "predicate": "predicate:praise",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          }
+        ],
+        "presentation": [
+          "event:0",
+          "event:1"
+        ],
+        "temporal": {
+          "kind": "unknown",
+          "source": null,
+          "target": null
+        }
+      },
+      "preserve": {
+        "status": "generated",
+        "text": "太郎が花子を助けた。花子が健太を褒めた。",
+        "event_order": [
+          "event:0",
+          "event:1"
+        ],
+        "eligible_for_inference": false
+      },
+      "reverse": {
+        "status": "generated",
+        "text": "花子が健太を褒めた。太郎が花子を助けた。",
+        "event_order": [
+          "event:1",
+          "event:0"
+        ],
+        "eligible_for_inference": false
+      }
+    },
+    {
+      "input_for_human_only": "もし太郎が花子を助けなかったら。その後、花子が健太を褒めた。",
+      "read_status": "read",
+      "reason": null,
+      "meaning": {
+        "events": [
+          {
+            "id": "event:0",
+            "subject": "entity:太郎",
+            "object": "entity:花子",
+            "predicate": "predicate:help",
+            "polarity": "polarity:negative",
+            "modality": "modality:hypothetical"
+          },
+          {
+            "id": "event:1",
+            "subject": "entity:花子",
+            "object": "entity:健太",
+            "predicate": "predicate:praise",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          }
+        ],
+        "presentation": [
+          "event:0",
+          "event:1"
+        ],
+        "temporal": {
+          "kind": "before",
+          "source": "event:0",
+          "target": "event:1"
+        }
+      },
+      "preserve": {
+        "status": "generated",
+        "text": "もし太郎が花子を助けなかったら。その後、花子が健太を褒めた。",
+        "event_order": [
+          "event:0",
+          "event:1"
+        ],
+        "eligible_for_inference": false
+      },
+      "reverse": {
+        "status": "generated",
+        "text": "花子が健太を褒めた。その前に、もし太郎が花子を助けなかったら。",
+        "event_order": [
+          "event:1",
+          "event:0"
+        ],
+        "eligible_for_inference": false
+      }
+    },
+    {
+      "input_for_human_only": "太郎が花子を助けた。その後、太郎が花子を助けた。",
+      "read_status": "read",
+      "reason": null,
+      "meaning": {
+        "events": [
+          {
+            "id": "event:0",
+            "subject": "entity:太郎",
+            "object": "entity:花子",
+            "predicate": "predicate:help",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          },
+          {
+            "id": "event:1",
+            "subject": "entity:太郎",
+            "object": "entity:花子",
+            "predicate": "predicate:help",
+            "polarity": "polarity:positive",
+            "modality": "modality:asserted"
+          }
+        ],
+        "presentation": [
+          "event:0",
+          "event:1"
+        ],
+        "temporal": {
+          "kind": "before",
+          "source": "event:0",
+          "target": "event:1"
+        }
+      },
+      "preserve": {
+        "status": "generated",
+        "text": "太郎が花子を助けた。その後、太郎が花子を助けた。",
+        "event_order": [
+          "event:0",
+          "event:1"
+        ],
+        "eligible_for_inference": false
+      },
+      "reverse": {
+        "status": "generated",
+        "text": "太郎が花子を助けた。その前に、太郎が花子を助けた。",
+        "event_order": [
+          "event:1",
+          "event:0"
+        ],
+        "eligible_for_inference": false
+      }
+    },
+    {
+      "input_for_human_only": "太郎が花子を助けた。だから、花子が健太を褒めた。",
+      "read_status": "abstain",
+      "reason": "unregistered_link_marker"
+    }
+  ]
+}

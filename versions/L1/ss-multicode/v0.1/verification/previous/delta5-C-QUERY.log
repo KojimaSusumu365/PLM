@@ -1,0 +1,4482 @@
+[
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.4283441405219668,
+    "scores": [
+      -0.09136789739753828,
+      -0.6841651826554888,
+      0.3369762431244285,
+      -0.3833258636886491
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.11804848345284924,
+    "scores": [
+      -0.1161046905320007,
+      0.03678582165578008,
+      0.15371868246759252,
+      0.27176716592044176
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.27903774841267387,
+    "scores": [
+      -0.7838645568371961,
+      -0.8305129380918583,
+      0.04125325987802897,
+      0.32029100829070284
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.8329856918537001,
+    "scores": [
+      -0.10584926738267313,
+      -0.06860467657049271,
+      0.7643810152832073,
+      -0.34935459603845526
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.1947021555459878,
+    "scores": [
+      0.6052126198642418,
+      0.7999147754102296,
+      0.5008452798080093,
+      0.3437194727747398
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.08204609991487866,
+    "scores": [
+      -0.6925973984838317,
+      0.6051602801623488,
+      0.6872063800772275,
+      -0.03508939257333478
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.03234964131200602,
+    "scores": [
+      0.3538666508966731,
+      -0.05330966459892302,
+      0.32151700958466706,
+      -0.023123770931143543
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.030280338594281808,
+    "scores": [
+      0.34982394860473887,
+      0.253751073646975,
+      0.31954361001045706,
+      0.14046530195876097
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.2938711812340242,
+    "scores": [
+      -0.6496037415716965,
+      0.5979203044644453,
+      -0.47894298481528497,
+      0.3040491232304211
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.6178216763944754,
+    "scores": [
+      0.027722533347422033,
+      0.1241403371779811,
+      0.7419620135724565,
+      -0.0717056215020343
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.5962971442255919,
+    "scores": [
+      -0.9468743974827277,
+      -0.17475722626869347,
+      -0.1421550653156731,
+      0.4541420789099188
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.936889521432648,
+    "scores": [
+      -0.5442336666471833,
+      0.569170859902469,
+      -0.367718661530179,
+      -0.46534207774732883
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.24084163358438826,
+    "scores": [
+      0.7019133568214956,
+      -0.39218890450441324,
+      -0.16294225096398415,
+      0.4610717232371073
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 1.0267520325287123,
+    "scores": [
+      -0.18923358055243641,
+      -0.20437107511971644,
+      0.8375184519762758,
+      -0.20932109930780846
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.6124297407702721,
+    "scores": [
+      -0.057571467019264,
+      0.12114516557107041,
+      0.24866846874489698,
+      0.8610982095151691
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.11826848061117237,
+    "scores": [
+      -0.055364314143307065,
+      0.33645236773939485,
+      -0.405347892483362,
+      0.21818388712822248
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 1.1123301338601401,
+    "scores": [
+      1.2483802499808312,
+      0.004358663766100494,
+      0.13605011612069107,
+      -0.6371525082917773
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.11151972871445487,
+    "scores": [
+      0.42940643475508616,
+      0.27188975861547604,
+      -0.4201994732730411,
+      0.3178867060406313
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.3238521492859152,
+    "scores": [
+      0.24893040450027634,
+      -0.8638308017704478,
+      -0.4731093958635808,
+      0.5727825537861916
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.5928556382572079,
+    "scores": [
+      0.14183530928464178,
+      0.7346909475418496,
+      -0.10709624238446261,
+      0.0773751230740243
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.3803944892420117,
+    "scores": [
+      0.10203171503294457,
+      0.5552257097695154,
+      0.1748312205275037,
+      -0.15520541525367867
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.13440230069345832,
+    "scores": [
+      0.2554819678308506,
+      -0.1395314411986414,
+      0.3898842685243089,
+      -0.3868022654376757
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.07782907907748537,
+    "scores": [
+      -0.6029227595377644,
+      0.22812362050655205,
+      0.1581242393377518,
+      0.3059526995840374
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.7949148029933287,
+    "scores": [
+      -0.19629574434179783,
+      0.9158592642594755,
+      -0.45459102974808735,
+      0.12094446126614676
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.501074242610085,
+    "scores": [
+      0.18226803046529225,
+      0.6833422730753773,
+      0.08317247781815718,
+      -0.9294114887335982
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.3663352425761202,
+    "scores": [
+      0.01941984607791625,
+      -0.01005761366286781,
+      0.38575508865403646,
+      -0.48990287238533253
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.6506647423315722,
+    "scores": [
+      -0.5639036923092796,
+      -0.4409440843827745,
+      -0.04740136759631982,
+      0.6032633747352524
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.3281239985152531,
+    "scores": [
+      -0.26435518999208363,
+      0.10650617825599605,
+      -0.5357083709376467,
+      0.43463017677124915
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.20709310259419678,
+    "scores": [
+      0.1840856658642619,
+      -0.8060229638419681,
+      -0.39567326318492896,
+      -0.023007436729934872
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.04423514141732324,
+    "scores": [
+      0.14172057257766155,
+      0.05827302549655698,
+      0.27266065512362136,
+      0.22842551370629813
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.1901764747988397,
+    "scores": [
+      0.7461202633550993,
+      -0.8058326439518716,
+      0.4061870793439227,
+      0.5559437885562596
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.40211547954046545,
+    "scores": [
+      0.5551165847206415,
+      -0.14430779872034225,
+      0.06985133688355748,
+      0.15300110518017604
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.07424676703967892,
+    "scores": [
+      0.24333745297946835,
+      0.31758422001914727,
+      0.1443287418654146,
+      0.12154744347788064
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.6073552473192784,
+    "scores": [
+      -0.3601624417744982,
+      -0.6229943742929475,
+      -0.000990804180739205,
+      0.6063644431385392
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.4628608979720252,
+    "scores": [
+      0.6590928687405504,
+      0.19623197076852522,
+      -0.3576609906405923,
+      -0.16710988871624544
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.39179423919425793,
+    "scores": [
+      -0.43193220811617217,
+      0.14022134086598598,
+      -0.25157289832827195,
+      -0.3052175097729581
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.43204414917633743,
+    "scores": [
+      -0.562744887328892,
+      -0.5859137616756213,
+      -0.003882496545277033,
+      0.4281616526310604
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.012951498605997577,
+    "scores": [
+      -0.03765434120002558,
+      -0.05060583980602316,
+      -0.15443996281616754,
+      -0.5685280892077951
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.05551768839250304,
+    "scores": [
+      0.552137205592296,
+      -0.004818896142724221,
+      -0.442723414598613,
+      0.607654893984799
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.20074035387142544,
+    "scores": [
+      -0.17416051469738023,
+      0.20931822166871464,
+      0.4100585755401401,
+      -0.11758698825237769
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.3305049422566059,
+    "scores": [
+      0.3594547654368391,
+      0.7234333209496441,
+      -0.3238127381192475,
+      0.39292837869303815
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.681731207460943,
+    "scores": [
+      -0.23778666138513613,
+      0.4088551903944319,
+      1.090586397855375,
+      -0.04673013255331958
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.21979387210286394,
+    "scores": [
+      0.14490977476203232,
+      -0.4490200814472273,
+      0.5398168933743073,
+      0.7596107654771712
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.22607234233174256,
+    "scores": [
+      -0.07050265513159515,
+      0.4067616303178497,
+      0.6423577004527372,
+      0.8684300427844798
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.01761201154373171,
+    "scores": [
+      0.048729345652144686,
+      0.650546960528756,
+      -0.15185711563897794,
+      0.6329349489850243
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.7372937630095193,
+    "scores": [
+      0.3050680913801557,
+      1.042361854389675,
+      -0.14596678933659066,
+      -0.027962619686143875
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.5970298058774052,
+    "scores": [
+      0.1982504220970262,
+      -0.1528657866955667,
+      0.8685474195639927,
+      0.27151761368658756
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.033369978941666045,
+    "scores": [
+      0.2811225491393223,
+      0.7249948026053058,
+      0.6338644082233835,
+      0.6916248236636398
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.16670000606620966,
+    "scores": [
+      0.5439631412332226,
+      -0.006802038223139673,
+      -0.11448034447999296,
+      0.377263135167013
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.047194179403889036,
+    "scores": [
+      0.5387444777020115,
+      0.6038419066513915,
+      0.6510360860552805,
+      0.21531191959417725
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.37693062734969285,
+    "scores": [
+      -0.5990684033096039,
+      -0.10335305902059154,
+      0.2735775683291013,
+      -0.2767243972740749
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.07723284387759843,
+    "scores": [
+      -0.12669458644846116,
+      0.6881097332298403,
+      -0.05493527687456292,
+      0.7653425771074387
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.4699741954755532,
+    "scores": [
+      0.7326367466009756,
+      0.1485329018925105,
+      0.26266255112542236,
+      0.17609741836206788
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.20287992055222615,
+    "scores": [
+      0.008054274852570495,
+      -0.11358052868999158,
+      0.21093419540479663,
+      -0.031170909631729464
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.24831904129254842,
+    "scores": [
+      0.023583092971631837,
+      -0.23984245918361743,
+      -0.7185136562100343,
+      -0.2247359483209166
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.11747260557963413,
+    "scores": [
+      0.38230033059409807,
+      -0.35343073703590056,
+      0.26482772501446394,
+      0.09371931157961746
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 1.0818565641161113,
+    "scores": [
+      0.051765126855667296,
+      1.1336216909717787,
+      0.017679194622597993,
+      -0.43673364466195286
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.6478793185057222,
+    "scores": [
+      -0.15165486748955592,
+      0.8407701899819674,
+      0.19289087147624517,
+      -0.43028505409450385
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.24540873592624346,
+    "scores": [
+      0.4296689585121459,
+      0.36334907077537154,
+      0.22151967226287006,
+      0.6750776944383894
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.29497933549421473,
+    "scores": [
+      -0.23102780409953733,
+      -0.08841969331287342,
+      -1.2935172533993569,
+      0.2065596421813413
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.7493603855791459,
+    "scores": [
+      0.9564934802502048,
+      0.20713309467105892,
+      0.04083842769149747,
+      -0.166774862016262
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.10283557000907362,
+    "scores": [
+      0.3091584686492428,
+      0.35382346955857946,
+      0.4566590395676531,
+      -0.25921839890829956
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.725651452591767,
+    "scores": [
+      -0.3110243813855818,
+      0.9817096244509527,
+      0.2560581718591857,
+      0.2183359050300702
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.37131648173781323,
+    "scores": [
+      0.1352194878405532,
+      -0.015609048246066319,
+      0.5065359695783664,
+      0.06728072251331785
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.2602653609110035,
+    "scores": [
+      -0.17347125372083808,
+      0.8123945503654817,
+      -0.30136044442275417,
+      1.0726599112764852
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.12394406324806229,
+    "scores": [
+      -0.4310384341465736,
+      -0.04754585929323544,
+      0.44618046036195863,
+      0.32223639711389634
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.2889899871315634,
+    "scores": [
+      0.26078817064880594,
+      0.5497781577803693,
+      -0.6607404289244876,
+      -0.33313688410281384
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.291019918551361,
+    "scores": [
+      -0.09822915081886119,
+      0.3339209302212629,
+      0.6249408487726239,
+      -0.18983637432573097
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.33385315421812956,
+    "scores": [
+      0.48881369304711875,
+      -0.20267060747979868,
+      0.15496053882898922,
+      -0.19656846792486274
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 1.1754262448887136,
+    "scores": [
+      -0.8578339107641431,
+      -0.41540214944101206,
+      -0.1594501839656654,
+      1.0159760609230482
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.6336348025557931,
+    "scores": [
+      -0.0732419885702614,
+      0.7799104708444811,
+      0.14627566828868796,
+      -0.02410103730796868
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.3621926031028866,
+    "scores": [
+      -0.15561540629388107,
+      -0.29969625385178156,
+      -0.1342215762330515,
+      0.22797102686983511
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9512908390076686,
+    "scores": [
+      0.9853702135346543,
+      0.034079374526985666,
+      -0.11035350247221268,
+      -0.752348278289482
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.24367362626998168,
+    "scores": [
+      0.6087073970903301,
+      0.21717368100618872,
+      0.02264603511396725,
+      0.8523810233603117
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.25763026676669226,
+    "scores": [
+      0.4212723667722534,
+      -0.57094190451943,
+      -0.48563758985861805,
+      0.6789026335389456
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.6189835885339676,
+    "scores": [
+      0.9148296048457691,
+      -0.13034193003359335,
+      0.2958460163118016,
+      -0.45420179081185974
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.1690739796796638,
+    "scores": [
+      -0.26802538698950024,
+      -0.08305720416228005,
+      0.21360770416293387,
+      0.04453372448327007
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.564716079011139,
+    "scores": [
+      -0.0028525366132786173,
+      0.24917424091127635,
+      1.116450596533216,
+      0.5517345175220771
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.30622636190338953,
+    "scores": [
+      -0.17437193263233358,
+      0.380953619216117,
+      0.6871799811195065,
+      0.236319402518601
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.8547197833962499,
+    "scores": [
+      0.17395981758342025,
+      -0.17822431488601737,
+      1.0286796009796702,
+      -0.47879190073992495
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.3013483740981582,
+    "scores": [
+      -0.5247312303856195,
+      0.08055181799573678,
+      0.6030085265252701,
+      0.9043569006234283
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.45967154249144343,
+    "scores": [
+      0.27509848275675614,
+      0.8652926151723821,
+      -0.34185018268360745,
+      0.40562107268093867
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.8402550621681677,
+    "scores": [
+      0.15561466272468122,
+      0.01382111350619807,
+      0.38843114962484476,
+      1.2286862117930124
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 1.0156656419356886,
+    "scores": [
+      -0.05392216302673224,
+      -0.27824370858595515,
+      -0.34268976288006087,
+      0.9617434789089565
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.37119104643323086,
+    "scores": [
+      0.59297298565173,
+      -0.03297419039498922,
+      0.22178193921849906,
+      -0.1021131699322242
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.2011335924709836,
+    "scores": [
+      0.2684161969367275,
+      -0.2323106735031152,
+      -0.1266216375679016,
+      0.46954978940771114
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.25841232992908897,
+    "scores": [
+      -0.011032678549764224,
+      0.5939143541462752,
+      0.11740479136703075,
+      0.3355020242171863
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.6625989884872252,
+    "scores": [
+      0.9142085456758176,
+      0.23670530715265714,
+      0.2516095571885924,
+      0.15576583488002427
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.2594191859580442,
+    "scores": [
+      0.16266036628712532,
+      0.4220795522451695,
+      0.03524761635316197,
+      -0.1982246403107421
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.5979499385746779,
+    "scores": [
+      0.3922769389049514,
+      0.9902268774796293,
+      -0.22528921599148516,
+      -0.15686820793585715
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.33261236806908584,
+    "scores": [
+      0.2297098838563199,
+      0.5623222519254057,
+      0.007109607782252212,
+      0.08944660714322011
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.16531135193872348,
+    "scores": [
+      -0.1150335698681488,
+      0.16678979562315902,
+      -0.07878614850677068,
+      0.0014784436844355363
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.36005572985280887,
+    "scores": [
+      -0.3414669399016459,
+      0.018588789951162962,
+      -0.3434631452333822,
+      -0.5909635359051065
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 1.065115982113943,
+    "scores": [
+      -0.5540276845843681,
+      -0.16756795783006562,
+      0.8975480242838774,
+      -0.3667488664368771
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.22443741960725216,
+    "scores": [
+      0.007274607970502457,
+      -0.031062907414979683,
+      0.6730293310484087,
+      0.4485919114411565
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.42982182877742314,
+    "scores": [
+      0.4275082888438576,
+      0.9279692601949378,
+      0.4981474314175146,
+      0.013779485076504061
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.6528342167281402,
+    "scores": [
+      -0.08473832643553368,
+      0.5924184382662251,
+      -0.06041577846191514,
+      -0.10877158068408457
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.5138265901965535,
+    "scores": [
+      -0.12440055414652036,
+      -0.05155388013680415,
+      1.0964310336337286,
+      0.5826044434371751
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.29759895710553497,
+    "scores": [
+      -0.023464052238404275,
+      -0.17922167032625422,
+      -0.25804867926551095,
+      0.2741349048671307
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9134760581895711,
+    "scores": [
+      -0.5592327570527802,
+      -0.011385667346609441,
+      -0.5121585182344758,
+      0.9020903908429617
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.40690446716443746,
+    "scores": [
+      0.25518707373691696,
+      -0.3249362316278022,
+      -0.1517173934275205,
+      -0.18908326543382076
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.6371176810586557,
+    "scores": [
+      0.04604424451152096,
+      0.09806178950390446,
+      0.10370559584848058,
+      0.7408232769071363
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.3607684502636363,
+    "scores": [
+      0.7468727362632299,
+      -0.11742063599990339,
+      0.3861042859995936,
+      -0.38918175755199863
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.2099830427442691,
+    "scores": [
+      -0.27320540452577796,
+      0.13452584506181137,
+      -0.13160026465433922,
+      0.34450888780608047
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.30613087198477273,
+    "scores": [
+      -0.20355872648951082,
+      0.6212306343619557,
+      0.31509976237718296,
+      -0.15947613257395454
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.3726892873838671,
+    "scores": [
+      0.5420286266966684,
+      0.9147179140805355,
+      0.0741982155091076,
+      0.13294018102595942
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.18930907095853983,
+    "scores": [
+      0.6466290871905289,
+      -0.194015191809324,
+      0.4573200162319891,
+      -0.3556158692017229
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.3669770269419501,
+    "scores": [
+      0.21319423723479639,
+      0.5801712641767465,
+      -0.08449710515260037,
+      -0.01833651431137313
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.40206826641395355,
+    "scores": [
+      -0.3657628240479793,
+      0.5961012872310926,
+      0.0852569213317294,
+      0.19403302081713902
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.8437560163008736,
+    "scores": [
+      -0.5794758381482688,
+      0.03899671527946343,
+      0.8827527315803371,
+      -0.48722415843043687
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.138933367276035,
+    "scores": [
+      0.9864327673402191,
+      -0.04880950283735442,
+      0.8474994000641841,
+      -0.1368449987486115
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.5542469238846863,
+    "scores": [
+      -0.9271569093423362,
+      0.11484786611622817,
+      -0.05644641521233926,
+      0.6690947900009145
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.45691897907390655,
+    "scores": [
+      0.7624579191216108,
+      0.05811485909784087,
+      1.2193768981955173,
+      0.3775552192936766
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.590744106606744,
+    "scores": [
+      -0.2449933179087948,
+      0.3735868639940959,
+      -0.21715724261264818,
+      -0.7236768976138052
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.6894108520012677,
+    "scores": [
+      -0.0593682466267471,
+      0.7892167244404416,
+      -0.19869499437705368,
+      0.09980587243917378
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.5629983508867618,
+    "scores": [
+      0.43814700168151793,
+      -0.01634083887224409,
+      1.0011453525682796,
+      0.29379747106373344
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.174491901077519,
+    "scores": [
+      0.5452748015661325,
+      -0.5424453545083066,
+      -0.25926007454501304,
+      0.7197667026436515
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.2378936157275761,
+    "scores": [
+      0.45123567781798246,
+      0.21334206209040635,
+      -0.4099473961148094,
+      -0.3608500854977978
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.49597828808410493,
+    "scores": [
+      0.45698781554653445,
+      -0.038990472537570466,
+      -0.19555901499617107,
+      -0.299495498658277
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.7655823478553117,
+    "scores": [
+      0.9898187977825916,
+      0.22423644992727998,
+      0.011090419967822788,
+      -0.4244295547567667
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.06959932012738146,
+    "scores": [
+      0.4336840331779602,
+      0.5032833533053417,
+      0.06356313659324574,
+      -0.21850996898185435
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.752966659975046,
+    "scores": [
+      -0.04878054401862023,
+      0.931824185152783,
+      -0.1492469232117824,
+      0.178857525177737
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.07672668228408458,
+    "scores": [
+      0.33046592352419085,
+      0.389590086543833,
+      0.46631676882791756,
+      0.3326631588299627
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.333537005233613,
+    "scores": [
+      0.7148727199290967,
+      -0.11337405472590041,
+      0.3813357146954837,
+      0.03357769456973468
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.7543560333981105,
+    "scores": [
+      -0.2960291445338757,
+      0.5457827146095879,
+      1.3001387480076985,
+      0.3376548773005048
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.6586062347733632,
+    "scores": [
+      1.0886727867396975,
+      0.08838871623608674,
+      0.43006655196633425,
+      0.23853541366145214
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.46548273893702186,
+    "scores": [
+      -0.4485542214387342,
+      0.3160596672396778,
+      0.2565617375934924,
+      0.7815424061766997
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.08926698043231107,
+    "scores": [
+      0.03030139673075936,
+      0.5639005562389089,
+      0.003905254266236937,
+      0.65316753667122
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.978430631437333,
+    "scores": [
+      0.9915466387910272,
+      0.013116007353694184,
+      -0.03262693041489392,
+      0.005275042529807528
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.963696658878594,
+    "scores": [
+      -0.006667214456841695,
+      0.9725552964751484,
+      -0.015079234456031146,
+      0.008858637596554319
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9887866494946475,
+    "scores": [
+      0.9932215764872615,
+      -0.0025618634876679257,
+      -0.0020143356626725188,
+      0.0044349269926140696
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.82802339447605,
+    "scores": [
+      0.9067723765852856,
+      -0.051083583696007163,
+      0.0787489821092356,
+      -0.0077676356419393916
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9174162272060515,
+    "scores": [
+      0.001437649757373297,
+      0.9509461256985776,
+      0.033529898492526064,
+      -0.020076680673095402
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9990674616518825,
+    "scores": [
+      -3.847169255281171e-05,
+      0.9990289899593298,
+      -0.0167238233970962,
+      -0.011373000368568918
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9790215091607342,
+    "scores": [
+      0.001426278284993774,
+      0.035799859142232375,
+      0.022928960095543374,
+      1.0148213683029665
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9812861053019295,
+    "scores": [
+      0.00040161839847914683,
+      0.9816877237004087,
+      0.00016178916096949958,
+      -0.005612068837592532
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9940418348546599,
+    "scores": [
+      -0.019977722573326927,
+      1.0007455354700783,
+      -0.020248458416892285,
+      0.0067037006154183525
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 1.0018411101764437,
+    "scores": [
+      -0.003282377904987818,
+      -0.0047336078094253565,
+      1.0025593191265074,
+      0.000718208950063593
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.992099368135109,
+    "scores": [
+      0.008501714040268405,
+      0.007670617490919212,
+      -0.04352431262438204,
+      1.0006010821753775
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9226983123839314,
+    "scores": [
+      0.05722833199579514,
+      0.0020322514532051597,
+      0.0017189289303001685,
+      0.9799266443797265
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9962855973486476,
+    "scores": [
+      0.006119411951525238,
+      1.0024050093001728,
+      0.0025792229214931283,
+      -0.005524321920327767
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9677640564776243,
+    "scores": [
+      0.9687020606042284,
+      -0.05669722611826978,
+      0.0009380041266041079,
+      -0.0009508846046638412
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9882840300069669,
+    "scores": [
+      0.022165448785831165,
+      1.010449478792798,
+      -0.01959172988104609,
+      -0.019298381015579246
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9814316784717279,
+    "scores": [
+      -0.009475123471916893,
+      -0.014438750955250735,
+      0.009930556454603372,
+      0.9913622349263312
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9252734240400233,
+    "scores": [
+      0.955607692251689,
+      -0.0336615018670408,
+      -0.002562471610224192,
+      0.030334268211665606
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9720886968427501,
+    "scores": [
+      -0.03171141467080439,
+      0.0005338593312809855,
+      0.004284583915405516,
+      0.9763732807581557
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9306242841292393,
+    "scores": [
+      0.9828492800863805,
+      0.05222499595714123,
+      0.005955614905631357,
+      0.015611607216429206
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.8829126154179134,
+    "scores": [
+      0.9485225051419918,
+      -0.03414667931971629,
+      0.06560988972407832,
+      0.018037119458876483
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9908104631509872,
+    "scores": [
+      0.9983032317570918,
+      0.006434265560168958,
+      -0.01706309191954672,
+      0.0074927686061046165
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9530781633978787,
+    "scores": [
+      -0.026805698277637922,
+      0.9759502603317058,
+      0.022872096933827184,
+      0.012741892052576908
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 1.01703529180554,
+    "scores": [
+      -0.018835039891644215,
+      1.0175259145217255,
+      -0.03672912469820744,
+      0.0004906227161854854
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.983342003460822,
+    "scores": [
+      0.009717869342037852,
+      0.002545143225627237,
+      0.9930598728028599,
+      -0.002373820438827985
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 1.0116672126785715,
+    "scores": [
+      0.033623510928698835,
+      1.0478217514277859,
+      -0.03919476489187453,
+      0.036154538749214406
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.987811512228866,
+    "scores": [
+      0.0011274633017543973,
+      0.01681643249001287,
+      -0.009109417190228472,
+      1.0046279447188788
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9317398065846437,
+    "scores": [
+      0.007112898074485169,
+      0.036781764051373816,
+      0.05540912625610444,
+      0.9871489328407481
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9520666175547572,
+    "scores": [
+      0.011844728270167732,
+      -0.0013181305211443111,
+      0.002963313314378091,
+      0.9639113458249249
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 1.0018507989853849,
+    "scores": [
+      -0.01809936413234275,
+      -0.03840341137102754,
+      -0.009556339449722463,
+      0.9922944595356623
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9796051958792606,
+    "scores": [
+      0.022020954096145306,
+      0.0001709746649916835,
+      1.001626149975406,
+      -0.022733661258989495
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9878450082023289,
+    "scores": [
+      0.008533595256526538,
+      -0.02884150206457375,
+      0.9963786034588554,
+      0.004141084519102193
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9479705714446934,
+    "scores": [
+      0.03916004290820571,
+      -0.009249325336254093,
+      0.9871306143528992,
+      -0.010578057036054881
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9972961815908803,
+    "scores": [
+      -0.00046676854600318245,
+      0.9993848444029034,
+      0.00208866281202315,
+      -0.0015476194636564052
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9483010069210375,
+    "scores": [
+      1.0005544217027875,
+      0.00903528812003735,
+      0.052253414781750024,
+      -0.0175777609403882
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9870041103170555,
+    "scores": [
+      0.0088476853789112,
+      -0.003721873114880494,
+      0.9958517956959667,
+      -0.0008743038371437256
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9580561719320223,
+    "scores": [
+      1.0026001836302922,
+      0.019777996574614598,
+      0.04454401169826989,
+      -0.018666958252371278
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9624186998667065,
+    "scores": [
+      0.0022254538259233623,
+      0.013112717573767377,
+      0.9755314174404739,
+      -0.0033126250192268367
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9597614922733497,
+    "scores": [
+      -0.0032978099612478683,
+      0.026664306865628366,
+      0.016176454187798395,
+      0.9864257991389781
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9853694060129076,
+    "scores": [
+      0.003395523581235631,
+      0.02077972434127299,
+      1.0061491303541805,
+      0.0016972294413791355
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 1.0083473152672038,
+    "scores": [
+      0.007801707049816959,
+      0.000837321656720381,
+      1.0161490223170206,
+      0.0052668415225338135
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9737101167938982,
+    "scores": [
+      0.0048627031756113505,
+      -0.006260445768764877,
+      0.015493292815136808,
+      0.989203409609035
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9243452626879632,
+    "scores": [
+      0.06004558673452684,
+      0.003096941829509827,
+      0.9843908494224901,
+      0.026942934960449208
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 1.002503358948495,
+    "scores": [
+      0.9972505543550648,
+      -0.03725107170700424,
+      -0.011994914717496618,
+      -0.005252804593430236
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9899720452636629,
+    "scores": [
+      -0.030047252000275696,
+      -0.013599764692444042,
+      0.9763722805712188,
+      -0.015817892070004138
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9351124906634346,
+    "scores": [
+      0.9630512357883904,
+      -0.039073010298051825,
+      0.027938745124955765,
+      -0.024596463802794597
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.956446247145435,
+    "scores": [
+      0.019179575022729895,
+      0.017169257132739577,
+      0.009675575981473651,
+      0.975625822168165
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9930644809290445,
+    "scores": [
+      -0.008576498750314751,
+      -0.015517268447611109,
+      -0.008952259541263684,
+      0.9844879821787298
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9500463730101436,
+    "scores": [
+      -0.011942911692579928,
+      0.9750788500063335,
+      0.017904715208571672,
+      0.02503247699618988
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 1.0066426599985978,
+    "scores": [
+      -0.03335278217846036,
+      1.004890335720697,
+      -0.001752324277900635,
+      -0.024997469203010433
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9916811843320037,
+    "scores": [
+      -0.013804735355743667,
+      -0.04462675096004232,
+      0.97787644897626,
+      -0.01795103578446107
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9977860561501807,
+    "scores": [
+      0.007278707908073046,
+      1.0050647640582537,
+      0.0011853946753382434,
+      -0.00621497200186618
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9176272775255883,
+    "scores": [
+      0.05170462305804109,
+      0.031024613298947446,
+      -0.018538056570970123,
+      0.9693319005836294
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 1.0299336594771171,
+    "scores": [
+      0.0030539366495610774,
+      0.007453914759304997,
+      1.037387574236422,
+      -0.03266418243210231
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9572215768059166,
+    "scores": [
+      -0.008939009866615288,
+      0.9679006726712848,
+      0.010679095865368237,
+      0.00902725153758903
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.9831498535524725,
+    "scores": [
+      0.000598945761844276,
+      0.01647371744078486,
+      0.004392738480823556,
+      0.9996235709932574
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9370331109903175,
+    "scores": [
+      0.0019444110041134677,
+      0.959935472117203,
+      0.02290236112688546,
+      -0.0026797338136330985
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 1.0037080631007589,
+    "scores": [
+      0.0001583778055441383,
+      -0.013073490395653536,
+      -0.023352438139654673,
+      1.003866440906303
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 1.0037682772820675,
+    "scores": [
+      1.0020609883331977,
+      -0.0017072889488698654,
+      -0.006176114727079652,
+      -0.0021362716695160796
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9815655357647975,
+    "scores": [
+      -0.00584023394946633,
+      0.0010297899426600808,
+      0.9873184780585152,
+      0.005752942293717676
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9428914167050483,
+    "scores": [
+      0.004309058260894687,
+      0.024795243173041815,
+      0.9676866598780901,
+      0.0038905798968121995
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9901641243635055,
+    "scores": [
+      1.0096988668913622,
+      0.01953474252785669,
+      -0.024485201976341048,
+      -0.010702815483848249
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9861908242057523,
+    "scores": [
+      0.9862040997192906,
+      -0.019411974222488856,
+      1.3275513538222576e-05,
+      -0.001398070825487538
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.9712031966870455,
+    "scores": [
+      0.9752479134628786,
+      -0.02025549213065152,
+      -0.04347514821973755,
+      0.004044716775833176
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.881868996363304,
+    "scores": [
+      0.08253211775239294,
+      0.0313376015691733,
+      0.9644011141156968,
+      0.006404755567541159
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.4058440561122138,
+    "scores": [
+      0.026797684769813822,
+      -0.043628379959992046,
+      0.2985536581167976,
+      0.7043977142290114
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.15500896309152387,
+    "scores": [
+      0.02427295067053461,
+      0.1792819137620585,
+      -0.4554732423331615,
+      -0.12189924286035406
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.14200825839117567,
+    "scores": [
+      0.334248850332778,
+      -0.30368206282957544,
+      0.10918489307317791,
+      0.19224059194160234
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.9474808065406717,
+    "scores": [
+      -0.019702112245403417,
+      -0.5916493407954193,
+      1.0561338420038913,
+      0.10865303546321953
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.4969140202429098,
+    "scores": [
+      0.06972482535888987,
+      -0.009513247123313159,
+      0.8663346639562548,
+      0.369420643713345
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.03859804903443437,
+    "scores": [
+      0.5140933562863879,
+      0.2994642120441693,
+      0.4754953072519535,
+      -0.14915554650707114
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.05640408441523237,
+    "scores": [
+      -0.817998136819391,
+      -0.5655010507160144,
+      0.5423588064016696,
+      0.4859547219864372
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.04508596071308696,
+    "scores": [
+      -0.44662882079349275,
+      -0.5677007847816576,
+      -0.2638411359815738,
+      -0.3089270966946608
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.3983317946701592,
+    "scores": [
+      0.40902866755792894,
+      -0.05102152284583013,
+      0.010696872887769734,
+      -0.19540367971027622
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.0018534420180327804,
+    "scores": [
+      -0.5142446252317489,
+      -0.7624197815349876,
+      0.41024590440796505,
+      0.40839246238993226
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.11991737693120585,
+    "scores": [
+      0.28848068429682333,
+      0.3556050533602185,
+      0.4755224302914244,
+      -0.4656247684676229
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.3150952499596894,
+    "scores": [
+      0.40230517589697207,
+      0.08720992593728266,
+      -0.11639540742335779,
+      -0.10043574312538743
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.6779246029239948,
+    "scores": [
+      -0.7780435615362373,
+      0.3982503551636664,
+      -0.2796742477603284,
+      -0.31467034219745404
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.005176908158662702,
+    "scores": [
+      0.026630976827043847,
+      0.2312894293689464,
+      0.2261125212102837,
+      -0.0565697354450299
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.3508628453688212,
+    "scores": [
+      0.11845340249876121,
+      0.4693162478675824,
+      -0.15150230685139815,
+      -0.5374093736172497
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.39952257016207454,
+    "scores": [
+      0.06173318167854586,
+      -0.16189769882754274,
+      -0.04840599082314325,
+      0.4612557518406204
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.023752265070219714,
+    "scores": [
+      0.096027588989285,
+      0.16964648208261246,
+      -0.9993248265203273,
+      0.19339874715283217
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.056813232949543546,
+    "scores": [
+      0.33288542907299246,
+      0.389698662022536,
+      -0.5344572365316983,
+      -0.3948843915666798
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.10839901220286574,
+    "scores": [
+      -0.7001337541920283,
+      -0.30611515557869867,
+      -0.5076923231182532,
+      -0.4145141677815644
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.5502916982868319,
+    "scores": [
+      0.20507182036655858,
+      -0.4244607153538486,
+      -0.5535327943291782,
+      -0.3452198779202733
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.05091583914627962,
+    "scores": [
+      0.7655318021948802,
+      0.6342761288158778,
+      0.7146159630486005,
+      0.05968546051966804
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.41176292766047473,
+    "scores": [
+      0.7415509401077166,
+      1.1533138677681913,
+      -0.3524632511878218,
+      0.2457382858198234
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.6925728157844872,
+    "scores": [
+      -0.6038477428166735,
+      0.08866982731500066,
+      -0.1396388241480916,
+      0.7812426430994878
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.06392716615339933,
+    "scores": [
+      0.005323921534297733,
+      -0.17813063544842006,
+      -0.06493922221364354,
+      0.06925108768769705
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.18373559041267706,
+    "scores": [
+      0.48314298762996455,
+      0.5260603847379967,
+      0.7097959751506737,
+      -0.2143882002009954
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.4172490614548715,
+    "scores": [
+      -0.23764297314439398,
+      -0.06918662447398513,
+      -0.38954511017885013,
+      0.34806243698088635
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.3838779892142394,
+    "scores": [
+      0.6580672201335065,
+      -0.5221134305340445,
+      0.2741892309192671,
+      0.2661451285444669
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.25282446265980557,
+    "scores": [
+      -0.09597530008956406,
+      -0.5581839277521696,
+      0.23875988364783096,
+      0.49158434630763653
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.23888752472465186,
+    "scores": [
+      -0.20814710753636803,
+      -0.016128448239425684,
+      -0.12870821050940914,
+      0.22275907648522617
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.25140793898045666,
+    "scores": [
+      -0.7925796944842627,
+      -0.6453977955485322,
+      -0.05127937414861904,
+      0.20012856483183764
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.793845829693695,
+    "scores": [
+      -0.2687595136056953,
+      -0.5468273124468755,
+      0.5250863160879997,
+      -0.3843509317501935
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.09531964959714506,
+    "scores": [
+      -0.5160905495459993,
+      -0.1456104535886189,
+      -0.6162137624415598,
+      -0.24093010318576397
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.12425854368092537,
+    "scores": [
+      -0.3924425134092556,
+      -0.5809940671465416,
+      -0.6275706946102695,
+      -0.516701057090181
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.25865513874640084,
+    "scores": [
+      0.14102555562152158,
+      -0.5256023504095553,
+      -0.5530978980343576,
+      0.3996806943679224
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.4202566289763805,
+    "scores": [
+      -0.36916187614995344,
+      0.025880400008249434,
+      0.3707297357656397,
+      0.7909863647420202
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.1688447525087992,
+    "scores": [
+      0.04847875693182784,
+      -0.1305904418318951,
+      -0.1426262491457009,
+      -0.12036599557697136
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.19458871865949967,
+    "scores": [
+      -0.03308329614416768,
+      0.107306414128368,
+      0.5483420528744405,
+      0.3537533342149408
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.14702951943987827,
+    "scores": [
+      -0.27233371004662266,
+      -0.024357671008725816,
+      0.1456205015669725,
+      0.2926500210068508
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.30205670773440796,
+    "scores": [
+      0.6557936268202145,
+      0.20992914948361593,
+      0.3537369190858065,
+      0.3151706875202532
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.20746854041482582,
+    "scores": [
+      0.30777988164312525,
+      0.5152484220579511,
+      -0.5207852312463449,
+      -0.0762443087686998
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.06537655926441968,
+    "scores": [
+      -0.1058640124470532,
+      0.2067099727029821,
+      -0.26722852551926884,
+      0.2720865319674018
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.28988307226620086,
+    "scores": [
+      0.011592784426858384,
+      -0.3033824520121912,
+      -0.5880447372024633,
+      -0.27829028783934245
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.758914827392461,
+    "scores": [
+      0.07600737554068872,
+      -0.27649395174304553,
+      0.8571501881882875,
+      0.0982353607958265
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.21812107688380566,
+    "scores": [
+      0.1482744045472279,
+      0.36639548143103357,
+      0.0727011549210226,
+      0.11412170118965108
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.29965357933536707,
+    "scores": [
+      0.4032103095930448,
+      0.05185594919311258,
+      -0.10944887144826775,
+      0.10355673025767775
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.5331387027710754,
+    "scores": [
+      -0.5581490151831834,
+      0.5061056115275879,
+      -0.3677425847033759,
+      -0.027033091243487482
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.220306601127237,
+    "scores": [
+      -0.548333895047871,
+      -0.45314802719993824,
+      -0.48298401458524665,
+      -0.23284142607270125
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.029767674201172212,
+    "scores": [
+      -0.39610831477619185,
+      0.523307160893879,
+      -0.245189183658222,
+      0.49353948669270675
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.5423771104765459,
+    "scores": [
+      -0.7140981907487453,
+      0.8344904142873426,
+      -0.48810940486593213,
+      0.2921133038107967
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.4131995233121337,
+    "scores": [
+      -0.39311270002807036,
+      -0.6059264151857144,
+      0.2339706853696104,
+      0.6471702086817441
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.09344948886563087,
+    "scores": [
+      -0.09322687584787091,
+      0.4515696696829006,
+      0.6231624311982629,
+      0.529712942332632
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.6589208433236322,
+    "scores": [
+      0.37658917893867566,
+      1.035510022262308,
+      -0.06279998311280766,
+      0.2610162078437514
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.13117732729752118,
+    "scores": [
+      -0.043126967225742094,
+      0.21741169943874858,
+      -0.5137645370684922,
+      0.0862343721412274
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.2333186068901839,
+    "scores": [
+      0.13233669833055783,
+      -0.08304809593251121,
+      0.36565530522074174,
+      -0.16273754624246
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.30712796999581365,
+    "scores": [
+      -0.010994500432052546,
+      0.5096566922367823,
+      -0.3880956311453209,
+      0.20252872224096868
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.3026740647647529,
+    "scores": [
+      -0.2450150772042469,
+      -0.25722166420501114,
+      0.057658987560506025,
+      -0.5424277858612204
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.05597603741984114,
+    "scores": [
+      -0.20184810615838883,
+      0.08386822312747613,
+      0.13984426054731727,
+      -0.45067023542029094
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.5773283087358325,
+    "scores": [
+      -0.22198679514751687,
+      0.2595622955447027,
+      0.8368906042805353,
+      -0.20539680302638946
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.412675520140357,
+    "scores": [
+      -0.7019084982398622,
+      -0.14932847606526825,
+      0.2633470440750888,
+      -0.5273001210533553
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.135090759716275,
+    "scores": [
+      -0.20699316668245024,
+      0.3009400646010158,
+      0.05534069548169816,
+      0.1658493048847408
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.3289625212485619,
+    "scores": [
+      0.683957959577829,
+      0.13085523668439147,
+      0.3549954383292671,
+      0.07335414781303361
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.48939947078657164,
+    "scores": [
+      -1.0117785917358046,
+      -0.00039710910441015965,
+      0.6405488509289146,
+      0.15114938014234294
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.19437034412149093,
+    "scores": [
+      -0.13930849315481944,
+      -0.0026562527963044165,
+      -0.6137200731008499,
+      0.19171409132518652
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.14637609567834303,
+    "scores": [
+      0.041919935946636296,
+      0.18829603162497932,
+      -0.5191596304876263,
+      -0.1310634319788831
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.1413685552982992,
+    "scores": [
+      -0.6008462767500982,
+      0.029482978911744992,
+      -0.19930036534217258,
+      -0.1118855763865542
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.44135084831223453,
+    "scores": [
+      0.17899548768211404,
+      -1.0026590340773962,
+      -0.2623553606301205,
+      -0.8112317496481404
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.020253187124026434,
+    "scores": [
+      -0.25609436436850963,
+      -0.15446192101812123,
+      0.04094292181241698,
+      0.020689734688390547
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.14721641613193212,
+    "scores": [
+      0.1192380890262009,
+      -0.0829845108811297,
+      -0.7589027219301281,
+      0.266454505158133
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.7322671216069576,
+    "scores": [
+      0.6363531836834944,
+      -0.46628171214657327,
+      -0.3883450439595836,
+      -0.09591393792346325
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.24844326157276242,
+    "scores": [
+      -0.20628499798648162,
+      -0.10937355930282879,
+      0.13906970226993362,
+      -0.20171798241398886
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.6276263836338781,
+    "scores": [
+      0.3751870945089816,
+      -0.09286252967649107,
+      -0.23726988047681966,
+      1.0028134781428597
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.07972179700495163,
+    "scores": [
+      -0.20074343908452832,
+      0.3993677550393057,
+      0.2827649607439294,
+      0.47908955204425735
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.21125338127126872,
+    "scores": [
+      0.19444022766779864,
+      -0.9022249052389648,
+      -0.11660641649487305,
+      0.40569360893906736
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.3939974901734049,
+    "scores": [
+      -0.28228660144181494,
+      0.3804887474699187,
+      -0.013508742703486214,
+      -0.7694740210514925
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.9151550002191002,
+    "scores": [
+      -0.0790045044437142,
+      0.836150495775386,
+      -0.16550793056624816,
+      -0.17393632197909784
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.06076351239269662,
+    "scores": [
+      -1.0169199607972064,
+      0.6190785092690091,
+      0.5246241338338536,
+      0.6798420216617057
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.20243420580858096,
+    "scores": [
+      -0.2294332801668002,
+      0.9896029270258268,
+      1.1920371328344077,
+      0.22362156319637497
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.021534706393826375,
+    "scores": [
+      -0.4620753038799997,
+      0.9304785445694987,
+      -0.10469186415144537,
+      0.9089438381756724
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.13884089712403513,
+    "scores": [
+      0.34100871084318535,
+      -0.0003497570553754109,
+      0.018870410685873033,
+      0.4798496079672205
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.05842315123807329,
+    "scores": [
+      -0.1859280274331854,
+      -0.2443511786712587,
+      -0.6005218740244946,
+      -0.7171133519930221
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 1.1377345452156673,
+    "scores": [
+      -0.22580100764033684,
+      -0.758099805394661,
+      0.9385572228133121,
+      -0.1991773224023552
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.16294515207426125,
+    "scores": [
+      -0.547730454624757,
+      0.224866117221116,
+      0.46683566097707424,
+      0.6297808130513355
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.07276377665906691,
+    "scores": [
+      -0.03537308932110155,
+      -0.280494515070773,
+      0.03739068733796536,
+      -0.814124639438068
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.26122798457460555,
+    "scores": [
+      -0.11456439982108617,
+      -0.28375670418817156,
+      0.20733543550391992,
+      -0.05389254907068566
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.009378445964056542,
+    "scores": [
+      0.19185451172221163,
+      -1.1338847521210385,
+      0.20123295768626817,
+      0.06619425775984766
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.12343575941927101,
+    "scores": [
+      -0.5216821299898419,
+      0.3465453940105647,
+      0.2231096345912937,
+      -0.07558329151292231
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.465092493730856,
+    "scores": [
+      0.04365979066955356,
+      -0.07374239273291985,
+      0.5087522844004095,
+      -0.7578408121848283
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.07646344488198892,
+    "scores": [
+      0.3649598846668149,
+      0.288496439784826,
+      -0.6749510728340105,
+      0.144658869704954
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.19275992470895595,
+    "scores": [
+      0.19916460759537483,
+      0.02929293521473392,
+      0.3919245323043308,
+      -0.3550494355499645
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.0024814042803832093,
+    "scores": [
+      0.17473187856283018,
+      -0.12895085372853224,
+      -0.6214721949283977,
+      0.17225047428244697
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.2315043344402456,
+    "scores": [
+      0.06147049696159309,
+      0.0833391633808742,
+      -0.1996785355311286,
+      0.3148434978211198
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.2655375919590967,
+    "scores": [
+      0.08225199780106343,
+      0.487721927772684,
+      -0.556042354617136,
+      0.22218433581358732
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.4629611441246415,
+    "scores": [
+      -0.22529424453760835,
+      0.9633342093311964,
+      0.5003730652065549,
+      -0.7170100641008421
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.4594130909312856,
+    "scores": [
+      -0.32211033089713537,
+      0.2099293337120577,
+      -0.42572633367955826,
+      -0.2494837572192279
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.14272675535800244,
+    "scores": [
+      0.07602435355907028,
+      -0.06670240179893218,
+      -0.2850715914453995,
+      -0.2746087691600484
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.03427168357787069,
+    "scores": [
+      -0.4461263555024161,
+      0.8510390567227796,
+      0.8167673731449089,
+      0.5740818555820165
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.18186454953261466,
+    "scores": [
+      0.5768322871380563,
+      0.758696836670671,
+      0.2324876244403396,
+      -0.42042935061101916
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.24929641043668135,
+    "scores": [
+      0.2997258328315353,
+      -0.4509700914382137,
+      0.05042942239485395,
+      -0.7499535865780054
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": "3",
+    "reason": "accepted",
+    "margin": 0.3866351452322293,
+    "scores": [
+      -0.12703627514261545,
+      0.35180146779086996,
+      -0.2887648544323693,
+      0.7384366130230993
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.5474409139518848,
+    "scores": [
+      0.5789421735612084,
+      0.03150125960932365,
+      -0.49420384618471186,
+      -0.43127419038810333
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.16812216971684762,
+    "scores": [
+      -0.25222221958038027,
+      0.146157191529998,
+      0.31427936124684563,
+      -0.9540688743412671
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "conflicting_support",
+    "margin": 0.07211066692610946,
+    "scores": [
+      0.6660557005870485,
+      -0.6003095378639206,
+      -0.04222522986424156,
+      0.738166367513158
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.25891061754885486,
+    "scores": [
+      -0.006760465830613593,
+      -0.8451566787684324,
+      0.2521501517182413,
+      -0.08094927439472356
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.009591029028603974,
+    "scores": [
+      -0.01506896039992773,
+      -0.00847317739503244,
+      -0.4105626646376913,
+      0.0011178516335715355
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.07548360757820616,
+    "scores": [
+      -0.03116185661260538,
+      0.2461222139834915,
+      0.32160582156169765,
+      -0.5177076281697534
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.17279674036012382,
+    "scores": [
+      -0.13087231711272584,
+      -0.33071690946112303,
+      0.15494035405313006,
+      0.3277370944132539
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.7063614992032949,
+    "scores": [
+      0.7245817798672525,
+      -0.4151599488605904,
+      -0.11256559438734602,
+      0.01822028066395752
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.0010587541709216608,
+    "scores": [
+      0.23771091847624126,
+      0.0012886220226675453,
+      0.23876967264716292,
+      -0.39888347246779093
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.07241225823601788,
+    "scores": [
+      0.23590191516332182,
+      0.4778040590779898,
+      0.22766945497159116,
+      0.4053918008419719
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.8287216928756602,
+    "scores": [
+      -0.45752018460448735,
+      -0.9525433832116571,
+      0.5933520151456536,
+      -0.23536967773000664
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.08117405355322027,
+    "scores": [
+      0.28986035684628164,
+      0.3710344103995019,
+      0.26351899832922365,
+      0.07054451773630371
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.016731220478507614,
+    "scores": [
+      0.05820815943591952,
+      -0.36237551230319515,
+      -0.3206882550576495,
+      0.041476938957411905
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.8471089956491111,
+    "scores": [
+      -0.1033284986433378,
+      1.2561846430546426,
+      0.4090756474055315,
+      0.19878019717819143
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.039970241187100936,
+    "scores": [
+      0.07926365714358462,
+      -0.45472230734593966,
+      0.19369697839678574,
+      0.23366721958388667
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "3",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.08256263496921318,
+    "scores": [
+      -0.39903280716454664,
+      -0.7671933358548689,
+      -0.40454006762764144,
+      -0.31647017219533347
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "1",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.35656920510705564,
+    "scores": [
+      -0.7284773018623152,
+      0.2808030752366745,
+      -0.4054080017997031,
+      -0.07576612987038113
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.08693004525394799,
+    "scores": [
+      0.3427334060070083,
+      0.2558033607530603,
+      0.12226486763664272,
+      0.06035487250303546
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.305903478741457,
+    "scores": [
+      -0.21574708540464207,
+      -0.30704539773595,
+      0.660265892359391,
+      0.354362413617934
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.36440732251668545,
+    "scores": [
+      0.29301560656721126,
+      -1.181663549857875,
+      -0.07139171594947419,
+      -0.14314940172027496
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": "2",
+    "reason": "accepted",
+    "margin": 0.35688668010661034,
+    "scores": [
+      0.20498826985085977,
+      -0.1905480896588759,
+      0.6733788526541065,
+      0.3164921725474961
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.21001395744100423,
+    "scores": [
+      0.05194064555151524,
+      -0.158073311889489,
+      -0.20938667540368971,
+      -0.1988531725786929
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": "0",
+    "reason": "accepted",
+    "margin": 0.6330177822929712,
+    "scores": [
+      0.9189003546405544,
+      -0.2937552256419873,
+      0.28588257234758324,
+      -0.09122807788966442
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.4058644533556731,
+    "scores": [
+      -0.17047009843434394,
+      -0.9420927091258989,
+      0.23539435492132915,
+      -0.6830827936610102
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.012785883814862647,
+    "scores": [
+      0.15341210046276602,
+      0.010504665760637084,
+      0.14062621664790337,
+      -0.5858422069516535
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.032864052976724616,
+    "scores": [
+      0.02563945501144627,
+      -0.6262317961843702,
+      -0.55291841421499,
+      -0.007224597965278345
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "2",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.12181229036739313,
+    "scores": [
+      0.23335730957430165,
+      0.02594232338374257,
+      0.3551695999416948,
+      0.19886235960455395
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.17855209003437758,
+    "scores": [
+      0.17283395803007273,
+      -0.005718132004304849,
+      -0.40842861878071735,
+      -0.9295974192199281
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  {
+    "tentative": "0",
+    "accepted": null,
+    "reason": "no_support",
+    "margin": 0.4407362360772541,
+    "scores": [
+      0.23064891943099777,
+      -0.374598506010809,
+      -0.21008731664625635,
+      -0.22369609995046916
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "development_fixes": [
+    "Initial trace detail used action as both label and score key; renamed score key before formal evaluation.",
+    "Added finite demodulator/accumulator and positive-shape checks before freeze; no clean-score or threshold change."
+  ],
+  "thresholds_or_seeds_retuned": false,
+  "main_evaluation_read_before_freeze": false
+}

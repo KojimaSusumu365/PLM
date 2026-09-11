@@ -1,0 +1,154 @@
+{
+  "freeze_hash": "87b093d390d0aa2f6bd91f13c9e58a7deec60ede284e038e62413a0d5136c981",
+  "all_equal": true,
+  "files": [
+    {
+      "file": "delta-A/learner.json",
+      "sha256": "f869d1633f74c5e01629ff6d02db24ae3359760d16cc17c5bcaf2c9f24990967",
+      "repeat_sha256": "f869d1633f74c5e01629ff6d02db24ae3359760d16cc17c5bcaf2c9f24990967"
+    },
+    {
+      "file": "delta-A/model/model.json",
+      "sha256": "de527409fb653e28e314a3cdb0e6c8ec4328ca9689d9fff2dc279f3a754af5a2",
+      "repeat_sha256": "de527409fb653e28e314a3cdb0e6c8ec4328ca9689d9fff2dc279f3a754af5a2"
+    },
+    {
+      "file": "delta-A/model/weights.npz",
+      "sha256": "2f14ec1af428cfe5b2ab074d2fcfbe8842269c8f3b186dff136294fe46fe1004",
+      "repeat_sha256": "2f14ec1af428cfe5b2ab074d2fcfbe8842269c8f3b186dff136294fe46fe1004"
+    },
+    {
+      "file": "delta-C/learner.json",
+      "sha256": "8dd04b5ee869dea6e8393fce9035544fb0c815bceb2abf35dc4c19a16c68ce14",
+      "repeat_sha256": "8dd04b5ee869dea6e8393fce9035544fb0c815bceb2abf35dc4c19a16c68ce14"
+    },
+    {
+      "file": "delta-C/model/model.json",
+      "sha256": "c9cc319f370592acf0763f01738a8a23d74200fd694b27a28ea4f7d6b07384bf",
+      "repeat_sha256": "c9cc319f370592acf0763f01738a8a23d74200fd694b27a28ea4f7d6b07384bf"
+    },
+    {
+      "file": "delta-C/model/weights.npz",
+      "sha256": "69110a3e0fd805b977eb756decc0d6ce29b97c772394978e3fc8c4df8531a9a3",
+      "repeat_sha256": "69110a3e0fd805b977eb756decc0d6ce29b97c772394978e3fc8c4df8531a9a3"
+    },
+    {
+      "file": "delta-drift/learner.json",
+      "sha256": "fac465b5b5973d7ba6adf188933d099f6e997ec527dfe14c916117d3c3a6950a",
+      "repeat_sha256": "fac465b5b5973d7ba6adf188933d099f6e997ec527dfe14c916117d3c3a6950a"
+    },
+    {
+      "file": "delta-drift/model/model.json",
+      "sha256": "1d40808eb79bc14a372a66457cda1dd253260674e1d582ab6ef14008f0ac9977",
+      "repeat_sha256": "1d40808eb79bc14a372a66457cda1dd253260674e1d582ab6ef14008f0ac9977"
+    },
+    {
+      "file": "delta-drift/model/weights.npz",
+      "sha256": "c3f05642f1b413cc454b25762534d2366512e8530fd13c804a08c54b345cfcf0",
+      "repeat_sha256": "c3f05642f1b413cc454b25762534d2366512e8530fd13c804a08c54b345cfcf0"
+    },
+    {
+      "file": "delta5-A/learner.json",
+      "sha256": "01ea678e35fe37715e354a2f20fe9d1051e296e968cb539877adee2f6e9523cf",
+      "repeat_sha256": "01ea678e35fe37715e354a2f20fe9d1051e296e968cb539877adee2f6e9523cf"
+    },
+    {
+      "file": "delta5-A/model/model.json",
+      "sha256": "b5929c42427deeb5a79107f33f14d677488fa5b3cefef78cb3df1a19e5d75639",
+      "repeat_sha256": "b5929c42427deeb5a79107f33f14d677488fa5b3cefef78cb3df1a19e5d75639"
+    },
+    {
+      "file": "delta5-A/model/weights.npz",
+      "sha256": "7c68cf18c5a72647ed1c5db8d6687c20fcb27f5d81240a146a6fa5bc409204cc",
+      "repeat_sha256": "7c68cf18c5a72647ed1c5db8d6687c20fcb27f5d81240a146a6fa5bc409204cc"
+    },
+    {
+      "file": "delta5-C/learner.json",
+      "sha256": "f7683f8fb59e943299cf8089220c77d2f220c43792ded3802d562e07578c2cdd",
+      "repeat_sha256": "f7683f8fb59e943299cf8089220c77d2f220c43792ded3802d562e07578c2cdd"
+    },
+    {
+      "file": "delta5-C/model/model.json",
+      "sha256": "8904fa6a7bd42fab147bc642a2f311d8529924be5619ec40d63b0d998be3b475",
+      "repeat_sha256": "8904fa6a7bd42fab147bc642a2f311d8529924be5619ec40d63b0d998be3b475"
+    },
+    {
+      "file": "delta5-C/model/weights.npz",
+      "sha256": "270b660eca0751a7f70e6f3a9aec24f9b34f9abf0c608e7377719c4145cb3f95",
+      "repeat_sha256": "270b660eca0751a7f70e6f3a9aec24f9b34f9abf0c608e7377719c4145cb3f95"
+    },
+    {
+      "file": "delta5-drift/learner.json",
+      "sha256": "d42c04a7cd7c21000d51b5a5c65484d243053e69d87a40d680d0e5c088fdfb4f",
+      "repeat_sha256": "d42c04a7cd7c21000d51b5a5c65484d243053e69d87a40d680d0e5c088fdfb4f"
+    },
+    {
+      "file": "delta5-drift/model/model.json",
+      "sha256": "86f06a6a6c400e12d378a19270fc60a74f527b835d96a2f95694493d1fd024d3",
+      "repeat_sha256": "86f06a6a6c400e12d378a19270fc60a74f527b835d96a2f95694493d1fd024d3"
+    },
+    {
+      "file": "delta5-drift/model/weights.npz",
+      "sha256": "2599263e77f432fbc51ac675897b87ceef28f44d01550450436864795aac5cf8",
+      "repeat_sha256": "2599263e77f432fbc51ac675897b87ceef28f44d01550450436864795aac5cf8"
+    },
+    {
+      "file": "EVALUATION.json",
+      "sha256": "132c2634a9aaf0072b0caf57bda5f92a856c48f4e3424a74a8a647b8cd8e05aa",
+      "repeat_sha256": "132c2634a9aaf0072b0caf57bda5f92a856c48f4e3424a74a8a647b8cd8e05aa"
+    },
+    {
+      "file": "replay32-A/learner.json",
+      "sha256": "9c4a6b8b53bfc955135217a338a1e680c9dedef2835cf85762dad16872fdb16d",
+      "repeat_sha256": "9c4a6b8b53bfc955135217a338a1e680c9dedef2835cf85762dad16872fdb16d"
+    },
+    {
+      "file": "replay32-A/model/model.json",
+      "sha256": "a6adf47feb238f8e1479b714c5737992570af54146c1f4ee422046d81d9297f6",
+      "repeat_sha256": "a6adf47feb238f8e1479b714c5737992570af54146c1f4ee422046d81d9297f6"
+    },
+    {
+      "file": "replay32-A/model/weights.npz",
+      "sha256": "7fed1878cd2d84a36cae86ddb5a51e07937b968ac5bfef7384b2af3cdbfea78c",
+      "repeat_sha256": "7fed1878cd2d84a36cae86ddb5a51e07937b968ac5bfef7384b2af3cdbfea78c"
+    },
+    {
+      "file": "replay32-C/learner.json",
+      "sha256": "c8d2e484cd2f9a76f843acd56b4d5b8f6b3b933fa7bbf7708c7a59e269d8893f",
+      "repeat_sha256": "c8d2e484cd2f9a76f843acd56b4d5b8f6b3b933fa7bbf7708c7a59e269d8893f"
+    },
+    {
+      "file": "replay32-C/model/model.json",
+      "sha256": "45cf850cb9574917f5076a1dda3ec7777f8e141fb8af011171f7657ba52dc526",
+      "repeat_sha256": "45cf850cb9574917f5076a1dda3ec7777f8e141fb8af011171f7657ba52dc526"
+    },
+    {
+      "file": "replay32-C/model/weights.npz",
+      "sha256": "cdea8382d9059d6465c6b5e51c08ba560829e5a4a1d120a1c187bc3adb739832",
+      "repeat_sha256": "cdea8382d9059d6465c6b5e51c08ba560829e5a4a1d120a1c187bc3adb739832"
+    },
+    {
+      "file": "replay32-drift/learner.json",
+      "sha256": "492c31a574b77bd869513a32b71dae70dddefca25a8e75eae8a5c74ff0d44588",
+      "repeat_sha256": "492c31a574b77bd869513a32b71dae70dddefca25a8e75eae8a5c74ff0d44588"
+    },
+    {
+      "file": "replay32-drift/model/model.json",
+      "sha256": "7399bb0e08c203eb48056fb5bbe3650a75d6f9938467a5a0497682d9f296f73e",
+      "repeat_sha256": "7399bb0e08c203eb48056fb5bbe3650a75d6f9938467a5a0497682d9f296f73e"
+    },
+    {
+      "file": "replay32-drift/model/weights.npz",
+      "sha256": "7f076b2908dc4c0bc29d73c3ad8fed8d9df1a674119a65e87f4c78f45a21fa42",
+      "repeat_sha256": "7f076b2908dc4c0bc29d73c3ad8fed8d9df1a674119a65e87f4c78f45a21fa42"
+    },
+    {
+      "file": "SCORES.npz",
+      "sha256": "0a0c9188a1cf071a635145e161aa11763c48f831e1f0d24bff6951842d302c90",
+      "repeat_sha256": "0a0c9188a1cf071a635145e161aa11763c48f831e1f0d24bff6951842d302c90"
+    }
+  ],
+  "excluded": [
+    "PERFORMANCE.json"
+  ]
+}

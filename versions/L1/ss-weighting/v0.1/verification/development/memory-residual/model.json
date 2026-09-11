@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "schema": "plm-ss-weighting-experiment-01",
+    "backend": "ss",
+    "dimension": 128,
+    "seed": "phase-dev",
+    "method": "residual",
+    "fields": [
+      "f0",
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "labels": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "threshold": 0.5,
+    "entries": {},
+    "teachers_digest": "e7ae896586d462530bd3d043802baf2f6c527a040cbb160188e346edd7748d6e",
+    "known_keys": 256,
+    "eligible_for_inference": false
+  },
+  "fingerprint": "7b089a59b4db102ac3d15944e642e93c64c73e634d831a7a22140b8c98e7e200"
+}

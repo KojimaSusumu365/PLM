@@ -1,0 +1,42 @@
+{
+  "version": "PLM-S1 v0.2",
+  "tests": {
+    "S1_v02": 71,
+    "S1_v01": 91,
+    "P1_v02": 88,
+    "P1_v01": 99,
+    "R1": 92,
+    "C2": 186
+  },
+  "total_tests": 627,
+  "checks": {
+    "all_new_tests_passed": true,
+    "all_legacy_tests_passed": true,
+    "legacy_330_files_unchanged": true,
+    "source_freeze_valid": true,
+    "legacy_s1_subset_exact": true,
+    "legacy_p1_subset_exact": true,
+    "initial_result_hash_intact": true,
+    "inference_disabled": true,
+    "implementation_scope_correct": true,
+    "cli_nominal": true,
+    "cli_partial_alias": true,
+    "cli_truth_rejected": true,
+    "cli_old_wire_rejected": true,
+    "numerical_acceptance_passed": true,
+    "full_new_numerical_replay_matches": true
+  },
+  "source_freeze": {
+    "valid": true,
+    "differences": [],
+    "verified_files": 368
+  },
+  "functional_passed": true,
+  "passed": true,
+  "full_numerical_replay_performed": true,
+  "full_replay_matches": true,
+  "comparison_queries": 38400,
+  "sync_trials": 6912,
+  "state_queries": 384,
+  "legacy_numerical_scope": "S1 v0.1 1440 queries + 60 sync audits; P1 v0.2 1440 queries; complete older results preserved by hashes, not fully recomputed"
+}

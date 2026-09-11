@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "full_numeric_evaluation_runs": 2,
+  "full_result_json_bytes_equal": true,
+  "report_bytes_equal": true,
+  "writer_metadata_bytes_equal": true,
+  "writer_weight_arrays_exact_equal": true,
+  "result_digest": "e3d7ba6d747e4c6035025a42aa1b0037024638bb4e767af1d545c4a1ab179e17",
+  "source_freeze": "7064dcc99ac3420c51f6e2aff9d94539e0663ceb55e6364e4eedfb429223cb18",
+  "result_file_sha256": "45971c6d8520066536853d0b6dbf10f9650cee6ca23cbc3d8b16c50bc6c4b467",
+  "conditions": 8,
+  "evaluation_code_seeds": 8,
+  "standalone_requests_per_seed_condition": 192,
+  "roundtrip_requests_per_seed_condition": 384,
+  "stress_runs": 6,
+  "reference_runs": 2,
+  "acceptance_checks": 113,
+  "numerical_writer_memories": 3,
+  "raw_writer_weight_bytes": 393216,
+  "preserved_old_files": 804,
+  "note": "All per-example outcomes, stress and references compared. Independent runs use the same reused corpus, not independent corpora. Weight size excludes fixed reader, metadata, candidate bases, caches and process memory."
+}

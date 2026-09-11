@@ -1,0 +1,78 @@
+[
+  {
+    "path": "background/archives/PLM-C0-v0.2.zip",
+    "sha256": "dcc6a0014aa545f70ba7a24ae586e175f6368a888ef2ad8f7207fc32844e20c6",
+    "bytes": 21279
+  },
+  {
+    "path": "background/archives/PLM-C0-v0.3.zip",
+    "sha256": "98746a5ab965d9f02b1f6cd5aa08c217dfeef586c6574b462d5446a3f6da273e",
+    "bytes": 80742
+  },
+  {
+    "path": "background/archives/PLM-C1-v0.1.zip",
+    "sha256": "fa6d1cb2d5dafc139463c8e59bf2ec3942f0acc8b094c3c378e692a8b26b92b2",
+    "bytes": 88708
+  },
+  {
+    "path": "background/archives/PLM-C1-v0.2.zip",
+    "sha256": "fe6936fcc2677a4f14cfd654b5987a8578d1c907e720f9ac1d947cfa791877c4",
+    "bytes": 145666
+  },
+  {
+    "path": "background/archives/PLM-C1-v0.3.zip",
+    "sha256": "0f2b6720b35ce11c4c86bd1ff0423f73204d864bb98cbf84e67610a95cfaa3cc",
+    "bytes": 191110
+  },
+  {
+    "path": "background/archives/PLM-C2-v0.1.zip",
+    "sha256": "50eeda8cbdb936e0080fad1bcd364eaafa3bc1c4efba9969dcff3dc1b469ae68",
+    "bytes": 236056
+  },
+  {
+    "path": "background/archives/PLM-C2-v0.2.zip",
+    "sha256": "39369c55d24f4a0ced9b40afd53a69028de7a8670c79044932cc5cd008d0310f",
+    "bytes": 282812
+  },
+  {
+    "path": "background/archives/PLM-C2-v0.3.zip",
+    "sha256": "3ab215c142741a3e75d41f5e2a3977984b8ab68f626a7b48899116c1cc3e3765",
+    "bytes": 344782
+  },
+  {
+    "path": "background/archives/PLM-C2-v0.4.zip",
+    "sha256": "d9b238c72e8bac897d67bc1f674d47576fb003288112b0ffabfb8b519e77797f",
+    "bytes": 241584
+  },
+  {
+    "path": "background/archives/PLM-P1-v0.1.zip",
+    "sha256": "d0eaa508fcd2b9dbd5c945d1f25ccdaa9fcfee72fd2ae280370183c0810cc7ac",
+    "bytes": 671022
+  },
+  {
+    "path": "background/archives/PLM-P1-v0.2.zip",
+    "sha256": "2d143150d24da46f71786bbb36e73d8979d20dedd1c1cb6e67671fe048553887",
+    "bytes": 3769920
+  },
+  {
+    "path": "background/archives/PLM-R1-v0.1.zip",
+    "sha256": "81b6eac5558dbed93813282a6a45c07bee29f6b9309de3da44dca709bced071f",
+    "bytes": 363364
+  },
+  {
+    "path": "background/archives/PLM-S1-v0.1.zip",
+    "sha256": "650475873cf67dd323b53e263c8ef96f1943440d4d7490f34fb588b160d0bddb",
+    "bytes": 5058285
+  },
+  {
+    "path": "background/archives/PLM-S1-v0.2.zip",
+    "sha256": "b9e2c610ad195ebcf411fb6479f5b90d2335ddaffa61be916a0952d5cceb3ee6",
+    "bytes": 7000238
+  },
+  {
+    "path": "background/archives/PLM-C0-v0.1.zip",
+    "sha256": "27ad5afd0e155044c3fa663807d2ffd8060a4a23c2550dbc5e1b500c1e1c1da1",
+    "bytes": 23415,
+    "origin": "user_named_attachment"
+  }
+]

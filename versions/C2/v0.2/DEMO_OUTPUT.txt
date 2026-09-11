@@ -1,0 +1,1662 @@
+=== ordered_coreference ===
+{
+  "version": "PLM-C2 v0.2",
+  "inputs": [
+    "A dog and a cat were observed.",
+    "The latter was selected."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8838,
+    "selection_confidence": 0.8359,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.27,
+    "runner_up": null,
+    "margin": 1.27,
+    "raw_selection_confidence": 0.8838,
+    "calibration": "shrinkage toward frozen-v0.1 empirical prior"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "A dog and a cat were observed",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "The latter was selected",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RESOLVE_REFERENCE",
+      "reference_id": "Q0001",
+      "clause_id": "S002:C001",
+      "antecedent_clause_id": "S001:C001",
+      "antecedent_evidence_id": "E0002",
+      "resolution_evidence_id": "E0003",
+      "cue": "latter",
+      "concept": "CAT"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "active_evidence_items": 3
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S002:C001",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [
+    {
+      "link_id": "Q0001",
+      "clause_id": "S002:C001",
+      "antecedent_clause_id": "S001:C001",
+      "cue": "latter",
+      "concept": "CAT",
+      "antecedent_evidence_id": "E0002"
+    }
+  ],
+  "claim_graph": {
+    "schema_version": 1,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY": 1,
+      "EVENT": 2,
+      "EVIDENCE": 3,
+      "REFERENCE": 1,
+      "SOURCE": 2
+    },
+    "edge_relations": {
+      "ABOUT": 6,
+      "CONTAINS": 2,
+      "DESCRIBES": 2,
+      "REFERS_BACK_TO": 1,
+      "RESOLVES_TO": 1,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPPORTS": 3,
+      "YIELDS": 4
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog and a cat were observed",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog and a cat were observed",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:shared/S002:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "The latter was selected",
+      "pattern": "[reference:latter]",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.05,
+      "effective_weight": 1.05,
+      "reason": "ordered coreference",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 3,
+    "active_evidence_items": 3,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 1,
+    "agentive_relation_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 22,
+    "claim_graph_edges": 20
+  }
+}
+
+=== contrastive_correction ===
+{
+  "version": "PLM-C2 v0.2",
+  "inputs": [
+    "It was not a dog, rather a cat."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.8264,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0,
+    "raw_selection_confidence": 0.8455,
+    "calibration": "shrinkage toward frozen-v0.1 empirical prior"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "It was not a dog",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "rather a cat",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "discourse_state": "corrective",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "MARK_CONTRASTIVE_CORRECTION",
+      "source_id": "S001",
+      "reason": "standalone correction connective"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C002",
+      "state": "corrective",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "clause_id": "S001:C001",
+      "polarity_depth": 1,
+      "amount": 1.0,
+      "reason": "composed polarity negation"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 2
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S001:C002",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [],
+  "claim_graph": {
+    "schema_version": 1,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY": 1,
+      "EVENT": 2,
+      "EVIDENCE": 2,
+      "SOURCE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 2,
+      "CONTRADICTS": 1,
+      "DESCRIBES": 2,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPPORTS": 1,
+      "YIELDS": 2
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "It was not a dog",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": -1,
+      "polarity_depth": 1,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "composed polarity negation",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "scope": "instance:shared/S001:C002",
+      "target_id": "T:shared:entity",
+      "source_text": "rather a cat",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 5,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 19,
+    "claim_graph_edges": 13
+  }
+}
+
+=== structural_revision ===
+{
+  "version": "PLM-C2 v0.2",
+  "inputs": [
+    "Originally labeled a dog: revised finding labels it a cat."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.8264,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0,
+    "raw_selection_confidence": 0.8455,
+    "calibration": "shrinkage toward frozen-v0.1 empirical prior"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "Originally labeled a dog",
+      "assertion_status": "provisional",
+      "instance_scope": "instance:shared",
+      "discourse_state": "provisional",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "revised finding labels it a cat",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "discourse_state": "corrective",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "SPLIT_REVISION_BOUNDARY",
+      "source_id": "S001",
+      "reason": "revision marker after colon"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C001",
+      "state": "provisional",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C002",
+      "state": "corrective",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0002",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 1
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S001:C002",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [],
+  "claim_graph": {
+    "schema_version": 1,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY": 1,
+      "EVENT": 2,
+      "EVIDENCE": 2,
+      "SOURCE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 2,
+      "DESCRIBES": 2,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPERSEDES": 1,
+      "SUPPORTS": 2,
+      "YIELDS": 2
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "Originally labeled a dog",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0002"
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "scope": "instance:shared/S001:C002",
+      "target_id": "T:shared:entity",
+      "source_text": "revised finding labels it a cat",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 1,
+    "operations": 6,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 19,
+    "claim_graph_edges": 14
+  }
+}
+
+=== agentive_affordance ===
+{
+  "version": "PLM-C2 v0.2",
+  "inputs": [
+    "The bank sponsored a river cleanup project."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "FINANCIAL_BANK",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.9011,
+    "selection_confidence": 0.8403,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.3,
+    "runner_up": null,
+    "margin": 1.3,
+    "raw_selection_confidence": 0.9011,
+    "calibration": "shrinkage toward frozen-v0.1 empirical prior"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The bank sponsored a river cleanup project",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    },
+    {
+      "operation": "INFER_AGENTIVE_AFFORDANCE",
+      "relation_id": "R0002",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "applied": true,
+      "reason": "agentive institutional affordance"
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0005",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "polarity_depth": 0,
+      "amount": 0.45,
+      "reason": "agentive contradiction"
+    },
+    {
+      "operation": "RELATION_GATE",
+      "evidence_id": "E0003",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "reason": "river mention lacks a spatial bank-of relation"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "ambiguous_pattern": "bank",
+      "trigger": "river",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    },
+    {
+      "relation_id": "R0002",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "ambiguous_pattern": "bank",
+      "trigger": "sponsored",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": true,
+      "reason": "agentive institutional affordance"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 4
+    }
+  },
+  "normalizations": [],
+  "event_links": [],
+  "reference_links": [],
+  "claim_graph": {
+    "schema_version": 1,
+    "node_types": {
+      "CLAUSE": 1,
+      "CONCEPT": 11,
+      "ENTITY": 1,
+      "EVENT": 1,
+      "EVIDENCE": 5,
+      "RELATION": 2,
+      "SOURCE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 12,
+      "CONTAINS": 1,
+      "CONTRADICTS": 1,
+      "DESCRIBES": 1,
+      "DOES_NOT_GROUND": 1,
+      "GROUNDS": 1,
+      "SUPPORTS": 4,
+      "YIELDS": 7
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank sponsored a river cleanup project",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank sponsored a river cleanup project",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank sponsored a river cleanup project",
+      "pattern": "river",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.75,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "relation_gated",
+      "active": false,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0004",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank sponsored a river cleanup project",
+      "pattern": "[agentive:sponsored]",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.85,
+      "effective_weight": 0.85,
+      "reason": "agentive affordance",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0005",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank sponsored a river cleanup project",
+      "pattern": "[agentive:sponsored]",
+      "concept": "RIVER_BANK",
+      "vote": -1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "agentive contradiction",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 5,
+    "active_evidence_items": 4,
+    "superseded_evidence_items": 1,
+    "operations": 5,
+    "relation_items": 2,
+    "applied_relation_items": 1,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 1,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 1,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "entity"
+    ],
+    "event_links": 0,
+    "claim_graph_nodes": 22,
+    "claim_graph_edges": 28
+  }
+}
+
+=== negated_affordance ===
+{
+  "version": "PLM-C2 v0.2",
+  "inputs": [
+    "The bank did not sponsor a river cleanup project."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "UNRESOLVED",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.6824,
+    "selection_confidence": 0.7,
+    "ambiguous": true,
+    "reason": "evidence below selection threshold",
+    "score": 0.45,
+    "runner_up": null,
+    "margin": 0.45,
+    "raw_selection_confidence": 0.3176,
+    "calibration": "shrinkage toward frozen-v0.1 empirical prior"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The bank did not sponsor a river cleanup project",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0003",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "polarity_depth": 1,
+      "amount": 0.75,
+      "reason": "composed polarity negation"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "applied": false,
+      "reason": "negated relation"
+    },
+    {
+      "operation": "INFER_AGENTIVE_AFFORDANCE",
+      "relation_id": "R0002",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "applied": false,
+      "reason": "negated agentive affordance"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "ambiguous_pattern": "bank",
+      "trigger": "river",
+      "polarity": -1,
+      "assertion_status": "asserted",
+      "applied": false,
+      "reason": "negated relation"
+    },
+    {
+      "relation_id": "R0002",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "ambiguous_pattern": "bank",
+      "trigger": "sponsor",
+      "polarity": -1,
+      "assertion_status": "asserted",
+      "applied": false,
+      "reason": "negated agentive affordance"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 3
+    }
+  },
+  "normalizations": [],
+  "event_links": [],
+  "reference_links": [],
+  "claim_graph": {
+    "schema_version": 1,
+    "node_types": {
+      "CLAUSE": 1,
+      "CONCEPT": 11,
+      "ENTITY": 1,
+      "EVENT": 1,
+      "EVIDENCE": 3,
+      "RELATION": 2,
+      "SOURCE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 8,
+      "CONTAINS": 1,
+      "CONTRADICTS": 1,
+      "DESCRIBES": 1,
+      "DOES_NOT_GROUND": 2,
+      "SUPPORTS": 2,
+      "YIELDS": 5
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank did not sponsor a river cleanup project",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank did not sponsor a river cleanup project",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank did not sponsor a river cleanup project",
+      "pattern": "river",
+      "concept": "RIVER_BANK",
+      "vote": -1,
+      "polarity_depth": 1,
+      "weight": 0.75,
+      "effective_weight": 0.75,
+      "reason": "composed polarity negation",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 3,
+    "active_evidence_items": 3,
+    "superseded_evidence_items": 0,
+    "operations": 4,
+    "relation_items": 2,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 1,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "entity"
+    ],
+    "event_links": 0,
+    "claim_graph_nodes": 20,
+    "claim_graph_edges": 20
+  }
+}
+
+=== calibrated_open_set ===
+{
+  "version": "PLM-C2 v0.2",
+  "inputs": [
+    "The marten crossed the clearing."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "UNRESOLVED",
+    "confidence": 0.0,
+    "selection_confidence": 0.7025,
+    "ambiguous": true,
+    "reason": "open-set abstention: no matching evidence",
+    "open_set": true,
+    "raw_selection_confidence": 0.35,
+    "calibration": "shrinkage toward frozen-v0.1 empirical prior"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The marten crossed the clearing",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    }
+  ],
+  "relations": [],
+  "targets": {},
+  "normalizations": [],
+  "event_links": [],
+  "reference_links": [],
+  "claim_graph": {
+    "schema_version": 1,
+    "node_types": {
+      "CLAUSE": 1,
+      "CONCEPT": 11,
+      "EVENT": 1,
+      "SOURCE": 1
+    },
+    "edge_relations": {
+      "CONTAINS": 1,
+      "DESCRIBES": 1
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true
+    }
+  },
+  "evidence": [],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 0,
+    "accepted_surface_matches": 0,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 0,
+    "active_evidence_items": 0,
+    "superseded_evidence_items": 0,
+    "operations": 1,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 0,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "entity",
+      "place"
+    ],
+    "event_links": 0,
+    "claim_graph_nodes": 14,
+    "claim_graph_edges": 2
+  }
+}
+
+=== preserved_temporal_identity ===
+{
+  "version": "PLM-C2 v0.2",
+  "inputs": [
+    "A dog was examined.",
+    "Subsequently, a cat was examined."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "UNRESOLVED",
+    "candidate": "ANIMAL",
+    "label_ja": "動物",
+    "confidence": 0.7805,
+    "selection_confidence": 0.8275,
+    "ambiguous": true,
+    "reason": "isolated discourse scopes contain competing instances",
+    "score": 0.78,
+    "runner_up": null,
+    "margin": 0.78,
+    "raw_selection_confidence": 0.85,
+    "calibration": "shrinkage toward frozen-v0.1 empirical prior"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "A dog was examined",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "Subsequently, a cat was examined",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:S002:C001",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "TARGET_SHIFT",
+      "clause_id": "S002:C001",
+      "target_scope": "instance:S002:C001",
+      "reason": "typed temporal/event relation"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:S002:C001",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE_CONFLICT",
+      "domain": "entity",
+      "target_ids": [
+        "T:S002:C001:entity",
+        "T:shared:entity"
+      ],
+      "reason": "multiple target instances cannot share one Concept selection"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:S002:C001:entity": {
+      "concepts": [
+        "CAT"
+      ],
+      "source_ids": [
+        "S002"
+      ],
+      "active_evidence_items": 1
+    },
+    "T:shared:entity": {
+      "concepts": [
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 1
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S002:C001",
+      "relation": "NEXT_DISTINCT_TARGET",
+      "same_target": false
+    }
+  ],
+  "reference_links": [],
+  "claim_graph": {
+    "schema_version": 1,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY": 2,
+      "EVENT": 2,
+      "EVIDENCE": 2,
+      "SOURCE": 2
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 2,
+      "DESCRIBES": 2,
+      "NEXT_DISTINCT_TARGET": 1,
+      "SUPPORTS": 2,
+      "YIELDS": 2
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog was examined",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:S002:C001/S002:C001",
+      "target_id": "T:S002:C001:entity",
+      "source_text": "Subsequently, a cat was examined",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 4,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 2,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [
+      "entity"
+    ],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 21,
+    "claim_graph_edges": 13
+  }
+}
+
+=== known_limit_reclassified ===
+{
+  "version": "PLM-C2 v0.2",
+  "inputs": [
+    "Originally marked dog: reclassified as cat."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "ANIMAL",
+    "candidate": "ANIMAL",
+    "label_ja": "動物",
+    "confidence": 0.7805,
+    "selection_confidence": 0.8101,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 0.78,
+    "runner_up": null,
+    "margin": 0.78,
+    "raw_selection_confidence": 0.7805,
+    "calibration": "shrinkage toward frozen-v0.1 empirical prior"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "Originally marked dog",
+      "assertion_status": "provisional",
+      "instance_scope": "instance:shared",
+      "discourse_state": "provisional",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "reclassified as cat",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "SPLIT_REVISION_BOUNDARY",
+      "source_id": "S001",
+      "reason": "revision marker after colon"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C001",
+      "state": "provisional",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 2
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S001:C002",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [],
+  "claim_graph": {
+    "schema_version": 1,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY": 1,
+      "EVENT": 2,
+      "EVIDENCE": 2,
+      "SOURCE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 2,
+      "DESCRIBES": 2,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPPORTS": 2,
+      "YIELDS": 2
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "Originally marked dog",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "provisional",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "scope": "instance:shared/S001:C002",
+      "target_id": "T:shared:entity",
+      "source_text": "reclassified as cat",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 4,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 19,
+    "claim_graph_edges": 13
+  }
+}

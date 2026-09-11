@@ -1,0 +1,990 @@
+{
+  "dataset": "PLM-C1-v0.3-post-implementation-challenge",
+  "schema_version": 2,
+  "construction": "20 unseen semantic seeds x 3 deterministic wrappers",
+  "limitations": [
+    "Authored in the same development session; not an external corpus.",
+    "The v0.3 engine was frozen before this file's first evaluation run.",
+    "No engine or Concept-data tuning is permitted after the first run.",
+    "Wrappers are dependent and must be cluster-bootstrapped by template_group."
+  ],
+  "splits": {
+    "dev": 0,
+    "test": 60,
+    "all": 60
+  },
+  "cases": [
+    {
+      "id": "morph_puppies_sleep__raw",
+      "inputs": "Several puppies were asleep.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "irregular_plural",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_puppies_sleep",
+      "split": "test"
+    },
+    {
+      "id": "morph_puppies_sleep__observation",
+      "inputs": "Observation: Several puppies were asleep.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "irregular_plural",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_puppies_sleep",
+      "split": "test"
+    },
+    {
+      "id": "morph_puppies_sleep__transcript",
+      "inputs": "Transcript: Several puppies were asleep.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "irregular_plural",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_puppies_sleep",
+      "split": "test"
+    },
+    {
+      "id": "morph_barked_loudly__raw",
+      "inputs": "The animal barked loudly.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "morphology",
+        "past_tense",
+        "test"
+      ],
+      "template_group": "morph_barked_loudly",
+      "split": "test"
+    },
+    {
+      "id": "morph_barked_loudly__observation",
+      "inputs": "Observation: The animal barked loudly.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "morphology",
+        "past_tense",
+        "test"
+      ],
+      "template_group": "morph_barked_loudly",
+      "split": "test"
+    },
+    {
+      "id": "morph_barked_loudly__transcript",
+      "inputs": "Transcript: The animal barked loudly.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "morphology",
+        "past_tense",
+        "test"
+      ],
+      "template_group": "morph_barked_loudly",
+      "split": "test"
+    },
+    {
+      "id": "morph_vocalizing__raw",
+      "inputs": "The animal was vocalizing.",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "morphology",
+        "progressive",
+        "test"
+      ],
+      "template_group": "morph_vocalizing",
+      "split": "test"
+    },
+    {
+      "id": "morph_vocalizing__observation",
+      "inputs": "Observation: The animal was vocalizing.",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "morphology",
+        "progressive",
+        "test"
+      ],
+      "template_group": "morph_vocalizing",
+      "split": "test"
+    },
+    {
+      "id": "morph_vocalizing__transcript",
+      "inputs": "Transcript: The animal was vocalizing.",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "morphology",
+        "progressive",
+        "test"
+      ],
+      "template_group": "morph_vocalizing",
+      "split": "test"
+    },
+    {
+      "id": "morph_false_positive_cared__raw",
+      "inputs": "The person cared deeply.",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "forbidden": [
+        "VEHICLE"
+      ],
+      "tags": [
+        "boundary",
+        "challenge_v03",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_false_positive_cared",
+      "split": "test"
+    },
+    {
+      "id": "morph_false_positive_cared__observation",
+      "inputs": "Observation: The person cared deeply.",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "forbidden": [
+        "VEHICLE"
+      ],
+      "tags": [
+        "boundary",
+        "challenge_v03",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_false_positive_cared",
+      "split": "test"
+    },
+    {
+      "id": "morph_false_positive_cared__transcript",
+      "inputs": "Transcript: The person cared deeply.",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "forbidden": [
+        "VEHICLE"
+      ],
+      "tags": [
+        "boundary",
+        "challenge_v03",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_false_positive_cared",
+      "split": "test"
+    },
+    {
+      "id": "revision_preliminary_verified__raw",
+      "inputs": "Preliminary finding: dog; verified finding: cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "correction",
+        "discourse",
+        "en",
+        "test"
+      ],
+      "template_group": "revision_preliminary_verified",
+      "split": "test"
+    },
+    {
+      "id": "revision_preliminary_verified__observation",
+      "inputs": "Observation: Preliminary finding: dog; verified finding: cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "correction",
+        "discourse",
+        "en",
+        "test"
+      ],
+      "template_group": "revision_preliminary_verified",
+      "split": "test"
+    },
+    {
+      "id": "revision_preliminary_verified__transcript",
+      "inputs": "Transcript: Preliminary finding: dog; verified finding: cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "correction",
+        "discourse",
+        "en",
+        "test"
+      ],
+      "template_group": "revision_preliminary_verified",
+      "split": "test"
+    },
+    {
+      "id": "revision_ruled_out__raw",
+      "inputs": "The dog classification was ruled out; the cat classification remained.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "en",
+        "retraction",
+        "test"
+      ],
+      "template_group": "revision_ruled_out",
+      "split": "test"
+    },
+    {
+      "id": "revision_ruled_out__observation",
+      "inputs": "Observation: The dog classification was ruled out; the cat classification remained.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "en",
+        "retraction",
+        "test"
+      ],
+      "template_group": "revision_ruled_out",
+      "split": "test"
+    },
+    {
+      "id": "revision_ruled_out__transcript",
+      "inputs": "Transcript: The dog classification was ruled out; the cat classification remained.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "en",
+        "retraction",
+        "test"
+      ],
+      "template_group": "revision_ruled_out",
+      "split": "test"
+    },
+    {
+      "id": "revision_tekai_ja__raw",
+      "inputs": "犬という判定を撤回、猫を確認済み",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "ja",
+        "retraction",
+        "test"
+      ],
+      "template_group": "revision_tekai_ja",
+      "split": "test"
+    },
+    {
+      "id": "revision_tekai_ja__observation",
+      "inputs": "Observation: 犬という判定を撤回、猫を確認済み",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "ja",
+        "retraction",
+        "test"
+      ],
+      "template_group": "revision_tekai_ja",
+      "split": "test"
+    },
+    {
+      "id": "revision_tekai_ja__transcript",
+      "inputs": "Transcript: 犬という判定を撤回、猫を確認済み",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "ja",
+        "retraction",
+        "test"
+      ],
+      "template_group": "revision_tekai_ja",
+      "split": "test"
+    },
+    {
+      "id": "revision_financial__raw",
+      "inputs": "Previously called a river bank; conclusively established as a bank with accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v03",
+        "correction",
+        "discourse",
+        "en",
+        "relation",
+        "test"
+      ],
+      "template_group": "revision_financial",
+      "split": "test"
+    },
+    {
+      "id": "revision_financial__observation",
+      "inputs": "Observation: Previously called a river bank; conclusively established as a bank with accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v03",
+        "correction",
+        "discourse",
+        "en",
+        "relation",
+        "test"
+      ],
+      "template_group": "revision_financial",
+      "split": "test"
+    },
+    {
+      "id": "revision_financial__transcript",
+      "inputs": "Transcript: Previously called a river bank; conclusively established as a bank with accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v03",
+        "correction",
+        "discourse",
+        "en",
+        "relation",
+        "test"
+      ],
+      "template_group": "revision_financial",
+      "split": "test"
+    },
+    {
+      "id": "target_another_instance__raw",
+      "inputs": [
+        "A dog was logged.",
+        "Another instance contains a cat."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_another_instance",
+      "split": "test"
+    },
+    {
+      "id": "target_another_instance__observation",
+      "inputs": [
+        "Observation: A dog was logged.",
+        "Observation: Another instance contains a cat."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_another_instance",
+      "split": "test"
+    },
+    {
+      "id": "target_another_instance__transcript",
+      "inputs": [
+        "Transcript: A dog was logged.",
+        "Transcript: Another instance contains a cat."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_another_instance",
+      "split": "test"
+    },
+    {
+      "id": "target_separate_case_inline__raw",
+      "inputs": "A dog was logged. In a separate case, a cat was logged.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "clause_boundary",
+        "en",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_separate_case_inline",
+      "split": "test"
+    },
+    {
+      "id": "target_separate_case_inline__observation",
+      "inputs": "Observation: A dog was logged. In a separate case, a cat was logged.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "clause_boundary",
+        "en",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_separate_case_inline",
+      "split": "test"
+    },
+    {
+      "id": "target_separate_case_inline__transcript",
+      "inputs": "Transcript: A dog was logged. In a separate case, a cat was logged.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "clause_boundary",
+        "en",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_separate_case_inline",
+      "split": "test"
+    },
+    {
+      "id": "target_betsu_taisho_ja__raw",
+      "inputs": [
+        "犬を記録した",
+        "別の対象は猫だった"
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "ja",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_betsu_taisho_ja",
+      "split": "test"
+    },
+    {
+      "id": "target_betsu_taisho_ja__observation",
+      "inputs": [
+        "Observation: 犬を記録した",
+        "Observation: 別の対象は猫だった"
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "ja",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_betsu_taisho_ja",
+      "split": "test"
+    },
+    {
+      "id": "target_betsu_taisho_ja__transcript",
+      "inputs": [
+        "Transcript: 犬を記録した",
+        "Transcript: 別の対象は猫だった"
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "ja",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_betsu_taisho_ja",
+      "split": "test"
+    },
+    {
+      "id": "consensus_another_source__raw",
+      "inputs": [
+        "One source reports a dog.",
+        "Another source reports a cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v03",
+        "consensus",
+        "en",
+        "hierarchy",
+        "source_order",
+        "test"
+      ],
+      "template_group": "consensus_another_source",
+      "split": "test"
+    },
+    {
+      "id": "consensus_another_source__observation",
+      "inputs": [
+        "Observation: One source reports a dog.",
+        "Observation: Another source reports a cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v03",
+        "consensus",
+        "en",
+        "hierarchy",
+        "source_order",
+        "test"
+      ],
+      "template_group": "consensus_another_source",
+      "split": "test"
+    },
+    {
+      "id": "consensus_another_source__transcript",
+      "inputs": [
+        "Transcript: One source reports a dog.",
+        "Transcript: Another source reports a cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v03",
+        "consensus",
+        "en",
+        "hierarchy",
+        "source_order",
+        "test"
+      ],
+      "template_group": "consensus_another_source",
+      "split": "test"
+    },
+    {
+      "id": "open_set_quokka__raw",
+      "inputs": "The quokka rested quietly.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "open_set",
+        "test"
+      ],
+      "template_group": "open_set_quokka",
+      "split": "test"
+    },
+    {
+      "id": "open_set_quokka__observation",
+      "inputs": "Observation: The quokka rested quietly.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "open_set",
+        "test"
+      ],
+      "template_group": "open_set_quokka",
+      "split": "test"
+    },
+    {
+      "id": "open_set_quokka__transcript",
+      "inputs": "Transcript: The quokka rested quietly.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "open_set",
+        "test"
+      ],
+      "template_group": "open_set_quokka",
+      "split": "test"
+    },
+    {
+      "id": "coordination_bite__raw",
+      "inputs": "A dog did not bark but did bite.",
+      "domain": "action",
+      "expected": "BITE",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "challenge_v03",
+        "coordination",
+        "en",
+        "polarity",
+        "test"
+      ],
+      "template_group": "coordination_bite",
+      "split": "test"
+    },
+    {
+      "id": "coordination_bite__observation",
+      "inputs": "Observation: A dog did not bark but did bite.",
+      "domain": "action",
+      "expected": "BITE",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "challenge_v03",
+        "coordination",
+        "en",
+        "polarity",
+        "test"
+      ],
+      "template_group": "coordination_bite",
+      "split": "test"
+    },
+    {
+      "id": "coordination_bite__transcript",
+      "inputs": "Transcript: A dog did not bark but did bite.",
+      "domain": "action",
+      "expected": "BITE",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "challenge_v03",
+        "coordination",
+        "en",
+        "polarity",
+        "test"
+      ],
+      "template_group": "coordination_bite",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverfront__raw",
+      "inputs": "The bank runs along the riverfront.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v03",
+        "compound",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "compound_riverfront",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverfront__observation",
+      "inputs": "Observation: The bank runs along the riverfront.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v03",
+        "compound",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "compound_riverfront",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverfront__transcript",
+      "inputs": "Transcript: The bank runs along the riverfront.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v03",
+        "compound",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "compound_riverfront",
+      "split": "test"
+    },
+    {
+      "id": "relation_river_statistics__raw",
+      "inputs": "The bank reviewed river statistics for a report.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "non_spatial",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_river_statistics",
+      "split": "test"
+    },
+    {
+      "id": "relation_river_statistics__observation",
+      "inputs": "Observation: The bank reviewed river statistics for a report.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "non_spatial",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_river_statistics",
+      "split": "test"
+    },
+    {
+      "id": "relation_river_statistics__transcript",
+      "inputs": "Transcript: The bank reviewed river statistics for a report.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "non_spatial",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_river_statistics",
+      "split": "test"
+    },
+    {
+      "id": "target_subsequently__raw",
+      "inputs": [
+        "A dog was examined.",
+        "Subsequently, a cat was examined in another room."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_subsequently",
+      "split": "test"
+    },
+    {
+      "id": "target_subsequently__observation",
+      "inputs": [
+        "Observation: A dog was examined.",
+        "Observation: Subsequently, a cat was examined in another room."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_subsequently",
+      "split": "test"
+    },
+    {
+      "id": "target_subsequently__transcript",
+      "inputs": [
+        "Transcript: A dog was examined.",
+        "Transcript: Subsequently, a cat was examined in another room."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v03",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_subsequently",
+      "split": "test"
+    },
+    {
+      "id": "revision_originally_revised__raw",
+      "inputs": "Originally labeled a dog; the revised finding labels it a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "revision_originally_revised",
+      "split": "test"
+    },
+    {
+      "id": "revision_originally_revised__observation",
+      "inputs": "Observation: Originally labeled a dog; the revised finding labels it a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "revision_originally_revised",
+      "split": "test"
+    },
+    {
+      "id": "revision_originally_revised__transcript",
+      "inputs": "Transcript: Originally labeled a dog; the revised finding labels it a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v03",
+        "discourse",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "revision_originally_revised",
+      "split": "test"
+    },
+    {
+      "id": "morph_bitten__raw",
+      "inputs": "The animal had bitten the toy.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "irregular_participle",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_bitten",
+      "split": "test"
+    },
+    {
+      "id": "morph_bitten__observation",
+      "inputs": "Observation: The animal had bitten the toy.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "irregular_participle",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_bitten",
+      "split": "test"
+    },
+    {
+      "id": "morph_bitten__transcript",
+      "inputs": "Transcript: The animal had bitten the toy.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "challenge_v03",
+        "en",
+        "irregular_participle",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_bitten",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbank_closed__raw",
+      "inputs": "They rested on the riverbank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v03",
+        "closed_compound",
+        "compound",
+        "en",
+        "test"
+      ],
+      "template_group": "compound_riverbank_closed",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbank_closed__observation",
+      "inputs": "Observation: They rested on the riverbank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v03",
+        "closed_compound",
+        "compound",
+        "en",
+        "test"
+      ],
+      "template_group": "compound_riverbank_closed",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbank_closed__transcript",
+      "inputs": "Transcript: They rested on the riverbank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v03",
+        "closed_compound",
+        "compound",
+        "en",
+        "test"
+      ],
+      "template_group": "compound_riverbank_closed",
+      "split": "test"
+    }
+  ]
+}

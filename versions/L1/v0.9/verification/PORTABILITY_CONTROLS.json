@@ -1,0 +1,36 @@
+{
+  "one_ulp": {
+    "functional_passed": true,
+    "contract_equal": true,
+    "headers_equal": true,
+    "coefficients_within_tolerance": true,
+    "decision_signatures_equal": true,
+    "signature_requests": 3,
+    "blocks_compared": 10,
+    "max_abs_coefficient_difference": 4.440892098500626e-16,
+    "atol": 1e-12,
+    "rtol": 1e-12,
+    "exact_weight_bytes_equal": false,
+    "exact_model_fingerprint_equal": false,
+    "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+  },
+  "large_change": {
+    "functional_passed": false,
+    "contract_equal": true,
+    "headers_equal": true,
+    "coefficients_within_tolerance": false,
+    "decision_signatures_equal": true,
+    "signature_requests": 3,
+    "blocks_compared": 10,
+    "max_abs_coefficient_difference": 0.009999999999999787,
+    "atol": 1e-12,
+    "rtol": 1e-12,
+    "exact_weight_bytes_equal": false,
+    "exact_model_fingerprint_equal": false,
+    "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+  },
+  "old_packet_on_changed_model": "abstain",
+  "linux_execution_performed": false,
+  "linux_reason": "WSL executable exists but WSL is not installed; no Linux runtime available.",
+  "scope": "Local controlled perturbations, not a Linux reproduction."
+}

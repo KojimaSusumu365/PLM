@@ -1,0 +1,759 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "runs": [
+    {
+      "total_seconds": 0.6805805999902077,
+      "teacher_transaction_seconds": 0.45871430094121024,
+      "probe_seconds": 0.1973922000033781
+    },
+    {
+      "total_seconds": 0.6791904999990948,
+      "teacher_transaction_seconds": 0.4537568000378087,
+      "probe_seconds": 0.2023233998916112
+    },
+    {
+      "total_seconds": 0.678830899996683,
+      "teacher_transaction_seconds": 0.44500219949986786,
+      "probe_seconds": 0.20970550004858524
+    },
+    {
+      "total_seconds": 0.7135853000218049,
+      "teacher_transaction_seconds": 0.4780820996966213,
+      "probe_seconds": 0.21029999997699633
+    },
+    {
+      "total_seconds": 0.82871630002046,
+      "teacher_transaction_seconds": 0.5209276002133265,
+      "probe_seconds": 0.279485100065358
+    },
+    {
+      "total_seconds": 0.8088151999982074,
+      "teacher_transaction_seconds": 0.526932199136354,
+      "probe_seconds": 0.2545217999140732
+    },
+    {
+      "total_seconds": 0.6732802000478841,
+      "teacher_transaction_seconds": 0.4585577007383108,
+      "probe_seconds": 0.19185640005161986
+    },
+    {
+      "total_seconds": 0.6939768999582157,
+      "teacher_transaction_seconds": 0.4624093992752023,
+      "probe_seconds": 0.1985171000706032
+    },
+    {
+      "total_seconds": 0.7344960999907926,
+      "teacher_transaction_seconds": 0.4854534005280584,
+      "probe_seconds": 0.20462439995026216
+    },
+    {
+      "total_seconds": 0.71918099996401,
+      "teacher_transaction_seconds": 0.48643170000286773,
+      "probe_seconds": 0.20886190002784133
+    },
+    {
+      "total_seconds": 0.8247870999621227,
+      "teacher_transaction_seconds": 0.5334172011353076,
+      "probe_seconds": 0.2576437998795882
+    },
+    {
+      "total_seconds": 0.8541146999923512,
+      "teacher_transaction_seconds": 0.5406486988649704,
+      "probe_seconds": 0.275287400058005
+    },
+    {
+      "total_seconds": 0.8448410000419244,
+      "teacher_transaction_seconds": 0.6279526991420425,
+      "probe_seconds": 0.19370049989083782
+    },
+    {
+      "total_seconds": 0.9260213000234216,
+      "teacher_transaction_seconds": 0.6936361002153717,
+      "probe_seconds": 0.207218199968338
+    },
+    {
+      "total_seconds": 0.8609186999965459,
+      "teacher_transaction_seconds": 0.6160595003166236,
+      "probe_seconds": 0.20707130001392215
+    },
+    {
+      "total_seconds": 0.869197299994994,
+      "teacher_transaction_seconds": 0.6391196991899051,
+      "probe_seconds": 0.20584980014245957
+    },
+    {
+      "total_seconds": 1.052531799999997,
+      "teacher_transaction_seconds": 0.7607433997327462,
+      "probe_seconds": 0.2616045000613667
+    },
+    {
+      "total_seconds": 0.9898131000227295,
+      "teacher_transaction_seconds": 0.7158320004236884,
+      "probe_seconds": 0.24730160005856305
+    },
+    {
+      "total_seconds": 1.198831000016071,
+      "teacher_transaction_seconds": 0.9777473001158796,
+      "probe_seconds": 0.19532290002098307
+    },
+    {
+      "total_seconds": 1.213069399993401,
+      "teacher_transaction_seconds": 0.9879412995069288,
+      "probe_seconds": 0.19833849993301556
+    },
+    {
+      "total_seconds": 1.3812372999964282,
+      "teacher_transaction_seconds": 1.1005632983869873,
+      "probe_seconds": 0.22362409986089915
+    },
+    {
+      "total_seconds": 1.3060995999840088,
+      "teacher_transaction_seconds": 1.0663937994395383,
+      "probe_seconds": 0.21084999991580844
+    },
+    {
+      "total_seconds": 1.5965318999951705,
+      "teacher_transaction_seconds": 1.2774285013438202,
+      "probe_seconds": 0.28354860009858385
+    },
+    {
+      "total_seconds": 1.584350600023754,
+      "teacher_transaction_seconds": 1.2590971993631683,
+      "probe_seconds": 0.288690899964422
+    },
+    {
+      "total_seconds": 1.083171600010246,
+      "teacher_transaction_seconds": 0.9248181006405503,
+      "probe_seconds": 0.1353537000832148
+    },
+    {
+      "total_seconds": 0.7296655000536703,
+      "teacher_transaction_seconds": 0.477198300359305,
+      "probe_seconds": 0.2242172000114806
+    },
+    {
+      "total_seconds": 0.7237348999478854,
+      "teacher_transaction_seconds": 0.45353720034472644,
+      "probe_seconds": 0.23521089990390465
+    },
+    {
+      "total_seconds": 0.7139528000261635,
+      "teacher_transaction_seconds": 0.4625297996099107,
+      "probe_seconds": 0.216593399818521
+    },
+    {
+      "total_seconds": 0.6899063999881037,
+      "teacher_transaction_seconds": 0.4626066997880116,
+      "probe_seconds": 0.20192330004647374
+    },
+    {
+      "total_seconds": 0.7818054999806918,
+      "teacher_transaction_seconds": 0.49499309906968847,
+      "probe_seconds": 0.2591801999951713
+    },
+    {
+      "total_seconds": 0.8404241999960504,
+      "teacher_transaction_seconds": 0.5241125997854397,
+      "probe_seconds": 0.28715889988234267
+    },
+    {
+      "total_seconds": 0.6857125000096858,
+      "teacher_transaction_seconds": 0.4639365993789397,
+      "probe_seconds": 0.19833049998851493
+    },
+    {
+      "total_seconds": 0.6984887999715284,
+      "teacher_transaction_seconds": 0.4696725999820046,
+      "probe_seconds": 0.2022668999270536
+    },
+    {
+      "total_seconds": 0.7223984000156634,
+      "teacher_transaction_seconds": 0.4858255003928207,
+      "probe_seconds": 0.212990699976217
+    },
+    {
+      "total_seconds": 0.6772168999887072,
+      "teacher_transaction_seconds": 0.45131619967287406,
+      "probe_seconds": 0.2011429000995122
+    },
+    {
+      "total_seconds": 0.7855438000406139,
+      "teacher_transaction_seconds": 0.5127090999740176,
+      "probe_seconds": 0.24648830003570765
+    },
+    {
+      "total_seconds": 0.8129770999657921,
+      "teacher_transaction_seconds": 0.5233690003515221,
+      "probe_seconds": 0.26014370017219335
+    },
+    {
+      "total_seconds": 0.8834269000217319,
+      "teacher_transaction_seconds": 0.6459152998286299,
+      "probe_seconds": 0.20733070001006126
+    },
+    {
+      "total_seconds": 0.8056492000469007,
+      "teacher_transaction_seconds": 0.590649900957942,
+      "probe_seconds": 0.19103460002224892
+    },
+    {
+      "total_seconds": 0.819955300015863,
+      "teacher_transaction_seconds": 0.6035330995800905,
+      "probe_seconds": 0.19328419998055324
+    },
+    {
+      "total_seconds": 0.8574876000056975,
+      "teacher_transaction_seconds": 0.6325624011224136,
+      "probe_seconds": 0.20077669993042946
+    },
+    {
+      "total_seconds": 1.0635304999887012,
+      "teacher_transaction_seconds": 0.7606636002310552,
+      "probe_seconds": 0.2741634002304636
+    },
+    {
+      "total_seconds": 1.024942300049588,
+      "teacher_transaction_seconds": 0.7439532987773418,
+      "probe_seconds": 0.25302250002278015
+    },
+    {
+      "total_seconds": 1.2436868000077084,
+      "teacher_transaction_seconds": 0.9957974993158132,
+      "probe_seconds": 0.21653690020320937
+    },
+    {
+      "total_seconds": 1.193196700012777,
+      "teacher_transaction_seconds": 0.9683101004338823,
+      "probe_seconds": 0.19636769982753322
+    },
+    {
+      "total_seconds": 1.1903270000475459,
+      "teacher_transaction_seconds": 0.950352098850999,
+      "probe_seconds": 0.2089329999871552
+    },
+    {
+      "total_seconds": 1.1967086999793537,
+      "teacher_transaction_seconds": 0.9723528003087267,
+      "probe_seconds": 0.1970396000542678
+    },
+    {
+      "total_seconds": 1.4091498999623582,
+      "teacher_transaction_seconds": 1.110977699572686,
+      "probe_seconds": 0.2659229999408126
+    },
+    {
+      "total_seconds": 1.4371629999950528,
+      "teacher_transaction_seconds": 1.1084036994725466,
+      "probe_seconds": 0.297516499995254
+    },
+    {
+      "total_seconds": 1.1040931000025012,
+      "teacher_transaction_seconds": 0.95317959995009,
+      "probe_seconds": 0.12952489993767813
+    },
+    {
+      "total_seconds": 0.6923552000080235,
+      "teacher_transaction_seconds": 0.4515652998816222,
+      "probe_seconds": 0.20828760002041236
+    },
+    {
+      "total_seconds": 0.6903993000159971,
+      "teacher_transaction_seconds": 0.4665107003529556,
+      "probe_seconds": 0.20083340001292527
+    },
+    {
+      "total_seconds": 0.6500995999667794,
+      "teacher_transaction_seconds": 0.4253201999235898,
+      "probe_seconds": 0.2025088999653235
+    },
+    {
+      "total_seconds": 0.6782191999955103,
+      "teacher_transaction_seconds": 0.4430543006164953,
+      "probe_seconds": 0.210926300031133
+    },
+    {
+      "total_seconds": 0.7882736999890767,
+      "teacher_transaction_seconds": 0.5062487014802173,
+      "probe_seconds": 0.2547806999646127
+    },
+    {
+      "total_seconds": 0.7977348999702372,
+      "teacher_transaction_seconds": 0.5128467006725259,
+      "probe_seconds": 0.2569795000599697
+    },
+    {
+      "total_seconds": 0.6336277999798767,
+      "teacher_transaction_seconds": 0.42584030103171244,
+      "probe_seconds": 0.1854669998283498
+    },
+    {
+      "total_seconds": 0.7365639000199735,
+      "teacher_transaction_seconds": 0.495368099946063,
+      "probe_seconds": 0.2159259000327438
+    },
+    {
+      "total_seconds": 0.6536314999684691,
+      "teacher_transaction_seconds": 0.4395342009374872,
+      "probe_seconds": 0.19099359994288534
+    },
+    {
+      "total_seconds": 0.6511225000140257,
+      "teacher_transaction_seconds": 0.43786050006747246,
+      "probe_seconds": 0.1905911000794731
+    },
+    {
+      "total_seconds": 0.8222697000019252,
+      "teacher_transaction_seconds": 0.5283251007203944,
+      "probe_seconds": 0.2663298000115901
+    },
+    {
+      "total_seconds": 0.7897593000088818,
+      "teacher_transaction_seconds": 0.5174111996311694,
+      "probe_seconds": 0.24575339996954426
+    },
+    {
+      "total_seconds": 0.8135473000002094,
+      "teacher_transaction_seconds": 0.5941070998087525,
+      "probe_seconds": 0.19595920003484935
+    },
+    {
+      "total_seconds": 0.8550651000114158,
+      "teacher_transaction_seconds": 0.6143665011040866,
+      "probe_seconds": 0.2089679001364857
+    },
+    {
+      "total_seconds": 0.8874390000128187,
+      "teacher_transaction_seconds": 0.6454259003512561,
+      "probe_seconds": 0.21700780012179166
+    },
+    {
+      "total_seconds": 0.855686999973841,
+      "teacher_transaction_seconds": 0.6239571994519792,
+      "probe_seconds": 0.20392520009772852
+    },
+    {
+      "total_seconds": 1.0990887999651022,
+      "teacher_transaction_seconds": 0.7888388004503213,
+      "probe_seconds": 0.28119669994339347
+    },
+    {
+      "total_seconds": 1.0420091999694705,
+      "teacher_transaction_seconds": 0.7272938005626202,
+      "probe_seconds": 0.2852853000513278
+    },
+    {
+      "total_seconds": 1.1695683000143617,
+      "teacher_transaction_seconds": 0.9478699991595931,
+      "probe_seconds": 0.19507590006105602
+    },
+    {
+      "total_seconds": 1.1999881999799982,
+      "teacher_transaction_seconds": 0.961671999830287,
+      "probe_seconds": 0.2126132997800596
+    },
+    {
+      "total_seconds": 1.249513799964916,
+      "teacher_transaction_seconds": 1.0140816998900846,
+      "probe_seconds": 0.2087258999235928
+    },
+    {
+      "total_seconds": 1.2330853000166826,
+      "teacher_transaction_seconds": 0.9876317004091106,
+      "probe_seconds": 0.20926560007501394
+    },
+    {
+      "total_seconds": 1.379418299999088,
+      "teacher_transaction_seconds": 1.0912832013564184,
+      "probe_seconds": 0.2571193999610841
+    },
+    {
+      "total_seconds": 1.4990178999723867,
+      "teacher_transaction_seconds": 1.1979067006031983,
+      "probe_seconds": 0.26521419978234917
+    },
+    {
+      "total_seconds": 1.051085300045088,
+      "teacher_transaction_seconds": 0.9018209005589597,
+      "probe_seconds": 0.12929080019239336
+    },
+    {
+      "total_seconds": 0.6619412999716587,
+      "teacher_transaction_seconds": 0.4317553002620116,
+      "probe_seconds": 0.20619539986364543
+    },
+    {
+      "total_seconds": 0.6259383999858983,
+      "teacher_transaction_seconds": 0.41720239963615313,
+      "probe_seconds": 0.18614550004713237
+    },
+    {
+      "total_seconds": 0.6702468000003137,
+      "teacher_transaction_seconds": 0.4447814999730326,
+      "probe_seconds": 0.1976186002139002
+    },
+    {
+      "total_seconds": 0.6640839999890886,
+      "teacher_transaction_seconds": 0.4385443000937812,
+      "probe_seconds": 0.2016109000542201
+    },
+    {
+      "total_seconds": 0.8350294000119902,
+      "teacher_transaction_seconds": 0.5573235011543147,
+      "probe_seconds": 0.2485537999891676
+    },
+    {
+      "total_seconds": 0.8040431999834254,
+      "teacher_transaction_seconds": 0.5225990996696055,
+      "probe_seconds": 0.2530528000788763
+    },
+    {
+      "total_seconds": 0.6878689000150189,
+      "teacher_transaction_seconds": 0.45845659979386255,
+      "probe_seconds": 0.2034739998052828
+    },
+    {
+      "total_seconds": 0.7013015000266023,
+      "teacher_transaction_seconds": 0.46960870089242235,
+      "probe_seconds": 0.2072510999860242
+    },
+    {
+      "total_seconds": 0.7104287999682128,
+      "teacher_transaction_seconds": 0.4884629010921344,
+      "probe_seconds": 0.19818690017564222
+    },
+    {
+      "total_seconds": 0.6898733000271022,
+      "teacher_transaction_seconds": 0.4625014994526282,
+      "probe_seconds": 0.2037492998642847
+    },
+    {
+      "total_seconds": 0.8803866000380367,
+      "teacher_transaction_seconds": 0.5604718998656608,
+      "probe_seconds": 0.291218799946364
+    },
+    {
+      "total_seconds": 0.8540574999642558,
+      "teacher_transaction_seconds": 0.5737146005849354,
+      "probe_seconds": 0.2515650999266654
+    },
+    {
+      "total_seconds": 0.854576800018549,
+      "teacher_transaction_seconds": 0.6280084003228694,
+      "probe_seconds": 0.1983726000180468
+    },
+    {
+      "total_seconds": 0.9303588999900967,
+      "teacher_transaction_seconds": 0.680157199210953,
+      "probe_seconds": 0.22295600007055327
+    },
+    {
+      "total_seconds": 0.9846153000253253,
+      "teacher_transaction_seconds": 0.7244830008712597,
+      "probe_seconds": 0.22488200006773695
+    },
+    {
+      "total_seconds": 0.9907084000296891,
+      "teacher_transaction_seconds": 0.7242781001259573,
+      "probe_seconds": 0.24003239994635805
+    },
+    {
+      "total_seconds": 1.1628924999968149,
+      "teacher_transaction_seconds": 0.8400148999644443,
+      "probe_seconds": 0.2901274999603629
+    },
+    {
+      "total_seconds": 1.1752075999975204,
+      "teacher_transaction_seconds": 0.8562611997476779,
+      "probe_seconds": 0.28280630020890385
+    },
+    {
+      "total_seconds": 1.5276052000117488,
+      "teacher_transaction_seconds": 1.2512700996594504,
+      "probe_seconds": 0.24157500005094334
+    },
+    {
+      "total_seconds": 1.440765500010457,
+      "teacher_transaction_seconds": 1.1602513999678195,
+      "probe_seconds": 0.24985239998204634
+    },
+    {
+      "total_seconds": 1.2844423000351526,
+      "teacher_transaction_seconds": 1.0412005999241956,
+      "probe_seconds": 0.21036450000246987
+    },
+    {
+      "total_seconds": 1.3992716000066139,
+      "teacher_transaction_seconds": 1.138254399818834,
+      "probe_seconds": 0.23086310003418475
+    },
+    {
+      "total_seconds": 1.6306457000318915,
+      "teacher_transaction_seconds": 1.3305296002072282,
+      "probe_seconds": 0.2640902000712231
+    },
+    {
+      "total_seconds": 1.6001439999672584,
+      "teacher_transaction_seconds": 1.254355599230621,
+      "probe_seconds": 0.31001960014691576
+    },
+    {
+      "total_seconds": 1.210602100007236,
+      "teacher_transaction_seconds": 1.0448688018950634,
+      "probe_seconds": 0.14313210011459887
+    },
+    {
+      "total_seconds": 0.7397367000230588,
+      "teacher_transaction_seconds": 0.4848447002004832,
+      "probe_seconds": 0.2300437000230886
+    },
+    {
+      "total_seconds": 0.7603612000239082,
+      "teacher_transaction_seconds": 0.5008302983478643,
+      "probe_seconds": 0.23427609994541854
+    },
+    {
+      "total_seconds": 0.6852788999676704,
+      "teacher_transaction_seconds": 0.4569979005609639,
+      "probe_seconds": 0.204878699965775
+    },
+    {
+      "total_seconds": 0.8041826999979094,
+      "teacher_transaction_seconds": 0.4952703990857117,
+      "probe_seconds": 0.27609520009718835
+    },
+    {
+      "total_seconds": 0.881010300014168,
+      "teacher_transaction_seconds": 0.5654893004102632,
+      "probe_seconds": 0.28664139984175563
+    },
+    {
+      "total_seconds": 1.026151199999731,
+      "teacher_transaction_seconds": 0.6766197007382289,
+      "probe_seconds": 0.3195319999358617
+    },
+    {
+      "total_seconds": 0.8107521000201814,
+      "teacher_transaction_seconds": 0.5356892002164386,
+      "probe_seconds": 0.24310850008623675
+    },
+    {
+      "total_seconds": 0.7719453999889083,
+      "teacher_transaction_seconds": 0.5233936999575235,
+      "probe_seconds": 0.2222302999580279
+    },
+    {
+      "total_seconds": 0.8180619000340812,
+      "teacher_transaction_seconds": 0.5390226010349579,
+      "probe_seconds": 0.25165549985831603
+    },
+    {
+      "total_seconds": 0.7544471999863163,
+      "teacher_transaction_seconds": 0.5029660990694538,
+      "probe_seconds": 0.22782500000903383
+    },
+    {
+      "total_seconds": 1.0135569999692962,
+      "teacher_transaction_seconds": 0.6849958006059751,
+      "probe_seconds": 0.298411600117106
+    },
+    {
+      "total_seconds": 0.963179400016088,
+      "teacher_transaction_seconds": 0.6454034006455913,
+      "probe_seconds": 0.27963930007535964
+    },
+    {
+      "total_seconds": 1.0492064999998547,
+      "teacher_transaction_seconds": 0.7758132008020766,
+      "probe_seconds": 0.24049369990825653
+    },
+    {
+      "total_seconds": 1.1080328000243753,
+      "teacher_transaction_seconds": 0.819039200199768,
+      "probe_seconds": 0.25387549976585433
+    },
+    {
+      "total_seconds": 1.1444906999822706,
+      "teacher_transaction_seconds": 0.8351362005923875,
+      "probe_seconds": 0.27240410004742444
+    },
+    {
+      "total_seconds": 1.0674962000339292,
+      "teacher_transaction_seconds": 0.7902204989804886,
+      "probe_seconds": 0.24166170007083565
+    },
+    {
+      "total_seconds": 1.1709771999740042,
+      "teacher_transaction_seconds": 0.862854300357867,
+      "probe_seconds": 0.27851790009299293
+    },
+    {
+      "total_seconds": 1.155777100007981,
+      "teacher_transaction_seconds": 0.8446705008973368,
+      "probe_seconds": 0.27817909995792434
+    },
+    {
+      "total_seconds": 1.4302803999744356,
+      "teacher_transaction_seconds": 1.1475441997754388,
+      "probe_seconds": 0.24918790016090497
+    },
+    {
+      "total_seconds": 1.546612299978733,
+      "teacher_transaction_seconds": 1.2582951996591873,
+      "probe_seconds": 0.2560731000266969
+    },
+    {
+      "total_seconds": 1.5566498000407591,
+      "teacher_transaction_seconds": 1.2799888995359652,
+      "probe_seconds": 0.24482580012409016
+    },
+    {
+      "total_seconds": 1.314245600020513,
+      "teacher_transaction_seconds": 1.058054801018443,
+      "probe_seconds": 0.22431080002570525
+    },
+    {
+      "total_seconds": 1.606032799987588,
+      "teacher_transaction_seconds": 1.2445796992979012,
+      "probe_seconds": 0.3280657999566756
+    },
+    {
+      "total_seconds": 1.5289591999608092,
+      "teacher_transaction_seconds": 1.2196453997748904,
+      "probe_seconds": 0.27575310005340725
+    },
+    {
+      "total_seconds": 1.2552386000170372,
+      "teacher_transaction_seconds": 1.088504699873738,
+      "probe_seconds": 0.1430591000826098
+    },
+    {
+      "total_seconds": 0.7471777999890037,
+      "teacher_transaction_seconds": 0.48225750064011663,
+      "probe_seconds": 0.23705940000945702
+    },
+    {
+      "total_seconds": 0.6942528000217862,
+      "teacher_transaction_seconds": 0.4564049002947286,
+      "probe_seconds": 0.20700719981687143
+    },
+    {
+      "total_seconds": 0.7938928999938071,
+      "teacher_transaction_seconds": 0.5336803989484906,
+      "probe_seconds": 0.23384540010010824
+    },
+    {
+      "total_seconds": 0.7730582000222057,
+      "teacher_transaction_seconds": 0.5080418002908118,
+      "probe_seconds": 0.2398139001452364
+    },
+    {
+      "total_seconds": 0.8694369000149891,
+      "teacher_transaction_seconds": 0.5837658002856188,
+      "probe_seconds": 0.2585345999104902
+    },
+    {
+      "total_seconds": 0.9565419999998994,
+      "teacher_transaction_seconds": 0.6369200001936406,
+      "probe_seconds": 0.2906759000616148
+    },
+    {
+      "total_seconds": 0.7139595000189729,
+      "teacher_transaction_seconds": 0.46505689882906154,
+      "probe_seconds": 0.22405019984580576
+    },
+    {
+      "total_seconds": 0.6734590000123717,
+      "teacher_transaction_seconds": 0.45321100018918514,
+      "probe_seconds": 0.19489510013954714
+    },
+    {
+      "total_seconds": 0.7109083000104874,
+      "teacher_transaction_seconds": 0.48356570035684854,
+      "probe_seconds": 0.20312419993570074
+    },
+    {
+      "total_seconds": 0.7057335000135936,
+      "teacher_transaction_seconds": 0.47659399994881824,
+      "probe_seconds": 0.20532350009307265
+    },
+    {
+      "total_seconds": 0.8459994000149891,
+      "teacher_transaction_seconds": 0.5616187984705903,
+      "probe_seconds": 0.2576281998772174
+    },
+    {
+      "total_seconds": 0.8381643000175245,
+      "teacher_transaction_seconds": 0.5598205989226699,
+      "probe_seconds": 0.2490840001264587
+    },
+    {
+      "total_seconds": 0.8251120999921113,
+      "teacher_transaction_seconds": 0.6074973004870117,
+      "probe_seconds": 0.19311610009754077
+    },
+    {
+      "total_seconds": 0.8915005000308156,
+      "teacher_transaction_seconds": 0.652343099412974,
+      "probe_seconds": 0.2137156998505816
+    },
+    {
+      "total_seconds": 1.0233141999924555,
+      "teacher_transaction_seconds": 0.7487277994514443,
+      "probe_seconds": 0.2471692999242805
+    },
+    {
+      "total_seconds": 1.0973980999551713,
+      "teacher_transaction_seconds": 0.8220577997271903,
+      "probe_seconds": 0.23833880020538345
+    },
+    {
+      "total_seconds": 1.2936560999951325,
+      "teacher_transaction_seconds": 0.9238002998754382,
+      "probe_seconds": 0.33106270007556304
+    },
+    {
+      "total_seconds": 1.18131319998065,
+      "teacher_transaction_seconds": 0.8767679986194707,
+      "probe_seconds": 0.27396469993982464
+    },
+    {
+      "total_seconds": 1.4209085999755189,
+      "teacher_transaction_seconds": 1.16389980079839,
+      "probe_seconds": 0.2275088998139836
+    },
+    {
+      "total_seconds": 1.47174070001347,
+      "teacher_transaction_seconds": 1.1682241011876613,
+      "probe_seconds": 0.2718668998568319
+    },
+    {
+      "total_seconds": 1.4782771000172943,
+      "teacher_transaction_seconds": 1.1844083995674737,
+      "probe_seconds": 0.2620686001027934
+    },
+    {
+      "total_seconds": 1.7312217999715358,
+      "teacher_transaction_seconds": 1.4222631984157488,
+      "probe_seconds": 0.27167389990063384
+    },
+    {
+      "total_seconds": 1.779742399987299,
+      "teacher_transaction_seconds": 1.412049500271678,
+      "probe_seconds": 0.32542120007565245
+    },
+    {
+      "total_seconds": 1.8976023999857716,
+      "teacher_transaction_seconds": 1.513058400072623,
+      "probe_seconds": 0.33693680010037497
+    },
+    {
+      "total_seconds": 1.2883049999945797,
+      "teacher_transaction_seconds": 1.1213610996492207,
+      "probe_seconds": 0.14218409988097847
+    }
+  ]
+}

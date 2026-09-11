@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "dimension": 8192,
+    "eligible_for_inference": false,
+    "goals": [
+      "subject_first",
+      "object_first"
+    ],
+    "initial_state": "A0",
+    "learning": true,
+    "margin": 0.25,
+    "max_generation_steps": 10,
+    "max_tokens": 10,
+    "memory_statistics": {
+      "lex_class": {
+        "conflicting_contexts": 0,
+        "contexts": 19,
+        "observations": 19
+      },
+      "lex_value": {
+        "conflicting_contexts": 0,
+        "contexts": 19,
+        "observations": 19
+      },
+      "read_action": {
+        "conflicting_contexts": 0,
+        "contexts": 23,
+        "observations": 4896
+      },
+      "read_next": {
+        "conflicting_contexts": 0,
+        "contexts": 23,
+        "observations": 4896
+      },
+      "surface": {
+        "conflicting_contexts": 0,
+        "contexts": 19,
+        "observations": 19
+      },
+      "write_action": {
+        "conflicting_contexts": 0,
+        "contexts": 68,
+        "observations": 9792
+      }
+    },
+    "minimum": 0.6,
+    "order_binding": true,
+    "role_binding": true,
+    "schema": "plm-l1-model-v1",
+    "seed": "development-0",
+    "slot_candidates": {
+      "modality": [
+        "modality:asserted",
+        "modality:hypothetical"
+      ],
+      "object": [
+        "entity:太郎",
+        "entity:花子",
+        "entity:次郎",
+        "entity:美咲",
+        "entity:健太",
+        "entity:由紀"
+      ],
+      "polarity": [
+        "polarity:positive",
+        "polarity:negative"
+      ],
+      "predicate": [
+        "predicate:help",
+        "predicate:praise",
+        "predicate:visit",
+        "predicate:gaze_at"
+      ],
+      "subject": [
+        "entity:太郎",
+        "entity:花子",
+        "entity:次郎",
+        "entity:美咲",
+        "entity:健太",
+        "entity:由紀"
+      ]
+    },
+    "terminal_state": "DONE",
+    "token_surfaces": [
+      "。",
+      "が",
+      "た",
+      "たら",
+      "なかった",
+      "なかったら",
+      "もし",
+      "を",
+      "健太",
+      "助け",
+      "太郎",
+      "次郎",
+      "由紀",
+      "美咲",
+      "花子",
+      "褒め",
+      "見つめ",
+      "訪ね"
+    ],
+    "training_count": 576,
+    "training_digest": "3eab3d029d9757b8caf20ccec7a6d5141fb56b4d03542cef41a51cc884fc3701"
+  },
+  "fingerprint": "05bd7d67129f6a0465233c76dabedbd017d500392c99902c89b7b3e9e2bdaacc",
+  "candidates": {
+    "lex_class": [
+      "COND",
+      "DOT",
+      "ENTITY",
+      "EOS",
+      "GA",
+      "IF",
+      "NEG_COND",
+      "NEG_PAST",
+      "PAST",
+      "PREDICATE",
+      "WO"
+    ],
+    "lex_value": [
+      "entity:健太",
+      "entity:太郎",
+      "entity:次郎",
+      "entity:由紀",
+      "entity:美咲",
+      "entity:花子",
+      "literal:<EOS>",
+      "literal:。",
+      "literal:が",
+      "literal:た",
+      "literal:たら",
+      "literal:なかった",
+      "literal:なかったら",
+      "literal:もし",
+      "literal:を",
+      "predicate:gaze_at",
+      "predicate:help",
+      "predicate:praise",
+      "predicate:visit"
+    ],
+    "surface": [
+      "<EOS>",
+      "。",
+      "が",
+      "た",
+      "たら",
+      "なかった",
+      "なかったら",
+      "もし",
+      "を",
+      "健太",
+      "助け",
+      "太郎",
+      "次郎",
+      "由紀",
+      "美咲",
+      "花子",
+      "褒め",
+      "見つめ",
+      "訪ね"
+    ],
+    "read_action": [
+      "bind:object",
+      "bind:subject",
+      "capture",
+      "noop",
+      "predicate",
+      "status:negative:asserted",
+      "status:negative:hypothetical",
+      "status:positive:asserted",
+      "status:positive:hypothetical",
+      "stop"
+    ],
+    "read_next": [
+      "A1",
+      "A4",
+      "A5",
+      "AO2",
+      "AO3",
+      "AS2",
+      "AS3",
+      "DONE",
+      "E0",
+      "E1",
+      "H0",
+      "H1",
+      "H4",
+      "H5",
+      "HO2",
+      "HO3",
+      "HS2",
+      "HS3"
+    ],
+    "write_action": [
+      "emit:literal:。",
+      "emit:literal:が",
+      "emit:literal:た",
+      "emit:literal:たら",
+      "emit:literal:なかった",
+      "emit:literal:なかったら",
+      "emit:literal:もし",
+      "emit:literal:を",
+      "slot:object",
+      "slot:predicate",
+      "slot:subject",
+      "stop"
+    ]
+  }
+}

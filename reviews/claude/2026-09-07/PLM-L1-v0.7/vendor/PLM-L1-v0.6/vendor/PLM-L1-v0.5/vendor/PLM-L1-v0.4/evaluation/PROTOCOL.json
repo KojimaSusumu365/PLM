@@ -1,0 +1,16 @@
+{
+  "schema": "plm-l1-v04-protocol-v1",
+  "dimension": 8192,
+  "folds": ["object_negative", "subject_negative", "object_positive", "subject_positive"],
+  "development_seeds": ["parts-development-0"],
+  "evaluation_seeds": ["parts-evaluation-0", "parts-evaluation-1", "parts-evaluation-2", "parts-evaluation-3"],
+  "conditions": ["partial", "full_context", "no_learning", "old_ss"],
+  "supervision": "Only text/meaning and initial lexicon; no fold identity, heldout labels, state/action/order annotations enter fit. All systems retrained on the exact same 432 training pairs within a fold, never old fully trained weights.",
+  "data": "Original 576/192/192 partitions reused. Remove all 144 training rows of one order*polarity combination per fold, covering both modalities. Evaluation/development retain48 withheld-combination and144 seen-combination rows. Each evaluated component and lexical token is present in restricted training. Not a new project-blind corpus.",
+  "architecture": "Content-role order and marker gaps are a designed decomposition. Train-only categorical information-gain selection finds partial context masks. Phase correlation performs runtime correspondence retrieval. No claim all learning machinery is SS.",
+  "gates": "Per fold/seed: six heldout/seen read/generate/roundtrip buckets exact>=0.98; no wrong accepted reading/output; invalid text/packet accept=0; full_context and old_ss seen read/generate>=0.98 and heldout drop>=0.50 in both stages; no_learning accepts none. 13*4*4=208 plus full-training regression=209 checks. Table references and low-dimensional stress are non-gating and reported in full.",
+  "stress_seeds": ["parts-stress-0", "parts-stress-1"],
+  "stress_dimensions": [128, 512, 2048],
+  "references": "Partial-context ordinary matching with exactly the same learned dependencies/components, and old whole-shape/prefix tables. One run per fold, no artificial code-seed repetitions; no matched speed or byte budgets.",
+  "deferred": ["unknown grammar or lexical meaning discovery", "arbitrary hierarchy", "long documents", "all-SS feature learning", "adaptive confidence", "P1 numerical observation-mask integration", "S1 synchronized receiver integration", "R1 inference and Concept updates"]
+}

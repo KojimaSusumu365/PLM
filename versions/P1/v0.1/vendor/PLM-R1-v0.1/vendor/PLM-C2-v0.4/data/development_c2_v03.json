@@ -1,0 +1,462 @@
+{
+  "dataset": "PLM-C2-v0.3-development-diagnostic",
+  "schema_version": 2,
+  "construction": "10 development semantic seeds x 3 deterministic wrappers",
+  "splits": {
+    "dev": 30,
+    "test": 0,
+    "all": 30
+  },
+  "cases": [
+    {
+      "id": "dev_revision_reclassified__raw",
+      "inputs": "Originally marked dog: reclassified as cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "revision_role"
+      ],
+      "template_group": "dev_revision_reclassified",
+      "split": "dev"
+    },
+    {
+      "id": "dev_revision_reclassified__record",
+      "inputs": "Record: Originally marked dog: reclassified as cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "revision_role"
+      ],
+      "template_group": "dev_revision_reclassified",
+      "split": "dev"
+    },
+    {
+      "id": "dev_revision_reclassified__observation",
+      "inputs": "Observation: Originally marked dog: reclassified as cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "revision_role"
+      ],
+      "template_group": "dev_revision_reclassified",
+      "split": "dev"
+    },
+    {
+      "id": "dev_revision_relabeled__raw",
+      "inputs": "Originally marked dog: relabeled as cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "revision_role"
+      ],
+      "template_group": "dev_revision_relabeled",
+      "split": "dev"
+    },
+    {
+      "id": "dev_revision_relabeled__record",
+      "inputs": "Record: Originally marked dog: relabeled as cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "revision_role"
+      ],
+      "template_group": "dev_revision_relabeled",
+      "split": "dev"
+    },
+    {
+      "id": "dev_revision_relabeled__observation",
+      "inputs": "Observation: Originally marked dog: relabeled as cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "revision_role"
+      ],
+      "template_group": "dev_revision_relabeled",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_earlier__raw",
+      "inputs": [
+        "A dog and a cat were listed.",
+        "The earlier one was selected."
+      ],
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "extended_reference"
+      ],
+      "template_group": "dev_reference_earlier",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_earlier__record",
+      "inputs": [
+        "Record: A dog and a cat were listed.",
+        "Record: The earlier one was selected."
+      ],
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "extended_reference"
+      ],
+      "template_group": "dev_reference_earlier",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_earlier__observation",
+      "inputs": [
+        "Observation: A dog and a cat were listed.",
+        "Observation: The earlier one was selected."
+      ],
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "extended_reference"
+      ],
+      "template_group": "dev_reference_earlier",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_previous__raw",
+      "inputs": [
+        "A dog and a cat were listed.",
+        "The previous one was selected."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "extended_reference"
+      ],
+      "template_group": "dev_reference_previous",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_previous__record",
+      "inputs": [
+        "Record: A dog and a cat were listed.",
+        "Record: The previous one was selected."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "extended_reference"
+      ],
+      "template_group": "dev_reference_previous",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_previous__observation",
+      "inputs": [
+        "Observation: A dog and a cat were listed.",
+        "Observation: The previous one was selected."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "extended_reference"
+      ],
+      "template_group": "dev_reference_previous",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_japanese_latter__raw",
+      "inputs": [
+        "犬と猫を記録した。",
+        "後者を選んだ。"
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "extended_reference",
+        "ja"
+      ],
+      "template_group": "dev_reference_japanese_latter",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_japanese_latter__record",
+      "inputs": [
+        "Record: 犬と猫を記録した。",
+        "Record: 後者を選んだ。"
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "extended_reference",
+        "ja"
+      ],
+      "template_group": "dev_reference_japanese_latter",
+      "split": "dev"
+    },
+    {
+      "id": "dev_reference_japanese_latter__observation",
+      "inputs": [
+        "Observation: 犬と猫を記録した。",
+        "Observation: 後者を選んだ。"
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "extended_reference",
+        "ja"
+      ],
+      "template_group": "dev_reference_japanese_latter",
+      "split": "dev"
+    },
+    {
+      "id": "dev_japanese_correction__raw",
+      "inputs": "犬、いや、猫。",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction_scope",
+        "dev",
+        "development_c2_v03",
+        "ja"
+      ],
+      "template_group": "dev_japanese_correction",
+      "split": "dev"
+    },
+    {
+      "id": "dev_japanese_correction__record",
+      "inputs": "Record: 犬、いや、猫。",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction_scope",
+        "dev",
+        "development_c2_v03",
+        "ja"
+      ],
+      "template_group": "dev_japanese_correction",
+      "split": "dev"
+    },
+    {
+      "id": "dev_japanese_correction__observation",
+      "inputs": "Observation: 犬、いや、猫。",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction_scope",
+        "dev",
+        "development_c2_v03",
+        "ja"
+      ],
+      "template_group": "dev_japanese_correction",
+      "split": "dev"
+    },
+    {
+      "id": "dev_japanese_revision__raw",
+      "inputs": "当初は犬：再分類すると猫。",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "ja",
+        "revision_role"
+      ],
+      "template_group": "dev_japanese_revision",
+      "split": "dev"
+    },
+    {
+      "id": "dev_japanese_revision__record",
+      "inputs": "Record: 当初は犬：再分類すると猫。",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "ja",
+        "revision_role"
+      ],
+      "template_group": "dev_japanese_revision",
+      "split": "dev"
+    },
+    {
+      "id": "dev_japanese_revision__observation",
+      "inputs": "Observation: 当初は犬：再分類すると猫。",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "ja",
+        "revision_role"
+      ],
+      "template_group": "dev_japanese_revision",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_granted__raw",
+      "inputs": "The bank granted aid to a river project.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_granted",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_granted__record",
+      "inputs": "Record: The bank granted aid to a river project.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_granted",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_granted__observation",
+      "inputs": "Observation: The bank granted aid to a river project.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_granted",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_allocated__raw",
+      "inputs": "The bank allocated resources to river research.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_allocated",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_allocated__record",
+      "inputs": "Record: The bank allocated resources to river research.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_allocated",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_allocated__observation",
+      "inputs": "Observation: The bank allocated resources to river research.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_allocated",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_passive__raw",
+      "inputs": "The bank was supported by a river alliance.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "passive",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_passive",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_passive__record",
+      "inputs": "Record: The bank was supported by a river alliance.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "passive",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_passive",
+      "split": "dev"
+    },
+    {
+      "id": "dev_role_passive__observation",
+      "inputs": "Observation: The bank was supported by a river alliance.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "dev",
+        "development_c2_v03",
+        "en",
+        "passive",
+        "role_affordance"
+      ],
+      "template_group": "dev_role_passive",
+      "split": "dev"
+    }
+  ]
+}

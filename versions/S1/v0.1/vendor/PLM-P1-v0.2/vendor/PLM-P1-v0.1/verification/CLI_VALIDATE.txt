@@ -1,0 +1,6 @@
+{
+  "packet_valid": true,
+  "dimension": 2048,
+  "observed_components": 2048,
+  "inference_enabled": false
+}

@@ -1,0 +1,811 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "memory": [
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.015271800046321005,
+      "correlation_seconds": 4.349998198449612e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.015271800046321005,
+      "correlation_seconds": 0.0017703999765217304
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.015271800046321005,
+      "correlation_seconds": 0.00010429997928440571
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.015271800046321005,
+      "correlation_seconds": 0.00016899994807317853
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.005641800002194941,
+      "correlation_seconds": 4.369998350739479e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.005641800002194941,
+      "correlation_seconds": 0.00012279994552955031
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.005641800002194941,
+      "correlation_seconds": 6.390002090483904e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.005641800002194941,
+      "correlation_seconds": 0.00011520000407472253
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.0020093999919481575,
+      "correlation_seconds": 5.339999916031957e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.0020093999919481575,
+      "correlation_seconds": 0.0001488000270910561
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.0020093999919481575,
+      "correlation_seconds": 6.75999908708036e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.0020093999919481575,
+      "correlation_seconds": 0.00012269994476810098
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.0018029999919235706,
+      "correlation_seconds": 5.570001667365432e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.0018029999919235706,
+      "correlation_seconds": 0.0001905999961309135
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.0018029999919235706,
+      "correlation_seconds": 7.569999434053898e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.0018029999919235706,
+      "correlation_seconds": 0.0001480000209994614
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.0022890999680384994,
+      "correlation_seconds": 8.120003622025251e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.0022890999680384994,
+      "correlation_seconds": 0.000222100003156811
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.0022890999680384994,
+      "correlation_seconds": 0.00010179996024817228
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.0022890999680384994,
+      "correlation_seconds": 0.00017959997057914734
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.005678699992131442,
+      "correlation_seconds": 8.949998300522566e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.005678699992131442,
+      "correlation_seconds": 0.00019620003877207637
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.005678699992131442,
+      "correlation_seconds": 8.750002598389983e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.005678699992131442,
+      "correlation_seconds": 0.00013890000991523266
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.002059800026472658,
+      "correlation_seconds": 9.579997276887298e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.002059800026472658,
+      "correlation_seconds": 0.00023639999562874436
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.002059800026472658,
+      "correlation_seconds": 9.180000051856041e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.002059800026472658,
+      "correlation_seconds": 0.0001409000251442194
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.0018556000431999564,
+      "correlation_seconds": 8.140003774315119e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.0018556000431999564,
+      "correlation_seconds": 0.00020740000763908029
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.0018556000431999564,
+      "correlation_seconds": 9.210000280290842e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 16,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.0018556000431999564,
+      "correlation_seconds": 0.00017220003064721823
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.00935930002015084,
+      "correlation_seconds": 9.190000128000975e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.00935930002015084,
+      "correlation_seconds": 0.00020780001068487763
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.00935930002015084,
+      "correlation_seconds": 8.560001151636243e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.00935930002015084,
+      "correlation_seconds": 0.0002960000419989228
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.019834899983834475,
+      "correlation_seconds": 7.800001185387373e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.019834899983834475,
+      "correlation_seconds": 0.0002136999974027276
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.019834899983834475,
+      "correlation_seconds": 9.039998985826969e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.019834899983834475,
+      "correlation_seconds": 0.0001427999814040959
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.013370600005146116,
+      "correlation_seconds": 9.630003478378057e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.013370600005146116,
+      "correlation_seconds": 0.00017690000822767615
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.013370600005146116,
+      "correlation_seconds": 9.480002336204052e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.013370600005146116,
+      "correlation_seconds": 0.00014870002632960677
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.009218200051691383,
+      "correlation_seconds": 8.19999841041863e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.009218200051691383,
+      "correlation_seconds": 0.00020750000840052962
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.009218200051691383,
+      "correlation_seconds": 9.71999834291637e-05
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 64,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.009218200051691383,
+      "correlation_seconds": 0.00014099996769800782
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.010003499977756292,
+      "correlation_seconds": 0.00016080000204965472
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.010003499977756292,
+      "correlation_seconds": 0.0002662999904714525
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.010003499977756292,
+      "correlation_seconds": 0.00014899997040629387
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "uniform",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.010003499977756292,
+      "correlation_seconds": 0.00020489998860284686
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.016898699977900833,
+      "correlation_seconds": 0.00013749999925494194
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.016898699977900833,
+      "correlation_seconds": 0.00024089997168630362
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.016898699977900833,
+      "correlation_seconds": 0.00014570000348612666
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "positive",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.016898699977900833,
+      "correlation_seconds": 0.00021789997117593884
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.015105400001630187,
+      "correlation_seconds": 0.00024150003446266055
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.015105400001630187,
+      "correlation_seconds": 0.0002778000198304653
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.015105400001630187,
+      "correlation_seconds": 0.00015430001076310873
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "residual",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.015105400001630187,
+      "correlation_seconds": 0.00021270004799589515
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "clean",
+      "fit_with_diagnostics_seconds": 0.01016830001026392,
+      "correlation_seconds": 0.00018180004553869367
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "erasure75",
+      "fit_with_diagnostics_seconds": 0.01016830001026392,
+      "correlation_seconds": 0.0002883999841287732
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "quant4",
+      "fit_with_diagnostics_seconds": 0.01016830001026392,
+      "correlation_seconds": 0.0001577999792061746
+    },
+    {
+      "data_seed": "weight-dev-0",
+      "known_count": 256,
+      "dimension": 128,
+      "code_seed": "phase-dev",
+      "method": "gain2",
+      "condition": "weight_noise",
+      "fit_with_diagnostics_seconds": 0.01016830001026392,
+      "correlation_seconds": 0.00028819998260587454
+    }
+  ],
+  "structured": [
+    {
+      "index": 0,
+      "fit_seconds": 0.003582799981813878,
+      "query_seconds": 0.0035876999609172344
+    },
+    {
+      "index": 1,
+      "fit_seconds": 0.007899199961684644,
+      "query_seconds": 0.0027068000053986907
+    },
+    {
+      "index": 2,
+      "fit_seconds": 0.004554200044367462,
+      "query_seconds": 0.0027354999911040068
+    },
+    {
+      "index": 3,
+      "fit_seconds": 0.003048499987926334,
+      "query_seconds": 0.002630900009535253
+    },
+    {
+      "index": 4,
+      "fit_seconds": 0.003714999998919666,
+      "query_seconds": 0.002980399993248284
+    },
+    {
+      "index": 5,
+      "fit_seconds": 0.007942399999592453,
+      "query_seconds": 0.002611599978990853
+    },
+    {
+      "index": 6,
+      "fit_seconds": 0.004664800013415515,
+      "query_seconds": 0.002786700031720102
+    },
+    {
+      "index": 7,
+      "fit_seconds": 0.0031296999659389257,
+      "query_seconds": 0.0026042000390589237
+    },
+    {
+      "index": 8,
+      "fit_seconds": 0.005992699996568263,
+      "query_seconds": 0.020322800031863153
+    },
+    {
+      "index": 9,
+      "fit_seconds": 0.040677999961189926,
+      "query_seconds": 0.01975999999558553
+    },
+    {
+      "index": 10,
+      "fit_seconds": 0.012563100026454777,
+      "query_seconds": 0.019778800022322685
+    },
+    {
+      "index": 11,
+      "fit_seconds": 0.0028775999671779573,
+      "query_seconds": 0.017795100051444024
+    },
+    {
+      "index": 12,
+      "fit_seconds": 0.006115900003351271,
+      "query_seconds": 0.019901099964044988
+    },
+    {
+      "index": 13,
+      "fit_seconds": 0.04086390003794804,
+      "query_seconds": 0.01917459996184334
+    },
+    {
+      "index": 14,
+      "fit_seconds": 0.012852400017436594,
+      "query_seconds": 0.019308999995701015
+    },
+    {
+      "index": 15,
+      "fit_seconds": 0.0029156000236980617,
+      "query_seconds": 0.017357499978970736
+    },
+    {
+      "index": 16,
+      "fit_seconds": 0.007349700026679784,
+      "query_seconds": 0.020360899972729385
+    },
+    {
+      "index": 17,
+      "fit_seconds": 0.040555300016421825,
+      "query_seconds": 0.01999850000720471
+    },
+    {
+      "index": 18,
+      "fit_seconds": 0.012554000015370548,
+      "query_seconds": 0.019292999990284443
+    },
+    {
+      "index": 19,
+      "fit_seconds": 0.0029398000333458185,
+      "query_seconds": 0.01767099997960031
+    },
+    {
+      "index": 20,
+      "fit_seconds": 0.003126499999780208,
+      "query_seconds": 0.0029952999902889132
+    },
+    {
+      "index": 21,
+      "fit_seconds": 0.005801599996630102,
+      "query_seconds": 0.0027488000341691077
+    },
+    {
+      "index": 22,
+      "fit_seconds": 0.004101800033822656,
+      "query_seconds": 0.0027296999469399452
+    },
+    {
+      "index": 23,
+      "fit_seconds": 0.002869300020392984,
+      "query_seconds": 0.002855000027921051
+    },
+    {
+      "index": 24,
+      "fit_seconds": 0.0029701999737881124,
+      "query_seconds": 0.00043650000588968396
+    },
+    {
+      "index": 25,
+      "fit_seconds": 0.0029190999921411276,
+      "query_seconds": 0.00041500001680105925
+    },
+    {
+      "index": 26,
+      "fit_seconds": 0.0029537000227719545,
+      "query_seconds": 0.0004197999951429665
+    },
+    {
+      "index": 27,
+      "fit_seconds": 0.0029488999862223864,
+      "query_seconds": 0.00040989997796714306
+    },
+    {
+      "index": 28,
+      "fit_seconds": 0.0029563999851234257,
+      "query_seconds": 0.0004661999992094934
+    },
+    {
+      "index": 29,
+      "fit_seconds": 0.0029255999834276736,
+      "query_seconds": 0.0004391000256873667
+    },
+    {
+      "index": 30,
+      "fit_seconds": 0.002869200019631535,
+      "query_seconds": 0.0004327999777160585
+    },
+    {
+      "index": 31,
+      "fit_seconds": 0.0028735000523738563,
+      "query_seconds": 0.0004282000008970499
+    }
+  ]
+}

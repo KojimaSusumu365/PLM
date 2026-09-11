@@ -1,0 +1,15 @@
+{
+  "version": "PLM-P1 v0.1",
+  "release_kind": "experimental_numerical_prototype",
+  "implementation_complete": true,
+  "functional_tests_passed": true,
+  "functional_test_count": 377,
+  "performance_gate_passed": false,
+  "unmet_target": "masked_recovery_at_least_95pct",
+  "masked_recovery": {"correct": 60, "total": 64, "rate": 0.9375, "target_minimum": 0.95},
+  "masked_false_accepts": {"count": 1, "total": 128},
+  "inference_enabled": false,
+  "ss_demodulation_implemented": false,
+  "independent_semantic_evaluation": "not_performed",
+  "read_first": "results/RELEASE_DECISION.md"
+}

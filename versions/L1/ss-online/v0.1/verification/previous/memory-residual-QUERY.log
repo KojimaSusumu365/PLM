@@ -1,0 +1,2562 @@
+[
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "0",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "conflicting_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "2",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "3",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": "1",
+    "reason": "accepted",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  },
+  {
+    "value": null,
+    "reason": "no_support",
+    "eligible_for_inference": false
+  }
+]

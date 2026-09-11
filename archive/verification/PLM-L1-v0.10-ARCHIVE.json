@@ -1,0 +1,9 @@
+{
+  "archive": "PLM-L1-v0.10.zip",
+  "sha256": "00f2265ab4c8af2d827e3da4320f0adeff0dca3d8271cac0ba3a53f1a18967d8",
+  "bytes": 30717515,
+  "files": 132,
+  "manifest_files": 131,
+  "source_freeze": "c858e3022234aee26f8dfa1aa5d02d0926c67a144c0c969fcdc2c7eeba7fa6d8",
+  "result_digest": "63c979c6b749c3c2e860021ff51fcf240ce10dfe900da71813000d62ceccd080"
+}

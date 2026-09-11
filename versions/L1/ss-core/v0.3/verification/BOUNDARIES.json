@@ -1,0 +1,23 @@
+{
+  "schema": "ss-boundary-audit-03",
+  "nearly_all_ss": false,
+  "scope": "ss_core_v03 runtime and correction paths, known vocabulary, two events",
+  "learned_language_association_families": ["roles", "polarity", "modality", "order_support", "order_output", "gaps", "lexical_read", "lexical_write", "temporal_read", "temporal_write"],
+  "new_ss_transition_families": ["sentence_program", "document_program"],
+  "waveform_semantic_cleanup_families": ["component_packet", "document_packet", "partial_packet"],
+  "shared_receiver": "ss_core_v03/waveform.py:Receiver",
+  "recurrent_state": {"representation": "complex phase signal", "next_selection": "learned SS next-state coefficients then reference cleanup", "not_claimed": "unrestricted learned state space"},
+  "procedural_language_boundaries": [
+    "known-vocabulary tokenization and document segmentation",
+    "designed role and feature schemas",
+    "meaning dictionaries between semantic cleanup and query construction",
+    "event/role lookup and action interpretation",
+    "candidate lists and bank routing",
+    "relation-to-context mapping and string assembly"
+  ],
+  "procedural_safety_boundaries": ["thresholds and conflict sets", "loop ceilings", "version and registration policy", "pending ledger", "source hash and file integrity"],
+  "io_boundaries": ["numeric array DAC simulation", "file serialization", "character input/output"],
+  "not_migrated": ["standalone legacy TemporalModel APIs", "v02 correction learning receiver implementation", "P1/S1 synchronization algorithms"],
+  "evidence": ["tests/test_wave03.py", "results/traces", "results/FAULTS.json", "verification/ISOLATED.json"],
+  "ratio_policy": "No percentage inferred from file count or code line count."
+}

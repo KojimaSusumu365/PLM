@@ -1,0 +1,6 @@
+{
+  "packet_written": true,
+  "frame_chips": 8480,
+  "tx_energy": 57344.0,
+  "inference_enabled": false
+}

@@ -1,0 +1,143 @@
+{
+  "status": "read",
+  "reason": "controlled_language_observation",
+  "trace": [
+    {
+      "position": 0,
+      "state": "A0",
+      "category": "ENTITY",
+      "action": {
+        "value": "capture",
+        "score": 0.9783702,
+        "margin": 0.92349038,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "A1",
+        "score": 0.97906119,
+        "margin": 0.91384472,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 1,
+      "state": "A1",
+      "category": "GA",
+      "action": {
+        "value": "bind:subject",
+        "score": 1.02433152,
+        "margin": 1.0071028,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "AS2",
+        "score": 0.9655485,
+        "margin": 0.92030196,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 2,
+      "state": "AS2",
+      "category": "ENTITY",
+      "action": {
+        "value": "capture",
+        "score": 0.94583506,
+        "margin": 0.88784086,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "AS3",
+        "score": 1.07588759,
+        "margin": 0.99850459,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 3,
+      "state": "AS3",
+      "category": "WO",
+      "action": {
+        "value": "bind:object",
+        "score": 1.0194921,
+        "margin": 0.9993632,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "A4",
+        "score": 1.01282451,
+        "margin": 0.93537458,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 4,
+      "state": "A4",
+      "category": "PREDICATE",
+      "action": {
+        "value": "predicate",
+        "score": 1.01987799,
+        "margin": 0.98324998,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "A5",
+        "score": 1.01801239,
+        "margin": 0.9521337,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 5,
+      "state": "A5",
+      "category": "NEG_PAST",
+      "action": {
+        "value": "status:negative:asserted",
+        "score": 0.99810672,
+        "margin": 0.94153471,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "E0",
+        "score": 1.00253236,
+        "margin": 0.95194926,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 6,
+      "state": "E0",
+      "category": "DOT",
+      "action": {
+        "value": "noop",
+        "score": 1.00706416,
+        "margin": 0.97929555,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "E1",
+        "score": 0.94794427,
+        "margin": 0.90806119,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 7,
+      "state": "E1",
+      "category": "EOS",
+      "action": {
+        "value": "stop",
+        "score": 1.03001915,
+        "margin": 0.98151324,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "DONE",
+        "score": 1.01264439,
+        "margin": 0.93363787,
+        "reason": "recovered"
+      }
+    }
+  ],
+  "eligible_for_inference": false
+}

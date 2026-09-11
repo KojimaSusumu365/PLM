@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "preflight": false,
+  "source_freeze": "321a049d5e38d4b6103c6666baf8a3084319a41087902b1823a64f0a4c697dc8",
+  "result_digest": "cd2169e4efa51bfd207e8688a9dd16a86c424fe6340ae2e2ed63069d05c6be3c",
+  "acceptance_checks": 364,
+  "test_counts": {
+    "NEW_TESTS": 40,
+    "V06_TESTS": 73,
+    "V05_TESTS": 70,
+    "V04_TESTS": 46,
+    "V03_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "single_event_pair_training_only": true,
+  "two_event_training_examples": 0,
+  "isolated_model_fingerprint_equal": true,
+  "model_fingerprint": "a9a901bebbfd378fd8d782da5b8a5216aca0759febdf759f53f301cc19a9f0b0",
+  "component_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+  "generation_without_both_reader_and_training_entrypoints": true,
+  "single_numerical_packet_only_transfer": true,
+  "atomic_abstention_without_partial_packet": true,
+  "no_runtime_feature_learning": true,
+  "isolated_roundtrips": [
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。花子が太郎を助けなかった。",
+      "output": "花子を太郎が助けた。花子が太郎を助けなかった。",
+      "both_events_meaning_and_goals_exact": true
+    },
+    {
+      "input_for_verifier_only": "もし太郎が花子を助けたら。花子が健太を褒めなかった。",
+      "output": "もし花子を太郎が助けたら。花子が健太を褒めなかった。",
+      "both_events_meaning_and_goals_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。太郎が美咲を訪ねた。",
+      "output": "花子を太郎が助けた。太郎が美咲を訪ねた。",
+      "both_events_meaning_and_goals_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。太郎が花子を助けた。",
+      "both_events_meaning_and_goals_exact": true
+    }
+  ],
+  "boundary_limit": "Shared learned v0.6 component weights and helpers remain; two-event boundaries/bindings are designed, not learned.",
+  "release_manifest_checked": true,
+  "full_numeric_rerun_in_this_command": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

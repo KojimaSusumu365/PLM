@@ -1,0 +1,26 @@
+{
+  "version": "PLM-S1 v0.2",
+  "files": 414,
+  "tests": {
+    "S1_v02": 71,
+    "S1_v01": 91,
+    "P1_v02": 88,
+    "P1_v01": 99,
+    "R1": 92,
+    "C2": 186
+  },
+  "total_tests": 627,
+  "scope": "all extracted bytes, all tests, CLI, old S1/P1 subsets; full NEW numerical replay performed before packaging, not repeated after extraction",
+  "zip_bytes": 7000238,
+  "sha256": "b9e2c610ad195ebcf411fb6479f5b90d2335ddaffa61be916a0952d5cceb3ee6",
+  "checks": {
+    "all_extracted_bytes_match": true,
+    "manifest_matches": true,
+    "all_tests_and_cli_passed": true,
+    "extracted_files_unchanged": true,
+    "prepackaging_full_new_replay_matches": true,
+    "first_result_hash_intact": true
+  },
+  "functional_passed": true,
+  "numerical_acceptance_passed": true
+}

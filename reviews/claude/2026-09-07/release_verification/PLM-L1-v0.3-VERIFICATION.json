@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "preflight": false,
+  "source_freeze": "7064dcc99ac3420c51f6e2aff9d94539e0663ceb55e6364e4eedfb429223cb18",
+  "result_digest": "e3d7ba6d747e4c6035025a42aa1b0037024638bb4e767af1d545c4a1ab179e17",
+  "acceptance_checks": 113,
+  "test_counts": {
+    "NEW_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "writer_pair_fit_without_reader_teacher_legacy_weights": true,
+  "reader_pair_fit_without_teacher_legacy_weights": true,
+  "isolated_writer_and_reader_fingerprints_equal": true,
+  "generation_without_reader_training_code_or_old_generator": true,
+  "isolated_roundtrips": [
+    {
+      "input": "太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。",
+      "meaning_exact": true
+    },
+    {
+      "input": "花子が太郎を助けた。",
+      "output": "太郎を花子が助けた。",
+      "meaning_exact": true
+    },
+    {
+      "input": "太郎が花子を助けなかった。",
+      "output": "花子を太郎が助けなかった。",
+      "meaning_exact": true
+    },
+    {
+      "input": "もし太郎が花子を助けなかったら。",
+      "output": "もし花子を太郎が助けなかったら。",
+      "meaning_exact": true
+    }
+  ],
+  "release_manifest_checked": true,
+  "full_numeric_rerun_in_this_command": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.3.zip",
+  "archive_sha256": "00665a299d1d3746124508049adbdefb44ca9ae09a6683a6392f90d8f6e6f955",
+  "archive_bytes": 3389570,
+  "archive_files": 143,
+  "extracted_bytes_equal": true,
+  "source_and_archive_unchanged": true,
+  "convenience_read_generate_cli_passed": true,
+  "direct_encode_generate_cli_passed": true,
+  "root_json_source_guard_passed": true
+}

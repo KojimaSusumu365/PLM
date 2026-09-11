@@ -1,0 +1,1 @@
+[{"candidates":12,"channels":1,"counts":[8192],"eligible_for_decision":false,"expected_ticks":8224,"id":0,"reason":"incomplete_window","received_sha256":"ab976d969b11797c64b3e62973a4439f588ef1d88fd40140f2b9de7d6141e3a4","source_sha256":"38f361e91e45dd3dfc49c84e80c91c9b797008fed45d039845b85da87e62a9ab","status":"held","tag":"address04","ticks":8223}]

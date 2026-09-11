@@ -1,0 +1,3233 @@
+{
+  "scope": "Posthoc diagnostic on frozen saved models, using the independent evaluation renderer. Not used for tuning or primary acceptance.",
+  "reports": {
+    "before/crossed_status": {
+      "metrics": {
+        "requests": 36,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 36,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "unique_texts": 28,
+      "model_fingerprint": "cf0794ebafd82ebc6d125bb5fef82043e067dd172efe14991cade0c105864ddf",
+      "details": [
+        {
+          "text": "太郎が由紀を助けなかった。花子が次郎を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。花子が次郎を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし花子が次郎を褒めたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が花子を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が花子を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が花子を褒めたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けなかった。花子が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。花子が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし花子が由紀を褒めたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けなかった。由紀が花子を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。由紀が花子を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし由紀が花子を褒めたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けなかった。由紀が太郎を助けた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。由紀が太郎を助けた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし由紀が太郎を助けたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が由紀を助けたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が由紀を助けたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が由紀を助けたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めなかった。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が由紀を褒めたら。",
+          "status": "abstain",
+          "reason": "candidate_read_unsupported",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        }
+      ]
+    },
+    "before/previously_correlated": {
+      "metrics": {
+        "requests": 36,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 36,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "unique_texts": 7,
+      "model_fingerprint": "cf0794ebafd82ebc6d125bb5fef82043e067dd172efe14991cade0c105864ddf",
+      "details": [
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めた。",
+          "status": "abstain",
+          "reason": "unsupported_or_incomplete_candidate_family",
+          "meaning": null,
+          "packet_emitted": false,
+          "correct": false
+        }
+      ]
+    },
+    "after/crossed_status": {
+      "metrics": {
+        "requests": 36,
+        "correct": 36,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 36,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "unique_texts": 28,
+      "model_fingerprint": "9c826eff2266ca9c5e3ad8b4d9af1db4f0cbe79ac487d2ae06bfc3d2636976d8",
+      "details": [
+        {
+          "text": "太郎が由紀を助けなかった。花子が次郎を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:次郎",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。花子が次郎を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:次郎",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:次郎",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし花子が次郎を褒めたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:次郎",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が花子を褒めたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けなかった。花子が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。花子が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし花子が由紀を褒めたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けなかった。由紀が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。由紀が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし由紀が花子を褒めたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けなかった。由紀が太郎を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:太郎",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。由紀が太郎を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:太郎",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:太郎",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし由紀が太郎を助けたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:太郎",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が由紀を助けたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が由紀を助けたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が由紀を助けたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けなかった。太郎が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "もし太郎が由紀を助けたら。太郎が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めなかった。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:negative",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。もし太郎が由紀を褒めたら。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:hypothetical"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        }
+      ]
+    },
+    "after/previously_correlated": {
+      "metrics": {
+        "requests": 36,
+        "correct": 36,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 36,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "unique_texts": 7,
+      "model_fingerprint": "9c826eff2266ca9c5e3ad8b4d9af1db4f0cbe79ac487d2ae06bfc3d2636976d8",
+      "details": [
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:次郎",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:次郎",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:次郎",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:次郎",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。花子が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が花子を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:花子",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:太郎",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:太郎",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:太郎",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。由紀が太郎を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:由紀",
+                "object": "entity:太郎",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を助けた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        },
+        {
+          "text": "太郎が由紀を助けた。太郎が由紀を褒めた。",
+          "status": "read",
+          "reason": null,
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:太郎",
+                "object": "entity:由紀",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "unknown",
+              "source": null,
+              "target": null
+            }
+          },
+          "packet_emitted": true,
+          "correct": true
+        }
+      ]
+    }
+  }
+}

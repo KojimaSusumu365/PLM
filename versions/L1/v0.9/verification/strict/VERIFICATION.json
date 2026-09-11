@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "mode": "strict",
+  "source_freeze": "fa65e4cb1490c6ad3f666e6250af2cfe70ec266bee8336910012ab0c1ba2d7fe",
+  "result_digest": "73143a3ccf913be8f9eac7d3b3452a132420d8b35ecdad68af562e4f387a551b",
+  "unit_tests": 36,
+  "functional_comparison": {
+    "functional_passed": true,
+    "contract_equal": true,
+    "headers_equal": true,
+    "coefficients_within_tolerance": true,
+    "decision_signatures_equal": true,
+    "signature_requests": 819,
+    "blocks_compared": 10,
+    "max_abs_coefficient_difference": 0.0,
+    "atol": 1e-12,
+    "rtol": 1e-12,
+    "exact_weight_bytes_equal": true,
+    "exact_model_fingerprint_equal": true,
+    "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+  },
+  "exact_artifact_manifest_files": "not_yet_packaged",
+  "vendor": {
+    "sha256": "b672639e0e734230ffe1c4fef781aeafe10e4b68e9ba5ce9fc34b0c5646fd751",
+    "crc_valid": true,
+    "manifest_files": 492,
+    "legacy_execution_requested": false
+  },
+  "pair_training_without_reader_or_evaluator": true,
+  "generation_without_reader_trainer_selector": true,
+  "numeric_packet_only_transfer": true,
+  "atomic_abstention": true,
+  "demos": [
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。その後、花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。その前に、太郎が花子を助けた。",
+      "semantic_match": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。太郎が花子を助けた。",
+      "semantic_match": true
+    },
+    {
+      "input_for_verifier_only": "太郎が太郎を助けた。その前に、花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。その後、太郎が太郎を助けた。",
+      "semantic_match": true
+    }
+  ],
+  "linux_execution_performed": false,
+  "old_numeric_evaluation_rerun": false,
+  "new_numeric_evaluation_rerun": false,
+  "scope": "Integrity and refit/function/CLI verification. Run evaluate.py separately for complete v0.9 numerical rerun."
+}

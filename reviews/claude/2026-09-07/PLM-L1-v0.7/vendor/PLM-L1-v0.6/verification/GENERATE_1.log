@@ -1,0 +1,1 @@
+{"status": "generated", "text": "もし花子を太郎が助けなかったら。", "trace": [{"anchor": "start", "markers": ["もし"]}, {"anchor": "object", "markers": ["を"]}, {"anchor": "subject", "markers": ["が"]}, {"anchor": "predicate", "markers": ["なかったら", "。"]}], "eligible_for_inference": false}

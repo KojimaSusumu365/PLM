@@ -1,0 +1,5682 @@
+[
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/evaluate.py",
+    "sha256": "c411d277fb447bbe858b30525fd18deac9ed10c91828e884cb7cceeeb1e17bbf",
+    "lines": 182,
+    "symbols": [
+      {
+        "name": "verify_freeze",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "one_condition",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "memory_stress",
+        "line": 80,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "judge",
+        "line": 99,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "report",
+        "line": 124,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 154,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/plm_l1/__init__.py",
+    "sha256": "ae72c106ef1a3571fbf001c1867f1cb1473e3d6c850e4a3c65718d2d4389920b",
+    "lines": 2,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/plm_l1/__main__.py",
+    "sha256": "cc53ce8e312b6b7ef1783234b00be8fe0455525b3b710a01120ef996c16a9795",
+    "lines": 45,
+    "symbols": [
+      {
+        "name": "write_new",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 14,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/plm_l1/algebra.py",
+    "sha256": "947ec54904c60ec7a6ea2dd7fa7ebb2ed3570e35f27461b8ee30bffbb6c19d92",
+    "lines": 99,
+    "symbols": [
+      {
+        "name": "canonical",
+        "line": 10,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "digest",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "require",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Book.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.code",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.key",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory",
+        "line": 47,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Memory.__init__",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory.recall",
+        "line": 58,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "learn",
+        "line": 75,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/plm_l1/oracle.py",
+    "sha256": "1fd83f5da0b0b9cdc34657c17e45a57f0d7eed408beaa3deb38c547f8459cd78",
+    "lines": 47,
+    "symbols": [
+      {
+        "name": "interpret",
+        "line": 18,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/plm_l1/runtime.py",
+    "sha256": "867cd8aa4266e6ae80c3957952df4f8ff7f37bf30b52d7c604ec5be669014be5",
+    "lines": 228,
+    "symbols": [
+      {
+        "name": "reader_key",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "writer_key",
+        "line": 21,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "abstain",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model",
+        "line": 30,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Model.__init__",
+        "line": 31,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.recall",
+        "line": 47,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.role",
+        "line": 50,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.tokenize",
+        "line": 53,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.pack",
+        "line": 64,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.unpack",
+        "line": 69,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.read",
+        "line": 82,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.recover",
+        "line": 133,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.generate",
+        "line": 154,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.save",
+        "line": 189,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.load",
+        "line": 199,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "chip_roundtrip",
+        "line": 213,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/plm_l1/teacher.py",
+    "sha256": "691d7f960f200fefd1da933a9e063bdbbe032a1476bbae8a6389745b43907ce2",
+    "lines": 98,
+    "symbols": [
+      {
+        "name": "lexicon",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "split_of",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "examples",
+        "line": 32,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "surface",
+        "line": 50,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "reader_trace",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "writer_trace",
+        "line": 88,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/plm_l1/training.py",
+    "sha256": "eb1f9044572591640aa91473e70113b56913725c804371b9636623f888440f09",
+    "lines": 44,
+    "symbols": [
+      {
+        "name": "fit",
+        "line": 7,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/release_tools.py",
+    "sha256": "c9d755ddb0c4e9336cf0b68212c59e2bc94feae1e3f0ba51eaf2b0a7097c05d4",
+    "lines": 85,
+    "symbols": [
+      {
+        "name": "source_files",
+        "line": 15,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "hashes",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write_new",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 34,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/requirements.txt",
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "lines": 1,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/tests/test_l1.py",
+    "sha256": "02a322d88766f8c648ba77effd845123d694e59b1f1e030a58afd3e476854de5",
+    "lines": 273,
+    "symbols": [
+      {
+        "name": "AlgebraTests",
+        "line": 15,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "AlgebraTests.test_deterministic",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_unit_phasors",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_inverse_binding",
+        "line": 22,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_namespace_separation",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_dimension_validation",
+        "line": 31,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_seed_validation",
+        "line": 36,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_hebbian_association",
+        "line": 41,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_unknown_association_abstains",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_no_learning",
+        "line": 52,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_conflicting_associations_abstain",
+        "line": 56,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_order_ablation_removes_state",
+        "line": 61,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "AlgebraTests.test_order_ablation_removes_position",
+        "line": 65,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests",
+        "line": 70,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "LanguageTests.setUpClass",
+        "line": 72,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_all_development_readings_and_both_goals",
+        "line": 77,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_role_swaps_change_packet",
+        "line": 88,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_paraphrases_same_meaning_signal",
+        "line": 92,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_negative_not_phase_sign_flip",
+        "line": 97,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_hypothetical_not_asserted",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_negative_hypothetical",
+        "line": 106,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_invalid_inputs",
+        "line": 110,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_nontext_input",
+        "line": 116,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_repeated_roles_rejected",
+        "line": 120,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_unseen_self_pair_is_not_a_new_entity",
+        "line": 123,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_packet_contains_no_text_or_slots",
+        "line": 129,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_extra_packet_fields_rejected",
+        "line": 135,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_wrong_model_packet",
+        "line": 140,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_wrong_schema",
+        "line": 144,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_inference_flag",
+        "line": 147,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_wrong_signal_shape",
+        "line": 152,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_invalid_signal_numbers",
+        "line": 155,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_zero_signal",
+        "line": 161,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_excess_interference",
+        "line": 165,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_unknown_goal",
+        "line": 169,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_generation_signature_has_no_source",
+        "line": 172,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_runtime_does_not_import_teacher_or_oracle",
+        "line": 175,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_model_save_load_and_readonly_overwrite_guard",
+        "line": 184,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_model_tamper_detected",
+        "line": 193,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_no_learning_ablation",
+        "line": 203,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_no_order_ablation",
+        "line": 206,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_no_role_ablation",
+        "line": 211,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_generation_learning_needed_even_with_working_reader",
+        "line": 217,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_reverse_lexical_learning_needed",
+        "line": 226,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_state_learning_needed",
+        "line": 235,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_chip_mapping_preserves_energy_and_meaning",
+        "line": 242,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_invalid_chip_length",
+        "line": 248,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_partition_is_disjoint_by_composition",
+        "line": 253,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_teacher_and_independent_oracle_agree_on_development",
+        "line": 262,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LanguageTests.test_fixed_identity_and_fitted_memory_separate",
+        "line": 266,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.1",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/verify_release.py",
+    "sha256": "eaced02e2f134ad6312248caf4ccfa1b0968b29b35a0989a451b2f49863c073f",
+    "lines": 84,
+    "symbols": [
+      {
+        "name": "run",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 28,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/evaluate.py",
+    "sha256": "916034a24dce9dcab10d42f07b498961230b58a6a3e25ce56c3a4bfd16df4624",
+    "lines": 194,
+    "symbols": [
+      {
+        "name": "verify_freeze",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "one",
+        "line": 23,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "references",
+        "line": 73,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "judge",
+        "line": 96,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "report",
+        "line": 124,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 156,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/evaluation_support.py",
+    "sha256": "95dc962fe3e33baca4e6d1c79728edfe59c719c677602f372f5fad5d887f57ee",
+    "lines": 91,
+    "symbols": [
+      {
+        "name": "load_data",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "marker_map",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "rename_text",
+        "line": 22,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "transform",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LookupReader",
+        "line": 49,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "LookupReader.__init__",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LookupReader.read",
+        "line": 69,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/plm_l1_v02/__init__.py",
+    "sha256": "2ec29b98d58c783ed58cee1f47dfc70d439c2fa77e377a6f6764adbb8aa9f176",
+    "lines": 2,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/plm_l1_v02/__main__.py",
+    "sha256": "5a0936fac58f23fd3ae75ccd9c09193d115a7485e979f918d672026ecd80fa66",
+    "lines": 64,
+    "symbols": [
+      {
+        "name": "read_json",
+        "line": 9,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write_new",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 20,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/plm_l1_v02/bridge.py",
+    "sha256": "a139cac5da64093639d2f6a9657f4fbdbe4486a32aee3cd1a658b85bfd6b81a3",
+    "lines": 28,
+    "symbols": [
+      {
+        "name": "translate",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "generate",
+        "line": 24,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/plm_l1_v02/compat.py",
+    "sha256": "5500c372bf82ec0a2617a645356d02466cf5cf234f9eec258b2487f59add519e",
+    "lines": 15,
+    "symbols": [
+      {
+        "name": "generator",
+        "line": 14,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/plm_l1_v02/features.py",
+    "sha256": "622b624d666bd76bfb45f8929ca4237a99c307aed236c6bdbefb99a70ad65165",
+    "lines": 78,
+    "symbols": [
+      {
+        "name": "validate_lexicon",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "tokenize",
+        "line": 29,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "abstract",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "descriptor",
+        "line": 46,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 58,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 59,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 63,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/plm_l1_v02/memory.py",
+    "sha256": "0c3f737a935bd1ab30bc029963467f1e789a7c5fab15ff85ae179f32c1ec4381",
+    "lines": 51,
+    "symbols": [
+      {
+        "name": "Association",
+        "line": 6,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Association.__init__",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Association.recall",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit_association",
+        "line": 31,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/plm_l1_v02/runtime.py",
+    "sha256": "214f09ea490328606762a31323ab081ce66bbec254ca53e188667cb947a9161c",
+    "lines": 135,
+    "symbols": [
+      {
+        "name": "abstain",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairReader",
+        "line": 18,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "PairReader.__init__",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairReader.query",
+        "line": 35,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairReader.pack",
+        "line": 38,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairReader.unpack",
+        "line": 43,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairReader.read",
+        "line": 53,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairReader.recover",
+        "line": 89,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairReader.save",
+        "line": 110,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairReader.load",
+        "line": 122,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/plm_l1_v02/training.py",
+    "sha256": "7a7af7d87c1f720d61b6a717a48ded53417fedb51754050d9cbba267a7a2a1a2",
+    "lines": 66,
+    "symbols": [
+      {
+        "name": "observations",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit",
+        "line": 48,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/prepare_data.py",
+    "sha256": "01e9237d562563414d3ebd75b03234d4c806f5bf2ff91744d819de02be02565c",
+    "lines": 32,
+    "symbols": [
+      {
+        "name": "write_new",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 18,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/release_tools.py",
+    "sha256": "88eaa25c8bf93ea7d7987f1b722d7ec7fce57488d2b48c424f7e36453ef40092",
+    "lines": 84,
+    "symbols": [
+      {
+        "name": "source_files",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "hashes",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write_new",
+        "line": 23,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 29,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/requirements.txt",
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "lines": 1,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/tests/test_pairs.py",
+    "sha256": "1e9f9b8537d98834b61bb6d39169368546046bdf17690b6a46d8812eafc75a0a",
+    "lines": 312,
+    "symbols": [
+      {
+        "name": "PairTests",
+        "line": 18,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "PairTests.setUpClass",
+        "line": 20,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_development_read_and_generate",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_teacher_and_old_reader_not_called",
+        "line": 37,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_training_signature",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_no_trace_fields_allowed",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_no_extra_meaning_fields",
+        "line": 54,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_pair_schema_is_only_text_meaning",
+        "line": 60,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_automatically_derived_correspondences",
+        "line": 65,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_no_marker_semantic_labels",
+        "line": 70,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_reject_marker_semantic_labels",
+        "line": 73,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_roles_follow_counterfactual_supervision",
+        "line": 79,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_states_follow_counterfactual_supervision",
+        "line": 86,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_opaque_markers_learned",
+        "line": 93,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_removed_negative_examples_not_guessed",
+        "line": 99,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_no_pair_learning_keeps_lexicon_but_cannot_read",
+        "line": 105,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_no_order_is_ambiguous",
+        "line": 110,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_state_memory_necessary",
+        "line": 115,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_role_memory_necessary",
+        "line": 122,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_ordered_shape_is_not_bag_of_words",
+        "line": 129,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_shape_abstracts_names_and_verbs",
+        "line": 138,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_shapes_learned_not_preinstalled",
+        "line": 142,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_paraphrases_same_meaning",
+        "line": 147,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_swapped_entities_differ",
+        "line": 151,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_negative_hypothetical",
+        "line": 155,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_self_reference_inference",
+        "line": 160,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_ambiguous_training_alignment_rejected",
+        "line": 166,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_missing_alignment_rejected",
+        "line": 171,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_contradictory_duplicate_rejected",
+        "line": 177,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_training_order_determinism",
+        "line": 183,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_training_no_source_sentence_in_model_metadata",
+        "line": 187,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_invalid_inputs",
+        "line": 194,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_nonstring_input",
+        "line": 199,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_packet_has_no_gold",
+        "line": 203,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_extra_packet_fields",
+        "line": 207,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_nonfinite_packet",
+        "line": 211,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_wrong_packet_identity",
+        "line": 217,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_wrong_packet_dimension",
+        "line": 220,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_inference_disabled",
+        "line": 223,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_zero_packet",
+        "line": 227,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_interference_packet",
+        "line": 231,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_bridge_no_text_or_labels",
+        "line": 235,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_bridge_preserves_generator_fingerprint",
+        "line": 241,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_bridge_refuses_bad_signal",
+        "line": 247,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_unknown_generation_goal",
+        "line": 250,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_save_load",
+        "line": 253,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_save_overwrite_refused",
+        "line": 260,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_model_tampering_detected",
+        "line": 266,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_invalid_dimension",
+        "line": 276,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_empty_pairs",
+        "line": 280,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_type_validation",
+        "line": 284,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_pair_partition_disjoint",
+        "line": 288,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_ordinary_lookup_control",
+        "line": 293,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PairTests.test_learner_source_does_not_import_teacher_generator_or_oracle",
+        "line": 298,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/verify_release.py",
+    "sha256": "5b635b0812e706eb31320e9aa3814d4299be963e5b1a6f27daa3ca9f173a25e7",
+    "lines": 118,
+    "symbols": [
+      {
+        "name": "run",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "copy_legacy_runtime",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 35,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/evaluate.py",
+    "sha256": "ce66f6d590b72e910dbf32b5bcdd2f39954f987e98680b17426185e93be3e7c0",
+    "lines": 226,
+    "symbols": [
+      {
+        "name": "source_files",
+        "line": 15,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "verify_freeze",
+        "line": 22,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "bad_packets",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "one",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "references",
+        "line": 105,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "judge",
+        "line": 130,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "report",
+        "line": 156,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 187,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/evaluation_support.py",
+    "sha256": "5616e04ccde7f1a7c506960234d6d9fecb98de8c155e3c9ad6ec14ab28903297",
+    "lines": 103,
+    "symbols": [
+      {
+        "name": "data",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "oracle",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "alter_meaning",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "marker_map",
+        "line": 34,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "rename",
+        "line": 38,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "transform",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "score",
+        "line": 58,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LookupWriter",
+        "line": 72,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "LookupWriter.__init__",
+        "line": 74,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "LookupWriter.generate",
+        "line": 84,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/plm_l1_v03/__init__.py",
+    "sha256": "26f1f030d206c44d3be768406bc3c313f6bf43683b5c6d82fb62f995c2aaa1e3",
+    "lines": 2,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/plm_l1_v03/__main__.py",
+    "sha256": "aa208cd1f42ecc6b0a12a3a1edf954a1eef2a84349a87356d7d8afc21b500694",
+    "lines": 68,
+    "symbols": [
+      {
+        "name": "load",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 18,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/plm_l1_v03/algebra.py",
+    "sha256": "947ec54904c60ec7a6ea2dd7fa7ebb2ed3570e35f27461b8ee30bffbb6c19d92",
+    "lines": 99,
+    "symbols": [
+      {
+        "name": "canonical",
+        "line": 10,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "digest",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "require",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Book.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.code",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.key",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory",
+        "line": 47,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Memory.__init__",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory.recall",
+        "line": 58,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "learn",
+        "line": 75,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/plm_l1_v03/bridge.py",
+    "sha256": "bf202a714a7ffc5b3112730ac6bfff90f315f4eea76120fa750c8972d9c8913f",
+    "lines": 23,
+    "symbols": [
+      {
+        "name": "fixed_reader",
+        "line": 9,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "translate",
+        "line": 16,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/plm_l1_v03/features.py",
+    "sha256": "eca5d53924f13268037282e1321038e15b7ec0eca24448aea90eb1c65701b0fe",
+    "lines": 115,
+    "symbols": [
+      {
+        "name": "validate_meaning",
+        "line": 15,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "validate_lexicon",
+        "line": 20,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "tokenize",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "aligned_examples",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 90,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 91,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.context",
+        "line": 95,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 103,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/plm_l1_v03/memory.py",
+    "sha256": "c773d85c99219b286cb08b7835b6c046133af9365b966d0c08663023104a0b33",
+    "lines": 45,
+    "symbols": [
+      {
+        "name": "Association",
+        "line": 6,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Association.__init__",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Association.recall",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit_memory",
+        "line": 28,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/plm_l1_v03/runtime.py",
+    "sha256": "0aaf777f08e84ffddf8829aa1f154c42aaf02f89d4ff40a252bd1c8ce6fdfeb1",
+    "lines": 127,
+    "symbols": [
+      {
+        "name": "abstain",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Writer",
+        "line": 17,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Writer.__init__",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Writer.encode",
+        "line": 33,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Writer.recover",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Writer.generate",
+        "line": 65,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Writer.save",
+        "line": 106,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Writer.load",
+        "line": 116,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/plm_l1_v03/training.py",
+    "sha256": "f73eae184f09e356e2adf41325c575a813543dc0d1b5ab29490504e0d2f66af6",
+    "lines": 33,
+    "symbols": [
+      {
+        "name": "fit",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/release_tools.py",
+    "sha256": "4799c39fd6e7665c2927e5dc9111be83ae5ad5765101eb97f924b8caefd01ab7",
+    "lines": 73,
+    "symbols": [
+      {
+        "name": "hashes",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 23,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/requirements.txt",
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "lines": 1,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/tests/test_writer.py",
+    "sha256": "4369d54b2cec41173026b2b70ae7c0bd6a35f73e6c121f99f26db0840d3eee7d",
+    "lines": 333,
+    "symbols": [
+      {
+        "name": "WriterTests",
+        "line": 19,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "WriterTests.setUpClass",
+        "line": 21,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_standalone_all_development",
+        "line": 31,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_fixed_reader_roundtrips_all_development",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_no_legacy_teacher_reader_or_generator_used",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_fit_api_fields",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_automatic_alignment_and_stop",
+        "line": 61,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_no_marker_meanings",
+        "line": 70,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_conflicting_duplicate_text",
+        "line": 77,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_ambiguous_alignment",
+        "line": 83,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_missing_alignment",
+        "line": 88,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_unknown_training_word",
+        "line": 94,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_extra_meaning_field",
+        "line": 98,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_unknown_meaning",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_duplicate_surface",
+        "line": 106,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_ambiguous_lexical_realization",
+        "line": 112,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_balanced_duplicates",
+        "line": 120,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_order_determinism",
+        "line": 125,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_no_full_sentences_or_context_tables_saved",
+        "line": 128,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_no_pair_learning_keeps_lexicon",
+        "line": 135,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_no_prefix_is_ambiguous",
+        "line": 140,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_no_status_is_ambiguous",
+        "line": 145,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_roles_follow_teacher_change",
+        "line": 150,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_states_follow_teacher_change",
+        "line": 157,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_opaque_markers",
+        "line": 162,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_withheld_negative_abstains",
+        "line": 169,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_withheld_style_not_preinstalled",
+        "line": 174,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_prefix_order_is_not_commutative",
+        "line": 180,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_prefix_abstracts_content_values",
+        "line": 186,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_role_bound_signals_differ",
+        "line": 192,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_packet_contains_only_signal",
+        "line": 196,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_invalid_packets",
+        "line": 200,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_more_packet_extra_fields",
+        "line": 205,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_packet_nonobjects",
+        "line": 209,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_mismatched_signal_lengths",
+        "line": 213,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_unknown_goal",
+        "line": 216,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_step_budget",
+        "line": 220,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_premature_stop_guard",
+        "line": 226,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_repeated_role_guard",
+        "line": 230,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_missing_stop_bounded",
+        "line": 234,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_lexical_memory_required",
+        "line": 238,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_self_reference_generation",
+        "line": 245,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_negative_hypothetical",
+        "line": 249,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_reading_signal_bridge",
+        "line": 253,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_fixed_reader_unchanged",
+        "line": 259,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_invalid_read_inputs",
+        "line": 263,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_inference_remains_disabled",
+        "line": 267,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_save_load",
+        "line": 271,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_save_does_not_overwrite",
+        "line": 278,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_metadata_tampering",
+        "line": 284,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_weights_tampering",
+        "line": 294,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_invalid_fit_configuration",
+        "line": 305,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_composition_split_disjoint",
+        "line": 312,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_ordinary_reference",
+        "line": 317,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "WriterTests.test_core_has_no_language_or_legacy_imports",
+        "line": 324,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/verify_release.py",
+    "sha256": "7795f4338c4a1c9fdc358726a50b9e6f537a1d28ab72a0ac3ab42539a40799fa",
+    "lines": 141,
+    "symbols": [
+      {
+        "name": "run",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "copy_package",
+        "line": 29,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 36,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/evaluate.py",
+    "sha256": "b36f17c896a23aafb28a7cf5ebbcef99ce368a873f8adc82fc2313de19fb56a1",
+    "lines": 202,
+    "symbols": [
+      {
+        "name": "source_files",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "verify_freeze",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "bad_packets",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "assess",
+        "line": 41,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "one",
+        "line": 78,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "judge",
+        "line": 89,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "report",
+        "line": 114,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 155,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/evaluation_support.py",
+    "sha256": "4587960402424ebb3c7e1b6c39cdb1c335cb072fc522614dae1fec3f6d42b046",
+    "lines": 133,
+    "symbols": [
+      {
+        "name": "data",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "text_goal",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "heldout",
+        "line": 34,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "train_for",
+        "line": 39,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "normalize_markers",
+        "line": 43,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "opaque",
+        "line": 49,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "OldSS",
+        "line": 60,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "OldSS.__init__",
+        "line": 62,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "OldSS.read",
+        "line": 70,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "OldSS.encode",
+        "line": 79,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "OldSS.recover",
+        "line": 82,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "OldSS.generate",
+        "line": 85,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "DictMemory",
+        "line": 89,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "DictMemory.__init__",
+        "line": 90,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "DictMemory.recall",
+        "line": 93,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartialTable",
+        "line": 98,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "PartialTable.__init__",
+        "line": 100,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartialTable.encode",
+        "line": 106,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartialTable.recover",
+        "line": 109,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "helper",
+        "line": 113,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "OldTable",
+        "line": 120,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "OldTable.__init__",
+        "line": 121,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "OldTable.read",
+        "line": 127,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "OldTable.generate",
+        "line": 131,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/__init__.py",
+    "sha256": "8650a909c80217727c2f30ede90989184ee0efd537cc69af5f036879d88c6121",
+    "lines": 2,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/__main__.py",
+    "sha256": "12387937128ac55765e9ffb92871235c0df08ab23bba3eb088d6193d9ea44413",
+    "lines": 62,
+    "symbols": [
+      {
+        "name": "load",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 18,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/algebra.py",
+    "sha256": "947ec54904c60ec7a6ea2dd7fa7ebb2ed3570e35f27461b8ee30bffbb6c19d92",
+    "lines": 99,
+    "symbols": [
+      {
+        "name": "canonical",
+        "line": 10,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "digest",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "require",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Book.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.code",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.key",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory",
+        "line": 47,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Memory.__init__",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory.recall",
+        "line": 58,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "learn",
+        "line": 75,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/features.py",
+    "sha256": "58ecd03848729604f26301be44691fd584d1905a442febaf40a006eb7032a5cc",
+    "lines": 75,
+    "symbols": [
+      {
+        "name": "abstract_token",
+        "line": 8,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "shape",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "role_context",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "split_gaps",
+        "line": 23,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "status_context",
+        "line": 38,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "gap_context",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "observations",
+        "line": 48,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/lexicon.py",
+    "sha256": "eca5d53924f13268037282e1321038e15b7ec0eca24448aea90eb1c65701b0fe",
+    "lines": 115,
+    "symbols": [
+      {
+        "name": "validate_meaning",
+        "line": 15,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "validate_lexicon",
+        "line": 20,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "tokenize",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "aligned_examples",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 90,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 91,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.context",
+        "line": 95,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 103,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/projection.py",
+    "sha256": "3309fb4de269d3aba62311a98c9bc067975182f9be113968c02f94b06c8312b8",
+    "lines": 139,
+    "symbols": [
+      {
+        "name": "structure_code",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.target",
+        "line": 39,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "dependency_leaves",
+        "line": 47,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ProjectionMemory",
+        "line": 92,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "ProjectionMemory.__init__",
+        "line": 93,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ProjectionMemory.recall",
+        "line": 104,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit_memory",
+        "line": 125,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/reader.py",
+    "sha256": "682f1d0fd3c6bd9c2589e19c1760038d7049a7c413e800125399ca2e1f91246a",
+    "lines": 35,
+    "symbols": [
+      {
+        "name": "read",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/runtime.py",
+    "sha256": "abe8b7270932ff03ba15fb1dfa84bccdb6575250116e58115763d64a6b5b2fa7",
+    "lines": 130,
+    "symbols": [
+      {
+        "name": "abstain",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model",
+        "line": 18,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Model.__init__",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.encode",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.recover",
+        "line": 36,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.order",
+        "line": 60,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.gap",
+        "line": 69,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.generate",
+        "line": 76,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.read",
+        "line": 97,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.save",
+        "line": 101,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.load",
+        "line": 118,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/plm_l1_v04/training.py",
+    "sha256": "4ef26607607a4c7a8984ab4e6acf8c73f3763b947e5865959eb94a45dff6da00",
+    "lines": 20,
+    "symbols": [
+      {
+        "name": "fit",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/prepare_data.py",
+    "sha256": "2600c44d38f3dcf5294a832f90df868875efd322f90fdab6a8b99d9ab10a062d",
+    "lines": 41,
+    "symbols": [
+      {
+        "name": "main",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/release_tools.py",
+    "sha256": "9773e51f22d21d82ab0d2dafa06e53073c3453f54366e30ec5e2f5ad2a062ba2",
+    "lines": 75,
+    "symbols": [
+      {
+        "name": "hashes",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 22,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/requirements.txt",
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "lines": 1,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/tests/test_parts.py",
+    "sha256": "3ecdefa643db3c97528a4959fd3bfcb6e3cd5f735476b3ba59298b82c2f13647",
+    "lines": 312,
+    "symbols": [
+      {
+        "name": "PartsTests",
+        "line": 19,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "PartsTests.setUpClass",
+        "line": 21,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_all_folds_development_reading",
+        "line": 29,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_all_folds_development_generation",
+        "line": 37,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_novel_roundtrip_all_folds",
+        "line": 45,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_entire_cell_excluded",
+        "line": 53,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_components_and_tokens_are_known",
+        "line": 60,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_lexical_composition_split_stays_disjoint",
+        "line": 69,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_old_ss_matched_training_control",
+        "line": 74,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_full_context_control_preserves_seen",
+        "line": 83,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_no_learning_keeps_lexical_prior",
+        "line": 91,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_partial_table_is_successful_too",
+        "line": 97,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_old_table_cannot_reuse",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_typed_feature_bindings_do_not_alias",
+        "line": 107,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_sequence_order_preserved",
+        "line": 111,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_dependencies_are_learned_not_supplied",
+        "line": 115,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_dependency_can_retain_goal_when_data_requires_it",
+        "line": 123,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_projection_selector_independent_example",
+        "line": 134,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_positive_only_support_not_universal",
+        "line": 141,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_no_runtime_tree_or_leaf_table",
+        "line": 147,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_pair_only_api",
+        "line": 153,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_opaque_markers",
+        "line": 158,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_counterfactual_role_labels",
+        "line": 165,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_ambiguous_alignment_rejected",
+        "line": 174,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_conflicting_labels_rejected",
+        "line": 179,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_marker_semantics_prohibited",
+        "line": 186,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_invalid_texts_all_folds",
+        "line": 192,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_mismatched_parts_rejected",
+        "line": 197,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_unlearned_role_order_rejected",
+        "line": 201,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_unknown_vocabulary_rejected",
+        "line": 204,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_missing_parts_not_reconstructed_from_gold",
+        "line": 209,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_self_reference_inference",
+        "line": 212,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_signal_only_packet",
+        "line": 217,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_invalid_packets",
+        "line": 221,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_extra_packet_fields",
+        "line": 225,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_nonobject_packets_and_text",
+        "line": 229,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_unknown_goal",
+        "line": 234,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_inference_disabled",
+        "line": 238,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_generator_never_calls_reader",
+        "line": 242,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_no_old_teacher_or_model_calls",
+        "line": 246,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_save_load",
+        "line": 254,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_no_overwrite",
+        "line": 261,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_metadata_tampering_detected",
+        "line": 267,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_weight_tampering_detected",
+        "line": 277,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_deterministic_pair_order",
+        "line": 288,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_duplicate_examples_do_not_inflate_weights",
+        "line": 292,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_invalid_fit_settings",
+        "line": 298,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "PartsTests.test_no_hidden_japanese_grammar",
+        "line": 303,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/verify_release.py",
+    "sha256": "b2b34ca0739bf1680eb9456b94e2752f2383cdd3fc4ab7b2b9d2921c165fcba8",
+    "lines": 132,
+    "symbols": [
+      {
+        "name": "run",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "copy_package",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 35,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/evaluate.py",
+    "sha256": "85681da5fcaab3f059d82006d4a4836b44ea21c6210ac116d98c8c5f33706d7a",
+    "lines": 153,
+    "symbols": [
+      {
+        "name": "source_files",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "verify_freeze",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "pair",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "known_regressions",
+        "line": 33,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "judge",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 92,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/evaluation_support.py",
+    "sha256": "77db11e81afb5f2766b8af98c6fba9fbd0a8fccf40334669c3369aaa3d64f193",
+    "lines": 45,
+    "symbols": [
+      {
+        "name": "data",
+        "line": 25,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "train_for",
+        "line": 29,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "paired_models",
+        "line": 33,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/measurements.py",
+    "sha256": "2b456348769dd7b48d42bc078b7c5e4726d133604e5e34324fc95cb6385aea05",
+    "lines": 156,
+    "symbols": [
+      {
+        "name": "bad_packets",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "vector_digest",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "empty_counts",
+        "line": 31,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "count",
+        "line": 35,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "assess",
+        "line": 43,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "accepted_subset",
+        "line": 85,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "noisy_packet",
+        "line": 95,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "channel",
+        "line": 111,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "memory_load",
+        "line": 137,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/__init__.py",
+    "sha256": "8346516f6779e9cdca07a8bcf38d151ac5bce3f16528e3858899b74a2c0700f1",
+    "lines": 2,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/__main__.py",
+    "sha256": "12387937128ac55765e9ffb92871235c0df08ab23bba3eb088d6193d9ea44413",
+    "lines": 62,
+    "symbols": [
+      {
+        "name": "load",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 18,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/algebra.py",
+    "sha256": "947ec54904c60ec7a6ea2dd7fa7ebb2ed3570e35f27461b8ee30bffbb6c19d92",
+    "lines": 99,
+    "symbols": [
+      {
+        "name": "canonical",
+        "line": 10,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "digest",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "require",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Book.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.code",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.key",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory",
+        "line": 47,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Memory.__init__",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory.recall",
+        "line": 58,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "learn",
+        "line": 75,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/features.py",
+    "sha256": "58ecd03848729604f26301be44691fd584d1905a442febaf40a006eb7032a5cc",
+    "lines": 75,
+    "symbols": [
+      {
+        "name": "abstract_token",
+        "line": 8,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "shape",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "role_context",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "split_gaps",
+        "line": 23,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "status_context",
+        "line": 38,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "gap_context",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "observations",
+        "line": 48,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/lexicon.py",
+    "sha256": "eca5d53924f13268037282e1321038e15b7ec0eca24448aea90eb1c65701b0fe",
+    "lines": 115,
+    "symbols": [
+      {
+        "name": "validate_meaning",
+        "line": 15,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "validate_lexicon",
+        "line": 20,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "tokenize",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "aligned_examples",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 90,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 91,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.context",
+        "line": 95,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 103,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/projection.py",
+    "sha256": "3309fb4de269d3aba62311a98c9bc067975182f9be113968c02f94b06c8312b8",
+    "lines": 139,
+    "symbols": [
+      {
+        "name": "structure_code",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.target",
+        "line": 39,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "dependency_leaves",
+        "line": 47,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ProjectionMemory",
+        "line": 92,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "ProjectionMemory.__init__",
+        "line": 93,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ProjectionMemory.recall",
+        "line": 104,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit_memory",
+        "line": 125,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/reader.py",
+    "sha256": "7741a41ba0b3e2f0966eefebe82106552918aa262a2a9d5617d973a04a6e1b7d",
+    "lines": 45,
+    "symbols": [
+      {
+        "name": "read",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/runtime.py",
+    "sha256": "c4a88f255ac79be674a9f2b36277fc300bd3f5f64d0cb09a4ebd427bf31df83e",
+    "lines": 131,
+    "symbols": [
+      {
+        "name": "abstain",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model",
+        "line": 18,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Model.__init__",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.encode",
+        "line": 31,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.recover",
+        "line": 37,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.order",
+        "line": 61,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.gap",
+        "line": 70,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.generate",
+        "line": 77,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.read",
+        "line": 98,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.save",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.load",
+        "line": 119,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/plm_l1_v05/training.py",
+    "sha256": "3362c1e762a5e0fd1ea0657a89c3367cdac1c7b4d7096aae3f7d01bf075c04e6",
+    "lines": 20,
+    "symbols": [
+      {
+        "name": "fit",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/release_tools.py",
+    "sha256": "f9378759c759a639fcd6b28cfc5014a35d83ebe89890fc6e1207e697d63a178f",
+    "lines": 75,
+    "symbols": [
+      {
+        "name": "hashes",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 22,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/report.py",
+    "sha256": "a73e26108023ce3891f5ab938da8ac6b422ec8f13e80de5b55f69118043ade81",
+    "lines": 60,
+    "symbols": [
+      {
+        "name": "totals",
+        "line": 4,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ratio",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "read_total",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write_report",
+        "line": 20,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/requirements.txt",
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "lines": 1,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/tests/test_consistency.py",
+    "sha256": "b7abf8ddc49d4950b47b7581472c7bfc9babb43680cbd66f2585ded97b8a5dbe",
+    "lines": 166,
+    "symbols": [
+      {
+        "name": "ConsistencyTests",
+        "line": 15,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "ConsistencyTests.setUpClass",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_known_failures_abstain_without_packet",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_legacy_failure_reproduced",
+        "line": 31,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_success_has_explicit_signal_verification",
+        "line": 36,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_gate_calls_codec_once_without_retries",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_recovery_failure_blocks_read",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_recovered_different_meaning_blocks_read",
+        "line": 54,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_actual_wrong_valid_encoded_signal_is_rejected",
+        "line": 61,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_failed_read_never_leaks_candidate_or_verified_flag",
+        "line": 66,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_verified_flag_cannot_bypass_receiver",
+        "line": 72,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_generation_rechecks_post_read_noise",
+        "line": 75,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_model_acceptance_policy_required",
+        "line": 80,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_old_model_cannot_silently_load_as_checked",
+        "line": 86,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_cross_version_packets_are_rejected",
+        "line": 92,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_numerical_weights_and_payload_unchanged",
+        "line": 96,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_recover_behavior_unchanged_under_noise",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_noise_is_exactly_relative_l2_and_deterministic",
+        "line": 108,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_noise_zero_is_copy_and_no_extra_fields",
+        "line": 115,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_invalid_noise_rejected",
+        "line": 121,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_memory_table_control_is_measured",
+        "line": 126,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_memory_capacity_hard_limit_unchanged",
+        "line": 132,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_self_consistency_does_not_prove_semantic_truth",
+        "line": 136,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_signal_identity_is_not_authentication",
+        "line": 147,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_reader_api_has_no_gold_or_external_expectation",
+        "line": 153,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ConsistencyTests.test_direct_encode_is_construction_not_acceptance",
+        "line": 158,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/tests/test_parts.py",
+    "sha256": "ffd219da94f7b91b24ca0f4570f35bc4e1a519d4af3d88919e3655e6896577b2",
+    "lines": 312,
+    "symbols": [
+      {
+        "name": "InheritedPartsTests",
+        "line": 19,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "InheritedPartsTests.setUpClass",
+        "line": 21,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_all_folds_development_reading",
+        "line": 29,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_all_folds_development_generation",
+        "line": 37,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_novel_roundtrip_all_folds",
+        "line": 45,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_entire_cell_excluded",
+        "line": 53,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_components_and_tokens_are_known",
+        "line": 60,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_lexical_composition_split_stays_disjoint",
+        "line": 69,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_old_ss_matched_training_control",
+        "line": 74,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_full_context_control_preserves_seen",
+        "line": 83,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_learning_keeps_lexical_prior",
+        "line": 91,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_partial_table_is_successful_too",
+        "line": 97,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_old_table_cannot_reuse",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_typed_feature_bindings_do_not_alias",
+        "line": 107,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_sequence_order_preserved",
+        "line": 111,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_dependencies_are_learned_not_supplied",
+        "line": 115,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_dependency_can_retain_goal_when_data_requires_it",
+        "line": 123,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_projection_selector_independent_example",
+        "line": 134,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_positive_only_support_not_universal",
+        "line": 141,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_runtime_tree_or_leaf_table",
+        "line": 147,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_pair_only_api",
+        "line": 153,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_opaque_markers",
+        "line": 158,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_counterfactual_role_labels",
+        "line": 165,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_ambiguous_alignment_rejected",
+        "line": 174,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_conflicting_labels_rejected",
+        "line": 179,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_marker_semantics_prohibited",
+        "line": 186,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_invalid_texts_all_folds",
+        "line": 192,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_mismatched_parts_rejected",
+        "line": 197,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_unlearned_role_order_rejected",
+        "line": 201,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_unknown_vocabulary_rejected",
+        "line": 204,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_missing_parts_not_reconstructed_from_gold",
+        "line": 209,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_self_reference_inference",
+        "line": 212,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_signal_only_packet",
+        "line": 217,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_invalid_packets",
+        "line": 221,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_extra_packet_fields",
+        "line": 225,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_nonobject_packets_and_text",
+        "line": 229,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_unknown_goal",
+        "line": 234,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_inference_disabled",
+        "line": 238,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_generator_never_calls_reader",
+        "line": 242,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_old_teacher_or_model_calls",
+        "line": 246,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_save_load",
+        "line": 254,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_overwrite",
+        "line": 261,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_metadata_tampering_detected",
+        "line": 267,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_weight_tampering_detected",
+        "line": 277,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_deterministic_pair_order",
+        "line": 288,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_duplicate_examples_do_not_inflate_weights",
+        "line": 292,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_invalid_fit_settings",
+        "line": 298,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_hidden_japanese_grammar",
+        "line": 303,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/verify_release.py",
+    "sha256": "566344d360096fc35f0f11ddb3d2ee4f30bb6f60b6d17af0b8340e82df43a849",
+    "lines": 145,
+    "symbols": [
+      {
+        "name": "run",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "copy_package",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 35,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/evaluate.py",
+    "sha256": "c092bc3e8607e4a3ac6983608d25b95ab243fae68f26767e48ae7ec3d9a1d443",
+    "lines": 145,
+    "symbols": [
+      {
+        "name": "source_files",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "verify_freeze",
+        "line": 21,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "judge",
+        "line": 29,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 91,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/evaluation_support.py",
+    "sha256": "0ec820ba11c7a5e323bfb93d306cbbe8c13609adb0b49fb69766514529938788",
+    "lines": 31,
+    "symbols": [
+      {
+        "name": "data",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "train_for",
+        "line": 30,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/measurements.py",
+    "sha256": "7dff7847d3b2d2bb021664e44736b851fd7aecde91e38538c35f9003234f8009",
+    "lines": 156,
+    "symbols": [
+      {
+        "name": "bad_packets",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "vector_digest",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "empty_counts",
+        "line": 31,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "count",
+        "line": 35,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "assess",
+        "line": 43,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "accepted_subset",
+        "line": 85,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "noisy_packet",
+        "line": 95,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "channel",
+        "line": 111,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "memory_load",
+        "line": 137,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/memory_bench.py",
+    "sha256": "faece53383254c56bec30a0e9bab68dc4545b92616c0f65a2e5de36ecb057a8a",
+    "lines": 58,
+    "symbols": [
+      {
+        "name": "deep_size",
+        "line": 10,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "addresses",
+        "line": 23,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "measure",
+        "line": 35,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/__init__.py",
+    "sha256": "8f05c473108f28e82f66110c2c81924843fd68b7c4b9de5dfd6e67c695fb0443",
+    "lines": 2,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/__main__.py",
+    "sha256": "b8715e93ef6cc78dd544f964627fab26e483bfff6949fd630e6fde150815d088",
+    "lines": 63,
+    "symbols": [
+      {
+        "name": "load",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 18,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/algebra.py",
+    "sha256": "947ec54904c60ec7a6ea2dd7fa7ebb2ed3570e35f27461b8ee30bffbb6c19d92",
+    "lines": 99,
+    "symbols": [
+      {
+        "name": "canonical",
+        "line": 10,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "digest",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "require",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Book.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.code",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.key",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory",
+        "line": 47,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Memory.__init__",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory.recall",
+        "line": 58,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "learn",
+        "line": 75,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/banked.py",
+    "sha256": "e1841b8961ffe8e0839286d3ed4c560f0c785ebe1ab922e15d3bb2458749b90d",
+    "lines": 192,
+    "symbols": [
+      {
+        "name": "FreshBook",
+        "line": 21,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "FreshBook.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "FreshBook.code",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "key_code",
+        "line": 33,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "value_code",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "route",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "bank_count",
+        "line": 52,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "bank_seed",
+        "line": 61,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "MemoryBlock",
+        "line": 65,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "MemoryBlock.__init__",
+        "line": 67,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "MemoryBlock.blob",
+        "line": 88,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "MemoryBlock.meta",
+        "line": 90,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "MemoryBlock.recall",
+        "line": 93,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedMemory",
+        "line": 121,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "BankedMemory.__init__",
+        "line": 123,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedMemory.recall",
+        "line": 128,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedMemory.clear_cache",
+        "line": 150,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedMemory.storage",
+        "line": 152,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit_banked",
+        "line": 158,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/features.py",
+    "sha256": "58ecd03848729604f26301be44691fd584d1905a442febaf40a006eb7032a5cc",
+    "lines": 75,
+    "symbols": [
+      {
+        "name": "abstract_token",
+        "line": 8,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "shape",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "role_context",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "split_gaps",
+        "line": 23,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "status_context",
+        "line": 38,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "gap_context",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "observations",
+        "line": 48,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/lexicon.py",
+    "sha256": "eca5d53924f13268037282e1321038e15b7ec0eca24448aea90eb1c65701b0fe",
+    "lines": 115,
+    "symbols": [
+      {
+        "name": "validate_meaning",
+        "line": 15,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "validate_lexicon",
+        "line": 20,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "tokenize",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "aligned_examples",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 90,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 91,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.context",
+        "line": 95,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 103,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/projection.py",
+    "sha256": "3309fb4de269d3aba62311a98c9bc067975182f9be113968c02f94b06c8312b8",
+    "lines": 139,
+    "symbols": [
+      {
+        "name": "structure_code",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.target",
+        "line": 39,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "dependency_leaves",
+        "line": 47,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ProjectionMemory",
+        "line": 92,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "ProjectionMemory.__init__",
+        "line": 93,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ProjectionMemory.recall",
+        "line": 104,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit_memory",
+        "line": 125,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/reader.py",
+    "sha256": "7741a41ba0b3e2f0966eefebe82106552918aa262a2a9d5617d973a04a6e1b7d",
+    "lines": 45,
+    "symbols": [
+      {
+        "name": "read",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/runtime.py",
+    "sha256": "03885e8a138a974a822b2a7e5e767546977631e4d3e19f2b2cea59b24a3d7f0f",
+    "lines": 136,
+    "symbols": [
+      {
+        "name": "abstain",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model",
+        "line": 18,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Model.__init__",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.encode",
+        "line": 35,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.recover",
+        "line": 41,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.order",
+        "line": 65,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.gap",
+        "line": 74,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.generate",
+        "line": 81,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.read",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.save",
+        "line": 106,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.load",
+        "line": 123,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/plm_l1_v06/training.py",
+    "sha256": "55acea5cfea7bbc3cc9a9b235f48928a6b0af4c92d25b553f6c4279257b0fd93",
+    "lines": 20,
+    "symbols": [
+      {
+        "name": "fit",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/release_tools.py",
+    "sha256": "ea08f662c4f46adf6aaab3e06dfbc70bfe018019f7dacece0e7beca7548f1cbb",
+    "lines": 78,
+    "symbols": [
+      {
+        "name": "hashes",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 22,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/report.py",
+    "sha256": "df19f37f3a5f8d1d81edc7298894a3c86373643e576e83191e55dc503bd0612c",
+    "lines": 39,
+    "symbols": [
+      {
+        "name": "aggregate",
+        "line": 5,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write_report",
+        "line": 10,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/requirements.txt",
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "lines": 1,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/tests/test_banked.py",
+    "sha256": "449bc1fa0ed553be58eee8ea9983705504979700b290fdc0443a6567489a599e",
+    "lines": 235,
+    "symbols": [
+      {
+        "name": "observations",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "make",
+        "line": 23,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests",
+        "line": 27,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "BankedTests.test_exact_budget_all_five_modes",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_fixed_cache_budget_after_queries",
+        "line": 34,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_cache_result_mutation_cannot_poison",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_cache_and_cold_answers_identical",
+        "line": 51,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_no_persistent_codebook_or_key_table",
+        "line": 59,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_readonly_blob_public_interface",
+        "line": 67,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_banks_adapt_only_to_projected_load_and_budget",
+        "line": 72,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_proof_weights_in_total_budget",
+        "line": 78,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_evidence_ablation_identical_numerical_arrays",
+        "line": 85,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_single_matches_legacy_value_equations",
+        "line": 94,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_partial_key_routes_novel_combinations",
+        "line": 104,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_routing_does_not_use_labels",
+        "line": 116,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_pair_evidence_is_key_and_value_specific",
+        "line": 122,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_zero_evidence_rejects_same_value_recall",
+        "line": 130,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_wrong_value_not_validated_by_key_only",
+        "line": 139,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_overload_still_has_false_accepts",
+        "line": 151,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_invalid_dimension_mode_and_cache_rejected",
+        "line": 155,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_missing_query_field_rejected",
+        "line": 162,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_invalid_block_padding_length_and_weights",
+        "line": 166,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_no_query_time_learning_or_adaptation",
+        "line": 173,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_multi_mask_conflicting_values_abstain",
+        "line": 181,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_count_denominators",
+        "line": 186,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedTests.test_benchmark_includes_wrong_and_missing_records",
+        "line": 194,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "SignalGuardTests",
+        "line": 203,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "SignalGuardTests.setUpClass",
+        "line": 205,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "SignalGuardTests.test_unrecoverable_own_candidate_abstains",
+        "line": 209,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "SignalGuardTests.test_different_recovered_meaning_abstains",
+        "line": 215,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "SignalGuardTests.test_inference_cannot_use_training_selector",
+        "line": 222,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "SignalGuardTests.test_language_fixed_memory_budget",
+        "line": 226,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/tests/test_parts.py",
+    "sha256": "22b10eada72e5968c022604a8d86e1b7428dbb60abe75abdb085a0e927eeb74d",
+    "lines": 312,
+    "symbols": [
+      {
+        "name": "InheritedPartsTests",
+        "line": 19,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "InheritedPartsTests.setUpClass",
+        "line": 21,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_all_folds_development_reading",
+        "line": 29,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_all_folds_development_generation",
+        "line": 37,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_novel_roundtrip_all_folds",
+        "line": 45,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_entire_cell_excluded",
+        "line": 53,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_components_and_tokens_are_known",
+        "line": 60,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_lexical_composition_split_stays_disjoint",
+        "line": 69,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_old_ss_matched_training_control",
+        "line": 74,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_full_context_control_preserves_seen",
+        "line": 83,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_learning_keeps_lexical_prior",
+        "line": 91,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_partial_table_is_successful_too",
+        "line": 97,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_old_table_cannot_reuse",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_typed_feature_bindings_do_not_alias",
+        "line": 107,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_sequence_order_preserved",
+        "line": 111,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_dependencies_are_learned_not_supplied",
+        "line": 115,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_dependency_can_retain_goal_when_data_requires_it",
+        "line": 123,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_projection_selector_independent_example",
+        "line": 134,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_positive_only_support_not_universal",
+        "line": 141,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_runtime_tree_or_leaf_table",
+        "line": 147,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_pair_only_api",
+        "line": 153,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_opaque_markers",
+        "line": 158,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_counterfactual_role_labels",
+        "line": 165,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_ambiguous_alignment_rejected",
+        "line": 174,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_conflicting_labels_rejected",
+        "line": 179,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_marker_semantics_prohibited",
+        "line": 186,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_invalid_texts_all_folds",
+        "line": 192,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_mismatched_parts_rejected",
+        "line": 197,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_unlearned_role_order_rejected",
+        "line": 201,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_unknown_vocabulary_rejected",
+        "line": 204,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_missing_parts_not_reconstructed_from_gold",
+        "line": 209,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_self_reference_inference",
+        "line": 212,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_signal_only_packet",
+        "line": 217,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_invalid_packets",
+        "line": 221,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_extra_packet_fields",
+        "line": 225,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_nonobject_packets_and_text",
+        "line": 229,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_unknown_goal",
+        "line": 234,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_inference_disabled",
+        "line": 238,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_generator_never_calls_reader",
+        "line": 242,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_old_teacher_or_model_calls",
+        "line": 246,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_save_load",
+        "line": 254,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_overwrite",
+        "line": 261,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_metadata_tampering_detected",
+        "line": 267,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_weight_tampering_detected",
+        "line": 277,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_deterministic_pair_order",
+        "line": 288,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_duplicate_examples_do_not_inflate_weights",
+        "line": 292,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_invalid_fit_settings",
+        "line": 298,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "InheritedPartsTests.test_no_hidden_japanese_grammar",
+        "line": 303,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "path": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/verify_release.py",
+    "sha256": "7ad5a2385031c37a278bcbd6d53cd19b206c87262aacdd3d50338dd566b3d487",
+    "lines": 145,
+    "symbols": [
+      {
+        "name": "run",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "copy_package",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 35,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/build_data.py",
+    "sha256": "1ec7fe8b93aaf97cc38c81475c1557e17587dad5154c71b7dab71a5d65c7db94",
+    "lines": 64,
+    "symbols": [
+      {
+        "name": "write",
+        "line": 8,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "build",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 45,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/evaluate.py",
+    "sha256": "d6277e105111f7fe4efe0bcd7bfde8c0173132e39280e289544a931276db9a97",
+    "lines": 132,
+    "symbols": [
+      {
+        "name": "source_files",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "verify_freeze",
+        "line": 20,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "judge",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 73,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/evaluation_support.py",
+    "sha256": "f5d916ca4a0baaa6aaa068dab29a0da9b7eb72f9ea98aa485d2bd82ef9e9d41a",
+    "lines": 44,
+    "symbols": [
+      {
+        "name": "data",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "render",
+        "line": 31,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "parse_document",
+        "line": 36,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "document_goals",
+        "line": 43,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/measurements.py",
+    "sha256": "46a455bbdad8a0cf6a91c3bc586210cf766a35204b274925d6dbdc6483cd843f",
+    "lines": 108,
+    "symbols": [
+      {
+        "name": "count_rows",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "confusion",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "unique_rows",
+        "line": 33,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "bad_packets",
+        "line": 38,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "assess",
+        "line": 47,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "score_generation",
+        "line": 75,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "codec_probe",
+        "line": 82,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "noise_probe",
+        "line": 96,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/__init__.py",
+    "sha256": "8f05c473108f28e82f66110c2c81924843fd68b7c4b9de5dfd6e67c695fb0443",
+    "lines": 2,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/__main__.py",
+    "sha256": "b8715e93ef6cc78dd544f964627fab26e483bfff6949fd630e6fde150815d088",
+    "lines": 63,
+    "symbols": [
+      {
+        "name": "load",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 18,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/algebra.py",
+    "sha256": "947ec54904c60ec7a6ea2dd7fa7ebb2ed3570e35f27461b8ee30bffbb6c19d92",
+    "lines": 99,
+    "symbols": [
+      {
+        "name": "canonical",
+        "line": 10,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "digest",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "require",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Book.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.code",
+        "line": 30,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Book.key",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory",
+        "line": 47,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Memory.__init__",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Memory.recall",
+        "line": 58,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "learn",
+        "line": 75,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/banked.py",
+    "sha256": "e1841b8961ffe8e0839286d3ed4c560f0c785ebe1ab922e15d3bb2458749b90d",
+    "lines": 192,
+    "symbols": [
+      {
+        "name": "FreshBook",
+        "line": 21,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "FreshBook.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "FreshBook.code",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "key_code",
+        "line": 33,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "value_code",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "route",
+        "line": 48,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "bank_count",
+        "line": 52,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "bank_seed",
+        "line": 61,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "MemoryBlock",
+        "line": 65,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "MemoryBlock.__init__",
+        "line": 67,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "MemoryBlock.blob",
+        "line": 88,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "MemoryBlock.meta",
+        "line": 90,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "MemoryBlock.recall",
+        "line": 93,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedMemory",
+        "line": 121,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "BankedMemory.__init__",
+        "line": 123,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedMemory.recall",
+        "line": 128,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedMemory.clear_cache",
+        "line": 150,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "BankedMemory.storage",
+        "line": 152,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit_banked",
+        "line": 158,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/features.py",
+    "sha256": "58ecd03848729604f26301be44691fd584d1905a442febaf40a006eb7032a5cc",
+    "lines": 75,
+    "symbols": [
+      {
+        "name": "abstract_token",
+        "line": 8,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "shape",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "role_context",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "split_gaps",
+        "line": 23,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "status_context",
+        "line": 38,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "gap_context",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "observations",
+        "line": 48,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/lexicon.py",
+    "sha256": "eca5d53924f13268037282e1321038e15b7ec0eca24448aea90eb1c65701b0fe",
+    "lines": 115,
+    "symbols": [
+      {
+        "name": "validate_meaning",
+        "line": 15,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "validate_lexicon",
+        "line": 20,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "tokenize",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "aligned_examples",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 90,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 91,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.context",
+        "line": 95,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 103,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/projection.py",
+    "sha256": "3309fb4de269d3aba62311a98c9bc067975182f9be113968c02f94b06c8312b8",
+    "lines": 139,
+    "symbols": [
+      {
+        "name": "structure_code",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space",
+        "line": 23,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Space.__init__",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.key",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Space.target",
+        "line": 39,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "dependency_leaves",
+        "line": 47,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ProjectionMemory",
+        "line": 92,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "ProjectionMemory.__init__",
+        "line": 93,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "ProjectionMemory.recall",
+        "line": 104,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "fit_memory",
+        "line": 125,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/reader.py",
+    "sha256": "7741a41ba0b3e2f0966eefebe82106552918aa262a2a9d5617d973a04a6e1b7d",
+    "lines": 45,
+    "symbols": [
+      {
+        "name": "read",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/runtime.py",
+    "sha256": "03885e8a138a974a822b2a7e5e767546977631e4d3e19f2b2cea59b24a3d7f0f",
+    "lines": 136,
+    "symbols": [
+      {
+        "name": "abstain",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model",
+        "line": 18,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "Model.__init__",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.encode",
+        "line": 35,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.recover",
+        "line": 41,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.order",
+        "line": 65,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.gap",
+        "line": 74,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.generate",
+        "line": 81,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.read",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.save",
+        "line": 106,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "Model.load",
+        "line": 123,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v06/training.py",
+    "sha256": "55acea5cfea7bbc3cc9a9b235f48928a6b0af4c92d25b553f6c4279257b0fd93",
+    "lines": 20,
+    "symbols": [
+      {
+        "name": "fit",
+        "line": 8,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v07/__init__.py",
+    "sha256": "b2005759a45030ed9c8fd399cfcf46192fc94512d6deb69835b1a78d48ed366d",
+    "lines": 2,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v07/__main__.py",
+    "sha256": "3d444ecff412a2872ecac9531063aa93c516b405632b4c333a182c47c3b95b76",
+    "lines": 66,
+    "symbols": [
+      {
+        "name": "load",
+        "line": 7,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 18,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v07/codec.py",
+    "sha256": "7472941c641c5ece9ee08c4cc0ea088414dbbf5f6a1ba72f312693623b283865",
+    "lines": 64,
+    "symbols": [
+      {
+        "name": "EventCodec",
+        "line": 11,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "EventCodec.__init__",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventCodec.validate",
+        "line": 26,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventCodec.encode",
+        "line": 32,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventCodec.recover",
+        "line": 42,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v07/reader.py",
+    "sha256": "83ebed311e9f073f30e12a21d376eea474da4281ffe992fd019e6092b43eac78",
+    "lines": 25,
+    "symbols": [
+      {
+        "name": "read",
+        "line": 6,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v07/runtime.py",
+    "sha256": "49fed354931001f6626507cf335c8ed3e1d6426ba92901ddb560a5fee16d338e",
+    "lines": 76,
+    "symbols": [
+      {
+        "name": "EventModel",
+        "line": 13,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "EventModel.__init__",
+        "line": 14,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventModel.encode",
+        "line": 24,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventModel.recover",
+        "line": 29,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventModel.read",
+        "line": 42,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventModel.generate",
+        "line": 46,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventModel.save",
+        "line": 60,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventModel.load",
+        "line": 69,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/plm_l1_v07/training.py",
+    "sha256": "a28011eef2e134fd03a97e588db87ef2e876089fbe1fafdb77137a500d4c9dd6",
+    "lines": 8,
+    "symbols": [
+      {
+        "name": "fit",
+        "line": 6,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/release_tools.py",
+    "sha256": "397dbd73529c1c5f7bdd19fad231f2ba89e1cf2d7fafec8720788c1dc17506bf",
+    "lines": 77,
+    "symbols": [
+      {
+        "name": "hashes",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "write",
+        "line": 16,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 22,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/report.py",
+    "sha256": "fa0c3f98a9310b55b0567147bff9236bfb68670d4f08f6bf08314252916b30f1",
+    "lines": 30,
+    "symbols": [
+      {
+        "name": "write_report",
+        "line": 5,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/requirements.txt",
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "lines": 1,
+    "symbols": []
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/tests/test_events.py",
+    "sha256": "3582c414a2cb43a0414b37b2f766856da0049f14f1fe1cd7fdb682ecf2824afc",
+    "lines": 245,
+    "symbols": [
+      {
+        "name": "EventTests",
+        "line": 17,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "EventTests.setUpClass",
+        "line": 19,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_all_development_documents_read",
+        "line": 27,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_all_development_meanings_all_goal_pairs",
+        "line": 33,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_role_reversal_and_negative_scope",
+        "line": 40,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_modality_stays_with_its_event",
+        "line": 44,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_identical_mentions_not_deduplicated",
+        "line": 50,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_event_order_is_preserved",
+        "line": 55,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_event_binding_distinguishes_swapped_events",
+        "line": 61,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_unbound_control_loses_order_exactly",
+        "line": 65,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_partitioned_control_same_numeric_budget",
+        "line": 69,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_absent_second_event_rejected",
+        "line": 74,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_numeric_packet_has_no_event_list_or_subpackets",
+        "line": 83,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_bad_packets_rejected",
+        "line": 90,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_cross_model_packet_rejected",
+        "line": 94,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_old_single_event_packet_rejected",
+        "line": 98,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_packet_extra_gold_source_hint_rejected",
+        "line": 102,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_bad_event_count_and_fields",
+        "line": 106,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_unknown_semantic_value_rejected",
+        "line": 112,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_input_not_mutated",
+        "line": 117,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_invalid_documents_rejected",
+        "line": 125,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_only_between_sentence_whitespace_allowed",
+        "line": 129,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_bad_goals_rejected",
+        "line": 134,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_no_partial_generation_on_second_event_failure",
+        "line": 138,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_no_partial_packet_on_second_event_failure",
+        "line": 144,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_reader_requires_recoverable_shared_signal",
+        "line": 149,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_reader_requires_both_candidate_matches",
+        "line": 155,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_generation_never_calls_reader",
+        "line": 161,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_no_runtime_feature_learning_or_oracle",
+        "line": 165,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_no_learning_ablation",
+        "line": 169,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_component_primary_weights_unchanged",
+        "line": 174,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_two_event_binding_is_explicitly_not_learned",
+        "line": 181,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_inference_remains_disabled",
+        "line": 185,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_save_load_roundtrip",
+        "line": 189,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_save_does_not_overwrite",
+        "line": 196,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_metadata_tampering_rejected",
+        "line": 202,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_invalid_codec_config",
+        "line": 211,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_development_and_evaluation_pairs_disjoint",
+        "line": 216,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_all_nine_categories_and_four_goal_pairs",
+        "line": 221,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_order_error_not_hidden_by_bag_scoring",
+        "line": 228,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_valid_semantic_change_is_not_authentication",
+        "line": 233,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "EventTests.test_count_keeps_wrong_and_abstention_separate",
+        "line": 239,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "path": "PLM-L1-v0.7/verify_release.py",
+    "sha256": "e651221e8ba1445e90c209aac343f757a438117a6b907d349c298af858e10edd",
+    "lines": 120,
+    "symbols": [
+      {
+        "name": "run",
+        "line": 17,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "copy_package",
+        "line": 28,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "main",
+        "line": 35,
+        "kind": "FunctionDef"
+      }
+    ]
+  }
+]

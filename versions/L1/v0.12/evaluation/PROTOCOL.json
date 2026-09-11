@@ -1,0 +1,20 @@
+{
+  "version": "PLM-L1-v0.12",
+  "policies": ["baseline", "observed_only", "consensus_only", "completion"],
+  "dimensions": [512, 2048],
+  "seeds": ["evaluation-0", "evaluation-1"],
+  "backends": ["ss", "exact"],
+  "min_margin": 0.02,
+  "candidate_cap": 4,
+  "selection_loss_cap": 0.25,
+  "support_threshold": 0.5,
+  "max_completions": 256,
+  "regression": "Unmodified v0.11 datasets and base learner. Hybrid3 and product, selection on, all 21 task/stage combinations. Hybrid3 selection-off diagnostic on unary/xor2/and2 first permutation. D512/2048 and two seeds, exact once. Compare archived base fingerprints and baseline outcomes.",
+  "new_evaluation": "Twelve new partitions of the same structured dependency families, hybrid3 selection on. One- and two-field deletions. Two paired unseen-interaction worlds with identical teachers/selection/calibration but different truth only outside observed combinations. These diagnose limits, not additional supervision.",
+  "witness": "Training-only unique selected-key/label pairs; class-specific sum of full-key product phase codes. Exact control stores the same binary counts. No key table or oracle in SS inference. Threshold 0.5 is fixed engineering policy, not a probability or calibration guarantee.",
+  "completion": "Veto-only: original accepted answer must survive every candidate's full selected-key completion over training vocabulary. All complete-key predictions must agree and have unique matching witness. No new labels or answers can be introduced. Sum of branch counts above 256 abstains without accepting a truncated subset.",
+  "calibration": "Original v0.11 complete clean calibration only. No partial-input labels or final truth used to tune gates, vocabulary, weights or thresholds.",
+  "stress": {"witness_loads": [4, 16, 48], "dimensions": [128, 512, 2048], "seeds": ["stress-0", "stress-1"], "vocabulary_size": 64, "scope": "Standalone learned support memory, separate from language accuracy. Known/unknown keys, cross-label hits, finite-phase false support. Exact once per load."},
+  "acceptance": "No method must win. Check split independence, prior-version equality, accounting, veto-only subset, exact-support lookup consistency, full enumeration budget, zero witness, save/load/isolation, two final runs and archive extraction.",
+  "scope": "Structured context sufficiency guard, not a new Japanese parser, numeric-only decoder, P1/S1 integration or safety proof for hidden dependencies. All policies keep eligible_for_inference=false. Costs of supplemental class-by-dimension witness arrays and explicit completion enumeration reported separately."
+}

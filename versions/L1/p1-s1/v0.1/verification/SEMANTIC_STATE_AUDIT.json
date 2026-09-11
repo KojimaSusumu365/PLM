@@ -1,0 +1,1 @@
+{"eligible_for_inference":false,"passed":true,"received_queries_exact_observation":316,"received_teachers_exact_observation":316,"scope":"Compare complete count, presentation, per-cell state and candidate sets against evaluation-only source; not just final generated meaning."}

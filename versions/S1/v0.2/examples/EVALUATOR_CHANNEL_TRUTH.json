@@ -1,0 +1,10 @@
+{
+  "warning": "audit only; never embedded into the receiver packet",
+  "seed": 64101,
+  "delay_chips": -5,
+  "phase_rad": 1.8,
+  "cfo_hz": 1.0615384615384615,
+  "keep_fraction": 0.25,
+  "noise_std": 0.25,
+  "jitter_std": 0.03
+}

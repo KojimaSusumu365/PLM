@@ -1,0 +1,13 @@
+{
+  "reason": "After the initial successful evaluation, source inventory incorrectly included a user-generated root JSON packet. Only source-file selection in release_tools.py was corrected. No learning, meaning operations, thresholds, training/evaluation data, or acceptance criteria changed.",
+  "changed_source_files": [
+    "release_tools.py"
+  ],
+  "initial_freeze": "dabba4f6282e892aade0f253b725a32fa4b621a4d04b69ec4a6478e11d8f9806",
+  "final_freeze": "4537592a6caa61021b87210a5b25e30f122067f747eae52e2d5d7aa3bc56a06a",
+  "initial_result_digest": "aeea4e895d014680873310ecde520e075f3677ef9641bac2a0df856c5cd82c9a",
+  "final_result_digest": "c2795aea8777f5bda4e9b427b1dafac31e849b822fa6aba93cd418e56f422e44",
+  "all_results_equal_except_freeze_metadata": true,
+  "initial_results_preserved": true,
+  "postfix_evaluation_is_replay_not_new_unseen_corpus": true
+}

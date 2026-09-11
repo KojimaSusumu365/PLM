@@ -1,0 +1,15 @@
+{
+  "title": "SS化境界の監査と、読解・生成の時間波形SSコアへの統合",
+  "release": "PLM-L1-SS-core v0.3",
+  "replaces_prior_unimplemented_v03_noise_adaptation_proposal": true,
+  "primary": "All 48 evaluation output requests correct per method, same surfaces across legacy, waveform associations, and integrated controller; no legacy scorer/generator fallback in targeted tests; unknown/partial inputs and coefficient removal hold.",
+  "evaluation_documents": 24,
+  "development_documents": 4,
+  "output_styles": [["preserve", ["subject", "subject"]], ["reverse", ["object", "subject"]]],
+  "methods": ["legacy", "wave_associations", "integrated"],
+  "no_claims": ["nearly all SS achieved", "raw text grammar discovery", "physical hardware", "free Japanese generation", "all history exclusion", "v02 common corruption solved", "better noise accuracy or memory use"],
+  "faults": ["phase", "noise1", "truncate", "zero:roles", "zero:lexical_write", "zero:temporal_write", "zero:sentence_program", "zero:document_program", "zero_next_state"],
+  "auxiliary": {"partial": 6, "transport": 2, "correction_saved_reload": 2, "invalid": 4},
+  "learned_transition_sequences": {"sentence": 8, "document": 4},
+  "freeze_policy": "Development fixes recorded before evaluation freeze; no evaluation-based retuning; repeat all result artifacts except elapsed-time report."
+}

@@ -1,0 +1,69 @@
+{
+  "version": "PLM-R1 v0.1",
+  "tests": {
+    "R1": 92,
+    "C2": 186
+  },
+  "total_tests": 278,
+  "r1_integration_fixture_documents": 16,
+  "c2_v04_dev_holdout_transport_subcases": 55,
+  "dependency": {
+    "version": "PLM-C2 v0.4",
+    "verified_files": 67
+  },
+  "source_freeze": {
+    "valid": true,
+    "verified_files": 100,
+    "differences": []
+  },
+  "acceptance": {
+    "r1_tests_passed": true,
+    "all_186_c2_tests_passed": true,
+    "c2_evaluation_exact_reproduction": true,
+    "c2_acceptance_preserved": true,
+    "vendor_bytes_unchanged_by_verification": true,
+    "source_freeze_valid": true,
+    "cli_import_and_persistent_export": true,
+    "cli_repeat_idempotent": true,
+    "inference_disabled": true,
+    "independent_evaluation_correctly_pending": true
+  },
+  "acceptance_passed": true,
+  "c2_replay_file_sha256": "db307ec205f5149efe0912373e6e537271608df207c3ed831141a4c75783ca1b",
+  "independent_evaluation": {
+    "protocol_version": "PLM-R1-independent-pilot-1",
+    "protocol_hash": "002f9d23603e2380234ebe9036808563d1b70ff5231bcbbbaf0fd5af155f3081",
+    "dataset_kind": "real_world",
+    "total_documents": 0,
+    "adjudicated_documents": 0,
+    "pending_task_ids": [],
+    "exclusions": [],
+    "barriers": [
+      "real_corpus_not_supplied",
+      "no_adjudicated_gold",
+      "missing_frozen_task_manifest",
+      "fewer_than_50_adjudicated_documents",
+      "missing_declaration:independent_of_implementation",
+      "missing_declaration:blind_to_predictions",
+      "missing_declaration:near_duplicate_audit_complete",
+      "missing_process_statement"
+    ],
+    "independence": "not_externally_verified_declaration_only",
+    "inference_enabled": false,
+    "task_manifest_verified": false,
+    "sampling_counts": {},
+    "source_group_count": 0,
+    "sampling_shortfalls": {
+      "financial_active": 10,
+      "financial_passive": 10,
+      "negative": 10,
+      "hypothetical_or_quoted": 10,
+      "coreference": 10,
+      "revision": 10,
+      "spatial": 10,
+      "unknown_or_no_relation": 10
+    },
+    "metrics": null,
+    "status": "pending_inputs"
+  }
+}

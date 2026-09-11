@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:plm:c2:v0.3:relation-frame",
+  "title": "PLM-C2 v0.3 Relation Frame",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "frame_id",
+    "clause_id",
+    "relation_type",
+    "subject",
+    "predicate",
+    "object_text",
+    "voice",
+    "polarity",
+    "modality",
+    "applied"
+  ],
+  "properties": {
+    "frame_id": {"type": "string", "pattern": "^F[0-9]{4}$"},
+    "clause_id": {"type": "string"},
+    "relation_type": {
+      "type": "string",
+      "enum": ["COREFERENCE", "REVISION", "FINANCIAL_AFFORDANCE", "SPATIAL_ASSOCIATION"]
+    },
+    "subject": {"type": "string"},
+    "predicate": {"type": "string"},
+    "object_text": {"type": "string"},
+    "voice": {"type": "string", "enum": ["active", "passive", "n/a"]},
+    "polarity": {"type": "string", "enum": ["positive", "negative"]},
+    "modality": {"type": "string", "enum": ["asserted", "hypothetical"]},
+    "applied": {"type": "boolean"},
+    "target_concept": {"type": ["string", "null"]},
+    "target_clause_id": {"type": ["string", "null"]},
+    "source_relation_id": {"type": ["string", "null"]},
+    "source_reference_id": {"type": ["string", "null"]}
+  }
+}

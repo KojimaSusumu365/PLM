@@ -1,0 +1,649 @@
+{
+  "state": {
+    "schema": "plm-teaching-session-v013",
+    "rows": [
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "0",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "0",
+          "e": "0",
+          "a": "1",
+          "b": "0"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "0",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "1",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "0",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "0",
+          "e": "1",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "0",
+          "e": "1",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "1",
+          "e": "1",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "1",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "0",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "0",
+          "e": "1",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "0",
+          "e": "0",
+          "a": "1",
+          "b": "0"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "1",
+          "e": "1",
+          "a": "1",
+          "b": "0"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "0",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "0",
+          "e": "1",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "0",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "1",
+          "e": "1",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "1",
+          "e": "1",
+          "a": "1",
+          "b": "0"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "0",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "0",
+          "e": "0",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "1",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "0",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "0",
+          "e": "1",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "0",
+          "e": "0",
+          "a": "1",
+          "b": "0"
+        },
+        "label": "1"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "0",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "1",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "0",
+          "e": "0",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "1",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "0",
+          "e": "1",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0"
+      },
+      {
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "1",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "1"
+      }
+    ],
+    "pool": [],
+    "settings": {
+      "backend": "ss",
+      "dimension": 2048,
+      "seed": "evaluation-0",
+      "retention": "all"
+    },
+    "receipts": [
+      {
+        "id": "963ab058b51ccf5cf89a",
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0",
+        "request_fingerprint": "7cc28d3fb31a412e5ce943fa2e5f0f4a9dec99a49c7b027027a184292a46866f",
+        "prior_model_fingerprint": "3116325d55c61d4d4cedc5d62711fac8e609f7955d994bcad9a5580cc94099f9"
+      },
+      {
+        "id": "6ec4a80b03eb4ffa9293",
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "1",
+          "e": "1",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0",
+        "request_fingerprint": "935ab970d5ec33f963dcbed6fd20c26b5bdd4f37db073e99ab86d679f3f14cc7",
+        "prior_model_fingerprint": "c2761f0ff9e2a4017d00c689a1f64ed5626598c2aee094030794b5bdffe7733a"
+      },
+      {
+        "id": "8c5efa3236fdcfc26511",
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "1",
+          "e": "1",
+          "a": "1",
+          "b": "0"
+        },
+        "label": "0",
+        "request_fingerprint": "27330d88316ebaf8a9d9f898cca5a161e852f981c70ddf55546c4dcf73946fea",
+        "prior_model_fingerprint": "555b0264c5cd8c9ede43976ea8d331f81430a0d457729bab37f3674a7df86ef9"
+      },
+      {
+        "id": "ab07323c85f24f5d76d3",
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "0",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "1",
+        "request_fingerprint": "04902b4739c97681a344ba4338b091cd057824faea3e7a6045c297000ec1e9a2",
+        "prior_model_fingerprint": "b156d9e289d9ac0f5b3bbc9c31955a635d4995eebdc97669fa11f3258fb56ce2"
+      },
+      {
+        "id": "105d39d82116b411ac15",
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "0",
+          "e": "0",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "1",
+        "request_fingerprint": "1561de5fbd5dd8d0ad2adfa413658787eec1aa1f06d0db5dc7a1c03445c0dd53",
+        "prior_model_fingerprint": "e7045ff62e5320b49604872b2bc5272ef21bbb6676d707a81fe648fc27bb3783"
+      },
+      {
+        "id": "c97494762e7d37cf5c07",
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "1",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0",
+        "request_fingerprint": "40169dc8d80fded1fba3900fa296cd0481e783c2954d72fdb2f9ec4a86d15ea1",
+        "prior_model_fingerprint": "9400eb18a5668b872adb6adaebcb5380a245b13bdad392faf93706f6ef916e85"
+      },
+      {
+        "id": "6a5ecdb35b3d83186920",
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "1",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "1",
+        "request_fingerprint": "bdd3207c8e8291cc1c3771b40d9c756ac01188b87928ecf84770dcbd8a5dd10f",
+        "prior_model_fingerprint": "122b27a754a8129f6c624a25d0e7c855afd9d338fbfb24887166b8b22e6dac55"
+      },
+      {
+        "id": "772b681eee2fd0391759",
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "0",
+          "e": "0",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "0",
+        "request_fingerprint": "c13920f347c8d950fdf17c2008e4016fb6f8b0a5a1d507cb1893ce97af221c49",
+        "prior_model_fingerprint": "9f71f11a62821d80b2841e5b2e284eceff1b2aa1ed9383bde3b7fef37bb9457b"
+      },
+      {
+        "id": "f643e096dc7ae5e06eb4",
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "0",
+          "e": "1",
+          "a": "0",
+          "b": "1"
+        },
+        "label": "1",
+        "request_fingerprint": "d0bfdc1df0049776a8cf656c24c66128132cdb4e7bae4d02915190679d6bb1ff",
+        "prior_model_fingerprint": "52aaf8f67dcca184dfaa1c907e921756f21cdf715dbb97cb3e494be712dafc69"
+      },
+      {
+        "id": "a3146850751c107e67de",
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "0",
+          "e": "0",
+          "a": "1",
+          "b": "0"
+        },
+        "label": "1",
+        "request_fingerprint": "e5487df646841c74e1664b80c5fa5f093a8346da1961562d1262c123dfec7114",
+        "prior_model_fingerprint": "41089ed815704da805c4161a82d3865cb76f9069b9dc915c2c2d05de478d3828"
+      },
+      {
+        "id": "3673a9d42d0d3207b2bc",
+        "context": {
+          "c": "0",
+          "f": "1",
+          "d": "0",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0",
+        "request_fingerprint": "48e96bf790fb069fb09fe4c4bdd5228e8d09eb37520673f10d685760391300bf",
+        "prior_model_fingerprint": "2799775e13b67024637c32d5ca4ce7ed09ce7bf50b915e548d8dddf36edc1c21"
+      },
+      {
+        "id": "413e3f4f2e7e63e922ba",
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "1",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0",
+        "request_fingerprint": "f1ee8f71567247ffc4d1c19f2359115aef5a68b6c6e7aaf0317e698ab322d732",
+        "prior_model_fingerprint": "738524580ad8a805656e3de8d3013ca0e47d27d161bf095000f1d3ce0dfe82fb"
+      },
+      {
+        "id": "a1469b7d6ebf98477335",
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "0",
+          "e": "0",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0",
+        "request_fingerprint": "2652e69ef8feb3951b36ffc29a3d7de76a9c48da4a187b03746e1d7814ac6b76",
+        "prior_model_fingerprint": "8457300af55c975e427d8310a225bc6ae307ce6573dadddaddf87e2f4202c3f5"
+      },
+      {
+        "id": "87abb6a99d74f004146c",
+        "context": {
+          "c": "1",
+          "f": "1",
+          "d": "1",
+          "e": "0",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "0",
+        "request_fingerprint": "8e5312801a81d88fb27e4112d2e18bf917acd9bd6a975028d3925ecaa59b73d7",
+        "prior_model_fingerprint": "78c3f129c95f82c870cef89430d02ad30e8b57d1af6100ce10b614d4f0119435"
+      },
+      {
+        "id": "bf48f44babc38ecc23f4",
+        "context": {
+          "c": "0",
+          "f": "0",
+          "d": "0",
+          "e": "1",
+          "a": "0",
+          "b": "0"
+        },
+        "label": "0",
+        "request_fingerprint": "77063534f086391632160c378383b30bcd1e1659de31d93ccf109b54ddde6925",
+        "prior_model_fingerprint": "27e7ff47067343129cba0672fdab7f68cd7a90cb61a977121a6a5007ea5b4645"
+      },
+      {
+        "id": "b4edda48fc52c92c0b7d",
+        "context": {
+          "c": "1",
+          "f": "0",
+          "d": "1",
+          "e": "1",
+          "a": "1",
+          "b": "1"
+        },
+        "label": "1",
+        "request_fingerprint": "86389bf48178e9c7e78bfcdca8c8e9df3469204fa16bda5d9572ee6ef7321e74",
+        "prior_model_fingerprint": "da5699fa2d885f32735b7766d433f16045e3a5ec69ecd65df80cf94e13b5a645"
+      }
+    ],
+    "model_fingerprint": "c0b03e356f58fc9d4d257a50d78e52f8853b3c31d47dff6783e7112a10a02d5d"
+  },
+  "fingerprint": "371ca1538c2e36aee14fa5905ac85377ea76eec4ba21a1b5637e9629a8f92fa9"
+}

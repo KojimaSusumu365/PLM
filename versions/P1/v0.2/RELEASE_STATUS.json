@@ -1,0 +1,13 @@
+{
+  "version": "PLM-P1 v0.2",
+  "created_at_utc": "2026-09-04T23:38:53.146631+00:00",
+  "release_kind": "experimental_target_met",
+  "implementation_complete": true,
+  "functional_verification_passed": true,
+  "numerical_acceptance_passed": true,
+  "unmet_criteria": [],
+  "next_recommended_stage": "PLM-S1 v0.1: minimal chip spreading/despreading with measured synchronization",
+  "independent_semantic_evaluation": "not_performed",
+  "inference_enabled": false,
+  "ss_demodulation_implemented": false
+}

@@ -1,0 +1,7 @@
+# Publication tooling credentials live outside this repository.
+.plm-assets/
+.plm-restored/
+__pycache__/
+*.pyc
+.env
+.env.*

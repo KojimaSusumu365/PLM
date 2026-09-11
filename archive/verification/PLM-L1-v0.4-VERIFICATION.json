@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "preflight": false,
+  "source_freeze": "17902d564d809a1f7588bb9f5d82057ff3a29300894e3649bb9d11a189631344",
+  "result_digest": "e7269f9578767fd5a3494bf39921b43e8fc2e02c190b5efe360f8e6d335ddf02",
+  "acceptance_checks": 209,
+  "test_counts": {
+    "NEW_TESTS": 46,
+    "V03_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "pair_training_without_legacy_teacher_or_evaluation_data": true,
+  "isolated_model_fingerprint_equal": true,
+  "model_fingerprint": "a0aefb5f070db8ed4b8a0e87f21d09f0f76f98fc78469428e76011a604ba57a4",
+  "generation_without_reader_or_training_entrypoint_or_corpora": true,
+  "numerical_packet_only_transfer": true,
+  "no_runtime_feature_learning": true,
+  "boundary_limit": "Shared full numerical model and feature helpers remain in generation-only environment.",
+  "isolated_roundtrips": [
+    {
+      "input_for_verifier_only": "花子を太郎が助けなかった。",
+      "output": "花子を太郎が助けなかった。",
+      "meaning_and_goal_exact": true
+    },
+    {
+      "input_for_verifier_only": "もし花子を太郎が助けなかったら。",
+      "output": "もし花子を太郎が助けなかったら。",
+      "meaning_and_goal_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎を花子が助けなかった。",
+      "output": "太郎を花子が助けなかった。",
+      "meaning_and_goal_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。",
+      "meaning_and_goal_exact": true
+    }
+  ],
+  "release_manifest_checked": true,
+  "full_numeric_rerun_in_this_command": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.4.zip",
+  "archive_sha256": "9883fb2a30d32f8baa6d0feda32f08de5b9de69a1a8b1a2cdd48b61ecf16cbf1",
+  "archive_bytes": 5562057,
+  "archive_files": 203,
+  "extracted_bytes_equal": true,
+  "source_and_archive_unchanged": true,
+  "heldout_read_generate_cli_passed": true,
+  "direct_encode_heldout_generate_cli_passed": true,
+  "root_json_source_guard_passed": true
+}

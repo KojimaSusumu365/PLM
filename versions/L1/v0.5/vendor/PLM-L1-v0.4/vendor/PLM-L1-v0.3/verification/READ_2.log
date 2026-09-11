@@ -1,0 +1,68 @@
+{
+  "status": "read",
+  "reason": "pair_learned_observation",
+  "audit": {
+    "support": {
+      "value": "supported",
+      "score": 1.01820201,
+      "margin": 1.01820201
+    },
+    "roles": [
+      {
+        "position": 0,
+        "role": {
+          "value": "subject",
+          "score": 0.99983884,
+          "margin": 0.99983884
+        },
+        "content": {
+          "value": "entity:太郎",
+          "score": 0.93276016,
+          "margin": 0.89454237,
+          "reason": "recovered"
+        }
+      },
+      {
+        "position": 2,
+        "role": {
+          "value": "object",
+          "score": 1.01829769,
+          "margin": 1.00687996
+        },
+        "content": {
+          "value": "entity:花子",
+          "score": 0.99449369,
+          "margin": 0.94717637,
+          "reason": "recovered"
+        }
+      },
+      {
+        "position": 4,
+        "role": {
+          "value": "predicate",
+          "score": 1.05226474,
+          "margin": 1.0088432
+        },
+        "content": {
+          "value": "predicate:help",
+          "score": 1.0096922,
+          "margin": 1.00084391,
+          "reason": "recovered"
+        }
+      }
+    ],
+    "states": {
+      "polarity": {
+        "value": "polarity:negative",
+        "score": 1.01375321,
+        "margin": 0.97543635
+      },
+      "modality": {
+        "value": "modality:asserted",
+        "score": 1.03323173,
+        "margin": 1.02320993
+      }
+    }
+  },
+  "eligible_for_inference": false
+}

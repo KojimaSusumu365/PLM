@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "schema": "plm-ss-online-model-01",
+    "config": {
+      "backend": "ss",
+      "dimension": 128,
+      "seed": "phase-dev",
+      "fields": [
+        "f0",
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "vocabulary": {
+        "f0": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "f1": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "f2": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "f3": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "labels": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "entries": {},
+    "threshold": 0.5,
+    "eligible_for_inference": false
+  },
+  "fingerprint": "b78834d2aebd52765c38039c3707d3b0941cdfb8fc7f94592220d5cd1b5c34d8"
+}

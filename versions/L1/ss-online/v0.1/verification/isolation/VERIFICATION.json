@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "unit_tests": 50,
+  "freeze_hash": "87b093d390d0aa2f6bd91f13c9e58a7deec60ede284e038e62413a0d5136c981",
+  "result_digest": "0eed997bd7a8579c4fb7f069d822d53c61bb8a653652ff8b9e95e4fa035f3fb5",
+  "raw_probe_arrays_rechecked": 2850,
+  "isolated_sequential_presentations": 2688,
+  "models": {
+    "delta-A": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    },
+    "delta-C": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    },
+    "delta-drift": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    },
+    "delta5-A": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    },
+    "delta5-C": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    },
+    "delta5-drift": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    },
+    "replay32-A": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    },
+    "replay32-C": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    },
+    "replay32-drift": {
+      "contexts": 320,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "replay_buffer_and_history_equal": true
+    }
+  },
+  "prediction_without_teacher_or_replay": true,
+  "cli_resume_matches": true,
+  "stale_and_pseudo_feedback_rejected_without_output": true,
+  "manifest_files": null,
+  "vendor_manifest_files": 113,
+  "all_150_trajectories_rerun_here": false,
+  "linux_tested": false,
+  "p1_s1_integrated": false,
+  "eligible_for_inference": false
+}

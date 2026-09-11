@@ -1,0 +1,1 @@
+{"metadata":{"actions":["event:event:0","event:event:1","stop"],"dimension":8192,"fields":["order","presentation"],"name":"document_program","schema":"ss-wave-program-03","seed":"wave-program03/document_program","states":4},"weights_sha256":"3825836766a9bdf6c3511202d6c4f48385f18701b1d7608779ccce60877f777b"}

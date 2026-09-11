@@ -1,0 +1,1 @@
+{"command":"python -B -m unittest discover -s tests -v","tests":95,"passed":95,"failures":0,"errors":0,"seconds":278.781,"evidence":"terminal session 97796 exit 0; Ran 95 tests; OK","new_tests":20,"inherited_tests":75}

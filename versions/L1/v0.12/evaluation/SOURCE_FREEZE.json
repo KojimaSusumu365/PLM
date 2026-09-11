@@ -1,0 +1,31 @@
+{
+  "files": {
+    "plm_l1_v011/__init__.py": "f1d49c438e8cc3a70bd32945648a57c376132c04fc215fed3e122d8ba6f0e993",
+    "plm_l1_v011/__main__.py": "091c4d25645e1ea87d085b544df9c9d45e6c817612a63a5034e629f709a6f350",
+    "plm_l1_v011/algebra.py": "da712b6d3a6fad932b556ec801933502e84b2832ce027e8c69b32ccd3a3192b2",
+    "plm_l1_v011/core.py": "da13761c44772b63f64f9f8abcb23ec63e1dce1db7b35cd48a7e7fac0fa47705",
+    "plm_l1_v011/portability.py": "7ee609ce90cc6b8215125bb89352eed4331078c370105f87423df9eb3530d96f",
+    "plm_l1_v011/training.py": "aabf8bfaf74c3e6007648f115ce990977e56313e068e71377088851ee8bb83d4",
+    "plm_l1_v012/__init__.py": "32e0c4b1010130e19870ffb729cc40258948d7cf2256ce4abb8021ad30bfb79f",
+    "plm_l1_v012/__main__.py": "f33ce0f2b491a9d42d436eb01d3b3242b859e2c3805507a1da08a7f4814ecaf6",
+    "plm_l1_v012/core.py": "e574dd32cd628b08e8eabcb952a76ed8d8ec3994019698706b49611781e0efe6",
+    "plm_l1_v012/evidence.py": "7ac7eb831e8dfff220b2d3edb683eca9c099d97751333b91220cb31bb143aea4",
+    "plm_l1_v012/portability.py": "620ac8b8b189d327311398ada27b708728657a712f44b3d243dfbd1aa7c93734",
+    "plm_l1_v012/training.py": "f09d0100a5690aab66c55a3e80445361cc26d1a408a2f11fccbb60e189b6bd80",
+    "evaluation/__init__.py": "41a2595fdef8c295bae785287a5d375ee5654028b72c93776e92b6a01c754ff7",
+    "evaluation/cases.py": "adb9200a220097fbf533749678d77a95767bc14c600472bbcc8265a0b3d39ffb",
+    "evaluation/integrity.py": "fedfc219b3f5e74f19332f438966368bff37f47978ffa044dcb6938f9915b2fd",
+    "evaluation/metrics.py": "2895dc5943c77cfbcbcfcea981971e00e2e16a2097225082885e2bc18624e0b8",
+    "evaluation/PROTOCOL.json": "0d51c5ba9b752149ec803642793a763144aad068534e0f63e0fa040d8b1ffce8",
+    "evaluation/tasks.py": "f9e628b39adad3a2ad33c76fb9a5da4b478947e0116202036ba3f25db1d650fa",
+    "tests/test_v011.py": "bddd5c12f9bb9e076bd8fe5caa18a5b3ca63bde424b80382fab6608f038a13f8",
+    "tests/test_v012.py": "3cdf923b804d0b690f6633e91fb0b4f1b43531f807e9075c8e0ebdf184736aff",
+    "data/development.json": "dcb53224e420b12637657727843844c4f2517caa05b3f93e31b9f3216a252102",
+    "data/evaluation.json": "f7db4bba3932bed4bc1f9d4ea2c1070a749b497ab8ea3fd75ea9bb788f7ecfbe",
+    "data/v011-regression.json": "0133938b2ce991310ff04db6fd3f30a75fbe4e787edd465e28069a71e4d6efec",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "evaluate.py": "4d7e47d179f257958dc5eac4ed0fe586dd3b16c1ab0802dc718826586c6bc7dd",
+    "verify_release.py": "ac39e82d2ebc896b9d996e3ebb9c26e9b875c731f1d41bacfb89cb167988fc92"
+  },
+  "freeze_hash": "359df9740861a10533795b7eb9d943a72b686113904826680de6e3f93f61444b"
+}

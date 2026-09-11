@@ -1,0 +1,579 @@
+[
+  {
+    "section": "standard",
+    "fold": "object_negative",
+    "seed": "banked-development-0",
+    "mode": "single",
+    "elapsed_seconds": 11.154952800017782
+  },
+  {
+    "section": "standard",
+    "fold": "object_negative",
+    "seed": "banked-development-0",
+    "mode": "split_proof",
+    "elapsed_seconds": 10.277631000004476
+  },
+  {
+    "section": "standard",
+    "fold": "object_negative",
+    "seed": "banked-development-0",
+    "mode": "split_unchecked",
+    "elapsed_seconds": 9.798750299989479
+  },
+  {
+    "section": "standard",
+    "fold": "subject_negative",
+    "seed": "banked-development-0",
+    "mode": "single",
+    "elapsed_seconds": 10.422249199997168
+  },
+  {
+    "section": "standard",
+    "fold": "subject_negative",
+    "seed": "banked-development-0",
+    "mode": "split_proof",
+    "elapsed_seconds": 7.764961299981223
+  },
+  {
+    "section": "standard",
+    "fold": "subject_negative",
+    "seed": "banked-development-0",
+    "mode": "split_unchecked",
+    "elapsed_seconds": 7.829862000013236
+  },
+  {
+    "section": "standard",
+    "fold": "object_positive",
+    "seed": "banked-development-0",
+    "mode": "single",
+    "elapsed_seconds": 9.272850899986224
+  },
+  {
+    "section": "standard",
+    "fold": "object_positive",
+    "seed": "banked-development-0",
+    "mode": "split_proof",
+    "elapsed_seconds": 7.965552699984983
+  },
+  {
+    "section": "standard",
+    "fold": "object_positive",
+    "seed": "banked-development-0",
+    "mode": "split_unchecked",
+    "elapsed_seconds": 7.73966510000173
+  },
+  {
+    "section": "standard",
+    "fold": "subject_positive",
+    "seed": "banked-development-0",
+    "mode": "single",
+    "elapsed_seconds": 9.30289249998168
+  },
+  {
+    "section": "standard",
+    "fold": "subject_positive",
+    "seed": "banked-development-0",
+    "mode": "split_proof",
+    "elapsed_seconds": 7.9849904000002425
+  },
+  {
+    "section": "standard",
+    "fold": "subject_positive",
+    "seed": "banked-development-0",
+    "mode": "split_unchecked",
+    "elapsed_seconds": 7.733386299980339
+  },
+  {
+    "section": "memory",
+    "dimension": 128,
+    "load": 8,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 13642,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 13522,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 128,
+    "load": 32,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 13642,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 13522,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 128,
+    "load": 128,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 13642,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 13522,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 128,
+    "load": 256,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 13642,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 13522,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 10930,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 512,
+    "load": 8,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 44418,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 44298,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 34026,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 34026,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 34026,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 512,
+    "load": 32,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 44418,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 13657,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 34026,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 11065,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 11065,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 512,
+    "load": 128,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 44418,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 13657,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 34026,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 11065,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 11065,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 512,
+    "load": 256,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 44418,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 13657,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 34026,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 11065,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 11065,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 2048,
+    "load": 8,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 167298,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 167178,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 126214,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 126214,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 126214,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 2048,
+    "load": 32,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 167298,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 44405,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 126214,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 34133,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 34133,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 2048,
+    "load": 128,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 167298,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 23929,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 126214,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 18777,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 18777,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 2048,
+    "load": 256,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 167298,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 23929,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 126214,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 18777,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 18777,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 8192,
+    "load": 8,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 658818,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 658698,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 494854,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 494854,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 494854,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 8192,
+    "load": 32,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 658818,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 167285,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 494854,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 126321,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 126321,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 8192,
+    "load": 128,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 658818,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 85397,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 494854,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 64885,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 64885,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 8192,
+    "load": 256,
+    "seed": "banked-development-0",
+    "scenario": "ordinary",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 658818,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 85397,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 494854,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 64885,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 64885,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  },
+  {
+    "section": "memory",
+    "dimension": 2048,
+    "load": 128,
+    "seed": "banked-development-0",
+    "scenario": "forced_single_bank",
+    "measurements": {
+      "single": {
+        "traced_peak_query_allocation_bytes": 167298,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split": {
+        "traced_peak_query_allocation_bytes": 23929,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "proof": {
+        "traced_peak_query_allocation_bytes": 126214,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_proof": {
+        "traced_peak_query_allocation_bytes": 18777,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      },
+      "split_unchecked": {
+        "traced_peak_query_allocation_bytes": 18777,
+        "scope": "One uncached missing query; Python/NumPy traced allocations, not process RSS or hard upper bound."
+      }
+    }
+  }
+]

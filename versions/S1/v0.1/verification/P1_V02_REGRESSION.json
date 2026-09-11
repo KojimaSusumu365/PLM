@@ -1,0 +1,9 @@
+{
+  "scope": "P1 v0.2: all 12 conditions x 5 methods, one code/channel seed pair; not full old numerical replay",
+  "queries": 1440,
+  "code_seed": 32001,
+  "channel_seed": 91001,
+  "exact_reference_match": true,
+  "reference_hash": "faaaa5c0ba56cfa2b19e2f95dcdd2caf4327027f4805dc1661f66da7667be2f5",
+  "replay_hash": "faaaa5c0ba56cfa2b19e2f95dcdd2caf4327027f4805dc1661f66da7667be2f5"
+}

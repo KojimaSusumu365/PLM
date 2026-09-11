@@ -1,0 +1,20 @@
+{
+  "experiment": "PLM-L1-SS-online-v0.1",
+  "dimensions": [64, 128, 512],
+  "code_seeds": ["phase-0", "phase-1"],
+  "data_seeds": ["online-final-0", "online-final-1", "online-final-2"],
+  "methods": ["accumulate", "delta", "delta5", "replay32"],
+  "scenarios": ["clean", "noisy_first"],
+  "learning_rate": 0.5,
+  "threshold": 0.5,
+  "replay_capacity": 32,
+  "replay_per_feedback": 4,
+  "teaching": "Fixed inventory: four fields, eight values each, four labels. Each of A/B/C has64 distinct keys balanced over four pseudo-random labels. Each block has four shuffled passes. Then A64 is revisited once. Finally16 A labels change and these16 get four passes. 896 external teacher presentations;192 distinct keys; an additional128 keys never receive feedback. No unobserved-key negative feedback.",
+  "noisy_first": "Eight of the first64 A answers are intentionally wrong; all subsequent answers follow the current truth. This is a teacher-noise diagnostic, not a learning reward from the model's own predictions. No hidden truth reaches the learner.",
+  "methods_description": "accumulate adds one full phase vector per teacher occurrence. delta applies H_y += .5*(onehot_y - correlation_y)*b for every class once. delta5 repeats that same current-teacher update five times. replay32 applies one current update and four stored teacher updates from a32-observation reservoir when nonempty. The same-key buffered labels are corrected only upon fresh external feedback. Exact uses last externally taught label per complete key.",
+  "resource_matching": "All methods see exactly the same feedback order and teacher labels. replay32 has an additional ordinary labeled-example buffer, accounted separately, and extra numerical updates. delta5 matches five numerical update opportunities, not identical wall time, total FLOPs or memory. Early empty-buffer steps are reported. Replay is not extra external supervision but uses retained past supervision.",
+  "prediction": "Tentative argmax when top-two gap>1e-12; otherwise no tentative answer. Accepted only if exactly one score >= .5. Scores are not probabilities. Neither prediction stream is automatically used as feedback. Output eligibility remains false.",
+  "evaluation": "Prequential predictions made before each teacher answer; immediate post-feedback diagnostics; end-of-pass fixed probes; lost A correct answers after B/C; return to A; genuine label change separated from forgetting unchanged A. Known recall is not unseen-rule generalization. Freeze source/protocol/data before final runs and repeat files. No requirement any method wins.",
+  "controls": "No-feedback predictions leave learned state unchanged; stale/tampered/pseudo-feedback rejection; exact comparator; same-teacher delta5 comparator; zero weights; bounded replay; save/load and isolated sequential replay. 150 final trajectories (144 SS plus6 exact), each896 teacher presentations. Probe/stream repetitions are not independent tasks.",
+  "scope": "Independent experimental memory. Not a brain model, natural-language integration, v0.13 replacement, R1 opening, phase synchronization/P1/S1 connection, unknown rejection guarantee or biologically local/STDP learning. All feedback originates in the artificial evaluator. No humans or external services were contacted."
+}

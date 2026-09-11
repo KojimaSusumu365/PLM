@@ -1,0 +1,1 @@
+{"value": "subject:太郎|object:太郎", "status": "accepted", "reason": "accepted", "confidence": 0.4253473086, "members": [{"id": 0, "value": "subject:太郎|object:太郎", "margin": 0.4253473086, "scores": [0.7112527232555992, 0.2859054146179673, 0.2555690875120069, 0.06332577406145497], "available_terms": 7}], "eligible_for_inference": false}

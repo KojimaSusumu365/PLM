@@ -1,0 +1,730 @@
+=== same_source_correction ===
+{
+  "version": "PLM-C1 v0.1",
+  "inputs": [
+    "犬だと思ったが、実際は猫だった"
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.8455,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "犬だと思ったが",
+      "assertion_status": "provisional",
+      "instance_scope": "instance:shared",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "猫だった",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0002",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "source_text": "犬だと思ったが",
+      "pattern": "犬",
+      "concept": "DOG",
+      "vote": 1,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0002"
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "scope": "instance:shared/S001:C002",
+      "source_text": "猫だった",
+      "pattern": "猫",
+      "concept": "CAT",
+      "vote": 1,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 1,
+    "operations": 3,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== cross_source_correction ===
+{
+  "version": "PLM-C1 v0.1",
+  "inputs": [
+    "犬だ",
+    "犬らしい",
+    "訂正すると猫だった"
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.8455,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "犬だ",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "犬らしい",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "correction_target": false
+    },
+    {
+      "source_id": "S003",
+      "source_order": 2,
+      "clause_id": "S003:C001",
+      "text": "猫だった",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S003:C001",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0003",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0002",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0003",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "source_text": "犬だ",
+      "pattern": "犬",
+      "concept": "DOG",
+      "vote": 1,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0003"
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:shared/S002:C001",
+      "source_text": "犬らしい",
+      "pattern": "犬",
+      "concept": "DOG",
+      "vote": 1,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0003"
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 2,
+      "source_id": "S003",
+      "source_order": 2,
+      "clause_id": "S003:C001",
+      "scope": "instance:shared/S003:C001",
+      "source_text": "猫だった",
+      "pattern": "猫",
+      "concept": "CAT",
+      "vote": 1,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 3,
+    "patterns_checked": 126,
+    "raw_surface_matches": 3,
+    "accepted_surface_matches": 3,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 3,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 2,
+    "operations": 5,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== long_negation ===
+{
+  "version": "PLM-C1 v0.1",
+  "inputs": [
+    "It is not really very clearly a dog."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "UNRESOLVED",
+    "confidence": 0.0,
+    "selection_confidence": 1.0,
+    "ambiguous": true,
+    "reason": "no positive evidence"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "It is not really very clearly a dog.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "clause_id": "S001:C001",
+      "amount": 1.0,
+      "reason": "scoped negation"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "source_text": "It is not really very clearly a dog.",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": -1,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "scoped negation",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 1,
+    "accepted_surface_matches": 1,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 1,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== clause_local_context ===
+{
+  "version": "PLM-C1 v0.1",
+  "inputs": [
+    "The bank was discussed while water spilled from a glass."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "UNRESOLVED",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.6266,
+    "selection_confidence": 0.3734,
+    "ambiguous": true,
+    "reason": "evidence below selection threshold",
+    "score": 0.45,
+    "runner_up": "RIVER_BANK",
+    "margin": 0.0
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The bank was discussed",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "water spilled from a glass.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "source_text": "The bank was discussed",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "source_text": "The bank was discussed",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 1,
+    "accepted_surface_matches": 1,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== isolated_instances ===
+{
+  "version": "PLM-C1 v0.1",
+  "inputs": [
+    "I visited a bank.",
+    "Later I crossed a river."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "UNRESOLVED",
+    "candidate": "RIVER_BANK",
+    "label_ja": "川岸",
+    "confidence": 0.8572,
+    "selection_confidence": 0.85,
+    "ambiguous": true,
+    "reason": "isolated discourse scopes contain competing instances",
+    "score": 1.2,
+    "runner_up": "FINANCIAL_BANK",
+    "margin": 0.75
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "I visited a bank.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "Later I crossed a river.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:S002",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:S002",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "ISOLATE_CONFLICT",
+      "domain": "place",
+      "scopes": [
+        "instance:S002",
+        "instance:shared"
+      ],
+      "reason": "multiple discourse instances cannot share one Concept selection"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "source_text": "I visited a bank.",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "source_text": "I visited a bank.",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:S002/S002:C001",
+      "source_text": "Later I crossed a river.",
+      "pattern": "river",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "weight": 0.75,
+      "effective_weight": 0.75,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 3,
+    "active_evidence_items": 3,
+    "superseded_evidence_items": 0,
+    "operations": 3,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [
+      "place"
+    ]
+  }
+}
+
+=== unseen_correction_marker_failure ===
+{
+  "version": "PLM-C1 v0.1",
+  "inputs": [
+    "Initially it was identified as a dog; later it was confirmed to be a cat."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "ANIMAL",
+    "candidate": "ANIMAL",
+    "label_ja": "動物",
+    "confidence": 0.7805,
+    "selection_confidence": 0.7805,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 0.78,
+    "runner_up": null,
+    "margin": 0.78
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "Initially it was identified as a dog",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:S001",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "later it was confirmed to be a cat.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:S001",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:S001",
+      "reason": "clause-local evidence and context"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:S001",
+      "reason": "clause-local evidence and context"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:S001/S001:C001",
+      "source_text": "Initially it was identified as a dog",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "scope": "instance:S001/S001:C002",
+      "source_text": "later it was confirmed to be a cat.",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}

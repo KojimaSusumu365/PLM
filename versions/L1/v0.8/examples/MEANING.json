@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "id": "event:0",
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    },
+    {
+      "id": "event:1",
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  ],
+  "presentation": [
+    "event:0",
+    "event:1"
+  ],
+  "temporal": {
+    "kind": "before",
+    "source": "event:0",
+    "target": "event:1"
+  }
+}

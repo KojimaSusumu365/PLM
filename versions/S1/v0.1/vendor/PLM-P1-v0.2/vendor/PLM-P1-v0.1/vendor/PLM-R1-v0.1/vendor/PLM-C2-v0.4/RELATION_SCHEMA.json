@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:plm:c2:v0.4:relation-frame:2",
+  "title": "PLM-C2 v0.4 Relation Frame v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "frame_id",
+    "clause_id",
+    "relation_type",
+    "subject",
+    "predicate",
+    "object_text",
+    "voice",
+    "polarity",
+    "modality",
+    "applied", "subject_mention_id", "object_mention_id", "subject_entity_id", "object_entity_id",
+    "predicate_span", "evidence_ids", "extraction_rule", "semantic_status"
+  ],
+  "properties": {
+    "frame_id": {"type": "string", "pattern": "^F[0-9]{4,}$"},
+    "clause_id": {"type": "string"},
+    "relation_type": {
+      "type": "string",
+      "enum": ["COREFERENCE", "REVISION", "FINANCIAL_AFFORDANCE", "SPATIAL_ASSOCIATION"]
+    },
+    "subject": {"type": "string"},
+    "predicate": {"type": "string"},
+    "object_text": {"type": "string"},
+    "voice": {"type": "string", "enum": ["active", "passive", "n/a"]},
+    "polarity": {"type": "string", "enum": ["positive", "negative"]},
+    "modality": {"type": "string", "enum": ["asserted", "hypothetical", "corrective", "provisional", "retracted"]},
+    "applied": {"type": "boolean"},
+    "target_concept": {"type": ["string", "null"]},
+    "target_clause_id": {"type": ["string", "null"]},
+    "source_relation_id": {"type": ["string", "null"]},
+    "source_reference_id": {"type": ["string", "null"]},
+    "subject_mention_id": {"type": ["string", "null"]},
+    "object_mention_id": {"type": ["string", "null"]},
+    "subject_entity_id": {"type": ["string", "null"]},
+    "object_entity_id": {"type": ["string", "null"]},
+    "predicate_span": {
+      "type": ["object", "null"], "additionalProperties": false,
+      "required": ["start", "end", "text"],
+      "properties": {"start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 0}, "text": {"type": "string"}}
+    },
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "extraction_rule": {"type": "string"},
+    "semantic_status": {"type": "string", "enum": ["unchecked", "rule_checked", "quarantined"]}
+  }
+}

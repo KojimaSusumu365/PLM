@@ -1,0 +1,271 @@
+{
+  "status": "passed",
+  "unit_tests": 50,
+  "freeze_hash": "f61110e39486594258257690baa7e8e6e53fdc4726164d903122467ddfd8ef7b",
+  "result_digest": "a0c508353417ee5609bf49d3420033b2d48bd1772b0e9c0a91ba2b0b82cd2197",
+  "raw_arrays_rechecked": 1920,
+  "checkpoints_rechecked": 1536,
+  "two_world_first_request_checks": 96,
+  "isolated_teacher_presentations": 7104,
+  "models": {
+    "base-s64": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "base-s128": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random-b0": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random-b0-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random-b4": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random-b4-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random-b16": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random-b16-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random-b32": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random-b32-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity-b0": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity-b0-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity-b4": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity-b4-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity-b16": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity-b16-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity-b32": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity-b32-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-disagreement-b0": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-disagreement-b0-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-disagreement-b4": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-disagreement-b4-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-disagreement-b16": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-disagreement-b16-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-disagreement-b32": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-disagreement-b32-post": {
+      "contexts": 384,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random-b0": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random-b0-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random-b4": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random-b4-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random-b16": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random-b16-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random-b32": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random-b32-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity-b0": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity-b0-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity-b4": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity-b4-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity-b16": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity-b16-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity-b32": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity-b32-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-disagreement-b0": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-disagreement-b0-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-disagreement-b4": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-disagreement-b4-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-disagreement-b16": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-disagreement-b16-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-disagreement-b32": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-disagreement-b32-post": {
+      "contexts": 640,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    }
+  },
+  "isolated_selection_calls": 24,
+  "prediction_and_selection_without_teachers": true,
+  "cli_resume_matches": true,
+  "stale_and_pseudo_feedback_rejected_without_output": true,
+  "manifest_files": 511,
+  "all192_trajectories_retrained_here": false,
+  "linux_tested": false,
+  "p1_s1_integrated": false,
+  "eligible_for_inference": false
+}

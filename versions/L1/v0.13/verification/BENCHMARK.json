@@ -1,0 +1,804 @@
+{
+  "scope": "Single process after both final runs. Three prelisted task initial states, D2048/first code seed, 3 repeats. Warm atoms. Scalar query and batched query reported separately. Acquisition over16 unlabeled contexts. Not whole language, total RAM, maximum41-candidate stress, or energy.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "rows": [
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 0,
+      "fit_seconds": 0.028174900042358786,
+      "batch_query_seconds_per_request": 0.0002937958318701324,
+      "scalar_query_seconds_per_request": 0.005474845832698823,
+      "acquisition_seconds_per_pool": {
+        "active": 0.006812633325656255,
+        "random": 0.0002075666755748292
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 1048576,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 1755,
+        "warm_atom_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 1,
+      "fit_seconds": 0.010869000048842281,
+      "batch_query_seconds_per_request": 0.00027282916562398896,
+      "scalar_query_seconds_per_request": 0.005291508333660507,
+      "acquisition_seconds_per_pool": {
+        "active": 0.006667733328261723,
+        "random": 0.00021959998412057757
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 1048576,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 1755,
+        "warm_atom_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 2,
+      "fit_seconds": 0.010536800022237003,
+      "batch_query_seconds_per_request": 0.00027878333397287253,
+      "scalar_query_seconds_per_request": 0.0057524374982070485,
+      "acquisition_seconds_per_pool": {
+        "active": 0.006497399997897446,
+        "random": 0.00019809999503195286
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 1048576,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 1755,
+        "warm_atom_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 0,
+      "fit_seconds": 0.0035610999912023544,
+      "batch_query_seconds_per_request": 1.212083346520861e-05,
+      "scalar_query_seconds_per_request": 0.00010094583315852408,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0006079000110427538,
+        "random": 0.00019040001401056847
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 65536,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 749,
+        "warm_atom_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 1,
+      "fit_seconds": 0.003434700018260628,
+      "batch_query_seconds_per_request": 1.293333237602686e-05,
+      "scalar_query_seconds_per_request": 0.00011514999884335946,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004546000078941385,
+        "random": 0.00019096666558956107
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 65536,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 749,
+        "warm_atom_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 2,
+      "fit_seconds": 0.0032742000184953213,
+      "batch_query_seconds_per_request": 1.2629168243923536e-05,
+      "scalar_query_seconds_per_request": 0.00010175416537094861,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004474666590491931,
+        "random": 0.00019583333050832152
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 65536,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 749,
+        "warm_atom_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 0,
+      "fit_seconds": 0.0032825999660417438,
+      "batch_query_seconds_per_request": 0.00010721249903629844,
+      "scalar_query_seconds_per_request": 0.0008768083328808037,
+      "acquisition_seconds_per_pool": {
+        "active": 0.001971700015322616,
+        "random": 0.00018846666595588127
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 0,
+        "integer_entries": 204,
+        "metadata_utf8_bytes": 4444,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 1,
+      "fit_seconds": 0.00312180002219975,
+      "batch_query_seconds_per_request": 8.427916812555243e-05,
+      "scalar_query_seconds_per_request": 0.0008810458336180697,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0019639666619089744,
+        "random": 0.00018769999345143637
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 0,
+        "integer_entries": 204,
+        "metadata_utf8_bytes": 4444,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 2,
+      "fit_seconds": 0.003068599966354668,
+      "batch_query_seconds_per_request": 8.486666532310967e-05,
+      "scalar_query_seconds_per_request": 0.0009183458338763254,
+      "acquisition_seconds_per_pool": {
+        "active": 0.002083799995792409,
+        "random": 0.00019813332861910263
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 0,
+        "integer_entries": 204,
+        "metadata_utf8_bytes": 4444,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 0,
+      "fit_seconds": 0.0031150999711826444,
+      "batch_query_seconds_per_request": 9.824999627502015e-06,
+      "scalar_query_seconds_per_request": 3.0837501981295645e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004070666618645191,
+        "random": 0.0002001000102609396
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 4,
+        "metadata_utf8_bytes": 773,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 1,
+      "fit_seconds": 0.0030270999995991588,
+      "batch_query_seconds_per_request": 1.0033334547188133e-05,
+      "scalar_query_seconds_per_request": 3.175833262503147e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004009666736237705,
+        "random": 0.0001971333404071629
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 4,
+        "metadata_utf8_bytes": 773,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 2,
+      "fit_seconds": 0.0033290000283159316,
+      "batch_query_seconds_per_request": 9.558333355622986e-06,
+      "scalar_query_seconds_per_request": 3.133750093790392e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.00037343334406614304,
+        "random": 0.00018536666175350547
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 4,
+        "metadata_utf8_bytes": 773,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 0,
+      "fit_seconds": 0.004149699991103262,
+      "batch_query_seconds_per_request": 2.424166693041722e-05,
+      "scalar_query_seconds_per_request": 0.00041754583313983556,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0007430333450126151,
+        "random": 0.0001928999942416946
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 131072,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 986,
+        "warm_atom_bytes": 196608,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 1,
+      "fit_seconds": 0.004276399966329336,
+      "batch_query_seconds_per_request": 2.5358332398657996e-05,
+      "scalar_query_seconds_per_request": 0.000401795832052206,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0007460666626381377,
+        "random": 0.00019366666674613953
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 131072,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 986,
+        "warm_atom_bytes": 196608,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 2,
+      "fit_seconds": 0.0045801999513059855,
+      "batch_query_seconds_per_request": 2.9041667100197326e-05,
+      "scalar_query_seconds_per_request": 0.0004312791667568187,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0008766666481581827,
+        "random": 0.0002874999966782828
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 131072,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 986,
+        "warm_atom_bytes": 196608,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 0,
+      "fit_seconds": 0.004393499984871596,
+      "batch_query_seconds_per_request": 2.5087499428385247e-05,
+      "scalar_query_seconds_per_request": 0.0003819750005883786,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0009588333390032252,
+        "random": 0.0001896333221035699
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 131072,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 990,
+        "warm_atom_bytes": 196608,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 1,
+      "fit_seconds": 0.004367700021248311,
+      "batch_query_seconds_per_request": 2.491666479424263e-05,
+      "scalar_query_seconds_per_request": 0.0004085541683404396,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0007441000003988544,
+        "random": 0.00020573332828159133
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 131072,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 990,
+        "warm_atom_bytes": 196608,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 2,
+      "fit_seconds": 0.004321499960497022,
+      "batch_query_seconds_per_request": 2.4341667691866558e-05,
+      "scalar_query_seconds_per_request": 0.00047513749935509014,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0008192333237578472,
+        "random": 0.00020273332484066486
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 131072,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 990,
+        "warm_atom_bytes": 196608,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 0,
+      "fit_seconds": 0.003446499991696328,
+      "batch_query_seconds_per_request": 1.289999878887708e-05,
+      "scalar_query_seconds_per_request": 9.181250061374158e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004651666774104039,
+        "random": 0.00020736667405193052
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 32,
+        "metadata_utf8_bytes": 1406,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 1,
+      "fit_seconds": 0.0035392999998293817,
+      "batch_query_seconds_per_request": 1.3537501217797399e-05,
+      "scalar_query_seconds_per_request": 9.129166573984548e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.00047323332789043587,
+        "random": 0.00020153333510582647
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 32,
+        "metadata_utf8_bytes": 1406,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 2,
+      "fit_seconds": 0.0031798999989405274,
+      "batch_query_seconds_per_request": 1.292916810295234e-05,
+      "scalar_query_seconds_per_request": 9.033333238524695e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004691333354761203,
+        "random": 0.0002062000179042419
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 32,
+        "metadata_utf8_bytes": 1406,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 0,
+      "fit_seconds": 0.003985900024417788,
+      "batch_query_seconds_per_request": 1.2974999359964082e-05,
+      "scalar_query_seconds_per_request": 9.048750022581468e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004920333352250358,
+        "random": 0.00020740000763908029
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 32,
+        "metadata_utf8_bytes": 1410,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 1,
+      "fit_seconds": 0.003269399981945753,
+      "batch_query_seconds_per_request": 1.266249940575411e-05,
+      "scalar_query_seconds_per_request": 9.393749981730555e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0005326333145300547,
+        "random": 0.0002072000061161816
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 32,
+        "metadata_utf8_bytes": 1410,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/roles/0",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 2,
+      "fit_seconds": 0.003179199993610382,
+      "batch_query_seconds_per_request": 1.2833334039896727e-05,
+      "scalar_query_seconds_per_request": 9.087083162739873e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0005842000052022437,
+        "random": 0.00020543332599724332
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 32,
+        "metadata_utf8_bytes": 1410,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 0,
+      "fit_seconds": 0.011552399955689907,
+      "batch_query_seconds_per_request": 0.00030171851998333024,
+      "scalar_query_seconds_per_request": 0.005548251853152005,
+      "acquisition_seconds_per_pool": {
+        "active": 0.006546333335184802,
+        "random": 0.00018909998470917344
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 1048576,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 1690,
+        "warm_atom_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 1,
+      "fit_seconds": 0.009996799984946847,
+      "batch_query_seconds_per_request": 0.0002464407416819422,
+      "scalar_query_seconds_per_request": 0.0055439333319319065,
+      "acquisition_seconds_per_pool": {
+        "active": 0.006528733317585041,
+        "random": 0.00021026667673140764
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 1048576,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 1690,
+        "warm_atom_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "ss",
+      "retention": "all",
+      "trial": 2,
+      "fit_seconds": 0.010610800003632903,
+      "batch_query_seconds_per_request": 0.00024998148135771907,
+      "scalar_query_seconds_per_request": 0.005503862962575146,
+      "acquisition_seconds_per_pool": {
+        "active": 0.006937566659568499,
+        "random": 0.0001993000041693449
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 1048576,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 1690,
+        "warm_atom_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 0,
+      "fit_seconds": 0.003524600004311651,
+      "batch_query_seconds_per_request": 1.3788888248166552e-05,
+      "scalar_query_seconds_per_request": 0.00011673333399273731,
+      "acquisition_seconds_per_pool": {
+        "active": 0.00048796667639787,
+        "random": 0.0002156999932291607
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 65536,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 724,
+        "warm_atom_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 1,
+      "fit_seconds": 0.003606900048907846,
+      "batch_query_seconds_per_request": 1.3296296216409516e-05,
+      "scalar_query_seconds_per_request": 0.00011202222365816986,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004900999871703485,
+        "random": 0.00020223332103341818
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 65536,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 724,
+        "warm_atom_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "ss",
+      "retention": "minimal",
+      "trial": 2,
+      "fit_seconds": 0.0032159999827854335,
+      "batch_query_seconds_per_request": 1.3007407283617391e-05,
+      "scalar_query_seconds_per_request": 0.0001420444438095998,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0004896666699399551,
+        "random": 0.00020520001028974852
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 65536,
+        "integer_entries": 0,
+        "metadata_utf8_bytes": 724,
+        "warm_atom_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 0,
+      "fit_seconds": 0.002951800008304417,
+      "batch_query_seconds_per_request": 8.83444445207715e-05,
+      "scalar_query_seconds_per_request": 0.0009945814812521417,
+      "acquisition_seconds_per_pool": {
+        "active": 0.00213596667163074,
+        "random": 0.00019979998857403794
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 0,
+        "integer_entries": 202,
+        "metadata_utf8_bytes": 4351,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 1,
+      "fit_seconds": 0.0033167999936267734,
+      "batch_query_seconds_per_request": 8.748148145430066e-05,
+      "scalar_query_seconds_per_request": 0.0010309111115660657,
+      "acquisition_seconds_per_pool": {
+        "active": 0.002073566662147641,
+        "random": 0.00021056667901575565
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 0,
+        "integer_entries": 202,
+        "metadata_utf8_bytes": 4351,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "exact",
+      "retention": "all",
+      "trial": 2,
+      "fit_seconds": 0.002957999997306615,
+      "batch_query_seconds_per_request": 9.307777724677214e-05,
+      "scalar_query_seconds_per_request": 0.0009420814824773481,
+      "acquisition_seconds_per_pool": {
+        "active": 0.002143666672054678,
+        "random": 0.0002041000019138058
+      },
+      "storage": {
+        "candidate_count": 16,
+        "complex_weight_bytes": 0,
+        "integer_entries": 202,
+        "metadata_utf8_bytes": 4351,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 0,
+      "fit_seconds": 0.002705699997022748,
+      "batch_query_seconds_per_request": 1.000370226662468e-05,
+      "scalar_query_seconds_per_request": 3.216296425779109e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.00039663332669685286,
+        "random": 0.00019596666485692063
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 4,
+        "metadata_utf8_bytes": 748,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 1,
+      "fit_seconds": 0.0026826999965123832,
+      "batch_query_seconds_per_request": 9.659259511088883e-06,
+      "scalar_query_seconds_per_request": 3.165555514257263e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.00039870000910013914,
+        "random": 0.0002001000102609396
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 4,
+        "metadata_utf8_bytes": 748,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/paired/hidden",
+      "backend": "exact",
+      "retention": "minimal",
+      "trial": 2,
+      "fit_seconds": 0.0029064000118523836,
+      "batch_query_seconds_per_request": 1.2040741879630972e-05,
+      "scalar_query_seconds_per_request": 3.21518509062352e-05,
+      "acquisition_seconds_per_pool": {
+        "active": 0.0003784666769206524,
+        "random": 0.00018953332134212056
+      },
+      "storage": {
+        "candidate_count": 1,
+        "complex_weight_bytes": 0,
+        "integer_entries": 4,
+        "metadata_utf8_bytes": 748,
+        "warm_atom_bytes": 0,
+        "scope": "Owned arrays and serialized metadata; not total process RAM, transient recalls or energy."
+      }
+    }
+  ],
+  "medians": [
+    {
+      "backend": "ss",
+      "retention": "all",
+      "fit_ms": 10.610800003632903,
+      "batch_query_ms": 0.24998148135771908,
+      "scalar_query_ms": 5.474845832698823,
+      "active_select_ms": 6.546333335184802,
+      "random_select_ms": 0.1993000041693449
+    },
+    {
+      "backend": "ss",
+      "retention": "minimal",
+      "fit_ms": 3.524600004311651,
+      "batch_query_ms": 0.013296296216409516,
+      "scalar_query_ms": 0.11673333399273732,
+      "active_select_ms": 0.4896666699399551,
+      "random_select_ms": 0.20273332484066486
+    },
+    {
+      "backend": "exact",
+      "retention": "all",
+      "fit_ms": 3.12180002219975,
+      "batch_query_ms": 0.08486666532310967,
+      "scalar_query_ms": 0.8810458336180697,
+      "active_select_ms": 1.9717000153226159,
+      "random_select_ms": 0.2041000019138058
+    },
+    {
+      "backend": "exact",
+      "retention": "minimal",
+      "fit_ms": 3.1150999711826444,
+      "batch_query_ms": 0.01000370226662468,
+      "scalar_query_ms": 0.0321518509062352,
+      "active_select_ms": 0.4009666736237705,
+      "random_select_ms": 0.1971333404071629
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "demos": [
+    {
+      "generated": {
+        "object": {
+          "eligible_for_inference": false,
+          "status": "generated",
+          "text": "花子を太郎が助けなかった。",
+          "trace": [
+            {
+              "anchor": "start",
+              "markers": []
+            },
+            {
+              "anchor": "object",
+              "markers": [
+                "を"
+              ]
+            },
+            {
+              "anchor": "subject",
+              "markers": [
+                "が"
+              ]
+            },
+            {
+              "anchor": "predicate",
+              "markers": [
+                "なかった",
+                "。"
+              ]
+            }
+          ]
+        },
+        "subject": {
+          "eligible_for_inference": false,
+          "status": "generated",
+          "text": "太郎が花子を助けなかった。",
+          "trace": [
+            {
+              "anchor": "start",
+              "markers": []
+            },
+            {
+              "anchor": "subject",
+              "markers": [
+                "が"
+              ]
+            },
+            {
+              "anchor": "object",
+              "markers": [
+                "を"
+              ]
+            },
+            {
+              "anchor": "predicate",
+              "markers": [
+                "なかった",
+                "。"
+              ]
+            }
+          ]
+        }
+      },
+      "input": "花子を太郎が助けなかった。",
+      "meaning": {
+        "modality": "modality:asserted",
+        "object": "entity:花子",
+        "polarity": "polarity:negative",
+        "predicate": "predicate:help",
+        "subject": "entity:太郎"
+      },
+      "read_status": "read",
+      "reason": null
+    },
+    {
+      "generated": {
+        "object": {
+          "eligible_for_inference": false,
+          "status": "generated",
+          "text": "もし花子を太郎が助けなかったら。",
+          "trace": [
+            {
+              "anchor": "start",
+              "markers": [
+                "もし"
+              ]
+            },
+            {
+              "anchor": "object",
+              "markers": [
+                "を"
+              ]
+            },
+            {
+              "anchor": "subject",
+              "markers": [
+                "が"
+              ]
+            },
+            {
+              "anchor": "predicate",
+              "markers": [
+                "なかったら",
+                "。"
+              ]
+            }
+          ]
+        },
+        "subject": {
+          "eligible_for_inference": false,
+          "status": "generated",
+          "text": "もし太郎が花子を助けなかったら。",
+          "trace": [
+            {
+              "anchor": "start",
+              "markers": [
+                "もし"
+              ]
+            },
+            {
+              "anchor": "subject",
+              "markers": [
+                "が"
+              ]
+            },
+            {
+              "anchor": "object",
+              "markers": [
+                "を"
+              ]
+            },
+            {
+              "anchor": "predicate",
+              "markers": [
+                "なかったら",
+                "。"
+              ]
+            }
+          ]
+        }
+      },
+      "input": "もし花子を太郎が助けなかったら。",
+      "meaning": {
+        "modality": "modality:hypothetical",
+        "object": "entity:花子",
+        "polarity": "polarity:negative",
+        "predicate": "predicate:help",
+        "subject": "entity:太郎"
+      },
+      "read_status": "read",
+      "reason": null
+    },
+    {
+      "generated": {
+        "object": {
+          "eligible_for_inference": false,
+          "status": "generated",
+          "text": "太郎を花子が助けなかった。",
+          "trace": [
+            {
+              "anchor": "start",
+              "markers": []
+            },
+            {
+              "anchor": "object",
+              "markers": [
+                "を"
+              ]
+            },
+            {
+              "anchor": "subject",
+              "markers": [
+                "が"
+              ]
+            },
+            {
+              "anchor": "predicate",
+              "markers": [
+                "なかった",
+                "。"
+              ]
+            }
+          ]
+        },
+        "subject": {
+          "eligible_for_inference": false,
+          "status": "generated",
+          "text": "花子が太郎を助けなかった。",
+          "trace": [
+            {
+              "anchor": "start",
+              "markers": []
+            },
+            {
+              "anchor": "subject",
+              "markers": [
+                "が"
+              ]
+            },
+            {
+              "anchor": "object",
+              "markers": [
+                "を"
+              ]
+            },
+            {
+              "anchor": "predicate",
+              "markers": [
+                "なかった",
+                "。"
+              ]
+            }
+          ]
+        }
+      },
+      "input": "太郎を花子が助けなかった。",
+      "meaning": {
+        "modality": "modality:asserted",
+        "object": "entity:太郎",
+        "polarity": "polarity:negative",
+        "predicate": "predicate:help",
+        "subject": "entity:花子"
+      },
+      "read_status": "read",
+      "reason": null
+    },
+    {
+      "generated": {
+        "object": {
+          "eligible_for_inference": false,
+          "status": "generated",
+          "text": "花子を太郎が助けた。",
+          "trace": [
+            {
+              "anchor": "start",
+              "markers": []
+            },
+            {
+              "anchor": "object",
+              "markers": [
+                "を"
+              ]
+            },
+            {
+              "anchor": "subject",
+              "markers": [
+                "が"
+              ]
+            },
+            {
+              "anchor": "predicate",
+              "markers": [
+                "た",
+                "。"
+              ]
+            }
+          ]
+        },
+        "subject": {
+          "eligible_for_inference": false,
+          "status": "generated",
+          "text": "太郎が花子を助けた。",
+          "trace": [
+            {
+              "anchor": "start",
+              "markers": []
+            },
+            {
+              "anchor": "subject",
+              "markers": [
+                "が"
+              ]
+            },
+            {
+              "anchor": "object",
+              "markers": [
+                "を"
+              ]
+            },
+            {
+              "anchor": "predicate",
+              "markers": [
+                "た",
+                "。"
+              ]
+            }
+          ]
+        }
+      },
+      "input": "太郎が花子を助けた。",
+      "meaning": {
+        "modality": "modality:asserted",
+        "object": "entity:花子",
+        "polarity": "polarity:positive",
+        "predicate": "predicate:help",
+        "subject": "entity:太郎"
+      },
+      "read_status": "read",
+      "reason": null
+    },
+    {
+      "input": "太郎は花子を助けた。",
+      "read_status": "abstain",
+      "reason": "unknown_token"
+    }
+  ],
+  "scope": "Human/evaluator only; source text is not generator input",
+  "training_excluded_cell": "object_negative"
+}

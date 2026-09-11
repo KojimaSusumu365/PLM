@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "preflight_boundary_only": false,
+  "source_freeze": "7459fd648b187f6f9c298e5a951b3a0eb2489e345893ea7d25d40da39f638df9",
+  "result_digest": "10446ccfc7d48d220886d3c660e134d261fbc5582dc29fb2c1df51aa6e636dd0",
+  "acceptance_checks": 456,
+  "test_counts": {
+    "NEW_TESTS": 60,
+    "V07_TESTS": 40,
+    "V06_TESTS": 73,
+    "V05_TESTS": 70,
+    "V04_TESTS": 46,
+    "V03_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "component_pairs": 432,
+  "temporal_pairs": 216,
+  "model_fingerprint": "5bfaf41a6e196bc0233ad696f39bd638e3a426d3be1ac7aa27137a3943768a82",
+  "component_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+  "isolated_training_without_reader_or_oracle": true,
+  "isolated_training_fingerprint_equal": true,
+  "generation_without_both_reader_and_training_entrypoints": true,
+  "single_numeric_packet_only_transfer": true,
+  "reversed_presentation_without_reversing_time": true,
+  "atomic_abstention": true,
+  "no_runtime_feature_learning": true,
+  "isolated_roundtrips": [
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。その後、花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。その前に、太郎が花子を助けた。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "花子が健太を褒めた。その前に、太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。その後、花子が健太を褒めた。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。太郎が花子を助けた。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "もし太郎が花子を助けなかったら。その後、花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。その前に、もし太郎が花子を助けなかったら。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。その後、太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。その前に、太郎が花子を助けた。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。その前に、太郎が美咲を訪ねた。",
+      "output": "美咲を太郎が訪ねた。その後、太郎が花子を助けた。",
+      "events_time_and_reversed_presentation_exact": true
+    }
+  ],
+  "release_manifest_checked": false,
+  "full_numeric_rerun_in_this_command": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "Designed graph/bindings/boundaries; six full temporal contexts per direction learned; local IDs not cross-document identity; shared component model/helpers remain."
+}

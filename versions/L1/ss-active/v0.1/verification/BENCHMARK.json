@@ -1,0 +1,238 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "rows": [
+    {
+      "rep": 0,
+      "strategy": "random",
+      "selection_seconds_32_requests": 0.08544589998200536,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.17385969997849315,
+      "query_ms_per_context_batched128": 0.1087059375095123,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14248
+    },
+    {
+      "rep": 0,
+      "strategy": "ambiguity",
+      "selection_seconds_32_requests": 0.4711683001369238,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.5555658999364823,
+      "query_ms_per_context_batched128": 0.111596171882411,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14251
+    },
+    {
+      "rep": 0,
+      "strategy": "disagreement",
+      "selection_seconds_32_requests": 0.4719641000847332,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.5565005000098608,
+      "query_ms_per_context_batched128": 0.10755765624708147,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14254
+    },
+    {
+      "rep": 1,
+      "strategy": "random",
+      "selection_seconds_32_requests": 0.07873850013129413,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.15745300007984042,
+      "query_ms_per_context_batched128": 0.12123296874051448,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14248
+    },
+    {
+      "rep": 1,
+      "strategy": "ambiguity",
+      "selection_seconds_32_requests": 0.4551145000732504,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.5429285998689011,
+      "query_ms_per_context_batched128": 0.11192453125659085,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14251
+    },
+    {
+      "rep": 1,
+      "strategy": "disagreement",
+      "selection_seconds_32_requests": 0.462377599964384,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.548680699954275,
+      "query_ms_per_context_batched128": 0.10260820311032148,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14254
+    },
+    {
+      "rep": 2,
+      "strategy": "random",
+      "selection_seconds_32_requests": 0.0844691998208873,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.16628749994561076,
+      "query_ms_per_context_batched128": 0.10409839844669477,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14248
+    },
+    {
+      "rep": 2,
+      "strategy": "ambiguity",
+      "selection_seconds_32_requests": 0.4616710999398492,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.5542617001920007,
+      "query_ms_per_context_batched128": 0.1060971093693297,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14251
+    },
+    {
+      "rep": 2,
+      "strategy": "disagreement",
+      "selection_seconds_32_requests": 0.46031840005889535,
+      "response_seconds_32_teachers_including_selection_revalidation": 0.5451464999350719,
+      "query_ms_per_context_batched128": 0.10527359374918888,
+      "storage": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 216,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 1568,
+        "reader_vector_updates": 6272,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 3211264,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267
+      },
+      "session_json_bytes": 14254
+    }
+  ],
+  "single_process_warm_cache": true,
+  "teachers_separate_from_main_evaluation": 288,
+  "logical_selection_counts_at32": {
+    "random": 32,
+    "active_pool64": 1552,
+    "active_pool128": 3600
+  },
+  "not_measured": [
+    "total_process_RSS",
+    "FLOPs",
+    "other_OS"
+  ],
+  "response_revalidates_selection_so_logical_counts_are_not_actual_total_scoring_calls": true
+}

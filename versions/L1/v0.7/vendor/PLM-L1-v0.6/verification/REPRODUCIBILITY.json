@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "source_freeze": "b93a336681390697e1ab9bcb96101a857c83b8e565dbd56ea5e0f5feb0ba2b6c",
+  "result_digest": "0552b771977a377d4fd144a0d84a0682c89414b555e782be7e39e04c4ed15a16",
+  "complete_numeric_runs": 2,
+  "equal_file_bytes": {
+    "EVALUATION.json": true,
+    "REPORT.md": true,
+    "model/model.json": true
+  },
+  "equal_weight_arrays": {
+    "roles_0": true,
+    "polarity_0": true,
+    "modality_0": true,
+    "order_support_0": true,
+    "order_output_0": true,
+    "gaps_0": true,
+    "gaps_1": true,
+    "gaps_2": true,
+    "lexical_read_0": true,
+    "lexical_write_0": true
+  },
+  "unchanged_core_files": {
+    "algebra.py": true,
+    "projection.py": true,
+    "features.py": true,
+    "lexicon.py": true,
+    "reader.py": true
+  },
+  "primary_model_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+  "memory_block_count": 10,
+  "serialized_block_state_bytes": 1331200,
+  "primary_memory_storage": {
+    "roles": {
+      "state_bytes": 133120,
+      "cache_capacity_bytes": 131072,
+      "owned_heap_bytes": 264418,
+      "numerical_weight_bytes": 131072
+    },
+    "polarity": {
+      "state_bytes": 133120,
+      "cache_capacity_bytes": 131072,
+      "owned_heap_bytes": 264418,
+      "numerical_weight_bytes": 131072
+    },
+    "modality": {
+      "state_bytes": 133120,
+      "cache_capacity_bytes": 131072,
+      "owned_heap_bytes": 264418,
+      "numerical_weight_bytes": 131072
+    },
+    "order_support": {
+      "state_bytes": 133120,
+      "cache_capacity_bytes": 131072,
+      "owned_heap_bytes": 264418,
+      "numerical_weight_bytes": 131072
+    },
+    "order_output": {
+      "state_bytes": 133120,
+      "cache_capacity_bytes": 131072,
+      "owned_heap_bytes": 264418,
+      "numerical_weight_bytes": 131072
+    },
+    "gaps": {
+      "state_bytes": 399360,
+      "cache_capacity_bytes": 131072,
+      "owned_heap_bytes": 530820,
+      "numerical_weight_bytes": 393216
+    },
+    "lexical_read": {
+      "state_bytes": 133120,
+      "cache_capacity_bytes": 131072,
+      "owned_heap_bytes": 264418,
+      "numerical_weight_bytes": 131072
+    },
+    "lexical_write": {
+      "state_bytes": 133120,
+      "cache_capacity_bytes": 131072,
+      "owned_heap_bytes": 264418,
+      "numerical_weight_bytes": 131072
+    }
+  },
+  "test_counts": {
+    "NEW_TESTS": 73,
+    "V05_TESTS": 70,
+    "V04_TESTS": 46,
+    "V03_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "acceptance_checks": 351,
+  "preserved_previous_release_files": 1421,
+  "standard_conditions": 16,
+  "standard_models": 48,
+  "memory_conditions": 34,
+  "memory_models": 170,
+  "numpy": "2.3.5",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "weight_comparison_note": "NPZ uint8 arrays compared exactly, not ZIP-container timestamps. Timing/tracemalloc in TELEMETRY are measured, deliberately excluded from deterministic equality."
+}

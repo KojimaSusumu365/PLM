@@ -1,0 +1,24 @@
+{
+  "files": {
+    "plm_l1_v013/__init__.py": "471a201419adcb5adc8c14720c5e19560dba3e4ca1cb3e436ffb334dee6bf006",
+    "plm_l1_v013/__main__.py": "6153fa1623f0149404fdc75b24d7376bd338f436e3ba287b7ba7c357bb018a37",
+    "plm_l1_v013/algebra.py": "da712b6d3a6fad932b556ec801933502e84b2832ce027e8c69b32ccd3a3192b2",
+    "plm_l1_v013/core.py": "3b28721da62379e954d060ee6d066d81fabce1fff06623f3843e438f0a54b462",
+    "plm_l1_v013/portability.py": "3c51e580c8a78eaecdef4f3ccd193908bbd6ccd826c8f6be3e34b700995c3a71",
+    "plm_l1_v013/teaching.py": "f58d76bc2b8558f318a92fbaa5feb8fd07353e9749837b829e13739e38c982f9",
+    "plm_l1_v013/training.py": "88e9dbc7bc7e189dbf25735b52c5473e91ba757b56e385034b211e01bef9da8b",
+    "evaluation/__init__.py": "367b85c52e96faf44b9ce27eefffc2472734e16786afc0381cca07b953702bc4",
+    "evaluation/cases.py": "233f93cfb5ee1d7689b330175ac3ce88b81b9c9d5b9d7157afb7f5d7ffaf2315",
+    "evaluation/integrity.py": "dac23ea095f987da07cbc2c5c7d424a59adae1062d5ea27b09ad325e1862403d",
+    "evaluation/legacy_tasks.py": "f9e628b39adad3a2ad33c76fb9a5da4b478947e0116202036ba3f25db1d650fa",
+    "evaluation/metrics.py": "2895dc5943c77cfbcbcfcea981971e00e2e16a2097225082885e2bc18624e0b8",
+    "evaluation/PROTOCOL.json": "e9b0af3faa26db273d66e222aec5961ac78519b4aeddf450c0f2c92115deaffd",
+    "tests/test_v013.py": "76394e334c998953a65edf3de79a7fc842dea068cac5d94d459e181edf93be49",
+    "data/development.json": "6c53a90b2fef55f4062a4cb9845b0580916a19bd2adc7350af3faa9b941f8039",
+    "data/evaluation.json": "111e73f2db79258363ac94035c48b996fcd08c09443beff081caabe67f3c9741",
+    "evaluate.py": "79f9dfaf56bfe66f6f05bea9f8022d0d24831ed2dea149bddc7e05e783ba2ed8",
+    "verify_release.py": "f6dd44fe6cfc95ed4c6b40976f275f076dc256df382410a59fb4a1d70b91a9d5",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  "freeze_hash": "0408962e6e2d56f22e9a223af8bca3f1d5c6cc752116e3fda7f010bf18ca9445"
+}

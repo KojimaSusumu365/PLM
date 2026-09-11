@@ -1,0 +1,126 @@
+{
+  "tokens": [
+    {
+      "surface": "太郎",
+      "kind": "entity",
+      "value": "entity:太郎"
+    },
+    {
+      "surface": "花子",
+      "kind": "entity",
+      "value": "entity:花子"
+    },
+    {
+      "surface": "次郎",
+      "kind": "entity",
+      "value": "entity:次郎"
+    },
+    {
+      "surface": "美咲",
+      "kind": "entity",
+      "value": "entity:美咲"
+    },
+    {
+      "surface": "健太",
+      "kind": "entity",
+      "value": "entity:健太"
+    },
+    {
+      "surface": "由紀",
+      "kind": "entity",
+      "value": "entity:由紀"
+    },
+    {
+      "surface": "助け",
+      "kind": "predicate",
+      "value": "predicate:help"
+    },
+    {
+      "surface": "褒め",
+      "kind": "predicate",
+      "value": "predicate:praise"
+    },
+    {
+      "surface": "訪ね",
+      "kind": "predicate",
+      "value": "predicate:visit"
+    },
+    {
+      "surface": "見つめ",
+      "kind": "predicate",
+      "value": "predicate:gaze_at"
+    },
+    {
+      "surface": "が",
+      "kind": "marker",
+      "value": null
+    },
+    {
+      "surface": "を",
+      "kind": "marker",
+      "value": null
+    },
+    {
+      "surface": "もし",
+      "kind": "marker",
+      "value": null
+    },
+    {
+      "surface": "。",
+      "kind": "marker",
+      "value": null
+    },
+    {
+      "surface": "た",
+      "kind": "marker",
+      "value": null
+    },
+    {
+      "surface": "なかった",
+      "kind": "marker",
+      "value": null
+    },
+    {
+      "surface": "たら",
+      "kind": "marker",
+      "value": null
+    },
+    {
+      "surface": "なかったら",
+      "kind": "marker",
+      "value": null
+    }
+  ],
+  "slot_candidates": {
+    "modality": [
+      "modality:asserted",
+      "modality:hypothetical"
+    ],
+    "object": [
+      "entity:太郎",
+      "entity:花子",
+      "entity:次郎",
+      "entity:美咲",
+      "entity:健太",
+      "entity:由紀"
+    ],
+    "polarity": [
+      "polarity:positive",
+      "polarity:negative"
+    ],
+    "predicate": [
+      "predicate:help",
+      "predicate:praise",
+      "predicate:visit",
+      "predicate:gaze_at"
+    ],
+    "subject": [
+      "entity:太郎",
+      "entity:花子",
+      "entity:次郎",
+      "entity:美咲",
+      "entity:健太",
+      "entity:由紀"
+    ]
+  }
+}

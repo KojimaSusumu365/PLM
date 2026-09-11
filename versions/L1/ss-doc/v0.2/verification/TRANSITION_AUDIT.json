@@ -1,0 +1,1 @@
+{"counts":{"correct_supply":18,"explicit_resolve":18,"explicit_revise":18,"in_candidate_wrong_teacher":18},"independent_intended_update_and_generation_checks":72,"note":"Wrong-teacher outputs correctly follow the supplied value but are wrong against original world labels; no source/settings changes.","passed":true}

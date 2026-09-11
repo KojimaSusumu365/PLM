@@ -1,0 +1,4322 @@
+[
+  {
+    "text": "花子を太郎が助けた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が花子を助けなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を太郎が助けなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を太郎が助けたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が花子を助けなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を太郎が助けなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を太郎が褒めた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が花子を褒めなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を太郎が褒めなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を太郎が褒めたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が花子を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を太郎が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を太郎が訪ねた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が花子を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を太郎が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を太郎が訪ねたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が花子を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を太郎が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を太郎が助けた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が次郎を助けなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を太郎が助けなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を太郎が助けたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が次郎を助けなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を太郎が助けなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を太郎が見つめた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が次郎を見つめなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を太郎が見つめなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を太郎が見つめたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が次郎を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を太郎が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を太郎が褒めた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が美咲を褒めなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を太郎が褒めなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を太郎が褒めたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が美咲を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を太郎が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を太郎が訪ねた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が美咲を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を太郎が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を太郎が訪ねたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が美咲を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を太郎が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を太郎が見つめた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が美咲を見つめなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を太郎が見つめなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を太郎が見つめたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が美咲を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を太郎が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を太郎が助けた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が健太を助けなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を太郎が助けなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を太郎が助けたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が健太を助けなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を太郎が助けなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を太郎が褒めた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が健太を褒めなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を太郎が褒めなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を太郎が褒めたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が健太を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を太郎が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を太郎が訪ねた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が由紀を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を太郎が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を太郎が訪ねたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が由紀を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を太郎が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を太郎が見つめた。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎が由紀を見つめなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を太郎が見つめなかった。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を太郎が見つめたら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎が由紀を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を太郎が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:太郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を花子が褒めた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が太郎を褒めなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を花子が褒めなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を花子が褒めたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が太郎を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を花子が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を花子が訪ねた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が太郎を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を花子が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を花子が訪ねたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が太郎を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を花子が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を花子が見つめた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が太郎を見つめなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を花子が見つめなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を花子が見つめたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が太郎を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を花子が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を花子が訪ねた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が次郎を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を花子が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を花子が訪ねたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が次郎を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を花子が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を花子が見つめた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が次郎を見つめなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を花子が見つめなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を花子が見つめたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が次郎を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を花子が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を花子が助けた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が美咲を助けなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を花子が助けなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を花子が助けたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が美咲を助けなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を花子が助けなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を花子が褒めた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が美咲を褒めなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を花子が褒めなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を花子が褒めたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が美咲を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を花子が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を花子が訪ねた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が美咲を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を花子が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を花子が訪ねたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が美咲を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を花子が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を花子が助けた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が健太を助けなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を花子が助けなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を花子が助けたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が健太を助けなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を花子が助けなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を花子が見つめた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が健太を見つめなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を花子が見つめなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を花子が見つめたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が健太を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を花子が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を花子が褒めた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が由紀を褒めなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を花子が褒めなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を花子が褒めたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が由紀を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を花子が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を花子が訪ねた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が由紀を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を花子が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を花子が訪ねたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が由紀を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を花子が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を花子が見つめた。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子が由紀を見つめなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を花子が見つめなかった。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を花子が見つめたら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子が由紀を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を花子が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:花子",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を次郎が助けた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が太郎を助けなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を次郎が助けなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を次郎が助けたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が太郎を助けなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を次郎が助けなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を次郎が褒めた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が太郎を褒めなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を次郎が褒めなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を次郎が褒めたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が太郎を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を次郎が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を次郎が訪ねた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が太郎を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を次郎が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を次郎が訪ねたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が太郎を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を次郎が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を次郎が助けた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が花子を助けなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を次郎が助けなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を次郎が助けたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が花子を助けなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を次郎が助けなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を次郎が見つめた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が花子を見つめなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を次郎が見つめなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を次郎が見つめたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が花子を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を次郎が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を次郎が助けた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が美咲を助けなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を次郎が助けなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を次郎が助けたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が美咲を助けなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を次郎が助けなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を次郎が褒めた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が美咲を褒めなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を次郎が褒めなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を次郎が褒めたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が美咲を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を次郎が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を次郎が訪ねた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が健太を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を次郎が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を次郎が訪ねたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を次郎が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を次郎が見つめた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が健太を見つめなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を次郎が見つめなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を次郎が見つめたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が健太を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を次郎が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を次郎が助けた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が由紀を助けなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を次郎が助けなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を次郎が助けたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が由紀を助けなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を次郎が助けなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を次郎が褒めた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が由紀を褒めなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を次郎が褒めなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を次郎が褒めたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が由紀を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を次郎が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を次郎が訪ねた。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎が由紀を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を次郎が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を次郎が訪ねたら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎が由紀を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を次郎が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:次郎",
+      "object": "entity:由紀",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を美咲が助けた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が太郎を助けなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を美咲が助けなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を美咲が助けたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が太郎を助けなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を美咲が助けなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を美咲が褒めた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が太郎を褒めなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を美咲が褒めなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を美咲が褒めたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が太郎を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を美咲が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:太郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を美咲が訪ねた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が花子を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を美咲が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を美咲が訪ねたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が花子を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を美咲が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を美咲が見つめた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が花子を見つめなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を美咲が見つめなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を美咲が見つめたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が花子を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を美咲が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を美咲が助けた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が次郎を助けなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を美咲が助けなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を美咲が助けたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が次郎を助けなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を美咲が助けなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を美咲が褒めた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が次郎を褒めなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を美咲が褒めなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を美咲が褒めたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が次郎を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を美咲が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を美咲が訪ねた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を美咲が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を美咲が訪ねたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が次郎を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を美咲が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:次郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を美咲が褒めた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が健太を褒めなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を美咲が褒めなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を美咲が褒めたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が健太を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を美咲が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を美咲が訪ねた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が健太を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を美咲が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を美咲が訪ねたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が健太を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を美咲が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を美咲が見つめた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が健太を見つめなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を美咲が見つめなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を美咲が見つめたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が健太を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を美咲が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:健太",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を美咲が助けた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が由紀を助けなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を美咲が助けなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を美咲が助けたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が由紀を助けなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を美咲が助けなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を美咲が褒めた。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲が由紀を褒めなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を美咲が褒めなかった。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を美咲が褒めたら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲が由紀を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を美咲が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:美咲",
+      "object": "entity:由紀",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を健太が助けた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が太郎を助けなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を健太が助けなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を健太が助けたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が太郎を助けなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を健太が助けなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を健太が見つめた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が太郎を見つめなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を健太が見つめなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を健太が見つめたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が太郎を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を健太が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を健太が褒めた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が花子を褒めなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を健太が褒めなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を健太が褒めたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が花子を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を健太が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を健太が訪ねた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が花子を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を健太が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を健太が訪ねたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が花子を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を健太が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を健太が見つめた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が花子を見つめなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を健太が見つめなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を健太が見つめたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が花子を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を健太が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:花子",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を健太が助けた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が次郎を助けなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を健太が助けなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を健太が助けたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が次郎を助けなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を健太が助けなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を健太が褒めた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が次郎を褒めなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を健太が褒めなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を健太が褒めたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を健太が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:次郎",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を健太が訪ねた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が美咲を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を健太が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を健太が訪ねたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が美咲を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を健太が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を健太が見つめた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が美咲を見つめなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を健太が見つめなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を健太が見つめたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が美咲を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を健太が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を健太が助けた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が由紀を助けなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を健太が助けなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を健太が助けたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が由紀を助けなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を健太が助けなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "由紀を健太が見つめた。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太が由紀を見つめなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀を健太が見つめなかった。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし由紀を健太が見つめたら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太が由紀を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀を健太が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:健太",
+      "object": "entity:由紀",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を由紀が訪ねた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が太郎を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を由紀が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を由紀が訪ねたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が太郎を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を由紀が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "太郎を由紀が見つめた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が太郎を見つめなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "太郎を由紀が見つめなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし太郎を由紀が見つめたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が太郎を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし太郎を由紀が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:太郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を由紀が助けた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が花子を助けなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を由紀が助けなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を由紀が助けたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が花子を助けなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を由紀が助けなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を由紀が褒めた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が花子を褒めなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を由紀が褒めなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を由紀が褒めたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が花子を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を由紀が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "花子を由紀が訪ねた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が花子を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "花子を由紀が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし花子を由紀が訪ねたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が花子を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし花子を由紀が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:花子",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を由紀が助けた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が次郎を助けなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を由紀が助けなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を由紀が助けたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が次郎を助けなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を由紀が助けなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "次郎を由紀が見つめた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が次郎を見つめなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "次郎を由紀が見つめなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし次郎を由紀が見つめたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が次郎を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし次郎を由紀が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:次郎",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を由紀が褒めた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が美咲を褒めなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を由紀が褒めなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を由紀が褒めたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が美咲を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を由紀が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を由紀が訪ねた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が美咲を訪ねなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を由紀が訪ねなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を由紀が訪ねたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が美咲を訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を由紀が訪ねなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:visit",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "美咲を由紀が見つめた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "美咲を由紀が見つめなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし美咲を由紀が見つめたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が美咲を見つめなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし美咲を由紀が見つめなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:美咲",
+      "predicate": "predicate:gaze_at",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を由紀が助けた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が健太を助けなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を由紀が助けなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を由紀が助けたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が健太を助けなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を由紀が助けなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:help",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "健太を由紀が褒めた。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "由紀が健太を褒めなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "健太を由紀が褒めなかった。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:asserted"
+    }
+  },
+  {
+    "text": "もし健太を由紀が褒めたら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:positive",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし由紀が健太を褒めなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  },
+  {
+    "text": "もし健太を由紀が褒めなかったら。",
+    "meaning": {
+      "subject": "entity:由紀",
+      "object": "entity:健太",
+      "predicate": "predicate:praise",
+      "polarity": "polarity:negative",
+      "modality": "modality:hypothetical"
+    }
+  }
+]

@@ -1,0 +1,392 @@
+{
+  "status": "passed",
+  "documents": [
+    "README.md",
+    "PLM-L1_TECHNICAL_HANDOFF.md",
+    "CLAUDE_REVIEW_REQUEST.md",
+    "CODE_AND_DOCUMENTS.md",
+    "RELEASE_INDEX.md",
+    "PACKAGING_VERIFICATION.md"
+  ],
+  "local_links_checked": 93,
+  "links": [
+    {
+      "document": "README.md",
+      "target": "PLM-L1_TECHNICAL_HANDOFF.md"
+    },
+    {
+      "document": "README.md",
+      "target": "CLAUDE_REVIEW_REQUEST.md"
+    },
+    {
+      "document": "README.md",
+      "target": "CODE_AND_DOCUMENTS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "PACKAGING_VERIFICATION.md"
+    },
+    {
+      "document": "README.md",
+      "target": "RELEASE_INDEX.md"
+    },
+    {
+      "document": "README.md",
+      "target": "audit/RELEASE_COVERAGE.json"
+    },
+    {
+      "document": "README.md",
+      "target": "audit/WORK_EVIDENCE_MAP.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "CLAUDE_REVIEW_REQUEST.md"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-SS-LANGUAGE-DIRECTION.md"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/data/lexicon.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v06/lexicon.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v06/features.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v06/projection.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v06/training.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v06/reader.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v06/runtime.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/SPECIFICATION.md"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v06/banked.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/results/REPORT.md"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/SPECIFICATION.md"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v07/codec.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v07/runtime.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/plm_l1_v07/reader.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/data/EVENT_SPLIT_AUDIT.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/evaluation/PROTOCOL.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/build_data.py"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "audit/RELEASE_COVERAGE.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PACKAGING_VERIFICATION.md"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "CLAUDE_REVIEW_REQUEST.md"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "CODE_AND_DOCUMENTS.md"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PLM-L1-v0.7/results/EVALUATION.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "audit/RELEASE_COVERAGE.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "audit/CODE_INDEX.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "audit/WORK_EVIDENCE_MAP.json"
+    },
+    {
+      "document": "PLM-L1_TECHNICAL_HANDOFF.md",
+      "target": "PACKAGING_VERIFICATION.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "code/PLM-L1-v0.1-ALL-CODE.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "code/PLM-L1-v0.2-ALL-CODE.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "code/PLM-L1-v0.3-ALL-CODE.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "code/PLM-L1-v0.4-ALL-CODE.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "code/PLM-L1-v0.5-ALL-CODE.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "code/PLM-L1-v0.6-ALL-CODE.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "code/PLM-L1-v0.7-ALL-CODE.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "reports/PLM-L1-v0.1-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "reports/PLM-L1-v0.2-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "reports/PLM-L1-v0.3-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "reports/PLM-L1-v0.4-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "reports/PLM-L1-v0.5-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "reports/PLM-L1-v0.6-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "reports/PLM-L1-v0.7-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "CODE_AND_DOCUMENTS.md",
+      "target": "audit/RELEASE_COVERAGE.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/README.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/results/EVALUATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1/results/RELEASE_DECISION.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "release_verification/PLM-L1-v0.1-VERIFICATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "code/PLM-L1-v0.1-ALL-CODE.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "reports/PLM-L1-v0.1-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/README.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/results/EVALUATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/results/RELEASE_DECISION.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "release_verification/PLM-L1-v0.2-VERIFICATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "code/PLM-L1-v0.2-ALL-CODE.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "reports/PLM-L1-v0.2-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/README.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/results/EVALUATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/results/RELEASE_DECISION.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "release_verification/PLM-L1-v0.3-VERIFICATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "code/PLM-L1-v0.3-ALL-CODE.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "reports/PLM-L1-v0.3-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/README.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/results/EVALUATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/results/RELEASE_DECISION.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "release_verification/PLM-L1-v0.4-VERIFICATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "code/PLM-L1-v0.4-ALL-CODE.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "reports/PLM-L1-v0.4-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/README.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/results/EVALUATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/results/RELEASE_DECISION.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "release_verification/PLM-L1-v0.5-VERIFICATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "code/PLM-L1-v0.5-ALL-CODE.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "reports/PLM-L1-v0.5-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/README.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/results/EVALUATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/results/RELEASE_DECISION.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "release_verification/PLM-L1-v0.6-VERIFICATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "code/PLM-L1-v0.6-ALL-CODE.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "reports/PLM-L1-v0.6-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/README.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/results/EVALUATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "PLM-L1-v0.7/results/RELEASE_DECISION.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "release_verification/PLM-L1-v0.7-VERIFICATION.json"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "code/PLM-L1-v0.7-ALL-CODE.md"
+    },
+    {
+      "document": "RELEASE_INDEX.md",
+      "target": "reports/PLM-L1-v0.7-ALL-DOCUMENTS.md"
+    },
+    {
+      "document": "PACKAGING_VERIFICATION.md",
+      "target": "review_verification/VERIFICATION.json"
+    }
+  ],
+  "all_code_bodies_present": true,
+  "code_files_in_exports": 120,
+  "original_files_in_preservation_baseline": 4282,
+  "review_copy_tests": 381,
+  "review_copy_acceptance_checks": 364,
+  "full_numeric_evaluation_rerun": false
+}

@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "schema": "plm-ss-multicode-model-01",
+    "architecture": "concat512",
+    "seed": "code-final-0",
+    "acceptance": {
+      "threshold": 0.55,
+      "quorum": 0,
+      "check_threshold": null,
+      "reject_all": false
+    },
+    "entries": {},
+    "eligible_for_inference": false
+  },
+  "fingerprint": "82f63725e11ccbdbe13108684a7d4558ca3b67bba8561756536ed0cd73dd212c"
+}

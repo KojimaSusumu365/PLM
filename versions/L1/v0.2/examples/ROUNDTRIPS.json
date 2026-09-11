@@ -1,0 +1,491 @@
+{
+  "audience": "human/evaluator only; never a generator input",
+  "demos": [
+    {
+      "generated": {
+        "eligible_for_inference": false,
+        "status": "generated",
+        "text": "花子を太郎が助けた。",
+        "trace": [
+          {
+            "action": {
+              "margin": 0.98985092,
+              "reason": "recovered",
+              "score": 1.05548088,
+              "value": "slot:object"
+            },
+            "position": 0
+          },
+          {
+            "action": {
+              "margin": 0.83798853,
+              "reason": "recovered",
+              "score": 0.93812247,
+              "value": "emit:literal:を"
+            },
+            "position": 1
+          },
+          {
+            "action": {
+              "margin": 0.83600066,
+              "reason": "recovered",
+              "score": 0.90427449,
+              "value": "slot:subject"
+            },
+            "position": 2
+          },
+          {
+            "action": {
+              "margin": 0.83070134,
+              "reason": "recovered",
+              "score": 0.96734906,
+              "value": "emit:literal:が"
+            },
+            "position": 3
+          },
+          {
+            "action": {
+              "margin": 0.96787561,
+              "reason": "recovered",
+              "score": 1.03371514,
+              "value": "slot:predicate"
+            },
+            "position": 4
+          },
+          {
+            "action": {
+              "margin": 0.8182473,
+              "reason": "recovered",
+              "score": 0.89619024,
+              "value": "emit:literal:た"
+            },
+            "position": 5
+          },
+          {
+            "action": {
+              "margin": 0.94470037,
+              "reason": "recovered",
+              "score": 1.00935208,
+              "value": "emit:literal:。"
+            },
+            "position": 6
+          },
+          {
+            "action": {
+              "margin": 0.87370612,
+              "reason": "recovered",
+              "score": 0.98144762,
+              "value": "stop"
+            },
+            "position": 7
+          }
+        ]
+      },
+      "input": "太郎が花子を助けた。",
+      "reason": "pair_learned_observation",
+      "recovered": {
+        "audit": {
+          "modality": {
+            "margin": 1.01683304,
+            "score": 1.01683304
+          },
+          "object": {
+            "margin": 0.96016333,
+            "score": 1.00546109
+          },
+          "polarity": {
+            "margin": 1.0098037,
+            "score": 1.0098037
+          },
+          "predicate": {
+            "margin": 0.97907093,
+            "score": 1.00095285
+          },
+          "subject": {
+            "margin": 0.97351907,
+            "score": 0.98725288
+          }
+        },
+        "eligible_for_inference": false,
+        "residual": 0.0,
+        "slots": {
+          "modality": "modality:asserted",
+          "object": "entity:花子",
+          "polarity": "polarity:positive",
+          "predicate": "predicate:help",
+          "subject": "entity:太郎"
+        },
+        "status": "recovered"
+      },
+      "status": "read"
+    },
+    {
+      "generated": {
+        "eligible_for_inference": false,
+        "status": "generated",
+        "text": "太郎を花子が助けた。",
+        "trace": [
+          {
+            "action": {
+              "margin": 0.98985092,
+              "reason": "recovered",
+              "score": 1.05548088,
+              "value": "slot:object"
+            },
+            "position": 0
+          },
+          {
+            "action": {
+              "margin": 0.83798853,
+              "reason": "recovered",
+              "score": 0.93812247,
+              "value": "emit:literal:を"
+            },
+            "position": 1
+          },
+          {
+            "action": {
+              "margin": 0.83600066,
+              "reason": "recovered",
+              "score": 0.90427449,
+              "value": "slot:subject"
+            },
+            "position": 2
+          },
+          {
+            "action": {
+              "margin": 0.83070134,
+              "reason": "recovered",
+              "score": 0.96734906,
+              "value": "emit:literal:が"
+            },
+            "position": 3
+          },
+          {
+            "action": {
+              "margin": 0.96787561,
+              "reason": "recovered",
+              "score": 1.03371514,
+              "value": "slot:predicate"
+            },
+            "position": 4
+          },
+          {
+            "action": {
+              "margin": 0.8182473,
+              "reason": "recovered",
+              "score": 0.89619024,
+              "value": "emit:literal:た"
+            },
+            "position": 5
+          },
+          {
+            "action": {
+              "margin": 0.94470037,
+              "reason": "recovered",
+              "score": 1.00935208,
+              "value": "emit:literal:。"
+            },
+            "position": 6
+          },
+          {
+            "action": {
+              "margin": 0.87370612,
+              "reason": "recovered",
+              "score": 0.98144762,
+              "value": "stop"
+            },
+            "position": 7
+          }
+        ]
+      },
+      "input": "花子が太郎を助けた。",
+      "reason": "pair_learned_observation",
+      "recovered": {
+        "audit": {
+          "modality": {
+            "margin": 0.98618438,
+            "score": 1.0020619
+          },
+          "object": {
+            "margin": 0.93687409,
+            "score": 0.96353716
+          },
+          "polarity": {
+            "margin": 0.97160695,
+            "score": 0.97160695
+          },
+          "predicate": {
+            "margin": 0.99302282,
+            "score": 1.00411518
+          },
+          "subject": {
+            "margin": 0.94388154,
+            "score": 0.9697596
+          }
+        },
+        "eligible_for_inference": false,
+        "residual": 0.0,
+        "slots": {
+          "modality": "modality:asserted",
+          "object": "entity:太郎",
+          "polarity": "polarity:positive",
+          "predicate": "predicate:help",
+          "subject": "entity:花子"
+        },
+        "status": "recovered"
+      },
+      "status": "read"
+    },
+    {
+      "generated": {
+        "eligible_for_inference": false,
+        "status": "generated",
+        "text": "花子を太郎が助けなかった。",
+        "trace": [
+          {
+            "action": {
+              "margin": 0.97383956,
+              "reason": "recovered",
+              "score": 1.07819991,
+              "value": "slot:object"
+            },
+            "position": 0
+          },
+          {
+            "action": {
+              "margin": 0.77434502,
+              "reason": "recovered",
+              "score": 0.86649244,
+              "value": "emit:literal:を"
+            },
+            "position": 1
+          },
+          {
+            "action": {
+              "margin": 0.87058206,
+              "reason": "recovered",
+              "score": 0.9366676,
+              "value": "slot:subject"
+            },
+            "position": 2
+          },
+          {
+            "action": {
+              "margin": 0.8527229,
+              "reason": "recovered",
+              "score": 0.96001857,
+              "value": "emit:literal:が"
+            },
+            "position": 3
+          },
+          {
+            "action": {
+              "margin": 0.78806395,
+              "reason": "recovered",
+              "score": 1.00066537,
+              "value": "slot:predicate"
+            },
+            "position": 4
+          },
+          {
+            "action": {
+              "margin": 0.9443319,
+              "reason": "recovered",
+              "score": 0.96884516,
+              "value": "emit:literal:なかった"
+            },
+            "position": 5
+          },
+          {
+            "action": {
+              "margin": 0.94872083,
+              "reason": "recovered",
+              "score": 0.99777568,
+              "value": "emit:literal:。"
+            },
+            "position": 6
+          },
+          {
+            "action": {
+              "margin": 0.85799879,
+              "reason": "recovered",
+              "score": 0.93407327,
+              "value": "stop"
+            },
+            "position": 7
+          }
+        ]
+      },
+      "input": "太郎が花子を助けなかった。",
+      "reason": "pair_learned_observation",
+      "recovered": {
+        "audit": {
+          "modality": {
+            "margin": 0.99191484,
+            "score": 0.99777169
+          },
+          "object": {
+            "margin": 0.95364831,
+            "score": 0.99879788
+          },
+          "polarity": {
+            "margin": 0.97551543,
+            "score": 0.98070794
+          },
+          "predicate": {
+            "margin": 0.97790506,
+            "score": 1.0013384
+          },
+          "subject": {
+            "margin": 0.96756666,
+            "score": 0.98349613
+          }
+        },
+        "eligible_for_inference": false,
+        "residual": 0.0,
+        "slots": {
+          "modality": "modality:asserted",
+          "object": "entity:花子",
+          "polarity": "polarity:negative",
+          "predicate": "predicate:help",
+          "subject": "entity:太郎"
+        },
+        "status": "recovered"
+      },
+      "status": "read"
+    },
+    {
+      "generated": {
+        "eligible_for_inference": false,
+        "status": "generated",
+        "text": "もし花子を太郎が助けなかったら。",
+        "trace": [
+          {
+            "action": {
+              "margin": 0.80670654,
+              "reason": "recovered",
+              "score": 0.94469521,
+              "value": "emit:literal:もし"
+            },
+            "position": 0
+          },
+          {
+            "action": {
+              "margin": 0.84387302,
+              "reason": "recovered",
+              "score": 0.9787974,
+              "value": "slot:object"
+            },
+            "position": 1
+          },
+          {
+            "action": {
+              "margin": 0.9400524,
+              "reason": "recovered",
+              "score": 1.00345556,
+              "value": "emit:literal:を"
+            },
+            "position": 2
+          },
+          {
+            "action": {
+              "margin": 0.79791286,
+              "reason": "recovered",
+              "score": 0.92294822,
+              "value": "slot:subject"
+            },
+            "position": 3
+          },
+          {
+            "action": {
+              "margin": 0.84824654,
+              "reason": "recovered",
+              "score": 0.92791722,
+              "value": "emit:literal:が"
+            },
+            "position": 4
+          },
+          {
+            "action": {
+              "margin": 0.96884148,
+              "reason": "recovered",
+              "score": 1.04091471,
+              "value": "slot:predicate"
+            },
+            "position": 5
+          },
+          {
+            "action": {
+              "margin": 0.97218335,
+              "reason": "recovered",
+              "score": 1.05788865,
+              "value": "emit:literal:なかったら"
+            },
+            "position": 6
+          },
+          {
+            "action": {
+              "margin": 0.7753213,
+              "reason": "recovered",
+              "score": 0.8861891,
+              "value": "emit:literal:。"
+            },
+            "position": 7
+          },
+          {
+            "action": {
+              "margin": 0.86297078,
+              "reason": "recovered",
+              "score": 0.93598468,
+              "value": "stop"
+            },
+            "position": 8
+          }
+        ]
+      },
+      "input": "もし太郎が花子を助けなかったら。",
+      "reason": "pair_learned_observation",
+      "recovered": {
+        "audit": {
+          "modality": {
+            "margin": 0.99889295,
+            "score": 1.00126075
+          },
+          "object": {
+            "margin": 0.92967936,
+            "score": 0.98388536
+          },
+          "polarity": {
+            "margin": 1.00237871,
+            "score": 1.00690906
+          },
+          "predicate": {
+            "margin": 0.98903551,
+            "score": 0.99617979
+          },
+          "subject": {
+            "margin": 0.96323737,
+            "score": 0.9808552
+          }
+        },
+        "eligible_for_inference": false,
+        "residual": 0.0,
+        "slots": {
+          "modality": "modality:hypothetical",
+          "object": "entity:花子",
+          "polarity": "polarity:negative",
+          "predicate": "predicate:help",
+          "subject": "entity:太郎"
+        },
+        "status": "recovered"
+      },
+      "status": "read"
+    },
+    {
+      "input": "太郎は花子を助けた。",
+      "reason": "unknown_token",
+      "status": "abstain"
+    }
+  ]
+}

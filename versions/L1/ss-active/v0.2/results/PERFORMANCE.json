@@ -1,0 +1,1645 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "base_seconds": [
+    0.6850455999956466,
+    0.6948404000140727,
+    1.6833778999862261,
+    1.998975499998778,
+    0.7957353999954648,
+    0.8401902000186965,
+    1.7482344000018202,
+    1.6310540999984369,
+    1.0699107999680564,
+    1.1294371000258252,
+    1.4489223000127822,
+    2.0012149999965914,
+    0.7838735999539495,
+    0.8723960999632254,
+    1.9765474000014365,
+    1.9117680999916047
+  ],
+  "control_seconds": [
+    0.20423839997965842,
+    0.23461500002304092,
+    0.5332122000399977,
+    0.6639848999911919,
+    0.25718289997894317,
+    0.2495391999837011,
+    0.5935034000431187,
+    0.5173573999782093,
+    0.34987889998592436,
+    0.3723780000000261,
+    0.547258900012821,
+    0.7084640000248328,
+    0.3928643999970518,
+    0.29060310003114864,
+    0.6648471000371501,
+    0.5752930999733508
+  ],
+  "runs": [
+    {
+      "selection_seconds": 0.06649319996358827,
+      "response_seconds_including_revalidation": 0.15012540004681796,
+      "background_seconds": 0.6670197000494227
+    },
+    {
+      "selection_seconds": 0.29709449998335913,
+      "response_seconds_including_revalidation": 0.39651009981753305,
+      "background_seconds": 0.7172667999984697
+    },
+    {
+      "selection_seconds": 0.2676452999585308,
+      "response_seconds_including_revalidation": 0.37258380034472793,
+      "background_seconds": 0.6635210000094958
+    },
+    {
+      "selection_seconds": 0.3343627998838201,
+      "response_seconds_including_revalidation": 0.4344171002157964,
+      "background_seconds": 0.691631400026381
+    },
+    {
+      "selection_seconds": 0.23977529990952462,
+      "response_seconds_including_revalidation": 0.3335863000829704,
+      "background_seconds": 0.7569816000177525
+    },
+    {
+      "selection_seconds": 0.08334950020071119,
+      "response_seconds_including_revalidation": 0.18204699992202222,
+      "background_seconds": 0.7076938999816775
+    },
+    {
+      "selection_seconds": 0.29766939993714914,
+      "response_seconds_including_revalidation": 0.3903609000844881,
+      "background_seconds": 0.7337241999921389
+    },
+    {
+      "selection_seconds": 0.3010991000919603,
+      "response_seconds_including_revalidation": 0.3910072999424301,
+      "background_seconds": 0.6801159000606276
+    },
+    {
+      "selection_seconds": 0.3229281999520026,
+      "response_seconds_including_revalidation": 0.40987919992767274,
+      "background_seconds": 0.7963947000098415
+    },
+    {
+      "selection_seconds": 0.2650153000722639,
+      "response_seconds_including_revalidation": 0.37553139979718253,
+      "background_seconds": 0.791920899937395
+    },
+    {
+      "selection_seconds": 0.07625679997727275,
+      "response_seconds_including_revalidation": 0.17522249987814575,
+      "background_seconds": 0.7766879000118934
+    },
+    {
+      "selection_seconds": 0.3290888999472372,
+      "response_seconds_including_revalidation": 0.44648560002679005,
+      "background_seconds": 0.8004999000695534
+    },
+    {
+      "selection_seconds": 0.28686719987308607,
+      "response_seconds_including_revalidation": 0.3845435998518951,
+      "background_seconds": 0.6593274000333622
+    },
+    {
+      "selection_seconds": 0.3380248000030406,
+      "response_seconds_including_revalidation": 0.4219389999634586,
+      "background_seconds": 0.7598961000330746
+    },
+    {
+      "selection_seconds": 0.2307229998987168,
+      "response_seconds_including_revalidation": 0.3566080001764931,
+      "background_seconds": 0.7715332999941893
+    },
+    {
+      "selection_seconds": 0.07770620007067919,
+      "response_seconds_including_revalidation": 0.17964740004390478,
+      "background_seconds": 0.7376462999382056
+    },
+    {
+      "selection_seconds": 0.33574629976646975,
+      "response_seconds_including_revalidation": 0.43469819996971637,
+      "background_seconds": 0.7509291000314988
+    },
+    {
+      "selection_seconds": 0.2617788998177275,
+      "response_seconds_including_revalidation": 0.3702189998002723,
+      "background_seconds": 0.69580930005759
+    },
+    {
+      "selection_seconds": 0.3288256999803707,
+      "response_seconds_including_revalidation": 0.4129864997812547,
+      "background_seconds": 0.7966817000415176
+    },
+    {
+      "selection_seconds": 0.27563690004171804,
+      "response_seconds_including_revalidation": 0.39293040020857006,
+      "background_seconds": 0.7858853999641724
+    },
+    {
+      "selection_seconds": 0.0869206000934355,
+      "response_seconds_including_revalidation": 0.19791890028864145,
+      "background_seconds": 0.8152426999877207
+    },
+    {
+      "selection_seconds": 0.2949330000556074,
+      "response_seconds_including_revalidation": 0.40321619994938374,
+      "background_seconds": 0.8487043000059202
+    },
+    {
+      "selection_seconds": 0.2547229001647793,
+      "response_seconds_including_revalidation": 0.3414228998590261,
+      "background_seconds": 0.7235424999962561
+    },
+    {
+      "selection_seconds": 0.3276793999830261,
+      "response_seconds_including_revalidation": 0.3943839001003653,
+      "background_seconds": 0.8127538999542594
+    },
+    {
+      "selection_seconds": 0.27780379995238036,
+      "response_seconds_including_revalidation": 0.37529549992177635,
+      "background_seconds": 0.7238050000160001
+    },
+    {
+      "selection_seconds": 0.07415640010731295,
+      "response_seconds_including_revalidation": 0.16463710000971332,
+      "background_seconds": 0.7259125999989919
+    },
+    {
+      "selection_seconds": 0.3407993000000715,
+      "response_seconds_including_revalidation": 0.4325245999498293,
+      "background_seconds": 0.769803800038062
+    },
+    {
+      "selection_seconds": 0.25843450002139434,
+      "response_seconds_including_revalidation": 0.35190310003235936,
+      "background_seconds": 0.7497047999640927
+    },
+    {
+      "selection_seconds": 0.3245759999845177,
+      "response_seconds_including_revalidation": 0.41690590005600825,
+      "background_seconds": 0.8525656999554485
+    },
+    {
+      "selection_seconds": 0.2772045996389352,
+      "response_seconds_including_revalidation": 0.39755669981241226,
+      "background_seconds": 0.7750264999922365
+    },
+    {
+      "selection_seconds": 0.08151930011808872,
+      "response_seconds_including_revalidation": 0.18628640018869191,
+      "background_seconds": 0.7458465999807231
+    },
+    {
+      "selection_seconds": 0.3288847002550028,
+      "response_seconds_including_revalidation": 0.42033169989008456,
+      "background_seconds": 0.7326116000185721
+    },
+    {
+      "selection_seconds": 0.27207779977470636,
+      "response_seconds_including_revalidation": 0.3712383002275601,
+      "background_seconds": 0.7288965999614447
+    },
+    {
+      "selection_seconds": 0.3292852998711169,
+      "response_seconds_including_revalidation": 0.4211780001060106,
+      "background_seconds": 0.7437105000135489
+    },
+    {
+      "selection_seconds": 0.30030380008975044,
+      "response_seconds_including_revalidation": 0.3925104998634197,
+      "background_seconds": 0.7199306000256911
+    },
+    {
+      "selection_seconds": 0.07424630003515631,
+      "response_seconds_including_revalidation": 0.16645320021780208,
+      "background_seconds": 0.6656824000529014
+    },
+    {
+      "selection_seconds": 0.3102388000697829,
+      "response_seconds_including_revalidation": 0.40599139977712184,
+      "background_seconds": 0.7341678999946453
+    },
+    {
+      "selection_seconds": 0.25887460011290386,
+      "response_seconds_including_revalidation": 0.3664752998156473,
+      "background_seconds": 0.7401825999841094
+    },
+    {
+      "selection_seconds": 0.3178507999982685,
+      "response_seconds_including_revalidation": 0.40793930017389357,
+      "background_seconds": 0.7302661000285298
+    },
+    {
+      "selection_seconds": 0.27845659980084747,
+      "response_seconds_including_revalidation": 0.4145009998464957,
+      "background_seconds": 0.8831036000046879
+    },
+    {
+      "selection_seconds": 0.13165490003302693,
+      "response_seconds_including_revalidation": 0.26210339996032417,
+      "background_seconds": 2.2260685000219382
+    },
+    {
+      "selection_seconds": 0.6484154000645503,
+      "response_seconds_including_revalidation": 0.7987715000053868,
+      "background_seconds": 2.2412357999710366
+    },
+    {
+      "selection_seconds": 0.5195984000456519,
+      "response_seconds_including_revalidation": 0.6686419001198374,
+      "background_seconds": 2.308684899995569
+    },
+    {
+      "selection_seconds": 0.6028232000535354,
+      "response_seconds_including_revalidation": 0.7317543998360634,
+      "background_seconds": 2.3803632000344805
+    },
+    {
+      "selection_seconds": 0.5218984999228269,
+      "response_seconds_including_revalidation": 0.6779790000873618,
+      "background_seconds": 2.4431603999692015
+    },
+    {
+      "selection_seconds": 0.14766300015617162,
+      "response_seconds_including_revalidation": 0.30157970008440316,
+      "background_seconds": 2.3365888000116684
+    },
+    {
+      "selection_seconds": 0.6216032001539133,
+      "response_seconds_including_revalidation": 0.7559929002891295,
+      "background_seconds": 2.33805860002758
+    },
+    {
+      "selection_seconds": 0.5201587000628933,
+      "response_seconds_including_revalidation": 0.6870964000117965,
+      "background_seconds": 2.3451852000434883
+    },
+    {
+      "selection_seconds": 0.6808182000531815,
+      "response_seconds_including_revalidation": 0.8216175000998192,
+      "background_seconds": 2.2062245000270195
+    },
+    {
+      "selection_seconds": 0.48084530024789274,
+      "response_seconds_including_revalidation": 0.6275149002904072,
+      "background_seconds": 2.2832281999872066
+    },
+    {
+      "selection_seconds": 0.1515256997081451,
+      "response_seconds_including_revalidation": 0.30467000004136935,
+      "background_seconds": 2.15747370000463
+    },
+    {
+      "selection_seconds": 0.7128023998811841,
+      "response_seconds_including_revalidation": 0.8850052000489086,
+      "background_seconds": 2.5369565000291914
+    },
+    {
+      "selection_seconds": 0.47207189997425303,
+      "response_seconds_including_revalidation": 0.6348880998557433,
+      "background_seconds": 2.134131500031799
+    },
+    {
+      "selection_seconds": 0.6177685001166537,
+      "response_seconds_including_revalidation": 0.7954441998736002,
+      "background_seconds": 2.1670589999994263
+    },
+    {
+      "selection_seconds": 0.5131500999559648,
+      "response_seconds_including_revalidation": 0.6529627001727931,
+      "background_seconds": 2.2720431000343524
+    },
+    {
+      "selection_seconds": 0.17304259986849502,
+      "response_seconds_including_revalidation": 0.3595058001228608,
+      "background_seconds": 2.7519020000472665
+    },
+    {
+      "selection_seconds": 0.8638537999941036,
+      "response_seconds_including_revalidation": 1.0572445999714546,
+      "background_seconds": 2.9765243000001647
+    },
+    {
+      "selection_seconds": 0.6585400001495145,
+      "response_seconds_including_revalidation": 0.8293981000897475,
+      "background_seconds": 2.9915005000075325
+    },
+    {
+      "selection_seconds": 0.8111291998648085,
+      "response_seconds_including_revalidation": 1.0391820000950247,
+      "background_seconds": 2.9163374000927433
+    },
+    {
+      "selection_seconds": 0.655772099737078,
+      "response_seconds_including_revalidation": 0.8289425998227671,
+      "background_seconds": 2.872631600010209
+    },
+    {
+      "selection_seconds": 0.18603960005566478,
+      "response_seconds_including_revalidation": 0.3975224998430349,
+      "background_seconds": 2.8553105000173673
+    },
+    {
+      "selection_seconds": 0.7971268999390304,
+      "response_seconds_including_revalidation": 0.9857702000299469,
+      "background_seconds": 2.873307100031525
+    },
+    {
+      "selection_seconds": 0.6743723000399768,
+      "response_seconds_including_revalidation": 0.8241408998146653,
+      "background_seconds": 2.9773174000438303
+    },
+    {
+      "selection_seconds": 0.8478815000271425,
+      "response_seconds_including_revalidation": 1.044777500035707,
+      "background_seconds": 2.7638392000226304
+    },
+    {
+      "selection_seconds": 0.6732678000116721,
+      "response_seconds_including_revalidation": 0.8928619001526386,
+      "background_seconds": 2.8999250999768265
+    },
+    {
+      "selection_seconds": 0.15263080009026453,
+      "response_seconds_including_revalidation": 0.3130592000670731,
+      "background_seconds": 2.428787699958775
+    },
+    {
+      "selection_seconds": 0.7464585000416264,
+      "response_seconds_including_revalidation": 1.0011793999001384,
+      "background_seconds": 2.5808817999786697
+    },
+    {
+      "selection_seconds": 0.6212331000715494,
+      "response_seconds_including_revalidation": 0.7895018998533487,
+      "background_seconds": 2.4365747999981977
+    },
+    {
+      "selection_seconds": 0.6826081000035629,
+      "response_seconds_including_revalidation": 0.8297464998322539,
+      "background_seconds": 2.596306299965363
+    },
+    {
+      "selection_seconds": 0.6212803001399152,
+      "response_seconds_including_revalidation": 0.7819847001810558,
+      "background_seconds": 2.594017499941401
+    },
+    {
+      "selection_seconds": 0.15165800019167364,
+      "response_seconds_including_revalidation": 0.3286337999161333,
+      "background_seconds": 2.8125696000061
+    },
+    {
+      "selection_seconds": 0.7028016000986099,
+      "response_seconds_including_revalidation": 0.8815974001190625,
+      "background_seconds": 2.381901699991431
+    },
+    {
+      "selection_seconds": 0.5915983001468703,
+      "response_seconds_including_revalidation": 0.788772800238803,
+      "background_seconds": 2.887270799954422
+    },
+    {
+      "selection_seconds": 0.8467445001006126,
+      "response_seconds_including_revalidation": 1.0247043000999838,
+      "background_seconds": 3.0300317000364885
+    },
+    {
+      "selection_seconds": 0.7113603000761941,
+      "response_seconds_including_revalidation": 0.9493465000996366,
+      "background_seconds": 2.663047700014431
+    },
+    {
+      "selection_seconds": 0.1496207999298349,
+      "response_seconds_including_revalidation": 0.30231480026850477,
+      "background_seconds": 2.3057745000114664
+    },
+    {
+      "selection_seconds": 0.6559547000797465,
+      "response_seconds_including_revalidation": 0.8407899999874644,
+      "background_seconds": 2.3138747999910265
+    },
+    {
+      "selection_seconds": 0.49790329980896786,
+      "response_seconds_including_revalidation": 0.6476224000216462,
+      "background_seconds": 2.2698150000651367
+    },
+    {
+      "selection_seconds": 0.6660828998428769,
+      "response_seconds_including_revalidation": 0.8562026997096837,
+      "background_seconds": 2.409328799985815
+    },
+    {
+      "selection_seconds": 0.5126839000731707,
+      "response_seconds_including_revalidation": 0.6896089000510983,
+      "background_seconds": 2.3273676999961026
+    },
+    {
+      "selection_seconds": 0.08374000003095716,
+      "response_seconds_including_revalidation": 0.18700570007786155,
+      "background_seconds": 0.7618374999728985
+    },
+    {
+      "selection_seconds": 0.3411275996477343,
+      "response_seconds_including_revalidation": 0.47411620017373934,
+      "background_seconds": 0.7536174999549985
+    },
+    {
+      "selection_seconds": 0.29053259995998815,
+      "response_seconds_including_revalidation": 0.4467898001894355,
+      "background_seconds": 0.9405190999968909
+    },
+    {
+      "selection_seconds": 0.3714062998769805,
+      "response_seconds_including_revalidation": 0.5001216001692228,
+      "background_seconds": 0.91527550003957
+    },
+    {
+      "selection_seconds": 0.27599449997069314,
+      "response_seconds_including_revalidation": 0.41971309995278716,
+      "background_seconds": 0.7850472999853082
+    },
+    {
+      "selection_seconds": 0.08420170011231676,
+      "response_seconds_including_revalidation": 0.1953497999929823,
+      "background_seconds": 0.8186309000011533
+    },
+    {
+      "selection_seconds": 0.34672229981515557,
+      "response_seconds_including_revalidation": 0.49761379993287846,
+      "background_seconds": 0.8644916999619454
+    },
+    {
+      "selection_seconds": 0.2820471999584697,
+      "response_seconds_including_revalidation": 0.3814515999983996,
+      "background_seconds": 0.776893200003542
+    },
+    {
+      "selection_seconds": 0.3576698001124896,
+      "response_seconds_including_revalidation": 0.4905211999430321,
+      "background_seconds": 0.8296407000161707
+    },
+    {
+      "selection_seconds": 0.30122039996786043,
+      "response_seconds_including_revalidation": 0.4183023000950925,
+      "background_seconds": 0.7905196999781765
+    },
+    {
+      "selection_seconds": 0.09455239999806508,
+      "response_seconds_including_revalidation": 0.22550490003777668,
+      "background_seconds": 0.8990942999953404
+    },
+    {
+      "selection_seconds": 0.38584400014951825,
+      "response_seconds_including_revalidation": 0.5165277998312376,
+      "background_seconds": 0.8425906000193208
+    },
+    {
+      "selection_seconds": 0.2650557999149896,
+      "response_seconds_including_revalidation": 0.40419219998875633,
+      "background_seconds": 0.8658767000888474
+    },
+    {
+      "selection_seconds": 0.36230219987919554,
+      "response_seconds_including_revalidation": 0.4672540999017656,
+      "background_seconds": 0.8937484999769367
+    },
+    {
+      "selection_seconds": 0.3125406000181101,
+      "response_seconds_including_revalidation": 0.4300870000733994,
+      "background_seconds": 0.9009917000657879
+    },
+    {
+      "selection_seconds": 0.09573820017976686,
+      "response_seconds_including_revalidation": 0.22374619991751388,
+      "background_seconds": 0.9197784999851137
+    },
+    {
+      "selection_seconds": 0.39652340003522113,
+      "response_seconds_including_revalidation": 0.5041771999676712,
+      "background_seconds": 0.8636820000247099
+    },
+    {
+      "selection_seconds": 0.32600399997318164,
+      "response_seconds_including_revalidation": 0.4275017001782544,
+      "background_seconds": 0.8224032999714836
+    },
+    {
+      "selection_seconds": 0.38385480019496754,
+      "response_seconds_including_revalidation": 0.5197412999696098,
+      "background_seconds": 0.9124238000367768
+    },
+    {
+      "selection_seconds": 0.3190750001813285,
+      "response_seconds_including_revalidation": 0.4300164000596851,
+      "background_seconds": 0.8498348000575788
+    },
+    {
+      "selection_seconds": 0.08360119996359572,
+      "response_seconds_including_revalidation": 0.18540299986489117,
+      "background_seconds": 0.6836040999623947
+    },
+    {
+      "selection_seconds": 0.3521961001679301,
+      "response_seconds_including_revalidation": 0.4661539997905493,
+      "background_seconds": 0.7279757999349385
+    },
+    {
+      "selection_seconds": 0.2956857998506166,
+      "response_seconds_including_revalidation": 0.402431599854026,
+      "background_seconds": 0.7421399000450037
+    },
+    {
+      "selection_seconds": 0.33486460003769025,
+      "response_seconds_including_revalidation": 0.4467921000905335,
+      "background_seconds": 0.7124230999615975
+    },
+    {
+      "selection_seconds": 0.2725493999896571,
+      "response_seconds_including_revalidation": 0.38043790019582957,
+      "background_seconds": 0.7837383999722078
+    },
+    {
+      "selection_seconds": 0.07313350000185892,
+      "response_seconds_including_revalidation": 0.16405470011522993,
+      "background_seconds": 0.70393050002167
+    },
+    {
+      "selection_seconds": 0.3275863999151625,
+      "response_seconds_including_revalidation": 0.436000999994576,
+      "background_seconds": 0.7745513999834657
+    },
+    {
+      "selection_seconds": 0.2875495000043884,
+      "response_seconds_including_revalidation": 0.35837840021122247,
+      "background_seconds": 0.7381125999963842
+    },
+    {
+      "selection_seconds": 0.3268582000164315,
+      "response_seconds_including_revalidation": 0.4453071999596432,
+      "background_seconds": 0.7450463999994099
+    },
+    {
+      "selection_seconds": 0.2607882000156678,
+      "response_seconds_including_revalidation": 0.3435506002861075,
+      "background_seconds": 0.7502291000564583
+    },
+    {
+      "selection_seconds": 0.06915039999876171,
+      "response_seconds_including_revalidation": 0.15957589994650334,
+      "background_seconds": 0.8199752999935299
+    },
+    {
+      "selection_seconds": 0.32423029985511675,
+      "response_seconds_including_revalidation": 0.4170960999908857,
+      "background_seconds": 0.7542293999576941
+    },
+    {
+      "selection_seconds": 0.3188807000988163,
+      "response_seconds_including_revalidation": 0.4064344000653364,
+      "background_seconds": 0.7444813000038266
+    },
+    {
+      "selection_seconds": 0.34488060016883537,
+      "response_seconds_including_revalidation": 0.4557067999849096,
+      "background_seconds": 0.8105032999883406
+    },
+    {
+      "selection_seconds": 0.26670410012593493,
+      "response_seconds_including_revalidation": 0.37103349989047274,
+      "background_seconds": 0.8301605000160635
+    },
+    {
+      "selection_seconds": 0.07433929992839694,
+      "response_seconds_including_revalidation": 0.16824799997266382,
+      "background_seconds": 0.7432114999974146
+    },
+    {
+      "selection_seconds": 0.3260769998305477,
+      "response_seconds_including_revalidation": 0.438116799807176,
+      "background_seconds": 0.7962561000022106
+    },
+    {
+      "selection_seconds": 0.289204100088682,
+      "response_seconds_including_revalidation": 0.40716870001051575,
+      "background_seconds": 0.7665826000156812
+    },
+    {
+      "selection_seconds": 0.3634484999347478,
+      "response_seconds_including_revalidation": 0.4916870999149978,
+      "background_seconds": 0.7862626000423916
+    },
+    {
+      "selection_seconds": 0.28167129994835705,
+      "response_seconds_including_revalidation": 0.4019320998340845,
+      "background_seconds": 0.8769014999852516
+    },
+    {
+      "selection_seconds": 0.17008059995714575,
+      "response_seconds_including_revalidation": 0.36020600015763193,
+      "background_seconds": 2.749881599971559
+    },
+    {
+      "selection_seconds": 0.7256488999701105,
+      "response_seconds_including_revalidation": 0.8790554002043791,
+      "background_seconds": 2.5523991999798454
+    },
+    {
+      "selection_seconds": 0.5821999998297542,
+      "response_seconds_including_revalidation": 0.7550271000363864,
+      "background_seconds": 2.2712024000356905
+    },
+    {
+      "selection_seconds": 0.6575627000420354,
+      "response_seconds_including_revalidation": 0.7950328998267651,
+      "background_seconds": 2.3775878999731503
+    },
+    {
+      "selection_seconds": 0.5148475999594666,
+      "response_seconds_including_revalidation": 0.6446772998897359,
+      "background_seconds": 2.554419699998107
+    },
+    {
+      "selection_seconds": 0.15353459981270134,
+      "response_seconds_including_revalidation": 0.3150073998258449,
+      "background_seconds": 2.4895052000065334
+    },
+    {
+      "selection_seconds": 0.714042600011453,
+      "response_seconds_including_revalidation": 0.8498926000320353,
+      "background_seconds": 2.4140044000232592
+    },
+    {
+      "selection_seconds": 0.627137299918104,
+      "response_seconds_including_revalidation": 0.7588696000166237,
+      "background_seconds": 2.490143800037913
+    },
+    {
+      "selection_seconds": 0.7422703999909572,
+      "response_seconds_including_revalidation": 0.9342481999774463,
+      "background_seconds": 2.5870360999833792
+    },
+    {
+      "selection_seconds": 0.6272825999185443,
+      "response_seconds_including_revalidation": 0.8094142999034375,
+      "background_seconds": 2.5578278000466526
+    },
+    {
+      "selection_seconds": 0.14754739997442812,
+      "response_seconds_including_revalidation": 0.31046969996532425,
+      "background_seconds": 2.7309979999554344
+    },
+    {
+      "selection_seconds": 0.8227077998453751,
+      "response_seconds_including_revalidation": 0.9153614001115784,
+      "background_seconds": 2.629889599978924
+    },
+    {
+      "selection_seconds": 0.5459224998485297,
+      "response_seconds_including_revalidation": 0.710522000095807,
+      "background_seconds": 2.67051690001972
+    },
+    {
+      "selection_seconds": 0.856182599964086,
+      "response_seconds_including_revalidation": 0.9446694000507705,
+      "background_seconds": 2.926250600023195
+    },
+    {
+      "selection_seconds": 0.6793431001133285,
+      "response_seconds_including_revalidation": 0.8514240998774767,
+      "background_seconds": 2.8723707999452017
+    },
+    {
+      "selection_seconds": 0.18981460010400042,
+      "response_seconds_including_revalidation": 0.3790856000268832,
+      "background_seconds": 2.9593948000110686
+    },
+    {
+      "selection_seconds": 0.6989388996735215,
+      "response_seconds_including_revalidation": 0.9034697000170127,
+      "background_seconds": 2.4445953000104055
+    },
+    {
+      "selection_seconds": 0.5489340997883119,
+      "response_seconds_including_revalidation": 0.703712000278756,
+      "background_seconds": 2.2226962999557145
+    },
+    {
+      "selection_seconds": 0.6108507998287678,
+      "response_seconds_including_revalidation": 0.7842523000435904,
+      "background_seconds": 2.2753861999954097
+    },
+    {
+      "selection_seconds": 0.5090403999201953,
+      "response_seconds_including_revalidation": 0.6507452001096681,
+      "background_seconds": 2.4298128000227734
+    },
+    {
+      "selection_seconds": 0.14681279996875674,
+      "response_seconds_including_revalidation": 0.2981036998098716,
+      "background_seconds": 2.2409343000035733
+    },
+    {
+      "selection_seconds": 0.6541363999713212,
+      "response_seconds_including_revalidation": 0.8367300997488201,
+      "background_seconds": 2.4440931999706663
+    },
+    {
+      "selection_seconds": 0.5194888000842184,
+      "response_seconds_including_revalidation": 0.7002224000752904,
+      "background_seconds": 2.330873300030362
+    },
+    {
+      "selection_seconds": 0.6940114999888465,
+      "response_seconds_including_revalidation": 0.8382299997610971,
+      "background_seconds": 2.2701566999894567
+    },
+    {
+      "selection_seconds": 0.48527699994156137,
+      "response_seconds_including_revalidation": 0.5983582999906503,
+      "background_seconds": 2.240228799986653
+    },
+    {
+      "selection_seconds": 0.15897009999025613,
+      "response_seconds_including_revalidation": 0.3406968996860087,
+      "background_seconds": 2.2912605999736115
+    },
+    {
+      "selection_seconds": 0.6402780000353232,
+      "response_seconds_including_revalidation": 0.7665522997849621,
+      "background_seconds": 2.4014400000451133
+    },
+    {
+      "selection_seconds": 0.5426586001412943,
+      "response_seconds_including_revalidation": 0.6924788000178523,
+      "background_seconds": 2.286951099988073
+    },
+    {
+      "selection_seconds": 0.6839129999279976,
+      "response_seconds_including_revalidation": 0.8373466001357883,
+      "background_seconds": 2.1802948999684304
+    },
+    {
+      "selection_seconds": 0.5198501000995748,
+      "response_seconds_including_revalidation": 0.6922643997822888,
+      "background_seconds": 2.3716404999722727
+    },
+    {
+      "selection_seconds": 0.13991480000549927,
+      "response_seconds_including_revalidation": 0.28955820004921407,
+      "background_seconds": 2.4017177999485284
+    },
+    {
+      "selection_seconds": 0.6221366999088787,
+      "response_seconds_including_revalidation": 0.7377105000196025,
+      "background_seconds": 2.4867061000550166
+    },
+    {
+      "selection_seconds": 0.6245330999372527,
+      "response_seconds_including_revalidation": 0.7633605001610704,
+      "background_seconds": 2.9423905000439845
+    },
+    {
+      "selection_seconds": 0.8365715999971144,
+      "response_seconds_including_revalidation": 1.0041010998538695,
+      "background_seconds": 2.673857599904295
+    },
+    {
+      "selection_seconds": 0.6918150000274181,
+      "response_seconds_including_revalidation": 0.9216256000217982,
+      "background_seconds": 3.096259000012651
+    },
+    {
+      "selection_seconds": 0.18811309977900237,
+      "response_seconds_including_revalidation": 0.39863529993453994,
+      "background_seconds": 2.8439489000011235
+    },
+    {
+      "selection_seconds": 0.8975496000493877,
+      "response_seconds_including_revalidation": 1.099221600103192,
+      "background_seconds": 3.212401399970986
+    },
+    {
+      "selection_seconds": 0.7433785000466742,
+      "response_seconds_including_revalidation": 0.9585566000314429,
+      "background_seconds": 3.21773979999125
+    },
+    {
+      "selection_seconds": 0.9180593000492081,
+      "response_seconds_including_revalidation": 1.1421627002418973,
+      "background_seconds": 3.1211229999898933
+    },
+    {
+      "selection_seconds": 0.6941985002486035,
+      "response_seconds_including_revalidation": 0.9101444000261836,
+      "background_seconds": 3.0783081999397837
+    },
+    {
+      "selection_seconds": 0.11253149999538437,
+      "response_seconds_including_revalidation": 0.2446905000251718,
+      "background_seconds": 1.034249100019224
+    },
+    {
+      "selection_seconds": 0.45290660014143214,
+      "response_seconds_including_revalidation": 0.5785009000683203,
+      "background_seconds": 1.0341631000046618
+    },
+    {
+      "selection_seconds": 0.3607989001320675,
+      "response_seconds_including_revalidation": 0.5066850002622232,
+      "background_seconds": 1.035430499992799
+    },
+    {
+      "selection_seconds": 0.448644699936267,
+      "response_seconds_including_revalidation": 0.5736787997884676,
+      "background_seconds": 1.0174942999728955
+    },
+    {
+      "selection_seconds": 0.362228799960576,
+      "response_seconds_including_revalidation": 0.5123156997724436,
+      "background_seconds": 1.03006809996441
+    },
+    {
+      "selection_seconds": 0.0995645000366494,
+      "response_seconds_including_revalidation": 0.22167210013139993,
+      "background_seconds": 0.951936699973885
+    },
+    {
+      "selection_seconds": 0.38215230009518564,
+      "response_seconds_including_revalidation": 0.49689929984742776,
+      "background_seconds": 0.8093982999562286
+    },
+    {
+      "selection_seconds": 0.30232439999235794,
+      "response_seconds_including_revalidation": 0.427929199882783,
+      "background_seconds": 0.8582839000155218
+    },
+    {
+      "selection_seconds": 0.4415610001888126,
+      "response_seconds_including_revalidation": 0.525439000048209,
+      "background_seconds": 0.852515000035055
+    },
+    {
+      "selection_seconds": 0.2811628999770619,
+      "response_seconds_including_revalidation": 0.4411834999336861,
+      "background_seconds": 0.8068969000596553
+    },
+    {
+      "selection_seconds": 0.10994990007020533,
+      "response_seconds_including_revalidation": 0.2425392001750879,
+      "background_seconds": 0.8995511999819428
+    },
+    {
+      "selection_seconds": 0.3719960000598803,
+      "response_seconds_including_revalidation": 0.4684510001097806,
+      "background_seconds": 0.780717299960088
+    },
+    {
+      "selection_seconds": 0.2861672999570146,
+      "response_seconds_including_revalidation": 0.4316461000125855,
+      "background_seconds": 0.9298707999987528
+    },
+    {
+      "selection_seconds": 0.3818011000403203,
+      "response_seconds_including_revalidation": 0.5014971999917179,
+      "background_seconds": 0.922242000058759
+    },
+    {
+      "selection_seconds": 0.3251273001078516,
+      "response_seconds_including_revalidation": 0.45987390022492036,
+      "background_seconds": 1.0365465999930166
+    },
+    {
+      "selection_seconds": 0.10647709987824783,
+      "response_seconds_including_revalidation": 0.2448507000808604,
+      "background_seconds": 0.9851754000410438
+    },
+    {
+      "selection_seconds": 0.37195369985420257,
+      "response_seconds_including_revalidation": 0.5038831999991089,
+      "background_seconds": 0.8665147999417968
+    },
+    {
+      "selection_seconds": 0.3007578001706861,
+      "response_seconds_including_revalidation": 0.4032778000109829,
+      "background_seconds": 0.816312899987679
+    },
+    {
+      "selection_seconds": 0.3773562998394482,
+      "response_seconds_including_revalidation": 0.5028179999208078,
+      "background_seconds": 0.8677362999878824
+    },
+    {
+      "selection_seconds": 0.29271860007429495,
+      "response_seconds_including_revalidation": 0.4105986999347806,
+      "background_seconds": 0.8267630999907851
+    },
+    {
+      "selection_seconds": 0.08457749983062968,
+      "response_seconds_including_revalidation": 0.1870766002102755,
+      "background_seconds": 0.824812600039877
+    },
+    {
+      "selection_seconds": 0.3529881998547353,
+      "response_seconds_including_revalidation": 0.45014640007866547,
+      "background_seconds": 0.8857275999616832
+    },
+    {
+      "selection_seconds": 0.3255747001967393,
+      "response_seconds_including_revalidation": 0.45026720012538135,
+      "background_seconds": 1.094366000033915
+    },
+    {
+      "selection_seconds": 0.40835749986581504,
+      "response_seconds_including_revalidation": 0.5591674001771025,
+      "background_seconds": 0.943303000065498
+    },
+    {
+      "selection_seconds": 0.3308744999812916,
+      "response_seconds_including_revalidation": 0.5136750999372452,
+      "background_seconds": 1.0285837000701576
+    },
+    {
+      "selection_seconds": 0.10963679978158325,
+      "response_seconds_including_revalidation": 0.24289700022200122,
+      "background_seconds": 1.0497057999600656
+    },
+    {
+      "selection_seconds": 0.3739869997953065,
+      "response_seconds_including_revalidation": 0.49363939999602735,
+      "background_seconds": 0.7591979000135325
+    },
+    {
+      "selection_seconds": 0.24110529996687546,
+      "response_seconds_including_revalidation": 0.3617367997649126,
+      "background_seconds": 0.7275147000327706
+    },
+    {
+      "selection_seconds": 0.3682957000564784,
+      "response_seconds_including_revalidation": 0.45460739970440045,
+      "background_seconds": 0.7787992000230588
+    },
+    {
+      "selection_seconds": 0.24013690021820366,
+      "response_seconds_including_revalidation": 0.34354020009050146,
+      "background_seconds": 0.7206227999995463
+    },
+    {
+      "selection_seconds": 0.07639230025233701,
+      "response_seconds_including_revalidation": 0.17595089989481494,
+      "background_seconds": 0.8295592000358738
+    },
+    {
+      "selection_seconds": 0.3061504003126174,
+      "response_seconds_including_revalidation": 0.3978537000948563,
+      "background_seconds": 0.8096275000134483
+    },
+    {
+      "selection_seconds": 0.2755851998808794,
+      "response_seconds_including_revalidation": 0.38981820037588477,
+      "background_seconds": 0.7724916000152007
+    },
+    {
+      "selection_seconds": 0.3160812997375615,
+      "response_seconds_including_revalidation": 0.3956830998067744,
+      "background_seconds": 0.6855603999574669
+    },
+    {
+      "selection_seconds": 0.2463623998919502,
+      "response_seconds_including_revalidation": 0.35247990005882457,
+      "background_seconds": 0.7919191000401042
+    },
+    {
+      "selection_seconds": 0.08107010007370263,
+      "response_seconds_including_revalidation": 0.1802545000682585,
+      "background_seconds": 0.8469641000265256
+    },
+    {
+      "selection_seconds": 0.37578780023613945,
+      "response_seconds_including_revalidation": 0.4636640998069197,
+      "background_seconds": 0.7943165999604389
+    },
+    {
+      "selection_seconds": 0.24188569991383702,
+      "response_seconds_including_revalidation": 0.33309199986979365,
+      "background_seconds": 0.8102830999414437
+    },
+    {
+      "selection_seconds": 0.3621044998872094,
+      "response_seconds_including_revalidation": 0.4780754999956116,
+      "background_seconds": 0.7676608999609016
+    },
+    {
+      "selection_seconds": 0.32156649976968765,
+      "response_seconds_including_revalidation": 0.4483220000984147,
+      "background_seconds": 0.7234082000213675
+    },
+    {
+      "selection_seconds": 0.1294347999501042,
+      "response_seconds_including_revalidation": 0.28042419982375577,
+      "background_seconds": 2.2612556000240147
+    },
+    {
+      "selection_seconds": 0.6685174002777785,
+      "response_seconds_including_revalidation": 0.8216256001032889,
+      "background_seconds": 2.473396699933801
+    },
+    {
+      "selection_seconds": 0.5189873000490479,
+      "response_seconds_including_revalidation": 0.6322950002504513,
+      "background_seconds": 2.2120522999903187
+    },
+    {
+      "selection_seconds": 0.6276713999104686,
+      "response_seconds_including_revalidation": 0.777420699771028,
+      "background_seconds": 2.3638213999802247
+    },
+    {
+      "selection_seconds": 0.46655920008197427,
+      "response_seconds_including_revalidation": 0.6376734998775646,
+      "background_seconds": 2.3480284999823198
+    },
+    {
+      "selection_seconds": 0.13132669997867197,
+      "response_seconds_including_revalidation": 0.28787149995332584,
+      "background_seconds": 2.407454499974847
+    },
+    {
+      "selection_seconds": 0.6354061999591067,
+      "response_seconds_including_revalidation": 0.7582823999109678,
+      "background_seconds": 2.3012688999297097
+    },
+    {
+      "selection_seconds": 0.5113028000341728,
+      "response_seconds_including_revalidation": 0.6617273996816948,
+      "background_seconds": 2.285261199984234
+    },
+    {
+      "selection_seconds": 0.6429820999037474,
+      "response_seconds_including_revalidation": 0.7892368999891914,
+      "background_seconds": 2.7768197000259534
+    },
+    {
+      "selection_seconds": 0.5719867000589147,
+      "response_seconds_including_revalidation": 0.7378631998435594,
+      "background_seconds": 2.766586100042332
+    },
+    {
+      "selection_seconds": 0.16575060016475618,
+      "response_seconds_including_revalidation": 0.35616039991145954,
+      "background_seconds": 2.8799287999863736
+    },
+    {
+      "selection_seconds": 0.8159205000265501,
+      "response_seconds_including_revalidation": 1.0046663001412526,
+      "background_seconds": 3.090194100048393
+    },
+    {
+      "selection_seconds": 0.6031067998264916,
+      "response_seconds_including_revalidation": 0.7975807003094815,
+      "background_seconds": 3.1307771999854594
+    },
+    {
+      "selection_seconds": 0.7974696000455879,
+      "response_seconds_including_revalidation": 0.988121599832084,
+      "background_seconds": 2.899164700007532
+    },
+    {
+      "selection_seconds": 0.5908079004148021,
+      "response_seconds_including_revalidation": 0.8544273000443354,
+      "background_seconds": 3.066913500020746
+    },
+    {
+      "selection_seconds": 0.17338310019113123,
+      "response_seconds_including_revalidation": 0.3502283000270836,
+      "background_seconds": 2.6753623000113294
+    },
+    {
+      "selection_seconds": 0.7731157999951392,
+      "response_seconds_including_revalidation": 0.928508399927523,
+      "background_seconds": 2.7242873000213876
+    },
+    {
+      "selection_seconds": 0.5899328999221325,
+      "response_seconds_including_revalidation": 0.7995331001584418,
+      "background_seconds": 2.844552999944426
+    },
+    {
+      "selection_seconds": 0.7595603998634033,
+      "response_seconds_including_revalidation": 0.9215622000047006,
+      "background_seconds": 2.788448699982837
+    },
+    {
+      "selection_seconds": 0.6383237001136877,
+      "response_seconds_including_revalidation": 0.7754275999031961,
+      "background_seconds": 2.7204327000072226
+    },
+    {
+      "selection_seconds": 0.1696197998826392,
+      "response_seconds_including_revalidation": 0.3861987002310343,
+      "background_seconds": 2.792371599993203
+    },
+    {
+      "selection_seconds": 0.847667500085663,
+      "response_seconds_including_revalidation": 1.0458487001014873,
+      "background_seconds": 2.8735673000337556
+    },
+    {
+      "selection_seconds": 0.6828294998849742,
+      "response_seconds_including_revalidation": 0.8167216003057547,
+      "background_seconds": 2.8316804000060074
+    },
+    {
+      "selection_seconds": 0.8167594000115059,
+      "response_seconds_including_revalidation": 1.0018865999300033,
+      "background_seconds": 2.6987821999937296
+    },
+    {
+      "selection_seconds": 0.6263537998893298,
+      "response_seconds_including_revalidation": 0.8136284000938758,
+      "background_seconds": 2.914474799996242
+    },
+    {
+      "selection_seconds": 0.16867699997965246,
+      "response_seconds_including_revalidation": 0.36446700006490573,
+      "background_seconds": 2.8232752999756485
+    },
+    {
+      "selection_seconds": 0.8333507000934333,
+      "response_seconds_including_revalidation": 1.0598023998900317,
+      "background_seconds": 2.8133008000440896
+    },
+    {
+      "selection_seconds": 0.6404147001449019,
+      "response_seconds_including_revalidation": 0.8305937998811714,
+      "background_seconds": 2.9381490999949165
+    },
+    {
+      "selection_seconds": 0.8768383000278845,
+      "response_seconds_including_revalidation": 1.0763965998776257,
+      "background_seconds": 2.7714859999832697
+    },
+    {
+      "selection_seconds": 0.6839437001035549,
+      "response_seconds_including_revalidation": 0.8263442998868413,
+      "background_seconds": 2.785031799983699
+    },
+    {
+      "selection_seconds": 0.1615209998562932,
+      "response_seconds_including_revalidation": 0.3448840000783093,
+      "background_seconds": 2.7288687999825925
+    },
+    {
+      "selection_seconds": 0.7906338998000138,
+      "response_seconds_including_revalidation": 0.9735915999626741,
+      "background_seconds": 2.8600025000050664
+    },
+    {
+      "selection_seconds": 0.6362593998201191,
+      "response_seconds_including_revalidation": 0.8833256998332217,
+      "background_seconds": 2.9576891000033356
+    },
+    {
+      "selection_seconds": 0.8465609001577832,
+      "response_seconds_including_revalidation": 0.9636983000091277,
+      "background_seconds": 2.8445675000548363
+    },
+    {
+      "selection_seconds": 0.532790599972941,
+      "response_seconds_including_revalidation": 0.6513362000696361,
+      "background_seconds": 2.1371794000151567
+    },
+    {
+      "selection_seconds": 0.13419439981225878,
+      "response_seconds_including_revalidation": 0.27142489986727014,
+      "background_seconds": 2.1914343999815173
+    },
+    {
+      "selection_seconds": 0.6482063999865204,
+      "response_seconds_including_revalidation": 0.8498027001041919,
+      "background_seconds": 2.694296600006055
+    },
+    {
+      "selection_seconds": 0.49650520010618493,
+      "response_seconds_including_revalidation": 0.6684206999489106,
+      "background_seconds": 2.1690162999439053
+    },
+    {
+      "selection_seconds": 0.6260496998438612,
+      "response_seconds_including_revalidation": 0.7592566999956034,
+      "background_seconds": 2.266811300010886
+    },
+    {
+      "selection_seconds": 0.4796033001039177,
+      "response_seconds_including_revalidation": 0.6034780998597853,
+      "background_seconds": 2.2981589999981225
+    },
+    {
+      "selection_seconds": 0.10165719996439293,
+      "response_seconds_including_revalidation": 0.2326346998452209,
+      "background_seconds": 0.8677911999402568
+    },
+    {
+      "selection_seconds": 0.41683320014271885,
+      "response_seconds_including_revalidation": 0.5579549000249244,
+      "background_seconds": 0.9763185000047088
+    },
+    {
+      "selection_seconds": 0.3162503003841266,
+      "response_seconds_including_revalidation": 0.4432080000406131,
+      "background_seconds": 0.9516288000158966
+    },
+    {
+      "selection_seconds": 0.37725840002531186,
+      "response_seconds_including_revalidation": 0.5182614998775534,
+      "background_seconds": 0.9050340999383479
+    },
+    {
+      "selection_seconds": 0.32584859983762726,
+      "response_seconds_including_revalidation": 0.44138960010604933,
+      "background_seconds": 0.9619005999993533
+    },
+    {
+      "selection_seconds": 0.08534189977217466,
+      "response_seconds_including_revalidation": 0.20213580020936206,
+      "background_seconds": 0.8970610000542365
+    },
+    {
+      "selection_seconds": 0.34664560022065416,
+      "response_seconds_including_revalidation": 0.49655989999882877,
+      "background_seconds": 0.8582660999963991
+    },
+    {
+      "selection_seconds": 0.2850153000326827,
+      "response_seconds_including_revalidation": 0.38778869999805465,
+      "background_seconds": 0.7782866000197828
+    },
+    {
+      "selection_seconds": 0.3428434000816196,
+      "response_seconds_including_revalidation": 0.4482556999428198,
+      "background_seconds": 0.7957821999443695
+    },
+    {
+      "selection_seconds": 0.3170291999122128,
+      "response_seconds_including_revalidation": 0.41890730016166344,
+      "background_seconds": 0.789595999987796
+    },
+    {
+      "selection_seconds": 0.08202980004716665,
+      "response_seconds_including_revalidation": 0.18685169983655214,
+      "background_seconds": 0.76025250001112
+    },
+    {
+      "selection_seconds": 0.3346999998902902,
+      "response_seconds_including_revalidation": 0.4196448000147939,
+      "background_seconds": 0.7725081000244245
+    },
+    {
+      "selection_seconds": 0.32275620015570894,
+      "response_seconds_including_revalidation": 0.4341674001188949,
+      "background_seconds": 0.8649135999730788
+    },
+    {
+      "selection_seconds": 0.33701580023625866,
+      "response_seconds_including_revalidation": 0.47210699995048344,
+      "background_seconds": 0.7885015999781899
+    },
+    {
+      "selection_seconds": 0.27917839982546866,
+      "response_seconds_including_revalidation": 0.3688171000685543,
+      "background_seconds": 0.7831462000613101
+    },
+    {
+      "selection_seconds": 0.09149080008501187,
+      "response_seconds_including_revalidation": 0.2081220000400208,
+      "background_seconds": 0.8931082999915816
+    },
+    {
+      "selection_seconds": 0.3661825997987762,
+      "response_seconds_including_revalidation": 0.4704548999434337,
+      "background_seconds": 0.8267253000522032
+    },
+    {
+      "selection_seconds": 0.2912917000357993,
+      "response_seconds_including_revalidation": 0.4104943001293577,
+      "background_seconds": 0.8331186000723392
+    },
+    {
+      "selection_seconds": 0.3677484999061562,
+      "response_seconds_including_revalidation": 0.4813446000334807,
+      "background_seconds": 0.7920801999862306
+    },
+    {
+      "selection_seconds": 0.30972400022437796,
+      "response_seconds_including_revalidation": 0.4080269002588466,
+      "background_seconds": 0.8122913999832235
+    },
+    {
+      "selection_seconds": 0.07712970004649833,
+      "response_seconds_including_revalidation": 0.17887559992959723,
+      "background_seconds": 0.8195248999982141
+    },
+    {
+      "selection_seconds": 0.3340889000101015,
+      "response_seconds_including_revalidation": 0.4533196997945197,
+      "background_seconds": 0.7757762999972329
+    },
+    {
+      "selection_seconds": 0.2892781997215934,
+      "response_seconds_including_revalidation": 0.4082414998556487,
+      "background_seconds": 0.8518958000349812
+    },
+    {
+      "selection_seconds": 0.3421272999839857,
+      "response_seconds_including_revalidation": 0.48210760013898835,
+      "background_seconds": 0.8353428000118583
+    },
+    {
+      "selection_seconds": 0.28937830007635057,
+      "response_seconds_including_revalidation": 0.4078615999314934,
+      "background_seconds": 0.7841112000751309
+    },
+    {
+      "selection_seconds": 0.09088489977875724,
+      "response_seconds_including_revalidation": 0.20660839963238686,
+      "background_seconds": 0.8970313000609167
+    },
+    {
+      "selection_seconds": 0.35769010009244084,
+      "response_seconds_including_revalidation": 0.47058099997229874,
+      "background_seconds": 0.9638702000374906
+    },
+    {
+      "selection_seconds": 0.29269230004865676,
+      "response_seconds_including_revalidation": 0.41272639989620075,
+      "background_seconds": 0.9471608999883756
+    },
+    {
+      "selection_seconds": 0.36359729996183887,
+      "response_seconds_including_revalidation": 0.43209609971381724,
+      "background_seconds": 0.8450807000044733
+    },
+    {
+      "selection_seconds": 0.2821142000029795,
+      "response_seconds_including_revalidation": 0.4095573998056352,
+      "background_seconds": 0.9156811000430025
+    },
+    {
+      "selection_seconds": 0.08538009977201,
+      "response_seconds_including_revalidation": 0.1923244998906739,
+      "background_seconds": 0.7910057999542914
+    },
+    {
+      "selection_seconds": 0.3654632002580911,
+      "response_seconds_including_revalidation": 0.4615099999937229,
+      "background_seconds": 0.8067025999771431
+    },
+    {
+      "selection_seconds": 0.28010149992769584,
+      "response_seconds_including_revalidation": 0.4085219000116922,
+      "background_seconds": 0.7791624999954365
+    },
+    {
+      "selection_seconds": 0.3143636998720467,
+      "response_seconds_including_revalidation": 0.44693289999850094,
+      "background_seconds": 0.7466283999965526
+    },
+    {
+      "selection_seconds": 0.2564581000478938,
+      "response_seconds_including_revalidation": 0.3556891998741776,
+      "background_seconds": 0.7828437999705784
+    },
+    {
+      "selection_seconds": 0.07967169984476641,
+      "response_seconds_including_revalidation": 0.18256230017868802,
+      "background_seconds": 0.8734104000031948
+    },
+    {
+      "selection_seconds": 0.37806679983623326,
+      "response_seconds_including_revalidation": 0.4828591000987217,
+      "background_seconds": 0.7526463000103831
+    },
+    {
+      "selection_seconds": 0.2798175001516938,
+      "response_seconds_including_revalidation": 0.3933766999398358,
+      "background_seconds": 0.8918674999731593
+    },
+    {
+      "selection_seconds": 0.3826973997638561,
+      "response_seconds_including_revalidation": 0.48408029990969226,
+      "background_seconds": 0.8205847999779508
+    },
+    {
+      "selection_seconds": 0.29739269986748695,
+      "response_seconds_including_revalidation": 0.43551329988986254,
+      "background_seconds": 0.8335605000029318
+    },
+    {
+      "selection_seconds": 0.1742432999308221,
+      "response_seconds_including_revalidation": 0.3584636999294162,
+      "background_seconds": 2.8312114999862388
+    },
+    {
+      "selection_seconds": 0.7851176998810843,
+      "response_seconds_including_revalidation": 0.9333630999317393,
+      "background_seconds": 2.8545602999511175
+    },
+    {
+      "selection_seconds": 0.6583644999191165,
+      "response_seconds_including_revalidation": 0.7835454000160098,
+      "background_seconds": 2.797671799955424
+    },
+    {
+      "selection_seconds": 0.799969199928455,
+      "response_seconds_including_revalidation": 0.9578210001345724,
+      "background_seconds": 2.8097952000098303
+    },
+    {
+      "selection_seconds": 0.6539611000916921,
+      "response_seconds_including_revalidation": 0.8358960999757983,
+      "background_seconds": 2.896422999969218
+    },
+    {
+      "selection_seconds": 0.1749113998375833,
+      "response_seconds_including_revalidation": 0.3764717999729328,
+      "background_seconds": 2.9105558000155725
+    },
+    {
+      "selection_seconds": 0.8067427999339998,
+      "response_seconds_including_revalidation": 0.9518790998845361,
+      "background_seconds": 2.8429220999823883
+    },
+    {
+      "selection_seconds": 0.6315147000132129,
+      "response_seconds_including_revalidation": 0.7526997998356819,
+      "background_seconds": 2.802398899977561
+    },
+    {
+      "selection_seconds": 0.7647110999096185,
+      "response_seconds_including_revalidation": 0.984572900342755,
+      "background_seconds": 2.8003577000345103
+    },
+    {
+      "selection_seconds": 0.6469665999757126,
+      "response_seconds_including_revalidation": 0.8255765998619609,
+      "background_seconds": 2.808825300016906
+    },
+    {
+      "selection_seconds": 0.16842680011177436,
+      "response_seconds_including_revalidation": 0.34406359982676804,
+      "background_seconds": 2.7729507999611087
+    },
+    {
+      "selection_seconds": 0.7914145002141595,
+      "response_seconds_including_revalidation": 0.971711200021673,
+      "background_seconds": 2.8550659000175074
+    },
+    {
+      "selection_seconds": 0.6573229000787251,
+      "response_seconds_including_revalidation": 0.8398806999321096,
+      "background_seconds": 2.7246282000560313
+    },
+    {
+      "selection_seconds": 0.7724378000129946,
+      "response_seconds_including_revalidation": 0.9144643999170512,
+      "background_seconds": 2.8006511999992654
+    },
+    {
+      "selection_seconds": 0.6289186002104543,
+      "response_seconds_including_revalidation": 0.7943439002847299,
+      "background_seconds": 2.8685271999565884
+    },
+    {
+      "selection_seconds": 0.1807235996820964,
+      "response_seconds_including_revalidation": 0.3737894998630509,
+      "background_seconds": 2.890267300012056
+    },
+    {
+      "selection_seconds": 0.8063414999633096,
+      "response_seconds_including_revalidation": 1.0125409999745898,
+      "background_seconds": 2.884096599998884
+    },
+    {
+      "selection_seconds": 0.6615036001312546,
+      "response_seconds_including_revalidation": 0.8639235001173802,
+      "background_seconds": 2.9156889999867417
+    },
+    {
+      "selection_seconds": 0.7771478999056853,
+      "response_seconds_including_revalidation": 0.9719684998271987,
+      "background_seconds": 2.87323440000182
+    },
+    {
+      "selection_seconds": 0.6148992000962608,
+      "response_seconds_including_revalidation": 0.8111640002462082,
+      "background_seconds": 2.7019950000103563
+    },
+    {
+      "selection_seconds": 0.1735848999232985,
+      "response_seconds_including_revalidation": 0.35072389972629026,
+      "background_seconds": 2.9227800000226125
+    },
+    {
+      "selection_seconds": 0.7883751000044867,
+      "response_seconds_including_revalidation": 0.9697618000209332,
+      "background_seconds": 2.883002300048247
+    },
+    {
+      "selection_seconds": 0.6602847998728976,
+      "response_seconds_including_revalidation": 0.8588065998046659,
+      "background_seconds": 2.831578699988313
+    },
+    {
+      "selection_seconds": 0.7922253998694941,
+      "response_seconds_including_revalidation": 0.9538479002076201,
+      "background_seconds": 2.8520770999020897
+    },
+    {
+      "selection_seconds": 0.6781332999235019,
+      "response_seconds_including_revalidation": 0.8471924999612384,
+      "background_seconds": 2.853787500062026
+    },
+    {
+      "selection_seconds": 0.17019819986307994,
+      "response_seconds_including_revalidation": 0.37132529995869845,
+      "background_seconds": 2.8930863000568934
+    },
+    {
+      "selection_seconds": 0.79955510009313,
+      "response_seconds_including_revalidation": 0.9750314001576044,
+      "background_seconds": 2.901049799984321
+    },
+    {
+      "selection_seconds": 0.678834599966649,
+      "response_seconds_including_revalidation": 0.8734800999518484,
+      "background_seconds": 2.803418999945279
+    },
+    {
+      "selection_seconds": 0.7892209997517057,
+      "response_seconds_including_revalidation": 0.9935315999900922,
+      "background_seconds": 2.74461870000232
+    },
+    {
+      "selection_seconds": 0.6468657999648713,
+      "response_seconds_including_revalidation": 0.8396084001287818,
+      "background_seconds": 2.9355693999677896
+    },
+    {
+      "selection_seconds": 0.17606430017622188,
+      "response_seconds_including_revalidation": 0.36717989994212985,
+      "background_seconds": 2.739014999999199
+    },
+    {
+      "selection_seconds": 0.8033184999949299,
+      "response_seconds_including_revalidation": 0.9396390000474639,
+      "background_seconds": 2.9252296999911778
+    },
+    {
+      "selection_seconds": 0.6280523999594152,
+      "response_seconds_including_revalidation": 0.839505999814719,
+      "background_seconds": 3.0089562999201007
+    },
+    {
+      "selection_seconds": 0.8353775999275967,
+      "response_seconds_including_revalidation": 0.9757638002629392,
+      "background_seconds": 2.703584700007923
+    },
+    {
+      "selection_seconds": 0.6609680000110529,
+      "response_seconds_including_revalidation": 0.8317863002303056,
+      "background_seconds": 2.8278755000210367
+    },
+    {
+      "selection_seconds": 0.187129000085406,
+      "response_seconds_including_revalidation": 0.3812649000901729,
+      "background_seconds": 2.9012673999532126
+    },
+    {
+      "selection_seconds": 0.8023461000993848,
+      "response_seconds_including_revalidation": 0.9728405000059865,
+      "background_seconds": 2.9081392000080086
+    },
+    {
+      "selection_seconds": 0.6494147997582331,
+      "response_seconds_including_revalidation": 0.8421611000667326,
+      "background_seconds": 2.835973299923353
+    },
+    {
+      "selection_seconds": 0.8160100000095554,
+      "response_seconds_including_revalidation": 0.9696789002045989,
+      "background_seconds": 2.8420555999618955
+    },
+    {
+      "selection_seconds": 0.6251280001597479,
+      "response_seconds_including_revalidation": 0.8193421997711994,
+      "background_seconds": 2.8334708999609575
+    }
+  ]
+}

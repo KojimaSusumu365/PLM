@@ -1,0 +1,14 @@
+{
+  "version": "PLM-S1 v0.1",
+  "created_at_utc": "2026-09-05T14:29:07.687589+00:00",
+  "release_kind": "experimental_target_met",
+  "implementation_complete": true,
+  "functional_verification_passed": true,
+  "numerical_acceptance_passed": true,
+  "unmet_criteria": [],
+  "ss_demodulation_implemented": true,
+  "implementation_scope": "synthetic_discrete_complex_baseband_only",
+  "inference_enabled": false,
+  "independent_semantic_evaluation": "not_performed",
+  "next_candidate": "S1 v0.2: resolve frequency ambiguity / widen acquisition safely before fractional-delay and multipath extensions"
+}

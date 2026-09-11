@@ -1,0 +1,7 @@
+{
+  "status": "abstain",
+  "reason": "unknown_token",
+  "eligible_for_inference": false,
+  "packet": null,
+  "trace": []
+}

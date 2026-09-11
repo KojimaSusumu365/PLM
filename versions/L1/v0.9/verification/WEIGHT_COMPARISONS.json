@@ -1,0 +1,6 @@
+{
+  "ss_six_vs_432_blocks_exact": true,
+  "ss_vs_matched_symbolic_blocks_exact": true,
+  "v09_id3_vs_v08_component_blocks_exact": true,
+  "metadata_and_model_fingerprints_not_required_equal_for_these_cross_recipe_comparisons": true
+}

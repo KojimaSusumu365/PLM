@@ -1,0 +1,6 @@
+{
+  "packet_written": true,
+  "frames": 4,
+  "dimension": 2048,
+  "inference_enabled": false
+}

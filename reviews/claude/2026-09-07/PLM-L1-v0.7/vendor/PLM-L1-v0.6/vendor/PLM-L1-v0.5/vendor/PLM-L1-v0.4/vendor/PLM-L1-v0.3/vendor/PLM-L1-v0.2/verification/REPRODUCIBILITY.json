@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "full_evaluation_runs": 2,
+  "full_result_json_bytes_equal": true,
+  "report_bytes_equal": true,
+  "reader_metadata_bytes_equal": true,
+  "reader_weight_arrays_exact_equal": true,
+  "first_result_file_sha256": "9fd969c497b3bd5061bc0aa6f6587ea57537d90e57eda24bb97ef6c3a2d097ef",
+  "result_digest": "db96989624dffc442e9ff8fe0ed7bef68d6ba9d0f80cdc59e630b4fbd87449fc",
+  "source_freeze": "fae3ab8a9ea6df3f16474c7509b39d4e1aa59f19a6ec0dc91e8c8770b233e6bf",
+  "conditions": 7,
+  "evaluation_code_seeds": 8,
+  "evaluation_sentences_per_condition_seed": 192,
+  "stress_runs": 6,
+  "reference_runs": 2,
+  "acceptance_checks": 97,
+  "numerical_memories": 4,
+  "raw_reader_weight_bytes_excluding_metadata_cache_generator": 524288,
+  "note": "All per-example outcomes, stress and reference results compared, not only aggregate success counts. Repeated code seeds/corpus runs are not new independent corpora."
+}

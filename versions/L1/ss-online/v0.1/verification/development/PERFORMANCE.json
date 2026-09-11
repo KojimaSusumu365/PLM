@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "runs": [
+    {
+      "total_seconds": 0.7474840999930166,
+      "teacher_transaction_seconds": 0.4904193006805144,
+      "probe_seconds": 0.22464779997244477
+    },
+    {
+      "total_seconds": 0.7699133999994956,
+      "teacher_transaction_seconds": 0.49432889820309356,
+      "probe_seconds": 0.2269124000449665
+    },
+    {
+      "total_seconds": 0.9341385000152513,
+      "teacher_transaction_seconds": 0.6706612995476462,
+      "probe_seconds": 0.22612500010291114
+    },
+    {
+      "total_seconds": 1.2942329000215977,
+      "teacher_transaction_seconds": 1.0171028999029659,
+      "probe_seconds": 0.232965899980627
+    },
+    {
+      "total_seconds": 1.0698967999778688,
+      "teacher_transaction_seconds": 0.9236313007422723,
+      "probe_seconds": 0.12628399982349947
+    },
+    {
+      "total_seconds": 0.6753049999824725,
+      "teacher_transaction_seconds": 0.4394652984919958,
+      "probe_seconds": 0.2118048999691382
+    },
+    {
+      "total_seconds": 0.7381883999914862,
+      "teacher_transaction_seconds": 0.4894850999698974,
+      "probe_seconds": 0.22102969989646226
+    },
+    {
+      "total_seconds": 0.8885292000486515,
+      "teacher_transaction_seconds": 0.6433121003792621,
+      "probe_seconds": 0.22030569991329685
+    },
+    {
+      "total_seconds": 1.2655450999736786,
+      "teacher_transaction_seconds": 1.0162797994562425,
+      "probe_seconds": 0.22072519996436313
+    },
+    {
+      "total_seconds": 1.08447729999898,
+      "teacher_transaction_seconds": 0.9340541997225955,
+      "probe_seconds": 0.12986960005946457
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "l1-p1-s1-evaluation-01",
+  "main_conditions": ["clean", "offset_noise", "partial25"],
+  "methods": ["direct", "ss_estimated", "repeat_estimated", "ss_disabled", "ss_oracle"],
+  "channel_seeds": [2100, 2200],
+  "stress_conditions": ["partial10", "pilot_missing", "cfo_outside", "noise_only", "payload_missing", "frame_swap", "sampling_alias"],
+  "stress_case_count": 4,
+  "stress_seed": 2300,
+  "main_case_count": 12,
+  "independent_scene_count": 12,
+  "new_language_training": false,
+  "teacher_confirmation_targets": 2,
+  "memory_method": "versioned_pair",
+  "output_styles": ["preserve_subject", "reverse_alternating"],
+  "acceptance": {
+    "direct_all_correct": true,
+    "ss_clean_correct_rate_min": 1.0,
+    "ss_offset_noise_correct_rate_min": 0.90,
+    "ss_partial25_correct_rate_min": 0.75,
+    "ss_main_wrong_generated_max": 0,
+    "ss_main_wrong_teachers_max": 0,
+    "ss_main_wrong_aligned_frames_max": 0,
+    "hard_negative_learned_max": 0,
+    "hard_negative_generated_max": 0
+  },
+  "hard_negative_conditions": ["pilot_missing", "cfo_outside", "noise_only", "payload_missing", "frame_swap"],
+  "sampling_alias_is_reported_limitation_not_expected_rejection": true,
+  "eligible_for_inference": false
+}

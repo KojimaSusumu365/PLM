@@ -1,0 +1,5581 @@
+{
+  "version": "PLM-R1 v0.1",
+  "mode": "observe_only",
+  "inference_enabled": false,
+  "independent_semantic_evaluation": "not_performed",
+  "unique_content_count": 16,
+  "source_revision_count": 17,
+  "observation_count": 14,
+  "independent_evidence_count": null,
+  "documents": [
+    {
+      "document_id": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9",
+      "envelope_hash": "a1dc140a7b598f0d46c19f9b770718318a152b453132c5b586dd7fd5291456f9",
+      "sources": [
+        {
+          "source_id": "internal:hypothetical",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "If the bank grants aid."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "candidate": "FINANCIAL_BANK",
+          "confidence": 0.5323,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "label_ja": "銀行",
+          "legacy_selection_confidence": 0.8424,
+          "margin": 0.0,
+          "raw_selection_confidence": 0.4677,
+          "reason": "evidence below selection threshold",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "runner_up": "RIVER_BANK",
+          "score": 0.1125,
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7319
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S001:C001",
+          "operation": "STATE_TRANSITION",
+          "reason": "bounded discourse role",
+          "state": "hypothetical"
+        },
+        {
+          "applied": false,
+          "bank_role": "agent",
+          "operation": "EXTRACT_SEMANTIC_ROLE",
+          "relation_id": "R0001",
+          "voice": "active"
+        }
+      ],
+      "context_hash": "c530d885fec401997ec9d9f162e0fdc46237684aa19a42c1a35c10574ca1e3e1",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 11,
+            "start": 7,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "kind": "argument",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 11,
+            "start": 7,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "kind": "argument",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 22,
+            "start": 19,
+            "text": "aid"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "argument",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "hypothetical",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.1125,
+          "evidence_id": "E0001",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "If the bank grants aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "hypothetical",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.1125,
+          "evidence_id": "E0002",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "If the bank grants aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9:F0001",
+          "original_frame": {
+            "applied": false,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002"
+            ],
+            "extraction_rule": "bounded_bank_event",
+            "frame_id": "F0001",
+            "modality": "hypothetical",
+            "object_entity_id": "ENT000002",
+            "object_mention_id": "MN000003",
+            "object_text": "aid",
+            "observation_id": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9:F0001",
+            "polarity": "positive",
+            "predicate": "grant",
+            "predicate_span": {
+              "end": 18,
+              "start": 12,
+              "text": "grants"
+            },
+            "relation_type": "FINANCIAL_AFFORDANCE",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": null,
+            "source_relation_id": "R0001",
+            "subject": "bank",
+            "subject_entity_id": "ENT000001",
+            "subject_mention_id": "MN000002",
+            "target_clause_id": null,
+            "target_concept": "FINANCIAL_BANK",
+            "voice": "active"
+          },
+          "source_clause": {
+            "assertion_status": "hypothetical",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "hypothetical",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "If the bank grants aid"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9:ENT000001",
+          "qualified_object_entity": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9:ENT000002",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "hypothetical",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.1125,
+              "evidence_id": "E0001",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "If the bank grants aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "hypothetical",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.1125,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "If the bank grants aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending",
+            "hypothetical"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020",
+      "envelope_hash": "4ed1d1cf01e874adf9899592fabd4507cee2ae728fae11fc299a15a5c6f44c9e",
+      "sources": [
+        {
+          "source_id": "internal:plural_reference",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "A dog and another dog entered.",
+        "They were photographed."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 12,
+          "candidate": "DOG",
+          "confidence": 0.9944,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "label_ja": "犬",
+          "legacy_selection_confidence": 0.8687,
+          "margin": 3.05,
+          "raw_selection_confidence": 0.9944,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.9,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 3.05,
+          "selected": "DOG",
+          "selection_confidence": 0.9286,
+          "v02_selection_confidence": 0.8636
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        }
+      },
+      "reference_resolutions": [
+        {
+          "candidate_entity_ids": [
+            "ENT000001",
+            "ENT000002"
+          ],
+          "clause_id": "S002:C001",
+          "cue": "They",
+          "mode": "plural",
+          "resolved_entity_ids": [
+            "ENT000001",
+            "ENT000002"
+          ],
+          "status": "resolved"
+        }
+      ],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S002:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "antecedent_entity_id": "ENT000001",
+          "operation": "RESOLVE_INSTANCE_REFERENCE",
+          "reference_id": "Q0001"
+        },
+        {
+          "antecedent_entity_id": "ENT000002",
+          "operation": "RESOLVE_INSTANCE_REFERENCE",
+          "reference_id": "Q0002"
+        }
+      ],
+      "context_hash": "bd1d9b84ca753d56df096ce688f8de75c651b0b8cf23677d69b30f0d26acec46",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 5,
+            "start": 2,
+            "text": "dog"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 21,
+            "start": 18,
+            "text": "dog"
+          }
+        },
+        {
+          "clause_id": "S002:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "kind": "reference",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S002",
+          "span": {
+            "end": 4,
+            "start": 0,
+            "text": "They"
+          }
+        },
+        {
+          "clause_id": "S002:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000002",
+          "kind": "reference",
+          "mention_id": "MN000004",
+          "number": "singular",
+          "source_id": "S002",
+          "span": {
+            "end": 4,
+            "start": 0,
+            "text": "They"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "DOG",
+          "effective_weight": 1.0,
+          "evidence_id": "E0001",
+          "pattern": "dog",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A dog and another dog entered",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "DOG",
+          "effective_weight": 1.0,
+          "evidence_id": "E0002",
+          "pattern": "dog",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A dog and another dog entered",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S002:C001",
+          "concept": "DOG",
+          "effective_weight": 1.05,
+          "evidence_id": "E0003",
+          "pattern": "[reference:They]",
+          "polarity_depth": 0,
+          "reason": "instance coreference",
+          "scope": "instance:shared/S002:C001",
+          "source_id": "S002",
+          "source_order": 1,
+          "source_text": "They were photographed",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 1,
+          "vote": 1,
+          "weight": 1.05
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [
+          "F0001",
+          "F0002"
+        ],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:F0001",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S002:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001"
+            ],
+            "extraction_rule": "instance_reference",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": "ENT000001",
+            "object_mention_id": "MN000001",
+            "object_text": "DOG",
+            "observation_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:F0001",
+            "polarity": "positive",
+            "predicate": "REFERS_TO",
+            "predicate_span": null,
+            "relation_type": "COREFERENCE",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": "Q0001",
+            "source_relation_id": null,
+            "subject": "They",
+            "subject_entity_id": "ENT000001",
+            "subject_mention_id": "MN000003",
+            "target_clause_id": "S001:C001",
+            "target_concept": "DOG",
+            "voice": "n/a"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S002:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S002",
+            "source_order": 1,
+            "text": "They were photographed"
+          },
+          "target_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "A dog and another dog entered"
+          },
+          "qualified_subject_entity": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:ENT000001",
+          "qualified_object_entity": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:ENT000001",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "DOG",
+              "effective_weight": 1.0,
+              "evidence_id": "E0001",
+              "pattern": "dog",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "A dog and another dog entered",
+              "superseded_by": null,
+              "target_id": "T:shared:entity",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 1.0
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        },
+        {
+          "observation_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:F0002",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S002:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0002"
+            ],
+            "extraction_rule": "instance_reference",
+            "frame_id": "F0002",
+            "modality": "asserted",
+            "object_entity_id": "ENT000002",
+            "object_mention_id": "MN000002",
+            "object_text": "DOG",
+            "observation_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:F0002",
+            "polarity": "positive",
+            "predicate": "REFERS_TO",
+            "predicate_span": null,
+            "relation_type": "COREFERENCE",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": "Q0002",
+            "source_relation_id": null,
+            "subject": "They",
+            "subject_entity_id": "ENT000002",
+            "subject_mention_id": "MN000004",
+            "target_clause_id": "S001:C001",
+            "target_concept": "DOG",
+            "voice": "n/a"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S002:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S002",
+            "source_order": 1,
+            "text": "They were photographed"
+          },
+          "target_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "A dog and another dog entered"
+          },
+          "qualified_subject_entity": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:ENT000002",
+          "qualified_object_entity": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:ENT000002",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "DOG",
+              "effective_weight": 1.0,
+              "evidence_id": "E0002",
+              "pattern": "dog",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "A dog and another dog entered",
+              "superseded_by": null,
+              "target_id": "T:shared:entity",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 1.0
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "1d386a06d70a3a239ffc27b767c7997533c0b8958be3ae6ba2ef76a47d2256d4",
+      "envelope_hash": "8fc10301d8d31c472c102d9d38400c40f00d0cc2485a8124fae17183a51526fe",
+      "sources": [
+        {
+          "source_id": "internal:active",
+          "revision": "1"
+        },
+        {
+          "source_id": "internal:active-copy",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "The bank granted aid."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 6,
+          "candidate": "FINANCIAL_BANK",
+          "confidence": 0.9011,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "label_ja": "銀行",
+          "legacy_selection_confidence": 0.8641,
+          "margin": 1.3,
+          "raw_selection_confidence": 0.9011,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.8,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 1.3,
+          "selected": "FINANCIAL_BANK",
+          "selection_confidence": 0.875,
+          "v02_selection_confidence": 0.8403
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "applied": true,
+          "bank_role": "agent",
+          "operation": "EXTRACT_SEMANTIC_ROLE",
+          "relation_id": "R0001",
+          "voice": "active"
+        },
+        {
+          "amount": 0.45,
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "evidence_id": "E0004",
+          "operation": "NEGATE",
+          "polarity_depth": 0,
+          "reason": "semantic role contradiction"
+        }
+      ],
+      "context_hash": "7c7a45831d22c509818491d65079161e782de4a339ecef3e4018a5ac391125f5",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 8,
+            "start": 4,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "kind": "argument",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 8,
+            "start": 4,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "kind": "argument",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 20,
+            "start": 17,
+            "text": "aid"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "argument",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0001",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank granted aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0002",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank granted aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.85,
+          "evidence_id": "E0003",
+          "pattern": "[role:grant]",
+          "polarity_depth": 0,
+          "reason": "semantic role support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank granted aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.85
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0004",
+          "pattern": "[role:grant]",
+          "polarity_depth": 0,
+          "reason": "semantic role contradiction",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank granted aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": -1,
+          "weight": 0.45
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [
+          "F0001"
+        ],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "1d386a06d70a3a239ffc27b767c7997533c0b8958be3ae6ba2ef76a47d2256d4:F0001",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002",
+              "E0003",
+              "E0004"
+            ],
+            "extraction_rule": "bounded_bank_event",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": "ENT000002",
+            "object_mention_id": "MN000003",
+            "object_text": "aid",
+            "observation_id": "1d386a06d70a3a239ffc27b767c7997533c0b8958be3ae6ba2ef76a47d2256d4:F0001",
+            "polarity": "positive",
+            "predicate": "grant",
+            "predicate_span": {
+              "end": 16,
+              "start": 9,
+              "text": "granted"
+            },
+            "relation_type": "FINANCIAL_AFFORDANCE",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": null,
+            "source_relation_id": "R0001",
+            "subject": "bank",
+            "subject_entity_id": "ENT000001",
+            "subject_mention_id": "MN000002",
+            "target_clause_id": null,
+            "target_concept": "FINANCIAL_BANK",
+            "voice": "active"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "The bank granted aid"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": "1d386a06d70a3a239ffc27b767c7997533c0b8958be3ae6ba2ef76a47d2256d4:ENT000001",
+          "qualified_object_entity": "1d386a06d70a3a239ffc27b767c7997533c0b8958be3ae6ba2ef76a47d2256d4:ENT000002",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0001",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank granted aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank granted aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.85,
+              "evidence_id": "E0003",
+              "pattern": "[role:grant]",
+              "polarity_depth": 0,
+              "reason": "semantic role support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank granted aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.85
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0004",
+              "pattern": "[role:grant]",
+              "polarity_depth": 0,
+              "reason": "semantic role contradiction",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank granted aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": -1,
+              "weight": 0.45
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b",
+      "envelope_hash": "9b81f60de990aa5278dff7770cf578d6b3f405a0349950308cce48d41fc0b85c",
+      "sources": [
+        {
+          "source_id": "internal:quoted",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "\"The bank granted aid.\""
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 6,
+          "candidate": "FINANCIAL_BANK",
+          "confidence": 0.9011,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "label_ja": "銀行",
+          "legacy_selection_confidence": 0.8641,
+          "margin": 1.3,
+          "raw_selection_confidence": 0.9011,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.8,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 1.3,
+          "selected": "FINANCIAL_BANK",
+          "selection_confidence": 0.875,
+          "v02_selection_confidence": 0.8403
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S001:C002",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "applied": true,
+          "bank_role": "agent",
+          "operation": "EXTRACT_SEMANTIC_ROLE",
+          "relation_id": "R0001",
+          "voice": "active"
+        },
+        {
+          "amount": 0.45,
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "evidence_id": "E0004",
+          "operation": "NEGATE",
+          "polarity_depth": 0,
+          "reason": "semantic role contradiction"
+        }
+      ],
+      "context_hash": "4bb2dd0cea4ee9d2c85fd21a1a21602d6892e1ceaed333c5d95ebaf0f6d98e1c",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 9,
+            "start": 5,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "kind": "argument",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 9,
+            "start": 5,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "kind": "argument",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 21,
+            "start": 18,
+            "text": "aid"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "argument",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0001",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "\"The bank granted aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0002",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "\"The bank granted aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.85,
+          "evidence_id": "E0003",
+          "pattern": "[role:grant]",
+          "polarity_depth": 0,
+          "reason": "semantic role support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "\"The bank granted aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.85
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0004",
+          "pattern": "[role:grant]",
+          "polarity_depth": 0,
+          "reason": "semantic role contradiction",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "\"The bank granted aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": -1,
+          "weight": 0.45
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": false,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [
+        "no_rule_checked_relation_review_original_text"
+      ],
+      "observations": [
+        {
+          "observation_id": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b:F0001",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002",
+              "E0003",
+              "E0004"
+            ],
+            "extraction_rule": "bounded_bank_event",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": "ENT000002",
+            "object_mention_id": "MN000003",
+            "object_text": "aid",
+            "observation_id": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b:F0001",
+            "polarity": "positive",
+            "predicate": "grant",
+            "predicate_span": {
+              "end": 17,
+              "start": 10,
+              "text": "granted"
+            },
+            "relation_type": "FINANCIAL_AFFORDANCE",
+            "review_reasons": [
+              "quoted_scope_requires_review"
+            ],
+            "semantic_status": "quarantined",
+            "source_reference_id": null,
+            "source_relation_id": "R0001",
+            "subject": "bank",
+            "subject_entity_id": "ENT000001",
+            "subject_mention_id": "MN000002",
+            "target_clause_id": null,
+            "target_concept": "FINANCIAL_BANK",
+            "voice": "active"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "\"The bank granted aid"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b:ENT000001",
+          "qualified_object_entity": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b:ENT000002",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0001",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "\"The bank granted aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "\"The bank granted aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.85,
+              "evidence_id": "E0003",
+              "pattern": "[role:grant]",
+              "polarity_depth": 0,
+              "reason": "semantic role support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "\"The bank granted aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.85
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0004",
+              "pattern": "[role:grant]",
+              "polarity_depth": 0,
+              "reason": "semantic role contradiction",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "\"The bank granted aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": -1,
+              "weight": 0.45
+            }
+          ],
+          "review_flags": [
+            "producer_quarantined",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6",
+      "envelope_hash": "ddcbb1b925bf1a768fd852a766e41624ffbe274db5e64dd377624356842d3b49",
+      "sources": [
+        {
+          "source_id": "internal:negative",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "The bank did not grant aid."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "candidate": "FINANCIAL_BANK",
+          "confidence": 0.6266,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "label_ja": "銀行",
+          "legacy_selection_confidence": 0.8377,
+          "margin": 0.0,
+          "raw_selection_confidence": 0.3734,
+          "reason": "evidence below selection threshold",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "runner_up": "RIVER_BANK",
+          "score": 0.45,
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7083
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "applied": false,
+          "bank_role": "agent",
+          "operation": "EXTRACT_SEMANTIC_ROLE",
+          "relation_id": "R0001",
+          "voice": "active"
+        }
+      ],
+      "context_hash": "5fa98c0cedf703c31f24b3ddaaab36085cf950ad947f384841726e05e0ab60fe",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 8,
+            "start": 4,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "kind": "argument",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 8,
+            "start": 4,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "kind": "argument",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 26,
+            "start": 23,
+            "text": "aid"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "argument",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0001",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank did not grant aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0002",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank did not grant aid",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6:F0001",
+          "original_frame": {
+            "applied": false,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002"
+            ],
+            "extraction_rule": "bounded_bank_event",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": "ENT000002",
+            "object_mention_id": "MN000003",
+            "object_text": "aid",
+            "observation_id": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6:F0001",
+            "polarity": "negative",
+            "predicate": "grant",
+            "predicate_span": {
+              "end": 22,
+              "start": 17,
+              "text": "grant"
+            },
+            "relation_type": "FINANCIAL_AFFORDANCE",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": null,
+            "source_relation_id": "R0001",
+            "subject": "bank",
+            "subject_entity_id": "ENT000001",
+            "subject_mention_id": "MN000002",
+            "target_clause_id": null,
+            "target_concept": "FINANCIAL_BANK",
+            "voice": "active"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "The bank did not grant aid"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6:ENT000001",
+          "qualified_object_entity": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6:ENT000002",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0001",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank did not grant aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank did not grant aid",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending",
+            "negative"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52",
+      "envelope_hash": "6940f4f9f639bb9e1ff1192306eff31f6d6106fd505557ddc3fe3815af16d158",
+      "sources": [
+        {
+          "source_id": "internal:passive",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "Grants for a river restoration were awarded by the bank."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 6,
+          "candidate": "FINANCIAL_BANK",
+          "confidence": 0.9011,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "label_ja": "銀行",
+          "legacy_selection_confidence": 0.8641,
+          "margin": 1.3,
+          "raw_selection_confidence": 0.9011,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.8,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 1.3,
+          "selected": "FINANCIAL_BANK",
+          "selection_confidence": 0.875,
+          "v02_selection_confidence": 0.8403
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "applied": false,
+          "operation": "RELATE",
+          "reason": "no supported relation between ambiguous term and trigger",
+          "relation_id": "R0001",
+          "relation_type": "SPATIAL_ASSOCIATION"
+        },
+        {
+          "applied": true,
+          "bank_role": "agent",
+          "operation": "EXTRACT_SEMANTIC_ROLE",
+          "relation_id": "R0002",
+          "voice": "passive"
+        },
+        {
+          "amount": 0.45,
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "evidence_id": "E0005",
+          "operation": "NEGATE",
+          "polarity_depth": 0,
+          "reason": "semantic role contradiction"
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "evidence_id": "E0001",
+          "operation": "RELATION_GATE",
+          "reason": "river mention lacks a spatial bank-of relation"
+        }
+      ],
+      "context_hash": "1aef504c907d91f3d625e6d35e06b107cb6c9c557fcd6e98e71d1edf10559d9d",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 18,
+            "start": 13,
+            "text": "river"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0002",
+            "E0003"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 55,
+            "start": 51,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "kind": "argument",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 55,
+            "start": 51,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [],
+          "entity_id": "ENT000003",
+          "kind": "argument",
+          "mention_id": "MN000004",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 30,
+            "start": 0,
+            "text": "Grants for a river restoration"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [],
+          "entity_id": "ENT000003",
+          "identity_status": "local_mention",
+          "kind": "argument",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": false,
+          "assertion_status": "relation_gated",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.0,
+          "evidence_id": "E0001",
+          "pattern": "river",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "Grants for a river restoration were awarded by the bank",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.75
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0002",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "Grants for a river restoration were awarded by the bank",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0003",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "Grants for a river restoration were awarded by the bank",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.85,
+          "evidence_id": "E0004",
+          "pattern": "[role:award]",
+          "polarity_depth": 0,
+          "reason": "semantic role support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "Grants for a river restoration were awarded by the bank",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.85
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0005",
+          "pattern": "[role:award]",
+          "polarity_depth": 0,
+          "reason": "semantic role contradiction",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "Grants for a river restoration were awarded by the bank",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": -1,
+          "weight": 0.45
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [
+          "F0002"
+        ],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52:F0001",
+          "original_frame": {
+            "applied": false,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002",
+              "E0003",
+              "E0004",
+              "E0005"
+            ],
+            "extraction_rule": "legacy_context",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": null,
+            "object_mention_id": null,
+            "object_text": "Grants for a river restoration were awarded by the bank",
+            "observation_id": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52:F0001",
+            "polarity": "positive",
+            "predicate": "river",
+            "predicate_span": null,
+            "relation_type": "SPATIAL_ASSOCIATION",
+            "review_reasons": [
+              "legacy_association_not_semantically_verified"
+            ],
+            "semantic_status": "quarantined",
+            "source_reference_id": null,
+            "source_relation_id": "R0001",
+            "subject": "bank",
+            "subject_entity_id": null,
+            "subject_mention_id": null,
+            "target_clause_id": null,
+            "target_concept": "RIVER_BANK",
+            "voice": "active"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "Grants for a river restoration were awarded by the bank"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": null,
+          "qualified_object_entity": null,
+          "evidence": [
+            {
+              "active": false,
+              "assertion_status": "relation_gated",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.0,
+              "evidence_id": "E0001",
+              "pattern": "river",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.75
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0003",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.85,
+              "evidence_id": "E0004",
+              "pattern": "[role:award]",
+              "polarity_depth": 0,
+              "reason": "semantic role support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.85
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0005",
+              "pattern": "[role:award]",
+              "polarity_depth": 0,
+              "reason": "semantic role contradiction",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": -1,
+              "weight": 0.45
+            }
+          ],
+          "review_flags": [
+            "producer_quarantined",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        },
+        {
+          "observation_id": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52:F0002",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002",
+              "E0003",
+              "E0004",
+              "E0005"
+            ],
+            "extraction_rule": "bounded_bank_event",
+            "frame_id": "F0002",
+            "modality": "asserted",
+            "object_entity_id": "ENT000003",
+            "object_mention_id": "MN000004",
+            "object_text": "Grants for a river restoration",
+            "observation_id": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52:F0002",
+            "polarity": "positive",
+            "predicate": "award",
+            "predicate_span": {
+              "end": 43,
+              "start": 36,
+              "text": "awarded"
+            },
+            "relation_type": "FINANCIAL_AFFORDANCE",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": null,
+            "source_relation_id": "R0002",
+            "subject": "bank",
+            "subject_entity_id": "ENT000002",
+            "subject_mention_id": "MN000003",
+            "target_clause_id": null,
+            "target_concept": "FINANCIAL_BANK",
+            "voice": "passive"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "Grants for a river restoration were awarded by the bank"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52:ENT000002",
+          "qualified_object_entity": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52:ENT000003",
+          "evidence": [
+            {
+              "active": false,
+              "assertion_status": "relation_gated",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.0,
+              "evidence_id": "E0001",
+              "pattern": "river",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.75
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0003",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.85,
+              "evidence_id": "E0004",
+              "pattern": "[role:award]",
+              "polarity_depth": 0,
+              "reason": "semantic role support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.85
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0005",
+              "pattern": "[role:award]",
+              "polarity_depth": 0,
+              "reason": "semantic role contradiction",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Grants for a river restoration were awarded by the bank",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": -1,
+              "weight": 0.45
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "4cb3659fc1f64c064625a734ec5d8e745d6f94fb41073f84d5e589e18e6bb665",
+      "envelope_hash": "71be7903a70fcab038c44abc1cb5cb882f6479055f02e58218d3c31f36f9c6d8",
+      "sources": [
+        {
+          "source_id": "internal:ambiguous_reference",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "A dog and another dog entered.",
+        "It was photographed."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 5,
+          "candidate": "DOG",
+          "confidence": 0.9677,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "label_ja": "犬",
+          "legacy_selection_confidence": 0.8674,
+          "margin": 2.0,
+          "raw_selection_confidence": 0.9677,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.45,
+          "risk_flags": [
+            "unresolved_instance_reference"
+          ],
+          "runner_up": null,
+          "score": 2.0,
+          "selected": "DOG",
+          "selection_confidence": 0.5556,
+          "v02_selection_confidence": 0.8569
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        }
+      },
+      "reference_resolutions": [
+        {
+          "candidate_entity_ids": [
+            "ENT000001",
+            "ENT000002"
+          ],
+          "clause_id": "S002:C001",
+          "cue": "It",
+          "mode": "singular",
+          "resolved_entity_ids": [],
+          "status": "ambiguous"
+        }
+      ],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S002:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        }
+      ],
+      "context_hash": "edff749a16431a28a1f58e3e4496375fe3a1bab096eff8b9c7f55402076ff589",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 5,
+            "start": 2,
+            "text": "dog"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 21,
+            "start": 18,
+            "text": "dog"
+          }
+        },
+        {
+          "clause_id": "S002:C001",
+          "concept_candidates": [],
+          "entity_id": null,
+          "kind": "unresolved_reference",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S002",
+          "span": {
+            "end": 2,
+            "start": 0,
+            "text": "It"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "DOG",
+          "effective_weight": 1.0,
+          "evidence_id": "E0001",
+          "pattern": "dog",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A dog and another dog entered",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "DOG",
+          "effective_weight": 1.0,
+          "evidence_id": "E0002",
+          "pattern": "dog",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A dog and another dog entered",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": false,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [
+        "no_relation_extracted_not_proof_of_absence",
+        "reference_ambiguous:S002:C001",
+        "no_rule_checked_relation_review_original_text"
+      ],
+      "observations": [],
+      "reviews": []
+    },
+    {
+      "document_id": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "envelope_hash": "94a7fc63f2c8a144dd1daa003b1d82a921274289f26fc24fe77d2a02de18f15b",
+      "sources": [
+        {
+          "source_id": "internal:empty",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [],
+      "context_hash": "cf7f955612b2837205ce87b8b727f6108df5833433e31089b8b2b5d70ba3bcb1",
+      "mentions": [],
+      "entities": [],
+      "evidence": [],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": false,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [
+        "no_relation_extracted_not_proof_of_absence",
+        "no_rule_checked_relation_review_original_text"
+      ],
+      "observations": [],
+      "reviews": []
+    },
+    {
+      "document_id": "66e3cc15d0e3bb2a385eff17955db901960dafac71ca5a7a4e5f06985c728dd1",
+      "envelope_hash": "ba316a06179ad79baf75e1e06ac1cc4bd345ca81652330fc917076fcf7a74ca5",
+      "sources": [
+        {
+          "source_id": "internal:known_reassessed",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "Originally marked cat: reassessed as dog."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 5,
+          "candidate": "ANIMAL",
+          "confidence": 0.7805,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "label_ja": "動物",
+          "legacy_selection_confidence": 0.858,
+          "margin": 0.78,
+          "raw_selection_confidence": 0.7805,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.55,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 0.78,
+          "selected": "ANIMAL",
+          "selection_confidence": 0.5556,
+          "v02_selection_confidence": 0.8101
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S001:C001",
+          "operation": "STATE_TRANSITION",
+          "reason": "bounded discourse role",
+          "state": "provisional"
+        }
+      ],
+      "context_hash": "39168415d1124afdc274c81355c22d8c186c158ee3f564533fec8beb26c1592d",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 21,
+            "start": 18,
+            "text": "cat"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 40,
+            "start": 37,
+            "text": "dog"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "provisional",
+          "clause_id": "S001:C001",
+          "concept": "CAT",
+          "effective_weight": 1.0,
+          "evidence_id": "E0001",
+          "pattern": "cat",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "Originally marked cat: reassessed as dog",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        },
+        {
+          "active": true,
+          "assertion_status": "provisional",
+          "clause_id": "S001:C001",
+          "concept": "DOG",
+          "effective_weight": 1.0,
+          "evidence_id": "E0002",
+          "pattern": "dog",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "Originally marked cat: reassessed as dog",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": false,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [
+        "no_relation_extracted_not_proof_of_absence",
+        "no_rule_checked_relation_review_original_text"
+      ],
+      "observations": [],
+      "reviews": [
+        {
+          "decision": "needs_review",
+          "document_id": "66e3cc15d0e3bb2a385eff17955db901960dafac71ca5a7a4e5f06985c728dd1",
+          "eligible_for_inference": false,
+          "error_types": [
+            "unknown_predicate",
+            "revision_target",
+            "missing_relation"
+          ],
+          "event_id": "known-gap:known_reassessed",
+          "note": "C2 known gap: reassessed is unsupported; no grounded revision. R1 retains source and classification without repairing C2.",
+          "reviewer_id": "internal_implementation_note_not_independent_reviewer",
+          "target_id": "66e3cc15d0e3bb2a385eff17955db901960dafac71ca5a7a4e5f06985c728dd1",
+          "recorded_at": "2026-09-04T21:59:28.942892+00:00"
+        }
+      ]
+    },
+    {
+      "document_id": "7c5d32dff5bbda8a8f7f34306dc5aa6732fb2b564fa56be3bb8c3574e5fda0ba",
+      "envelope_hash": "ef5715cb73da815dc2841bf61687b8458cddcb8b719f9caca8c7a289a7eea66a",
+      "sources": [
+        {
+          "source_id": "internal:japanese_revision",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "犬、いや、猫。"
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 12,
+          "candidate": "CAT",
+          "confidence": 0.8455,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "label_ja": "猫",
+          "legacy_selection_confidence": 0.8613,
+          "margin": 1.0,
+          "raw_selection_confidence": 0.8455,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.9,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 1.0,
+          "selected": "CAT",
+          "selection_confidence": 0.9286,
+          "v02_selection_confidence": 0.8264
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "operation": "MARK_CONTRASTIVE_CORRECTION",
+          "reason": "standalone correction connective",
+          "source_id": "S001"
+        },
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S001:C002",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S001:C002",
+          "operation": "STATE_TRANSITION",
+          "reason": "bounded discourse role",
+          "state": "corrective"
+        },
+        {
+          "clause_id": "S001:C003",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "from_clause_id": "S001:C002",
+          "operation": "PROPAGATE_CORRECTION_SCOPE",
+          "reason": "standalone Japanese correction marker",
+          "to_clause_id": "S001:C003"
+        },
+        {
+          "concept": "DOG",
+          "evidence_id": "E0001",
+          "operation": "SUPERSEDE",
+          "replacement_concept": "CAT",
+          "replacement_evidence_id": "E0002",
+          "residual_removed": 1.0
+        }
+      ],
+      "context_hash": "97114340824d5768b999b5ab67a152d90859e0927d20004ba3b9de70d5f0aba6",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 1,
+            "start": 0,
+            "text": "犬"
+          }
+        },
+        {
+          "clause_id": "S001:C003",
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 1,
+            "start": 0,
+            "text": "猫"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": false,
+          "assertion_status": "superseded",
+          "clause_id": "S001:C001",
+          "concept": "DOG",
+          "effective_weight": 0.0,
+          "evidence_id": "E0001",
+          "pattern": "犬",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "犬",
+          "superseded_by": "E0002",
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        },
+        {
+          "active": true,
+          "assertion_status": "corrective",
+          "clause_id": "S001:C003",
+          "concept": "CAT",
+          "effective_weight": 1.0,
+          "evidence_id": "E0002",
+          "pattern": "猫",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C003",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "猫",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [
+          "F0001"
+        ],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "7c5d32dff5bbda8a8f7f34306dc5aa6732fb2b564fa56be3bb8c3574e5fda0ba:F0001",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S001:C003",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002"
+            ],
+            "extraction_rule": "ledger_supersession",
+            "frame_id": "F0001",
+            "modality": "corrective",
+            "object_entity_id": null,
+            "object_mention_id": null,
+            "object_text": "犬",
+            "observation_id": "7c5d32dff5bbda8a8f7f34306dc5aa6732fb2b564fa56be3bb8c3574e5fda0ba:F0001",
+            "polarity": "positive",
+            "predicate": "REVISES",
+            "predicate_span": null,
+            "relation_type": "REVISION",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": null,
+            "source_relation_id": null,
+            "subject": "S001:C003",
+            "subject_entity_id": null,
+            "subject_mention_id": null,
+            "target_clause_id": "S001:C001",
+            "target_concept": null,
+            "voice": "n/a"
+          },
+          "source_clause": {
+            "assertion_status": "corrective",
+            "clause_id": "S001:C003",
+            "correction_target": true,
+            "discourse_state": "corrective",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "猫"
+          },
+          "target_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "犬"
+          },
+          "qualified_subject_entity": null,
+          "qualified_object_entity": null,
+          "evidence": [
+            {
+              "active": false,
+              "assertion_status": "superseded",
+              "clause_id": "S001:C001",
+              "concept": "DOG",
+              "effective_weight": 0.0,
+              "evidence_id": "E0001",
+              "pattern": "犬",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "犬",
+              "superseded_by": "E0002",
+              "target_id": "T:shared:entity",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 1.0
+            },
+            {
+              "active": true,
+              "assertion_status": "corrective",
+              "clause_id": "S001:C003",
+              "concept": "CAT",
+              "effective_weight": 1.0,
+              "evidence_id": "E0002",
+              "pattern": "猫",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C003",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "猫",
+              "superseded_by": null,
+              "target_id": "T:shared:entity",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 1.0
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending",
+            "corrective"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "93618c0b86895b024b86991ea41764716a7afca3269b18f2f0a0433314fae7e5",
+      "envelope_hash": "1ff0fc9d14d2aecb2716f1fe323c3d9afd4e0d8c2223c51e5dfb9c7431142691",
+      "sources": [
+        {
+          "source_id": "internal:spatial",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "The bank is near the river."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 12,
+          "candidate": "RIVER_BANK",
+          "confidence": 0.9703,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "label_ja": "川岸",
+          "legacy_selection_confidence": 0.8675,
+          "margin": 2.05,
+          "raw_selection_confidence": 0.9703,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.9,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 2.05,
+          "selected": "RIVER_BANK",
+          "selection_confidence": 0.9286,
+          "v02_selection_confidence": 0.8576
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "applied": true,
+          "operation": "RELATE",
+          "reason": "relation accepted",
+          "relation_id": "R0001",
+          "relation_type": "SPATIAL_ASSOCIATION"
+        },
+        {
+          "amount": 0.45,
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "evidence_id": "E0005",
+          "operation": "NEGATE",
+          "polarity_depth": 0,
+          "reason": "context contradiction"
+        }
+      ],
+      "context_hash": "414e43ce56d32f9abd39aee92010827a352be89b30cf73cdb39ef6bb88418464",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 8,
+            "start": 4,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0003"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 26,
+            "start": 21,
+            "text": "river"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "kind": "argument",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 8,
+            "start": 4,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [],
+          "entity_id": "ENT000002",
+          "kind": "argument",
+          "mention_id": "MN000004",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 26,
+            "start": 21,
+            "text": "river"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0001",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank is near the river",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0002",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank is near the river",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.75,
+          "evidence_id": "E0003",
+          "pattern": "river",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank is near the river",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.75
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.85,
+          "evidence_id": "E0004",
+          "pattern": "[relation:river]",
+          "polarity_depth": 0,
+          "reason": "context boost",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank is near the river",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.85
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0005",
+          "pattern": "[relation:river]",
+          "polarity_depth": 0,
+          "reason": "context contradiction",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank is near the river",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": -1,
+          "weight": 0.45
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [
+          "F0001"
+        ],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "93618c0b86895b024b86991ea41764716a7afca3269b18f2f0a0433314fae7e5:F0001",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002",
+              "E0003",
+              "E0004",
+              "E0005"
+            ],
+            "extraction_rule": "bounded_spatial",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": "ENT000002",
+            "object_mention_id": "MN000004",
+            "object_text": "river",
+            "observation_id": "93618c0b86895b024b86991ea41764716a7afca3269b18f2f0a0433314fae7e5:F0001",
+            "polarity": "positive",
+            "predicate": "LOCATED_NEAR",
+            "predicate_span": {
+              "end": 16,
+              "start": 12,
+              "text": "near"
+            },
+            "relation_type": "SPATIAL_ASSOCIATION",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": null,
+            "source_relation_id": "R0001",
+            "subject": "bank",
+            "subject_entity_id": "ENT000001",
+            "subject_mention_id": "MN000003",
+            "target_clause_id": null,
+            "target_concept": "RIVER_BANK",
+            "voice": "n/a"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "The bank is near the river"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": "93618c0b86895b024b86991ea41764716a7afca3269b18f2f0a0433314fae7e5:ENT000001",
+          "qualified_object_entity": "93618c0b86895b024b86991ea41764716a7afca3269b18f2f0a0433314fae7e5:ENT000002",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0001",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank is near the river",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank is near the river",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.75,
+              "evidence_id": "E0003",
+              "pattern": "river",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank is near the river",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.75
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.85,
+              "evidence_id": "E0004",
+              "pattern": "[relation:river]",
+              "polarity_depth": 0,
+              "reason": "context boost",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank is near the river",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.85
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0005",
+              "pattern": "[relation:river]",
+              "polarity_depth": 0,
+              "reason": "context contradiction",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank is near the river",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": -1,
+              "weight": 0.45
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "b2323bbe2679ad07d35bd122a9cbd3fac61fe203b9c548e3f7ad8ab1f1bb89ea",
+      "envelope_hash": "c2d99fe7974be5d42153e851caec54a3b8bb104bb398a9b360cc5bb001cad6e1",
+      "sources": [
+        {
+          "source_id": "internal:known_disbursed",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "The bank disbursed grants for river restoration."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "candidate": "FINANCIAL_BANK",
+          "confidence": 0.6266,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "label_ja": "銀行",
+          "legacy_selection_confidence": 0.8377,
+          "margin": 0.0,
+          "raw_selection_confidence": 0.3734,
+          "reason": "evidence below selection threshold",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "runner_up": "RIVER_BANK",
+          "score": 0.45,
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7083
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "applied": false,
+          "operation": "RELATE",
+          "reason": "no supported relation between ambiguous term and trigger",
+          "relation_id": "R0001",
+          "relation_type": "SPATIAL_ASSOCIATION"
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "evidence_id": "E0003",
+          "operation": "RELATION_GATE",
+          "reason": "river mention lacks a spatial bank-of relation"
+        }
+      ],
+      "context_hash": "f77f96618305252b8acce7d1a42c51dad7ad5ed413eb11798872651bf020825e",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 8,
+            "start": 4,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0003"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 35,
+            "start": 30,
+            "text": "river"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0001",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank disbursed grants for river restoration",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0002",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank disbursed grants for river restoration",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": false,
+          "assertion_status": "relation_gated",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.0,
+          "evidence_id": "E0003",
+          "pattern": "river",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "The bank disbursed grants for river restoration",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.75
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": false,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [
+        "no_rule_checked_relation_review_original_text"
+      ],
+      "observations": [
+        {
+          "observation_id": "b2323bbe2679ad07d35bd122a9cbd3fac61fe203b9c548e3f7ad8ab1f1bb89ea:F0001",
+          "original_frame": {
+            "applied": false,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002",
+              "E0003"
+            ],
+            "extraction_rule": "legacy_context",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": null,
+            "object_mention_id": null,
+            "object_text": "The bank disbursed grants for river restoration",
+            "observation_id": "b2323bbe2679ad07d35bd122a9cbd3fac61fe203b9c548e3f7ad8ab1f1bb89ea:F0001",
+            "polarity": "positive",
+            "predicate": "river",
+            "predicate_span": null,
+            "relation_type": "SPATIAL_ASSOCIATION",
+            "review_reasons": [
+              "legacy_association_not_semantically_verified"
+            ],
+            "semantic_status": "quarantined",
+            "source_reference_id": null,
+            "source_relation_id": "R0001",
+            "subject": "bank",
+            "subject_entity_id": null,
+            "subject_mention_id": null,
+            "target_clause_id": null,
+            "target_concept": "RIVER_BANK",
+            "voice": "active"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "The bank disbursed grants for river restoration"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": null,
+          "qualified_object_entity": null,
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0001",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank disbursed grants for river restoration",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank disbursed grants for river restoration",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": false,
+              "assertion_status": "relation_gated",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.0,
+              "evidence_id": "E0003",
+              "pattern": "river",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "The bank disbursed grants for river restoration",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.75
+            }
+          ],
+          "review_flags": [
+            "producer_quarantined",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": [
+        {
+          "decision": "needs_review",
+          "document_id": "b2323bbe2679ad07d35bd122a9cbd3fac61fe203b9c548e3f7ad8ab1f1bb89ea",
+          "eligible_for_inference": false,
+          "error_types": [
+            "unknown_predicate",
+            "missing_relation"
+          ],
+          "event_id": "known-gap:known_disbursed",
+          "note": "C2 known gap: disbursed is unsupported; expected financial relation is absent. R1 displays the document and does not invent the missing relation.",
+          "reviewer_id": "internal_implementation_note_not_independent_reviewer",
+          "target_id": "b2323bbe2679ad07d35bd122a9cbd3fac61fe203b9c548e3f7ad8ab1f1bb89ea",
+          "recorded_at": "2026-09-04T21:59:28.759697+00:00"
+        }
+      ]
+    },
+    {
+      "document_id": "b6f171d05abfb9278489c90bfad635a9a639a75a931c17654beaff26dd16f8d2",
+      "envelope_hash": "8318004a6976c788ed05391509bcadc23df7f8bdc4537dc92a6c72a723a618b8",
+      "sources": [
+        {
+          "source_id": "internal:no_relation",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "Clouds gather overhead."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        }
+      ],
+      "context_hash": "809697e4b3940053963fa96380f0ad4eabee7d43f10ce51b3ed63d6ce8efd766",
+      "mentions": [],
+      "entities": [],
+      "evidence": [],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": false,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [
+        "no_relation_extracted_not_proof_of_absence",
+        "no_rule_checked_relation_review_original_text"
+      ],
+      "observations": [],
+      "reviews": []
+    },
+    {
+      "document_id": "be88b8d60516ba94fdb72df52c38000414e3411bfab3a5b22f7a16ada6f41649",
+      "envelope_hash": "15864e039ef90721ab8d20519d8ec43fd1806bd794c428409a03a170b5d5a32e",
+      "sources": [
+        {
+          "source_id": "internal:revision",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "Originally marked dog: reclassified as cat."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 12,
+          "candidate": "CAT",
+          "confidence": 0.8455,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "label_ja": "猫",
+          "legacy_selection_confidence": 0.8613,
+          "margin": 1.0,
+          "raw_selection_confidence": 0.8455,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.9,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 1.0,
+          "selected": "CAT",
+          "selection_confidence": 0.9286,
+          "v02_selection_confidence": 0.8264
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "operation": "SPLIT_REVISION_BOUNDARY",
+          "reason": "revision marker after colon",
+          "source_id": "S001"
+        },
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S001:C001",
+          "operation": "STATE_TRANSITION",
+          "reason": "bounded discourse role",
+          "state": "provisional"
+        },
+        {
+          "clause_id": "S001:C002",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S001:C002",
+          "operation": "STATE_TRANSITION",
+          "reason": "bounded discourse role",
+          "state": "corrective"
+        },
+        {
+          "concept": "DOG",
+          "evidence_id": "E0001",
+          "operation": "SUPERSEDE",
+          "replacement_concept": "CAT",
+          "replacement_evidence_id": "E0002",
+          "residual_removed": 1.0
+        }
+      ],
+      "context_hash": "d2900e77e111d0511c3989d9a63fe922848c9fe5fb7069f83995857f03163fa8",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 21,
+            "start": 18,
+            "text": "dog"
+          }
+        },
+        {
+          "clause_id": "S001:C002",
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 19,
+            "start": 16,
+            "text": "cat"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "DOG"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": false,
+          "assertion_status": "superseded",
+          "clause_id": "S001:C001",
+          "concept": "DOG",
+          "effective_weight": 0.0,
+          "evidence_id": "E0001",
+          "pattern": "dog",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "Originally marked dog",
+          "superseded_by": "E0002",
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        },
+        {
+          "active": true,
+          "assertion_status": "corrective",
+          "clause_id": "S001:C002",
+          "concept": "CAT",
+          "effective_weight": 1.0,
+          "evidence_id": "E0002",
+          "pattern": "cat",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C002",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "reclassified as cat",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [
+          "F0001"
+        ],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "be88b8d60516ba94fdb72df52c38000414e3411bfab3a5b22f7a16ada6f41649:F0001",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S001:C002",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002"
+            ],
+            "extraction_rule": "ledger_supersession",
+            "frame_id": "F0001",
+            "modality": "corrective",
+            "object_entity_id": null,
+            "object_mention_id": null,
+            "object_text": "Originally marked dog",
+            "observation_id": "be88b8d60516ba94fdb72df52c38000414e3411bfab3a5b22f7a16ada6f41649:F0001",
+            "polarity": "positive",
+            "predicate": "REVISES",
+            "predicate_span": null,
+            "relation_type": "REVISION",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": null,
+            "source_relation_id": null,
+            "subject": "S001:C002",
+            "subject_entity_id": null,
+            "subject_mention_id": null,
+            "target_clause_id": "S001:C001",
+            "target_concept": null,
+            "voice": "n/a"
+          },
+          "source_clause": {
+            "assertion_status": "corrective",
+            "clause_id": "S001:C002",
+            "correction_target": true,
+            "discourse_state": "corrective",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "reclassified as cat"
+          },
+          "target_clause": {
+            "assertion_status": "provisional",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "provisional",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "Originally marked dog"
+          },
+          "qualified_subject_entity": null,
+          "qualified_object_entity": null,
+          "evidence": [
+            {
+              "active": false,
+              "assertion_status": "superseded",
+              "clause_id": "S001:C001",
+              "concept": "DOG",
+              "effective_weight": 0.0,
+              "evidence_id": "E0001",
+              "pattern": "dog",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "Originally marked dog",
+              "superseded_by": "E0002",
+              "target_id": "T:shared:entity",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 1.0
+            },
+            {
+              "active": true,
+              "assertion_status": "corrective",
+              "clause_id": "S001:C002",
+              "concept": "CAT",
+              "effective_weight": 1.0,
+              "evidence_id": "E0002",
+              "pattern": "cat",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C002",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "reclassified as cat",
+              "superseded_by": null,
+              "target_id": "T:shared:entity",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 1.0
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending",
+            "corrective"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "document_id": "cce4feae018a182f41cf2736c899d0e6f2f44d7e99c0ba2a7c4387d6696f2cfc",
+      "envelope_hash": "5b4c963481079f7c6b7c022e858be3daea5b6bdcf0b258e7f5598e21cf41d82d",
+      "sources": [
+        {
+          "source_id": "internal:known_passive_agent_manager",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "A river plan was supported by the bank manager."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "place": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 12,
+          "candidate": "RIVER_BANK",
+          "confidence": 0.9703,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "label_ja": "川岸",
+          "legacy_selection_confidence": 0.8675,
+          "margin": 2.05,
+          "raw_selection_confidence": 0.9703,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.9,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 2.05,
+          "selected": "RIVER_BANK",
+          "selection_confidence": 0.9286,
+          "v02_selection_confidence": 0.8576
+        }
+      },
+      "reference_resolutions": [],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "applied": true,
+          "operation": "RELATE",
+          "reason": "relation accepted",
+          "relation_id": "R0001",
+          "relation_type": "SPATIAL_ASSOCIATION"
+        },
+        {
+          "amount": 0.45,
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "evidence_id": "E0005",
+          "operation": "NEGATE",
+          "polarity_depth": 0,
+          "reason": "context contradiction"
+        }
+      ],
+      "context_hash": "5feba168ac8019cc01a285aac9550ae732f0276b0aba74cdd3599f5cd46a599c",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 7,
+            "start": 2,
+            "text": "river"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "evidence_ids": [
+            "E0002",
+            "E0003"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 38,
+            "start": 34,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "kind": "argument",
+          "mention_id": "MN000003",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 38,
+            "start": 34,
+            "text": "bank"
+          }
+        },
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [],
+          "entity_id": "ENT000001",
+          "kind": "argument",
+          "mention_id": "MN000004",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 7,
+            "start": 2,
+            "text": "river"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        },
+        {
+          "concept_candidates": [
+            "FINANCIAL_BANK",
+            "RIVER_BANK"
+          ],
+          "entity_id": "ENT000002",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.75,
+          "evidence_id": "E0001",
+          "pattern": "river",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A river plan was supported by the bank manager",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.75
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0002",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A river plan was supported by the bank manager",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0003",
+          "pattern": "bank",
+          "polarity_depth": 0,
+          "reason": "ambiguous lexical candidate",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A river plan was supported by the bank manager",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.45
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "RIVER_BANK",
+          "effective_weight": 0.85,
+          "evidence_id": "E0004",
+          "pattern": "[relation:river]",
+          "polarity_depth": 0,
+          "reason": "context boost",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A river plan was supported by the bank manager",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 0.85
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "FINANCIAL_BANK",
+          "effective_weight": 0.45,
+          "evidence_id": "E0005",
+          "pattern": "[relation:river]",
+          "polarity_depth": 0,
+          "reason": "context contradiction",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A river plan was supported by the bank manager",
+          "superseded_by": null,
+          "target_id": "T:shared:place",
+          "text_index": 0,
+          "vote": -1,
+          "weight": 0.45
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": false,
+        "positive_rule_checked_frame_ids": [],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [
+        "no_rule_checked_relation_review_original_text"
+      ],
+      "observations": [
+        {
+          "observation_id": "cce4feae018a182f41cf2736c899d0e6f2f44d7e99c0ba2a7c4387d6696f2cfc:F0001",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S001:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001",
+              "E0002",
+              "E0003",
+              "E0004",
+              "E0005"
+            ],
+            "extraction_rule": "bounded_spatial",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": "ENT000001",
+            "object_mention_id": "MN000004",
+            "object_text": "river",
+            "observation_id": "cce4feae018a182f41cf2736c899d0e6f2f44d7e99c0ba2a7c4387d6696f2cfc:F0001",
+            "polarity": "positive",
+            "predicate": "LOCATED_NEAR",
+            "predicate_span": {
+              "end": 29,
+              "start": 27,
+              "text": "by"
+            },
+            "relation_type": "SPATIAL_ASSOCIATION",
+            "review_reasons": [
+              "unverified_spatial_attachment"
+            ],
+            "semantic_status": "quarantined",
+            "source_reference_id": null,
+            "source_relation_id": "R0001",
+            "subject": "bank",
+            "subject_entity_id": "ENT000002",
+            "subject_mention_id": "MN000003",
+            "target_clause_id": null,
+            "target_concept": "RIVER_BANK",
+            "voice": "n/a"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "A river plan was supported by the bank manager"
+          },
+          "target_clause": null,
+          "qualified_subject_entity": "cce4feae018a182f41cf2736c899d0e6f2f44d7e99c0ba2a7c4387d6696f2cfc:ENT000002",
+          "qualified_object_entity": "cce4feae018a182f41cf2736c899d0e6f2f44d7e99c0ba2a7c4387d6696f2cfc:ENT000001",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.75,
+              "evidence_id": "E0001",
+              "pattern": "river",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "A river plan was supported by the bank manager",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.75
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0002",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "A river plan was supported by the bank manager",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0003",
+              "pattern": "bank",
+              "polarity_depth": 0,
+              "reason": "ambiguous lexical candidate",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "A river plan was supported by the bank manager",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.45
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "RIVER_BANK",
+              "effective_weight": 0.85,
+              "evidence_id": "E0004",
+              "pattern": "[relation:river]",
+              "polarity_depth": 0,
+              "reason": "context boost",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "A river plan was supported by the bank manager",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 0.85
+            },
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "FINANCIAL_BANK",
+              "effective_weight": 0.45,
+              "evidence_id": "E0005",
+              "pattern": "[relation:river]",
+              "polarity_depth": 0,
+              "reason": "context contradiction",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "A river plan was supported by the bank manager",
+              "superseded_by": null,
+              "target_id": "T:shared:place",
+              "text_index": 0,
+              "vote": -1,
+              "weight": 0.45
+            }
+          ],
+          "review_flags": [
+            "producer_quarantined",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": [
+        {
+          "decision": "needs_review",
+          "document_id": "cce4feae018a182f41cf2736c899d0e6f2f44d7e99c0ba2a7c4387d6696f2cfc",
+          "eligible_for_inference": false,
+          "error_types": [
+            "classification",
+            "subject_role"
+          ],
+          "event_id": "known-gap:known_passive_agent_manager",
+          "note": "C2 holdout policy expected UNRESOLVED but selected RIVER_BANK at 0.9286 selection_confidence. Policy-dependent expected label; Relation is quarantined. R1 does not repair this.",
+          "reviewer_id": "internal_implementation_note_not_independent_reviewer",
+          "target_id": "cce4feae018a182f41cf2736c899d0e6f2f44d7e99c0ba2a7c4387d6696f2cfc",
+          "recorded_at": "2026-09-04T21:59:28.553888+00:00"
+        }
+      ]
+    },
+    {
+      "document_id": "ffc251f27d8454caa72d918e7bfc093c31a21f2f8d8b930658b71bdee46c7bb2",
+      "envelope_hash": "ab2a66f86a38263099e398d59d26377c5859d77e2aef69737cee399c81f1505b",
+      "sources": [
+        {
+          "source_id": "internal:singular_reference",
+          "revision": "1"
+        }
+      ],
+      "raw_inputs": [
+        "A cat entered.",
+        "It was photographed."
+      ],
+      "producer_selections": {
+        "action": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "action",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        },
+        "entity": {
+          "ambiguous": false,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 12,
+          "candidate": "CAT",
+          "confidence": 0.9703,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "entity",
+          "label_ja": "猫",
+          "legacy_selection_confidence": 0.8675,
+          "margin": 2.05,
+          "raw_selection_confidence": 0.9703,
+          "reason": "hierarchy-aware ternary consensus",
+          "reliability_signal": 0.9,
+          "risk_flags": [],
+          "runner_up": null,
+          "score": 2.05,
+          "selected": "CAT",
+          "selection_confidence": 0.9286,
+          "v02_selection_confidence": 0.8576
+        },
+        "place": {
+          "ambiguous": true,
+          "calibration": "heldout_calibration_isotonic_beta_smoothed",
+          "calibration_samples": 7,
+          "confidence": 0.0,
+          "confidence_target": "correctness_of_selected_label_including_abstention",
+          "domain": "place",
+          "legacy_selection_confidence": 0.8365,
+          "open_set": true,
+          "raw_selection_confidence": 0.35,
+          "reason": "open-set abstention: no matching evidence",
+          "reliability_signal": 0.65,
+          "risk_flags": [],
+          "selected": "UNRESOLVED",
+          "selection_confidence": 0.7778,
+          "v02_selection_confidence": 0.7025
+        }
+      },
+      "reference_resolutions": [
+        {
+          "candidate_entity_ids": [
+            "ENT000001"
+          ],
+          "clause_id": "S002:C001",
+          "cue": "It",
+          "mode": "singular",
+          "resolved_entity_ids": [
+            "ENT000001"
+          ],
+          "status": "resolved"
+        }
+      ],
+      "operations": [
+        {
+          "clause_id": "S001:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "clause_id": "S002:C001",
+          "operation": "ISOLATE",
+          "reason": "typed sentence/clause boundary",
+          "scope": "instance:shared"
+        },
+        {
+          "antecedent_entity_id": "ENT000001",
+          "operation": "RESOLVE_INSTANCE_REFERENCE",
+          "reference_id": "Q0001"
+        }
+      ],
+      "context_hash": "997bb6877677d834a910288247c0be4800231ed7c5a49bb04f2b8a9df9bb325c",
+      "mentions": [
+        {
+          "clause_id": "S001:C001",
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000001",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "kind": "nominal",
+          "mention_id": "MN000001",
+          "number": "singular",
+          "source_id": "S001",
+          "span": {
+            "end": 5,
+            "start": 2,
+            "text": "cat"
+          }
+        },
+        {
+          "clause_id": "S002:C001",
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000001",
+          "kind": "reference",
+          "mention_id": "MN000002",
+          "number": "singular",
+          "source_id": "S002",
+          "span": {
+            "end": 2,
+            "start": 0,
+            "text": "It"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "concept_candidates": [
+            "CAT"
+          ],
+          "entity_id": "ENT000001",
+          "identity_status": "local_mention",
+          "kind": "nominal",
+          "number": "singular"
+        }
+      ],
+      "evidence": [
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S001:C001",
+          "concept": "CAT",
+          "effective_weight": 1.0,
+          "evidence_id": "E0001",
+          "pattern": "cat",
+          "polarity_depth": 0,
+          "reason": "direct lexical support",
+          "scope": "instance:shared/S001:C001",
+          "source_id": "S001",
+          "source_order": 0,
+          "source_text": "A cat entered",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 0,
+          "vote": 1,
+          "weight": 1.0
+        },
+        {
+          "active": true,
+          "assertion_status": "asserted",
+          "clause_id": "S002:C001",
+          "concept": "CAT",
+          "effective_weight": 1.05,
+          "evidence_id": "E0002",
+          "pattern": "[reference:It]",
+          "polarity_depth": 0,
+          "reason": "instance coreference",
+          "scope": "instance:shared/S002:C001",
+          "source_id": "S002",
+          "source_order": 1,
+          "source_text": "It was photographed",
+          "superseded_by": null,
+          "target_id": "T:shared:entity",
+          "text_index": 1,
+          "vote": 1,
+          "weight": 1.05
+        }
+      ],
+      "producer_boundary": {
+        "eligible_for_inference": [],
+        "external_semantic_validation": "not_performed",
+        "graph_valid": true,
+        "inference_enabled": false,
+        "inference_ready": false,
+        "mode": "observe_only",
+        "observation_ready": true,
+        "positive_rule_checked_frame_ids": [
+          "F0001"
+        ],
+        "promotion_requirements": [
+          "independent_semantic_evaluation",
+          "consumer_acceptance_tests",
+          "explicit_new_release"
+        ],
+        "schema_valid": true
+      },
+      "notices": [],
+      "observations": [
+        {
+          "observation_id": "ffc251f27d8454caa72d918e7bfc093c31a21f2f8d8b930658b71bdee46c7bb2:F0001",
+          "original_frame": {
+            "applied": true,
+            "clause_id": "S002:C001",
+            "eligible_for_inference": false,
+            "evidence_ids": [
+              "E0001"
+            ],
+            "extraction_rule": "instance_reference",
+            "frame_id": "F0001",
+            "modality": "asserted",
+            "object_entity_id": "ENT000001",
+            "object_mention_id": "MN000001",
+            "object_text": "CAT",
+            "observation_id": "ffc251f27d8454caa72d918e7bfc093c31a21f2f8d8b930658b71bdee46c7bb2:F0001",
+            "polarity": "positive",
+            "predicate": "REFERS_TO",
+            "predicate_span": null,
+            "relation_type": "COREFERENCE",
+            "review_reasons": [],
+            "semantic_status": "rule_checked",
+            "source_reference_id": "Q0001",
+            "source_relation_id": null,
+            "subject": "It",
+            "subject_entity_id": "ENT000001",
+            "subject_mention_id": "MN000002",
+            "target_clause_id": "S001:C001",
+            "target_concept": "CAT",
+            "voice": "n/a"
+          },
+          "source_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S002:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S002",
+            "source_order": 1,
+            "text": "It was photographed"
+          },
+          "target_clause": {
+            "assertion_status": "asserted",
+            "clause_id": "S001:C001",
+            "correction_target": false,
+            "discourse_state": "asserted",
+            "instance_scope": "instance:shared",
+            "source_id": "S001",
+            "source_order": 0,
+            "text": "A cat entered"
+          },
+          "qualified_subject_entity": "ffc251f27d8454caa72d918e7bfc093c31a21f2f8d8b930658b71bdee46c7bb2:ENT000001",
+          "qualified_object_entity": "ffc251f27d8454caa72d918e7bfc093c31a21f2f8d8b930658b71bdee46c7bb2:ENT000001",
+          "evidence": [
+            {
+              "active": true,
+              "assertion_status": "asserted",
+              "clause_id": "S001:C001",
+              "concept": "CAT",
+              "effective_weight": 1.0,
+              "evidence_id": "E0001",
+              "pattern": "cat",
+              "polarity_depth": 0,
+              "reason": "direct lexical support",
+              "scope": "instance:shared/S001:C001",
+              "source_id": "S001",
+              "source_order": 0,
+              "source_text": "A cat entered",
+              "superseded_by": null,
+              "target_id": "T:shared:entity",
+              "text_index": 0,
+              "vote": 1,
+              "weight": 1.0
+            }
+          ],
+          "review_flags": [
+            "producer_rule_checked",
+            "not_a_fact",
+            "review_pending"
+          ],
+          "eligible_for_inference": false
+        }
+      ],
+      "reviews": []
+    }
+  ]
+}

@@ -1,0 +1,1315 @@
+{
+  "primary": {
+    "model": "PLM-C0 v0.2",
+    "case_count": 36,
+    "metrics": {
+      "top1_accuracy": 1.0,
+      "top5_recall": 1.0,
+      "mrr": 0.9444,
+      "unresolved_precision": 1.0,
+      "unresolved_recall": 1.0,
+      "minority_evidence_retention": 1.0,
+      "contradiction_rejection": 1.0,
+      "average_candidates_evaluated": 4.33,
+      "average_patterns_checked": 53.53
+    },
+    "counts": {
+      "top1_correct": 36,
+      "top5_hits": 36,
+      "expected_unresolved": 5,
+      "predicted_unresolved": 5,
+      "correct_unresolved": 5,
+      "minority_cases": 4,
+      "minority_retained": 4,
+      "contradiction_cases": 5,
+      "contradiction_rejected": 5,
+      "total_candidates_evaluated": 156,
+      "total_patterns_checked": 1927
+    },
+    "per_tag": {
+      "abstention": {
+        "count": 5,
+        "top1_accuracy": 1.0
+      },
+      "ambiguity": {
+        "count": 6,
+        "top1_accuracy": 1.0
+      },
+      "conflict": {
+        "count": 2,
+        "top1_accuracy": 1.0
+      },
+      "consensus": {
+        "count": 1,
+        "top1_accuracy": 1.0
+      },
+      "context": {
+        "count": 4,
+        "top1_accuracy": 1.0
+      },
+      "contradiction": {
+        "count": 5,
+        "top1_accuracy": 1.0
+      },
+      "direct": {
+        "count": 15,
+        "top1_accuracy": 1.0
+      },
+      "en": {
+        "count": 16,
+        "top1_accuracy": 1.0
+      },
+      "generic": {
+        "count": 3,
+        "top1_accuracy": 1.0
+      },
+      "hierarchy": {
+        "count": 5,
+        "top1_accuracy": 1.0
+      },
+      "ja": {
+        "count": 18,
+        "top1_accuracy": 1.0
+      },
+      "minority_evidence": {
+        "count": 4,
+        "top1_accuracy": 1.0
+      },
+      "negation": {
+        "count": 5,
+        "top1_accuracy": 1.0
+      },
+      "paraphrase": {
+        "count": 1,
+        "top1_accuracy": 1.0
+      },
+      "unknown": {
+        "count": 1,
+        "top1_accuracy": 1.0
+      }
+    },
+    "cases": [
+      {
+        "id": "dog_ja",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "dog_en",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "cat_ja",
+        "domain": "entity",
+        "expected": "CAT",
+        "predicted": "CAT",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "cat_en",
+        "domain": "entity",
+        "expected": "CAT",
+        "predicted": "CAT",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "human_ja",
+        "domain": "entity",
+        "expected": "HUMAN",
+        "predicted": "HUMAN",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "human_en",
+        "domain": "entity",
+        "expected": "HUMAN",
+        "predicted": "HUMAN",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "animal_generic",
+        "domain": "entity",
+        "expected": "ANIMAL",
+        "predicted": "ANIMAL",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "generic",
+          "ja"
+        ]
+      },
+      {
+        "id": "living_generic",
+        "domain": "entity",
+        "expected": "LIVING",
+        "predicted": "LIVING",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "generic",
+          "ja"
+        ]
+      },
+      {
+        "id": "vehicle_ja",
+        "domain": "entity",
+        "expected": "VEHICLE",
+        "predicted": "VEHICLE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "vehicle_en",
+        "domain": "entity",
+        "expected": "VEHICLE",
+        "predicted": "VEHICLE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "bark_ja",
+        "domain": "action",
+        "expected": "BARK",
+        "predicted": "BARK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "bark_en",
+        "domain": "action",
+        "expected": "BARK",
+        "predicted": "BARK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "vocalize_ja",
+        "domain": "action",
+        "expected": "VOCALIZE",
+        "predicted": "VOCALIZE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "generic",
+          "ja"
+        ]
+      },
+      {
+        "id": "vocalize_en",
+        "domain": "action",
+        "expected": "VOCALIZE",
+        "predicted": "VOCALIZE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "bite_ja",
+        "domain": "action",
+        "expected": "BITE",
+        "predicted": "BITE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "bite_en",
+        "domain": "action",
+        "expected": "BITE",
+        "predicted": "BITE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "financial_direct_ja",
+        "domain": "place",
+        "expected": "FINANCIAL_BANK",
+        "predicted": "FINANCIAL_BANK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "river_direct_ja",
+        "domain": "place",
+        "expected": "RIVER_BANK",
+        "predicted": "RIVER_BANK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "financial_context_en",
+        "domain": "place",
+        "expected": "FINANCIAL_BANK",
+        "predicted": "FINANCIAL_BANK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "ambiguity",
+          "context",
+          "en"
+        ]
+      },
+      {
+        "id": "river_context_en",
+        "domain": "place",
+        "expected": "RIVER_BANK",
+        "predicted": "RIVER_BANK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "ambiguity",
+          "context",
+          "en"
+        ]
+      },
+      {
+        "id": "bare_bank",
+        "domain": "place",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "ambiguity",
+          "abstention",
+          "en"
+        ]
+      },
+      {
+        "id": "unknown_entity",
+        "domain": "entity",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "unknown",
+          "abstention",
+          "ja"
+        ]
+      },
+      {
+        "id": "negated_dog_ja",
+        "domain": "entity",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "abstention",
+          "ja"
+        ]
+      },
+      {
+        "id": "dog_not_cat_ja",
+        "domain": "entity",
+        "expected": "CAT",
+        "predicted": "CAT",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "ja"
+        ]
+      },
+      {
+        "id": "dog_not_cat_en",
+        "domain": "entity",
+        "expected": "CAT",
+        "predicted": "CAT",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "en"
+        ]
+      },
+      {
+        "id": "cat_negated_en",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "en"
+        ]
+      },
+      {
+        "id": "negated_bank_en",
+        "domain": "place",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "abstention",
+          "en"
+        ]
+      },
+      {
+        "id": "hierarchy_dog",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 2,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": null,
+        "tags": [
+          "hierarchy",
+          "ja"
+        ]
+      },
+      {
+        "id": "hierarchy_bark",
+        "domain": "action",
+        "expected": "BARK",
+        "predicted": "BARK",
+        "rank": 2,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": null,
+        "tags": [
+          "hierarchy",
+          "ja"
+        ]
+      },
+      {
+        "id": "minority_financial",
+        "domain": "place",
+        "expected": "FINANCIAL_BANK",
+        "predicted": "FINANCIAL_BANK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "minority_evidence",
+          "ambiguity",
+          "context",
+          "en"
+        ]
+      },
+      {
+        "id": "minority_river",
+        "domain": "place",
+        "expected": "RIVER_BANK",
+        "predicted": "RIVER_BANK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "minority_evidence",
+          "ambiguity",
+          "context",
+          "en"
+        ]
+      },
+      {
+        "id": "minority_specific_entity",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 2,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": null,
+        "tags": [
+          "minority_evidence",
+          "hierarchy",
+          "ja"
+        ]
+      },
+      {
+        "id": "minority_specific_action",
+        "domain": "action",
+        "expected": "BARK",
+        "predicted": "BARK",
+        "rank": 2,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": null,
+        "tags": [
+          "minority_evidence",
+          "hierarchy",
+          "ja"
+        ]
+      },
+      {
+        "id": "paraphrase_consensus",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "paraphrase",
+          "consensus"
+        ]
+      },
+      {
+        "id": "sibling_conflict_parent",
+        "domain": "entity",
+        "expected": "ANIMAL",
+        "predicted": "ANIMAL",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "conflict",
+          "hierarchy"
+        ]
+      },
+      {
+        "id": "balanced_bank_context",
+        "domain": "place",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "conflict",
+          "ambiguity",
+          "abstention",
+          "en"
+        ]
+      }
+    ]
+  },
+  "baseline": {
+    "model": "positive lexical baseline",
+    "case_count": 36,
+    "metrics": {
+      "top1_accuracy": 0.6944,
+      "top5_recall": 0.9444,
+      "mrr": 0.875,
+      "unresolved_precision": 0.2857,
+      "unresolved_recall": 0.8,
+      "minority_evidence_retention": 1.0,
+      "contradiction_rejection": 0.8,
+      "average_candidates_evaluated": 4.33,
+      "average_patterns_checked": 50.92
+    },
+    "counts": {
+      "top1_correct": 25,
+      "top5_hits": 34,
+      "expected_unresolved": 5,
+      "predicted_unresolved": 14,
+      "correct_unresolved": 4,
+      "minority_cases": 4,
+      "minority_retained": 4,
+      "contradiction_cases": 5,
+      "contradiction_rejected": 4,
+      "total_candidates_evaluated": 156,
+      "total_patterns_checked": 1833
+    },
+    "per_tag": {
+      "abstention": {
+        "count": 5,
+        "top1_accuracy": 0.8
+      },
+      "ambiguity": {
+        "count": 6,
+        "top1_accuracy": 0.3333
+      },
+      "conflict": {
+        "count": 2,
+        "top1_accuracy": 0.5
+      },
+      "consensus": {
+        "count": 1,
+        "top1_accuracy": 1.0
+      },
+      "context": {
+        "count": 4,
+        "top1_accuracy": 0.0
+      },
+      "contradiction": {
+        "count": 5,
+        "top1_accuracy": 0.2
+      },
+      "direct": {
+        "count": 15,
+        "top1_accuracy": 1.0
+      },
+      "en": {
+        "count": 16,
+        "top1_accuracy": 0.625
+      },
+      "generic": {
+        "count": 3,
+        "top1_accuracy": 1.0
+      },
+      "hierarchy": {
+        "count": 5,
+        "top1_accuracy": 0.4
+      },
+      "ja": {
+        "count": 18,
+        "top1_accuracy": 0.7778
+      },
+      "minority_evidence": {
+        "count": 4,
+        "top1_accuracy": 0.25
+      },
+      "negation": {
+        "count": 5,
+        "top1_accuracy": 0.2
+      },
+      "paraphrase": {
+        "count": 1,
+        "top1_accuracy": 1.0
+      },
+      "unknown": {
+        "count": 1,
+        "top1_accuracy": 1.0
+      }
+    },
+    "cases": [
+      {
+        "id": "dog_ja",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "dog_en",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "cat_ja",
+        "domain": "entity",
+        "expected": "CAT",
+        "predicted": "CAT",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "cat_en",
+        "domain": "entity",
+        "expected": "CAT",
+        "predicted": "CAT",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "human_ja",
+        "domain": "entity",
+        "expected": "HUMAN",
+        "predicted": "HUMAN",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "human_en",
+        "domain": "entity",
+        "expected": "HUMAN",
+        "predicted": "HUMAN",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "animal_generic",
+        "domain": "entity",
+        "expected": "ANIMAL",
+        "predicted": "ANIMAL",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "generic",
+          "ja"
+        ]
+      },
+      {
+        "id": "living_generic",
+        "domain": "entity",
+        "expected": "LIVING",
+        "predicted": "LIVING",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "generic",
+          "ja"
+        ]
+      },
+      {
+        "id": "vehicle_ja",
+        "domain": "entity",
+        "expected": "VEHICLE",
+        "predicted": "VEHICLE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "vehicle_en",
+        "domain": "entity",
+        "expected": "VEHICLE",
+        "predicted": "VEHICLE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "bark_ja",
+        "domain": "action",
+        "expected": "BARK",
+        "predicted": "BARK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "bark_en",
+        "domain": "action",
+        "expected": "BARK",
+        "predicted": "BARK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "vocalize_ja",
+        "domain": "action",
+        "expected": "VOCALIZE",
+        "predicted": "VOCALIZE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "generic",
+          "ja"
+        ]
+      },
+      {
+        "id": "vocalize_en",
+        "domain": "action",
+        "expected": "VOCALIZE",
+        "predicted": "VOCALIZE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "bite_ja",
+        "domain": "action",
+        "expected": "BITE",
+        "predicted": "BITE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "bite_en",
+        "domain": "action",
+        "expected": "BITE",
+        "predicted": "BITE",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "en"
+        ]
+      },
+      {
+        "id": "financial_direct_ja",
+        "domain": "place",
+        "expected": "FINANCIAL_BANK",
+        "predicted": "FINANCIAL_BANK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "river_direct_ja",
+        "domain": "place",
+        "expected": "RIVER_BANK",
+        "predicted": "RIVER_BANK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "direct",
+          "ja"
+        ]
+      },
+      {
+        "id": "financial_context_en",
+        "domain": "place",
+        "expected": "FINANCIAL_BANK",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "ambiguity",
+          "context",
+          "en"
+        ]
+      },
+      {
+        "id": "river_context_en",
+        "domain": "place",
+        "expected": "RIVER_BANK",
+        "predicted": "UNRESOLVED",
+        "rank": 2,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": null,
+        "tags": [
+          "ambiguity",
+          "context",
+          "en"
+        ]
+      },
+      {
+        "id": "bare_bank",
+        "domain": "place",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "ambiguity",
+          "abstention",
+          "en"
+        ]
+      },
+      {
+        "id": "unknown_entity",
+        "domain": "entity",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "unknown",
+          "abstention",
+          "ja"
+        ]
+      },
+      {
+        "id": "negated_dog_ja",
+        "domain": "entity",
+        "expected": "UNRESOLVED",
+        "predicted": "DOG",
+        "rank": null,
+        "top1_correct": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "contradiction_rejected": false,
+        "tags": [
+          "negation",
+          "contradiction",
+          "abstention",
+          "ja"
+        ]
+      },
+      {
+        "id": "dog_not_cat_ja",
+        "domain": "entity",
+        "expected": "CAT",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "ja"
+        ]
+      },
+      {
+        "id": "dog_not_cat_en",
+        "domain": "entity",
+        "expected": "CAT",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "en"
+        ]
+      },
+      {
+        "id": "cat_negated_en",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "UNRESOLVED",
+        "rank": 2,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "en"
+        ]
+      },
+      {
+        "id": "negated_bank_en",
+        "domain": "place",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": true,
+        "tags": [
+          "negation",
+          "contradiction",
+          "abstention",
+          "en"
+        ]
+      },
+      {
+        "id": "hierarchy_dog",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "UNRESOLVED",
+        "rank": 2,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": null,
+        "tags": [
+          "hierarchy",
+          "ja"
+        ]
+      },
+      {
+        "id": "hierarchy_bark",
+        "domain": "action",
+        "expected": "BARK",
+        "predicted": "BARK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "hierarchy",
+          "ja"
+        ]
+      },
+      {
+        "id": "minority_financial",
+        "domain": "place",
+        "expected": "FINANCIAL_BANK",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "minority_evidence",
+          "ambiguity",
+          "context",
+          "en"
+        ]
+      },
+      {
+        "id": "minority_river",
+        "domain": "place",
+        "expected": "RIVER_BANK",
+        "predicted": "UNRESOLVED",
+        "rank": 2,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": null,
+        "tags": [
+          "minority_evidence",
+          "ambiguity",
+          "context",
+          "en"
+        ]
+      },
+      {
+        "id": "minority_specific_entity",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "UNRESOLVED",
+        "rank": 2,
+        "top1_correct": false,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "contradiction_rejected": null,
+        "tags": [
+          "minority_evidence",
+          "hierarchy",
+          "ja"
+        ]
+      },
+      {
+        "id": "minority_specific_action",
+        "domain": "action",
+        "expected": "BARK",
+        "predicted": "BARK",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "minority_evidence",
+          "hierarchy",
+          "ja"
+        ]
+      },
+      {
+        "id": "paraphrase_consensus",
+        "domain": "entity",
+        "expected": "DOG",
+        "predicted": "DOG",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "paraphrase",
+          "consensus"
+        ]
+      },
+      {
+        "id": "sibling_conflict_parent",
+        "domain": "entity",
+        "expected": "ANIMAL",
+        "predicted": "UNRESOLVED",
+        "rank": null,
+        "top1_correct": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "conflict",
+          "hierarchy"
+        ]
+      },
+      {
+        "id": "balanced_bank_context",
+        "domain": "place",
+        "expected": "UNRESOLVED",
+        "predicted": "UNRESOLVED",
+        "rank": 1,
+        "top1_correct": true,
+        "top5_hit": true,
+        "reciprocal_rank": 1.0,
+        "contradiction_rejected": null,
+        "tags": [
+          "conflict",
+          "ambiguity",
+          "abstention",
+          "en"
+        ]
+      }
+    ]
+  },
+  "delta_primary_minus_baseline": {
+    "top1_accuracy": 0.3056,
+    "top5_recall": 0.0556,
+    "mrr": 0.0694,
+    "unresolved_precision": 0.7143,
+    "unresolved_recall": 0.2,
+    "minority_evidence_retention": 0.0,
+    "contradiction_rejection": 0.2,
+    "average_candidates_evaluated": 0.0,
+    "average_patterns_checked": 2.61
+  }
+}

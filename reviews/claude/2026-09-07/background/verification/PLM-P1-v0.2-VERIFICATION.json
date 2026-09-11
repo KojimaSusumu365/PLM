@@ -1,0 +1,22 @@
+{
+  "version": "PLM-P1 v0.2",
+  "scope": "ZIP extracted-byte verification plus all tests/CLI; full new numerical replay performed before packaging, not repeated after extraction",
+  "total_tests": 465,
+  "files": 260,
+  "zip_bytes": 3769920,
+  "sha256": "2d143150d24da46f71786bbb36e73d8979d20dedd1c1cb6e67671fe048553887",
+  "checks": {
+    "all_extracted_bytes_match": true,
+    "release_manifest_matches": true,
+    "frozen_sources_valid": true,
+    "all_465_tests_passed": true,
+    "prepackaging_full_numerical_replay_passed": true,
+    "first_evaluation_hash_preserved": true,
+    "extracted_files_unchanged_by_tests": true,
+    "cli_full": true,
+    "cli_masked": true,
+    "cli_pilot": true
+  },
+  "functional_passed": true,
+  "numerical_acceptance_passed": true
+}

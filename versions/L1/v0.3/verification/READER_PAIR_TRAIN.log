@@ -1,0 +1,26 @@
+{
+  "status": "trained",
+  "reader_fingerprint": "fd7635ee535b265995c3e95d22f01493b2216472fe9e1e7976104a666a32bec1",
+  "statistics": {
+    "roles": {
+      "conflicting_contexts": 0,
+      "contexts": 24,
+      "observations": 1728
+    },
+    "states": {
+      "conflicting_contexts": 0,
+      "contexts": 16,
+      "observations": 1152
+    },
+    "support": {
+      "conflicting_contexts": 0,
+      "contexts": 8,
+      "observations": 576
+    }
+  },
+  "reader_trace_supervision": false,
+  "supervision_fields": [
+    "text",
+    "meaning"
+  ]
+}

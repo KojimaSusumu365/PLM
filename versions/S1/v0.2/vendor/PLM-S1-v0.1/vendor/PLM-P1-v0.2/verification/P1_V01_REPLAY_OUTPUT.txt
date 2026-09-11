@@ -1,0 +1,20 @@
+{
+  "tests": {
+    "P1": 99,
+    "R1": 92,
+    "C2": 186
+  },
+  "checks": {
+    "p1_tests_passed": true,
+    "r1_c2_278_tests_and_acceptance_preserved": true,
+    "dependency_bytes_unchanged": true,
+    "source_freeze_valid": true,
+    "first_evaluation_reproduced": true,
+    "numerical_acceptance_passed": false,
+    "r1_state_adapter_checks_passed": true,
+    "inference_and_ss_stay_disabled": true,
+    "cli_full_signal_roundtrip": true,
+    "cli_masked_demo_recovered": true,
+    "cli_gold_query_rejected": true
+  }
+}

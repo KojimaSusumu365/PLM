@@ -1,0 +1,66 @@
+{
+  "scope": "Targeted checks only; not a rerun of all reviewer experiments or a cross-platform test.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "archives": {
+    "PLM-L1-v0.7": {
+      "sha256": "7a76ca3f85d26fc0f38bc99c3d6ae9f43e3859f899ec6867d3e93e53b485a393",
+      "archive_files": 411,
+      "manifest_files": 410,
+      "manifest_all_equal": true,
+      "root_component_python_files": 10,
+      "crc_valid": true
+    },
+    "PLM-L1-v0.8": {
+      "sha256": "b672639e0e734230ffe1c4fef781aeafe10e4b68e9ba5ce9fc34b0c5646fd751",
+      "archive_files": 493,
+      "manifest_files": 492,
+      "manifest_all_equal": true,
+      "root_component_python_files": 10,
+      "crc_valid": true
+    }
+  },
+  "associations": {
+    "counts": {
+      "roles": 6,
+      "polarity": 4,
+      "modality": 2,
+      "order_support": 2,
+      "order_output": 2,
+      "gaps": 8,
+      "lexical_read": 10,
+      "lexical_write": 10
+    },
+    "total": 44,
+    "canonical_table_bytes": 2499,
+    "phase_block_bytes": 1331200,
+    "budget_comparison_limit": "Serialized table versus phase blocks, not full runtime RAM or latency."
+  },
+  "six_examples": {
+    "pairs": 6,
+    "initial_lexicon_retained": true,
+    "read_exact": 192,
+    "read_requests": 192,
+    "generate_exact": 384,
+    "generate_requests": 384,
+    "associations": 44,
+    "same_phase_blocks_as_432_pairs": true,
+    "not_a_proof_that_six_is_the_minimum": true
+  },
+  "same_entity_training": "ambiguous_or_repeated_alignment",
+  "runtime_checks": {
+    "v0.7": {
+      "negative_signal_status": "abstain",
+      "negative_signal_reason": "event_presence_weak",
+      "same_entity_runtime_read": "read"
+    },
+    "v0.8": {
+      "negative_signal_status": "abstain",
+      "negative_signal_reason": "event_presence_weak",
+      "same_entity_runtime_read": "read"
+    }
+  },
+  "missing_key_field_api": "missing_query_field",
+  "partial_key_not_automatically_close": -0.007420082571971744,
+  "no_released_source_or_model_writes": true
+}

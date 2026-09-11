@@ -1,0 +1,19 @@
+{
+  "schema":"ss-core-02-protocol",
+  "methods":["single","mean4","unchecked","guard"],
+  "conditions":["clean","independent1","independent4","independent16","pre_shared16","shared16","coherent_bias"],
+  "memory_seeds":[0,1,2],
+  "scope":"two events, two mutable fields; four focal corrections, two anchor memories, two later background teachers",
+  "fault_location":"Internal SS memory read payload only; outer P1/S1 transport clean and unchanged",
+  "primary_faults":["independent16","pre_shared16"],
+  "exploratory_faults":["independent4","shared16","coherent_bias"],
+  "minimum_clean_commit_rate":1.0,
+  "minimum_mild_commit_rate":0.9,
+  "maximum_primary_bad_commit_rate":0.0,
+  "comparison":"single uses one pre-read; mean4 uses four pre-reads; unchecked and guard use two pre/two post; early stopping costs recorded",
+  "pending_gate":"Value-free pending scope gate is identical across all methods, not counted as SS-only protection",
+  "numerical_tolerance":1e-10,
+  "historical":"Reproduce all three core01 noisy updates exactly, then score 12 old focal documents before and after two later teachers; paired clean update reference",
+  "limits":"Shared corruption and false teachers are not guaranteed detectable; no thresholds or cases change after final freeze",
+  "eligible_for_inference":false
+}

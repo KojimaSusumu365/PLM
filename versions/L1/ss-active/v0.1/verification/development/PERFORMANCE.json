@@ -1,0 +1,85 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "bases": [
+    0.6548687999602407,
+    1.278691900020931
+  ],
+  "runs": [
+    {
+      "total_seconds": 1.093533999985084,
+      "selection_seconds": 0.04487149999476969,
+      "response_seconds_including_selection_revalidation": 0.09614289994351566,
+      "challenge_seconds": 0.5091884999419563
+    },
+    {
+      "total_seconds": 1.3228798999916762,
+      "selection_seconds": 0.19850689970189705,
+      "response_seconds_including_selection_revalidation": 0.2553682998986915,
+      "challenge_seconds": 0.4291952000348829
+    },
+    {
+      "total_seconds": 1.3025375999859534,
+      "selection_seconds": 0.19636939995689318,
+      "response_seconds_including_selection_revalidation": 0.2444484998122789,
+      "challenge_seconds": 0.4271160999778658
+    },
+    {
+      "total_seconds": 0.9475970999919809,
+      "selection_seconds": 0.040133300179149956,
+      "response_seconds_including_selection_revalidation": 0.0884669998777099,
+      "challenge_seconds": 0.4353650000412017
+    },
+    {
+      "total_seconds": 1.239138400007505,
+      "selection_seconds": 0.20086799992714077,
+      "response_seconds_including_selection_revalidation": 0.25549860001774505,
+      "challenge_seconds": 0.4027895999606699
+    },
+    {
+      "total_seconds": 1.2242876999662258,
+      "selection_seconds": 0.19575950008584186,
+      "response_seconds_including_selection_revalidation": 0.2468423000536859,
+      "challenge_seconds": 0.4022748999996111
+    },
+    {
+      "total_seconds": 1.907031000009738,
+      "selection_seconds": 0.08939230005489662,
+      "response_seconds_including_selection_revalidation": 0.17879450001055375,
+      "challenge_seconds": 0.9648385000182316
+    },
+    {
+      "total_seconds": 2.571009300008882,
+      "selection_seconds": 0.4629561999463476,
+      "response_seconds_including_selection_revalidation": 0.5607523999642581,
+      "challenge_seconds": 0.8530082999495789
+    },
+    {
+      "total_seconds": 2.5872680000029504,
+      "selection_seconds": 0.47361760010244325,
+      "response_seconds_including_selection_revalidation": 0.5682575998362154,
+      "challenge_seconds": 0.8605004999553785
+    },
+    {
+      "total_seconds": 1.73688789998414,
+      "selection_seconds": 0.08142840006621554,
+      "response_seconds_including_selection_revalidation": 0.16266889998223633,
+      "challenge_seconds": 0.870861099974718
+    },
+    {
+      "total_seconds": 2.42309130000649,
+      "selection_seconds": 0.44556579989148304,
+      "response_seconds_including_selection_revalidation": 0.5362940998747945,
+      "challenge_seconds": 0.8354878999525681
+    },
+    {
+      "total_seconds": 2.4911417000112124,
+      "selection_seconds": 0.4624268999323249,
+      "response_seconds_including_selection_revalidation": 0.550829800136853,
+      "challenge_seconds": 0.8421224999474362
+    }
+  ]
+}

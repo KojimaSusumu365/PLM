@@ -1,0 +1,4 @@
+{
+  "packet_valid": true,
+  "inference_enabled": false
+}

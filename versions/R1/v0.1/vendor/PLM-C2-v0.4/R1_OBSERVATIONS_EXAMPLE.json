@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "producer_version": "PLM-C2 v0.4",
+  "document_id": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52",
+  "boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0002"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "observations": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S001:C001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "subject": "bank",
+      "predicate": "river",
+      "object_text": "Grants for a river restoration were awarded by the bank",
+      "voice": "active",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": false,
+      "target_concept": "RIVER_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0001",
+      "source_reference_id": null,
+      "subject_mention_id": null,
+      "object_mention_id": null,
+      "subject_entity_id": null,
+      "object_entity_id": null,
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003",
+        "E0004",
+        "E0005"
+      ],
+      "extraction_rule": "legacy_context",
+      "semantic_status": "quarantined",
+      "observation_id": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52:F0001",
+      "review_reasons": [
+        "legacy_association_not_semantically_verified"
+      ],
+      "eligible_for_inference": false
+    },
+    {
+      "frame_id": "F0002",
+      "clause_id": "S001:C001",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "subject": "bank",
+      "predicate": "award",
+      "object_text": "Grants for a river restoration",
+      "voice": "passive",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "FINANCIAL_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0002",
+      "source_reference_id": null,
+      "subject_mention_id": "MN000003",
+      "object_mention_id": "MN000004",
+      "subject_entity_id": "ENT000002",
+      "object_entity_id": "ENT000003",
+      "predicate_span": {
+        "start": 36,
+        "end": 43,
+        "text": "awarded"
+      },
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003",
+        "E0004",
+        "E0005"
+      ],
+      "extraction_rule": "bounded_bank_event",
+      "semantic_status": "rule_checked",
+      "observation_id": "4bbe40e48eb604ec5c37c3f503bdc2115cd5710beeee2f7849c9e2abf6517c52:F0002",
+      "review_reasons": [],
+      "eligible_for_inference": false
+    }
+  ],
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 13,
+        "end": 18,
+        "text": "river"
+      },
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 51,
+        "end": 55,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002",
+        "E0003"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 51,
+        "end": 55,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "FINANCIAL_BANK"
+      ],
+      "number": "singular",
+      "kind": "argument"
+    },
+    {
+      "mention_id": "MN000004",
+      "entity_id": "ENT000003",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 0,
+        "end": 30,
+        "text": "Grants for a river restoration"
+      },
+      "concept_candidates": [],
+      "number": "singular",
+      "kind": "argument"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000003",
+      "concept_candidates": [],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "argument"
+    }
+  ],
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "Grants for a river restoration were awarded by the bank",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Grants for a river restoration were awarded by the bank",
+      "pattern": "river",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.75,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "relation_gated",
+      "active": false,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Grants for a river restoration were awarded by the bank",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Grants for a river restoration were awarded by the bank",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0004",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Grants for a river restoration were awarded by the bank",
+      "pattern": "[role:award]",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.85,
+      "effective_weight": 0.85,
+      "reason": "semantic role support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0005",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Grants for a river restoration were awarded by the bank",
+      "pattern": "[role:award]",
+      "concept": "RIVER_BANK",
+      "vote": -1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "semantic role contradiction",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ]
+}

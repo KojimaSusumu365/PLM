@@ -1,0 +1,4374 @@
+{
+  "dataset": "PLM-C0-v0.3-benchmark",
+  "schema_version": 2,
+  "construction": "72 semantic seeds x 4 deterministic surface wrappers",
+  "limitations": [
+    "Templated, closed-vocabulary functional benchmark; not an external corpus.",
+    "Dev and test share semantic seeds but use different wrappers.",
+    "Repeated wrappers must be cluster-bootstrapped by template_group.",
+    "The stress subset intentionally includes unsupported discourse and scope phenomena."
+  ],
+  "splits": {
+    "dev": 72,
+    "test": 216,
+    "all": 288
+  },
+  "cases": [
+    {
+      "id": "direct_dog_ja__dev",
+      "inputs": "犬が走っている",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_dog_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_dog_ja__test_a",
+      "inputs": "記録: 犬が走っている",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_dog_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_dog_ja__test_b",
+      "inputs": "観察結果 — 犬が走っている",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_dog_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_dog_ja__test_c",
+      "inputs": "Context: 犬が走っている",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_dog_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_dog_alias_ja__dev",
+      "inputs": "ワンちゃんが遊ぶ",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_dog_alias_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_dog_alias_ja__test_a",
+      "inputs": "記録: ワンちゃんが遊ぶ",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_dog_alias_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_dog_alias_ja__test_b",
+      "inputs": "観察結果 — ワンちゃんが遊ぶ",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_dog_alias_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_dog_alias_ja__test_c",
+      "inputs": "Context: ワンちゃんが遊ぶ",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_dog_alias_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_puppy_en__dev",
+      "inputs": "A puppy is playing.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_puppy_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_puppy_en__test_a",
+      "inputs": "記録: A puppy is playing.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_puppy_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_puppy_en__test_b",
+      "inputs": "観察結果 — A puppy is playing.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_puppy_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_puppy_en__test_c",
+      "inputs": "Context: A puppy is playing.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_puppy_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_dog_en__dev",
+      "inputs": "The dog waited.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_dog_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_dog_en__test_a",
+      "inputs": "記録: The dog waited.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_dog_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_dog_en__test_b",
+      "inputs": "観察結果 — The dog waited.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_dog_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_dog_en__test_c",
+      "inputs": "Context: The dog waited.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_dog_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_cat_ja__dev",
+      "inputs": "猫が眠っている",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_cat_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_cat_ja__test_a",
+      "inputs": "記録: 猫が眠っている",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_cat_ja__test_b",
+      "inputs": "観察結果 — 猫が眠っている",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_cat_ja__test_c",
+      "inputs": "Context: 猫が眠っている",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_cat_en__dev",
+      "inputs": "The cat is sleeping.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_cat_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_cat_en__test_a",
+      "inputs": "記録: The cat is sleeping.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_cat_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_cat_en__test_b",
+      "inputs": "観察結果 — The cat is sleeping.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_cat_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_cat_en__test_c",
+      "inputs": "Context: The cat is sleeping.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_cat_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_human_ja__dev",
+      "inputs": "その人が話した",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_human_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_human_ja__test_a",
+      "inputs": "記録: その人が話した",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_human_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_human_ja__test_b",
+      "inputs": "観察結果 — その人が話した",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_human_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_human_ja__test_c",
+      "inputs": "Context: その人が話した",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_human_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_human_en__dev",
+      "inputs": "A person arrived.",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_human_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_human_en__test_a",
+      "inputs": "記録: A person arrived.",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_human_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_human_en__test_b",
+      "inputs": "観察結果 — A person arrived.",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_human_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_human_en__test_c",
+      "inputs": "Context: A person arrived.",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_human_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_animal_ja__dev",
+      "inputs": "動物がいる",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "dev",
+        "direct",
+        "generic",
+        "ja"
+      ],
+      "template_group": "direct_animal_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_animal_ja__test_a",
+      "inputs": "記録: 動物がいる",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_animal_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_animal_ja__test_b",
+      "inputs": "観察結果 — 動物がいる",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_animal_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_animal_ja__test_c",
+      "inputs": "Context: 動物がいる",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_animal_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_animal_en__dev",
+      "inputs": "An animal moved.",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "dev",
+        "direct",
+        "en",
+        "generic"
+      ],
+      "template_group": "direct_animal_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_animal_en__test_a",
+      "inputs": "記録: An animal moved.",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "direct",
+        "en",
+        "generic",
+        "test"
+      ],
+      "template_group": "direct_animal_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_animal_en__test_b",
+      "inputs": "観察結果 — An animal moved.",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "direct",
+        "en",
+        "generic",
+        "test"
+      ],
+      "template_group": "direct_animal_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_animal_en__test_c",
+      "inputs": "Context: An animal moved.",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "direct",
+        "en",
+        "generic",
+        "test"
+      ],
+      "template_group": "direct_animal_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_living_ja__dev",
+      "inputs": "未知の生物を観察した",
+      "domain": "entity",
+      "expected": "LIVING",
+      "tags": [
+        "dev",
+        "direct",
+        "generic",
+        "ja"
+      ],
+      "template_group": "direct_living_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_living_ja__test_a",
+      "inputs": "記録: 未知の生物を観察した",
+      "domain": "entity",
+      "expected": "LIVING",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_living_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_living_ja__test_b",
+      "inputs": "観察結果 — 未知の生物を観察した",
+      "domain": "entity",
+      "expected": "LIVING",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_living_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_living_ja__test_c",
+      "inputs": "Context: 未知の生物を観察した",
+      "domain": "entity",
+      "expected": "LIVING",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_living_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vehicle_ja__dev",
+      "inputs": "自動車が止まった",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_vehicle_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_vehicle_ja__test_a",
+      "inputs": "記録: 自動車が止まった",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vehicle_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vehicle_ja__test_b",
+      "inputs": "観察結果 — 自動車が止まった",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vehicle_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vehicle_ja__test_c",
+      "inputs": "Context: 自動車が止まった",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vehicle_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vehicle_en__dev",
+      "inputs": "The vehicle stopped.",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_vehicle_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_vehicle_en__test_a",
+      "inputs": "記録: The vehicle stopped.",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_vehicle_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_vehicle_en__test_b",
+      "inputs": "観察結果 — The vehicle stopped.",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_vehicle_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_vehicle_en__test_c",
+      "inputs": "Context: The vehicle stopped.",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_vehicle_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_car_en__dev",
+      "inputs": "A car stopped.",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_car_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_car_en__test_a",
+      "inputs": "記録: A car stopped.",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_car_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_car_en__test_b",
+      "inputs": "観察結果 — A car stopped.",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_car_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_car_en__test_c",
+      "inputs": "Context: A car stopped.",
+      "domain": "entity",
+      "expected": "VEHICLE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_car_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_ja__dev",
+      "inputs": "遠くで吠えている",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_bark_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_bark_ja__test_a",
+      "inputs": "記録: 遠くで吠えている",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bark_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_ja__test_b",
+      "inputs": "観察結果 — 遠くで吠えている",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bark_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_ja__test_c",
+      "inputs": "Context: 遠くで吠えている",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bark_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_en__dev",
+      "inputs": "Dogs bark loudly.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_bark_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_bark_en__test_a",
+      "inputs": "記録: Dogs bark loudly.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_bark_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_en__test_b",
+      "inputs": "観察結果 — Dogs bark loudly.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_bark_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_en__test_c",
+      "inputs": "Context: Dogs bark loudly.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_bark_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_sound_ja__dev",
+      "inputs": "キャンキャン聞こえた",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_bark_sound_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_bark_sound_ja__test_a",
+      "inputs": "記録: キャンキャン聞こえた",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bark_sound_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_sound_ja__test_b",
+      "inputs": "観察結果 — キャンキャン聞こえた",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bark_sound_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_bark_sound_ja__test_c",
+      "inputs": "Context: キャンキャン聞こえた",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bark_sound_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_ja__dev",
+      "inputs": "動物が鳴く",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "dev",
+        "direct",
+        "generic",
+        "ja"
+      ],
+      "template_group": "direct_vocalize_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_vocalize_ja__test_a",
+      "inputs": "記録: 動物が鳴く",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vocalize_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_ja__test_b",
+      "inputs": "観察結果 — 動物が鳴く",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vocalize_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_ja__test_c",
+      "inputs": "Context: 動物が鳴く",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "generic",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vocalize_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_phrase_ja__dev",
+      "inputs": "声を出した",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_vocalize_phrase_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_vocalize_phrase_ja__test_a",
+      "inputs": "記録: 声を出した",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vocalize_phrase_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_phrase_ja__test_b",
+      "inputs": "観察結果 — 声を出した",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vocalize_phrase_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_phrase_ja__test_c",
+      "inputs": "Context: 声を出した",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_vocalize_phrase_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_en__dev",
+      "inputs": "An animal can vocalize.",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_vocalize_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_vocalize_en__test_a",
+      "inputs": "記録: An animal can vocalize.",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_vocalize_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_en__test_b",
+      "inputs": "観察結果 — An animal can vocalize.",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_vocalize_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_vocalize_en__test_c",
+      "inputs": "Context: An animal can vocalize.",
+      "domain": "action",
+      "expected": "VOCALIZE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_vocalize_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_bite_ja__dev",
+      "inputs": "犬が噛んだ",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_bite_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_bite_ja__test_a",
+      "inputs": "記録: 犬が噛んだ",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bite_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_bite_ja__test_b",
+      "inputs": "観察結果 — 犬が噛んだ",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bite_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_bite_ja__test_c",
+      "inputs": "Context: 犬が噛んだ",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_bite_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_bite_en__dev",
+      "inputs": "A dog can bite.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_bite_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_bite_en__test_a",
+      "inputs": "記録: A dog can bite.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_bite_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_bite_en__test_b",
+      "inputs": "観察結果 — A dog can bite.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_bite_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_bite_en__test_c",
+      "inputs": "Context: A dog can bite.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_bite_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_financial_ja__dev",
+      "inputs": "銀行へ行った",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_financial_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_financial_ja__test_a",
+      "inputs": "記録: 銀行へ行った",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_financial_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_financial_ja__test_b",
+      "inputs": "観察結果 — 銀行へ行った",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_financial_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_financial_ja__test_c",
+      "inputs": "Context: 銀行へ行った",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_financial_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_account_en__dev",
+      "inputs": "The account was opened.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_account_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_account_en__test_a",
+      "inputs": "記録: The account was opened.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_account_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_account_en__test_b",
+      "inputs": "観察結果 — The account was opened.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_account_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_account_en__test_c",
+      "inputs": "Context: The account was opened.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_account_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_loan_en__dev",
+      "inputs": "The loan was approved.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "dev",
+        "direct",
+        "en"
+      ],
+      "template_group": "direct_loan_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_loan_en__test_a",
+      "inputs": "記録: The loan was approved.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_loan_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_loan_en__test_b",
+      "inputs": "観察結果 — The loan was approved.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_loan_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_loan_en__test_c",
+      "inputs": "Context: The loan was approved.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "test"
+      ],
+      "template_group": "direct_loan_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_river_bank_ja__dev",
+      "inputs": "川岸を歩いた",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "dev",
+        "direct",
+        "ja"
+      ],
+      "template_group": "direct_river_bank_ja",
+      "split": "dev"
+    },
+    {
+      "id": "direct_river_bank_ja__test_a",
+      "inputs": "記録: 川岸を歩いた",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_river_bank_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_river_bank_ja__test_b",
+      "inputs": "観察結果 — 川岸を歩いた",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_river_bank_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_river_bank_ja__test_c",
+      "inputs": "Context: 川岸を歩いた",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "direct",
+        "ja",
+        "test"
+      ],
+      "template_group": "direct_river_bank_ja",
+      "split": "test"
+    },
+    {
+      "id": "direct_river_bank_en__dev",
+      "inputs": "We walked along the river bank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "dev",
+        "direct",
+        "en",
+        "overlap"
+      ],
+      "template_group": "direct_river_bank_en",
+      "split": "dev"
+    },
+    {
+      "id": "direct_river_bank_en__test_a",
+      "inputs": "記録: We walked along the river bank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "overlap",
+        "test"
+      ],
+      "template_group": "direct_river_bank_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_river_bank_en__test_b",
+      "inputs": "観察結果 — We walked along the river bank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "overlap",
+        "test"
+      ],
+      "template_group": "direct_river_bank_en",
+      "split": "test"
+    },
+    {
+      "id": "direct_river_bank_en__test_c",
+      "inputs": "Context: We walked along the river bank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "direct",
+        "en",
+        "overlap",
+        "test"
+      ],
+      "template_group": "direct_river_bank_en",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_money__dev",
+      "inputs": "The bank handled money.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en"
+      ],
+      "template_group": "context_financial_money",
+      "split": "dev"
+    },
+    {
+      "id": "context_financial_money__test_a",
+      "inputs": "記録: The bank handled money.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_money",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_money__test_b",
+      "inputs": "観察結果 — The bank handled money.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_money",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_money__test_c",
+      "inputs": "Context: The bank handled money.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_money",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_deposit__dev",
+      "inputs": "The bank accepted a deposit.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en"
+      ],
+      "template_group": "context_financial_deposit",
+      "split": "dev"
+    },
+    {
+      "id": "context_financial_deposit__test_a",
+      "inputs": "記録: The bank accepted a deposit.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_deposit",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_deposit__test_b",
+      "inputs": "観察結果 — The bank accepted a deposit.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_deposit",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_deposit__test_c",
+      "inputs": "Context: The bank accepted a deposit.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_deposit",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_account__dev",
+      "inputs": "The bank maintains an account.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en"
+      ],
+      "template_group": "context_financial_account",
+      "split": "dev"
+    },
+    {
+      "id": "context_financial_account__test_a",
+      "inputs": "記録: The bank maintains an account.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_account",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_account__test_b",
+      "inputs": "観察結果 — The bank maintains an account.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_account",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_account__test_c",
+      "inputs": "Context: The bank maintains an account.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_account",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_loan__dev",
+      "inputs": "The bank approved the loan.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en"
+      ],
+      "template_group": "context_financial_loan",
+      "split": "dev"
+    },
+    {
+      "id": "context_financial_loan__test_a",
+      "inputs": "記録: The bank approved the loan.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_loan",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_loan__test_b",
+      "inputs": "観察結果 — The bank approved the loan.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_loan",
+      "split": "test"
+    },
+    {
+      "id": "context_financial_loan__test_c",
+      "inputs": "Context: The bank approved the loan.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_financial_loan",
+      "split": "test"
+    },
+    {
+      "id": "context_river_water__dev",
+      "inputs": "We sat on the bank beside water.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en"
+      ],
+      "template_group": "context_river_water",
+      "split": "dev"
+    },
+    {
+      "id": "context_river_water__test_a",
+      "inputs": "記録: We sat on the bank beside water.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_water",
+      "split": "test"
+    },
+    {
+      "id": "context_river_water__test_b",
+      "inputs": "観察結果 — We sat on the bank beside water.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_water",
+      "split": "test"
+    },
+    {
+      "id": "context_river_water__test_c",
+      "inputs": "Context: We sat on the bank beside water.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_water",
+      "split": "test"
+    },
+    {
+      "id": "context_river_shore__dev",
+      "inputs": "The bank was close to the shore.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en"
+      ],
+      "template_group": "context_river_shore",
+      "split": "dev"
+    },
+    {
+      "id": "context_river_shore__test_a",
+      "inputs": "記録: The bank was close to the shore.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_shore",
+      "split": "test"
+    },
+    {
+      "id": "context_river_shore__test_b",
+      "inputs": "観察結果 — The bank was close to the shore.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_shore",
+      "split": "test"
+    },
+    {
+      "id": "context_river_shore__test_c",
+      "inputs": "Context: The bank was close to the shore.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_shore",
+      "split": "test"
+    },
+    {
+      "id": "context_river_flow__dev",
+      "inputs": "The bank follows the river.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en"
+      ],
+      "template_group": "context_river_flow",
+      "split": "dev"
+    },
+    {
+      "id": "context_river_flow__test_a",
+      "inputs": "記録: The bank follows the river.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_flow",
+      "split": "test"
+    },
+    {
+      "id": "context_river_flow__test_b",
+      "inputs": "観察結果 — The bank follows the river.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_flow",
+      "split": "test"
+    },
+    {
+      "id": "context_river_flow__test_c",
+      "inputs": "Context: The bank follows the river.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "test"
+      ],
+      "template_group": "context_river_flow",
+      "split": "test"
+    },
+    {
+      "id": "context_river_ja__dev",
+      "inputs": "bankのそばを川が流れる",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "mixed"
+      ],
+      "template_group": "context_river_ja",
+      "split": "dev"
+    },
+    {
+      "id": "context_river_ja__test_a",
+      "inputs": "記録: bankのそばを川が流れる",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "mixed",
+        "test"
+      ],
+      "template_group": "context_river_ja",
+      "split": "test"
+    },
+    {
+      "id": "context_river_ja__test_b",
+      "inputs": "観察結果 — bankのそばを川が流れる",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "mixed",
+        "test"
+      ],
+      "template_group": "context_river_ja",
+      "split": "test"
+    },
+    {
+      "id": "context_river_ja__test_c",
+      "inputs": "Context: bankのそばを川が流れる",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "mixed",
+        "test"
+      ],
+      "template_group": "context_river_ja",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_ja__dev",
+      "inputs": "これは犬ではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "dev",
+        "ja",
+        "negation"
+      ],
+      "template_group": "negated_dog_ja",
+      "split": "dev"
+    },
+    {
+      "id": "negated_dog_ja__test_a",
+      "inputs": "記録: これは犬ではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_ja",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_ja__test_b",
+      "inputs": "観察結果 — これは犬ではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_ja",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_ja__test_c",
+      "inputs": "Context: これは犬ではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_ja",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_en__dev",
+      "inputs": "This is not a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "dev",
+        "en",
+        "negation"
+      ],
+      "template_group": "negated_dog_en",
+      "split": "dev"
+    },
+    {
+      "id": "negated_dog_en__test_a",
+      "inputs": "記録: This is not a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_en",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_en__test_b",
+      "inputs": "観察結果 — This is not a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_en",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_en__test_c",
+      "inputs": "Context: This is not a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_en",
+      "split": "test"
+    },
+    {
+      "id": "negated_cat_ja__dev",
+      "inputs": "猫ではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "CAT"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "dev",
+        "ja",
+        "negation"
+      ],
+      "template_group": "negated_cat_ja",
+      "split": "dev"
+    },
+    {
+      "id": "negated_cat_ja__test_a",
+      "inputs": "記録: 猫ではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "CAT"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "negated_cat_ja__test_b",
+      "inputs": "観察結果 — 猫ではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "CAT"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "negated_cat_ja__test_c",
+      "inputs": "Context: 猫ではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "CAT"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "dog_not_cat_ja__dev",
+      "inputs": "犬ではなく猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "contradiction",
+        "dev",
+        "ja",
+        "negation"
+      ],
+      "template_group": "dog_not_cat_ja",
+      "split": "dev"
+    },
+    {
+      "id": "dog_not_cat_ja__test_a",
+      "inputs": "記録: 犬ではなく猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "dog_not_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "dog_not_cat_ja__test_b",
+      "inputs": "観察結果 — 犬ではなく猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "dog_not_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "dog_not_cat_ja__test_c",
+      "inputs": "Context: 犬ではなく猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "dog_not_cat_ja",
+      "split": "test"
+    },
+    {
+      "id": "dog_not_cat_en__dev",
+      "inputs": "It was not a dog but a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "contradiction",
+        "dev",
+        "en",
+        "negation"
+      ],
+      "template_group": "dog_not_cat_en",
+      "split": "dev"
+    },
+    {
+      "id": "dog_not_cat_en__test_a",
+      "inputs": "記録: It was not a dog but a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "dog_not_cat_en",
+      "split": "test"
+    },
+    {
+      "id": "dog_not_cat_en__test_b",
+      "inputs": "観察結果 — It was not a dog but a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "dog_not_cat_en",
+      "split": "test"
+    },
+    {
+      "id": "dog_not_cat_en__test_c",
+      "inputs": "Context: It was not a dog but a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "dog_not_cat_en",
+      "split": "test"
+    },
+    {
+      "id": "cat_negated_en__dev",
+      "inputs": "A dog is not a cat.",
+      "domain": "entity",
+      "expected": "DOG",
+      "forbidden": [
+        "CAT"
+      ],
+      "tags": [
+        "contradiction",
+        "dev",
+        "en",
+        "negation"
+      ],
+      "template_group": "cat_negated_en",
+      "split": "dev"
+    },
+    {
+      "id": "cat_negated_en__test_a",
+      "inputs": "記録: A dog is not a cat.",
+      "domain": "entity",
+      "expected": "DOG",
+      "forbidden": [
+        "CAT"
+      ],
+      "tags": [
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "cat_negated_en",
+      "split": "test"
+    },
+    {
+      "id": "cat_negated_en__test_b",
+      "inputs": "観察結果 — A dog is not a cat.",
+      "domain": "entity",
+      "expected": "DOG",
+      "forbidden": [
+        "CAT"
+      ],
+      "tags": [
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "cat_negated_en",
+      "split": "test"
+    },
+    {
+      "id": "cat_negated_en__test_c",
+      "inputs": "Context: A dog is not a cat.",
+      "domain": "entity",
+      "expected": "DOG",
+      "forbidden": [
+        "CAT"
+      ],
+      "tags": [
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "cat_negated_en",
+      "split": "test"
+    },
+    {
+      "id": "negated_bank_en__dev",
+      "inputs": "There is no bank here.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "dev",
+        "en",
+        "negation"
+      ],
+      "template_group": "negated_bank_en",
+      "split": "dev"
+    },
+    {
+      "id": "negated_bank_en__test_a",
+      "inputs": "記録: There is no bank here.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_bank_en",
+      "split": "test"
+    },
+    {
+      "id": "negated_bank_en__test_b",
+      "inputs": "観察結果 — There is no bank here.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_bank_en",
+      "split": "test"
+    },
+    {
+      "id": "negated_bank_en__test_c",
+      "inputs": "Context: There is no bank here.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_bank_en",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_casual_ja__dev",
+      "inputs": "犬じゃなかった",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "dev",
+        "ja",
+        "negation"
+      ],
+      "template_group": "negated_dog_casual_ja",
+      "split": "dev"
+    },
+    {
+      "id": "negated_dog_casual_ja__test_a",
+      "inputs": "記録: 犬じゃなかった",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_casual_ja",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_casual_ja__test_b",
+      "inputs": "観察結果 — 犬じゃなかった",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_casual_ja",
+      "split": "test"
+    },
+    {
+      "id": "negated_dog_casual_ja__test_c",
+      "inputs": "Context: 犬じゃなかった",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "contradiction",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "negated_dog_casual_ja",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_dog__dev",
+      "inputs": "この動物は犬です",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "hierarchy",
+        "ja"
+      ],
+      "template_group": "hierarchy_dog",
+      "split": "dev"
+    },
+    {
+      "id": "hierarchy_dog__test_a",
+      "inputs": "記録: この動物は犬です",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_dog",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_dog__test_b",
+      "inputs": "観察結果 — この動物は犬です",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_dog",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_dog__test_c",
+      "inputs": "Context: この動物は犬です",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_dog",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_cat__dev",
+      "inputs": "この動物は猫です",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "dev",
+        "hierarchy",
+        "ja"
+      ],
+      "template_group": "hierarchy_cat",
+      "split": "dev"
+    },
+    {
+      "id": "hierarchy_cat__test_a",
+      "inputs": "記録: この動物は猫です",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_cat",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_cat__test_b",
+      "inputs": "観察結果 — この動物は猫です",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_cat",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_cat__test_c",
+      "inputs": "Context: この動物は猫です",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_cat",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_human__dev",
+      "inputs": "この動物は人です",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "dev",
+        "hierarchy",
+        "ja"
+      ],
+      "template_group": "hierarchy_human",
+      "split": "dev"
+    },
+    {
+      "id": "hierarchy_human__test_a",
+      "inputs": "記録: この動物は人です",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_human",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_human__test_b",
+      "inputs": "観察結果 — この動物は人です",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_human",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_human__test_c",
+      "inputs": "Context: この動物は人です",
+      "domain": "entity",
+      "expected": "HUMAN",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_human",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_animal__dev",
+      "inputs": "この生物は動物です",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "dev",
+        "hierarchy",
+        "ja"
+      ],
+      "template_group": "hierarchy_animal",
+      "split": "dev"
+    },
+    {
+      "id": "hierarchy_animal__test_a",
+      "inputs": "記録: この生物は動物です",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_animal",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_animal__test_b",
+      "inputs": "観察結果 — この生物は動物です",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_animal",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_animal__test_c",
+      "inputs": "Context: この生物は動物です",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_animal",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_bark__dev",
+      "inputs": "声を出して吠えた",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "dev",
+        "hierarchy",
+        "ja"
+      ],
+      "template_group": "hierarchy_bark",
+      "split": "dev"
+    },
+    {
+      "id": "hierarchy_bark__test_a",
+      "inputs": "記録: 声を出して吠えた",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_bark",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_bark__test_b",
+      "inputs": "観察結果 — 声を出して吠えた",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_bark",
+      "split": "test"
+    },
+    {
+      "id": "hierarchy_bark__test_c",
+      "inputs": "Context: 声を出して吠えた",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "hierarchy_bark",
+      "split": "test"
+    },
+    {
+      "id": "abstain_bare_bank__dev",
+      "inputs": "bank",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ambiguity",
+        "dev",
+        "en"
+      ],
+      "template_group": "abstain_bare_bank",
+      "split": "dev"
+    },
+    {
+      "id": "abstain_bare_bank__test_a",
+      "inputs": "記録: bank",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ambiguity",
+        "en",
+        "test"
+      ],
+      "template_group": "abstain_bare_bank",
+      "split": "test"
+    },
+    {
+      "id": "abstain_bare_bank__test_b",
+      "inputs": "観察結果 — bank",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ambiguity",
+        "en",
+        "test"
+      ],
+      "template_group": "abstain_bare_bank",
+      "split": "test"
+    },
+    {
+      "id": "abstain_bare_bank__test_c",
+      "inputs": "Context: bank",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ambiguity",
+        "en",
+        "test"
+      ],
+      "template_group": "abstain_bare_bank",
+      "split": "test"
+    },
+    {
+      "id": "abstain_unknown__dev",
+      "inputs": "量子もつれについて考える",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "dev",
+        "ja",
+        "unknown"
+      ],
+      "template_group": "abstain_unknown",
+      "split": "dev"
+    },
+    {
+      "id": "abstain_unknown__test_a",
+      "inputs": "記録: 量子もつれについて考える",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ja",
+        "test",
+        "unknown"
+      ],
+      "template_group": "abstain_unknown",
+      "split": "test"
+    },
+    {
+      "id": "abstain_unknown__test_b",
+      "inputs": "観察結果 — 量子もつれについて考える",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ja",
+        "test",
+        "unknown"
+      ],
+      "template_group": "abstain_unknown",
+      "split": "test"
+    },
+    {
+      "id": "abstain_unknown__test_c",
+      "inputs": "Context: 量子もつれについて考える",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ja",
+        "test",
+        "unknown"
+      ],
+      "template_group": "abstain_unknown",
+      "split": "test"
+    },
+    {
+      "id": "conflict_sibling_parent__dev",
+      "inputs": [
+        "犬がいる",
+        "猫がいる"
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "conflict",
+        "dev",
+        "hierarchy",
+        "ja"
+      ],
+      "template_group": "conflict_sibling_parent",
+      "split": "dev"
+    },
+    {
+      "id": "conflict_sibling_parent__test_a",
+      "inputs": [
+        "記録: 犬がいる",
+        "記録: 猫がいる"
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "conflict",
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "conflict_sibling_parent",
+      "split": "test"
+    },
+    {
+      "id": "conflict_sibling_parent__test_b",
+      "inputs": [
+        "観察結果 — 犬がいる",
+        "観察結果 — 猫がいる"
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "conflict",
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "conflict_sibling_parent",
+      "split": "test"
+    },
+    {
+      "id": "conflict_sibling_parent__test_c",
+      "inputs": [
+        "Context: 犬がいる",
+        "Context: 猫がいる"
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "conflict",
+        "hierarchy",
+        "ja",
+        "test"
+      ],
+      "template_group": "conflict_sibling_parent",
+      "split": "test"
+    },
+    {
+      "id": "conflict_bank_balanced__dev",
+      "inputs": [
+        "The bank handled money.",
+        "We sat on the bank beside water."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ambiguity",
+        "conflict",
+        "dev",
+        "en"
+      ],
+      "template_group": "conflict_bank_balanced",
+      "split": "dev"
+    },
+    {
+      "id": "conflict_bank_balanced__test_a",
+      "inputs": [
+        "記録: The bank handled money.",
+        "記録: We sat on the bank beside water."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ambiguity",
+        "conflict",
+        "en",
+        "test"
+      ],
+      "template_group": "conflict_bank_balanced",
+      "split": "test"
+    },
+    {
+      "id": "conflict_bank_balanced__test_b",
+      "inputs": [
+        "観察結果 — The bank handled money.",
+        "観察結果 — We sat on the bank beside water."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ambiguity",
+        "conflict",
+        "en",
+        "test"
+      ],
+      "template_group": "conflict_bank_balanced",
+      "split": "test"
+    },
+    {
+      "id": "conflict_bank_balanced__test_c",
+      "inputs": [
+        "Context: The bank handled money.",
+        "Context: We sat on the bank beside water."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "ambiguity",
+        "conflict",
+        "en",
+        "test"
+      ],
+      "template_group": "conflict_bank_balanced",
+      "split": "test"
+    },
+    {
+      "id": "conflict_action_balanced__dev",
+      "inputs": [
+        "吠えた",
+        "噛んだ"
+      ],
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "conflict",
+        "dev",
+        "ja"
+      ],
+      "template_group": "conflict_action_balanced",
+      "split": "dev"
+    },
+    {
+      "id": "conflict_action_balanced__test_a",
+      "inputs": [
+        "記録: 吠えた",
+        "記録: 噛んだ"
+      ],
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "conflict",
+        "ja",
+        "test"
+      ],
+      "template_group": "conflict_action_balanced",
+      "split": "test"
+    },
+    {
+      "id": "conflict_action_balanced__test_b",
+      "inputs": [
+        "観察結果 — 吠えた",
+        "観察結果 — 噛んだ"
+      ],
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "conflict",
+        "ja",
+        "test"
+      ],
+      "template_group": "conflict_action_balanced",
+      "split": "test"
+    },
+    {
+      "id": "conflict_action_balanced__test_c",
+      "inputs": [
+        "Context: 吠えた",
+        "Context: 噛んだ"
+      ],
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "conflict",
+        "ja",
+        "test"
+      ],
+      "template_group": "conflict_action_balanced",
+      "split": "test"
+    },
+    {
+      "id": "minority_financial__dev",
+      "inputs": [
+        "bank",
+        "bank",
+        "The bank accepted my money."
+      ],
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en",
+        "minority_evidence"
+      ],
+      "template_group": "minority_financial",
+      "split": "dev"
+    },
+    {
+      "id": "minority_financial__test_a",
+      "inputs": [
+        "記録: bank",
+        "記録: bank",
+        "記録: The bank accepted my money."
+      ],
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_financial",
+      "split": "test"
+    },
+    {
+      "id": "minority_financial__test_b",
+      "inputs": [
+        "観察結果 — bank",
+        "観察結果 — bank",
+        "観察結果 — The bank accepted my money."
+      ],
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_financial",
+      "split": "test"
+    },
+    {
+      "id": "minority_financial__test_c",
+      "inputs": [
+        "Context: bank",
+        "Context: bank",
+        "Context: The bank accepted my money."
+      ],
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_financial",
+      "split": "test"
+    },
+    {
+      "id": "minority_river__dev",
+      "inputs": [
+        "bank",
+        "bank",
+        "The bank was beside water."
+      ],
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "dev",
+        "en",
+        "minority_evidence"
+      ],
+      "template_group": "minority_river",
+      "split": "dev"
+    },
+    {
+      "id": "minority_river__test_a",
+      "inputs": [
+        "記録: bank",
+        "記録: bank",
+        "記録: The bank was beside water."
+      ],
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_river",
+      "split": "test"
+    },
+    {
+      "id": "minority_river__test_b",
+      "inputs": [
+        "観察結果 — bank",
+        "観察結果 — bank",
+        "観察結果 — The bank was beside water."
+      ],
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_river",
+      "split": "test"
+    },
+    {
+      "id": "minority_river__test_c",
+      "inputs": [
+        "Context: bank",
+        "Context: bank",
+        "Context: The bank was beside water."
+      ],
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "ambiguity",
+        "context",
+        "en",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_river",
+      "split": "test"
+    },
+    {
+      "id": "minority_specific_entity__dev",
+      "inputs": [
+        "動物です",
+        "犬です"
+      ],
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "dev",
+        "hierarchy",
+        "ja",
+        "minority_evidence"
+      ],
+      "template_group": "minority_specific_entity",
+      "split": "dev"
+    },
+    {
+      "id": "minority_specific_entity__test_a",
+      "inputs": [
+        "記録: 動物です",
+        "記録: 犬です"
+      ],
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_specific_entity",
+      "split": "test"
+    },
+    {
+      "id": "minority_specific_entity__test_b",
+      "inputs": [
+        "観察結果 — 動物です",
+        "観察結果 — 犬です"
+      ],
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_specific_entity",
+      "split": "test"
+    },
+    {
+      "id": "minority_specific_entity__test_c",
+      "inputs": [
+        "Context: 動物です",
+        "Context: 犬です"
+      ],
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_specific_entity",
+      "split": "test"
+    },
+    {
+      "id": "minority_specific_action__dev",
+      "inputs": [
+        "鳴く",
+        "吠えた"
+      ],
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "dev",
+        "hierarchy",
+        "ja",
+        "minority_evidence"
+      ],
+      "template_group": "minority_specific_action",
+      "split": "dev"
+    },
+    {
+      "id": "minority_specific_action__test_a",
+      "inputs": [
+        "記録: 鳴く",
+        "記録: 吠えた"
+      ],
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_specific_action",
+      "split": "test"
+    },
+    {
+      "id": "minority_specific_action__test_b",
+      "inputs": [
+        "観察結果 — 鳴く",
+        "観察結果 — 吠えた"
+      ],
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_specific_action",
+      "split": "test"
+    },
+    {
+      "id": "minority_specific_action__test_c",
+      "inputs": [
+        "Context: 鳴く",
+        "Context: 吠えた"
+      ],
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "hierarchy",
+        "ja",
+        "minority_evidence",
+        "test"
+      ],
+      "template_group": "minority_specific_action",
+      "split": "test"
+    },
+    {
+      "id": "boundary_scar__dev",
+      "inputs": "Scar tissue formed.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "VEHICLE"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "dev",
+        "en",
+        "hard_negative"
+      ],
+      "template_group": "boundary_scar",
+      "split": "dev"
+    },
+    {
+      "id": "boundary_scar__test_a",
+      "inputs": "記録: Scar tissue formed.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "VEHICLE"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_scar",
+      "split": "test"
+    },
+    {
+      "id": "boundary_scar__test_b",
+      "inputs": "観察結果 — Scar tissue formed.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "VEHICLE"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_scar",
+      "split": "test"
+    },
+    {
+      "id": "boundary_scar__test_c",
+      "inputs": "Context: Scar tissue formed.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "VEHICLE"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_scar",
+      "split": "test"
+    },
+    {
+      "id": "boundary_hotdog__dev",
+      "inputs": "The hotdog stand closed.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "dev",
+        "en",
+        "hard_negative"
+      ],
+      "template_group": "boundary_hotdog",
+      "split": "dev"
+    },
+    {
+      "id": "boundary_hotdog__test_a",
+      "inputs": "記録: The hotdog stand closed.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_hotdog",
+      "split": "test"
+    },
+    {
+      "id": "boundary_hotdog__test_b",
+      "inputs": "観察結果 — The hotdog stand closed.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_hotdog",
+      "split": "test"
+    },
+    {
+      "id": "boundary_hotdog__test_c",
+      "inputs": "Context: The hotdog stand closed.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_hotdog",
+      "split": "test"
+    },
+    {
+      "id": "boundary_humanity__dev",
+      "inputs": "Humanity is a broad idea.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "HUMAN"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "dev",
+        "en",
+        "hard_negative"
+      ],
+      "template_group": "boundary_humanity",
+      "split": "dev"
+    },
+    {
+      "id": "boundary_humanity__test_a",
+      "inputs": "記録: Humanity is a broad idea.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "HUMAN"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_humanity",
+      "split": "test"
+    },
+    {
+      "id": "boundary_humanity__test_b",
+      "inputs": "観察結果 — Humanity is a broad idea.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "HUMAN"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_humanity",
+      "split": "test"
+    },
+    {
+      "id": "boundary_humanity__test_c",
+      "inputs": "Context: Humanity is a broad idea.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "HUMAN"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "en",
+        "hard_negative",
+        "test"
+      ],
+      "template_group": "boundary_humanity",
+      "split": "test"
+    },
+    {
+      "id": "stress_correction_ja__dev",
+      "inputs": "犬だと思ったが、実際は猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "dev",
+        "ja",
+        "long_scope",
+        "stress"
+      ],
+      "template_group": "stress_correction_ja",
+      "split": "dev"
+    },
+    {
+      "id": "stress_correction_ja__test_a",
+      "inputs": "記録: 犬だと思ったが、実際は猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "ja",
+        "long_scope",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_correction_ja",
+      "split": "test"
+    },
+    {
+      "id": "stress_correction_ja__test_b",
+      "inputs": "観察結果 — 犬だと思ったが、実際は猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "ja",
+        "long_scope",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_correction_ja",
+      "split": "test"
+    },
+    {
+      "id": "stress_correction_ja__test_c",
+      "inputs": "Context: 犬だと思ったが、実際は猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "ja",
+        "long_scope",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_correction_ja",
+      "split": "test"
+    },
+    {
+      "id": "stress_correction_en__dev",
+      "inputs": "It looked like a dog, but the final identification was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "dev",
+        "en",
+        "long_scope",
+        "stress"
+      ],
+      "template_group": "stress_correction_en",
+      "split": "dev"
+    },
+    {
+      "id": "stress_correction_en__test_a",
+      "inputs": "記録: It looked like a dog, but the final identification was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "en",
+        "long_scope",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_correction_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_correction_en__test_b",
+      "inputs": "観察結果 — It looked like a dog, but the final identification was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "en",
+        "long_scope",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_correction_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_correction_en__test_c",
+      "inputs": "Context: It looked like a dog, but the final identification was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "en",
+        "long_scope",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_correction_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_long_negation_en__dev",
+      "inputs": "It is not really very clearly a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "dev",
+        "en",
+        "long_scope",
+        "negation",
+        "stress"
+      ],
+      "template_group": "stress_long_negation_en",
+      "split": "dev"
+    },
+    {
+      "id": "stress_long_negation_en__test_a",
+      "inputs": "記録: It is not really very clearly a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "en",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_long_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_long_negation_en__test_b",
+      "inputs": "観察結果 — It is not really very clearly a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "en",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_long_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_long_negation_en__test_c",
+      "inputs": "Context: It is not really very clearly a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "en",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_long_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_discontinuous_negation_en__dev",
+      "inputs": "The dog did not, despite appearances, bark.",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "dev",
+        "en",
+        "long_scope",
+        "negation",
+        "stress"
+      ],
+      "template_group": "stress_discontinuous_negation_en",
+      "split": "dev"
+    },
+    {
+      "id": "stress_discontinuous_negation_en__test_a",
+      "inputs": "記録: The dog did not, despite appearances, bark.",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "en",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_discontinuous_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_discontinuous_negation_en__test_b",
+      "inputs": "観察結果 — The dog did not, despite appearances, bark.",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "en",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_discontinuous_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_discontinuous_negation_en__test_c",
+      "inputs": "Context: The dog did not, despite appearances, bark.",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "en",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_discontinuous_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "stress_predicate_negation_ja__dev",
+      "inputs": "犬は吠えなかった",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "dev",
+        "ja",
+        "negation",
+        "predicate",
+        "stress"
+      ],
+      "template_group": "stress_predicate_negation_ja",
+      "split": "dev"
+    },
+    {
+      "id": "stress_predicate_negation_ja__test_a",
+      "inputs": "記録: 犬は吠えなかった",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "ja",
+        "negation",
+        "predicate",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_predicate_negation_ja",
+      "split": "test"
+    },
+    {
+      "id": "stress_predicate_negation_ja__test_b",
+      "inputs": "観察結果 — 犬は吠えなかった",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "ja",
+        "negation",
+        "predicate",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_predicate_negation_ja",
+      "split": "test"
+    },
+    {
+      "id": "stress_predicate_negation_ja__test_c",
+      "inputs": "Context: 犬は吠えなかった",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "ja",
+        "negation",
+        "predicate",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_predicate_negation_ja",
+      "split": "test"
+    },
+    {
+      "id": "stress_cross_input_context__dev",
+      "inputs": [
+        "The bank was mentioned.",
+        "Separately, water spilled."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "dev",
+        "en",
+        "stress"
+      ],
+      "template_group": "stress_cross_input_context",
+      "split": "dev"
+    },
+    {
+      "id": "stress_cross_input_context__test_a",
+      "inputs": [
+        "記録: The bank was mentioned.",
+        "記録: Separately, water spilled."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_cross_input_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_cross_input_context__test_b",
+      "inputs": [
+        "観察結果 — The bank was mentioned.",
+        "観察結果 — Separately, water spilled."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_cross_input_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_cross_input_context__test_c",
+      "inputs": [
+        "Context: The bank was mentioned.",
+        "Context: Separately, water spilled."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_cross_input_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_unrelated_clause_context__dev",
+      "inputs": "The bank was discussed while water spilled from a glass.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "dev",
+        "en",
+        "stress"
+      ],
+      "template_group": "stress_unrelated_clause_context",
+      "split": "dev"
+    },
+    {
+      "id": "stress_unrelated_clause_context__test_a",
+      "inputs": "記録: The bank was discussed while water spilled from a glass.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_unrelated_clause_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_unrelated_clause_context__test_b",
+      "inputs": "観察結果 — The bank was discussed while water spilled from a glass.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_unrelated_clause_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_unrelated_clause_context__test_c",
+      "inputs": "Context: The bank was discussed while water spilled from a glass.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_unrelated_clause_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_negated_context__dev",
+      "inputs": "The bank has no water nearby.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "dev",
+        "en",
+        "negation",
+        "stress"
+      ],
+      "template_group": "stress_negated_context",
+      "split": "dev"
+    },
+    {
+      "id": "stress_negated_context__test_a",
+      "inputs": "記録: The bank has no water nearby.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_negated_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_negated_context__test_b",
+      "inputs": "観察結果 — The bank has no water nearby.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_negated_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_negated_context__test_c",
+      "inputs": "Context: The bank has no water nearby.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "context_scope",
+        "en",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_negated_context",
+      "split": "test"
+    },
+    {
+      "id": "stress_financial_negative_affordance__dev",
+      "inputs": "The bank does not offer loans.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "context_scope",
+        "dev",
+        "en",
+        "negation",
+        "stress"
+      ],
+      "template_group": "stress_financial_negative_affordance",
+      "split": "dev"
+    },
+    {
+      "id": "stress_financial_negative_affordance__test_a",
+      "inputs": "記録: The bank does not offer loans.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "context_scope",
+        "en",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_financial_negative_affordance",
+      "split": "test"
+    },
+    {
+      "id": "stress_financial_negative_affordance__test_b",
+      "inputs": "観察結果 — The bank does not offer loans.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "context_scope",
+        "en",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_financial_negative_affordance",
+      "split": "test"
+    },
+    {
+      "id": "stress_financial_negative_affordance__test_c",
+      "inputs": "Context: The bank does not offer loans.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "context_scope",
+        "en",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_financial_negative_affordance",
+      "split": "test"
+    },
+    {
+      "id": "stress_two_places__dev",
+      "inputs": [
+        "I visited a bank.",
+        "Later I crossed a river."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "conflict",
+        "context_scope",
+        "dev",
+        "en",
+        "stress"
+      ],
+      "template_group": "stress_two_places",
+      "split": "dev"
+    },
+    {
+      "id": "stress_two_places__test_a",
+      "inputs": [
+        "記録: I visited a bank.",
+        "記録: Later I crossed a river."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "conflict",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_two_places",
+      "split": "test"
+    },
+    {
+      "id": "stress_two_places__test_b",
+      "inputs": [
+        "観察結果 — I visited a bank.",
+        "観察結果 — Later I crossed a river."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "conflict",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_two_places",
+      "split": "test"
+    },
+    {
+      "id": "stress_two_places__test_c",
+      "inputs": [
+        "Context: I visited a bank.",
+        "Context: Later I crossed a river."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "conflict",
+        "context_scope",
+        "en",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_two_places",
+      "split": "test"
+    },
+    {
+      "id": "stress_ordered_correction__dev",
+      "inputs": [
+        "犬だ",
+        "犬らしい",
+        "訂正すると猫だった"
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "dev",
+        "ja",
+        "order_sensitive",
+        "stress"
+      ],
+      "template_group": "stress_ordered_correction",
+      "split": "dev"
+    },
+    {
+      "id": "stress_ordered_correction__test_a",
+      "inputs": [
+        "記録: 犬だ",
+        "記録: 犬らしい",
+        "記録: 訂正すると猫だった"
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "ja",
+        "order_sensitive",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_ordered_correction",
+      "split": "test"
+    },
+    {
+      "id": "stress_ordered_correction__test_b",
+      "inputs": [
+        "観察結果 — 犬だ",
+        "観察結果 — 犬らしい",
+        "観察結果 — 訂正すると猫だった"
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "ja",
+        "order_sensitive",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_ordered_correction",
+      "split": "test"
+    },
+    {
+      "id": "stress_ordered_correction__test_c",
+      "inputs": [
+        "Context: 犬だ",
+        "Context: 犬らしい",
+        "Context: 訂正すると猫だった"
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "correction",
+        "ja",
+        "order_sensitive",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_ordered_correction",
+      "split": "test"
+    },
+    {
+      "id": "stress_complex_negation_ja__dev",
+      "inputs": "犬というわけではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "dev",
+        "ja",
+        "long_scope",
+        "negation",
+        "stress"
+      ],
+      "template_group": "stress_complex_negation_ja",
+      "split": "dev"
+    },
+    {
+      "id": "stress_complex_negation_ja__test_a",
+      "inputs": "記録: 犬というわけではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "ja",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_complex_negation_ja",
+      "split": "test"
+    },
+    {
+      "id": "stress_complex_negation_ja__test_b",
+      "inputs": "観察結果 — 犬というわけではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "ja",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_complex_negation_ja",
+      "split": "test"
+    },
+    {
+      "id": "stress_complex_negation_ja__test_c",
+      "inputs": "Context: 犬というわけではない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "ja",
+        "long_scope",
+        "negation",
+        "stress",
+        "test"
+      ],
+      "template_group": "stress_complex_negation_ja",
+      "split": "test"
+    }
+  ]
+}

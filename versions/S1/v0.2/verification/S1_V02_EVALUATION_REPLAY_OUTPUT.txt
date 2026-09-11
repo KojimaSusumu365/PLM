@@ -1,0 +1,52 @@
+completed evaluation recovery nominal
+completed evaluation recovery legacy_combined
+completed evaluation recovery legacy_partial
+completed evaluation recovery alias_positive
+completed evaluation recovery alias_negative
+completed evaluation recovery alias_partial
+completed evaluation recovery wide_cfo
+completed evaluation recovery wide_partial
+completed evaluation recovery tone_interference
+completed evaluation recovery no_observation
+completed evaluation sync frequency_-16
+completed evaluation sync frequency_-8
+completed evaluation sync frequency_-4.5
+completed evaluation sync frequency_-3
+completed evaluation sync frequency_-2.05
+completed evaluation sync frequency_-2
+completed evaluation sync frequency_-1.99
+completed evaluation sync frequency_-1.9
+completed evaluation sync frequency_-1.0615384615384615
+completed evaluation sync frequency_-0.9615384615384616
+completed evaluation sync frequency_-0.4807692307692308
+completed evaluation sync frequency_-0.2
+completed evaluation sync frequency_0
+completed evaluation sync frequency_0.2
+completed evaluation sync frequency_0.4807692307692308
+completed evaluation sync frequency_0.9615384615384616
+completed evaluation sync frequency_1.0615384615384615
+completed evaluation sync frequency_1.9
+completed evaluation sync frequency_1.99
+completed evaluation sync frequency_2
+completed evaluation sync frequency_2.05
+completed evaluation sync frequency_3
+completed evaluation sync frequency_4.5
+completed evaluation sync frequency_8
+completed evaluation sync frequency_16
+completed evaluation sync frequency_8000.1
+completed evaluation sync noise_only
+completed evaluation sync observed_zero
+completed evaluation sync no_observation
+completed evaluation sync one_block_missing
+completed evaluation sync all_pilots_missing
+completed evaluation sync wrong_pilots
+completed evaluation sync conflicting_phases
+completed evaluation sync equal_frequency_mixture
+completed evaluation sync outside_delay
+completed evaluation sync pilot_only
+{
+  "split": "evaluation",
+  "queries": 38400,
+  "acceptance_passed": true,
+  "failed": []
+}

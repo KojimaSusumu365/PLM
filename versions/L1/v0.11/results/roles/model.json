@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "schema": "plm-memory-v011",
+    "config": {
+      "representation": "hybrid3",
+      "selector": "validation",
+      "backend": "ss",
+      "requested_dimension": 2048,
+      "seed": "evaluation-0",
+      "budget": "per_candidate",
+      "fields": [
+        "first_name",
+        "order",
+        "second_name",
+        "style0",
+        "style1",
+        "style2"
+      ],
+      "vocabulary": {
+        "first_name": [
+          "太郎",
+          "花子"
+        ],
+        "order": [
+          "object_first",
+          "subject_first"
+        ],
+        "second_name": [
+          "太郎",
+          "花子"
+        ],
+        "style0": [
+          "0",
+          "1"
+        ],
+        "style1": [
+          "0",
+          "1"
+        ],
+        "style2": [
+          "0",
+          "1"
+        ]
+      },
+      "labels": [
+        "subject:太郎|object:太郎",
+        "subject:太郎|object:花子",
+        "subject:花子|object:太郎",
+        "subject:花子|object:花子"
+      ],
+      "min_margin": 0.02,
+      "max_candidates": 4,
+      "max_selection_loss": 0.25,
+      "max_interaction_order": 3
+    },
+    "training": {
+      "rows": 24,
+      "selection_rows_used": 16,
+      "train_digest": "16211a4862e9444c18ae7676cc79f1561716180a8478e5757280a70f0fc143af",
+      "selection_digest": "dca873b7d2ec5f6d38174c7ad80ae07c750cb503d7481bc9ba4af4e431665f2e",
+      "supported": true,
+      "plausible_masks": 1,
+      "overflow": false,
+      "weights_use_training_only": true,
+      "no_online_learning": true,
+      "phase_enabled": true
+    },
+    "threshold": 0.0,
+    "calibration": {
+      "rows": 8,
+      "digest": "c8e810850240b1bbe75715c15bd0e93979633497f2e2cb31cf8992819ac540ae",
+      "risk_target": 0.1,
+      "feasible": true,
+      "trials": [
+        {
+          "threshold": 0.0,
+          "accepted": 8,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.1933964901,
+          "accepted": 8,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.1988391576,
+          "accepted": 7,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.206052419,
+          "accepted": 6,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.2261475318,
+          "accepted": 5,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.4220214235,
+          "accepted": 4,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.4362729347,
+          "accepted": 3,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.4385980911,
+          "accepted": 2,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.4389196356,
+          "accepted": 1,
+          "wrong": 0,
+          "risk": 0.0
+        }
+      ],
+      "statistical_guarantee": false,
+      "scope": "Complete clean calibration inputs only; not recalibrated for erased fields, numeric masks or shifts."
+    },
+    "members": [
+      {
+        "mask": [
+          "first_name",
+          "order",
+          "second_name"
+        ],
+        "dimension": 2048,
+        "counts": {},
+        "class_counts": [
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "eligible_for_inference": false
+  },
+  "fingerprint": "7dbc053a7b043840e6c405f0c955443e46bd1a0d94ed6ef002c35baf458250d6"
+}

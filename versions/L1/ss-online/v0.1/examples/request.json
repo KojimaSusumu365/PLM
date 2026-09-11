@@ -1,0 +1,11 @@
+{
+  "schema": "plm-ss-online-request-01",
+  "state_fingerprint": "429846d8ca03a34b06885b465ac8011f7323aa15c516e941d8d0fd846bb9af4b",
+  "context": {
+    "f0": "3",
+    "f1": "2",
+    "f2": "6",
+    "f3": "2"
+  },
+  "request_id": "f17aadbdc4ce82c320a8697754e9b4338f53fff990103a11b82b2e60adf3dd76"
+}

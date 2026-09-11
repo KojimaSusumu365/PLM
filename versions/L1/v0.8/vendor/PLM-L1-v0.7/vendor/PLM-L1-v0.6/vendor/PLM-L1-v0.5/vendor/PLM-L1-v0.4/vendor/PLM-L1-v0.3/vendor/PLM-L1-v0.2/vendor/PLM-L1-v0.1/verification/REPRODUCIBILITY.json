@@ -1,0 +1,9 @@
+{
+  "initial_run_and_first_replay_file_sha256": "0568dfb96916d512d364f3de2c348bb6cf6b30eb5448f399811ed0a50344664d",
+  "initial_replay_equal": true,
+  "final_run_file_sha256": "d1410f9ae7a9d019216f38359cc76a5359a7f4c7018a1d8226615b37b670b637",
+  "final_repeat_file_sha256": "d1410f9ae7a9d019216f38359cc76a5359a7f4c7018a1d8226615b37b670b637",
+  "final_result_digest": "c2795aea8777f5bda4e9b427b1dafac31e849b822fa6aba93cd418e56f422e44",
+  "full_numeric_replay_equal": true,
+  "all_seed_condition_records_and_capacity_stress_included": true
+}

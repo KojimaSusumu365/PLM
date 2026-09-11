@@ -1,0 +1,15 @@
+{
+  "schema": "plm-l1-v03-evaluation-protocol-v1",
+  "dimension": 8192,
+  "development_seeds": ["writer-development-0", "writer-development-1", "writer-development-2"],
+  "evaluation_seeds": ["writer-evaluation-0", "writer-evaluation-1", "writer-evaluation-2", "writer-evaluation-3", "writer-evaluation-4", "writer-evaluation-5", "writer-evaluation-6", "writer-evaluation-7"],
+  "conditions": ["full", "no_pair_learning", "no_prefix", "no_status", "roles_swapped", "states_flipped", "markers_renamed", "negative_examples_withheld"],
+  "gates": "evaluate.judge: each seed standalone and integrated exact >=0.98 with zero wrong generated outputs; fixed reader exact=1; no supplied traces; invalid text/packet accepts=0; each ablation standalone drop>=0.50; each counterfactual standalone/integrated exact>=0.98 and wrong=0; withheld negative generates=0, retained positive exact>=0.98; reader fingerprint identical across all runs. 113 checks total.",
+  "supervision": "Only text and meaning per pair. Initial lexical meanings/types and five slots are given. Role-aligned copy/literal targets and prefix next-symbol targets are derived internally, not supplied by a trace teacher. Output goal is inferred as first aligned content role, not supplied as a pair annotation.",
+  "data": "576 train,192 development,192 evaluation, copied unchanged from v0.2/v0.1. Composition-disjoint for training but NOT project-unseen. Evaluation has 96 distinct meanings; standalone=96*2 goals, integration=192 texts*2 goals per seed.",
+  "fixed_reader": "Byte-preserved v0.2 results/reader; new pipeline never calls old v0.1 reader or generator. Old generator called only in explicitly labelled reference.",
+  "stress_dimensions": [128, 512, 2048],
+  "stress_seeds": ["writer-stress-0", "writer-stress-1"],
+  "stress_note": "Non-gating low-writer-dimension end-to-end probes, fixed reader remains dimension8192. Report wrong output, abstention and invalid packet generation. Not adaptive confidence calibration.",
+  "limits": ["known vocabulary and prefix patterns", "no independent human evaluation", "no efficiency superiority claim", "no unseen grammar or unknown lexical semantics", "no S1 integration", "no R1 inference or Concept updates", "Phase/VSA not all-chip communication SS"]
+}

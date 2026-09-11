@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "schema": "plm-memory-v011",
+    "config": {
+      "representation": "hybrid3",
+      "selector": "validation",
+      "backend": "ss",
+      "requested_dimension": 2048,
+      "seed": "evaluation-0",
+      "budget": "per_candidate",
+      "fields": [
+        "f0",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "vocabulary": {
+        "f0": [
+          "0",
+          "1"
+        ],
+        "f1": [
+          "0",
+          "1"
+        ],
+        "f2": [
+          "0",
+          "1"
+        ],
+        "f3": [
+          "0",
+          "1"
+        ],
+        "f4": [
+          "0",
+          "1"
+        ],
+        "f5": [
+          "0",
+          "1"
+        ]
+      },
+      "labels": [
+        "class:0",
+        "class:1"
+      ],
+      "min_margin": 0.02,
+      "max_candidates": 4,
+      "max_selection_loss": 0.25,
+      "max_interaction_order": 3
+    },
+    "training": {
+      "rows": 24,
+      "selection_rows_used": 16,
+      "train_digest": "0c15418a50b5592f9206b2111325ab8cbfabc2943b4d860fc9e8f5e9573445fa",
+      "selection_digest": "38a386692d4fe66fcfaf399baf1f0763efd0dc927c1cdad543c86469b71278f9",
+      "supported": true,
+      "plausible_masks": 1,
+      "overflow": false,
+      "weights_use_training_only": true,
+      "no_online_learning": true,
+      "phase_enabled": true
+    },
+    "threshold": 0.0,
+    "calibration": {
+      "rows": 8,
+      "digest": "bdac22ddf5d89a3a02f5ec9bc9b6da0f8c7a724e4fca1586c175fd8dcdb1d7a6",
+      "risk_target": 0.1,
+      "feasible": true,
+      "trials": [
+        {
+          "threshold": 0.0,
+          "accepted": 8,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.1115308709,
+          "accepted": 8,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.1273256784,
+          "accepted": 6,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.5839343396,
+          "accepted": 4,
+          "wrong": 0,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.7928218484,
+          "accepted": 2,
+          "wrong": 0,
+          "risk": 0.0
+        }
+      ],
+      "statistical_guarantee": false,
+      "scope": "Complete clean calibration inputs only; not recalibrated for erased fields, numeric masks or shifts."
+    },
+    "members": [
+      {
+        "mask": [
+          "f0",
+          "f2"
+        ],
+        "dimension": 2048,
+        "counts": {},
+        "class_counts": [
+          6,
+          18
+        ]
+      }
+    ],
+    "eligible_for_inference": false
+  },
+  "fingerprint": "0e06c98d951953e8fcb3047b507b6f59e70fa9b9569542031a24bf7f539bd0af"
+}

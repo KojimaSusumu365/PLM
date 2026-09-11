@@ -1,0 +1,52 @@
+test_conflicting_associations_abstain (test_l1.AlgebraTests.test_conflicting_associations_abstain) ... ok
+test_deterministic (test_l1.AlgebraTests.test_deterministic) ... ok
+test_dimension_validation (test_l1.AlgebraTests.test_dimension_validation) ... ok
+test_hebbian_association (test_l1.AlgebraTests.test_hebbian_association) ... ok
+test_inverse_binding (test_l1.AlgebraTests.test_inverse_binding) ... ok
+test_namespace_separation (test_l1.AlgebraTests.test_namespace_separation) ... ok
+test_no_learning (test_l1.AlgebraTests.test_no_learning) ... ok
+test_order_ablation_removes_position (test_l1.AlgebraTests.test_order_ablation_removes_position) ... ok
+test_order_ablation_removes_state (test_l1.AlgebraTests.test_order_ablation_removes_state) ... ok
+test_seed_validation (test_l1.AlgebraTests.test_seed_validation) ... ok
+test_unit_phasors (test_l1.AlgebraTests.test_unit_phasors) ... ok
+test_unknown_association_abstains (test_l1.AlgebraTests.test_unknown_association_abstains) ... ok
+test_all_development_readings_and_both_goals (test_l1.LanguageTests.test_all_development_readings_and_both_goals) ... ok
+test_chip_mapping_preserves_energy_and_meaning (test_l1.LanguageTests.test_chip_mapping_preserves_energy_and_meaning) ... ok
+test_excess_interference (test_l1.LanguageTests.test_excess_interference) ... ok
+test_extra_packet_fields_rejected (test_l1.LanguageTests.test_extra_packet_fields_rejected) ... ok
+test_fixed_identity_and_fitted_memory_separate (test_l1.LanguageTests.test_fixed_identity_and_fitted_memory_separate) ... ok
+test_generation_learning_needed_even_with_working_reader (test_l1.LanguageTests.test_generation_learning_needed_even_with_working_reader) ... ok
+test_generation_signature_has_no_source (test_l1.LanguageTests.test_generation_signature_has_no_source) ... ok
+test_hypothetical_not_asserted (test_l1.LanguageTests.test_hypothetical_not_asserted) ... ok
+test_inference_flag (test_l1.LanguageTests.test_inference_flag) ... ok
+test_invalid_chip_length (test_l1.LanguageTests.test_invalid_chip_length) ... ok
+test_invalid_inputs (test_l1.LanguageTests.test_invalid_inputs) ... ok
+test_invalid_signal_numbers (test_l1.LanguageTests.test_invalid_signal_numbers) ... ok
+test_model_save_load_and_readonly_overwrite_guard (test_l1.LanguageTests.test_model_save_load_and_readonly_overwrite_guard) ... ok
+test_model_tamper_detected (test_l1.LanguageTests.test_model_tamper_detected) ... ok
+test_negative_hypothetical (test_l1.LanguageTests.test_negative_hypothetical) ... ok
+test_negative_not_phase_sign_flip (test_l1.LanguageTests.test_negative_not_phase_sign_flip) ... ok
+test_no_learning_ablation (test_l1.LanguageTests.test_no_learning_ablation) ... ok
+test_no_order_ablation (test_l1.LanguageTests.test_no_order_ablation) ... ok
+test_no_role_ablation (test_l1.LanguageTests.test_no_role_ablation) ... ok
+test_nontext_input (test_l1.LanguageTests.test_nontext_input) ... ok
+test_packet_contains_no_text_or_slots (test_l1.LanguageTests.test_packet_contains_no_text_or_slots) ... ok
+test_paraphrases_same_meaning_signal (test_l1.LanguageTests.test_paraphrases_same_meaning_signal) ... ok
+test_partition_is_disjoint_by_composition (test_l1.LanguageTests.test_partition_is_disjoint_by_composition) ... ok
+test_repeated_roles_rejected (test_l1.LanguageTests.test_repeated_roles_rejected) ... ok
+test_reverse_lexical_learning_needed (test_l1.LanguageTests.test_reverse_lexical_learning_needed) ... ok
+test_role_swaps_change_packet (test_l1.LanguageTests.test_role_swaps_change_packet) ... ok
+test_runtime_does_not_import_teacher_or_oracle (test_l1.LanguageTests.test_runtime_does_not_import_teacher_or_oracle) ... ok
+test_state_learning_needed (test_l1.LanguageTests.test_state_learning_needed) ... ok
+test_teacher_and_independent_oracle_agree_on_development (test_l1.LanguageTests.test_teacher_and_independent_oracle_agree_on_development) ... ok
+test_unknown_goal (test_l1.LanguageTests.test_unknown_goal) ... ok
+test_unseen_self_pair_is_not_a_new_entity (test_l1.LanguageTests.test_unseen_self_pair_is_not_a_new_entity) ... ok
+test_wrong_model_packet (test_l1.LanguageTests.test_wrong_model_packet) ... ok
+test_wrong_schema (test_l1.LanguageTests.test_wrong_schema) ... ok
+test_wrong_signal_shape (test_l1.LanguageTests.test_wrong_signal_shape) ... ok
+test_zero_signal (test_l1.LanguageTests.test_zero_signal) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 3.206s
+
+OK

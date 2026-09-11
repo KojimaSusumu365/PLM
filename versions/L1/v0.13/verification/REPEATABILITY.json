@@ -1,0 +1,105 @@
+{
+  "two_full_evaluations": true,
+  "source_freeze": "0408962e6e2d56f22e9a223af8bca3f1d5c6cc752116e3fda7f010bf18ca9445",
+  "files": [
+    {
+      "file": "EVALUATION.json",
+      "sha256": "43c2ad76c833a12e81e42ba82d0506aefb5a84b38ddcc8b0f3c8c35456a0f34f",
+      "repeat_sha256": "43c2ad76c833a12e81e42ba82d0506aefb5a84b38ddcc8b0f3c8c35456a0f34f",
+      "equal": true
+    },
+    {
+      "file": "hidden-b0/model/model.json",
+      "sha256": "d9fc785fe96c62d17437c43ba75cbc8722bf671a9219cb2d6e9254b36ecc3bd8",
+      "repeat_sha256": "d9fc785fe96c62d17437c43ba75cbc8722bf671a9219cb2d6e9254b36ecc3bd8",
+      "equal": true
+    },
+    {
+      "file": "hidden-b0/model/weights.npz",
+      "sha256": "7c133407f5a37687cb8f0606ccb232cec826a927bf8f8a846c3898a9ee959da8",
+      "repeat_sha256": "7c133407f5a37687cb8f0606ccb232cec826a927bf8f8a846c3898a9ee959da8",
+      "equal": true
+    },
+    {
+      "file": "hidden-b0/session.json",
+      "sha256": "f54e4886f9ba5c9612d7be43ce14c9f3667da6dee41cffc4aec2a2efa2aa6efe",
+      "repeat_sha256": "f54e4886f9ba5c9612d7be43ce14c9f3667da6dee41cffc4aec2a2efa2aa6efe",
+      "equal": true
+    },
+    {
+      "file": "hidden-b1/model/model.json",
+      "sha256": "28750c42c4334c0aeab02a4128a63f2e9a9e46c2c3f08988abb4cb54f0bf48ae",
+      "repeat_sha256": "28750c42c4334c0aeab02a4128a63f2e9a9e46c2c3f08988abb4cb54f0bf48ae",
+      "equal": true
+    },
+    {
+      "file": "hidden-b1/model/weights.npz",
+      "sha256": "08e758fe741f89d529fd4e178ea2bf4f9eb9bcfa0c70659c1537c83035d40e07",
+      "repeat_sha256": "08e758fe741f89d529fd4e178ea2bf4f9eb9bcfa0c70659c1537c83035d40e07",
+      "equal": true
+    },
+    {
+      "file": "hidden-b1/session.json",
+      "sha256": "ab72f9523d78ce01e8767b869063df99bad6d5baffd75fecf2cedd283d61d19a",
+      "repeat_sha256": "ab72f9523d78ce01e8767b869063df99bad6d5baffd75fecf2cedd283d61d19a",
+      "equal": true
+    },
+    {
+      "file": "hidden-b16/model/model.json",
+      "sha256": "84250bc07e399881eac8515c5f9b43a84f4d6f7c250b49bbd898c86a2a3c3bb2",
+      "repeat_sha256": "84250bc07e399881eac8515c5f9b43a84f4d6f7c250b49bbd898c86a2a3c3bb2",
+      "equal": true
+    },
+    {
+      "file": "hidden-b16/model/weights.npz",
+      "sha256": "08e758fe741f89d529fd4e178ea2bf4f9eb9bcfa0c70659c1537c83035d40e07",
+      "repeat_sha256": "08e758fe741f89d529fd4e178ea2bf4f9eb9bcfa0c70659c1537c83035d40e07",
+      "equal": true
+    },
+    {
+      "file": "hidden-b16/session.json",
+      "sha256": "edd37f17bc8811dd80e8311c85073ae4b064ee12da23046e7e8fa36eef911188",
+      "repeat_sha256": "edd37f17bc8811dd80e8311c85073ae4b064ee12da23046e7e8fa36eef911188",
+      "equal": true
+    },
+    {
+      "file": "hidden-b4/model/model.json",
+      "sha256": "7aaf0e904ee3a2c6c1589fdfa7bce550f0af581f5fe205a0ce14a4f276dd579c",
+      "repeat_sha256": "7aaf0e904ee3a2c6c1589fdfa7bce550f0af581f5fe205a0ce14a4f276dd579c",
+      "equal": true
+    },
+    {
+      "file": "hidden-b4/model/weights.npz",
+      "sha256": "08e758fe741f89d529fd4e178ea2bf4f9eb9bcfa0c70659c1537c83035d40e07",
+      "repeat_sha256": "08e758fe741f89d529fd4e178ea2bf4f9eb9bcfa0c70659c1537c83035d40e07",
+      "equal": true
+    },
+    {
+      "file": "hidden-b4/session.json",
+      "sha256": "8b7409dbaa30d02a59f1e5dd79f17a30e63694646e7b6eb27c09fb93b3235b3f",
+      "repeat_sha256": "8b7409dbaa30d02a59f1e5dd79f17a30e63694646e7b6eb27c09fb93b3235b3f",
+      "equal": true
+    },
+    {
+      "file": "roles-b16/model/model.json",
+      "sha256": "c6b9ffb082e2e8215e0d706ef1aeb629c64501f6e50716c112d9b0ea6197631f",
+      "repeat_sha256": "c6b9ffb082e2e8215e0d706ef1aeb629c64501f6e50716c112d9b0ea6197631f",
+      "equal": true
+    },
+    {
+      "file": "roles-b16/model/weights.npz",
+      "sha256": "4fb0b4ed79c987f8a6b9b6a7045fffe258a00c958e14c2236f23239d54176619",
+      "repeat_sha256": "4fb0b4ed79c987f8a6b9b6a7045fffe258a00c958e14c2236f23239d54176619",
+      "equal": true
+    },
+    {
+      "file": "roles-b16/session.json",
+      "sha256": "eb2531262574a102bb616e71130048e0daf973ff9566dffde71b0848223eb7ca",
+      "repeat_sha256": "eb2531262574a102bb616e71130048e0daf973ff9566dffde71b0848223eb7ca",
+      "equal": true
+    }
+  ],
+  "excluded": [
+    "PERFORMANCE.json"
+  ]
+}

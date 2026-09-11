@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "complete_numeric_runs": 2,
+  "split": "evaluation",
+  "source_freeze": "7459fd648b187f6f9c298e5a951b3a0eb2489e345893ea7d25d40da39f638df9",
+  "result_digest": "10446ccfc7d48d220886d3c660e134d261fbc5582dc29fb2c1df51aa6e636dd0",
+  "model_fingerprint": "5bfaf41a6e196bc0233ad696f39bd638e3a426d3be1ac7aa27137a3943768a82",
+  "acceptance_checks_each_run": 456,
+  "comparisons": {
+    "EVALUATION.json": {
+      "bytes_equal": true,
+      "sha256": "fd3ebdc08b0ae83e2d757b8c1315a490b2addbeba98da87e3610110e688d0db6",
+      "bytes": 46223188
+    },
+    "REPORT.md": {
+      "bytes_equal": true,
+      "sha256": "e1350669d0616931bab6354212f55d7190866be5bbbda8b94a43382037d2adca",
+      "bytes": 2990
+    },
+    "model/model.json": {
+      "bytes_equal": true,
+      "sha256": "0f98b6077c70e690bfae05777d2f2ff4035b8cfb5268264192f42a1428655590",
+      "bytes": 2654
+    },
+    "model/component/model.json": {
+      "bytes_equal": true,
+      "sha256": "9af5d04db606b5b632fff2f2e8be1956c2c0b22105c2ea3d86125483b3eba550",
+      "bytes": 7276
+    },
+    "model/weights.npz": {
+      "array_inventory_and_values_equal": true,
+      "arrays": {
+        "temporal_read_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "d9198b48b2598ecff4f3f0c75c295be4b9123ba3d5ccd136ec07d47da95f3815",
+          "equal": true
+        },
+        "temporal_write_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "ede50b2a58f9d3db4208f4e8327637ed888834f240da81ed7d2569dbca65ca29",
+          "equal": true
+        }
+      },
+      "first_container_sha256": "08741c79ffd3ce198dd146b7d43f006361007823f68b49b5534e97aa67ec0fae",
+      "second_container_sha256": "08741c79ffd3ce198dd146b7d43f006361007823f68b49b5534e97aa67ec0fae",
+      "container_bytes_equal": true
+    },
+    "model/component/weights.npz": {
+      "array_inventory_and_values_equal": true,
+      "arrays": {
+        "gaps_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "30a22ef66e9a8c08a20fcefb75ae49c20b0b7392847a3a94f0af14f8cfcc2fcf",
+          "equal": true
+        },
+        "gaps_1": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "9bbf74f36450583c9c05003bc8ecbf09e2cb15cbcd7b3a6e8fa876089f33ac96",
+          "equal": true
+        },
+        "gaps_2": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "dfc9c57b20457906fee124c763f6d112acf1a82b20096d229481f7dede5d1439",
+          "equal": true
+        },
+        "lexical_read_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "21194a8fc4dff3119c2f138b24281de8c7d5a7b4b0667a9d678d81613ccd3383",
+          "equal": true
+        },
+        "lexical_write_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "15a9d389fe1a8615080e7653b63f2154d0b9e050cf16cce0268b4aac80e43146",
+          "equal": true
+        },
+        "modality_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "30cbc2db1536290866d4c72bb1c3c9d50258abd420f5f94d9c425ddf9ea8c3e2",
+          "equal": true
+        },
+        "order_output_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "395f9ff33dcfa20099645470ff1e5e2ef1a6ddced27d3a4a09a8a86045a45092",
+          "equal": true
+        },
+        "order_support_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "22fb9ef97b1f2262466e29c2757529f84cfe11804ab777e2ef67146524c1e6d0",
+          "equal": true
+        },
+        "polarity_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "3c724f4671f8e84807da169b5e51bc7db98cde63fb17fc3e4d3bbe639dade6ae",
+          "equal": true
+        },
+        "roles_0": {
+          "dtype": "uint8",
+          "shape": [
+            133120
+          ],
+          "sha256": "48cee8e75750368fda2e3cc841471ff2e24407d970a2b9e294ef61651db44112",
+          "equal": true
+        }
+      },
+      "first_container_sha256": "7edd4a22276d94050ed3add3fa0b2eee127d4247d5c615084726a15b6df85582",
+      "second_container_sha256": "7edd4a22276d94050ed3add3fa0b2eee127d4247d5c615084726a15b6df85582",
+      "container_bytes_equal": true
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "first_run": "results/",
+  "second_run_workspace_record": "work/v08-evaluation-repeat/",
+  "scope": "Same frozen data, protocol and seeds; independent complete rerun, not statistical replication with fresh data."
+}

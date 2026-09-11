@@ -1,0 +1,1 @@
+{"status": "abstain", "value": null, "possible_labels": ["0", "1"], "reason": "learning_insufficient", "input_insufficient": false, "learning_insufficient": true, "candidate_count": 16, "unknown_cells": 1, "conflicting_cells": 0, "dependency_disagreement": false, "completion_count": 1, "eligible_for_inference": false}

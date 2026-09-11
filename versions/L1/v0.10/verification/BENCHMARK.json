@@ -1,0 +1,632 @@
+{
+  "scope": "Standalone single-process posthoc diagnostic after full evaluations and strict refit ended. Five standard scalar tasks, one field permutation, D2048, seed0, three repetitions. No risk calibration in timing. Not full-language latency, general benchmark, or OS-isolated measurement.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "records": [
+    {
+      "task_id": "evaluation/unary/0/24/0",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.8519026999711059,
+        0.8435129999998026,
+        0.8545018999720924
+      ],
+      "fit_median_seconds": 0.8519026999711059,
+      "query_160_seconds": [
+        0.11633859999710694,
+        0.1159648000029847,
+        0.11472010001307353
+      ],
+      "query_median_microseconds": 724.7800000186544,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0/24/0",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.03377440001349896,
+        0.03682390000903979,
+        0.03384300001198426
+      ],
+      "fit_median_seconds": 0.03384300001198426,
+      "query_160_seconds": [
+        0.12106299999868497,
+        0.11392989999148995,
+        0.10737470001913607
+      ],
+      "query_median_microseconds": 712.0618749468122,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0/24/0",
+      "method": "ss_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.8606542000197805,
+        0.852619000012055,
+        0.8445463000098243
+      ],
+      "fit_median_seconds": 0.852619000012055,
+      "query_160_seconds": [
+        0.11700119997840375,
+        0.11191149998921901,
+        0.12222710001515225
+      ],
+      "query_median_microseconds": 731.2574998650234,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0/24/0",
+      "method": "v09_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.4155116999754682,
+        0.4283615000313148,
+        0.40894689998822287
+      ],
+      "fit_median_seconds": 0.4155116999754682,
+      "query_160_seconds": [
+        0.11869319999823347,
+        0.119564900000114,
+        0.11093909997725859
+      ],
+      "query_median_microseconds": 741.8324999889592,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0/24/0",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.5131342999520712,
+        0.4979689000174403,
+        0.5040674000047147
+      ],
+      "fit_median_seconds": 0.5040674000047147,
+      "query_160_seconds": [
+        0.11658159998478368,
+        0.10767080000368878,
+        0.12022929999511689
+      ],
+      "query_median_microseconds": 728.634999904898,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0/24/0",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.8789565999759361,
+        0.88093270000536,
+        0.8837041000369936
+      ],
+      "fit_median_seconds": 0.88093270000536,
+      "query_160_seconds": [
+        0.12802519998513162,
+        0.1324773000087589,
+        0.13826889998745173
+      ],
+      "query_median_microseconds": 827.9831250547431,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0/24/0",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.03744730004109442,
+        0.03723380004521459,
+        0.03622040001209825
+      ],
+      "fit_median_seconds": 0.03723380004521459,
+      "query_160_seconds": [
+        0.132751900004223,
+        0.12654750002548099,
+        0.12770139996428043
+      ],
+      "query_median_microseconds": 798.1337497767527,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0/24/0",
+      "method": "ss_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.8493713999632746,
+        0.8645370000158437,
+        0.8712748000398278
+      ],
+      "fit_median_seconds": 0.8645370000158437,
+      "query_160_seconds": [
+        0.1330043000052683,
+        0.13364670000737533,
+        0.13183680002111942
+      ],
+      "query_median_microseconds": 831.2768750329269,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0/24/0",
+      "method": "v09_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.42684319999534637,
+        0.4411318000056781,
+        0.4165019000065513
+      ],
+      "fit_median_seconds": 0.42684319999534637,
+      "query_160_seconds": [
+        0.136404599994421,
+        0.1281586000113748,
+        0.13014549994841218
+      ],
+      "query_median_microseconds": 813.4093746775761,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0/24/0",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.5043527000234462,
+        0.50978160003433,
+        0.5158141999854706
+      ],
+      "fit_median_seconds": 0.50978160003433,
+      "query_160_seconds": [
+        0.13365569995949045,
+        0.13272290001623333,
+        0.1313846000120975
+      ],
+      "query_median_microseconds": 829.5181251014583,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0/24/0",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.884120200003963,
+        0.8713707000133581,
+        0.8811272999737412
+      ],
+      "fit_median_seconds": 0.8811272999737412,
+      "query_160_seconds": [
+        0.12382939999224618,
+        0.1347546000033617,
+        0.12476440001046285
+      ],
+      "query_median_microseconds": 779.7775000653928,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0/24/0",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.037061800016090274,
+        0.036631800001487136,
+        0.03600329998880625
+      ],
+      "fit_median_seconds": 0.036631800001487136,
+      "query_160_seconds": [
+        0.13324300001841038,
+        0.12455270002828911,
+        0.12228250002954155
+      ],
+      "query_median_microseconds": 778.4543751768069,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0/24/0",
+      "method": "ss_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.8672970999614336,
+        0.8785608999896795,
+        0.874800099991262
+      ],
+      "fit_median_seconds": 0.874800099991262,
+      "query_160_seconds": [
+        0.13158629997633398,
+        0.12112070003058761,
+        0.1252737999893725
+      ],
+      "query_median_microseconds": 782.9612499335781,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0/24/0",
+      "method": "v09_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.4363098000176251,
+        0.4365803000400774,
+        0.43578629998955876
+      ],
+      "fit_median_seconds": 0.4363098000176251,
+      "query_160_seconds": [
+        0.13542669999878854,
+        0.13160820002667606,
+        0.13075090001802891
+      ],
+      "query_median_microseconds": 822.5512501667254,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0/24/0",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.4943439000053331,
+        0.5114946999819949,
+        0.5124050000449643
+      ],
+      "fit_median_seconds": 0.5114946999819949,
+      "query_160_seconds": [
+        0.12653690000297502,
+        0.13273429998662323,
+        0.13307919999351725
+      ],
+      "query_median_microseconds": 829.5893749163952,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/0/24/0",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.9022294000023976,
+        0.8852658999967389,
+        0.8781902999617159
+      ],
+      "fit_median_seconds": 0.8852658999967389,
+      "query_160_seconds": [
+        0.1481130999745801,
+        0.1391664000111632,
+        0.1424678000039421
+      ],
+      "query_median_microseconds": 890.4237500246381,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/0/24/0",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.04061530000763014,
+        0.050916199979837984,
+        0.046182399964891374
+      ],
+      "fit_median_seconds": 0.046182399964891374,
+      "query_160_seconds": [
+        0.15691369998967275,
+        0.1609104999806732,
+        0.1820776999811642
+      ],
+      "query_median_microseconds": 1005.6906248792075,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/0/24/0",
+      "method": "ss_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.9634611000074074,
+        0.8941994000342675,
+        0.888945100014098
+      ],
+      "fit_median_seconds": 0.8941994000342675,
+      "query_160_seconds": [
+        0.17650669999420643,
+        0.1481495999614708,
+        0.14084249996813014
+      ],
+      "query_median_microseconds": 925.9349997591926,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/0/24/0",
+      "method": "v09_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.4195392000256106,
+        0.44287759996950626,
+        0.45240980002563447
+      ],
+      "fit_median_seconds": 0.44287759996950626,
+      "query_160_seconds": [
+        0.1487980000092648,
+        0.13990049995481968,
+        0.13744299998506904
+      ],
+      "query_median_microseconds": 874.378124717623,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/0/24/0",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.5151065000100061,
+        0.4963108000229113,
+        0.5014606000040658
+      ],
+      "fit_median_seconds": 0.5014606000040658,
+      "query_160_seconds": [
+        0.1394573000143282,
+        0.13665780000155792,
+        0.14929159998428077
+      ],
+      "query_median_microseconds": 871.6081250895513,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0/24/0",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.8822637000121176,
+        0.9190852000028826,
+        0.9010953999822959
+      ],
+      "fit_median_seconds": 0.9010953999822959,
+      "query_160_seconds": [
+        0.14724720001686364,
+        0.14403179998043925,
+        0.14015089999884367
+      ],
+      "query_median_microseconds": 900.1987498777453,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0/24/0",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.03786380001110956,
+        0.037777399993501604,
+        0.040863499976694584
+      ],
+      "fit_median_seconds": 0.03786380001110956,
+      "query_160_seconds": [
+        0.13613410003017634,
+        0.14856930001406,
+        0.13740480004344136
+      ],
+      "query_median_microseconds": 858.7800002715085,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0/24/0",
+      "method": "ss_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.8814785999711603,
+        0.8889568999875337,
+        0.9275579000241123
+      ],
+      "fit_median_seconds": 0.8889568999875337,
+      "query_160_seconds": [
+        0.1437084999633953,
+        0.13834599999245256,
+        0.14837790001183748
+      ],
+      "query_median_microseconds": 898.1781247712206,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0/24/0",
+      "method": "v09_single",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.45104060001904145,
+        0.45907669997541234,
+        0.456609999993816
+      ],
+      "fit_median_seconds": 0.456609999993816,
+      "query_160_seconds": [
+        0.14899340004194528,
+        0.15242910000961274,
+        0.15178389998618513
+      ],
+      "query_median_microseconds": 948.6493749136571,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0/24/0",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "fit_seconds": [
+        0.5128110999939963,
+        0.523679300036747,
+        0.5161489999736659
+      ],
+      "fit_median_seconds": 0.5161489999736659,
+      "query_160_seconds": [
+        0.1366484999889508,
+        0.13863060000585392,
+        0.1480044000199996
+      ],
+      "query_median_microseconds": 866.441250036587,
+      "candidates": 1,
+      "storage": {
+        "state_bytes": 34816,
+        "cache_capacity_bytes": 0,
+        "owned_heap_bytes": 35041,
+        "numerical_weight_bytes": 32768
+      }
+    }
+  ],
+  "summary": {
+    "ss_multi": {
+      "median_of_five_fit_medians_seconds": 0.8811272999737412,
+      "median_of_five_query_medians_microseconds": 827.9831250547431
+    },
+    "symbolic_multi": {
+      "median_of_five_fit_medians_seconds": 0.03723380004521459,
+      "median_of_five_query_medians_microseconds": 798.1337497767527
+    },
+    "ss_single": {
+      "median_of_five_fit_medians_seconds": 0.874800099991262,
+      "median_of_five_query_medians_microseconds": 831.2768750329269
+    },
+    "v09_single": {
+      "median_of_five_fit_medians_seconds": 0.4363098000176251,
+      "median_of_five_query_medians_microseconds": 822.5512501667254
+    },
+    "v09_pooled": {
+      "median_of_five_fit_medians_seconds": 0.50978160003433,
+      "median_of_five_query_medians_microseconds": 829.5893749163952
+    }
+  }
+}

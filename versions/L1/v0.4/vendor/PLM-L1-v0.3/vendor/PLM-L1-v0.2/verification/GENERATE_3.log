@@ -1,0 +1,88 @@
+{
+  "status": "generated",
+  "text": "もし花子を太郎が助けなかったら。",
+  "trace": [
+    {
+      "position": 0,
+      "action": {
+        "value": "emit:literal:もし",
+        "score": 0.94469521,
+        "margin": 0.80670654,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 1,
+      "action": {
+        "value": "slot:object",
+        "score": 0.9787974,
+        "margin": 0.84387302,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 2,
+      "action": {
+        "value": "emit:literal:を",
+        "score": 1.00345556,
+        "margin": 0.9400524,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 3,
+      "action": {
+        "value": "slot:subject",
+        "score": 0.92294822,
+        "margin": 0.79791286,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 4,
+      "action": {
+        "value": "emit:literal:が",
+        "score": 0.92791722,
+        "margin": 0.84824654,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 5,
+      "action": {
+        "value": "slot:predicate",
+        "score": 1.04091471,
+        "margin": 0.96884148,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 6,
+      "action": {
+        "value": "emit:literal:なかったら",
+        "score": 1.05788865,
+        "margin": 0.97218335,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 7,
+      "action": {
+        "value": "emit:literal:。",
+        "score": 0.8861891,
+        "margin": 0.7753213,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 8,
+      "action": {
+        "value": "stop",
+        "score": 0.93598468,
+        "margin": 0.86297078,
+        "reason": "recovered"
+      }
+    }
+  ],
+  "eligible_for_inference": false
+}

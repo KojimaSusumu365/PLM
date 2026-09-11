@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "authored_documents_checked": [
+    "README.md",
+    "PLM-L1_TECHNICAL_HANDOFF.md",
+    "CLAUDE_REVIEW_REQUEST.md",
+    "CODE_AND_DOCUMENTS.md",
+    "RELEASE_INDEX.md"
+  ],
+  "local_links_checked": 91,
+  "pending_before_pack": [
+    "PACKAGING_VERIFICATION.md"
+  ],
+  "code_export_files": 120,
+  "code_export_lines_including_requirements_and_per_version_copies": 11256,
+  "main_markdown_characters": 25940,
+  "all_exported_python_parses": true,
+  "review_copy_tests": 381,
+  "review_copy_acceptance_checks": 364,
+  "full_numeric_evaluation_rerun_this_turn": false
+}

@@ -1,0 +1,57 @@
+test_ambiguous_training_alignment_rejected (test_pairs.PairTests.test_ambiguous_training_alignment_rejected) ... ok
+test_automatically_derived_correspondences (test_pairs.PairTests.test_automatically_derived_correspondences) ... ok
+test_bridge_no_text_or_labels (test_pairs.PairTests.test_bridge_no_text_or_labels) ... ok
+test_bridge_preserves_generator_fingerprint (test_pairs.PairTests.test_bridge_preserves_generator_fingerprint) ... ok
+test_bridge_refuses_bad_signal (test_pairs.PairTests.test_bridge_refuses_bad_signal) ... ok
+test_contradictory_duplicate_rejected (test_pairs.PairTests.test_contradictory_duplicate_rejected) ... ok
+test_development_read_and_generate (test_pairs.PairTests.test_development_read_and_generate) ... ok
+test_empty_pairs (test_pairs.PairTests.test_empty_pairs) ... ok
+test_extra_packet_fields (test_pairs.PairTests.test_extra_packet_fields) ... ok
+test_inference_disabled (test_pairs.PairTests.test_inference_disabled) ... ok
+test_interference_packet (test_pairs.PairTests.test_interference_packet) ... ok
+test_invalid_dimension (test_pairs.PairTests.test_invalid_dimension) ... ok
+test_invalid_inputs (test_pairs.PairTests.test_invalid_inputs) ... ok
+test_learner_source_does_not_import_teacher_generator_or_oracle (test_pairs.PairTests.test_learner_source_does_not_import_teacher_generator_or_oracle) ... ok
+test_missing_alignment_rejected (test_pairs.PairTests.test_missing_alignment_rejected) ... ok
+test_model_tampering_detected (test_pairs.PairTests.test_model_tampering_detected) ... ok
+test_negative_hypothetical (test_pairs.PairTests.test_negative_hypothetical) ... ok
+test_no_extra_meaning_fields (test_pairs.PairTests.test_no_extra_meaning_fields) ... ok
+test_no_marker_semantic_labels (test_pairs.PairTests.test_no_marker_semantic_labels) ... ok
+test_no_order_is_ambiguous (test_pairs.PairTests.test_no_order_is_ambiguous) ... ok
+test_no_pair_learning_keeps_lexicon_but_cannot_read (test_pairs.PairTests.test_no_pair_learning_keeps_lexicon_but_cannot_read) ... ok
+test_no_trace_fields_allowed (test_pairs.PairTests.test_no_trace_fields_allowed) ... ok
+test_nonfinite_packet (test_pairs.PairTests.test_nonfinite_packet) ... ok
+test_nonstring_input (test_pairs.PairTests.test_nonstring_input) ... ok
+test_opaque_markers_learned (test_pairs.PairTests.test_opaque_markers_learned) ... ok
+test_ordered_shape_is_not_bag_of_words (test_pairs.PairTests.test_ordered_shape_is_not_bag_of_words) ... ok
+test_ordinary_lookup_control (test_pairs.PairTests.test_ordinary_lookup_control) ... ok
+test_packet_has_no_gold (test_pairs.PairTests.test_packet_has_no_gold) ... ok
+test_pair_partition_disjoint (test_pairs.PairTests.test_pair_partition_disjoint) ... ok
+test_pair_schema_is_only_text_meaning (test_pairs.PairTests.test_pair_schema_is_only_text_meaning) ... ok
+test_paraphrases_same_meaning (test_pairs.PairTests.test_paraphrases_same_meaning) ... ok
+test_reject_marker_semantic_labels (test_pairs.PairTests.test_reject_marker_semantic_labels) ... ok
+test_removed_negative_examples_not_guessed (test_pairs.PairTests.test_removed_negative_examples_not_guessed) ... ok
+test_role_memory_necessary (test_pairs.PairTests.test_role_memory_necessary) ... ok
+test_roles_follow_counterfactual_supervision (test_pairs.PairTests.test_roles_follow_counterfactual_supervision) ... ok
+test_save_load (test_pairs.PairTests.test_save_load) ... ok
+test_save_overwrite_refused (test_pairs.PairTests.test_save_overwrite_refused) ... ok
+test_self_reference_inference (test_pairs.PairTests.test_self_reference_inference) ... ok
+test_shape_abstracts_names_and_verbs (test_pairs.PairTests.test_shape_abstracts_names_and_verbs) ... ok
+test_shapes_learned_not_preinstalled (test_pairs.PairTests.test_shapes_learned_not_preinstalled) ... ok
+test_state_memory_necessary (test_pairs.PairTests.test_state_memory_necessary) ... ok
+test_states_follow_counterfactual_supervision (test_pairs.PairTests.test_states_follow_counterfactual_supervision) ... ok
+test_swapped_entities_differ (test_pairs.PairTests.test_swapped_entities_differ) ... ok
+test_teacher_and_old_reader_not_called (test_pairs.PairTests.test_teacher_and_old_reader_not_called) ... ok
+test_training_no_source_sentence_in_model_metadata (test_pairs.PairTests.test_training_no_source_sentence_in_model_metadata) ... ok
+test_training_order_determinism (test_pairs.PairTests.test_training_order_determinism) ... ok
+test_training_signature (test_pairs.PairTests.test_training_signature) ... ok
+test_type_validation (test_pairs.PairTests.test_type_validation) ... ok
+test_unknown_generation_goal (test_pairs.PairTests.test_unknown_generation_goal) ... ok
+test_wrong_packet_dimension (test_pairs.PairTests.test_wrong_packet_dimension) ... ok
+test_wrong_packet_identity (test_pairs.PairTests.test_wrong_packet_identity) ... ok
+test_zero_packet (test_pairs.PairTests.test_zero_packet) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 5.235s
+
+OK

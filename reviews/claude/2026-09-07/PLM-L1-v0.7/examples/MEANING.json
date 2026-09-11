@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "modality": "modality:asserted",
+      "object": "entity:花子",
+      "polarity": "polarity:positive",
+      "predicate": "predicate:help",
+      "subject": "entity:太郎"
+    },
+    {
+      "modality": "modality:asserted",
+      "object": "entity:太郎",
+      "polarity": "polarity:negative",
+      "predicate": "predicate:help",
+      "subject": "entity:花子"
+    }
+  ]
+}

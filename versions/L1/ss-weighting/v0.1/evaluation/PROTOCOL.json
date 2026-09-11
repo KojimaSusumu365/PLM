@@ -1,0 +1,19 @@
+{
+  "version": "PLM-L1-v0.13",
+  "dimensions": [512, 2048],
+  "code_seeds": ["evaluation-0", "evaluation-1"],
+  "acquisition_seeds": ["acquisition-0", "acquisition-1"],
+  "budgets": [0, 1, 2, 4, 8, 16],
+  "methods": [["all", "active"], ["all", "random"], ["minimal", "active"]],
+  "max_order": 3,
+  "max_fields": 6,
+  "candidate_cap": 41,
+  "support_threshold": 0.5,
+  "supervision": "Initial 24 labeled contexts for ordinary tasks; paired worlds 21. Unlabeled pool16. Test24 ordinary,27 paired. No selection/calibration label sets. Pool oracle answers only a chosen request. Final test labels never reach learning or acquisition.",
+  "model": "Every nonempty teacher-consistent feature subset up to order3 is a partial deterministic mapping. Unknown projected keys allow all known labels. SS stores class-specific sums of unique full-key phase products; exact stores matching binary learned counts. Candidate consistency/filtering uses ordinary exact training bookkeeping, not SS and not evaluator truth.",
+  "acquisition": "Active uses committee Gini from unique recalled labels; unknown cells contribute uniform label votes. Descending Gini, then unknown fraction, then label-blind ID hash. This ranking is not a calibrated probability. Random uses the same seed/hash order without recalls. An exhausted hypothesis family requests no further labels; actual counts are reported.",
+  "evaluation": "Twelve structured task partitions, two indistinguishable initial-world tasks, two out-of-scope order4 tasks. Four phase configurations x two acquisition seeds for SS, two acquisition seeds for exact. Three methods. Pool and test are disjoint complete contexts; projected semantic keys may overlap. Evaluate only the original held-out test queries at fixed budget checkpoints.",
+  "bounds": "At most six binary-inventory fields and 3-field dependencies; no rule outside this family is promised. Candidate predictions are independent partial maps; schema and maximum dependency order are designed, not learned.",
+  "controls": "Exact version-space soundness unit tests; minimal-retention ablation; random acquisition; identical-world first requests; full-pool final teacher-set equality; real zero-weight memory veto; stale/tampered teacher request rejection; retained-state and teacher-label separation.",
+  "acceptance": "No method must win. Freeze before final evaluation; repeat trajectories/results/model bytes. Report correct/wrong/abstained, actual teacher counts, over-abstention, candidate and memory growth, acquisition cost, and out-of-family failures. Do not open R1 inference or claim new Japanese generation/P1/S1 integration."
+}

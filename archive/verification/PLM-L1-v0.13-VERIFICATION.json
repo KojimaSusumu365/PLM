@@ -1,0 +1,136 @@
+{
+  "status": "passed",
+  "mode": "functional",
+  "unit_tests": 54,
+  "source_freeze": "0408962e6e2d56f22e9a223af8bca3f1d5c6cc752116e3fda7f010bf18ca9445",
+  "result_digest": "0ca67e2d7037b6830ac2908d86c4bea6499d5296fff585ccbceab3d0e2eb5aff",
+  "comparisons": {
+    "roles-b16": {
+      "functional_passed": true,
+      "metadata_equal": true,
+      "coefficients_within_tolerance": true,
+      "max_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_predictions_equal": true,
+      "contexts": 148,
+      "selected_queries_equal": true,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "hidden-b0": {
+      "functional_passed": true,
+      "metadata_equal": true,
+      "coefficients_within_tolerance": true,
+      "max_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_predictions_equal": true,
+      "contexts": 154,
+      "selected_queries_equal": true,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "hidden-b1": {
+      "functional_passed": true,
+      "metadata_equal": true,
+      "coefficients_within_tolerance": true,
+      "max_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_predictions_equal": true,
+      "contexts": 154,
+      "selected_queries_equal": true,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "hidden-b4": {
+      "functional_passed": true,
+      "metadata_equal": true,
+      "coefficients_within_tolerance": true,
+      "max_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_predictions_equal": true,
+      "contexts": 154,
+      "selected_queries_equal": true,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "hidden-b16": {
+      "functional_passed": true,
+      "metadata_equal": true,
+      "coefficients_within_tolerance": true,
+      "max_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_predictions_equal": true,
+      "contexts": 154,
+      "selected_queries_equal": true,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    }
+  },
+  "isolated_training_without_evaluator": true,
+  "prediction_and_selection_without_teachers": true,
+  "one_teacher_resume_matches": true,
+  "stale_teacher_rejected_without_output": true,
+  "demos": [
+    {
+      "stage": "before",
+      "context": {
+        "c": "1",
+        "f": "1",
+        "d": "1",
+        "e": "1",
+        "a": "1",
+        "b": "0"
+      },
+      "value": null,
+      "reason": "learning_insufficient"
+    },
+    {
+      "stage": "after",
+      "context": {
+        "c": "1",
+        "f": "1",
+        "d": "1",
+        "e": "1",
+        "a": "1",
+        "b": "0"
+      },
+      "value": "0",
+      "reason": "accepted"
+    }
+  ],
+  "vendor": {
+    "v012_sha256": "ac77bd1073110b270d17b5b55939fc7bf079cd0f1b5c8202e1b6cfb2137cc68a",
+    "crc_verified": true,
+    "manifest_files": 86,
+    "phase_algebra_unchanged": true
+  },
+  "manifest_files": 83,
+  "linux_execution_performed": false,
+  "numeric_only_semantic_guard": false,
+  "p1_s1_integration_performed": false,
+  "full_evaluation_rerun_by_this_command": false,
+  "archive": {
+    "archive": "PLM-L1-v0.13.zip",
+    "sha256": "e4251ee2c510c028f316e1428cb722d5e2eac40d26dfe307b50fd75a647606c6",
+    "bytes": 48928008,
+    "files": 84,
+    "manifest_files": 83,
+    "source_freeze": "0408962e6e2d56f22e9a223af8bca3f1d5c6cc752116e3fda7f010bf18ca9445",
+    "result_digest": "0ca67e2d7037b6830ac2908d86c4bea6499d5296fff585ccbceab3d0e2eb5aff"
+  },
+  "archive_actually_extracted": true,
+  "crc_verified": true,
+  "platform_scope": "Same Windows host, fresh temporary directories; not Linux.",
+  "v012_tests_run_before_packaging": 97,
+  "v012_test_breakdown": {
+    "own": 40,
+    "inherited_v011": 57
+  },
+  "older_full_evaluations_repeated_this_turn": false,
+  "full_v013_evaluations_before_packaging": 2
+}

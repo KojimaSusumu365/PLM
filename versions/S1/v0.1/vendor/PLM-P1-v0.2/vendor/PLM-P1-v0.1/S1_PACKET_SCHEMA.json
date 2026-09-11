@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PLM-P1 to S1 observation packet v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format","producer_version","codec","codebook","codebook_fingerprint","samples","observed_mask","source_refs","normalization","phase_reference","time_axis","chip_rate_hz","boundary","payload_hash"],
+  "properties": {
+    "format": {"const":"PLM-P1-S1-observation-packet-v1"},
+    "producer_version": {"const":"PLM-P1 v0.1"},
+    "codec": {"const":"event-role-hadamard-sum-v1"},
+    "codebook": {
+      "type":"object", "additionalProperties":false,
+      "required":["algorithm","dimension","seed","symbol_serialization","phase_units"],
+      "properties": {
+        "algorithm":{"const":"shake256-u53-unit-phase-v1"},
+        "dimension":{"type":"integer","minimum":128,"maximum":16384,"multipleOf":64},
+        "seed":{"type":"string","minLength":1},
+        "symbol_serialization":{"const":"canonical-json-utf8-v1"},
+        "phase_units":{"const":"radians"}
+      }
+    },
+    "codebook_fingerprint":{"type":"string","pattern":"^[0-9a-f]{64}$"},
+    "samples":{
+      "type":"object","additionalProperties":false,"required":["real","imag"],
+      "properties":{
+        "real":{"type":"array","minItems":128,"maxItems":16384,"items":{"type":"number"}},
+        "imag":{"type":"array","minItems":128,"maxItems":16384,"items":{"type":"number"}}
+      }
+    },
+    "observed_mask":{"type":"array","minItems":128,"maxItems":16384,"items":{"type":"boolean"}},
+    "source_refs":{
+      "type":"array","items":{
+        "type":"object","additionalProperties":false,"required":["document_id","event_id","source_record_hash"],
+        "properties":{
+          "document_id":{"type":"string","minLength":1},
+          "event_id":{"type":"string","minLength":1},
+          "source_record_hash":{"type":"string","pattern":"^[0-9a-f]{64}$"}
+        }
+      }
+    },
+    "normalization":{"const":"unnormalized_sum_unit_phasor_bindings"},
+    "phase_reference":{"const":"aligned_baseband_required_not_estimated"},
+    "time_axis":{"type":"null"},
+    "chip_rate_hz":{"type":"null"},
+    "boundary":{
+      "type":"object","additionalProperties":false,
+      "required":["mode","inference_enabled","independent_semantic_validation","ss_demodulation_implemented"],
+      "properties":{
+        "mode":{"const":"observe_only"},
+        "inference_enabled":{"type":"boolean","const":false},
+        "independent_semantic_validation":{"const":"not_performed"},
+        "ss_demodulation_implemented":{"type":"boolean","const":false}
+      }
+    },
+    "payload_hash":{"type":"string","pattern":"^[0-9a-f]{64}$"}
+  }
+}

@@ -1,0 +1,45 @@
+test_absent_second_event_rejected (test_events.EventTests.test_absent_second_event_rejected) ... ok
+test_all_development_documents_read (test_events.EventTests.test_all_development_documents_read) ... ok
+test_all_development_meanings_all_goal_pairs (test_events.EventTests.test_all_development_meanings_all_goal_pairs) ... ok
+test_all_nine_categories_and_four_goal_pairs (test_events.EventTests.test_all_nine_categories_and_four_goal_pairs) ... ok
+test_bad_event_count_and_fields (test_events.EventTests.test_bad_event_count_and_fields) ... ok
+test_bad_goals_rejected (test_events.EventTests.test_bad_goals_rejected) ... ok
+test_bad_packets_rejected (test_events.EventTests.test_bad_packets_rejected) ... ok
+test_component_primary_weights_unchanged (test_events.EventTests.test_component_primary_weights_unchanged) ... ok
+test_count_keeps_wrong_and_abstention_separate (test_events.EventTests.test_count_keeps_wrong_and_abstention_separate) ... ok
+test_cross_model_packet_rejected (test_events.EventTests.test_cross_model_packet_rejected) ... ok
+test_development_and_evaluation_pairs_disjoint (test_events.EventTests.test_development_and_evaluation_pairs_disjoint) ... ok
+test_event_binding_distinguishes_swapped_events (test_events.EventTests.test_event_binding_distinguishes_swapped_events) ... ok
+test_event_order_is_preserved (test_events.EventTests.test_event_order_is_preserved) ... ok
+test_generation_never_calls_reader (test_events.EventTests.test_generation_never_calls_reader) ... ok
+test_identical_mentions_not_deduplicated (test_events.EventTests.test_identical_mentions_not_deduplicated) ... ok
+test_inference_remains_disabled (test_events.EventTests.test_inference_remains_disabled) ... ok
+test_input_not_mutated (test_events.EventTests.test_input_not_mutated) ... ok
+test_invalid_codec_config (test_events.EventTests.test_invalid_codec_config) ... ok
+test_invalid_documents_rejected (test_events.EventTests.test_invalid_documents_rejected) ... ok
+test_metadata_tampering_rejected (test_events.EventTests.test_metadata_tampering_rejected) ... ok
+test_modality_stays_with_its_event (test_events.EventTests.test_modality_stays_with_its_event) ... ok
+test_no_learning_ablation (test_events.EventTests.test_no_learning_ablation) ... ok
+test_no_partial_generation_on_second_event_failure (test_events.EventTests.test_no_partial_generation_on_second_event_failure) ... ok
+test_no_partial_packet_on_second_event_failure (test_events.EventTests.test_no_partial_packet_on_second_event_failure) ... ok
+test_no_runtime_feature_learning_or_oracle (test_events.EventTests.test_no_runtime_feature_learning_or_oracle) ... ok
+test_numeric_packet_has_no_event_list_or_subpackets (test_events.EventTests.test_numeric_packet_has_no_event_list_or_subpackets) ... ok
+test_old_single_event_packet_rejected (test_events.EventTests.test_old_single_event_packet_rejected) ... ok
+test_only_between_sentence_whitespace_allowed (test_events.EventTests.test_only_between_sentence_whitespace_allowed) ... ok
+test_order_error_not_hidden_by_bag_scoring (test_events.EventTests.test_order_error_not_hidden_by_bag_scoring) ... ok
+test_packet_extra_gold_source_hint_rejected (test_events.EventTests.test_packet_extra_gold_source_hint_rejected) ... ok
+test_partitioned_control_same_numeric_budget (test_events.EventTests.test_partitioned_control_same_numeric_budget) ... ok
+test_reader_requires_both_candidate_matches (test_events.EventTests.test_reader_requires_both_candidate_matches) ... ok
+test_reader_requires_recoverable_shared_signal (test_events.EventTests.test_reader_requires_recoverable_shared_signal) ... ok
+test_role_reversal_and_negative_scope (test_events.EventTests.test_role_reversal_and_negative_scope) ... ok
+test_save_does_not_overwrite (test_events.EventTests.test_save_does_not_overwrite) ... ok
+test_save_load_roundtrip (test_events.EventTests.test_save_load_roundtrip) ... ok
+test_two_event_binding_is_explicitly_not_learned (test_events.EventTests.test_two_event_binding_is_explicitly_not_learned) ... ok
+test_unbound_control_loses_order_exactly (test_events.EventTests.test_unbound_control_loses_order_exactly) ... ok
+test_unknown_semantic_value_rejected (test_events.EventTests.test_unknown_semantic_value_rejected) ... ok
+test_valid_semantic_change_is_not_authentication (test_events.EventTests.test_valid_semantic_change_is_not_authentication) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 16.299s
+
+OK

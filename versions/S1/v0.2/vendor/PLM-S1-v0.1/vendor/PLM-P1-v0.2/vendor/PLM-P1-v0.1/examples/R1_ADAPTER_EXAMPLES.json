@@ -1,0 +1,655 @@
+{
+  "scope": "transport and numerical preservation only, not independent meaning validation",
+  "cases": [
+    {
+      "case": "negative",
+      "source_inputs": "The bank did not grant aid.",
+      "frames": [
+        {
+          "document_id": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6",
+          "event_id": "F0001",
+          "slots": {
+            "predicate": {
+              "kind": "predicate",
+              "id": "grant",
+              "scope": "global"
+            },
+            "polarity": {
+              "kind": "state",
+              "id": "polarity:negative",
+              "scope": "global"
+            },
+            "modality": {
+              "kind": "state",
+              "id": "modality:asserted",
+              "scope": "global"
+            },
+            "semantic_status": {
+              "kind": "state",
+              "id": "semantic_status:rule_checked",
+              "scope": "global"
+            },
+            "applied": {
+              "kind": "state",
+              "id": "applied:false",
+              "scope": "global"
+            },
+            "subject": {
+              "kind": "entity",
+              "id": "ENT000001",
+              "scope": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6"
+            },
+            "object": {
+              "kind": "entity",
+              "id": "ENT000002",
+              "scope": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6"
+            }
+          },
+          "metadata": {
+            "eligible_for_inference": false,
+            "source": "R1_C2_observation_not_gold",
+            "source_observation": {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "FINANCIAL_AFFORDANCE",
+              "subject": "bank",
+              "predicate": "grant",
+              "object_text": "aid",
+              "voice": "active",
+              "polarity": "negative",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "FINANCIAL_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": "MN000002",
+              "object_mention_id": "MN000003",
+              "subject_entity_id": "ENT000001",
+              "object_entity_id": "ENT000002",
+              "predicate_span": {
+                "start": 17,
+                "end": 22,
+                "text": "grant"
+              },
+              "evidence_ids": [
+                "E0001",
+                "E0002"
+              ],
+              "extraction_rule": "bounded_bank_event",
+              "semantic_status": "rule_checked",
+              "observation_id": "3676c0c094f8160336daf6fee0934100ba5c7c51525b54a3a6cb81f2a2636dc6:F0001",
+              "review_reasons": [],
+              "eligible_for_inference": false
+            },
+            "source_envelope_hash": "ddcbb1b925bf1a768fd852a766e41624ffbe274db5e64dd377624356842d3b49",
+            "evidence_ids": [
+              "E0001",
+              "E0002"
+            ]
+          }
+        }
+      ],
+      "state_recovery_checks": [
+        {
+          "event_id": "F0001",
+          "role": "polarity",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "modality",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "semantic_status",
+          "correct": true,
+          "eligible_for_inference": false
+        }
+      ]
+    },
+    {
+      "case": "hypothetical",
+      "source_inputs": "If the bank grants aid.",
+      "frames": [
+        {
+          "document_id": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9",
+          "event_id": "F0001",
+          "slots": {
+            "predicate": {
+              "kind": "predicate",
+              "id": "grant",
+              "scope": "global"
+            },
+            "polarity": {
+              "kind": "state",
+              "id": "polarity:positive",
+              "scope": "global"
+            },
+            "modality": {
+              "kind": "state",
+              "id": "modality:hypothetical",
+              "scope": "global"
+            },
+            "semantic_status": {
+              "kind": "state",
+              "id": "semantic_status:rule_checked",
+              "scope": "global"
+            },
+            "applied": {
+              "kind": "state",
+              "id": "applied:false",
+              "scope": "global"
+            },
+            "subject": {
+              "kind": "entity",
+              "id": "ENT000001",
+              "scope": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9"
+            },
+            "object": {
+              "kind": "entity",
+              "id": "ENT000002",
+              "scope": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9"
+            }
+          },
+          "metadata": {
+            "eligible_for_inference": false,
+            "source": "R1_C2_observation_not_gold",
+            "source_observation": {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "FINANCIAL_AFFORDANCE",
+              "subject": "bank",
+              "predicate": "grant",
+              "object_text": "aid",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "hypothetical",
+              "applied": false,
+              "target_concept": "FINANCIAL_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": "MN000002",
+              "object_mention_id": "MN000003",
+              "subject_entity_id": "ENT000001",
+              "object_entity_id": "ENT000002",
+              "predicate_span": {
+                "start": 12,
+                "end": 18,
+                "text": "grants"
+              },
+              "evidence_ids": [
+                "E0001",
+                "E0002"
+              ],
+              "extraction_rule": "bounded_bank_event",
+              "semantic_status": "rule_checked",
+              "observation_id": "0579d7d6292831c04c742dee785987fc875163735f1cedb690801ae9785d10e9:F0001",
+              "review_reasons": [],
+              "eligible_for_inference": false
+            },
+            "source_envelope_hash": "a1dc140a7b598f0d46c19f9b770718318a152b453132c5b586dd7fd5291456f9",
+            "evidence_ids": [
+              "E0001",
+              "E0002"
+            ]
+          }
+        }
+      ],
+      "state_recovery_checks": [
+        {
+          "event_id": "F0001",
+          "role": "polarity",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "modality",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "semantic_status",
+          "correct": true,
+          "eligible_for_inference": false
+        }
+      ]
+    },
+    {
+      "case": "quarantined_quote",
+      "source_inputs": "\"The bank granted aid.\"",
+      "frames": [
+        {
+          "document_id": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b",
+          "event_id": "F0001",
+          "slots": {
+            "predicate": {
+              "kind": "predicate",
+              "id": "grant",
+              "scope": "global"
+            },
+            "polarity": {
+              "kind": "state",
+              "id": "polarity:positive",
+              "scope": "global"
+            },
+            "modality": {
+              "kind": "state",
+              "id": "modality:asserted",
+              "scope": "global"
+            },
+            "semantic_status": {
+              "kind": "state",
+              "id": "semantic_status:quarantined",
+              "scope": "global"
+            },
+            "applied": {
+              "kind": "state",
+              "id": "applied:true",
+              "scope": "global"
+            },
+            "subject": {
+              "kind": "entity",
+              "id": "ENT000001",
+              "scope": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b"
+            },
+            "object": {
+              "kind": "entity",
+              "id": "ENT000002",
+              "scope": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b"
+            }
+          },
+          "metadata": {
+            "eligible_for_inference": false,
+            "source": "R1_C2_observation_not_gold",
+            "source_observation": {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "FINANCIAL_AFFORDANCE",
+              "subject": "bank",
+              "predicate": "grant",
+              "object_text": "aid",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": true,
+              "target_concept": "FINANCIAL_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": "MN000002",
+              "object_mention_id": "MN000003",
+              "subject_entity_id": "ENT000001",
+              "object_entity_id": "ENT000002",
+              "predicate_span": {
+                "start": 10,
+                "end": 17,
+                "text": "granted"
+              },
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004"
+              ],
+              "extraction_rule": "bounded_bank_event",
+              "semantic_status": "quarantined",
+              "observation_id": "228fc660b83c9d4223cc3a173e59bf0cb7a468c43e0236cb3df1215a62f47e9b:F0001",
+              "review_reasons": [
+                "quoted_scope_requires_review"
+              ],
+              "eligible_for_inference": false
+            },
+            "source_envelope_hash": "9b81f60de990aa5278dff7770cf578d6b3f405a0349950308cce48d41fc0b85c",
+            "evidence_ids": [
+              "E0001",
+              "E0002",
+              "E0003",
+              "E0004"
+            ]
+          }
+        }
+      ],
+      "state_recovery_checks": [
+        {
+          "event_id": "F0001",
+          "role": "polarity",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "modality",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "semantic_status",
+          "correct": true,
+          "eligible_for_inference": false
+        }
+      ]
+    },
+    {
+      "case": "revision",
+      "source_inputs": "Originally marked dog: reclassified as cat.",
+      "frames": [
+        {
+          "document_id": "be88b8d60516ba94fdb72df52c38000414e3411bfab3a5b22f7a16ada6f41649",
+          "event_id": "F0001",
+          "slots": {
+            "predicate": {
+              "kind": "predicate",
+              "id": "REVISES",
+              "scope": "global"
+            },
+            "polarity": {
+              "kind": "state",
+              "id": "polarity:positive",
+              "scope": "global"
+            },
+            "modality": {
+              "kind": "state",
+              "id": "modality:corrective",
+              "scope": "global"
+            },
+            "semantic_status": {
+              "kind": "state",
+              "id": "semantic_status:rule_checked",
+              "scope": "global"
+            },
+            "applied": {
+              "kind": "state",
+              "id": "applied:true",
+              "scope": "global"
+            },
+            "target_clause": {
+              "kind": "clause",
+              "id": "S001:C001",
+              "scope": "be88b8d60516ba94fdb72df52c38000414e3411bfab3a5b22f7a16ada6f41649"
+            }
+          },
+          "metadata": {
+            "eligible_for_inference": false,
+            "source": "R1_C2_observation_not_gold",
+            "source_observation": {
+              "frame_id": "F0001",
+              "clause_id": "S001:C002",
+              "relation_type": "REVISION",
+              "subject": "S001:C002",
+              "predicate": "REVISES",
+              "object_text": "Originally marked dog",
+              "voice": "n/a",
+              "polarity": "positive",
+              "modality": "corrective",
+              "applied": true,
+              "target_concept": null,
+              "target_clause_id": "S001:C001",
+              "source_relation_id": null,
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002"
+              ],
+              "extraction_rule": "ledger_supersession",
+              "semantic_status": "rule_checked",
+              "observation_id": "be88b8d60516ba94fdb72df52c38000414e3411bfab3a5b22f7a16ada6f41649:F0001",
+              "review_reasons": [],
+              "eligible_for_inference": false
+            },
+            "source_envelope_hash": "15864e039ef90721ab8d20519d8ec43fd1806bd794c428409a03a170b5d5a32e",
+            "evidence_ids": [
+              "E0001",
+              "E0002"
+            ]
+          }
+        }
+      ],
+      "state_recovery_checks": [
+        {
+          "event_id": "F0001",
+          "role": "polarity",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "modality",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "semantic_status",
+          "correct": true,
+          "eligible_for_inference": false
+        }
+      ]
+    },
+    {
+      "case": "same_concept_two_instances",
+      "source_inputs": [
+        "A dog and another dog entered.",
+        "They were photographed."
+      ],
+      "frames": [
+        {
+          "document_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020",
+          "event_id": "F0001",
+          "slots": {
+            "predicate": {
+              "kind": "predicate",
+              "id": "REFERS_TO",
+              "scope": "global"
+            },
+            "polarity": {
+              "kind": "state",
+              "id": "polarity:positive",
+              "scope": "global"
+            },
+            "modality": {
+              "kind": "state",
+              "id": "modality:asserted",
+              "scope": "global"
+            },
+            "semantic_status": {
+              "kind": "state",
+              "id": "semantic_status:rule_checked",
+              "scope": "global"
+            },
+            "applied": {
+              "kind": "state",
+              "id": "applied:true",
+              "scope": "global"
+            },
+            "subject": {
+              "kind": "entity",
+              "id": "ENT000001",
+              "scope": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020"
+            },
+            "object": {
+              "kind": "entity",
+              "id": "ENT000001",
+              "scope": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020"
+            },
+            "target_clause": {
+              "kind": "clause",
+              "id": "S001:C001",
+              "scope": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020"
+            }
+          },
+          "metadata": {
+            "eligible_for_inference": false,
+            "source": "R1_C2_observation_not_gold",
+            "source_observation": {
+              "frame_id": "F0001",
+              "clause_id": "S002:C001",
+              "relation_type": "COREFERENCE",
+              "subject": "They",
+              "predicate": "REFERS_TO",
+              "object_text": "DOG",
+              "voice": "n/a",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": true,
+              "target_concept": "DOG",
+              "target_clause_id": "S001:C001",
+              "source_relation_id": null,
+              "source_reference_id": "Q0001",
+              "subject_mention_id": "MN000003",
+              "object_mention_id": "MN000001",
+              "subject_entity_id": "ENT000001",
+              "object_entity_id": "ENT000001",
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001"
+              ],
+              "extraction_rule": "instance_reference",
+              "semantic_status": "rule_checked",
+              "observation_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:F0001",
+              "review_reasons": [],
+              "eligible_for_inference": false
+            },
+            "source_envelope_hash": "4ed1d1cf01e874adf9899592fabd4507cee2ae728fae11fc299a15a5c6f44c9e",
+            "evidence_ids": [
+              "E0001"
+            ]
+          }
+        },
+        {
+          "document_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020",
+          "event_id": "F0002",
+          "slots": {
+            "predicate": {
+              "kind": "predicate",
+              "id": "REFERS_TO",
+              "scope": "global"
+            },
+            "polarity": {
+              "kind": "state",
+              "id": "polarity:positive",
+              "scope": "global"
+            },
+            "modality": {
+              "kind": "state",
+              "id": "modality:asserted",
+              "scope": "global"
+            },
+            "semantic_status": {
+              "kind": "state",
+              "id": "semantic_status:rule_checked",
+              "scope": "global"
+            },
+            "applied": {
+              "kind": "state",
+              "id": "applied:true",
+              "scope": "global"
+            },
+            "subject": {
+              "kind": "entity",
+              "id": "ENT000002",
+              "scope": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020"
+            },
+            "object": {
+              "kind": "entity",
+              "id": "ENT000002",
+              "scope": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020"
+            },
+            "target_clause": {
+              "kind": "clause",
+              "id": "S001:C001",
+              "scope": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020"
+            }
+          },
+          "metadata": {
+            "eligible_for_inference": false,
+            "source": "R1_C2_observation_not_gold",
+            "source_observation": {
+              "frame_id": "F0002",
+              "clause_id": "S002:C001",
+              "relation_type": "COREFERENCE",
+              "subject": "They",
+              "predicate": "REFERS_TO",
+              "object_text": "DOG",
+              "voice": "n/a",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": true,
+              "target_concept": "DOG",
+              "target_clause_id": "S001:C001",
+              "source_relation_id": null,
+              "source_reference_id": "Q0002",
+              "subject_mention_id": "MN000004",
+              "object_mention_id": "MN000002",
+              "subject_entity_id": "ENT000002",
+              "object_entity_id": "ENT000002",
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0002"
+              ],
+              "extraction_rule": "instance_reference",
+              "semantic_status": "rule_checked",
+              "observation_id": "187adb556062f61ec6f8a07bbdc4971ce0fac9755e2a9efefcb8d8379fddd020:F0002",
+              "review_reasons": [],
+              "eligible_for_inference": false
+            },
+            "source_envelope_hash": "4ed1d1cf01e874adf9899592fabd4507cee2ae728fae11fc299a15a5c6f44c9e",
+            "evidence_ids": [
+              "E0002"
+            ]
+          }
+        }
+      ],
+      "state_recovery_checks": [
+        {
+          "event_id": "F0001",
+          "role": "polarity",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "modality",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0001",
+          "role": "semantic_status",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0002",
+          "role": "polarity",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0002",
+          "role": "modality",
+          "correct": true,
+          "eligible_for_inference": false
+        },
+        {
+          "event_id": "F0002",
+          "role": "semantic_status",
+          "correct": true,
+          "eligible_for_inference": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "plm-l1-evaluation-v1",
+  "dimension": 8192,
+  "evaluation_seeds": ["evaluation-0", "evaluation-1", "evaluation-2", "evaluation-3", "evaluation-4", "evaluation-5", "evaluation-6", "evaluation-7"],
+  "development_seeds": ["development-0", "development-1", "development-2"],
+  "partition": "Distinct actor/patient ordered pairs; (actor_index + 2*patient_index + predicate_index) mod 5: 0=evaluation, 1=development, otherwise=train. All four status combinations and both input orders stay together.",
+  "scope": "6 fixed names, 4 ichidan verb stems, affirmative/negative x asserted/hypothetical, 2 constructions; single event; mandatory punctuation; hypothetical requires もし and conditional suffix; no は/pronouns/quotes/embedded clauses.",
+  "training": "Fixed lexicon teaching pairs plus supervised state/action and token-generation traces of train partition only. No original sentences or context-to-action tables saved in inference model.",
+  "conditions": ["full", "no_learning", "no_order", "no_roles"],
+  "gates": {
+    "minimum_full_meaning_exact_rate_per_seed": 0.98,
+    "minimum_full_generation_exact_rate_per_seed": 0.98,
+    "maximum_full_wrong_meanings_per_seed": 0,
+    "maximum_full_wrong_generations_per_seed": 0,
+    "maximum_full_invalid_accepts_per_seed": 0,
+    "minimum_generation_drop_each_ablation": 0.50,
+    "minimum_reordered_exact_rate_per_seed": 0.98,
+    "maximum_ideal_chip_error": 1e-12
+  },
+  "scoring": "Independent bounded grammar implementation, not the learner's own readback. Rates use all held-out examples (abstentions count as misses). Two output goals per example. Reordered subset has a goal different from input order.",
+  "stress": {
+    "seeds": ["stress-0", "stress-1"],
+    "dimensions": [128, 512, 2048],
+    "association_counts": [16, 64, 256],
+    "known_queries_max": 64,
+    "unknown_queries": 32,
+    "is_release_gate": false,
+    "interpretation": "Separate atomic-memory capacity probe; does not measure language-document capacity. Wrong retrieval/false acceptance must be reported."
+  },
+  "limits": ["not general Japanese", "hand-specified supervision", "no human independent annotation", "no external LLM", "no logical inference or live memory updates", "no real S1 receiver integration", "no efficiency advantage claim over conventional finite state transducers"]
+}

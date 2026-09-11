@@ -1,0 +1,41 @@
+test_atomic_read_abstention (test_v09.RuntimeTests.test_atomic_read_abstention) ... ok
+test_changed_threshold_metadata_rejected (test_v09.RuntimeTests.test_changed_threshold_metadata_rejected) ... ok
+test_component_text_consistency_is_distinct (test_v09.RuntimeTests.test_component_text_consistency_is_distinct) ... ok
+test_default_model_actually_uses_ss (test_v09.RuntimeTests.test_default_model_actually_uses_ss) ... ok
+test_exact_decisions_required_even_if_coefficients_equal (test_v09.RuntimeTests.test_exact_decisions_required_even_if_coefficients_equal) ... ok
+test_extra_field_and_wrong_fingerprint_rejected (test_v09.RuntimeTests.test_extra_field_and_wrong_fingerprint_rejected) ... ok
+test_large_difference_fails_functional (test_v09.RuntimeTests.test_large_difference_fails_functional) ... ok
+test_negative_signal_rejected (test_v09.RuntimeTests.test_negative_signal_rejected) ... ok
+test_no_heap_or_timing_in_fingerprint_metadata (test_v09.RuntimeTests.test_no_heap_or_timing_in_fingerprint_metadata) ... ok
+test_nonfinite_signal_rejected (test_v09.RuntimeTests.test_nonfinite_signal_rejected) ... ok
+test_packet_is_numeric_only_and_inference_closed (test_v09.RuntimeTests.test_packet_is_numeric_only_and_inference_closed) ... ok
+test_pair_learning_rule_inventory (test_v09.RuntimeTests.test_pair_learning_rule_inventory) ... ok
+test_reverse_presentation_preserves_time (test_v09.RuntimeTests.test_reverse_presentation_preserves_time) ... ok
+test_runtime_does_not_select_features (test_v09.RuntimeTests.test_runtime_does_not_select_features) ... ok
+test_same_entity_inference_and_training_boundary (test_v09.RuntimeTests.test_same_entity_inference_and_training_boundary) ... ok
+test_saved_model_exact_reload (test_v09.RuntimeTests.test_saved_model_exact_reload) ... ok
+test_semantic_signal_residual_gate (test_v09.RuntimeTests.test_semantic_signal_residual_gate) ... ok
+test_three_events_not_opened (test_v09.RuntimeTests.test_three_events_not_opened) ... ok
+test_threshold_registry_is_shared (test_v09.RuntimeTests.test_threshold_registry_is_shared) ... ok
+test_tiny_difference_functional_not_exact (test_v09.RuntimeTests.test_tiny_difference_functional_not_exact) ... ok
+test_unknown_time_stays_unknown (test_v09.RuntimeTests.test_unknown_time_stays_unknown) ... ok
+test_ambiguous_full_key_abstains (test_v09.SelectionTests.test_ambiguous_full_key_abstains) ... ok
+test_conditional_mean_not_duplicate_gain (test_v09.SelectionTests.test_conditional_mean_not_duplicate_gain) ... ok
+test_invalid_settings (test_v09.SelectionTests.test_invalid_settings) ... ok
+test_missing_key_field_not_numeric_partial_observation (test_v09.SelectionTests.test_missing_key_field_not_numeric_partial_observation) ... ok
+test_no_id3_called_in_ss_branch (test_v09.SelectionTests.test_no_id3_called_in_ss_branch) ... ok
+test_no_id3_called_in_ss_component_fit (test_v09.SelectionTests.test_no_id3_called_in_ss_component_fit) ... ok
+test_no_purity_acceptance_for_conflicting_labels (test_v09.SelectionTests.test_no_purity_acceptance_for_conflicting_labels) ... ok
+test_only_training_pairs_enter_selector (test_v09.SelectionTests.test_only_training_pairs_enter_selector) ... ok
+test_positive_only_keeps_support_key (test_v09.SelectionTests.test_positive_only_keeps_support_key) ... ok
+test_repetition_does_not_change_decision (test_v09.SelectionTests.test_repetition_does_not_change_decision) ... ok
+test_symbolic_matched_search (test_v09.SelectionTests.test_symbolic_matched_search) ... ok
+test_synthetic_data_disjoint_and_closed (test_v09.SelectionTests.test_synthetic_data_disjoint_and_closed) ... ok
+test_unknown_relevant_value_not_registered (test_v09.SelectionTests.test_unknown_relevant_value_not_registered) ... ok
+test_xor_phase_selects_joint_fields (test_v09.SelectionTests.test_xor_phase_selects_joint_fields) ... ok
+test_zero_phase_does_not_select (test_v09.SelectionTests.test_zero_phase_does_not_select) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 7.132s
+
+OK

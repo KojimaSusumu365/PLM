@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "schema": "plm-two-event-model-v1",
+    "component_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+    "dimension": 8192,
+    "seed": "events-development-0",
+    "mode": "bound",
+    "event_count": 2,
+    "event_positions": "mention_order_only",
+    "terminator": "。",
+    "binding_learning": "designed_not_learned",
+    "read_acceptance": "recover_equals_both_candidates_v1",
+    "eligible_for_inference": false
+  },
+  "fingerprint": "fcc146d5c28a65630fa87957d64fb1da2d7a432569e1f0013d4eb5b758885c36"
+}

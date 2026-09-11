@@ -1,0 +1,246 @@
+{
+  "method": "beta_smoothed_isotonic",
+  "confidence_target": "selected-label correctness including UNRESOLVED",
+  "data_sha256": "78cb2d469d4ae7a575fad53a3d2b2c13d9b31756ac9d506310bafbfb82b02441",
+  "sample_count": 30,
+  "independent_authorship": false,
+  "external_validation": false,
+  "bins": [
+    {
+      "upper_signal": 0.55,
+      "probability": 0.5556,
+      "samples": 5,
+      "smoothing_weight": 4.0
+    },
+    {
+      "upper_signal": 0.65,
+      "probability": 0.7778,
+      "samples": 7,
+      "smoothing_weight": 2.0
+    },
+    {
+      "upper_signal": 0.8,
+      "probability": 0.875,
+      "samples": 6,
+      "smoothing_weight": 2.0
+    },
+    {
+      "upper_signal": 0.9,
+      "probability": 0.9286,
+      "samples": 12,
+      "smoothing_weight": 2.0
+    }
+  ],
+  "fit_rows": [
+    {
+      "id": "cal_001",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "DOG",
+      "predicted": "DOG"
+    },
+    {
+      "id": "cal_002",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "HUMAN",
+      "predicted": "HUMAN"
+    },
+    {
+      "id": "cal_003",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "VEHICLE",
+      "predicted": "VEHICLE"
+    },
+    {
+      "id": "cal_004",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "ANIMAL",
+      "predicted": "ANIMAL"
+    },
+    {
+      "id": "cal_005",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "CAT",
+      "predicted": "CAT"
+    },
+    {
+      "id": "cal_006",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "DOG",
+      "predicted": "DOG"
+    },
+    {
+      "id": "cal_007",
+      "signal": 0.65,
+      "correct": true,
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED"
+    },
+    {
+      "id": "cal_008",
+      "signal": 0.65,
+      "correct": true,
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED"
+    },
+    {
+      "id": "cal_009",
+      "signal": 0.55,
+      "correct": true,
+      "expected": "ANIMAL",
+      "predicted": "ANIMAL"
+    },
+    {
+      "id": "cal_010",
+      "signal": 0.45,
+      "correct": true,
+      "expected": "ANIMAL",
+      "predicted": "ANIMAL"
+    },
+    {
+      "id": "cal_011",
+      "signal": 0.45,
+      "correct": true,
+      "expected": "CAT",
+      "predicted": "CAT"
+    },
+    {
+      "id": "cal_012",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "CAT",
+      "predicted": "CAT"
+    },
+    {
+      "id": "cal_013",
+      "signal": 0.8,
+      "correct": true,
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK"
+    },
+    {
+      "id": "cal_014",
+      "signal": 0.8,
+      "correct": true,
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK"
+    },
+    {
+      "id": "cal_015",
+      "signal": 0.8,
+      "correct": true,
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK"
+    },
+    {
+      "id": "cal_016",
+      "signal": 0.8,
+      "correct": true,
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK"
+    },
+    {
+      "id": "cal_017",
+      "signal": 0.65,
+      "correct": true,
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED"
+    },
+    {
+      "id": "cal_018",
+      "signal": 0.65,
+      "correct": true,
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED"
+    },
+    {
+      "id": "cal_019",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "RIVER_BANK",
+      "predicted": "RIVER_BANK"
+    },
+    {
+      "id": "cal_020",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "RIVER_BANK",
+      "predicted": "RIVER_BANK"
+    },
+    {
+      "id": "cal_021",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "RIVER_BANK",
+      "predicted": "RIVER_BANK"
+    },
+    {
+      "id": "cal_022",
+      "signal": 0.65,
+      "correct": false,
+      "expected": "FINANCIAL_BANK",
+      "predicted": "UNRESOLVED"
+    },
+    {
+      "id": "cal_023",
+      "signal": 0.55,
+      "correct": false,
+      "expected": "DOG",
+      "predicted": "ANIMAL"
+    },
+    {
+      "id": "cal_024",
+      "signal": 0.55,
+      "correct": false,
+      "expected": "CAT",
+      "predicted": "ANIMAL"
+    },
+    {
+      "id": "cal_025",
+      "signal": 0.65,
+      "correct": true,
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED"
+    },
+    {
+      "id": "cal_026",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "CAT",
+      "predicted": "CAT"
+    },
+    {
+      "id": "cal_027",
+      "signal": 0.9,
+      "correct": true,
+      "expected": "DOG",
+      "predicted": "DOG"
+    },
+    {
+      "id": "cal_028",
+      "signal": 0.8,
+      "correct": true,
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK"
+    },
+    {
+      "id": "cal_029",
+      "signal": 0.8,
+      "correct": true,
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK"
+    },
+    {
+      "id": "cal_030",
+      "signal": 0.65,
+      "correct": true,
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED"
+    }
+  ]
+}

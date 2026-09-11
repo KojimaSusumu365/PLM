@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "schema": "plm-l1-committee-model-v010",
+    "member_fingerprints": [
+      "95c8eadaabdf3758dd98c93f635d6af47cbaa5bbfb19d7605fd884609fa55150",
+      "2d43b16bf962d9b918d9399591e2e4fc4baf5d1d419a1b9a75c1f08c379fecf7",
+      "102526e1f16c3061886a57997402a2df1573c82ad430a4a08f3d9c6d1b33aaf4",
+      "7961c16b5fbad7bb0641c62d7a03dae30c4ba2908d8b8ec305b27960680c6c81"
+    ],
+    "candidate_ids": [
+      "hypothesis:0",
+      "hypothesis:1",
+      "hypothesis:2",
+      "hypothesis:3"
+    ],
+    "training": {
+      "candidate_assignment": "mixed-radix joint candidates; sample at most four for diagnostics; omitted joint candidates veto multi-model confirmation",
+      "component_pairs": 216,
+      "joint_candidate_space_complete": false,
+      "joint_plausible_count": 8,
+      "member_assignments": [
+        {
+          "gaps": 0,
+          "lexical_read": 0,
+          "lexical_write": 0,
+          "modality": 0,
+          "order_output": 0,
+          "order_support": 0,
+          "polarity": 0,
+          "roles": 0
+        },
+        {
+          "gaps": 0,
+          "lexical_read": 0,
+          "lexical_write": 0,
+          "modality": 1,
+          "order_output": 0,
+          "order_support": 0,
+          "polarity": 0,
+          "roles": 0
+        },
+        {
+          "gaps": 1,
+          "lexical_read": 0,
+          "lexical_write": 0,
+          "modality": 0,
+          "order_output": 0,
+          "order_support": 0,
+          "polarity": 0,
+          "roles": 0
+        },
+        {
+          "gaps": 1,
+          "lexical_read": 0,
+          "lexical_write": 0,
+          "modality": 1,
+          "order_output": 0,
+          "order_support": 0,
+          "polarity": 1,
+          "roles": 0
+        }
+      ],
+      "member_count": 4,
+      "method": "ss_multi",
+      "module_support": {
+        "gaps": true,
+        "lexical_read": true,
+        "lexical_write": true,
+        "modality": true,
+        "order_output": true,
+        "order_support": true,
+        "polarity": true,
+        "roles": true
+      },
+      "no_online_learning": true,
+      "selected_masks": {
+        "gaps": [
+          [
+            "anchor",
+            "modality"
+          ],
+          [
+            "anchor",
+            "polarity"
+          ]
+        ],
+        "lexical_read": [
+          [
+            "surface"
+          ]
+        ],
+        "lexical_write": [
+          [
+            "meaning_value"
+          ]
+        ],
+        "modality": [
+          [
+            "leading_markers"
+          ],
+          [
+            "predicate_markers"
+          ]
+        ],
+        "order_output": [
+          [
+            "goal"
+          ]
+        ],
+        "order_support": [
+          [
+            "order"
+          ]
+        ],
+        "polarity": [
+          [
+            "leading_markers"
+          ],
+          [
+            "predicate_markers"
+          ]
+        ],
+        "roles": [
+          [
+            "right"
+          ]
+        ]
+      },
+      "selection_dimension": 2048,
+      "selection_enabled": true,
+      "selection_pairs": 96,
+      "selection_seed": "candidate-evaluation-0",
+      "single_candidate_ablation": false,
+      "supported": false,
+      "temporal_pairs": 84
+    },
+    "policy": {
+      "MAX_CANDIDATES": 4,
+      "MAX_TRAIN_LOSS": 0.25,
+      "TRAIN_SLACK": 0.125,
+      "MAX_VALIDATION_LOSS": 0.25,
+      "VALIDATION_SLACK": 0.0,
+      "MIN_TRAIN_COVERAGE": 0.5,
+      "ABSTENTION_LOSS": 0.5,
+      "DEFAULT_RISK_TARGET": 0.1
+    },
+    "decision": "all_complete_candidates_equal_or_abstain",
+    "eligible_for_inference": false
+  },
+  "fingerprint": "cf0794ebafd82ebc6d125bb5fef82043e067dd172efe14991cade0c105864ddf"
+}

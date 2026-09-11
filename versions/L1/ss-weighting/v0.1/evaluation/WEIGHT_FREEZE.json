@@ -1,0 +1,31 @@
+{
+  "files": {
+    "ss_weighting/__init__.py": "96092d59381fde02189a38f92d11734627af16ac597a7e9577596aa3b26f5dd9",
+    "ss_weighting/__main__.py": "bc6c45f60470c85035fd1f720e975c0c29fa0e055aa009afc396fc7f8d730c66",
+    "ss_weighting/learning.py": "eefcd38afd01f9bd2d9ffe733f4cc874939dec03d48cb4013924b5c5547d26d9",
+    "ss_weighting/memory.py": "ace3c18a44f97dd41ebcd72eb076245ee46e223ed8c90a21f3ef1bc9ea989b81",
+    "ss_weighting/training.py": "b88790ea5e01d20008452bccb12cea0c607b0410f0c6ab5dc1a10245c60eb284",
+    "plm_l1_v013/__init__.py": "471a201419adcb5adc8c14720c5e19560dba3e4ca1cb3e436ffb334dee6bf006",
+    "plm_l1_v013/__main__.py": "6153fa1623f0149404fdc75b24d7376bd338f436e3ba287b7ba7c357bb018a37",
+    "plm_l1_v013/algebra.py": "da712b6d3a6fad932b556ec801933502e84b2832ce027e8c69b32ccd3a3192b2",
+    "plm_l1_v013/core.py": "3b28721da62379e954d060ee6d066d81fabce1fff06623f3843e438f0a54b462",
+    "plm_l1_v013/portability.py": "3c51e580c8a78eaecdef4f3ccd193908bbd6ccd826c8f6be3e34b700995c3a71",
+    "plm_l1_v013/teaching.py": "f58d76bc2b8558f318a92fbaa5feb8fd07353e9749837b829e13739e38c982f9",
+    "plm_l1_v013/training.py": "88e9dbc7bc7e189dbf25735b52c5473e91ba757b56e385034b211e01bef9da8b",
+    "evaluation/cases.py": "233f93cfb5ee1d7689b330175ac3ce88b81b9c9d5b9d7157afb7f5d7ffaf2315",
+    "evaluation/legacy_cases.py": "233f93cfb5ee1d7689b330175ac3ce88b81b9c9d5b9d7157afb7f5d7ffaf2315",
+    "evaluation/legacy_tasks.py": "f9e628b39adad3a2ad33c76fb9a5da4b478947e0116202036ba3f25db1d650fa",
+    "evaluation/metrics.py": "2895dc5943c77cfbcbcfcea981971e00e2e16a2097225082885e2bc18624e0b8",
+    "evaluation/PROTOCOL.json": "e9b0af3faa26db273d66e222aec5961ac78519b4aeddf450c0f2c92115deaffd",
+    "evaluation/weight_cases.py": "93b5c41b8661a9ce53d92ac3c74b0cda108bad45fed3ab43140ca15638867d34",
+    "evaluation/weight_integrity.py": "d99cfa185f4c4bd27754c2ac900be930b874105edac58dd109efb00061ae15d7",
+    "evaluation/WEIGHT_PROTOCOL.json": "387210d5fdf80c5722c6127966c13795d863061ddb89dc5dec8934ba7b47ab2d",
+    "tests/test_v013.py": "76394e334c998953a65edf3de79a7fc842dea068cac5d94d459e181edf93be49",
+    "tests/test_weighting.py": "ec3dfdd9fc6c1596246d8e6a47813022531c493db43835d77a4035759d6a41df",
+    "data/v013-evaluation.json": "111e73f2db79258363ac94035c48b996fcd08c09443beff081caabe67f3c9741",
+    "evaluate_weights.py": "602e364e9b7f297ac2eefbd3608e76a6b8ac39a475f10a11eb1ac3c39f846473",
+    "verify_release.py": "ce525a2b6b861fba41fb38175478e90158b77d6657bab35db2b545df42f5f125",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  "freeze_hash": "b0a32cf5a107215a2a89c5e4214256b89f0a8985cbb31c24347df03461428421"
+}

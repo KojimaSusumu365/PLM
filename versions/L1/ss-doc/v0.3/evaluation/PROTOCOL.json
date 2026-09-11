@@ -1,0 +1,20 @@
+{
+ "version":"PLM-L1-SS-doc v0.3",
+ "data_seeds":[100,101],"code_seeds":["retention-code-0","retention-code-1"],
+ "focal_episodes_per_data_seed":24,"background_episodes_per_data_seed":256,
+ "background_loads":[64,256],"background_passes":2,
+ "methods":["none","shared736","shared1472","split_pair","split_bank"],
+ "primary_stage":"after background training and actual memory save/reload",
+ "primary_queries":"24 fresh observations per condition; ambiguous/unobserved/unreadable cycled by focal index",
+ "primary_outputs":["preserve/all-subject","reverse/alternating-object-subject"],
+ "secondary_queries":"All24 other-episode and all24 changed-anchor queries, raw SS scores before registry gate; first6 explicit-new, conflict, changed-world and teacher-revision probes",
+ "revision_probe":"First6 focal cases receive evaluator-supplied explicit revised confirmation after a separate clone of post-background memory; same six cases requeried",
+ "raw_signal_evidence":"First focal initial and completed signal per condition if completion succeeds. Every query has numeric SHA-256. Every post-background memory stored.",
+ "capacity":"4 complex channels; pair736=47104 coefficient bytes; pair1472 and main736+protectedpair736 and main736+protectedbank23x32=94208 bytes",
+ "fixed_acceptance":{"minimum_mean_score":0.5,"minimum_margin":0.15,"exactly_one_candidate_above_threshold":true,"minimum_channel_votes":3},
+ "learning":"gain1 shared error across4 channels, all23 label targets; only external confirmed records update weights; protected channel skips background teachers",
+ "registry":"Only hashed episode/target/non-target-context keys and global update counts, no learned answer values. Raw unregistered SS acceptance measured separately.",
+ "scope":"Episode IDs and exact non-target context are externally specified, no learned coreference, target identification or grammar. Ordinary metadata/control and inherited language core remain.",
+ "statistics":"2 independent generated datasets, each reused across code seeds, loads, methods and query variants; no claim of independent960 language samples.",
+ "not_integrated":["full SS-active pipeline","P1","S1"],"eligible_for_inference":false
+}

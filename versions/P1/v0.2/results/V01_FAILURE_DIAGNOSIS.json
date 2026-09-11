@@ -1,0 +1,679 @@
+{
+  "scope": "known regression cases, not fresh evaluation",
+  "rows": [
+    {
+      "original": {
+        "dimension": 2048,
+        "seed": 7101,
+        "condition": "masked_noise",
+        "event_id": "event-003",
+        "role": "subject",
+        "test_kind": "present",
+        "outcome": "abstained",
+        "observed_components": 512,
+        "reason": "score_below_threshold",
+        "selected": null,
+        "top_score": 0.61799007,
+        "margin": 0.23004269
+      },
+      "truth": {
+        "kind": "entity",
+        "id": "animal-006",
+        "scope": "synthetic:doc"
+      },
+      "truth_rank": 1,
+      "contributions": [
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-006",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": true,
+          "observed_score": 0.61799007,
+          "clean_masked_score": 0.60563,
+          "self_contribution": 1.0,
+          "by_source_role": {
+            "subject": 0.93426778,
+            "object": -0.10444758,
+            "predicate": 0.00832182,
+            "polarity": -0.09284086,
+            "modality": -0.05883942,
+            "semantic_status": -0.02889858,
+            "applied": -0.05193316
+          },
+          "nuisance_contribution": -0.2241902,
+          "channel_perturbation_contribution": 0.01236007
+        },
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-010",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": false,
+          "observed_score": 0.38794738,
+          "clean_masked_score": 0.37525472,
+          "self_contribution": 0.0,
+          "by_source_role": {
+            "subject": 0.06317588,
+            "object": 0.03701234,
+            "predicate": 0.0413173,
+            "polarity": 0.08525927,
+            "modality": 0.0085478,
+            "semantic_status": 0.0443805,
+            "applied": 0.09556163
+          },
+          "nuisance_contribution": 0.27506651,
+          "channel_perturbation_contribution": 0.01269266
+        }
+      ],
+      "v02_regression_recovery": {
+        "status": "recovered",
+        "selected": {
+          "kind": "entity",
+          "id": "animal-006",
+          "scope": "synthetic:doc"
+        },
+        "reason": "numerical_recovery_only",
+        "observed_components": 512,
+        "candidate_count": 96,
+        "eligible_for_inference": false,
+        "top_candidates": [
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-006",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.86711116
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-050",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.19697532
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-068",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.17395417
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-083",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.16495375
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-080",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.16460948
+          }
+        ],
+        "margin": 0.67013584,
+        "score_kind": "projected_coherent_amplitude_not_probability",
+        "catalogue_hash": "f26a34aa5ee8a673791cd208bf629c4dcb8628f25c40ea22cc4dfea2adc91e02",
+        "policy": {
+          "min_components": 128,
+          "min_residual_dof": 128,
+          "min_retained_fraction": 0.5,
+          "min_amplitude": 0.4,
+          "family_alpha": 0.01,
+          "min_margin": 0.1,
+          "gap_z": 1.5
+        },
+        "nuisance_rank": 88,
+        "residual_dof": 424,
+        "residual_power": 8.05201857,
+        "amplitude_threshold": 0.4,
+        "margin_threshold": 0.20040817
+      },
+      "regression_correct": true
+    },
+    {
+      "original": {
+        "dimension": 2048,
+        "seed": 7102,
+        "condition": "masked_noise",
+        "event_id": "event-002",
+        "role": "object",
+        "test_kind": "present",
+        "outcome": "abstained",
+        "observed_components": 512,
+        "reason": "ambiguous_candidates",
+        "selected": null,
+        "top_score": 0.69907035,
+        "margin": 0.1273746
+      },
+      "truth": {
+        "kind": "entity",
+        "id": "animal-005",
+        "scope": "synthetic:doc"
+      },
+      "truth_rank": 1,
+      "contributions": [
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-005",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": true,
+          "observed_score": 0.69907035,
+          "clean_masked_score": 0.694813,
+          "self_contribution": 1.0,
+          "by_source_role": {
+            "subject": -0.05096191,
+            "object": 1.04834549,
+            "predicate": 0.1496933,
+            "polarity": -0.1735796,
+            "modality": -0.0633532,
+            "semantic_status": -0.04929024,
+            "applied": -0.16604084
+          },
+          "nuisance_contribution": -0.30257058,
+          "channel_perturbation_contribution": 0.00425734
+        },
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-075",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": false,
+          "observed_score": 0.57169574,
+          "clean_masked_score": 0.52790846,
+          "self_contribution": 0.0,
+          "by_source_role": {
+            "subject": 0.05999551,
+            "object": 0.14608422,
+            "predicate": 0.08879469,
+            "polarity": 0.046271,
+            "modality": 0.09124477,
+            "semantic_status": 0.12015398,
+            "applied": -0.02463571
+          },
+          "nuisance_contribution": 0.32182873,
+          "channel_perturbation_contribution": 0.04378728
+        }
+      ],
+      "v02_regression_recovery": {
+        "status": "recovered",
+        "selected": {
+          "kind": "entity",
+          "id": "animal-005",
+          "scope": "synthetic:doc"
+        },
+        "reason": "numerical_recovery_only",
+        "observed_components": 512,
+        "candidate_count": 96,
+        "eligible_for_inference": false,
+        "top_candidates": [
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-005",
+              "scope": "synthetic:doc"
+            },
+            "score": 1.05130383
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-085",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.24413197
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-007",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.22970787
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-075",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.20943218
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-039",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.19110572
+          }
+        ],
+        "margin": 0.80717186,
+        "score_kind": "projected_coherent_amplitude_not_probability",
+        "catalogue_hash": "f26a34aa5ee8a673791cd208bf629c4dcb8628f25c40ea22cc4dfea2adc91e02",
+        "policy": {
+          "min_components": 128,
+          "min_residual_dof": 128,
+          "min_retained_fraction": 0.5,
+          "min_amplitude": 0.4,
+          "family_alpha": 0.01,
+          "min_margin": 0.1,
+          "gap_z": 1.5
+        },
+        "nuisance_rank": 88,
+        "residual_dof": 424,
+        "residual_power": 8.42093789,
+        "amplitude_threshold": 0.4,
+        "margin_threshold": 0.21492946
+      },
+      "regression_correct": true
+    },
+    {
+      "original": {
+        "dimension": 2048,
+        "seed": 7102,
+        "condition": "masked_noise",
+        "event_id": "absent-event-002",
+        "role": "object",
+        "test_kind": "absent_event",
+        "outcome": "false_accept",
+        "observed_components": 512,
+        "reason": "numerical_recovery_only",
+        "selected": {
+          "kind": "entity",
+          "id": "animal-034",
+          "scope": "synthetic:doc"
+        },
+        "top_score": 0.68089819,
+        "margin": 0.30379522
+      },
+      "truth": null,
+      "truth_rank": null,
+      "contributions": [
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-034",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": false,
+          "observed_score": 0.68089819,
+          "clean_masked_score": 0.69035981,
+          "self_contribution": 0.0,
+          "by_source_role": {
+            "subject": 0.07186404,
+            "object": 0.16374055,
+            "predicate": 0.13800952,
+            "polarity": 0.10584318,
+            "modality": 0.07754487,
+            "semantic_status": 0.06398372,
+            "applied": 0.06937393
+          },
+          "nuisance_contribution": 0.45475522,
+          "channel_perturbation_contribution": -0.00946162
+        }
+      ],
+      "v02_regression_recovery": {
+        "status": "abstain",
+        "selected": null,
+        "reason": "amplitude_below_observation_conditioned_threshold",
+        "observed_components": 512,
+        "candidate_count": 96,
+        "eligible_for_inference": false,
+        "top_candidates": [
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-076",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.20512936
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-060",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.17392944
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-083",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.16322086
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-044",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.16124621
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-052",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.15668424
+          }
+        ],
+        "margin": 0.03119991,
+        "score_kind": "projected_coherent_amplitude_not_probability",
+        "catalogue_hash": "f26a34aa5ee8a673791cd208bf629c4dcb8628f25c40ea22cc4dfea2adc91e02",
+        "policy": {
+          "min_components": 128,
+          "min_residual_dof": 128,
+          "min_retained_fraction": 0.5,
+          "min_amplitude": 0.4,
+          "family_alpha": 0.01,
+          "min_margin": 0.1,
+          "gap_z": 1.5
+        },
+        "nuisance_rank": 88,
+        "residual_dof": 424,
+        "residual_power": 8.42093789,
+        "amplitude_threshold": 0.4,
+        "margin_threshold": 0.20650753
+      },
+      "regression_correct": true
+    },
+    {
+      "original": {
+        "dimension": 2048,
+        "seed": 7103,
+        "condition": "masked_noise",
+        "event_id": "event-000",
+        "role": "object",
+        "test_kind": "present",
+        "outcome": "abstained",
+        "observed_components": 512,
+        "reason": "score_below_threshold",
+        "selected": null,
+        "top_score": 0.50931705,
+        "margin": 0.19689223
+      },
+      "truth": {
+        "kind": "entity",
+        "id": "animal-001",
+        "scope": "synthetic:doc"
+      },
+      "truth_rank": 1,
+      "contributions": [
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-001",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": true,
+          "observed_score": 0.50931705,
+          "clean_masked_score": 0.48796635,
+          "self_contribution": 1.0,
+          "by_source_role": {
+            "subject": 0.03527736,
+            "object": 0.86203626,
+            "predicate": -0.14292734,
+            "polarity": 0.00569325,
+            "modality": -0.15145976,
+            "semantic_status": 0.00310248,
+            "applied": -0.12375591
+          },
+          "nuisance_contribution": -0.40934727,
+          "channel_perturbation_contribution": 0.02135071
+        },
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-076",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": false,
+          "observed_score": 0.31242482,
+          "clean_masked_score": 0.30129464,
+          "self_contribution": 0.0,
+          "by_source_role": {
+            "subject": -0.13101098,
+            "object": 0.07329654,
+            "predicate": 0.05498121,
+            "polarity": 0.09979208,
+            "modality": 0.09129814,
+            "semantic_status": 0.05724755,
+            "applied": 0.0556901
+          },
+          "nuisance_contribution": 0.35900908,
+          "channel_perturbation_contribution": 0.01113018
+        }
+      ],
+      "v02_regression_recovery": {
+        "status": "recovered",
+        "selected": {
+          "kind": "entity",
+          "id": "animal-001",
+          "scope": "synthetic:doc"
+        },
+        "reason": "numerical_recovery_only",
+        "observed_components": 512,
+        "candidate_count": 96,
+        "eligible_for_inference": false,
+        "top_candidates": [
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-001",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.84985368
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-006",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.1877362
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-086",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.18143052
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-074",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.1758099
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-082",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.16283484
+          }
+        ],
+        "margin": 0.66211748,
+        "score_kind": "projected_coherent_amplitude_not_probability",
+        "catalogue_hash": "f26a34aa5ee8a673791cd208bf629c4dcb8628f25c40ea22cc4dfea2adc91e02",
+        "policy": {
+          "min_components": 128,
+          "min_residual_dof": 128,
+          "min_retained_fraction": 0.5,
+          "min_amplitude": 0.4,
+          "family_alpha": 0.01,
+          "min_margin": 0.1,
+          "gap_z": 1.5
+        },
+        "nuisance_rank": 88,
+        "residual_dof": 424,
+        "residual_power": 8.17059404,
+        "amplitude_threshold": 0.4,
+        "margin_threshold": 0.2068055
+      },
+      "regression_correct": true
+    },
+    {
+      "original": {
+        "dimension": 2048,
+        "seed": 7107,
+        "condition": "masked_noise",
+        "event_id": "event-003",
+        "role": "object",
+        "test_kind": "present",
+        "outcome": "abstained",
+        "observed_components": 512,
+        "reason": "score_below_threshold",
+        "selected": null,
+        "top_score": 0.60845901,
+        "margin": 0.27978146
+      },
+      "truth": {
+        "kind": "entity",
+        "id": "animal-007",
+        "scope": "synthetic:doc"
+      },
+      "truth_rank": 1,
+      "contributions": [
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-007",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": true,
+          "observed_score": 0.60845901,
+          "clean_masked_score": 0.62176081,
+          "self_contribution": 1.0,
+          "by_source_role": {
+            "subject": -0.02861071,
+            "object": 0.95620377,
+            "predicate": -0.12038704,
+            "polarity": -0.09587266,
+            "modality": -0.03217788,
+            "semantic_status": -0.09623847,
+            "applied": 0.0388438
+          },
+          "nuisance_contribution": -0.30583225,
+          "channel_perturbation_contribution": -0.0133018
+        },
+        {
+          "candidate": {
+            "kind": "entity",
+            "id": "animal-049",
+            "scope": "synthetic:doc"
+          },
+          "is_truth": false,
+          "observed_score": 0.32867755,
+          "clean_masked_score": 0.36762905,
+          "self_contribution": 0.0,
+          "by_source_role": {
+            "subject": 0.01377953,
+            "object": 0.05624616,
+            "predicate": 0.19194668,
+            "polarity": 0.11790344,
+            "modality": 0.01343671,
+            "semantic_status": -0.06592483,
+            "applied": 0.04024137
+          },
+          "nuisance_contribution": 0.29760336,
+          "channel_perturbation_contribution": -0.0389515
+        }
+      ],
+      "v02_regression_recovery": {
+        "status": "recovered",
+        "selected": {
+          "kind": "entity",
+          "id": "animal-007",
+          "scope": "synthetic:doc"
+        },
+        "reason": "numerical_recovery_only",
+        "observed_components": 512,
+        "candidate_count": 96,
+        "eligible_for_inference": false,
+        "top_candidates": [
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-007",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.8814409
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-013",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.20368017
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-083",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.20283452
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-029",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.20042916
+          },
+          {
+            "symbol": {
+              "kind": "entity",
+              "id": "animal-024",
+              "scope": "synthetic:doc"
+            },
+            "score": 0.19034632
+          }
+        ],
+        "margin": 0.67776073,
+        "score_kind": "projected_coherent_amplitude_not_probability",
+        "catalogue_hash": "f26a34aa5ee8a673791cd208bf629c4dcb8628f25c40ea22cc4dfea2adc91e02",
+        "policy": {
+          "min_components": 128,
+          "min_residual_dof": 128,
+          "min_retained_fraction": 0.5,
+          "min_amplitude": 0.4,
+          "family_alpha": 0.01,
+          "min_margin": 0.1,
+          "gap_z": 1.5
+        },
+        "nuisance_rank": 88,
+        "residual_dof": 424,
+        "residual_power": 8.05513743,
+        "amplitude_threshold": 0.4,
+        "margin_threshold": 0.20162231
+      },
+      "regression_correct": true
+    }
+  ]
+}

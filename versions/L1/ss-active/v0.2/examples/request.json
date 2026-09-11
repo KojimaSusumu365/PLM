@@ -1,0 +1,46 @@
+{
+  "schema": "plm-ss-active2-request",
+  "session_fingerprint": "8befd5836fd1804a0ac7ef1ca5d901553a9889dc717d52fe9d862248e3cdf1cc",
+  "selection": {
+    "schema": "plm-ss-active2-selection",
+    "model_fingerprint": "31be004e8420f2931914e73a5ac966f52b99b365447fe7278f82975b8b92bd4c",
+    "state_digest": "f97fddade0409364ffee7e277a0bb7a50294b33c0d67a3a5a1cc6a581165ec6c",
+    "index": 19,
+    "selected_id": "77a278a1103957424e13d45e4c8cb07507010865bc4bf619e4255e95d763f4ff",
+    "context": {
+      "f0": "3",
+      "f1": "4",
+      "f2": "3",
+      "f3": "2"
+    },
+    "route": "revisit",
+    "diagnostics": {
+      "margin": 0.2957409696616289,
+      "gini": 0.375,
+      "mean_scores": [
+        0.21659626102709462,
+        0.3097386316330357,
+        -0.19976584255552954,
+        0.6054796012946646
+      ],
+      "bank_choices": [
+        3,
+        3,
+        1,
+        3
+      ],
+      "scheduled_revisit": true,
+      "eligible_revisits": 6,
+      "previous_visits": 1,
+      "age": 267,
+      "margin_drop": 0.29705578644013386,
+      "contexts_scored_this_call": 128,
+      "scored_ids_digest": "befa93433485cb7015a3711f72ae6e12379d2a63d549c31890822d8b55e87427",
+      "raw_scores_digest": "a50b7f4e5b7de6d5283def4cc0da1bbf2f2633b15be1947d702b795edf99e0ef",
+      "score_is_probability": false
+    },
+    "eligible_for_inference": false,
+    "selection_id": "d71b42e23da3a184f27a80cc3f94920e0d55043663e3c86abf7c9ffffd377483"
+  },
+  "request_id": "3fa8b88c439a1da9b03c5c9fd72996e9073a0e01c227db7d5bbc553110d80495"
+}

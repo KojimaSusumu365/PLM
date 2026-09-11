@@ -1,0 +1,23 @@
+{
+ "version":"PLM-L1-SS-doc v0.6",
+ "selector_training_splits":["500","501"],"evaluation_splits":["400","401"],
+ "selector_teaching_code_seeds":["selector-teaching-0","selector-teaching-1"],
+ "evaluation_code_seeds":["delayed-eval-0","delayed-eval-1","delayed-eval-2"],
+ "memory_methods":["versioned_shared","versioned_pair"],"selection_policies":["rule","random","ss_learned"],
+ "background_levels":[0,64,256],"delayed_background":64,"exact_confirmation_budget":6,"selector_epochs":12,
+ "focal_per_split":12,"background_per_split":320,
+ "initialization":"A1 B1 A2 B2 A3 for12 focal episodes; each new background episode confirmed twice consecutively, second with same value",
+ "selection":"all24 mutable targets are eligible, including strong targets as explicit optional maintenance; select6 distinct targets globally; rescan after each answer; no teacher value or episode identifier in learned features",
+ "rule":"v0.5 required-question priority95 for memory disagreement,70 for unsupported missing,0 for optional maintenance; then target,id lexical tie; global scheduling and optional checks are v0.6 extensions",
+ "random":"deterministic hash ordering per step over remaining candidates; fixed seed includes condition base, not correctness",
+ "learned":"4x256 complex SS scalar-value coefficients,18 fixed numeric features,shared-error normalized LMS,gain0.03,12 epochs; frozen during held-out evaluation; linear in engineered numeric features",
+ "teacher_label":"offline paired single-confirmation counterfactual followed by identical64 unseen background episodes; reward is change in selected document utility (2*correct_document+correct_targets-4*wrong_document)/4; collateral effects logged but not in reward",
+ "corpus_cost":"576 offline counterfactual confirmations; training examples and true outcomes are never given to evaluation selector",
+ "immediate":"after6 answers, fresh both-missing SS-only slot/document semantic assessment; confirmed numeric packets discarded; no text generation at this checkpoint",
+ "delayed":"add64 new background episodes with2 confirmations each, save/reload; fresh both-missing packets, no teacher or session receipts; two text styles; independent parser plus reread",
+ "controls":"no-reconfirmation matched before/after-delay semantic baseline per content memory/load; same6 actual answers for three active methods; SS selector uses16384 extra coefficient bytes and extra compute, reported rather than hidden",
+ "statistics":"108 active conditions,1296 delayed document probes,2592 requested text outputs;24 independent focal scenes;3 evaluation content-code seeds;not1296 independent natural-language samples",
+ "acceptance":"content-memory safety gates unchanged from v0.5; learned value ranking never authorizes generation or bypasses abstention",
+ "data":"initial/all revisions/stale scene footprints disjoint across all1430 episodes, selector-training/evaluation/development splits, and2431 previous exclusions",
+ "eligible_for_inference":false
+}

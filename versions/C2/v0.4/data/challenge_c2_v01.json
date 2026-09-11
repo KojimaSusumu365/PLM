@@ -1,0 +1,999 @@
+{
+  "dataset": "PLM-C2-v0.1-post-implementation-challenge",
+  "schema_version": 2,
+  "construction": "20 unseen semantic seeds x 3 deterministic wrappers",
+  "limitations": [
+    "Authored in the same development session; not an external corpus.",
+    "The C2 v0.1 engine was frozen before this file's first evaluation run.",
+    "No engine or Concept-data tuning is permitted after the first run.",
+    "Wrappers are dependent and must be cluster-bootstrapped by template_group."
+  ],
+  "splits": {
+    "dev": 0,
+    "test": 60,
+    "all": 60
+  },
+  "cases": [
+    {
+      "id": "sentence_decimal_target__raw",
+      "inputs": "A dog weighs 3.5 kg. In a separate case, a cat slept.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "decimal",
+        "en",
+        "sentence_boundary",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "sentence_decimal_target",
+      "split": "test"
+    },
+    {
+      "id": "sentence_decimal_target__record",
+      "inputs": "Record: A dog weighs 3.5 kg. In a separate case, a cat slept.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "decimal",
+        "en",
+        "sentence_boundary",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "sentence_decimal_target",
+      "split": "test"
+    },
+    {
+      "id": "sentence_decimal_target__observation",
+      "inputs": "Observation: A dog weighs 3.5 kg. In a separate case, a cat slept.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "decimal",
+        "en",
+        "sentence_boundary",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "sentence_decimal_target",
+      "split": "test"
+    },
+    {
+      "id": "temporal_thereafter__raw",
+      "inputs": [
+        "A dog was examined.",
+        "Thereafter, a cat was examined."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "target_tracking",
+        "temporal_relation",
+        "test"
+      ],
+      "template_group": "temporal_thereafter",
+      "split": "test"
+    },
+    {
+      "id": "temporal_thereafter__record",
+      "inputs": [
+        "Record: A dog was examined.",
+        "Record: Thereafter, a cat was examined."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "target_tracking",
+        "temporal_relation",
+        "test"
+      ],
+      "template_group": "temporal_thereafter",
+      "split": "test"
+    },
+    {
+      "id": "temporal_thereafter__observation",
+      "inputs": [
+        "Observation: A dog was examined.",
+        "Observation: Thereafter, a cat was examined."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "target_tracking",
+        "temporal_relation",
+        "test"
+      ],
+      "template_group": "temporal_thereafter",
+      "split": "test"
+    },
+    {
+      "id": "temporal_following_inline__raw",
+      "inputs": "A dog was cataloged. Following that, a cat was cataloged.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "sentence_boundary",
+        "temporal_relation",
+        "test"
+      ],
+      "template_group": "temporal_following_inline",
+      "split": "test"
+    },
+    {
+      "id": "temporal_following_inline__record",
+      "inputs": "Record: A dog was cataloged. Following that, a cat was cataloged.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "sentence_boundary",
+        "temporal_relation",
+        "test"
+      ],
+      "template_group": "temporal_following_inline",
+      "split": "test"
+    },
+    {
+      "id": "temporal_following_inline__observation",
+      "inputs": "Observation: A dog was cataloged. Following that, a cat was cataloged.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "sentence_boundary",
+        "temporal_relation",
+        "test"
+      ],
+      "template_group": "temporal_following_inline",
+      "split": "test"
+    },
+    {
+      "id": "revision_original_revised__raw",
+      "inputs": "Originally labeled a dog. Revised finding: cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "revision_relation",
+        "sentence_boundary",
+        "test"
+      ],
+      "template_group": "revision_original_revised",
+      "split": "test"
+    },
+    {
+      "id": "revision_original_revised__record",
+      "inputs": "Record: Originally labeled a dog. Revised finding: cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "revision_relation",
+        "sentence_boundary",
+        "test"
+      ],
+      "template_group": "revision_original_revised",
+      "split": "test"
+    },
+    {
+      "id": "revision_original_revised__observation",
+      "inputs": "Observation: Originally labeled a dog. Revised finding: cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "revision_relation",
+        "sentence_boundary",
+        "test"
+      ],
+      "template_group": "revision_original_revised",
+      "split": "test"
+    },
+    {
+      "id": "revision_retract_revise__raw",
+      "inputs": "The original dog finding was ruled out. The revised record says cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "retraction",
+        "revision_relation",
+        "test"
+      ],
+      "template_group": "revision_retract_revise",
+      "split": "test"
+    },
+    {
+      "id": "revision_retract_revise__record",
+      "inputs": "Record: The original dog finding was ruled out. The revised record says cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "retraction",
+        "revision_relation",
+        "test"
+      ],
+      "template_group": "revision_retract_revise",
+      "split": "test"
+    },
+    {
+      "id": "revision_retract_revise__observation",
+      "inputs": "Observation: The original dog finding was ruled out. The revised record says cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "retraction",
+        "revision_relation",
+        "test"
+      ],
+      "template_group": "revision_retract_revise",
+      "split": "test"
+    },
+    {
+      "id": "irregular_bitten__raw",
+      "inputs": "The animal had been bitten.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "irregular_lemma",
+        "test"
+      ],
+      "template_group": "irregular_bitten",
+      "split": "test"
+    },
+    {
+      "id": "irregular_bitten__record",
+      "inputs": "Record: The animal had been bitten.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "irregular_lemma",
+        "test"
+      ],
+      "template_group": "irregular_bitten",
+      "split": "test"
+    },
+    {
+      "id": "irregular_bitten__observation",
+      "inputs": "Observation: The animal had been bitten.",
+      "domain": "action",
+      "expected": "BITE",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "irregular_lemma",
+        "test"
+      ],
+      "template_group": "irregular_bitten",
+      "split": "test"
+    },
+    {
+      "id": "irregular_boundary_bitter__raw",
+      "inputs": "A bitter taste remained.",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BITE"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "challenge_c2",
+        "en",
+        "irregular_lemma",
+        "test"
+      ],
+      "template_group": "irregular_boundary_bitter",
+      "split": "test"
+    },
+    {
+      "id": "irregular_boundary_bitter__record",
+      "inputs": "Record: A bitter taste remained.",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BITE"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "challenge_c2",
+        "en",
+        "irregular_lemma",
+        "test"
+      ],
+      "template_group": "irregular_boundary_bitter",
+      "split": "test"
+    },
+    {
+      "id": "irregular_boundary_bitter__observation",
+      "inputs": "Observation: A bitter taste remained.",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BITE"
+      ],
+      "tags": [
+        "abstention",
+        "boundary",
+        "challenge_c2",
+        "en",
+        "irregular_lemma",
+        "test"
+      ],
+      "template_group": "irregular_boundary_bitter",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbank__raw",
+      "inputs": "They rested on the riverbank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "closed_compound",
+        "en",
+        "test"
+      ],
+      "template_group": "compound_riverbank",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbank__record",
+      "inputs": "Record: They rested on the riverbank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "closed_compound",
+        "en",
+        "test"
+      ],
+      "template_group": "compound_riverbank",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbank__observation",
+      "inputs": "Observation: They rested on the riverbank.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "closed_compound",
+        "en",
+        "test"
+      ],
+      "template_group": "compound_riverbank",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbanks_plural__raw",
+      "inputs": "The riverbanks were muddy.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "closed_compound",
+        "en",
+        "plural",
+        "test"
+      ],
+      "template_group": "compound_riverbanks_plural",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbanks_plural__record",
+      "inputs": "Record: The riverbanks were muddy.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "closed_compound",
+        "en",
+        "plural",
+        "test"
+      ],
+      "template_group": "compound_riverbanks_plural",
+      "split": "test"
+    },
+    {
+      "id": "compound_riverbanks_plural__observation",
+      "inputs": "Observation: The riverbanks were muddy.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "closed_compound",
+        "en",
+        "plural",
+        "test"
+      ],
+      "template_group": "compound_riverbanks_plural",
+      "split": "test"
+    },
+    {
+      "id": "relation_river_statistics__raw",
+      "inputs": "The bank reviewed river statistics for a report.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "non_spatial",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_river_statistics",
+      "split": "test"
+    },
+    {
+      "id": "relation_river_statistics__record",
+      "inputs": "Record: The bank reviewed river statistics for a report.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "non_spatial",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_river_statistics",
+      "split": "test"
+    },
+    {
+      "id": "relation_river_statistics__observation",
+      "inputs": "Observation: The bank reviewed river statistics for a report.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "non_spatial",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_river_statistics",
+      "split": "test"
+    },
+    {
+      "id": "relation_near_river__raw",
+      "inputs": "The bank is near the river.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "spatial",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_near_river",
+      "split": "test"
+    },
+    {
+      "id": "relation_near_river__record",
+      "inputs": "Record: The bank is near the river.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "spatial",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_near_river",
+      "split": "test"
+    },
+    {
+      "id": "relation_near_river__observation",
+      "inputs": "Observation: The bank is near the river.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "spatial",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_near_river",
+      "split": "test"
+    },
+    {
+      "id": "relation_nowhere_river__raw",
+      "inputs": "The bank is nowhere near the river.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "negation",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_nowhere_river",
+      "split": "test"
+    },
+    {
+      "id": "relation_nowhere_river__record",
+      "inputs": "Record: The bank is nowhere near the river.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "negation",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_nowhere_river",
+      "split": "test"
+    },
+    {
+      "id": "relation_nowhere_river__observation",
+      "inputs": "Observation: The bank is nowhere near the river.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "negation",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_nowhere_river",
+      "split": "test"
+    },
+    {
+      "id": "relation_account_river_levels__raw",
+      "inputs": "The bank keeps an account of river levels.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_c2",
+        "competing_context",
+        "en",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_account_river_levels",
+      "split": "test"
+    },
+    {
+      "id": "relation_account_river_levels__record",
+      "inputs": "Record: The bank keeps an account of river levels.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_c2",
+        "competing_context",
+        "en",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_account_river_levels",
+      "split": "test"
+    },
+    {
+      "id": "relation_account_river_levels__observation",
+      "inputs": "Observation: The bank keeps an account of river levels.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_c2",
+        "competing_context",
+        "en",
+        "test",
+        "typed_relation"
+      ],
+      "template_group": "relation_account_river_levels",
+      "split": "test"
+    },
+    {
+      "id": "consensus_source_siblings__raw",
+      "inputs": [
+        "Source A reports a dog.",
+        "Source B reports a cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_c2",
+        "consensus",
+        "en",
+        "hierarchy",
+        "source_order",
+        "test"
+      ],
+      "template_group": "consensus_source_siblings",
+      "split": "test"
+    },
+    {
+      "id": "consensus_source_siblings__record",
+      "inputs": [
+        "Record: Source A reports a dog.",
+        "Record: Source B reports a cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_c2",
+        "consensus",
+        "en",
+        "hierarchy",
+        "source_order",
+        "test"
+      ],
+      "template_group": "consensus_source_siblings",
+      "split": "test"
+    },
+    {
+      "id": "consensus_source_siblings__observation",
+      "inputs": [
+        "Observation: Source A reports a dog.",
+        "Observation: Source B reports a cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_c2",
+        "consensus",
+        "en",
+        "hierarchy",
+        "source_order",
+        "test"
+      ],
+      "template_group": "consensus_source_siblings",
+      "split": "test"
+    },
+    {
+      "id": "open_set_otter__raw",
+      "inputs": "The otter floated quietly.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "open_set",
+        "test"
+      ],
+      "template_group": "open_set_otter",
+      "split": "test"
+    },
+    {
+      "id": "open_set_otter__record",
+      "inputs": "Record: The otter floated quietly.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "open_set",
+        "test"
+      ],
+      "template_group": "open_set_otter",
+      "split": "test"
+    },
+    {
+      "id": "open_set_otter__observation",
+      "inputs": "Observation: The otter floated quietly.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "open_set",
+        "test"
+      ],
+      "template_group": "open_set_otter",
+      "split": "test"
+    },
+    {
+      "id": "revision_colon__raw",
+      "inputs": "Originally labeled a dog: revised finding labels it a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "revision_relation",
+        "test",
+        "unseen_boundary"
+      ],
+      "template_group": "revision_colon",
+      "split": "test"
+    },
+    {
+      "id": "revision_colon__record",
+      "inputs": "Record: Originally labeled a dog: revised finding labels it a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "revision_relation",
+        "test",
+        "unseen_boundary"
+      ],
+      "template_group": "revision_colon",
+      "split": "test"
+    },
+    {
+      "id": "revision_colon__observation",
+      "inputs": "Observation: Originally labeled a dog: revised finding labels it a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_c2",
+        "en",
+        "revision_relation",
+        "test",
+        "unseen_boundary"
+      ],
+      "template_group": "revision_colon",
+      "split": "test"
+    },
+    {
+      "id": "target_meanwhile__raw",
+      "inputs": [
+        "A dog was recorded.",
+        "Meanwhile, a cat was recorded elsewhere."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_meanwhile",
+      "split": "test"
+    },
+    {
+      "id": "target_meanwhile__record",
+      "inputs": [
+        "Record: A dog was recorded.",
+        "Record: Meanwhile, a cat was recorded elsewhere."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_meanwhile",
+      "split": "test"
+    },
+    {
+      "id": "target_meanwhile__observation",
+      "inputs": [
+        "Observation: A dog was recorded.",
+        "Observation: Meanwhile, a cat was recorded elsewhere."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_c2",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_meanwhile",
+      "split": "test"
+    },
+    {
+      "id": "relation_sponsored_cleanup__raw",
+      "inputs": "The bank sponsored a river cleanup project.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "affordance",
+        "challenge_c2",
+        "en",
+        "test",
+        "typed_relation",
+        "world_knowledge"
+      ],
+      "template_group": "relation_sponsored_cleanup",
+      "split": "test"
+    },
+    {
+      "id": "relation_sponsored_cleanup__record",
+      "inputs": "Record: The bank sponsored a river cleanup project.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "affordance",
+        "challenge_c2",
+        "en",
+        "test",
+        "typed_relation",
+        "world_knowledge"
+      ],
+      "template_group": "relation_sponsored_cleanup",
+      "split": "test"
+    },
+    {
+      "id": "relation_sponsored_cleanup__observation",
+      "inputs": "Observation: The bank sponsored a river cleanup project.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "affordance",
+        "challenge_c2",
+        "en",
+        "test",
+        "typed_relation",
+        "world_knowledge"
+      ],
+      "template_group": "relation_sponsored_cleanup",
+      "split": "test"
+    },
+    {
+      "id": "correction_rather__raw",
+      "inputs": "It was not a dog, rather a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_c2",
+        "correction",
+        "en",
+        "polarity",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_rather",
+      "split": "test"
+    },
+    {
+      "id": "correction_rather__record",
+      "inputs": "Record: It was not a dog, rather a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_c2",
+        "correction",
+        "en",
+        "polarity",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_rather",
+      "split": "test"
+    },
+    {
+      "id": "correction_rather__observation",
+      "inputs": "Observation: It was not a dog, rather a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_c2",
+        "correction",
+        "en",
+        "polarity",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_rather",
+      "split": "test"
+    },
+    {
+      "id": "coreference_latter__raw",
+      "inputs": [
+        "A dog and a cat were observed.",
+        "The latter was selected."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "anaphora",
+        "challenge_c2",
+        "coreference",
+        "en",
+        "test"
+      ],
+      "template_group": "coreference_latter",
+      "split": "test"
+    },
+    {
+      "id": "coreference_latter__record",
+      "inputs": [
+        "Record: A dog and a cat were observed.",
+        "Record: The latter was selected."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "anaphora",
+        "challenge_c2",
+        "coreference",
+        "en",
+        "test"
+      ],
+      "template_group": "coreference_latter",
+      "split": "test"
+    },
+    {
+      "id": "coreference_latter__observation",
+      "inputs": [
+        "Observation: A dog and a cat were observed.",
+        "Observation: The latter was selected."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "anaphora",
+        "challenge_c2",
+        "coreference",
+        "en",
+        "test"
+      ],
+      "template_group": "coreference_latter",
+      "split": "test"
+    }
+  ]
+}

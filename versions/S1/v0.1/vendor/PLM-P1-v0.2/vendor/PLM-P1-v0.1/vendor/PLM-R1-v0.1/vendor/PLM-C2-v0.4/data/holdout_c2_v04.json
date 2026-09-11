@@ -1,0 +1,657 @@
+{
+  "dataset": "PLM-C2-v0.4-holdout",
+  "schema_version": 3,
+  "independent_authorship": false,
+  "external_corpus": false,
+  "construction": "semantic fixtures; no dependent wrapper expansion",
+  "cases": [
+    {
+      "id": "test_donate_perfect",
+      "template_group": "test_donate_perfect",
+      "inputs": "Equipment for river research has been donated by the bank.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "donate",
+          "object_text": "equipment for river research",
+          "voice": "passive",
+          "polarity": "positive",
+          "modality": "asserted",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_subsidize",
+      "template_group": "test_subsidize",
+      "inputs": "The bank subsidized a river cleanup program.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "subsidize",
+          "object_text": "a river cleanup program",
+          "voice": "active",
+          "polarity": "positive",
+          "modality": "asserted",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_subsidize_passive",
+      "template_group": "test_subsidize_passive",
+      "inputs": "A river cleanup program was subsidized by the bank.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "subsidize",
+          "object_text": "a river cleanup program",
+          "voice": "passive",
+          "polarity": "positive",
+          "modality": "asserted",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_adverb",
+      "template_group": "test_adverb",
+      "inputs": "The bank regularly supports river conservation projects.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "support",
+          "object_text": "river conservation projects",
+          "voice": "active",
+          "polarity": "positive",
+          "modality": "asserted",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_progressive",
+      "template_group": "test_progressive",
+      "inputs": "The bank is allocating resources to river research.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "allocate",
+          "object_text": "resources to river research",
+          "voice": "active",
+          "polarity": "positive",
+          "modality": "asserted",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_negative_passive",
+      "template_group": "test_negative_passive",
+      "inputs": "Aid for river restoration was not granted by the bank.",
+      "expected": "UNRESOLVED",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "grant",
+          "object_text": "aid for river restoration",
+          "voice": "passive",
+          "polarity": "negative",
+          "modality": "asserted",
+          "applied": false
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_contracted_negation",
+      "template_group": "test_contracted_negation",
+      "inputs": "The bank didn't support a river research project.",
+      "expected": "UNRESOLVED",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "support",
+          "object_text": "a river research project",
+          "voice": "active",
+          "polarity": "negative",
+          "modality": "asserted",
+          "applied": false
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_conditional_passive",
+      "template_group": "test_conditional_passive",
+      "inputs": "River research might be funded by the bank.",
+      "expected": "UNRESOLVED",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "fund",
+          "object_text": "river research",
+          "voice": "passive",
+          "polarity": "positive",
+          "modality": "hypothetical",
+          "applied": false
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_patient_role",
+      "template_group": "test_patient_role",
+      "inputs": "The bank was awarded by a river association.",
+      "expected": "UNRESOLVED",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_noun_structure",
+      "template_group": "test_noun_structure",
+      "inputs": "The bank support frame is beside the river.",
+      "expected": "RIVER_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "SPATIAL_ASSOCIATION",
+          "subject": "bank",
+          "predicate": "LOCATED_NEAR",
+          "object_text": "river",
+          "polarity": "positive",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_water",
+      "template_group": "test_water",
+      "inputs": "The bank stands near the water.",
+      "expected": "RIVER_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "SPATIAL_ASSOCIATION",
+          "subject": "bank",
+          "predicate": "LOCATED_NEAR",
+          "object_text": "water",
+          "polarity": "positive",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_passive_agent_manager",
+      "template_group": "test_passive_agent_manager",
+      "inputs": "A river plan was supported by the bank manager.",
+      "expected": "UNRESOLVED",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_disbursed",
+      "template_group": "test_disbursed",
+      "inputs": "The bank disbursed grants for river restoration.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "disburse",
+          "object_text": "grants for river restoration",
+          "voice": "active",
+          "polarity": "positive",
+          "modality": "asserted",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_nominal_finance",
+      "template_group": "test_nominal_finance",
+      "inputs": "The bank account was reviewed.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_irrelevant_sentence",
+      "template_group": "test_irrelevant_sentence",
+      "inputs": "The sky was clear. The bank backed river restoration plans.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "back",
+          "object_text": "river restoration plans",
+          "voice": "active",
+          "polarity": "positive",
+          "modality": "asserted",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_record_prefix",
+      "template_group": "test_record_prefix",
+      "inputs": "Record: A river study was financed by the bank.",
+      "expected": "FINANCIAL_BANK",
+      "domain": "place",
+      "gold_frames": [
+        {
+          "relation_type": "FINANCIAL_AFFORDANCE",
+          "subject": "bank",
+          "predicate": "finance",
+          "object_text": "a river study",
+          "voice": "passive",
+          "polarity": "positive",
+          "modality": "asserted",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_two_cats_it",
+      "template_group": "test_two_cats_it",
+      "inputs": [
+        "A cat and another cat arrived.",
+        "It was examined."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "reference_status": "ambiguous",
+      "distinct_nominal_entities": 2,
+      "split": "holdout"
+    },
+    {
+      "id": "test_two_cats_they",
+      "template_group": "test_two_cats_they",
+      "inputs": [
+        "A cat and another cat arrived.",
+        "They were examined."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "COREFERENCE",
+          "predicate": "REFERS_TO",
+          "target_concept": "CAT",
+          "antecedent_ordinal": 0,
+          "polarity": "positive",
+          "applied": true
+        },
+        {
+          "relation_type": "COREFERENCE",
+          "predicate": "REFERS_TO",
+          "target_concept": "CAT",
+          "antecedent_ordinal": 1,
+          "polarity": "positive",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "reference_status": "resolved",
+      "distinct_nominal_entities": 2,
+      "split": "holdout"
+    },
+    {
+      "id": "test_same_type_latter",
+      "template_group": "test_same_type_latter",
+      "inputs": [
+        "A cat and another cat arrived.",
+        "The latter was selected."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "COREFERENCE",
+          "predicate": "REFERS_TO",
+          "target_concept": "CAT",
+          "antecedent_ordinal": 1,
+          "polarity": "positive",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_order_swapped",
+      "template_group": "test_order_swapped",
+      "inputs": [
+        "A cat and a dog were registered.",
+        "The earlier one was chosen."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "COREFERENCE",
+          "predicate": "REFERS_TO",
+          "target_concept": "CAT",
+          "antecedent_ordinal": 0,
+          "polarity": "positive",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_group_ambiguous",
+      "template_group": "test_group_ambiguous",
+      "inputs": [
+        "Three cats arrived.",
+        "It was examined."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "reference_status": "ambiguous",
+      "split": "holdout"
+    },
+    {
+      "id": "test_plural_group",
+      "template_group": "test_plural_group",
+      "inputs": [
+        "Several dogs arrived.",
+        "They were examined."
+      ],
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "COREFERENCE",
+          "predicate": "REFERS_TO",
+          "target_concept": "DOG",
+          "antecedent_ordinal": 0,
+          "polarity": "positive",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_japanese_same",
+      "template_group": "test_japanese_same",
+      "inputs": [
+        "猫と別の猫を登録した。",
+        "それを選んだ。"
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "reference_status": "ambiguous",
+      "distinct_nominal_entities": 2,
+      "split": "holdout"
+    },
+    {
+      "id": "test_japanese_latter",
+      "template_group": "test_japanese_latter",
+      "inputs": [
+        "猫と犬を登録した。",
+        "後者を選んだ。"
+      ],
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "COREFERENCE",
+          "predicate": "REFERS_TO",
+          "target_concept": "DOG",
+          "antecedent_ordinal": 1,
+          "polarity": "positive",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_reference_noise",
+      "template_group": "test_reference_noise",
+      "inputs": [
+        "A cat arrived.",
+        "The weather was calm.",
+        "It was examined."
+      ],
+      "expected": "CAT",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "COREFERENCE",
+          "predicate": "REFERS_TO",
+          "target_concept": "CAT",
+          "antecedent_ordinal": 0,
+          "polarity": "positive",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_no_antecedent",
+      "template_group": "test_no_antecedent",
+      "inputs": "It was examined.",
+      "expected": "UNRESOLVED",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "reference_status": "unresolved",
+      "split": "holdout"
+    },
+    {
+      "id": "test_japanese_reverse_revision",
+      "template_group": "test_japanese_reverse_revision",
+      "inputs": "猫、正しくは、犬。",
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "REVISION",
+          "predicate": "REVISES",
+          "target_text": "猫",
+          "polarity": "positive",
+          "modality": "corrective",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_revision_period",
+      "template_group": "test_revision_period",
+      "inputs": "Initially recorded as cat. Reidentified as dog.",
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "REVISION",
+          "predicate": "REVISES",
+          "target_text": "Initially recorded as cat",
+          "polarity": "positive",
+          "modality": "corrective",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_no_correction_target",
+      "template_group": "test_no_correction_target",
+      "inputs": "Reidentified as dog.",
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_unregistered_predicate",
+      "template_group": "test_unregistered_predicate",
+      "inputs": "Originally marked cat: reassessed as dog.",
+      "expected": "DOG",
+      "domain": "entity",
+      "gold_frames": [
+        {
+          "relation_type": "REVISION",
+          "predicate": "REVISES",
+          "target_text": "Originally marked cat",
+          "polarity": "positive",
+          "modality": "corrective",
+          "applied": true
+        }
+      ],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_new_species",
+      "template_group": "test_new_species",
+      "inputs": "An otter crossed the path.",
+      "expected": "UNRESOLVED",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    },
+    {
+      "id": "test_empty_list",
+      "template_group": "test_empty_list",
+      "inputs": [],
+      "expected": "UNRESOLVED",
+      "domain": "entity",
+      "gold_frames": [],
+      "tags": [
+        "v04_semantic"
+      ],
+      "split": "holdout"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "automatic_alignment": true,
+    "dimension": 8192,
+    "eligible_for_inference": false,
+    "lexicon_digest": "cface7154ad6e3f5a1f036ab65bdd30dde013d1e55d3f9700bcdc8a2a38972f1",
+    "pair_count": 576,
+    "pair_learning": true,
+    "pairs_digest": "f8e820240cf3741af99f66de57fa98a63881f285dee70967471613fcbf2ba90b",
+    "schema": "plm-l1-pair-writer-v1",
+    "seed": "writer-evaluation-0",
+    "slot_candidates": {
+      "modality": [
+        "modality:asserted",
+        "modality:hypothetical"
+      ],
+      "object": [
+        "entity:太郎",
+        "entity:花子",
+        "entity:次郎",
+        "entity:美咲",
+        "entity:健太",
+        "entity:由紀"
+      ],
+      "polarity": [
+        "polarity:positive",
+        "polarity:negative"
+      ],
+      "predicate": [
+        "predicate:help",
+        "predicate:praise",
+        "predicate:visit",
+        "predicate:gaze_at"
+      ],
+      "subject": [
+        "entity:太郎",
+        "entity:花子",
+        "entity:次郎",
+        "entity:美咲",
+        "entity:健太",
+        "entity:由紀"
+      ]
+    },
+    "statistics": {
+      "lexical": {
+        "conflicting_contexts": 0,
+        "contexts": 10,
+        "observations": 10
+      },
+      "steps": {
+        "conflicting_contexts": 0,
+        "contexts": 68,
+        "observations": 4896
+      },
+      "support": {
+        "conflicting_contexts": 0,
+        "contexts": 8,
+        "observations": 576
+      }
+    },
+    "supervision_fields": [
+      "text",
+      "meaning"
+    ],
+    "supplied_trace_supervision": false,
+    "surfaces": {
+      "。": "marker",
+      "が": "marker",
+      "た": "marker",
+      "たら": "marker",
+      "なかった": "marker",
+      "なかったら": "marker",
+      "もし": "marker",
+      "を": "marker",
+      "健太": "entity",
+      "助け": "predicate",
+      "太郎": "entity",
+      "次郎": "entity",
+      "由紀": "entity",
+      "美咲": "entity",
+      "花子": "entity",
+      "褒め": "predicate",
+      "見つめ": "predicate",
+      "訪ね": "predicate"
+    },
+    "use_prefix": true,
+    "use_status": true
+  },
+  "fingerprint": "b3619c3c529cc1631123e3da1a9031ada725775c6a5dd80c724aae3dad6455ee",
+  "candidates": {
+    "support": [
+      "supported"
+    ],
+    "steps": [
+      "[\"end\"]",
+      "[\"literal\",\"。\"]",
+      "[\"literal\",\"が\"]",
+      "[\"literal\",\"た\"]",
+      "[\"literal\",\"たら\"]",
+      "[\"literal\",\"なかった\"]",
+      "[\"literal\",\"なかったら\"]",
+      "[\"literal\",\"もし\"]",
+      "[\"literal\",\"を\"]",
+      "[\"slot\",\"object\"]",
+      "[\"slot\",\"predicate\"]",
+      "[\"slot\",\"subject\"]"
+    ],
+    "lexical": [
+      "健太",
+      "助け",
+      "太郎",
+      "次郎",
+      "由紀",
+      "美咲",
+      "花子",
+      "褒め",
+      "見つめ",
+      "訪ね"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "plm-l1-v04-combination-splits-v1",
+  "folds": [
+    {
+      "fold": "object_negative",
+      "training_pairs": 432,
+      "removed_training_pairs": 144,
+      "training_digest": "9ab3d9e1af22a43d797d6c43fc4fc023131cbb1f83f842de514462a816215161",
+      "counts": {
+        "development": {
+          "heldout": 48,
+          "seen": 144
+        },
+        "evaluation": {
+          "heldout": 48,
+          "seen": 144
+        }
+      },
+      "all_evaluation_marker_components_observed": true,
+      "all_evaluation_orders_observed": true,
+      "all_evaluation_tokens_observed": true
+    },
+    {
+      "fold": "subject_negative",
+      "training_pairs": 432,
+      "removed_training_pairs": 144,
+      "training_digest": "0b3d993f6cde15bee1ad2ca8415675ddf788eba1d0a781aa99675c51e3d2092b",
+      "counts": {
+        "development": {
+          "heldout": 48,
+          "seen": 144
+        },
+        "evaluation": {
+          "heldout": 48,
+          "seen": 144
+        }
+      },
+      "all_evaluation_marker_components_observed": true,
+      "all_evaluation_orders_observed": true,
+      "all_evaluation_tokens_observed": true
+    },
+    {
+      "fold": "object_positive",
+      "training_pairs": 432,
+      "removed_training_pairs": 144,
+      "training_digest": "1d3397e69566ad32b20468c2b90ca0c5e6af7140ae5a5a6503c8363a893b3589",
+      "counts": {
+        "development": {
+          "heldout": 48,
+          "seen": 144
+        },
+        "evaluation": {
+          "heldout": 48,
+          "seen": 144
+        }
+      },
+      "all_evaluation_marker_components_observed": true,
+      "all_evaluation_orders_observed": true,
+      "all_evaluation_tokens_observed": true
+    },
+    {
+      "fold": "subject_positive",
+      "training_pairs": 432,
+      "removed_training_pairs": 144,
+      "training_digest": "d750a4d5af01d236bb48e944143a872bdc4807b6f1285702ce8f1118ff59bbc8",
+      "counts": {
+        "development": {
+          "heldout": 48,
+          "seen": 144
+        },
+        "evaluation": {
+          "heldout": 48,
+          "seen": 144
+        }
+      },
+      "all_evaluation_marker_components_observed": true,
+      "all_evaluation_orders_observed": true,
+      "all_evaluation_tokens_observed": true
+    }
+  ],
+  "note": "Existing v0.1-v0.3 corpus reused; new combination withholding relative to each retrained model, NOT new project-blind language data."
+}

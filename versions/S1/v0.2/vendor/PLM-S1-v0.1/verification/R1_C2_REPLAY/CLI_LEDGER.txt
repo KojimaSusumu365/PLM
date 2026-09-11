@@ -1,0 +1,10 @@
+{
+  "version": "PLM-R1 v0.1",
+  "mode": "observe_only",
+  "inference_enabled": false,
+  "independent_semantic_evaluation": "not_performed",
+  "unique_content_count": 1,
+  "source_revision_count": 1,
+  "observation_count": 1,
+  "independent_evidence_count": null
+}

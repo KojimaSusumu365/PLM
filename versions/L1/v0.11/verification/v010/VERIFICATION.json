@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "mode": "functional",
+  "source_freeze": "c858e3022234aee26f8dfa1aa5d02d0926c67a144c0c969fcdc2c7eeba7fa6d8",
+  "result_digest": "63c979c6b749c3c2e860021ff51fcf240ce10dfe900da71813000d62ceccd080",
+  "unit_tests": 47,
+  "functional_comparison": {
+    "functional_passed": true,
+    "metadata_contract_equal": true,
+    "candidate_count_equal": true,
+    "member_comparisons": [
+      {
+        "functional_passed": true,
+        "contract_equal": true,
+        "headers_equal": true,
+        "coefficients_within_tolerance": true,
+        "decision_signatures_equal": true,
+        "signature_requests": 0,
+        "blocks_compared": 10,
+        "max_abs_coefficient_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "exact_weight_bytes_equal": true,
+        "exact_model_fingerprint_equal": true,
+        "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+      },
+      {
+        "functional_passed": true,
+        "contract_equal": true,
+        "headers_equal": true,
+        "coefficients_within_tolerance": true,
+        "decision_signatures_equal": true,
+        "signature_requests": 0,
+        "blocks_compared": 10,
+        "max_abs_coefficient_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "exact_weight_bytes_equal": true,
+        "exact_model_fingerprint_equal": true,
+        "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+      }
+    ],
+    "decision_signatures_equal": true,
+    "signature_requests": 819,
+    "exact_fingerprint_equal": true,
+    "scope": "Finite same-machine probes; not universal equivalence or an actual Linux run."
+  },
+  "manifest_files": 131,
+  "vendor": {
+    "sha256": "08e62cb7251f9cc125cb60691bccb997a4e9ad55c6a4ff27c921e687f3df5bdb",
+    "crc_valid": true,
+    "manifest_files": 106,
+    "legacy_execution_requested": false
+  },
+  "isolated_training_without_reader_or_evaluator": true,
+  "generation_without_reader_trainer_selector": true,
+  "numeric_packet_only_transfer": true,
+  "atomic_abstention": true,
+  "whole_output_consensus": true,
+  "demos": [
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。その後、花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。その前に、太郎が花子を助けた。",
+      "exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が太郎を助けた。その前に、花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。その後、太郎が太郎を助けた。",
+      "exact": true
+    }
+  ],
+  "ambiguity_cli": [
+    {
+      "stage": "before",
+      "status": "abstain",
+      "reason": "candidate_generation_disagreement",
+      "text": null
+    },
+    {
+      "stage": "after",
+      "status": "generated",
+      "reason": null,
+      "text": "太郎が由紀を助けなかった。花子が次郎を褒めた。"
+    }
+  ],
+  "linux_execution_performed": false,
+  "full_numeric_evaluation_rerun_by_this_command": false
+}

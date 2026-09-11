@@ -1,0 +1,55 @@
+test40_data_validation (test_active.EvaluationTests.test40_data_validation) ... ok
+test41_all_unseen_outside_pool (test_active.EvaluationTests.test41_all_unseen_outside_pool) ... ok
+test42_teaching_counts (test_active.EvaluationTests.test42_teaching_counts) ... ok
+test43_world_changes_only16_pool_labels (test_active.EvaluationTests.test43_world_changes_only16_pool_labels) ... ok
+test44_two_worlds_same_first_request (test_active.EvaluationTests.test44_two_worlds_same_first_request) ... ok
+test45_known_unseen_counts (test_active.EvaluationTests.test45_known_unseen_counts) ... ok
+test46_recovery_then_relapse (test_active.EvaluationTests.test46_recovery_then_relapse) ... ok
+test47_empty_changed_group_not_success_rate (test_active.EvaluationTests.test47_empty_changed_group_not_success_rate) ... ok
+test48_coefficient_budget (test_active.EvaluationTests.test48_coefficient_budget) ... ok
+test49_data_reproducibility (test_active.EvaluationTests.test49_data_reproducibility) ... ok
+test50_invalid_scenario (test_active.EvaluationTests.test50_invalid_scenario) ... ok
+test01_ids_context_only (test_active.SelectionTests.test01_ids_context_only) ... ok
+test02_pool_order_invariant (test_active.SelectionTests.test02_pool_order_invariant) ... ok
+test03_reject_labels (test_active.SelectionTests.test03_reject_labels) ... ok
+test04_reject_wrong_id (test_active.SelectionTests.test04_reject_wrong_id) ... ok
+test05_reject_duplicate (test_active.SelectionTests.test05_reject_duplicate) ... ok
+test06_reject_bad_context (test_active.SelectionTests.test06_reject_bad_context) ... ok
+test07_reject_empty_selection (test_active.SelectionTests.test07_reject_empty_selection) ... ok
+test08_reject_wrong_architecture (test_active.SelectionTests.test08_reject_wrong_architecture) ... ok
+test09_zero_tied_votes (test_active.SelectionTests.test09_zero_tied_votes) ... ok
+test10_unanimous_votes (test_active.SelectionTests.test10_unanimous_votes) ... ok
+test11_four_distinct_votes (test_active.SelectionTests.test11_four_distinct_votes) ... ok
+test12_three_one_split (test_active.SelectionTests.test12_three_one_split) ... ok
+test13_random_ignores_scores (test_active.SelectionTests.test13_random_ignores_scores) ... ok
+test14_scoring_cost (test_active.SelectionTests.test14_scoring_cost) ... ok
+test15_selection_not_learning (test_active.SelectionTests.test15_selection_not_learning) ... ok
+test16_votes_not_probability_claim (test_active.SelectionTests.test16_votes_not_probability_claim) ... ok
+test17_ambiguity_ranking (test_active.SelectionTests.test17_ambiguity_ranking) ... ok
+test18_disagreement_ranking (test_active.SelectionTests.test18_disagreement_ranking) ... ok
+test19_equal_priority_same_hash_tie (test_active.SelectionTests.test19_equal_priority_same_hash_tie) ... ok
+test20_invalid_parameters (test_active.SelectionTests.test20_invalid_parameters) ... ok
+test21_invalid_scores (test_active.SelectionTests.test21_invalid_scores) ... ok
+test22_single_teacher (test_active.SessionTests.test22_single_teacher) ... ok
+test23_prior_state_unchanged (test_active.SessionTests.test23_prior_state_unchanged) ... ok
+test24_stale_request (test_active.SessionTests.test24_stale_request) ... ok
+test25_tampered_request (test_active.SessionTests.test25_tampered_request) ... ok
+test26_unselected_candidate_rejected (test_active.SessionTests.test26_unselected_candidate_rejected) ... ok
+test27_prediction_not_teacher (test_active.SessionTests.test27_prediction_not_teacher) ... ok
+test28_extra_truth_rejected (test_active.SessionTests.test28_extra_truth_rejected) ... ok
+test29_unknown_label_rejected (test_active.SessionTests.test29_unknown_label_rejected) ... ok
+test30_request_id_rejected (test_active.SessionTests.test30_request_id_rejected) ... ok
+test31_no_repeat_and_exhaustion (test_active.SessionTests.test31_no_repeat_and_exhaustion) ... ok
+test32_no_teacher_table_or_replay (test_active.SessionTests.test32_no_teacher_table_or_replay) ... ok
+test33_new_label_not_authenticated_truth (test_active.SessionTests.test33_new_label_not_authenticated_truth) ... ok
+test34_invalid_acquired_ledger (test_active.SessionTests.test34_invalid_acquired_ledger) ... ok
+test35_save_load (test_active.SessionTests.test35_save_load) ... ok
+test36_corrupt_state (test_active.SessionTests.test36_corrupt_state) ... ok
+test37_same_base_different_strategies (test_active.SessionTests.test37_same_base_different_strategies) ... ok
+test38_challenge_does_not_change_source (test_active.SessionTests.test38_challenge_does_not_change_source) ... ok
+test39_shared_residual_flat_equivalence (test_active.SessionTests.test39_shared_residual_flat_equivalence) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.473s
+
+OK

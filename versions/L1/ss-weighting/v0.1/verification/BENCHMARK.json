@@ -1,0 +1,553 @@
+{
+  "scope": "Single process after full evaluations. Four prelisted shapes, three repeats. Fit includes validation/encoding/learning and its diagnostics; no evaluation queries. Not online update time, energy, peak RSS, or matched total training memory.",
+  "rows": [
+    {
+      "dimension": 128,
+      "known_count": 64,
+      "method": "uniform",
+      "seconds": [
+        0.02186119998805225,
+        0.004178900038823485,
+        0.004033700039144605
+      ],
+      "median_ms": 4.178900038823485,
+      "storage": {
+        "weight_bytes": 8192,
+        "metadata_bytes": 333,
+        "warm_atoms_bytes": 0,
+        "energy": 7628.977764923777,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "uniform",
+        "known_keys": 64,
+        "classes": 4,
+        "initial_objective": 6.877144906443981,
+        "final_objective": 6.877144906443981,
+        "training_mse_before": 0.0537276945815936,
+        "training_mse_after": 0.0537276945815936,
+        "beta_min": 0.0,
+        "beta_max": 1.0,
+        "negative_coefficients": 0,
+        "beta_bytes_training_only": 0,
+        "accounted_learning_arrays_bytes": 22528,
+        "accounting_scope": "Named arrays including common diagnostics; not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 131072,
+        "memory_weight_bytes": 8192,
+        "weight_energy": 7628.977764923777,
+        "weight_peak_amplitude": 8.821451567218276
+      }
+    },
+    {
+      "dimension": 128,
+      "known_count": 64,
+      "method": "positive",
+      "seconds": [
+        0.00971340003889054,
+        0.007675100001506507,
+        0.008156800002325326
+      ],
+      "median_ms": 8.156800002325326,
+      "storage": {
+        "weight_bytes": 8192,
+        "metadata_bytes": 334,
+        "warm_atoms_bytes": 0,
+        "energy": 6724.401050372333,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "positive",
+        "known_keys": 64,
+        "classes": 4,
+        "initial_objective": 6.877144906443981,
+        "final_objective": 4.79584247303997,
+        "training_mse_before": 0.0537276945815936,
+        "training_mse_after": 0.03639541418934214,
+        "beta_min": 0.0,
+        "beta_max": 1.4142404026344648,
+        "negative_coefficients": 0,
+        "beta_bytes_training_only": 2048,
+        "accounted_learning_arrays_bytes": 47360,
+        "accounting_scope": "Named arrays, not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 131072,
+        "memory_weight_bytes": 8192,
+        "weight_energy": 6724.401050372333,
+        "weight_peak_amplitude": 8.302205238219774
+      }
+    },
+    {
+      "dimension": 128,
+      "known_count": 64,
+      "method": "residual",
+      "seconds": [
+        0.00399890000699088,
+        0.003886599966790527,
+        0.005261300015263259
+      ],
+      "median_ms": 3.9989000069908798,
+      "storage": {
+        "weight_bytes": 8192,
+        "metadata_bytes": 334,
+        "warm_atoms_bytes": 0,
+        "energy": 9003.696804341487,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "residual",
+        "known_keys": 64,
+        "classes": 4,
+        "initial_objective": 6.877144906443981,
+        "final_objective": 1.3568588347931116,
+        "training_mse_before": 0.0537276945815936,
+        "training_mse_after": 0.0038401156146647916,
+        "beta_min": -0.6116920109160683,
+        "beta_max": 1.8065564605120485,
+        "negative_coefficients": 93,
+        "beta_bytes_training_only": 2048,
+        "accounted_learning_arrays_bytes": 71680,
+        "accounting_scope": "Named arrays, not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 131072,
+        "memory_weight_bytes": 8192,
+        "weight_energy": 9003.696804341487,
+        "weight_peak_amplitude": 11.25304252340282
+      }
+    },
+    {
+      "dimension": 128,
+      "known_count": 64,
+      "method": "exact",
+      "seconds": [
+        0.0008798000053502619,
+        0.0008823000243864954,
+        0.0009037000127136707
+      ],
+      "median_ms": 0.8823000243864954,
+      "storage": {
+        "weight_bytes": 0,
+        "metadata_bytes": 4167,
+        "warm_atoms_bytes": 0,
+        "energy": 0.0,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "uniform",
+        "identity_kernel_solution": "B=T",
+        "known_keys": 64
+      }
+    },
+    {
+      "dimension": 128,
+      "known_count": 256,
+      "method": "uniform",
+      "seconds": [
+        0.01125139999203384,
+        0.010848100006114691,
+        0.010328600008506328
+      ],
+      "median_ms": 10.848100006114691,
+      "storage": {
+        "weight_bytes": 8192,
+        "metadata_bytes": 334,
+        "warm_atoms_bytes": 0,
+        "energy": 29882.831927684856,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "uniform",
+        "known_keys": 256,
+        "classes": 4,
+        "initial_objective": 114.12515522460869,
+        "final_objective": 114.12515522460869,
+        "training_mse_before": 0.22290069379806385,
+        "training_mse_after": 0.22290069379806385,
+        "beta_min": 0.0,
+        "beta_max": 1.0,
+        "negative_coefficients": 0,
+        "beta_bytes_training_only": 0,
+        "accounted_learning_arrays_bytes": 40960,
+        "accounting_scope": "Named arrays including common diagnostics; not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 524288,
+        "memory_weight_bytes": 8192,
+        "weight_energy": 29882.831927684856,
+        "weight_peak_amplitude": 18.648086960431115
+      }
+    },
+    {
+      "dimension": 128,
+      "known_count": 256,
+      "method": "positive",
+      "seconds": [
+        0.0179393999860622,
+        0.017488499986939132,
+        0.017779899993911386
+      ],
+      "median_ms": 17.779899993911386,
+      "storage": {
+        "weight_bytes": 8192,
+        "metadata_bytes": 335,
+        "warm_atoms_bytes": 0,
+        "energy": 12772.784111551897,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "positive",
+        "known_keys": 256,
+        "classes": 4,
+        "initial_objective": 114.1251552246087,
+        "final_objective": 59.85463007557776,
+        "training_mse_before": 0.22290069379806388,
+        "training_mse_after": 0.11325287859296124,
+        "beta_min": 0.0,
+        "beta_max": 1.383203759423308,
+        "negative_coefficients": 0,
+        "beta_bytes_training_only": 8192,
+        "accounted_learning_arrays_bytes": 705536,
+        "accounting_scope": "Named arrays, not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 524288,
+        "memory_weight_bytes": 8192,
+        "weight_energy": 12772.784111551897,
+        "weight_peak_amplitude": 13.301906461787807
+      }
+    },
+    {
+      "dimension": 128,
+      "known_count": 256,
+      "method": "residual",
+      "seconds": [
+        0.015089299995452166,
+        0.014803199970629066,
+        0.014858300040941685
+      ],
+      "median_ms": 14.858300040941685,
+      "storage": {
+        "weight_bytes": 8192,
+        "metadata_bytes": 335,
+        "warm_atoms_bytes": 0,
+        "energy": 23192.133607510805,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "residual",
+        "known_keys": 256,
+        "classes": 4,
+        "initial_objective": 114.1251552246087,
+        "final_objective": 39.37437307099568,
+        "training_mse_before": 0.22290069379806388,
+        "training_mse_after": 0.0663852999223064,
+        "beta_min": -0.8553170545339253,
+        "beta_max": 2.3183877837516866,
+        "negative_coefficients": 371,
+        "beta_bytes_training_only": 8192,
+        "accounted_learning_arrays_bytes": 1073152,
+        "accounting_scope": "Named arrays, not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 524288,
+        "memory_weight_bytes": 8192,
+        "weight_energy": 23192.133607510805,
+        "weight_peak_amplitude": 16.780070328135267
+      }
+    },
+    {
+      "dimension": 128,
+      "known_count": 256,
+      "method": "exact",
+      "seconds": [
+        0.003252300026360899,
+        0.0028132000006735325,
+        0.0024930000072345138
+      ],
+      "median_ms": 2.8132000006735325,
+      "storage": {
+        "weight_bytes": 0,
+        "metadata_bytes": 15688,
+        "warm_atoms_bytes": 0,
+        "energy": 0.0,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "uniform",
+        "identity_kernel_solution": "B=T",
+        "known_keys": 256
+      }
+    },
+    {
+      "dimension": 512,
+      "known_count": 64,
+      "method": "uniform",
+      "seconds": [
+        0.005750600015744567,
+        0.005070400016847998,
+        0.005788199952803552
+      ],
+      "median_ms": 5.750600015744567,
+      "storage": {
+        "weight_bytes": 32768,
+        "metadata_bytes": 333,
+        "warm_atoms_bytes": 0,
+        "energy": 32016.460486645214,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "uniform",
+        "known_keys": 64,
+        "classes": 4,
+        "initial_objective": 2.054255246660374,
+        "final_objective": 2.054255246660374,
+        "training_mse_before": 0.01604886911453417,
+        "training_mse_after": 0.01604886911453417,
+        "beta_min": 0.0,
+        "beta_max": 1.0,
+        "negative_coefficients": 0,
+        "beta_bytes_training_only": 0,
+        "accounted_learning_arrays_bytes": 71680,
+        "accounting_scope": "Named arrays including common diagnostics; not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 524288,
+        "memory_weight_bytes": 32768,
+        "weight_energy": 32016.460486645214,
+        "weight_peak_amplitude": 11.096975960045542
+      }
+    },
+    {
+      "dimension": 512,
+      "known_count": 64,
+      "method": "positive",
+      "seconds": [
+        0.009719999972730875,
+        0.009841999970376492,
+        0.010181099991314113
+      ],
+      "median_ms": 9.841999970376492,
+      "storage": {
+        "weight_bytes": 32768,
+        "metadata_bytes": 334,
+        "warm_atoms_bytes": 0,
+        "energy": 30709.621631928792,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "positive",
+        "known_keys": 64,
+        "classes": 4,
+        "initial_objective": 2.0542552466603734,
+        "final_objective": 1.6033121766881562,
+        "training_mse_before": 0.016048869114534167,
+        "training_mse_after": 0.012234189005009877,
+        "beta_min": 0.0,
+        "beta_max": 1.2628966937957216,
+        "negative_coefficients": 0,
+        "beta_bytes_training_only": 2048,
+        "accounted_learning_arrays_bytes": 47360,
+        "accounting_scope": "Named arrays, not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 524288,
+        "memory_weight_bytes": 32768,
+        "weight_energy": 30709.621631928792,
+        "weight_peak_amplitude": 10.997839012342865
+      }
+    },
+    {
+      "dimension": 512,
+      "known_count": 64,
+      "method": "residual",
+      "seconds": [
+        0.006869300035759807,
+        0.00624640000751242,
+        0.00697550002951175
+      ],
+      "median_ms": 6.869300035759807,
+      "storage": {
+        "weight_bytes": 32768,
+        "metadata_bytes": 334,
+        "warm_atoms_bytes": 0,
+        "energy": 34312.588695014354,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "residual",
+        "known_keys": 64,
+        "classes": 4,
+        "initial_objective": 2.0542552466603734,
+        "final_objective": 0.2458514193801854,
+        "training_mse_before": 0.016048869114534167,
+        "training_mse_after": 0.0003032859574110654,
+        "beta_min": -0.2855722894874463,
+        "beta_max": 1.441217962925729,
+        "negative_coefficients": 95,
+        "beta_bytes_training_only": 2048,
+        "accounted_learning_arrays_bytes": 71680,
+        "accounting_scope": "Named arrays, not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 524288,
+        "memory_weight_bytes": 32768,
+        "weight_energy": 34312.588695014354,
+        "weight_peak_amplitude": 12.008785774253168
+      }
+    },
+    {
+      "dimension": 512,
+      "known_count": 64,
+      "method": "exact",
+      "seconds": [
+        0.0010563000105321407,
+        0.0006799999973736703,
+        0.0006658000056631863
+      ],
+      "median_ms": 0.6799999973736703,
+      "storage": {
+        "weight_bytes": 0,
+        "metadata_bytes": 4167,
+        "warm_atoms_bytes": 0,
+        "energy": 0.0,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "uniform",
+        "identity_kernel_solution": "B=T",
+        "known_keys": 64
+      }
+    },
+    {
+      "dimension": 512,
+      "known_count": 256,
+      "method": "uniform",
+      "seconds": [
+        0.017198099987581372,
+        0.015167800011113286,
+        0.015428900020197034
+      ],
+      "median_ms": 15.428900020197034,
+      "storage": {
+        "weight_bytes": 32768,
+        "metadata_bytes": 334,
+        "warm_atoms_bytes": 0,
+        "energy": 128457.77875364016,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "uniform",
+        "known_keys": 256,
+        "classes": 4,
+        "initial_objective": 31.691809062621246,
+        "final_objective": 31.691809062621246,
+        "training_mse_before": 0.06189806457543212,
+        "training_mse_after": 0.06189806457543212,
+        "beta_min": 0.0,
+        "beta_max": 1.0,
+        "negative_coefficients": 0,
+        "beta_bytes_training_only": 0,
+        "accounted_learning_arrays_bytes": 90112,
+        "accounting_scope": "Named arrays including common diagnostics; not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 2097152,
+        "memory_weight_bytes": 32768,
+        "weight_energy": 128457.77875364016,
+        "weight_peak_amplitude": 20.547903905624697
+      }
+    },
+    {
+      "dimension": 512,
+      "known_count": 256,
+      "method": "positive",
+      "seconds": [
+        0.025862200011033565,
+        0.02533689996926114,
+        0.02623630000744015
+      ],
+      "median_ms": 25.862200011033565,
+      "storage": {
+        "weight_bytes": 32768,
+        "metadata_bytes": 335,
+        "warm_atoms_bytes": 0,
+        "energy": 98137.1596909089,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "positive",
+        "known_keys": 256,
+        "classes": 4,
+        "initial_objective": 31.691809062621246,
+        "final_objective": 21.89440405223794,
+        "training_mse_before": 0.06189806457543212,
+        "training_mse_after": 0.04165916308788219,
+        "beta_min": 0.0,
+        "beta_max": 1.3546049625414263,
+        "negative_coefficients": 0,
+        "beta_bytes_training_only": 8192,
+        "accounted_learning_arrays_bytes": 705536,
+        "accounting_scope": "Named arrays, not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 2097152,
+        "memory_weight_bytes": 32768,
+        "weight_energy": 98137.1596909089,
+        "weight_peak_amplitude": 17.655502950227508
+      }
+    },
+    {
+      "dimension": 512,
+      "known_count": 256,
+      "method": "residual",
+      "seconds": [
+        0.022642900003120303,
+        0.023291299992706627,
+        0.024266799970064312
+      ],
+      "median_ms": 23.291299992706627,
+      "storage": {
+        "weight_bytes": 32768,
+        "metadata_bytes": 335,
+        "warm_atoms_bytes": 0,
+        "energy": 139694.48660978864,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "residual",
+        "known_keys": 256,
+        "classes": 4,
+        "initial_objective": 31.691809062621246,
+        "final_objective": 5.8331111536627205,
+        "training_mse_before": 0.06189806457543212,
+        "training_mse_after": 0.004176110020107043,
+        "beta_min": -0.7833287775998296,
+        "beta_max": 1.8390963620063419,
+        "negative_coefficients": 378,
+        "beta_bytes_training_only": 8192,
+        "accounted_learning_arrays_bytes": 1073152,
+        "accounting_scope": "Named arrays, not peak RSS/BLAS temporaries/energy.",
+        "unobserved_keys_used_as_targets": false,
+        "training_vector_bytes": 2097152,
+        "memory_weight_bytes": 32768,
+        "weight_energy": 139694.48660978864,
+        "weight_peak_amplitude": 23.369867368170233
+      }
+    },
+    {
+      "dimension": 512,
+      "known_count": 256,
+      "method": "exact",
+      "seconds": [
+        0.002743299992289394,
+        0.0025258000241592526,
+        0.0026848000125028193
+      ],
+      "median_ms": 2.6848000125028193,
+      "storage": {
+        "weight_bytes": 0,
+        "metadata_bytes": 15688,
+        "warm_atoms_bytes": 0,
+        "energy": 0.0,
+        "scope": "complex128 weights and UTF8 metadata; not total RAM or fixed-energy hardware."
+      },
+      "audit": {
+        "method": "uniform",
+        "identity_kernel_solution": "B=T",
+        "known_keys": 256
+      }
+    }
+  ]
+}

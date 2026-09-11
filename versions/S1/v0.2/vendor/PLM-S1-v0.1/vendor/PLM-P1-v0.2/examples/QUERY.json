@@ -1,0 +1,487 @@
+{
+  "document_id": "synthetic:doc",
+  "event_id": "event-000",
+  "role": "subject",
+  "candidates": [
+    {
+      "kind": "entity",
+      "id": "animal-000",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-001",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-002",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-003",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-004",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-005",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-006",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-007",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-008",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-009",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-010",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-011",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-012",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-013",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-014",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-015",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-016",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-017",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-018",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-019",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-020",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-021",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-022",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-023",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-024",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-025",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-026",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-027",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-028",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-029",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-030",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-031",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-032",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-033",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-034",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-035",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-036",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-037",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-038",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-039",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-040",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-041",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-042",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-043",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-044",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-045",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-046",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-047",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-048",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-049",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-050",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-051",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-052",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-053",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-054",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-055",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-056",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-057",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-058",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-059",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-060",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-061",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-062",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-063",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-064",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-065",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-066",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-067",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-068",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-069",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-070",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-071",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-072",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-073",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-074",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-075",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-076",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-077",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-078",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-079",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-080",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-081",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-082",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-083",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-084",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-085",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-086",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-087",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-088",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-089",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-090",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-091",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-092",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-093",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-094",
+      "scope": "synthetic:doc"
+    },
+    {
+      "kind": "entity",
+      "id": "animal-095",
+      "scope": "synthetic:doc"
+    }
+  ]
+}

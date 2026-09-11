@@ -1,0 +1,236 @@
+{
+  "scope": "One process, three fresh runs, independent data. Transactions include request, validation, fingerprints, copies and update. Query is batch320. Not peak RSS, pure kernel, energy or equal FLOPs.",
+  "rows": [
+    {
+      "architecture": "single128",
+      "teachers": 256,
+      "teacher_seconds": [
+        0.1441435000160709,
+        0.13750589999835938,
+        0.1301635999698192
+      ],
+      "median_ms_per_teacher": 0.5371324218685913,
+      "queries": 320,
+      "query_seconds": [
+        0.010543300013523549,
+        0.00957260001450777,
+        0.010267900011967868
+      ],
+      "median_ms_per_query_in_batch320": 0.032087187537399586,
+      "storage_after256": {
+        "coefficient_bytes": 8192,
+        "reader_coefficient_bytes": 8192,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 65536,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 256,
+        "reader_vector_updates": 256,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 131072,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 266
+      }
+    },
+    {
+      "architecture": "single512",
+      "teachers": 256,
+      "teacher_seconds": [
+        0.16104540001833811,
+        0.15769970003748313,
+        0.15844319999450818
+      ],
+      "median_ms_per_teacher": 0.6189187499785476,
+      "queries": 320,
+      "query_seconds": [
+        0.014557200018316507,
+        0.012949700001627207,
+        0.014102899993304163
+      ],
+      "median_ms_per_query_in_batch320": 0.04407156247907551,
+      "storage_after256": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 218,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 256,
+        "reader_vector_updates": 256,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 524288,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 266
+      }
+    },
+    {
+      "architecture": "concat512",
+      "teachers": 256,
+      "teacher_seconds": [
+        0.23234809999121353,
+        0.2222320000291802,
+        0.22305929998401552
+      ],
+      "median_ms_per_teacher": 0.8713253905625606,
+      "queries": 320,
+      "query_seconds": [
+        0.03529629996046424,
+        0.03482189995702356,
+        0.04019339999649674
+      ],
+      "median_ms_per_query_in_batch320": 0.11030093737645075,
+      "storage_after256": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 218,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 256,
+        "reader_vector_updates": 1024,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 524288,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 266
+      }
+    },
+    {
+      "architecture": "multi4",
+      "teachers": 256,
+      "teacher_seconds": [
+        0.21493030001875013,
+        0.22023690002970397,
+        0.20208209997508675
+      ],
+      "median_ms_per_teacher": 0.8395714844482427,
+      "queries": 320,
+      "query_seconds": [
+        0.0346187999821268,
+        0.03361610003048554,
+        0.03447810001671314
+      ],
+      "median_ms_per_query_in_batch320": 0.10774406255222857,
+      "storage_after256": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 214,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 256,
+        "reader_vector_updates": 1024,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 524288,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 266
+      }
+    },
+    {
+      "architecture": "clone4",
+      "teachers": 256,
+      "teacher_seconds": [
+        0.22671030001947656,
+        0.20360920001985505,
+        0.20068609999725595
+      ],
+      "median_ms_per_teacher": 0.7953484375775588,
+      "queries": 320,
+      "query_seconds": [
+        0.03530520002823323,
+        0.03238230000715703,
+        0.032861199986655265
+      ],
+      "median_ms_per_query_in_batch320": 0.1026912499582977,
+      "storage_after256": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 214,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 256,
+        "reader_vector_updates": 1024,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 524288,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 266
+      }
+    },
+    {
+      "architecture": "checked",
+      "teachers": 256,
+      "teacher_seconds": [
+        0.2949087000451982,
+        0.324738499999512,
+        0.284027999965474
+      ],
+      "median_ms_per_teacher": 1.1519871095515555,
+      "queries": 320,
+      "query_seconds": [
+        0.0516026999684982,
+        0.048555699991993606,
+        0.04197220003698021
+      ],
+      "median_ms_per_query_in_batch320": 0.15173656247498002,
+      "storage_after256": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 24576,
+        "checker_coefficient_bytes": 8192,
+        "warm_atom_bytes": 491520,
+        "metadata_utf8_bytes": 215,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 256,
+        "reader_vector_updates": 768,
+        "pair_vector_updates": 256,
+        "reader_coefficient_update_elements": 393216,
+        "pair_correlation_elements": 524288,
+        "learner_utf8_bytes": 266
+      }
+    },
+    {
+      "architecture": "exact",
+      "teachers": 256,
+      "teacher_seconds": [
+        0.19415899994783103,
+        0.20986280002398416,
+        0.18584069999633357
+      ],
+      "median_ms_per_teacher": 0.758433593546215,
+      "queries": 320,
+      "query_seconds": [
+        0.006245900003705174,
+        0.006167299987282604,
+        0.005491599964443594
+      ],
+      "median_ms_per_query_in_batch320": 0.019272812460258137,
+      "storage_after256": {
+        "coefficient_bytes": 0,
+        "reader_coefficient_bytes": 0,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 0,
+        "metadata_utf8_bytes": 4053,
+        "exact_entries": 64,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 256,
+        "reader_vector_updates": 0,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 0,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 266
+      }
+    }
+  ]
+}

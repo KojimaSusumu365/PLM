@@ -1,0 +1,12 @@
+{
+  "dimension": 2048,
+  "chips_per_component": 4,
+  "guard_length": 16,
+  "chip_rate_hz": 8000.0,
+  "max_delay_chips": 8,
+  "max_abs_cfo_hz": 2.0,
+  "acquisition_max_abs_cfo_hz": 4.0,
+  "spreading_seed": "s1-v01-public-codes",
+  "mode": "spread",
+  "layout": "distributed4"
+}

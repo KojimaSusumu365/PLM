@@ -1,0 +1,79 @@
+{
+  "status": "generated",
+  "text": "花子を太郎が助けた。",
+  "trace": [
+    {
+      "position": 0,
+      "action": {
+        "value": "slot:object",
+        "score": 1.05548088,
+        "margin": 0.98985092,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 1,
+      "action": {
+        "value": "emit:literal:を",
+        "score": 0.93812247,
+        "margin": 0.83798853,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 2,
+      "action": {
+        "value": "slot:subject",
+        "score": 0.90427449,
+        "margin": 0.83600066,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 3,
+      "action": {
+        "value": "emit:literal:が",
+        "score": 0.96734906,
+        "margin": 0.83070134,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 4,
+      "action": {
+        "value": "slot:predicate",
+        "score": 1.03371514,
+        "margin": 0.96787561,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 5,
+      "action": {
+        "value": "emit:literal:た",
+        "score": 0.89619024,
+        "margin": 0.8182473,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 6,
+      "action": {
+        "value": "emit:literal:。",
+        "score": 1.00935208,
+        "margin": 0.94470037,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 7,
+      "action": {
+        "value": "stop",
+        "score": 0.98144762,
+        "margin": 0.87370612,
+        "reason": "recovered"
+      }
+    }
+  ],
+  "eligible_for_inference": false
+}

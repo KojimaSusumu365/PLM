@@ -1,0 +1,49 @@
+{
+  "scope": "post-evaluation diagnosis only; no source or policy changes",
+  "rows": [
+    {
+      "code_seed": 32013,
+      "channel_seed": 91002,
+      "condition": "masked_noise",
+      "method": "projected_adaptive",
+      "event_id": "event-002",
+      "role": "subject",
+      "test_kind": "true_value_not_in_dictionary",
+      "outcome": "false_accept",
+      "selected": {
+        "kind": "entity",
+        "id": "animal-034",
+        "scope": "synthetic:doc"
+      },
+      "reason": "numerical_recovery_only",
+      "margin": 0.22171014,
+      "top_score": 0.41422806,
+      "observed_components": 512,
+      "residual_dof": 424,
+      "nuisance_rank": 88,
+      "residual_power": 7.95216474,
+      "amplitude_threshold": 0.4,
+      "margin_threshold": 0.19982937
+    },
+    {
+      "code_seed": 32012,
+      "channel_seed": 91004,
+      "condition": "unknown_nuisance",
+      "method": "projected_adaptive",
+      "event_id": "event-002",
+      "role": "subject",
+      "test_kind": "present",
+      "outcome": "abstained",
+      "selected": null,
+      "reason": "ambiguous_candidates",
+      "margin": 0.18062609,
+      "top_score": 0.62441377,
+      "observed_components": 512,
+      "residual_dof": 424,
+      "nuisance_rank": 88,
+      "residual_power": 11.54145763,
+      "amplitude_threshold": 0.43324491,
+      "margin_threshold": 0.24394216
+    }
+  ]
+}

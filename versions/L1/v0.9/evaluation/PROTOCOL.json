@@ -1,0 +1,20 @@
+{
+  "schema": "plm-l1-v09-protocol-v1",
+  "scope": "Review correction and global phase-recovery feature selection; synthetic supervised closed world, no general language or SS superiority claim.",
+  "selector_dimensions": [128,512,2048],
+  "selector_seeds": ["selection-evaluation-0","selection-evaluation-1"],
+  "component_seed": "banked-evaluation-0",
+  "temporal_seed": "temporal-evaluation-0",
+  "methods": ["ss","symbolic","id3","full"],
+  "candidate_search": "All nonempty global masks of 1 to 6 provided fields; candidate labels supplied by training pairs; positive-only support retains full keys.",
+  "selection_rule": "All unique training context-label pairs must recover correctly above MIN_SCORE and MIN_MARGIN. Rank eligible masks by field count, projected key count, canonical mask. Otherwise keep full context.",
+  "ss_equation": "H=sum(conj(k_u)*mean(v_y|u)); score(u,y)=Re(v_y^H*(k_u*H))/D. Conditional means prevent repeated-key gain; enumeration, grouping and complexity ranking are ordinary Python/NumPy.",
+  "matched_symbolic": "Same candidates, groups, label means, gates and complexity order; scores are exact conditional class frequencies, not phase correlation. Same downstream SS memory compiler and D.",
+  "synthetic": {"families":5,"replicates":2,"train_sizes":[8,16,24],"heldout_per_task":8,"label_noise":"0 or floor(10% n), minimum 1 flipped training label","standard":"24 training, no flips; all methods, dimensions, two seeds","stress":"all other training/noise settings; all four methods, D=2048, first seed","ablation":"standard SS with selector H=0, D=2048, first seed; final memory training unchanged"},
+  "language": {"component_pairs":432,"small_demonstration_pairs":6,"temporal_pairs":216,"single_read_requests_per_model":192,"single_generation_requests_per_model":384,"temporal_read_requests":864,"temporal_direct_generation_requests":432,"temporal_roundtrips":864,"language_phase_dimension":8192,"selector_dimension":2048,"language_model_variants":["ss","symbolic","id3","full","ss_disabled","ss_six"]},
+  "threshold_source": "plm_l1_v09/thresholds.py",
+  "same_entity_policy": "Inference supports repeated lexical entities; pair learner rejects subject==object because automatic unique lexical alignment is ambiguous. This is an explicit training limitation, not silent support for such pairs.",
+  "acceptance": ["SS standard single read/generate exact","SS temporal event/time/presentation checks exact","matched symbolic and ID3 standard language exact","synthetic accounting and train/test nonoverlap","SS selection zero-H control has no eligible projections","runtime numeric-only transfer and inference remains disabled","threshold registry, artifact integrity, functional tolerance controls and self-contained CLI tests pass"],
+  "non_gates": ["SS superiority over symbolic or ID3","same selected masks as ID3","low-dimensional or label-noisy tasks perfectly solved","Linux portability (requires external Linux execution)","P1 chip masking, S1 demodulation, variable event count and inference (not implemented in v0.9)"],
+  "reproducibility": "Freeze code/data/protocol before evaluation; two deterministic result runs compared excluding environment/timing. Exact release manifest remains required; functional coefficient atol=rtol=1e-12 plus exact decisions is separate. Evaluator code independent, data synthetic not human annotated."
+}

@@ -1,0 +1,19 @@
+{
+  "rules": [
+    "private-key",
+    "github-token",
+    "openai-key",
+    "aws-access-key",
+    "google-api-key",
+    "slack-token",
+    "credential-assignment",
+    "basic-auth-url"
+  ],
+  "unique_disk_files_scanned": 10675,
+  "zip_npz_archives_inspected": 2076,
+  "archive_members": 40719,
+  "additional_unique_members_scanned": 12984,
+  "findings": [],
+  "suspicious_names": [],
+  "limitations": "Pattern-based preflight, not a proof of absence of every secret or personal datum. No payload excerpts stored."
+}

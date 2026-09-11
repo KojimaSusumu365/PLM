@@ -1,0 +1,160 @@
+{
+  "status": "read",
+  "reason": "controlled_language_observation",
+  "trace": [
+    {
+      "position": 0,
+      "state": "A0",
+      "category": "IF",
+      "action": {
+        "value": "noop",
+        "score": 1.00794938,
+        "margin": 0.94568861,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "H0",
+        "score": 0.94323643,
+        "margin": 0.88855887,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 1,
+      "state": "H0",
+      "category": "ENTITY",
+      "action": {
+        "value": "capture",
+        "score": 1.11133911,
+        "margin": 1.04545937,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "H1",
+        "score": 0.94416695,
+        "margin": 0.89470348,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 2,
+      "state": "H1",
+      "category": "GA",
+      "action": {
+        "value": "bind:subject",
+        "score": 0.99173182,
+        "margin": 0.92504003,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "HS2",
+        "score": 0.98956439,
+        "margin": 0.87470251,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 3,
+      "state": "HS2",
+      "category": "ENTITY",
+      "action": {
+        "value": "capture",
+        "score": 1.00986486,
+        "margin": 0.96618801,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "HS3",
+        "score": 1.07397809,
+        "margin": 1.02025484,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 4,
+      "state": "HS3",
+      "category": "WO",
+      "action": {
+        "value": "bind:object",
+        "score": 1.03762644,
+        "margin": 1.00537889,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "H4",
+        "score": 1.0272512,
+        "margin": 0.95239128,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 5,
+      "state": "H4",
+      "category": "PREDICATE",
+      "action": {
+        "value": "predicate",
+        "score": 0.98222684,
+        "margin": 0.92330471,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "H5",
+        "score": 1.07590444,
+        "margin": 1.00511122,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 6,
+      "state": "H5",
+      "category": "NEG_COND",
+      "action": {
+        "value": "status:negative:hypothetical",
+        "score": 1.01080596,
+        "margin": 0.93675528,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "E0",
+        "score": 0.96770412,
+        "margin": 0.89187612,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 7,
+      "state": "E0",
+      "category": "DOT",
+      "action": {
+        "value": "noop",
+        "score": 1.00706416,
+        "margin": 0.97929555,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "E1",
+        "score": 0.94794427,
+        "margin": 0.90806119,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 8,
+      "state": "E1",
+      "category": "EOS",
+      "action": {
+        "value": "stop",
+        "score": 1.03001915,
+        "margin": 0.98151324,
+        "reason": "recovered"
+      },
+      "next": {
+        "value": "DONE",
+        "score": 1.01264439,
+        "margin": 0.93363787,
+        "reason": "recovered"
+      }
+    }
+  ],
+  "eligible_for_inference": false
+}

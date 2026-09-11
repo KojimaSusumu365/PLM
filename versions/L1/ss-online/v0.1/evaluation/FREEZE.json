@@ -1,0 +1,19 @@
+{
+  "files": {
+    "ss_online/__init__.py": "a3524e1f9647b9ff602a4b71c27b28e6d95c465f797b89c4d788148b49a75e7c",
+    "ss_online/__main__.py": "d0afacb7de2cb662c0de624d4645f7c96d5f4f46cfe29bd043eca149b9cbca4f",
+    "ss_online/algebra.py": "da712b6d3a6fad932b556ec801933502e84b2832ce027e8c69b32ccd3a3192b2",
+    "ss_online/learning.py": "867d6977210c6f24cc1a2c28a4dc9386597066e486657f3fdc1cc1599766d210",
+    "ss_online/model.py": "3d405cfb65f1eae881e596c09645065c5c1aafde0d6477c1c8cc7dbb3b8a8cce",
+    "evaluation/cases.py": "039fcbb37f7e9b3b3a7d6b7b4a692915a1bbb46743b60abec1416edee04de176",
+    "evaluation/integrity.py": "1f6cdbbf2037cc4acc99e4aecf13477270f33549c5a2c6f2ad80aca3c5ae2faf",
+    "evaluation/metrics.py": "1868a67b3c8de0abb95239d8c7d7ec4d8e1183b9685f44e90a49f679a6ff63cf",
+    "evaluation/PROTOCOL.json": "e054900c1465b06f5cad68b5f9cdc2dc467aa751544b0a316610e1347af85caa",
+    "data/CASES.json": "9c4922e8f2f875125e8fde3b8613fd188441dd50a7adefa9f6cc772bc4dc943e",
+    "tests/test_online.py": "eb4b4cfb034730df7ddf62e0fbf8c3f6e4821a61910841acc31313d52fc64e0d",
+    "evaluate.py": "3acda7c126232862cfd7a0f6b1fe4b93353c82e4323ae6b647e0a1d088f61602",
+    "verify_release.py": "a4399df5857503a2ff111339a8acb97838e9552a6b4cab3cdf73bbe85d825d12",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  "freeze_hash": "87b093d390d0aa2f6bd91f13c9e58a7deec60ede284e038e62413a0d5136c981"
+}

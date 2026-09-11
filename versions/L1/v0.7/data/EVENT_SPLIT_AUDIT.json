@@ -1,0 +1,41 @@
+{
+  "schema": "plm-two-event-corpus-audit-v1",
+  "component_training_pairs": 432,
+  "two_event_training_pairs": 0,
+  "development_documents": 288,
+  "evaluation_documents": 288,
+  "development_meanings": 72,
+  "evaluation_meanings": 72,
+  "ordered_pair_overlap": 0,
+  "categories": [
+    "separate_participants",
+    "shared_subject",
+    "shared_object",
+    "role_chain",
+    "role_reversal",
+    "polarity_scope",
+    "modality_scope",
+    "identical_mentions",
+    "predicate_scope"
+  ],
+  "input_goal_pairs": [
+    [
+      "subject",
+      "subject"
+    ],
+    [
+      "subject",
+      "object"
+    ],
+    [
+      "object",
+      "subject"
+    ],
+    [
+      "object",
+      "object"
+    ]
+  ],
+  "evaluation_first_event_lexical_triple_absent_from_training": true,
+  "scope": "New ordered pairs and new paired texts, built from old controlled grammar/vocabulary and reused one-event split. Not an independently collected natural-language corpus. Sentence segmentation/event positions designed, not learned."
+}

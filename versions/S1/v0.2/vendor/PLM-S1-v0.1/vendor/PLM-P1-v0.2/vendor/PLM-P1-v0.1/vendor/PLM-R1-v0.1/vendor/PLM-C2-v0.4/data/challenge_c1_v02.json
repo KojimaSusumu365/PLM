@@ -1,0 +1,1005 @@
+{
+  "dataset": "PLM-C1-v0.2-post-implementation-challenge",
+  "schema_version": 2,
+  "construction": "20 unseen semantic seeds x 3 deterministic wrappers",
+  "limitations": [
+    "Authored in the same development session; not an external corpus.",
+    "The v0.2 engine was frozen before this file's first evaluation run.",
+    "No engine or Concept-data tuning is permitted after the first run.",
+    "Wrappers are dependent and must be cluster-bootstrapped by template_group."
+  ],
+  "splits": {
+    "dev": 0,
+    "test": 60,
+    "all": 60
+  },
+  "cases": [
+    {
+      "id": "polarity_triple_en__raw",
+      "inputs": "It is not impossible that this is not a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_v02",
+        "en",
+        "polarity",
+        "test",
+        "triple_negation"
+      ],
+      "template_group": "polarity_triple_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_triple_en__transcript",
+      "inputs": "Transcript: It is not impossible that this is not a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_v02",
+        "en",
+        "polarity",
+        "test",
+        "triple_negation"
+      ],
+      "template_group": "polarity_triple_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_triple_en__memo",
+      "inputs": "Memo: It is not impossible that this is not a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_v02",
+        "en",
+        "polarity",
+        "test",
+        "triple_negation"
+      ],
+      "template_group": "polarity_triple_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_denial_en__raw",
+      "inputs": "The witness did not deny that it was a dog.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v02",
+        "double_negation",
+        "en",
+        "polarity",
+        "test"
+      ],
+      "template_group": "polarity_denial_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_denial_en__transcript",
+      "inputs": "Transcript: The witness did not deny that it was a dog.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v02",
+        "double_negation",
+        "en",
+        "polarity",
+        "test"
+      ],
+      "template_group": "polarity_denial_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_denial_en__memo",
+      "inputs": "Memo: The witness did not deny that it was a dog.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v02",
+        "double_negation",
+        "en",
+        "polarity",
+        "test"
+      ],
+      "template_group": "polarity_denial_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_not_only_en__raw",
+      "inputs": "It was not only a dog but also a cat.",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v02",
+        "coordination",
+        "en",
+        "hierarchy",
+        "polarity",
+        "test"
+      ],
+      "template_group": "polarity_not_only_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_not_only_en__transcript",
+      "inputs": "Transcript: It was not only a dog but also a cat.",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v02",
+        "coordination",
+        "en",
+        "hierarchy",
+        "polarity",
+        "test"
+      ],
+      "template_group": "polarity_not_only_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_not_only_en__memo",
+      "inputs": "Memo: It was not only a dog but also a cat.",
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v02",
+        "coordination",
+        "en",
+        "hierarchy",
+        "polarity",
+        "test"
+      ],
+      "template_group": "polarity_not_only_en",
+      "split": "test"
+    },
+    {
+      "id": "polarity_triple_ja__raw",
+      "inputs": "犬でないとは言えなくはない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_v02",
+        "ja",
+        "polarity",
+        "test",
+        "triple_negation"
+      ],
+      "template_group": "polarity_triple_ja",
+      "split": "test"
+    },
+    {
+      "id": "polarity_triple_ja__transcript",
+      "inputs": "Transcript: 犬でないとは言えなくはない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_v02",
+        "ja",
+        "polarity",
+        "test",
+        "triple_negation"
+      ],
+      "template_group": "polarity_triple_ja",
+      "split": "test"
+    },
+    {
+      "id": "polarity_triple_ja__memo",
+      "inputs": "Memo: 犬でないとは言えなくはない",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "challenge_v02",
+        "ja",
+        "polarity",
+        "test",
+        "triple_negation"
+      ],
+      "template_group": "polarity_triple_ja",
+      "split": "test"
+    },
+    {
+      "id": "discourse_at_first_en__raw",
+      "inputs": "At first it looked like a dog; in fact it was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "correction",
+        "discourse",
+        "en",
+        "test"
+      ],
+      "template_group": "discourse_at_first_en",
+      "split": "test"
+    },
+    {
+      "id": "discourse_at_first_en__transcript",
+      "inputs": "Transcript: At first it looked like a dog; in fact it was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "correction",
+        "discourse",
+        "en",
+        "test"
+      ],
+      "template_group": "discourse_at_first_en",
+      "split": "test"
+    },
+    {
+      "id": "discourse_at_first_en__memo",
+      "inputs": "Memo: At first it looked like a dog; in fact it was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "correction",
+        "discourse",
+        "en",
+        "test"
+      ],
+      "template_group": "discourse_at_first_en",
+      "split": "test"
+    },
+    {
+      "id": "discourse_final_sources__raw",
+      "inputs": [
+        "Provisional finding: dog.",
+        "Final finding: cat."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "correction",
+        "discourse",
+        "en",
+        "source_order",
+        "test"
+      ],
+      "template_group": "discourse_final_sources",
+      "split": "test"
+    },
+    {
+      "id": "discourse_final_sources__transcript",
+      "inputs": [
+        "Transcript: Provisional finding: dog.",
+        "Transcript: Final finding: cat."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "correction",
+        "discourse",
+        "en",
+        "source_order",
+        "test"
+      ],
+      "template_group": "discourse_final_sources",
+      "split": "test"
+    },
+    {
+      "id": "discourse_final_sources__memo",
+      "inputs": [
+        "Memo: Provisional finding: dog.",
+        "Memo: Final finding: cat."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "correction",
+        "discourse",
+        "en",
+        "source_order",
+        "test"
+      ],
+      "template_group": "discourse_final_sources",
+      "split": "test"
+    },
+    {
+      "id": "discourse_formerly_en__raw",
+      "inputs": "Formerly classified as a dog; ultimately classified as a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "discourse",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "discourse_formerly_en",
+      "split": "test"
+    },
+    {
+      "id": "discourse_formerly_en__transcript",
+      "inputs": "Transcript: Formerly classified as a dog; ultimately classified as a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "discourse",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "discourse_formerly_en",
+      "split": "test"
+    },
+    {
+      "id": "discourse_formerly_en__memo",
+      "inputs": "Memo: Formerly classified as a dog; ultimately classified as a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "discourse",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "discourse_formerly_en",
+      "split": "test"
+    },
+    {
+      "id": "discourse_torikeshi_ja__raw",
+      "inputs": "犬という判定を取り消し、猫と確定した",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "discourse",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "discourse_torikeshi_ja",
+      "split": "test"
+    },
+    {
+      "id": "discourse_torikeshi_ja__transcript",
+      "inputs": "Transcript: 犬という判定を取り消し、猫と確定した",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "discourse",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "discourse_torikeshi_ja",
+      "split": "test"
+    },
+    {
+      "id": "discourse_torikeshi_ja__memo",
+      "inputs": "Memo: 犬という判定を取り消し、猫と確定した",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge_v02",
+        "discourse",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "discourse_torikeshi_ja",
+      "split": "test"
+    },
+    {
+      "id": "morph_puppies_en__raw",
+      "inputs": "The puppies were asleep.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "irregular_plural",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_puppies_en",
+      "split": "test"
+    },
+    {
+      "id": "morph_puppies_en__transcript",
+      "inputs": "Transcript: The puppies were asleep.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "irregular_plural",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_puppies_en",
+      "split": "test"
+    },
+    {
+      "id": "morph_puppies_en__memo",
+      "inputs": "Memo: The puppies were asleep.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "irregular_plural",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_puppies_en",
+      "split": "test"
+    },
+    {
+      "id": "morph_barked_en__raw",
+      "inputs": "The animal barked twice.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "morphology",
+        "past_tense",
+        "test"
+      ],
+      "template_group": "morph_barked_en",
+      "split": "test"
+    },
+    {
+      "id": "morph_barked_en__transcript",
+      "inputs": "Transcript: The animal barked twice.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "morphology",
+        "past_tense",
+        "test"
+      ],
+      "template_group": "morph_barked_en",
+      "split": "test"
+    },
+    {
+      "id": "morph_barked_en__memo",
+      "inputs": "Memo: The animal barked twice.",
+      "domain": "action",
+      "expected": "BARK",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "morphology",
+        "past_tense",
+        "test"
+      ],
+      "template_group": "morph_barked_en",
+      "split": "test"
+    },
+    {
+      "id": "morph_banks_accounts_en__raw",
+      "inputs": "The banks maintain customer accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v02",
+        "context_relation",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_banks_accounts_en",
+      "split": "test"
+    },
+    {
+      "id": "morph_banks_accounts_en__transcript",
+      "inputs": "Transcript: The banks maintain customer accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v02",
+        "context_relation",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_banks_accounts_en",
+      "split": "test"
+    },
+    {
+      "id": "morph_banks_accounts_en__memo",
+      "inputs": "Memo: The banks maintain customer accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v02",
+        "context_relation",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "morph_banks_accounts_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_follows_river_en__raw",
+      "inputs": "The bank follows the river for several miles.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "relation_follows_river_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_follows_river_en__transcript",
+      "inputs": "Transcript: The bank follows the river for several miles.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "relation_follows_river_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_follows_river_en__memo",
+      "inputs": "Memo: The bank follows the river for several miles.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v02",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "relation_follows_river_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_water_policy_en__raw",
+      "inputs": "The bank published a water policy.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "non_spatial",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_water_policy_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_water_policy_en__transcript",
+      "inputs": "Transcript: The bank published a water policy.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "non_spatial",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_water_policy_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_water_policy_en__memo",
+      "inputs": "Memo: The bank published a water policy.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "non_spatial",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_water_policy_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_account_levels_en__raw",
+      "inputs": "The bank keeps an account of river levels.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v02",
+        "competing_context",
+        "en",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_account_levels_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_account_levels_en__transcript",
+      "inputs": "Transcript: The bank keeps an account of river levels.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v02",
+        "competing_context",
+        "en",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_account_levels_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_account_levels_en__memo",
+      "inputs": "Memo: The bank keeps an account of river levels.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge_v02",
+        "competing_context",
+        "en",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_account_levels_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_hypothetical_ja__raw",
+      "inputs": "もしbankのそばに川があれば避難する",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "hypothetical",
+        "mixed",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_hypothetical_ja",
+      "split": "test"
+    },
+    {
+      "id": "relation_hypothetical_ja__transcript",
+      "inputs": "Transcript: もしbankのそばに川があれば避難する",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "hypothetical",
+        "mixed",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_hypothetical_ja",
+      "split": "test"
+    },
+    {
+      "id": "relation_hypothetical_ja__memo",
+      "inputs": "Memo: もしbankのそばに川があれば避難する",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "hypothetical",
+        "mixed",
+        "relation",
+        "test"
+      ],
+      "template_group": "relation_hypothetical_ja",
+      "split": "test"
+    },
+    {
+      "id": "relation_dry_riverbed_en__raw",
+      "inputs": "The bank lies beside a dry riverbed.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v02",
+        "compound",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "relation_dry_riverbed_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_dry_riverbed_en__transcript",
+      "inputs": "Transcript: The bank lies beside a dry riverbed.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v02",
+        "compound",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "relation_dry_riverbed_en",
+      "split": "test"
+    },
+    {
+      "id": "relation_dry_riverbed_en__memo",
+      "inputs": "Memo: The bank lies beside a dry riverbed.",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "tags": [
+        "challenge_v02",
+        "compound",
+        "en",
+        "relation",
+        "spatial",
+        "test"
+      ],
+      "template_group": "relation_dry_riverbed_en",
+      "split": "test"
+    },
+    {
+      "id": "target_another_case_en__raw",
+      "inputs": [
+        "A dog was logged.",
+        "In another case, a cat was logged."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_another_case_en",
+      "split": "test"
+    },
+    {
+      "id": "target_another_case_en__transcript",
+      "inputs": [
+        "Transcript: A dog was logged.",
+        "Transcript: In another case, a cat was logged."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_another_case_en",
+      "split": "test"
+    },
+    {
+      "id": "target_another_case_en__memo",
+      "inputs": [
+        "Memo: A dog was logged.",
+        "Memo: In another case, a cat was logged."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_another_case_en",
+      "split": "test"
+    },
+    {
+      "id": "target_betsu_case_ja__raw",
+      "inputs": [
+        "犬を記録した",
+        "別件では猫を記録した"
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "ja",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_betsu_case_ja",
+      "split": "test"
+    },
+    {
+      "id": "target_betsu_case_ja__transcript",
+      "inputs": [
+        "Transcript: 犬を記録した",
+        "Transcript: 別件では猫を記録した"
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "ja",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_betsu_case_ja",
+      "split": "test"
+    },
+    {
+      "id": "target_betsu_case_ja__memo",
+      "inputs": [
+        "Memo: 犬を記録した",
+        "Memo: 別件では猫を記録した"
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "ja",
+        "target_tracking",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "target_betsu_case_ja",
+      "split": "test"
+    },
+    {
+      "id": "target_afterward_places_en__raw",
+      "inputs": [
+        "I opened an account at a bank.",
+        "Afterward I walked along a river bank."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "relation",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_afterward_places_en",
+      "split": "test"
+    },
+    {
+      "id": "target_afterward_places_en__transcript",
+      "inputs": [
+        "Transcript: I opened an account at a bank.",
+        "Transcript: Afterward I walked along a river bank."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "relation",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_afterward_places_en",
+      "split": "test"
+    },
+    {
+      "id": "target_afterward_places_en__memo",
+      "inputs": [
+        "Memo: I opened an account at a bank.",
+        "Memo: Afterward I walked along a river bank."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge_v02",
+        "en",
+        "relation",
+        "target_tracking",
+        "test"
+      ],
+      "template_group": "target_afterward_places_en",
+      "split": "test"
+    },
+    {
+      "id": "consensus_siblings_en__raw",
+      "inputs": [
+        "One source says dog.",
+        "Another source says cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v02",
+        "consensus",
+        "en",
+        "hierarchy",
+        "test"
+      ],
+      "template_group": "consensus_siblings_en",
+      "split": "test"
+    },
+    {
+      "id": "consensus_siblings_en__transcript",
+      "inputs": [
+        "Transcript: One source says dog.",
+        "Transcript: Another source says cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v02",
+        "consensus",
+        "en",
+        "hierarchy",
+        "test"
+      ],
+      "template_group": "consensus_siblings_en",
+      "split": "test"
+    },
+    {
+      "id": "consensus_siblings_en__memo",
+      "inputs": [
+        "Memo: One source says dog.",
+        "Memo: Another source says cat."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge_v02",
+        "consensus",
+        "en",
+        "hierarchy",
+        "test"
+      ],
+      "template_group": "consensus_siblings_en",
+      "split": "test"
+    }
+  ]
+}

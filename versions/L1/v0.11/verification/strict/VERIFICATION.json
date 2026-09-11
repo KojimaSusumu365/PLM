@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "mode": "strict",
+  "unit_tests": 57,
+  "source_freeze": "c2e1b8662f818257a616014dc6daadc62bece4eef32870cde8529c5f3b9bc7fc",
+  "result_digest": "b5942654b2407d873fc49aee49993ecb03ddd44b62c7acae299129db39dd0109",
+  "saved_model_comparisons": {
+    "roles": {
+      "functional_passed": true,
+      "metadata_equal": true,
+      "coefficients_within_tolerance": true,
+      "max_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_decisions_equal": true,
+      "probes": 104,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "ambiguity-before": {
+      "functional_passed": true,
+      "metadata_equal": true,
+      "coefficients_within_tolerance": true,
+      "max_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_decisions_equal": true,
+      "probes": 55,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "ambiguity-after": {
+      "functional_passed": true,
+      "metadata_equal": true,
+      "coefficients_within_tolerance": true,
+      "max_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_decisions_equal": true,
+      "probes": 55,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    }
+  },
+  "isolated_training_without_evaluator": true,
+  "numeric_only_decoder_without_trainer": true,
+  "numeric_demos": [
+    {
+      "fraction": 1.0,
+      "status": "accepted",
+      "value": "subject:太郎|object:太郎",
+      "expected_truth": "subject:太郎|object:太郎"
+    },
+    {
+      "fraction": 0.5,
+      "status": "accepted",
+      "value": "subject:太郎|object:太郎",
+      "expected_truth": "subject:太郎|object:太郎"
+    },
+    {
+      "fraction": 0.0,
+      "status": "abstain",
+      "value": null,
+      "expected_truth": "subject:太郎|object:太郎"
+    }
+  ],
+  "manifest_files": "not_yet_packaged",
+  "vendor": {
+    "v010_sha256": "00f2265ab4c8af2d827e3da4320f0adeff0dca3d8271cac0ba3a53f1a18967d8",
+    "crc_valid": true,
+    "manifest_files": 131
+  },
+  "linux_execution_performed": false,
+  "v010_overabstention_policy_changed": false,
+  "p1_s1_integration_performed": false,
+  "full_numeric_evaluation_rerun_by_this_command": false
+}

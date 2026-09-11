@@ -1,0 +1,15 @@
+test_01_dog_bark (test_plm_c0.TestPLMC0.test_01_dog_bark) ... ok
+test_02_paraphrase (test_plm_c0.TestPLMC0.test_02_paraphrase) ... ok
+test_03_negation (test_plm_c0.TestPLMC0.test_03_negation) ... ok
+test_04_generic (test_plm_c0.TestPLMC0.test_04_generic) ... ok
+test_05_financial_bank (test_plm_c0.TestPLMC0.test_05_financial_bank) ... ok
+test_06_river_bank (test_plm_c0.TestPLMC0.test_06_river_bank) ... ok
+test_07_unknown (test_plm_c0.TestPLMC0.test_07_unknown) ... ok
+test_08_cat_sibling_contradiction (test_plm_c0.TestPLMC0.test_08_cat_sibling_contradiction) ... ok
+test_09_narrowing (test_plm_c0.TestPLMC0.test_09_narrowing) ... ok
+test_10_vehicle (test_plm_c0.TestPLMC0.test_10_vehicle) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.003s
+
+OK

@@ -1,0 +1,12 @@
+{
+  "transport_validated": true,
+  "semantic_validation": "C2_rules_replayed_not_independent",
+  "graph_independently_validated": false,
+  "content_hash_verified": true,
+  "inference_enabled": false,
+  "document_id": "1d386a06d70a3a239ffc27b767c7997533c0b8958be3ae6ba2ef76a47d2256d4",
+  "envelope_hash": "8fc10301d8d31c472c102d9d38400c40f00d0cc2485a8124fae17183a51526fe",
+  "document_created": true,
+  "source_link_created": true,
+  "context_added": true
+}

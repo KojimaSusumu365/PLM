@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "source_freeze": "0d488ef6e6ca3e9bcaa40bf6f6c49956f64e83388144f765914ec6d0055e2a5d",
+  "result_digest": "dd6c30dd07dc8df64d7874900a3eef897423ad9c7bcf5efd3d750d879c758eee",
+  "complete_numeric_runs": 2,
+  "equal_file_bytes": {
+    "EVALUATION.json": true,
+    "EVALUATION_REPORT.md": true,
+    "model/model.json": true
+  },
+  "equal_weight_arrays": {
+    "roles_0": true,
+    "polarity_0": true,
+    "modality_0": true,
+    "order_support_0": true,
+    "order_output_0": true,
+    "gaps_0": true,
+    "gaps_1": true,
+    "gaps_2": true,
+    "lexical_read_0": true,
+    "lexical_write_0": true
+  },
+  "unchanged_core_files": {
+    "algebra.py": true,
+    "projection.py": true,
+    "features.py": true,
+    "lexicon.py": true
+  },
+  "primary_model_fingerprint": "537ebf168a0b0d5cb7f074d61f884c9fd28f0c17a87a5fb53e9bc38e5a437b35",
+  "phase_vector_count": 10,
+  "raw_phase_weights_bytes": 1310720,
+  "test_counts": {
+    "NEW_TESTS": 70,
+    "V04_TESTS": 46,
+    "V03_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "acceptance_checks": 283,
+  "preserved_previous_release_files": 1152,
+  "standard_paired_conditions": 16,
+  "dimension_paired_conditions": 16,
+  "channel_conditions": 60,
+  "memory_conditions": 32,
+  "numpy": "2.3.5",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "weight_comparison_note": "NPZ arrays compared exactly, not ZIP-container timestamps."
+}

@@ -1,0 +1,907 @@
+=== multi_paraphrase_consensus ===
+{
+  "version": "PLM-C0 v0.3",
+  "inputs": [
+    "犬が吠えている",
+    "ワンちゃんがキャンキャン鳴いている",
+    "イヌが声を出している",
+    "dog is barking"
+  ],
+  "selections": {
+    "action": {
+      "domain": "action",
+      "selected": "BARK",
+      "candidate": "BARK",
+      "label_ja": "吠える",
+      "confidence": 0.9619,
+      "selection_confidence": 0.9619,
+      "ambiguous": false,
+      "reason": "hierarchy-aware ternary consensus",
+      "score": 1.9,
+      "runner_up": null,
+      "margin": 1.9
+    },
+    "entity": {
+      "domain": "entity",
+      "selected": "DOG",
+      "candidate": "DOG",
+      "label_ja": "犬",
+      "confidence": 0.9989,
+      "selection_confidence": 0.9989,
+      "ambiguous": false,
+      "reason": "hierarchy-aware ternary consensus",
+      "score": 4.0,
+      "runner_up": null,
+      "margin": 4.0
+    },
+    "place": {
+      "domain": "place",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    }
+  },
+  "ranking": {
+    "action": [
+      {
+        "concept": "VOCALIZE",
+        "label_ja": "発声する",
+        "score": 2.336,
+        "direct_support": 1.6,
+        "propagated_support": 1.045,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "BARK",
+        "label_ja": "吠える",
+        "score": 1.9,
+        "direct_support": 1.9,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "BITE",
+        "label_ja": "噛む",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ],
+    "entity": [
+      {
+        "concept": "DOG",
+        "label_ja": "犬",
+        "score": 4.0,
+        "direct_support": 4.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "ANIMAL",
+        "label_ja": "動物",
+        "score": 1.66,
+        "direct_support": 0.0,
+        "propagated_support": 2.2,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "LIVING",
+        "label_ja": "生物",
+        "score": 0.768,
+        "direct_support": 0.0,
+        "propagated_support": 1.21,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "VEHICLE",
+        "label_ja": "乗り物",
+        "score": -0.2,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ],
+    "place": [
+      {
+        "concept": "FINANCIAL_BANK",
+        "label_ja": "銀行",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "RIVER_BANK",
+        "label_ja": "川岸",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ]
+  },
+  "diagnostics": {
+    "patterns_checked": 164,
+    "raw_surface_matches": 8,
+    "accepted_surface_matches": 8,
+    "overlap_matches_suppressed": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "evidence_items": 8
+  }
+}
+
+=== negation ===
+{
+  "version": "PLM-C0 v0.3",
+  "inputs": [
+    "犬ではなく猫だった"
+  ],
+  "selections": {
+    "action": {
+      "domain": "action",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    },
+    "entity": {
+      "domain": "entity",
+      "selected": "CAT",
+      "candidate": "CAT",
+      "label_ja": "猫",
+      "confidence": 0.8455,
+      "selection_confidence": 0.8455,
+      "ambiguous": false,
+      "reason": "hierarchy-aware ternary consensus",
+      "score": 1.0,
+      "runner_up": null,
+      "margin": 1.0
+    },
+    "place": {
+      "domain": "place",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    }
+  },
+  "ranking": {
+    "action": [
+      {
+        "concept": "BARK",
+        "label_ja": "吠える",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "VOCALIZE",
+        "label_ja": "発声する",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "BITE",
+        "label_ja": "噛む",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ],
+    "entity": [
+      {
+        "concept": "CAT",
+        "label_ja": "猫",
+        "score": 1.0,
+        "direct_support": 1.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "ANIMAL",
+        "label_ja": "動物",
+        "score": 0.34,
+        "direct_support": 0.0,
+        "propagated_support": 0.55,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "LIVING",
+        "label_ja": "生物",
+        "score": 0.042,
+        "direct_support": 0.0,
+        "propagated_support": 0.3025,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "VEHICLE",
+        "label_ja": "乗り物",
+        "score": -0.2,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ],
+    "place": [
+      {
+        "concept": "FINANCIAL_BANK",
+        "label_ja": "銀行",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "RIVER_BANK",
+        "label_ja": "川岸",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ]
+  },
+  "diagnostics": {
+    "patterns_checked": 41,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "evidence_items": 2
+  }
+}
+
+=== generic_only ===
+{
+  "version": "PLM-C0 v0.3",
+  "inputs": [
+    "動物が吠えている"
+  ],
+  "selections": {
+    "action": {
+      "domain": "action",
+      "selected": "BARK",
+      "candidate": "BARK",
+      "label_ja": "吠える",
+      "confidence": 0.8455,
+      "selection_confidence": 0.8455,
+      "ambiguous": false,
+      "reason": "hierarchy-aware ternary consensus",
+      "score": 1.0,
+      "runner_up": null,
+      "margin": 1.0
+    },
+    "entity": {
+      "domain": "entity",
+      "selected": "ANIMAL",
+      "candidate": "ANIMAL",
+      "label_ja": "動物",
+      "confidence": 0.8256,
+      "selection_confidence": 0.8256,
+      "ambiguous": false,
+      "reason": "hierarchy-aware ternary consensus",
+      "score": 0.9,
+      "runner_up": null,
+      "margin": 0.9
+    },
+    "place": {
+      "domain": "place",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    }
+  },
+  "ranking": {
+    "action": [
+      {
+        "concept": "BARK",
+        "label_ja": "吠える",
+        "score": 1.0,
+        "direct_support": 1.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "VOCALIZE",
+        "label_ja": "発声する",
+        "score": 0.34,
+        "direct_support": 0.0,
+        "propagated_support": 0.55,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "BITE",
+        "label_ja": "噛む",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ],
+    "entity": [
+      {
+        "concept": "ANIMAL",
+        "label_ja": "動物",
+        "score": 0.9,
+        "direct_support": 1.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "LIVING",
+        "label_ja": "生物",
+        "score": 0.24,
+        "direct_support": 0.0,
+        "propagated_support": 0.55,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "DOG",
+        "label_ja": "犬",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "CAT",
+        "label_ja": "猫",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      }
+    ],
+    "place": [
+      {
+        "concept": "FINANCIAL_BANK",
+        "label_ja": "銀行",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "RIVER_BANK",
+        "label_ja": "川岸",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ]
+  },
+  "diagnostics": {
+    "patterns_checked": 41,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "evidence_items": 2
+  }
+}
+
+=== financial_bank ===
+{
+  "version": "PLM-C0 v0.3",
+  "inputs": [
+    "I opened a bank account for my money."
+  ],
+  "selections": {
+    "action": {
+      "domain": "action",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    },
+    "entity": {
+      "domain": "entity",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    },
+    "place": {
+      "domain": "place",
+      "selected": "FINANCIAL_BANK",
+      "candidate": "FINANCIAL_BANK",
+      "label_ja": "銀行",
+      "confidence": 0.9703,
+      "selection_confidence": 0.9703,
+      "ambiguous": false,
+      "reason": "hierarchy-aware ternary consensus",
+      "score": 2.05,
+      "runner_up": null,
+      "margin": 2.05
+    }
+  },
+  "ranking": {
+    "action": [
+      {
+        "concept": "BARK",
+        "label_ja": "吠える",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "VOCALIZE",
+        "label_ja": "発声する",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "BITE",
+        "label_ja": "噛む",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ],
+    "entity": [
+      {
+        "concept": "DOG",
+        "label_ja": "犬",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "CAT",
+        "label_ja": "猫",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "HUMAN",
+        "label_ja": "人",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "ANIMAL",
+        "label_ja": "動物",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      }
+    ],
+    "place": [
+      {
+        "concept": "FINANCIAL_BANK",
+        "label_ja": "銀行",
+        "score": 2.05,
+        "direct_support": 1.2,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.85,
+        "depth": 0
+      },
+      {
+        "concept": "RIVER_BANK",
+        "label_ja": "川岸",
+        "score": -0.09,
+        "direct_support": 0.45,
+        "propagated_support": 0.0,
+        "contradiction": 0.45,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ]
+  },
+  "diagnostics": {
+    "patterns_checked": 41,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "evidence_items": 5
+  }
+}
+
+=== river_bank ===
+{
+  "version": "PLM-C0 v0.3",
+  "inputs": [
+    "We sat on the river bank near the water."
+  ],
+  "selections": {
+    "action": {
+      "domain": "action",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    },
+    "entity": {
+      "domain": "entity",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    },
+    "place": {
+      "domain": "place",
+      "selected": "RIVER_BANK",
+      "candidate": "RIVER_BANK",
+      "label_ja": "川岸",
+      "confidence": 0.9587,
+      "selection_confidence": 0.9587,
+      "ambiguous": false,
+      "reason": "hierarchy-aware ternary consensus",
+      "score": 1.85,
+      "runner_up": null,
+      "margin": 1.85
+    }
+  },
+  "ranking": {
+    "action": [
+      {
+        "concept": "BARK",
+        "label_ja": "吠える",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "VOCALIZE",
+        "label_ja": "発声する",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "BITE",
+        "label_ja": "噛む",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ],
+    "entity": [
+      {
+        "concept": "DOG",
+        "label_ja": "犬",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "CAT",
+        "label_ja": "猫",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "HUMAN",
+        "label_ja": "人",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "ANIMAL",
+        "label_ja": "動物",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      }
+    ],
+    "place": [
+      {
+        "concept": "RIVER_BANK",
+        "label_ja": "川岸",
+        "score": 1.85,
+        "direct_support": 1.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.85,
+        "depth": 0
+      },
+      {
+        "concept": "FINANCIAL_BANK",
+        "label_ja": "銀行",
+        "score": -0.54,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.45,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ]
+  },
+  "diagnostics": {
+    "patterns_checked": 41,
+    "raw_surface_matches": 3,
+    "accepted_surface_matches": 1,
+    "overlap_matches_suppressed": 2,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "evidence_items": 3
+  }
+}
+
+=== ascii_boundary_hard_negative ===
+{
+  "version": "PLM-C0 v0.3",
+  "inputs": [
+    "The hotdog stand closed."
+  ],
+  "selections": {
+    "action": {
+      "domain": "action",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    },
+    "entity": {
+      "domain": "entity",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    },
+    "place": {
+      "domain": "place",
+      "selected": "UNRESOLVED",
+      "confidence": 0.0,
+      "selection_confidence": 1.0,
+      "ambiguous": true,
+      "reason": "no positive evidence"
+    }
+  },
+  "ranking": {
+    "action": [
+      {
+        "concept": "BARK",
+        "label_ja": "吠える",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      },
+      {
+        "concept": "VOCALIZE",
+        "label_ja": "発声する",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "BITE",
+        "label_ja": "噛む",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ],
+    "entity": [
+      {
+        "concept": "DOG",
+        "label_ja": "犬",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "CAT",
+        "label_ja": "猫",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "HUMAN",
+        "label_ja": "人",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 2
+      },
+      {
+        "concept": "ANIMAL",
+        "label_ja": "動物",
+        "score": -0.1,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 1
+      }
+    ],
+    "place": [
+      {
+        "concept": "FINANCIAL_BANK",
+        "label_ja": "銀行",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      },
+      {
+        "concept": "RIVER_BANK",
+        "label_ja": "川岸",
+        "score": 0.0,
+        "direct_support": 0.0,
+        "propagated_support": 0.0,
+        "contradiction": 0.0,
+        "context_boost": 0.0,
+        "depth": 0
+      }
+    ]
+  },
+  "diagnostics": {
+    "patterns_checked": 41,
+    "raw_surface_matches": 0,
+    "accepted_surface_matches": 0,
+    "overlap_matches_suppressed": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "evidence_items": 0
+  }
+}

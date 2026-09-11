@@ -1,0 +1,6 @@
+# 評価開始前の凍結確認
+
+最初のmanifest作成後、まだ固定評価を実行する前に、旧版の同名スクリプトが新版のスクリプトより先にimport候補となる点を修正した。
+変更はcompat.pyのvendor探索位置を先頭から2番目へ変えるもの。学習・意味演算・閾値・データ・合格条件は変更していない。
+修正前manifestはPREFLIGHT_SOURCE_MANIFEST.jsonとして保存し、最終SOURCE_MANIFEST.jsonへ変更ファイルのハッシュを反映した。
+全機能テストと新版のevaluate/release_toolsが正しく選択されることを確認してから、初回の固定評価を実行する。

@@ -1,0 +1,16 @@
+{
+  "state": {
+    "schema": "plm-ss-online-learner-01",
+    "method": "delta5",
+    "seed": "replay-fixed",
+    "step": 768,
+    "updates": 3840,
+    "history": "42bfd371c2de4d8586e39e271d42ce004442e18a45819484d7ab15e3baf905f6",
+    "buffer": [],
+    "model_fingerprint": "bbff3b27337615e82b157f0537780a30209b5db97e6ce3ae54c665f9b316e72a",
+    "learning_rate": 0.5,
+    "replay_capacity": 0,
+    "eligible_for_inference": false
+  },
+  "fingerprint": "ab8d17d972921b00a56210b5d26745e4b56ca6a5b16fb763801eb8aaeb59f048"
+}

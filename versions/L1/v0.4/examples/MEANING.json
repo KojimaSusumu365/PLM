@@ -1,0 +1,7 @@
+{
+  "modality": "modality:asserted",
+  "object": "entity:花子",
+  "polarity": "polarity:negative",
+  "predicate": "predicate:help",
+  "subject": "entity:太郎"
+}

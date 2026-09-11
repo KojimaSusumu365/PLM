@@ -1,0 +1,27 @@
+test_01_dog_bark (test_plm_c0.TestPLMC0Regression.test_01_dog_bark) ... ok
+test_02_paraphrase (test_plm_c0.TestPLMC0Regression.test_02_paraphrase) ... ok
+test_03_negation (test_plm_c0.TestPLMC0Regression.test_03_negation) ... ok
+test_04_generic (test_plm_c0.TestPLMC0Regression.test_04_generic) ... ok
+test_05_financial_bank (test_plm_c0.TestPLMC0Regression.test_05_financial_bank) ... ok
+test_06_river_bank (test_plm_c0.TestPLMC0Regression.test_06_river_bank) ... ok
+test_07_unknown (test_plm_c0.TestPLMC0Regression.test_07_unknown) ... ok
+test_08_cat_sibling_contradiction (test_plm_c0.TestPLMC0Regression.test_08_cat_sibling_contradiction) ... ok
+test_09_narrowing (test_plm_c0.TestPLMC0Regression.test_09_narrowing) ... ok
+test_10_vehicle (test_plm_c0.TestPLMC0Regression.test_10_vehicle) ... ok
+test_11_version_and_diagnostics (test_plm_c0.TestV03Engine.test_11_version_and_diagnostics) ... ok
+test_12_ascii_boundaries_block_substrings (test_plm_c0.TestV03Engine.test_12_ascii_boundaries_block_substrings) ... ok
+test_13_boundary_ablation_reproduces_false_positive (test_plm_c0.TestV03Engine.test_13_boundary_ablation_reproduces_false_positive) ... ok
+test_14_longest_match_suppresses_overlap (test_plm_c0.TestV03Engine.test_14_longest_match_suppresses_overlap) ... ok
+test_15_no_positive_evidence_has_abstention_confidence (test_plm_c0.TestV03Engine.test_15_no_positive_evidence_has_abstention_confidence) ... ok
+test_16_dataset_size_and_splits (test_plm_c0.TestV03Evaluation.test_16_dataset_size_and_splits) ... ok
+test_17_schema_validation (test_plm_c0.TestV03Evaluation.test_17_schema_validation) ... ok
+test_18_duplicate_ids_are_rejected (test_plm_c0.TestV03Evaluation.test_18_duplicate_ids_are_rejected) ... ok
+test_19_primary_beats_baseline_top1 (test_plm_c0.TestV03Evaluation.test_19_primary_beats_baseline_top1) ... ok
+test_20_extended_metrics_exist (test_plm_c0.TestV03Evaluation.test_20_extended_metrics_exist) ... ok
+test_21_bootstrap_intervals_exist (test_plm_c0.TestV03Evaluation.test_21_bootstrap_intervals_exist) ... ok
+test_22_negation_ablation_is_worse_on_negation (test_plm_c0.TestV03Evaluation.test_22_negation_ablation_is_worse_on_negation) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests
+
+OK

@@ -1,0 +1,1 @@
+{"status": "abstain", "reason": "candidate_read_unsupported", "text": null, "packet": null, "eligible_for_inference": false, "candidate_audit": [{"id": "hypothesis:0", "status": "abstain", "reason": "event_read_failed:1:unknown_token", "meaning_digest": null}, {"id": "hypothesis:1", "status": "abstain", "reason": "event_read_failed:1:unknown_token", "meaning_digest": null}]}

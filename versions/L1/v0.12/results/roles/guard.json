@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "schema": "plm-sufficiency-v012",
+    "base_fingerprint": "7dbc053a7b043840e6c405f0c955443e46bd1a0d94ed6ef002c35baf458250d6",
+    "training": {
+      "train_digest": "16211a4862e9444c18ae7676cc79f1561716180a8478e5757280a70f0fc143af",
+      "rows": 24,
+      "uses_training_only": true,
+      "deduplicated_per_key_label": true,
+      "calibration_or_evaluation_rows_added": false
+    },
+    "max_completions": 256,
+    "evidence": [
+      {
+        "fields": [
+          "first_name",
+          "order",
+          "second_name"
+        ],
+        "labels": [
+          "subject:太郎|object:太郎",
+          "subject:太郎|object:花子",
+          "subject:花子|object:太郎",
+          "subject:花子|object:花子"
+        ],
+        "dimension": 2048,
+        "seed": "v012-witness/evaluation-0",
+        "backend": "ss",
+        "entries": {},
+        "key_counts": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "threshold": 0.5
+      }
+    ],
+    "eligible_for_inference": false,
+    "scope": "Learned masks and finite training vocabulary; no truth guarantee for unlearned dependencies."
+  },
+  "fingerprint": "3706801e3b1d4ae8b12894b886d31f5c39cd2e6d5be65cc15834701b18f6c2df"
+}

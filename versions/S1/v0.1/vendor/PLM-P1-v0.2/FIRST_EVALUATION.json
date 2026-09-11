@@ -1,0 +1,17 @@
+{
+  "result_hash": "5c91ad16bf922656f81d0a2c33297be5945e9adebd2714dd1af83e9804c60c7c",
+  "protocol_hash": "25c934479e389bc6481abe3111adb2364584c896a6942bd9f2138032ae15ccfc",
+  "acceptance": {
+    "nominal_all_recovered": true,
+    "nominal_no_false_accepts": true,
+    "masked_recovery_at_least_95pct": true,
+    "masked_false_accept_at_most_2pct": true,
+    "no_observation_always_abstains": true,
+    "equal_exact_transmit_energy": true,
+    "pilot_recovery_at_least_95pct": true,
+    "pilot_false_accept_at_most_2pct": true,
+    "all_pilot_trials_aligned": true,
+    "pilot_max_phase_error_at_most_0p1rad": true,
+    "no_state_inference_promotion": true
+  }
+}

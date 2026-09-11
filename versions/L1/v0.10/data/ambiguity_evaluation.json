@@ -1,0 +1,1494 @@
+[
+  {
+    "id": "evaluation/ambiguous/0",
+    "true_dependencies": [
+      "f4"
+    ],
+    "plausible_correlated_fields": [
+      "f4",
+      "f3"
+    ],
+    "train": [
+      {
+        "context": {
+          "f4": 0,
+          "f3": 0,
+          "f2": 0,
+          "f5": 0,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 0,
+          "f2": 1,
+          "f5": 1,
+          "f0": 1,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 0,
+          "f2": 0,
+          "f5": 0,
+          "f0": 0,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 0,
+          "f2": 1,
+          "f5": 1,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 1,
+          "f2": 0,
+          "f5": 0,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 1,
+          "f2": 1,
+          "f5": 1,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 1,
+          "f2": 1,
+          "f5": 1,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 1,
+          "f2": 1,
+          "f5": 0,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "selection_validation": [
+      {
+        "context": {
+          "f4": 0,
+          "f3": 0,
+          "f2": 1,
+          "f5": 1,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 0,
+          "f2": 1,
+          "f5": 0,
+          "f0": 1,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 1,
+          "f2": 1,
+          "f5": 0,
+          "f0": 1,
+          "f1": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 1,
+          "f2": 0,
+          "f5": 1,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "risk_calibration": [
+      {
+        "context": {
+          "f4": 0,
+          "f3": 0,
+          "f2": 1,
+          "f5": 0,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 0,
+          "f2": 1,
+          "f5": 1,
+          "f0": 0,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 1,
+          "f2": 0,
+          "f5": 1,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 1,
+          "f2": 0,
+          "f5": 0,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "evaluation": [
+      {
+        "context": {
+          "f4": 0,
+          "f3": 1,
+          "f2": 1,
+          "f5": 1,
+          "f0": 1,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 1,
+          "f2": 0,
+          "f5": 1,
+          "f0": 1,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 1,
+          "f2": 0,
+          "f5": 1,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 1,
+          "f2": 1,
+          "f5": 1,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 0,
+          "f2": 0,
+          "f5": 1,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 0,
+          "f2": 1,
+          "f5": 1,
+          "f0": 1,
+          "f1": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 0,
+          "f2": 0,
+          "f5": 0,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 0,
+          "f2": 0,
+          "f5": 1,
+          "f0": 0,
+          "f1": 1
+        },
+        "label": "label:0"
+      }
+    ],
+    "added_examples": [
+      {
+        "context": {
+          "f4": 0,
+          "f3": 1,
+          "f2": 1,
+          "f5": 1,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 1,
+          "f2": 1,
+          "f5": 0,
+          "f0": 0,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 1,
+          "f2": 1,
+          "f5": 0,
+          "f0": 1,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 0,
+          "f3": 1,
+          "f2": 1,
+          "f5": 1,
+          "f0": 0,
+          "f1": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 0,
+          "f2": 1,
+          "f5": 0,
+          "f0": 1,
+          "f1": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 0,
+          "f2": 1,
+          "f5": 0,
+          "f0": 1,
+          "f1": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 0,
+          "f2": 1,
+          "f5": 1,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f4": 1,
+          "f3": 0,
+          "f2": 1,
+          "f5": 0,
+          "f0": 0,
+          "f1": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "scope": "Selected examples break correlation; clean supervised refit, not autonomous active learning."
+  },
+  {
+    "id": "evaluation/ambiguous/1",
+    "true_dependencies": [
+      "f2"
+    ],
+    "plausible_correlated_fields": [
+      "f5",
+      "f2"
+    ],
+    "train": [
+      {
+        "context": {
+          "f5": 0,
+          "f2": 0,
+          "f0": 1,
+          "f1": 1,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 0,
+          "f0": 0,
+          "f1": 0,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 0,
+          "f0": 0,
+          "f1": 1,
+          "f4": 0,
+          "f3": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 0,
+          "f0": 1,
+          "f1": 1,
+          "f4": 0,
+          "f3": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 1,
+          "f0": 0,
+          "f1": 0,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 1,
+          "f0": 0,
+          "f1": 1,
+          "f4": 0,
+          "f3": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 1,
+          "f0": 1,
+          "f1": 1,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 1,
+          "f0": 1,
+          "f1": 0,
+          "f4": 0,
+          "f3": 0
+        },
+        "label": "label:1"
+      }
+    ],
+    "selection_validation": [
+      {
+        "context": {
+          "f5": 0,
+          "f2": 0,
+          "f0": 0,
+          "f1": 0,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 0,
+          "f0": 1,
+          "f1": 1,
+          "f4": 0,
+          "f3": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 1,
+          "f0": 1,
+          "f1": 1,
+          "f4": 0,
+          "f3": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 1,
+          "f0": 1,
+          "f1": 0,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:1"
+      }
+    ],
+    "risk_calibration": [
+      {
+        "context": {
+          "f5": 0,
+          "f2": 0,
+          "f0": 1,
+          "f1": 1,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 0,
+          "f0": 1,
+          "f1": 0,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 1,
+          "f0": 0,
+          "f1": 0,
+          "f4": 0,
+          "f3": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 1,
+          "f0": 1,
+          "f1": 0,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:1"
+      }
+    ],
+    "evaluation": [
+      {
+        "context": {
+          "f5": 0,
+          "f2": 1,
+          "f0": 0,
+          "f1": 1,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 1,
+          "f0": 1,
+          "f1": 0,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 1,
+          "f0": 0,
+          "f1": 0,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 1,
+          "f0": 1,
+          "f1": 0,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 0,
+          "f0": 0,
+          "f1": 0,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 0,
+          "f0": 0,
+          "f1": 0,
+          "f4": 0,
+          "f3": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 0,
+          "f0": 0,
+          "f1": 0,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 0,
+          "f0": 0,
+          "f1": 1,
+          "f4": 1,
+          "f3": 1
+        },
+        "label": "label:0"
+      }
+    ],
+    "added_examples": [
+      {
+        "context": {
+          "f5": 0,
+          "f2": 1,
+          "f0": 0,
+          "f1": 1,
+          "f4": 0,
+          "f3": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 1,
+          "f0": 1,
+          "f1": 1,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 1,
+          "f0": 1,
+          "f1": 1,
+          "f4": 0,
+          "f3": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 0,
+          "f2": 1,
+          "f0": 0,
+          "f1": 0,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 0,
+          "f0": 1,
+          "f1": 0,
+          "f4": 0,
+          "f3": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 0,
+          "f0": 0,
+          "f1": 1,
+          "f4": 0,
+          "f3": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 0,
+          "f0": 0,
+          "f1": 0,
+          "f4": 0,
+          "f3": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f5": 1,
+          "f2": 0,
+          "f0": 1,
+          "f1": 1,
+          "f4": 1,
+          "f3": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "scope": "Selected examples break correlation; clean supervised refit, not autonomous active learning."
+  },
+  {
+    "id": "evaluation/ambiguous/2",
+    "true_dependencies": [
+      "f2"
+    ],
+    "plausible_correlated_fields": [
+      "f2",
+      "f3"
+    ],
+    "train": [
+      {
+        "context": {
+          "f2": 0,
+          "f3": 0,
+          "f4": 0,
+          "f0": 1,
+          "f1": 0,
+          "f5": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 0,
+          "f4": 1,
+          "f0": 0,
+          "f1": 0,
+          "f5": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 0,
+          "f4": 0,
+          "f0": 0,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 0,
+          "f4": 1,
+          "f0": 0,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 1,
+          "f4": 0,
+          "f0": 0,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 1,
+          "f4": 0,
+          "f0": 1,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 1,
+          "f4": 0,
+          "f0": 0,
+          "f1": 0,
+          "f5": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 1,
+          "f4": 1,
+          "f0": 1,
+          "f1": 1,
+          "f5": 1
+        },
+        "label": "label:0"
+      }
+    ],
+    "selection_validation": [
+      {
+        "context": {
+          "f2": 0,
+          "f3": 0,
+          "f4": 1,
+          "f0": 1,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 0,
+          "f4": 1,
+          "f0": 1,
+          "f1": 0,
+          "f5": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 1,
+          "f4": 1,
+          "f0": 0,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 1,
+          "f4": 1,
+          "f0": 0,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "risk_calibration": [
+      {
+        "context": {
+          "f2": 0,
+          "f3": 0,
+          "f4": 1,
+          "f0": 1,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 0,
+          "f4": 0,
+          "f0": 1,
+          "f1": 1,
+          "f5": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 1,
+          "f4": 1,
+          "f0": 0,
+          "f1": 0,
+          "f5": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 1,
+          "f4": 1,
+          "f0": 1,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "evaluation": [
+      {
+        "context": {
+          "f2": 0,
+          "f3": 1,
+          "f4": 1,
+          "f0": 0,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 1,
+          "f4": 0,
+          "f0": 1,
+          "f1": 1,
+          "f5": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 1,
+          "f4": 1,
+          "f0": 1,
+          "f1": 1,
+          "f5": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 1,
+          "f4": 1,
+          "f0": 1,
+          "f1": 0,
+          "f5": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 0,
+          "f4": 1,
+          "f0": 0,
+          "f1": 0,
+          "f5": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 0,
+          "f4": 0,
+          "f0": 0,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 0,
+          "f4": 1,
+          "f0": 0,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 0,
+          "f4": 1,
+          "f0": 1,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "added_examples": [
+      {
+        "context": {
+          "f2": 0,
+          "f3": 1,
+          "f4": 0,
+          "f0": 1,
+          "f1": 0,
+          "f5": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 1,
+          "f4": 0,
+          "f0": 0,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 1,
+          "f4": 0,
+          "f0": 0,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f3": 1,
+          "f4": 1,
+          "f0": 1,
+          "f1": 1,
+          "f5": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 0,
+          "f4": 1,
+          "f0": 1,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 0,
+          "f4": 1,
+          "f0": 1,
+          "f1": 1,
+          "f5": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 0,
+          "f4": 0,
+          "f0": 1,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f3": 0,
+          "f4": 0,
+          "f0": 0,
+          "f1": 0,
+          "f5": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "scope": "Selected examples break correlation; clean supervised refit, not autonomous active learning."
+  },
+  {
+    "id": "evaluation/ambiguous/3",
+    "true_dependencies": [
+      "f1"
+    ],
+    "plausible_correlated_fields": [
+      "f2",
+      "f1"
+    ],
+    "train": [
+      {
+        "context": {
+          "f2": 0,
+          "f1": 0,
+          "f3": 1,
+          "f0": 0,
+          "f5": 1,
+          "f4": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 0,
+          "f3": 0,
+          "f0": 0,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 0,
+          "f3": 1,
+          "f0": 1,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 0,
+          "f3": 1,
+          "f0": 0,
+          "f5": 0,
+          "f4": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 1,
+          "f3": 1,
+          "f0": 1,
+          "f5": 0,
+          "f4": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 1,
+          "f3": 0,
+          "f0": 0,
+          "f5": 0,
+          "f4": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 1,
+          "f3": 0,
+          "f0": 1,
+          "f5": 0,
+          "f4": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 1,
+          "f3": 0,
+          "f0": 0,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "selection_validation": [
+      {
+        "context": {
+          "f2": 0,
+          "f1": 0,
+          "f3": 0,
+          "f0": 1,
+          "f5": 1,
+          "f4": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 0,
+          "f3": 1,
+          "f0": 1,
+          "f5": 0,
+          "f4": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 1,
+          "f3": 1,
+          "f0": 0,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 1,
+          "f3": 1,
+          "f0": 1,
+          "f5": 0,
+          "f4": 0
+        },
+        "label": "label:0"
+      }
+    ],
+    "risk_calibration": [
+      {
+        "context": {
+          "f2": 0,
+          "f1": 0,
+          "f3": 0,
+          "f0": 1,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 0,
+          "f3": 1,
+          "f0": 0,
+          "f5": 0,
+          "f4": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 1,
+          "f3": 0,
+          "f0": 1,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 1,
+          "f3": 0,
+          "f0": 1,
+          "f5": 0,
+          "f4": 1
+        },
+        "label": "label:0"
+      }
+    ],
+    "evaluation": [
+      {
+        "context": {
+          "f2": 0,
+          "f1": 1,
+          "f3": 0,
+          "f0": 0,
+          "f5": 0,
+          "f4": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 1,
+          "f3": 1,
+          "f0": 0,
+          "f5": 1,
+          "f4": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 1,
+          "f3": 0,
+          "f0": 0,
+          "f5": 1,
+          "f4": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 1,
+          "f3": 0,
+          "f0": 0,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 0,
+          "f3": 0,
+          "f0": 0,
+          "f5": 1,
+          "f4": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 0,
+          "f3": 0,
+          "f0": 1,
+          "f5": 1,
+          "f4": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 0,
+          "f3": 0,
+          "f0": 0,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 0,
+          "f3": 1,
+          "f0": 1,
+          "f5": 0,
+          "f4": 1
+        },
+        "label": "label:1"
+      }
+    ],
+    "added_examples": [
+      {
+        "context": {
+          "f2": 0,
+          "f1": 1,
+          "f3": 1,
+          "f0": 1,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 1,
+          "f3": 1,
+          "f0": 1,
+          "f5": 0,
+          "f4": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 1,
+          "f3": 1,
+          "f0": 0,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 0,
+          "f1": 1,
+          "f3": 0,
+          "f0": 1,
+          "f5": 1,
+          "f4": 1
+        },
+        "label": "label:0"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 0,
+          "f3": 1,
+          "f0": 0,
+          "f5": 0,
+          "f4": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 0,
+          "f3": 0,
+          "f0": 1,
+          "f5": 1,
+          "f4": 0
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 0,
+          "f3": 0,
+          "f0": 1,
+          "f5": 0,
+          "f4": 1
+        },
+        "label": "label:1"
+      },
+      {
+        "context": {
+          "f2": 1,
+          "f1": 0,
+          "f3": 1,
+          "f0": 1,
+          "f5": 0,
+          "f4": 0
+        },
+        "label": "label:1"
+      }
+    ],
+    "scope": "Selected examples break correlation; clean supervised refit, not autonomous active learning."
+  }
+]

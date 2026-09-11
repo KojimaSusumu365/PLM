@@ -1,0 +1,109 @@
+{
+  "status": "recovered",
+  "selected": {
+    "kind": "entity",
+    "id": "animal-000",
+    "scope": "synthetic:doc"
+  },
+  "reason": "numerical_recovery_only",
+  "observed_components": 1410,
+  "candidate_count": 96,
+  "eligible_for_inference": false,
+  "top_candidates": [
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-000",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.94090131
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-035",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.13246782
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-057",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.11958425
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-065",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.11077676
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-011",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.09968999
+    }
+  ],
+  "margin": 0.80843349,
+  "score_kind": "projected_coherent_amplitude_not_probability",
+  "catalogue_hash": "f26a34aa5ee8a673791cd208bf629c4dcb8628f25c40ea22cc4dfea2adc91e02",
+  "policy": {
+    "min_components": 128,
+    "min_residual_dof": 128,
+    "min_retained_fraction": 0.5,
+    "min_amplitude": 0.4,
+    "family_alpha": 0.01,
+    "min_margin": 0.1,
+    "gap_z": 1.5
+  },
+  "nuisance_rank": 88,
+  "residual_dof": 1322,
+  "residual_power": 8.3622528,
+  "amplitude_threshold": 0.4,
+  "margin_threshold": 0.11874306,
+  "synchronization": {
+    "status": "aligned",
+    "reason": "bounded_pilot_estimate_not_truth_or_authentication",
+    "estimated_delay_chips": -5,
+    "estimated_cfo_hz": 1.059814453125,
+    "estimated_phase_rad": 1.8095191165533784,
+    "joint_coherence": 0.9951450997720519,
+    "delay_score_gap": 0.7312546188408202,
+    "frequency_score_gap": 0.20437335187269678,
+    "pilot_observed_per_block": [
+      17,
+      16,
+      22,
+      14
+    ],
+    "block_signed_coherence": [
+      0.996380862740877,
+      0.9947140076320645,
+      0.9943887350791988,
+      0.9954296475724307
+    ],
+    "block_residual_energy_ratio": [
+      0.007424367087105364,
+      0.01060832304973489,
+      0.011288411443652934,
+      0.009142661029858615
+    ],
+    "eligible_for_inference": false,
+    "scope": "bounded_synthetic_integer_delay_constant_cfo_not_authentication"
+  },
+  "despreading": {
+    "observed_payload_chips": 2044,
+    "recovered_coordinate_count": 1410,
+    "variance_note": "Partial-chip noise is heteroscedastic; frozen P1 rules are empirical, not calibrated probabilities"
+  },
+  "ss_demodulation_implemented": true,
+  "spreading_applied": true,
+  "implementation_scope": "synthetic_discrete_complex_baseband_only"
+}

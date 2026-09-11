@@ -1,0 +1,28 @@
+{
+  "schema": "plm-l1-v02-pair-evaluation-v1",
+  "dimension": 8192,
+  "development_seeds": ["pair-development-0", "pair-development-1", "pair-development-2"],
+  "evaluation_seeds": ["pair-evaluation-0", "pair-evaluation-1", "pair-evaluation-2", "pair-evaluation-3", "pair-evaluation-4", "pair-evaluation-5", "pair-evaluation-6", "pair-evaluation-7"],
+  "conditions": ["full", "no_pair_learning", "no_order", "roles_swapped", "states_flipped", "markers_renamed", "negative_examples_withheld"],
+  "data": "Reuse v0.1 composition partitions: train=576, development=192, evaluation=192. New reader fitting sees train text/meaning pairs and initial lexicon only. This is NOT a newly collected or project-unseen evaluation corpus.",
+  "supervision": "Only text and 5-slot meaning per pair. No order labels, state sequence, action sequence, token-role annotations or original reader outputs. Lexical ID equality derives alignments automatically; ambiguous training alignments are rejected.",
+  "prior_knowledge": "Content token kinds and lexical IDs; surface inventory with semantically unlabelled markers; fixed 5-slot schema; ordered abstract-shape feature family; finite candidate values; maximum tokens and association counts.",
+  "scope": "Same 6 names, 4 verbs, 2 constructions and 4 polarity/modality combinations as v0.1. Abstract whole-shape matching is learned, so unseen syntax is not claimed.",
+  "generator": "Byte-preserved v0.1 results/model (evaluation-0), fixed for all reader seeds. No generator fitting or legacy reader use in the new pipeline. Old reader invoked only for an explicitly separate reference score.",
+  "gates": {
+    "minimum_full_read_exact": 0.98,
+    "minimum_full_generate_exact": 0.98,
+    "maximum_full_wrong": 0,
+    "maximum_full_invalid_accepts": 0,
+    "minimum_ablation_generation_drop": 0.50,
+    "minimum_counterfactual_exact": 0.98,
+    "maximum_counterfactual_wrong": 0,
+    "maximum_withheld_negative_accepts": 0,
+    "minimum_retained_positive_read_exact": 0.98
+  },
+  "counterfactual_note": "Role/state label flips are artificial controls, not correct Japanese meanings. Marker renaming tests opaque-symbol learning. All are scored against their explicitly transformed meaning labels.",
+  "reference_note": "Ordinary lookup uses the same pair-derived features and supervision. Fixed v0.1 uses prior trace supervision. Report both; do not claim equal byte footprint, speed/energy advantage or independent corpora.",
+  "stress": {"dimensions": [128, 512, 2048], "seeds": ["pair-stress-0", "pair-stress-1"], "split": "evaluation", "gate": false, "note": "End-to-end low-dimension probe, not a new adaptive confidence method; errors/false accepts must remain visible."},
+  "scoring": "Independent bounded grammar implementation in preserved v0.1 oracle, not the new reader's own readback. Abstentions count as misses over all requested output goals. No independent human annotation.",
+  "deferred": ["adaptive load-dependent threshold learning", "unseen grammar induction", "unknown lexical meaning acquisition", "reduced-supervision generation", "long documents", "S1 synchronized receiver integration", "R1 inference opening"]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "table_rows_verified_against_json": 30,
+  "cli_examples": [
+    {
+      "command": "ask",
+      "exit_code": 0
+    },
+    {
+      "command": "teach",
+      "exit_code": 0
+    },
+    {
+      "command": "query",
+      "exit_code": 0
+    },
+    {
+      "command": "select",
+      "exit_code": 0
+    }
+  ],
+  "report_sha256": "35b7f96ac9e2a7cca37396490f06a22147dcce8c352f06f68e82f66fc18576a7",
+  "readme_sha256": "482a22a136f19d86a1413c69127f8b2421113b2ebdf52e34879af90184fd38f0",
+  "prediction_after_teacher_matches": true
+}

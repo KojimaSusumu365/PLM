@@ -1,0 +1,63 @@
+{
+  "concepts": [
+    {"id":"LIVING","label_ja":"生物","domain":"entity","parent":null},
+    {"id":"ANIMAL","label_ja":"動物","domain":"entity","parent":"LIVING"},
+    {"id":"DOG","label_ja":"犬","domain":"entity","parent":"ANIMAL"},
+    {"id":"CAT","label_ja":"猫","domain":"entity","parent":"ANIMAL"},
+    {"id":"HUMAN","label_ja":"人","domain":"entity","parent":"ANIMAL"},
+    {"id":"VEHICLE","label_ja":"乗り物","domain":"entity","parent":null},
+    {"id":"VOCALIZE","label_ja":"発声する","domain":"action","parent":null},
+    {"id":"BARK","label_ja":"吠える","domain":"action","parent":"VOCALIZE"},
+    {"id":"BITE","label_ja":"噛む","domain":"action","parent":null},
+    {"id":"FINANCIAL_BANK","label_ja":"銀行","domain":"place","parent":null},
+    {"id":"RIVER_BANK","label_ja":"川岸","domain":"place","parent":null}
+  ],
+  "lexicon": [
+    {"pattern":"ワンちゃん","concept":"DOG","weight":1.0},
+    {"pattern":"イヌ","concept":"DOG","weight":1.0},
+    {"pattern":"犬","concept":"DOG","weight":1.0},
+    {"pattern":"dog","concept":"DOG","weight":1.0},
+    {"pattern":"puppy","concept":"DOG","weight":1.0},
+    {"pattern":"猫","concept":"CAT","weight":1.0},
+    {"pattern":"cat","concept":"CAT","weight":1.0},
+    {"pattern":"人","concept":"HUMAN","weight":0.95},
+    {"pattern":"human","concept":"HUMAN","weight":1.0},
+    {"pattern":"person","concept":"HUMAN","weight":1.0},
+    {"pattern":"動物","concept":"ANIMAL","weight":1.0},
+    {"pattern":"animal","concept":"ANIMAL","weight":1.0},
+    {"pattern":"生物","concept":"LIVING","weight":1.0},
+    {"pattern":"living thing","concept":"LIVING","weight":1.0},
+    {"pattern":"自動車","concept":"VEHICLE","weight":1.0},
+    {"pattern":"車","concept":"VEHICLE","weight":1.0},
+    {"pattern":"vehicle","concept":"VEHICLE","weight":1.0},
+    {"pattern":"car","concept":"VEHICLE","weight":1.0},
+    {"pattern":"吠え","concept":"BARK","weight":1.0},
+    {"pattern":"bark","concept":"BARK","weight":1.0},
+    {"pattern":"キャンキャン","concept":"BARK","weight":0.9},
+    {"pattern":"鳴い","concept":"VOCALIZE","weight":0.75},
+    {"pattern":"鳴く","concept":"VOCALIZE","weight":0.75},
+    {"pattern":"声を出","concept":"VOCALIZE","weight":0.85},
+    {"pattern":"vocalize","concept":"VOCALIZE","weight":0.9},
+    {"pattern":"噛","concept":"BITE","weight":1.0},
+    {"pattern":"bite","concept":"BITE","weight":1.0},
+    {"pattern":"bit","concept":"BITE","weight":1.0},
+    {"pattern":"銀行","concept":"FINANCIAL_BANK","weight":1.0},
+    {"pattern":"預金","concept":"FINANCIAL_BANK","weight":0.85},
+    {"pattern":"口座","concept":"FINANCIAL_BANK","weight":0.85},
+    {"pattern":"loan","concept":"FINANCIAL_BANK","weight":0.8},
+    {"pattern":"loans","concept":"FINANCIAL_BANK","weight":0.8},
+    {"pattern":"account","concept":"FINANCIAL_BANK","weight":0.75},
+    {"pattern":"川岸","concept":"RIVER_BANK","weight":1.0},
+    {"pattern":"河岸","concept":"RIVER_BANK","weight":1.0},
+    {"pattern":"川辺","concept":"RIVER_BANK","weight":0.9},
+    {"pattern":"river bank","concept":"RIVER_BANK","weight":1.0},
+    {"pattern":"river","concept":"RIVER_BANK","weight":0.75}
+  ],
+  "ambiguous_lexicon": [
+    {"pattern":"bank","candidates":[{"concept":"FINANCIAL_BANK","weight":0.45},{"concept":"RIVER_BANK","weight":0.45}]}
+  ],
+  "context_rules": [
+    {"trigger":["money","loan","loans","account","deposit","金融","預金","口座"],"boost":{"FINANCIAL_BANK":0.85},"suppress":{"RIVER_BANK":0.45},"negation_sensitive":false},
+    {"trigger":["river","water","shore","川","水辺","河"],"boost":{"RIVER_BANK":0.85},"suppress":{"FINANCIAL_BANK":0.45},"negation_sensitive":true}
+  ]
+}

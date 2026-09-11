@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "candidate_id": "hypothesis:1",
+    "dependency_selection": "ss_multi",
+    "dimension": 8192,
+    "eligible_for_inference": false,
+    "kinds": {
+      "。": "marker",
+      "が": "marker",
+      "た": "marker",
+      "たら": "marker",
+      "なかった": "marker",
+      "なかったら": "marker",
+      "もし": "marker",
+      "を": "marker",
+      "健太": "entity",
+      "助け": "predicate",
+      "太郎": "entity",
+      "次郎": "entity",
+      "由紀": "entity",
+      "美咲": "entity",
+      "花子": "entity",
+      "褒め": "predicate",
+      "見つめ": "predicate",
+      "訪ね": "predicate"
+    },
+    "learning": true,
+    "lexicon_digest": "cface7154ad6e3f5a1f036ab65bdd30dde013d1e55d3f9700bcdc8a2a38972f1",
+    "memory_mode": "split_proof",
+    "pair_count": 218,
+    "pairs_digest": "c985d2a216e771e046df56969d4c6a147ae2d1cbff52659c4146035c77571b24",
+    "partial": true,
+    "read_acceptance": "recover_equals_candidate_v1",
+    "schema": "plm-l1-component-v09",
+    "seed": "banked-evaluation-0",
+    "selection_validation_count": 96,
+    "selection_validation_digest": "059f416d31432105d91e4098b64520ea13693bf94fe15ce7b9e1013d2e4d2683",
+    "selector_dimension": 2048,
+    "selector_enabled": true,
+    "selector_seed": "candidate-evaluation-0",
+    "slot_candidates": {
+      "modality": [
+        "modality:asserted",
+        "modality:hypothetical"
+      ],
+      "object": [
+        "entity:太郎",
+        "entity:花子",
+        "entity:次郎",
+        "entity:美咲",
+        "entity:健太",
+        "entity:由紀"
+      ],
+      "polarity": [
+        "polarity:positive",
+        "polarity:negative"
+      ],
+      "predicate": [
+        "predicate:help",
+        "predicate:praise",
+        "predicate:visit",
+        "predicate:gaze_at"
+      ],
+      "subject": [
+        "entity:太郎",
+        "entity:花子",
+        "entity:次郎",
+        "entity:美咲",
+        "entity:健太",
+        "entity:由紀"
+      ]
+    },
+    "statistics": {
+      "gaps": {
+        "bank_counts": [
+          2
+        ],
+        "bank_loads": [
+          [
+            5,
+            11
+          ]
+        ],
+        "cache_capacity_bytes": 131072,
+        "complete_contexts": 20,
+        "groups": 1,
+        "masks": [
+          [
+            "anchor",
+            "modality",
+            "polarity"
+          ]
+        ],
+        "numerical_weight_bytes": 131072,
+        "observations": 872,
+        "projected_contexts": 16,
+        "state_bytes": 133120
+      },
+      "lexical_read": {
+        "bank_counts": [
+          2
+        ],
+        "bank_loads": [
+          [
+            6,
+            4
+          ]
+        ],
+        "cache_capacity_bytes": 131072,
+        "complete_contexts": 10,
+        "groups": 1,
+        "masks": [
+          [
+            "surface"
+          ]
+        ],
+        "numerical_weight_bytes": 131072,
+        "observations": 10,
+        "projected_contexts": 10,
+        "state_bytes": 133120
+      },
+      "lexical_write": {
+        "bank_counts": [
+          2
+        ],
+        "bank_loads": [
+          [
+            9,
+            1
+          ]
+        ],
+        "cache_capacity_bytes": 131072,
+        "complete_contexts": 10,
+        "groups": 1,
+        "masks": [
+          [
+            "meaning_value"
+          ]
+        ],
+        "numerical_weight_bytes": 131072,
+        "observations": 10,
+        "projected_contexts": 10,
+        "state_bytes": 133120
+      },
+      "modality": {
+        "bank_counts": [
+          1
+        ],
+        "bank_loads": [
+          [
+            4
+          ]
+        ],
+        "cache_capacity_bytes": 131072,
+        "complete_contexts": 5,
+        "groups": 1,
+        "masks": [
+          [
+            "predicate_markers"
+          ]
+        ],
+        "numerical_weight_bytes": 131072,
+        "observations": 218,
+        "projected_contexts": 4,
+        "state_bytes": 133120
+      },
+      "order_output": {
+        "bank_counts": [
+          1
+        ],
+        "bank_loads": [
+          [
+            2
+          ]
+        ],
+        "cache_capacity_bytes": 131072,
+        "complete_contexts": 2,
+        "groups": 1,
+        "masks": [
+          [
+            "goal"
+          ]
+        ],
+        "numerical_weight_bytes": 131072,
+        "observations": 218,
+        "projected_contexts": 2,
+        "state_bytes": 133120
+      },
+      "order_support": {
+        "bank_counts": [
+          1
+        ],
+        "bank_loads": [
+          [
+            2
+          ]
+        ],
+        "cache_capacity_bytes": 131072,
+        "complete_contexts": 2,
+        "groups": 1,
+        "masks": [
+          [
+            "order"
+          ]
+        ],
+        "numerical_weight_bytes": 131072,
+        "observations": 218,
+        "projected_contexts": 2,
+        "state_bytes": 133120
+      },
+      "polarity": {
+        "bank_counts": [
+          1
+        ],
+        "bank_loads": [
+          [
+            4
+          ]
+        ],
+        "cache_capacity_bytes": 131072,
+        "complete_contexts": 5,
+        "groups": 1,
+        "masks": [
+          [
+            "predicate_markers"
+          ]
+        ],
+        "numerical_weight_bytes": 131072,
+        "observations": 218,
+        "projected_contexts": 4,
+        "state_bytes": 133120
+      },
+      "roles": {
+        "bank_counts": [
+          1
+        ],
+        "bank_loads": [
+          [
+            6
+          ]
+        ],
+        "cache_capacity_bytes": 131072,
+        "complete_contexts": 15,
+        "groups": 1,
+        "masks": [
+          [
+            "right"
+          ]
+        ],
+        "numerical_weight_bytes": 131072,
+        "observations": 654,
+        "projected_contexts": 6,
+        "state_bytes": 133120
+      }
+    },
+    "supervision_fields": [
+      "text",
+      "meaning"
+    ],
+    "supplied_trace_supervision": false,
+    "thresholds": {
+      "LEGACY_MIN_SCORE": 0.6,
+      "MAX_RESIDUAL": 0.2,
+      "MIN_MARGIN": 0.25,
+      "MIN_PRESENCE": 0.65,
+      "MIN_PROOF": 0.65,
+      "MIN_SCORE": 0.65,
+      "NUMERIC_ATOL": 1e-12,
+      "NUMERIC_RTOL": 1e-12,
+      "SELECTION_REQUIRED_ACCURACY": 1.0
+    }
+  },
+  "fingerprint": "80a4b16024d52e313d37d7b485c28f71c1ad3ba43b518a487969380bd6cfd649",
+  "groups": {
+    "roles": [
+      {
+        "weight": "roles_0"
+      }
+    ],
+    "polarity": [
+      {
+        "weight": "polarity_0"
+      }
+    ],
+    "modality": [
+      {
+        "weight": "modality_0"
+      }
+    ],
+    "order_support": [
+      {
+        "weight": "order_support_0"
+      }
+    ],
+    "order_output": [
+      {
+        "weight": "order_output_0"
+      }
+    ],
+    "gaps": [
+      {
+        "weight": "gaps_0"
+      }
+    ],
+    "lexical_read": [
+      {
+        "weight": "lexical_read_0"
+      }
+    ],
+    "lexical_write": [
+      {
+        "weight": "lexical_write_0"
+      }
+    ]
+  }
+}

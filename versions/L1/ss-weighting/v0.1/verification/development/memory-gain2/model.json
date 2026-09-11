@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "schema": "plm-ss-weighting-experiment-01",
+    "backend": "ss",
+    "dimension": 128,
+    "seed": "phase-dev",
+    "method": "gain2",
+    "fields": [
+      "f0",
+      "f1",
+      "f2",
+      "f3"
+    ],
+    "labels": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "threshold": 0.5,
+    "entries": {},
+    "teachers_digest": "e7ae896586d462530bd3d043802baf2f6c527a040cbb160188e346edd7748d6e",
+    "known_keys": 256,
+    "eligible_for_inference": false
+  },
+  "fingerprint": "a668a0ebf641bd744d04cc834f45b6fd1d22e4b5030c165a2aec47825562c36c"
+}

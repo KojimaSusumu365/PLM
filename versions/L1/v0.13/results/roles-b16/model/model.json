@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "schema": "plm-dependency-memory-v013",
+    "config": {
+      "fields": [
+        "first_name",
+        "order",
+        "second_name",
+        "style0",
+        "style1",
+        "style2"
+      ],
+      "vocabulary": {
+        "first_name": [
+          "太郎",
+          "花子"
+        ],
+        "order": [
+          "object_first",
+          "subject_first"
+        ],
+        "second_name": [
+          "太郎",
+          "花子"
+        ],
+        "style0": [
+          "0",
+          "1"
+        ],
+        "style1": [
+          "0",
+          "1"
+        ],
+        "style2": [
+          "0",
+          "1"
+        ]
+      },
+      "labels": [
+        "subject:太郎|object:太郎",
+        "subject:太郎|object:花子",
+        "subject:花子|object:太郎",
+        "subject:花子|object:花子"
+      ],
+      "backend": "ss",
+      "dimension": 2048,
+      "seed": "evaluation-0",
+      "retention": "all",
+      "max_order": 3,
+      "support_threshold": 0.5
+    },
+    "training": {
+      "rows": 40,
+      "unique_contexts": 40,
+      "digest": "a396851cfb1c0ce7b88485a2bb09a5783aa927913016929e033197fd59fca478",
+      "mask_selection": "All exact teacher-consistent masks up to fixed order; optional smallest-order ablation.",
+      "ss_runtime_has_training_key_table": false,
+      "unobserved_cell_means_unknown": true
+    },
+    "members": [
+      {
+        "mask": [
+          "first_name",
+          "order",
+          "second_name"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      }
+    ],
+    "eligible_for_inference": false
+  },
+  "fingerprint": "f836fdd508bb45e5f9a606f06436d0a64ff78ce0b0b841444d1f88325f375faa"
+}

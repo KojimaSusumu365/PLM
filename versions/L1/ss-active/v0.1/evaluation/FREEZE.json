@@ -1,0 +1,23 @@
+{
+  "files": {
+    "ss_multicode/__init__.py": "cf7fa7c2195ade25dd192b6749af718ed93d7183f91483e9d58d6070591e7cde",
+    "ss_multicode/algebra.py": "da712b6d3a6fad932b556ec801933502e84b2832ce027e8c69b32ccd3a3192b2",
+    "ss_multicode/learning.py": "dbf8645a01ae57e1ab98d7dc896b73d92c43d069b40d5e3338aa18e37e536832",
+    "ss_multicode/model.py": "3f11dd833e70f752e6576f134ff454ca2529cc130c877af4435dcdffbfd44d67",
+    "ss_active/__init__.py": "2a70e0bbba87cfbb87d3ceeba7cf050d2234aa7652dbeb0f3ce7a4f5d90b66b3",
+    "ss_active/__main__.py": "bb2337b0f6818ab8e9b074bb9fae515a71f14ee9adafc417dad83969500c7c2c",
+    "ss_active/selection.py": "56c64d02e408b3238ff318283da7bb96ecb06a97a267afa7636396f084345e29",
+    "ss_active/session.py": "7edc84a602f438f92ff31d6b09d5a1f7742f35d66491e5276cb57aa909552ef2",
+    "evaluation/cases.py": "f9c6a2bce5ecc026d073f524e6e6be88aff16899628eddede370c315687c691e",
+    "evaluation/integrity.py": "12736bfd9ed277611d07464eb82d3e2ab787fc492ba973cd322fcf258e187fb5",
+    "evaluation/metrics.py": "a65538403f8b5b3f09ff08029accb2e130c75afa4b0a17c6a27f0276eac788d3",
+    "evaluation/prepare.py": "1d6b7adf03d625e3e5d63904e88b3440052dc95c8c34b6e308bddef54ba1e04d",
+    "evaluation/PROTOCOL.json": "860a11185fc23fb7a087b5453406d04af44a99d836a8797238541009235ea5e7",
+    "data/CASES.json": "6fd57c4675f90ae313c50d7b59632ab4fe4d13bbd5ea5544232c4fce4a9a2695",
+    "tests/test_active.py": "28447959639ebcfcc5148426722f1a9edd87a075a983c40e3eeae03edb519eb5",
+    "evaluate.py": "9841d9465bdcde29272a0c62bc4e52ff443baed761a2edd30e136ddba755cbb8",
+    "verify_release.py": "4e9fd383a6f85fe857fe3c6e1ba86a0f236832e70d73f02b9d5e0e86b859759b",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  "freeze_hash": "f61110e39486594258257690baa7e8e6e53fdc4726164d903122467ddfd8ef7b"
+}

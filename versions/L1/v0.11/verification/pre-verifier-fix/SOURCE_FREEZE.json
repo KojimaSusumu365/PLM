@@ -1,0 +1,22 @@
+{
+  "files": {
+    "plm_l1_v011/__init__.py": "f1d49c438e8cc3a70bd32945648a57c376132c04fc215fed3e122d8ba6f0e993",
+    "plm_l1_v011/__main__.py": "091c4d25645e1ea87d085b544df9c9d45e6c817612a63a5034e629f709a6f350",
+    "plm_l1_v011/algebra.py": "da712b6d3a6fad932b556ec801933502e84b2832ce027e8c69b32ccd3a3192b2",
+    "plm_l1_v011/core.py": "da13761c44772b63f64f9f8abcb23ec63e1dce1db7b35cd48a7e7fac0fa47705",
+    "plm_l1_v011/portability.py": "7ee609ce90cc6b8215125bb89352eed4331078c370105f87423df9eb3530d96f",
+    "plm_l1_v011/training.py": "aabf8bfaf74c3e6007648f115ce990977e56313e068e71377088851ee8bb83d4",
+    "evaluation/__init__.py": "8396b5df9ffaaad3ac1457c3d202722b2f7257f10c98e68db09aaf01bac1e2d6",
+    "evaluation/integrity.py": "a47f82aae5b9e5200a632f2183dfc9cccabac3ed871c46980bc2fb835e0f111e",
+    "evaluation/metrics.py": "2895dc5943c77cfbcbcfcea981971e00e2e16a2097225082885e2bc18624e0b8",
+    "evaluation/PROTOCOL.json": "f6358656c93304251159d878e3f5bf53cf37f2cbd91f1e4e7ec21615696352a4",
+    "evaluation/tasks.py": "f9e628b39adad3a2ad33c76fb9a5da4b478947e0116202036ba3f25db1d650fa",
+    "tests/test_v011.py": "bddd5c12f9bb9e076bd8fe5caa18a5b3ca63bde424b80382fab6608f038a13f8",
+    "data/development.json": "51fe52f94a549509e32bc2225aaee99c41d73c8338728f087c15cdb8ab13c646",
+    "data/evaluation.json": "0133938b2ce991310ff04db6fd3f30a75fbe4e787edd465e28069a71e4d6efec",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "evaluate.py": "eb471246d2addbe1676cc5611bb1f09e16ab667edad7b33ca9724c191528e24c",
+    "verify_release.py": "90e4710ef6a897af3c189f3f30c24fd859278ebebed4b2ed818b6cb0b90d4bd1"
+  },
+  "freeze_hash": "d411cd32f5dc7b03c02d0781807c472ed5ac8346382fc0a66dbcf1a88ccd95b1"
+}

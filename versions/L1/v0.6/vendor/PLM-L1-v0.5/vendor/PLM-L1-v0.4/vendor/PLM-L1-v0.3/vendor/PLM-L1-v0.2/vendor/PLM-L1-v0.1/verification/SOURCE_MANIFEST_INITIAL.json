@@ -1,0 +1,21 @@
+{
+  "files": {
+    "IMPLEMENTATION_AUDIT.md": "415742176d7478d4a6623d2f2237e2053e5fa5f490d184ce5b3c029dbd92a9fb",
+    "NUMERICAL_SPEC.md": "d63a71668b01bee76f995876d312f34ac3a6b2c110448399737ad8f6c88a8344",
+    "README.md": "e4054df6c4a410c5f54b03b91e0786f77e78d677d239f164caf46f35cb4af8c5",
+    "evaluate.py": "c411d277fb447bbe858b30525fd18deac9ed10c91828e884cb7cceeeb1e17bbf",
+    "evaluation/PROTOCOL.json": "ece8907761094566bc6d63eb7a924a0dac53bf800bf670b7b8aca0e3bb7b9d2f",
+    "plm_l1/__init__.py": "ae72c106ef1a3571fbf001c1867f1cb1473e3d6c850e4a3c65718d2d4389920b",
+    "plm_l1/__main__.py": "cc53ce8e312b6b7ef1783234b00be8fe0455525b3b710a01120ef996c16a9795",
+    "plm_l1/algebra.py": "947ec54904c60ec7a6ea2dd7fa7ebb2ed3570e35f27461b8ee30bffbb6c19d92",
+    "plm_l1/oracle.py": "1fd83f5da0b0b9cdc34657c17e45a57f0d7eed408beaa3deb38c547f8459cd78",
+    "plm_l1/runtime.py": "867cd8aa4266e6ae80c3957952df4f8ff7f37bf30b52d7c604ec5be669014be5",
+    "plm_l1/teacher.py": "691d7f960f200fefd1da933a9e063bdbbe032a1476bbae8a6389745b43907ce2",
+    "plm_l1/training.py": "eb1f9044572591640aa91473e70113b56913725c804371b9636623f888440f09",
+    "release_tools.py": "653bda8679b005d5a26e4231e44acc37ff64f37c875978d2b8c6282a8786b427",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "tests/test_l1.py": "02a322d88766f8c648ba77effd845123d694e59b1f1e030a58afd3e476854de5",
+    "verify_release.py": "eaced02e2f134ad6312248caf4ccfa1b0968b29b35a0989a451b2f49863c073f"
+  },
+  "schema": "plm-l1-source-freeze-v1"
+}

@@ -1,0 +1,20 @@
+{
+  "protocol_version": "PLM-R1-independent-pilot-1",
+  "target_documents": 80,
+  "minimum_adjudicated_documents": 50,
+  "primary_prediction_set": "producer_rule_checked_including_negative_and_hypothetical",
+  "primary_metric": "micro_exact_relation_precision_recall_f1",
+  "matching": "multiset_exact_raw_source_spans_type_predicate_voice_polarity_modality_target",
+  "inference_enabled": false,
+  "strata": {
+    "financial_active": 10,
+    "financial_passive": 10,
+    "negative": 10,
+    "hypothetical_or_quoted": 10,
+    "coreference": 10,
+    "revision": 10,
+    "spatial": 10,
+    "unknown_or_no_relation": 10
+  },
+  "release_gate": "No automatic promotion. Independent evaluation and a separately authorized new release are required."
+}

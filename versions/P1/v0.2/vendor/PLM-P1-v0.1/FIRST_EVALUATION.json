@@ -1,0 +1,13 @@
+{
+  "result_hash": "a722a070e29e5d664109dee4f9119ea59895616c61c6934d7fa337d2e596dd2b",
+  "protocol_hash": "e37f46bb663c7369c16a2a1363abc1a0b67e006bec729cc9e6359225ad62204f",
+  "acceptance": {
+    "nominal_all_recovered": true,
+    "nominal_no_false_accepts": true,
+    "masked_recovery_at_least_95pct": false,
+    "masked_false_accept_at_most_2pct": true,
+    "no_observation_always_abstains": true,
+    "role_and_event_binding_controls": true
+  },
+  "dataset_kind": "internal_synthetic_not_independent"
+}

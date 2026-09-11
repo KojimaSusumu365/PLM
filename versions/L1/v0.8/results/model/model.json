@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "schema": "plm-temporal-model-v1",
+    "component_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+    "dimension": 8192,
+    "seed": "temporal-evaluation-0",
+    "mode": "bound",
+    "training": {
+      "dependency_selection": "full designed relation-context keys; no temporal feature selection",
+      "learning": true,
+      "marker_inventory": [
+        "",
+        "その前に、",
+        "その後、"
+      ],
+      "memory_dimension": 8192,
+      "pair_count": 216,
+      "pairs_digest": "17559dc579ba02cabb36c2fa5443ef9f7f3f85711c903f331cd408c68cf9dea7",
+      "seed": "temporal-evaluation-0",
+      "statistics": {
+        "temporal_read": {
+          "bank_counts": [
+            1
+          ],
+          "bank_loads": [
+            [
+              6
+            ]
+          ],
+          "cache_capacity_bytes": 131072,
+          "complete_contexts": 6,
+          "groups": 1,
+          "masks": [
+            [
+              "marker",
+              "presentation"
+            ]
+          ],
+          "numerical_weight_bytes": 131072,
+          "observations": 216,
+          "owned_heap_bytes": 264418,
+          "projected_contexts": 6,
+          "state_bytes": 133120
+        },
+        "temporal_write": {
+          "bank_counts": [
+            1
+          ],
+          "bank_loads": [
+            [
+              6
+            ]
+          ],
+          "cache_capacity_bytes": 131072,
+          "complete_contexts": 6,
+          "groups": 1,
+          "masks": [
+            [
+              "kind",
+              "presentation",
+              "source",
+              "target"
+            ]
+          ],
+          "numerical_weight_bytes": 131072,
+          "observations": 216,
+          "owned_heap_bytes": 264418,
+          "projected_contexts": 6,
+          "state_bytes": 133120
+        }
+      },
+      "supervision": [
+        "text",
+        "meaning"
+      ],
+      "supplied_operation_traces": false
+    },
+    "event_identity": "local_occurrence_id_stable_within_packet_not_cross_document",
+    "presentation": "separate_from_identity_and_temporal_edge",
+    "relation": "explicit_before_or_unknown_only",
+    "binding_and_boundaries": "designed_not_learned",
+    "read_acceptance": "recover_equals_own_full_candidate",
+    "eligible_for_inference": false
+  },
+  "fingerprint": "5bfaf41a6e196bc0233ad696f39bd638e3a426d3be1ac7aa27137a3943768a82",
+  "groups": {
+    "temporal_read": [
+      "temporal_read_0"
+    ],
+    "temporal_write": [
+      "temporal_write_0"
+    ]
+  }
+}

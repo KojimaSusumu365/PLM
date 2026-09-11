@@ -1,0 +1,44 @@
+{
+  "version": "PLM-P1 v0.1",
+  "tests": {
+    "P1": 99,
+    "R1": 92,
+    "C2": 186
+  },
+  "total_tests": 377,
+  "dependency": {
+    "version": "PLM-R1 v0.1",
+    "verified_files": 116,
+    "inventory_files": 117
+  },
+  "source_freeze": {
+    "valid": true,
+    "verified_files": 138,
+    "differences": []
+  },
+  "checks": {
+    "p1_tests_passed": true,
+    "r1_c2_278_tests_and_acceptance_preserved": true,
+    "dependency_bytes_unchanged": true,
+    "source_freeze_valid": true,
+    "first_evaluation_reproduced": true,
+    "numerical_acceptance_passed": false,
+    "r1_state_adapter_checks_passed": true,
+    "inference_and_ss_stay_disabled": true,
+    "cli_full_signal_roundtrip": true,
+    "cli_masked_demo_recovered": true,
+    "cli_gold_query_rejected": true
+  },
+  "passed": false,
+  "numerical_acceptance": {
+    "nominal_all_recovered": true,
+    "nominal_no_false_accepts": true,
+    "masked_recovery_at_least_95pct": false,
+    "masked_false_accept_at_most_2pct": true,
+    "no_observation_always_abstains": true,
+    "role_and_event_binding_controls": true
+  },
+  "numerical_query_count": 3840,
+  "independent_semantic_evaluation": "not_performed",
+  "ss_demodulation_implemented": false
+}

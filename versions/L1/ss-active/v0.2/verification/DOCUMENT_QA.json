@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "table_rows_verified_against_json": 46,
+  "cli_examples": [
+    {
+      "command": "ask",
+      "exit_code": 0
+    },
+    {
+      "command": "teach",
+      "exit_code": 0
+    },
+    {
+      "command": "query",
+      "exit_code": 0
+    },
+    {
+      "command": "export",
+      "exit_code": 0
+    },
+    {
+      "command": "select",
+      "exit_code": 0
+    },
+    {
+      "command": "start",
+      "exit_code": 0
+    },
+    {
+      "command": "background-ask",
+      "exit_code": 0
+    },
+    {
+      "command": "background-teach",
+      "exit_code": 0
+    }
+  ],
+  "report_sha256": "cda6ed23d300c0da35d1295c6e21c79ed1e3a6ef6e86b762d9e1f070222915b7",
+  "readme_sha256": "972299ddab3e1080811ba797ef8d20c5c4f2612ac9727644cfa3652a8c129107",
+  "actual_revisit_example_verified": true
+}

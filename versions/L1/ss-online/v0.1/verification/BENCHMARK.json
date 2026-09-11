@@ -1,0 +1,255 @@
+{
+  "scope": "Single process after both evaluations. First256 teachers of independent benchmark stream, three fresh repeats. End-to-end question+transaction including fingerprints/copying/replay. Not pure kernel time, power, peak RSS, or matched total compute/RAM.",
+  "rows": [
+    {
+      "dimension": 128,
+      "method": "accumulate",
+      "presentations": 256,
+      "seconds": [
+        0.1549228999647312,
+        0.13150710001355037,
+        0.12786479998612776
+      ],
+      "median_ms_per_feedback": 0.5136996094279311,
+      "final_storage": {
+        "weight_bytes": 8192,
+        "metadata_utf8_bytes": 383,
+        "warm_atom_bytes": 65536,
+        "exact_entries": 0,
+        "weight_energy": 123642.20599164272,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 349,
+        "replay_entries": 0,
+        "replay_unique_contexts": 0,
+        "replay_utf8_bytes": 2,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 256
+      }
+    },
+    {
+      "dimension": 128,
+      "method": "delta",
+      "presentations": 256,
+      "seconds": [
+        0.1433854000060819,
+        0.16231769998557866,
+        0.13049459998728707
+      ],
+      "median_ms_per_feedback": 0.5600992187737575,
+      "final_storage": {
+        "weight_bytes": 8192,
+        "metadata_utf8_bytes": 383,
+        "warm_atom_bytes": 65536,
+        "exact_entries": 0,
+        "weight_energy": 7177.603065216061,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 344,
+        "replay_entries": 0,
+        "replay_unique_contexts": 0,
+        "replay_utf8_bytes": 2,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 256
+      }
+    },
+    {
+      "dimension": 128,
+      "method": "delta5",
+      "presentations": 256,
+      "seconds": [
+        0.1879336999845691,
+        0.18659080000361428,
+        0.23783450003247708
+      ],
+      "median_ms_per_feedback": 0.7341160155647231,
+      "final_storage": {
+        "weight_bytes": 8192,
+        "metadata_utf8_bytes": 383,
+        "warm_atom_bytes": 65536,
+        "exact_entries": 0,
+        "weight_energy": 10817.079036866333,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 346,
+        "replay_entries": 0,
+        "replay_unique_contexts": 0,
+        "replay_utf8_bytes": 2,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 1280
+      }
+    },
+    {
+      "dimension": 128,
+      "method": "replay32",
+      "presentations": 256,
+      "seconds": [
+        0.38933939998969436,
+        0.328153700043913,
+        0.35040410002693534
+      ],
+      "median_ms_per_feedback": 1.3687660157302162,
+      "final_storage": {
+        "weight_bytes": 8192,
+        "metadata_utf8_bytes": 383,
+        "warm_atom_bytes": 65536,
+        "exact_entries": 0,
+        "weight_energy": 10098.201131783204,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 2972,
+        "replay_entries": 32,
+        "replay_unique_contexts": 28,
+        "replay_utf8_bytes": 2625,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 1276
+      }
+    },
+    {
+      "dimension": 128,
+      "method": "exact",
+      "presentations": 256,
+      "seconds": [
+        0.16604979999829084,
+        0.20865649997722358,
+        0.16775500000221655
+      ],
+      "median_ms_per_feedback": 0.6552929687586584,
+      "final_storage": {
+        "weight_bytes": 0,
+        "metadata_utf8_bytes": 4221,
+        "warm_atom_bytes": 0,
+        "exact_entries": 64,
+        "weight_energy": 0.0,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 344,
+        "replay_entries": 0,
+        "replay_unique_contexts": 0,
+        "replay_utf8_bytes": 2,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 256
+      }
+    },
+    {
+      "dimension": 512,
+      "method": "accumulate",
+      "presentations": 256,
+      "seconds": [
+        0.1558880999800749,
+        0.154418199963402,
+        0.14850479998858646
+      ],
+      "median_ms_per_feedback": 0.6031960936070391,
+      "final_storage": {
+        "weight_bytes": 32768,
+        "metadata_utf8_bytes": 383,
+        "warm_atom_bytes": 262144,
+        "exact_entries": 0,
+        "weight_energy": 503969.88084181433,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 349,
+        "replay_entries": 0,
+        "replay_unique_contexts": 0,
+        "replay_utf8_bytes": 2,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 256
+      }
+    },
+    {
+      "dimension": 512,
+      "method": "delta",
+      "presentations": 256,
+      "seconds": [
+        0.14835660002427176,
+        0.1593599999905564,
+        0.15449569997144863
+      ],
+      "median_ms_per_feedback": 0.6034988280134712,
+      "final_storage": {
+        "weight_bytes": 32768,
+        "metadata_utf8_bytes": 383,
+        "warm_atom_bytes": 262144,
+        "exact_entries": 0,
+        "weight_energy": 29426.069802944054,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 344,
+        "replay_entries": 0,
+        "replay_unique_contexts": 0,
+        "replay_utf8_bytes": 2,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 256
+      }
+    },
+    {
+      "dimension": 512,
+      "method": "delta5",
+      "presentations": 256,
+      "seconds": [
+        0.21458410000195727,
+        0.22437439998611808,
+        0.20807029999559745
+      ],
+      "median_ms_per_feedback": 0.8382191406326456,
+      "final_storage": {
+        "weight_bytes": 32768,
+        "metadata_utf8_bytes": 383,
+        "warm_atom_bytes": 262144,
+        "exact_entries": 0,
+        "weight_energy": 36090.51417725654,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 346,
+        "replay_entries": 0,
+        "replay_unique_contexts": 0,
+        "replay_utf8_bytes": 2,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 1280
+      }
+    },
+    {
+      "dimension": 512,
+      "method": "replay32",
+      "presentations": 256,
+      "seconds": [
+        0.3130937999812886,
+        0.31333610002184287,
+        0.3113488999661058
+      ],
+      "median_ms_per_feedback": 1.2230226561769086,
+      "final_storage": {
+        "weight_bytes": 32768,
+        "metadata_utf8_bytes": 383,
+        "warm_atom_bytes": 262144,
+        "exact_entries": 0,
+        "weight_energy": 35020.54737387724,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 2972,
+        "replay_entries": 32,
+        "replay_unique_contexts": 28,
+        "replay_utf8_bytes": 2625,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 1276
+      }
+    },
+    {
+      "dimension": 512,
+      "method": "exact",
+      "presentations": 256,
+      "seconds": [
+        0.16313529998296872,
+        0.18164929997874424,
+        0.28230130003066733
+      ],
+      "median_ms_per_feedback": 0.7095675780419697,
+      "final_storage": {
+        "weight_bytes": 0,
+        "metadata_utf8_bytes": 4221,
+        "warm_atom_bytes": 0,
+        "exact_entries": 64,
+        "weight_energy": 0.0,
+        "scope": "Owned arrays and JSON payloads, not total RSS/energy/hardware precision.",
+        "learner_state_utf8_bytes": 344,
+        "replay_entries": 0,
+        "replay_unique_contexts": 0,
+        "replay_utf8_bytes": 2,
+        "teacher_presentations": 256,
+        "numerical_or_exact_updates": 256
+      }
+    }
+  ]
+}

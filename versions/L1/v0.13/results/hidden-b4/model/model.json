@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "schema": "plm-dependency-memory-v013",
+    "config": {
+      "fields": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "vocabulary": {
+        "a": [
+          "0",
+          "1"
+        ],
+        "b": [
+          "0",
+          "1"
+        ],
+        "c": [
+          "0",
+          "1"
+        ],
+        "d": [
+          "0",
+          "1"
+        ],
+        "e": [
+          "0",
+          "1"
+        ],
+        "f": [
+          "0",
+          "1"
+        ]
+      },
+      "labels": [
+        "0",
+        "1"
+      ],
+      "backend": "ss",
+      "dimension": 2048,
+      "seed": "evaluation-0",
+      "retention": "all",
+      "max_order": 3,
+      "support_threshold": 0.5
+    },
+    "training": {
+      "rows": 25,
+      "unique_contexts": 25,
+      "digest": "342d50e488bdca1735ad7abad6277b21b7255ef00d3becd10f0da8fe04dd0876",
+      "mask_selection": "All exact teacher-consistent masks up to fixed order; optional smallest-order ablation.",
+      "ss_runtime_has_training_key_table": false,
+      "unobserved_cell_means_unknown": true
+    },
+    "members": [
+      {
+        "mask": [
+          "c",
+          "d",
+          "f"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      }
+    ],
+    "eligible_for_inference": false
+  },
+  "fingerprint": "e7045ff62e5320b49604872b2bc5272ef21bbb6676d707a81fe648fc27bb3783"
+}

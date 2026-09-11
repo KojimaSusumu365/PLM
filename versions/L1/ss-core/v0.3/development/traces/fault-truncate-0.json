@@ -1,0 +1,1 @@
+[{"candidates":3,"channels":1,"counts":[6144],"eligible_for_decision":false,"expected_ticks":6176,"id":0,"reason":"incomplete_window","received_sha256":"0dbf9d2a66508ceb8da0bc67926b320285510eb06884b350768a9401c28da948","source_sha256":"e75c69416814fedad7a67b6ad86404faa5d6b1fc3fbbc8bc0e43dc0278b33473","status":"held","tag":"roles/value/0","ticks":6175}]

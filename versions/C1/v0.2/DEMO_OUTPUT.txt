@@ -1,0 +1,1273 @@
+=== same_source_correction ===
+{
+  "version": "PLM-C1 v0.2",
+  "inputs": [
+    "犬だと思ったが、実際は猫だった"
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.8455,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "犬だと思ったが",
+      "assertion_status": "provisional",
+      "instance_scope": "instance:shared",
+      "discourse_state": "provisional",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "実際は猫だった",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "discourse_state": "corrective",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C001",
+      "state": "provisional",
+      "reason": "discourse cue classification"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C002",
+      "state": "corrective",
+      "reason": "discourse cue classification"
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0002",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 1
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "犬だと思ったが",
+      "pattern": "犬",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0002"
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "scope": "instance:shared/S001:C002",
+      "target_id": "T:shared:entity",
+      "source_text": "実際は猫だった",
+      "pattern": "猫",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 1,
+    "operations": 5,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== cross_source_correction ===
+{
+  "version": "PLM-C1 v0.2",
+  "inputs": [
+    "犬だ",
+    "犬らしい",
+    "訂正すると猫だった"
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.8455,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "犬だ",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "犬らしい",
+      "assertion_status": "provisional",
+      "instance_scope": "instance:shared",
+      "discourse_state": "provisional",
+      "correction_target": false
+    },
+    {
+      "source_id": "S003",
+      "source_order": 2,
+      "clause_id": "S003:C001",
+      "text": "訂正すると猫だった",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "discourse_state": "corrective",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S002:C001",
+      "state": "provisional",
+      "reason": "discourse cue classification"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S003:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S003:C001",
+      "state": "corrective",
+      "reason": "discourse cue classification"
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0003",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0002",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0003",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "active_evidence_items": 1
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "犬だ",
+      "pattern": "犬",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0003"
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:shared/S002:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "犬らしい",
+      "pattern": "犬",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0003"
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 2,
+      "source_id": "S003",
+      "source_order": 2,
+      "clause_id": "S003:C001",
+      "scope": "instance:shared/S003:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "訂正すると猫だった",
+      "pattern": "猫",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 3,
+    "patterns_checked": 126,
+    "raw_surface_matches": 3,
+    "accepted_surface_matches": 3,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 3,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 2,
+    "operations": 7,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== double_negation ===
+{
+  "version": "PLM-C1 v0.2",
+  "inputs": [
+    "It is not impossible that this is a dog."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "DOG",
+    "candidate": "DOG",
+    "label_ja": "犬",
+    "confidence": 0.8455,
+    "selection_confidence": 0.8455,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "It is not impossible that this is a dog.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "POLARITY_COMPOSE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "polarity_depth": 2,
+      "resulting_vote": 1
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 1
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "It is not impossible that this is a dog.",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 2,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 1,
+    "accepted_surface_matches": 1,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 1,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== hypothetical_relation ===
+{
+  "version": "PLM-C1 v0.2",
+  "inputs": [
+    "If there were water, the bank would flood."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "UNRESOLVED",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.5323,
+    "selection_confidence": 0.4677,
+    "ambiguous": true,
+    "reason": "evidence below selection threshold",
+    "score": 0.1125,
+    "runner_up": "RIVER_BANK",
+    "margin": 0.0
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "If there were water, the bank would flood.",
+      "assertion_status": "hypothetical",
+      "instance_scope": "instance:shared",
+      "discourse_state": "hypothetical",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C001",
+      "state": "hypothetical",
+      "reason": "discourse cue classification"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "applied": false,
+      "reason": "hypothetical relation"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "ambiguous_pattern": "bank",
+      "trigger": "water",
+      "polarity": 1,
+      "assertion_status": "hypothetical",
+      "applied": false,
+      "reason": "hypothetical relation"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 2
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "If there were water, the bank would flood.",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.1125,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "hypothetical",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "If there were water, the bank would flood.",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.1125,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "hypothetical",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 1,
+    "accepted_surface_matches": 1,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 3,
+    "relation_items": 1,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== non_spatial_relation ===
+{
+  "version": "PLM-C1 v0.2",
+  "inputs": [
+    "The bank published a water policy."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "UNRESOLVED",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.6266,
+    "selection_confidence": 0.3734,
+    "ambiguous": true,
+    "reason": "evidence below selection threshold",
+    "score": 0.45,
+    "runner_up": "RIVER_BANK",
+    "margin": 0.0
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The bank published a water policy.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "ambiguous_pattern": "bank",
+      "trigger": "water",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 2
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank published a water policy.",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank published a water policy.",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 1,
+    "accepted_surface_matches": 1,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "relation_items": 1,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== plural_morphology ===
+{
+  "version": "PLM-C1 v0.2",
+  "inputs": [
+    "The bank stopped opening accounts."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "FINANCIAL_BANK",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.9703,
+    "selection_confidence": 0.9703,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 2.05,
+    "runner_up": null,
+    "margin": 2.05
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The bank stopped opening accounts.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "applied": true,
+      "reason": "relation accepted"
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0005",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "polarity_depth": 0,
+      "amount": 0.45,
+      "reason": "context contradiction"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "ambiguous_pattern": "bank",
+      "trigger": "account",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": true,
+      "reason": "relation accepted"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 5
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank stopped opening accounts.",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank stopped opening accounts.",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank stopped opening accounts.",
+      "pattern": "account",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.75,
+      "effective_weight": 0.75,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0004",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank stopped opening accounts.",
+      "pattern": "[relation:account]",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.85,
+      "effective_weight": 0.85,
+      "reason": "context boost",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0005",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank stopped opening accounts.",
+      "pattern": "[relation:account]",
+      "concept": "RIVER_BANK",
+      "vote": -1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "context contradiction",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 5,
+    "active_evidence_items": 5,
+    "superseded_evidence_items": 0,
+    "operations": 3,
+    "relation_items": 1,
+    "applied_relation_items": 1,
+    "target_ids": 1,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}
+
+=== target_isolation ===
+{
+  "version": "PLM-C1 v0.2",
+  "inputs": [
+    "I opened an account at a bank.",
+    "Afterward I walked along a river bank."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "UNRESOLVED",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.9519,
+    "selection_confidence": 0.85,
+    "ambiguous": true,
+    "reason": "isolated discourse scopes contain competing instances",
+    "score": 2.05,
+    "runner_up": "RIVER_BANK",
+    "margin": 1.14
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "I opened an account at a bank.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "Afterward I walked along a river bank.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:S002",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:S002",
+      "reason": "discourse clause boundary"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "applied": true,
+      "reason": "relation accepted"
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0005",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "polarity_depth": 0,
+      "amount": 0.45,
+      "reason": "context contradiction"
+    },
+    {
+      "operation": "ISOLATE_CONFLICT",
+      "domain": "place",
+      "target_ids": [
+        "T:S002:place",
+        "T:shared:place"
+      ],
+      "reason": "multiple target instances cannot share one Concept selection"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "ambiguous_pattern": "bank",
+      "trigger": "account",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": true,
+      "reason": "relation accepted"
+    }
+  ],
+  "targets": {
+    "T:S002:place": {
+      "concepts": [
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S002"
+      ],
+      "active_evidence_items": 1
+    },
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 5
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "I opened an account at a bank.",
+      "pattern": "account",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.75,
+      "effective_weight": 0.75,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "I opened an account at a bank.",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "I opened an account at a bank.",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0004",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "I opened an account at a bank.",
+      "pattern": "[relation:account]",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.85,
+      "effective_weight": 0.85,
+      "reason": "context boost",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0005",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "I opened an account at a bank.",
+      "pattern": "[relation:account]",
+      "concept": "RIVER_BANK",
+      "vote": -1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "context contradiction",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0006",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:S002/S002:C001",
+      "target_id": "T:S002:place",
+      "source_text": "Afterward I walked along a river bank.",
+      "pattern": "river bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 5,
+    "accepted_surface_matches": 3,
+    "overlap_matches_suppressed": 2,
+    "evidence_items": 6,
+    "active_evidence_items": 6,
+    "superseded_evidence_items": 0,
+    "operations": 5,
+    "relation_items": 1,
+    "applied_relation_items": 1,
+    "target_ids": 2,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [
+      "place"
+    ]
+  }
+}
+
+=== known_limit_irregular_plural ===
+{
+  "version": "PLM-C1 v0.2",
+  "inputs": [
+    "The puppies were asleep."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "UNRESOLVED",
+    "confidence": 0.0,
+    "selection_confidence": 1.0,
+    "ambiguous": true,
+    "reason": "no positive evidence"
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The puppies were asleep.",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "discourse clause boundary"
+    }
+  ],
+  "relations": [],
+  "targets": {},
+  "evidence": [],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 0,
+    "accepted_surface_matches": 0,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 0,
+    "active_evidence_items": 0,
+    "superseded_evidence_items": 0,
+    "operations": 1,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"PLM-P1 v0.2 public catalogue or query (runtime cross-validation also required)",
+  "oneOf":[{"$ref":"#/$defs/catalogue"},{"$ref":"#/$defs/query"}],
+  "$defs":{
+    "symbol":{"type":"object","additionalProperties":false,"required":["kind","id","scope"],"properties":{"kind":{"enum":["entity","concept","predicate","state","clause"]},"id":{"type":"string","minLength":1},"scope":{"type":"string","minLength":1}}},
+    "address":{"type":"object","additionalProperties":false,"required":["document_id","event_id"],"properties":{"document_id":{"type":"string","minLength":1},"event_id":{"type":"string","minLength":1}}},
+    "nuisance_values":{"type":"array","minItems":1,"maxItems":32,"uniqueItems":true,"items":{"$ref":"#/$defs/symbol"}},
+    "catalogue":{"type":"object","additionalProperties":false,"required":["format","addresses","vocabulary"],"properties":{
+      "format":{"const":"plm-public-nuisance-catalogue-v1"},
+      "addresses":{"type":"array","maxItems":64,"uniqueItems":true,"items":{"$ref":"#/$defs/address"}},
+      "vocabulary":{"type":"object","additionalProperties":false,"properties":{"predicate":{"$ref":"#/$defs/nuisance_values"},"polarity":{"$ref":"#/$defs/nuisance_values"},"modality":{"$ref":"#/$defs/nuisance_values"},"semantic_status":{"$ref":"#/$defs/nuisance_values"},"applied":{"$ref":"#/$defs/nuisance_values"}}}
+    }},
+    "query":{"type":"object","additionalProperties":false,"required":["document_id","event_id","role","candidates"],"properties":{
+      "document_id":{"type":"string","minLength":1},"event_id":{"type":"string","minLength":1},
+      "role":{"enum":["subject","object","predicate","polarity","modality","semantic_status","applied","target_clause"]},
+      "candidates":{"type":"array","maxItems":4096,"uniqueItems":true,"items":{"$ref":"#/$defs/symbol"}}
+    }}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "aligned",
+  "reason": "numerical_phase_estimate_only",
+  "pilot_observed_components": 34,
+  "estimated_phase_rad": 1.4222676148,
+  "pilot_coherence": 0.99203782,
+  "eligible_for_inference": false,
+  "ss_demodulation_implemented": false,
+  "scope": "global_phase_only"
+}

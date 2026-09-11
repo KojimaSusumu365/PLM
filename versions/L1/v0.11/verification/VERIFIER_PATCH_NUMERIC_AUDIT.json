@@ -1,0 +1,10 @@
+{
+  "all_numerical_results_identical_before_after_verifier_only_patch": true,
+  "old_freeze": "d411cd32f5dc7b03c02d0781807c472ed5ac8346382fc0a66dbcf1a88ccd95b1",
+  "current_freeze": "c2e1b8662f818257a616014dc6daadc62bece4eef32870cde8529c5f3b9bc7fc",
+  "excluded_from_comparison": [
+    "freeze_hash",
+    "result_digest"
+  ],
+  "scope": "Verifies that correcting stderr log parsing did not change numerical results, masks, thresholds or saved-model fingerprints."
+}

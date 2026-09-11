@@ -1,0 +1,1059 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "runs": [
+    {
+      "index": 0,
+      "fit_seconds": 0.055547500029206276,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0004267999902367592,
+      "policy_query_seconds": {
+        "baseline": 0.09773450047941878,
+        "observed_only": 0.097700200160034,
+        "consensus_only": 0.10746810009004548,
+        "completion": 0.11457089910982177
+      }
+    },
+    {
+      "index": 1,
+      "fit_seconds": 0.04134430002886802,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0004104999825358391,
+      "policy_query_seconds": {
+        "baseline": 0.09728260018164292,
+        "observed_only": 0.09705210017273203,
+        "consensus_only": 0.1060578998294659,
+        "completion": 0.11341270024422556
+      }
+    },
+    {
+      "index": 2,
+      "fit_seconds": 0.1398384000058286,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0008417000062763691,
+      "policy_query_seconds": {
+        "baseline": 0.3177759997197427,
+        "observed_only": 0.3175969998119399,
+        "consensus_only": 0.3298159004189074,
+        "completion": 0.3401979995542206
+      }
+    },
+    {
+      "index": 3,
+      "fit_seconds": 0.13831919996300712,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005387000273913145,
+      "policy_query_seconds": {
+        "baseline": 0.317924200440757,
+        "observed_only": 0.3180168994003907,
+        "consensus_only": 0.33146499982103705,
+        "completion": 0.3406337995547801
+      }
+    },
+    {
+      "index": 4,
+      "fit_seconds": 0.23335180000867695,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00016250001499429345,
+      "policy_query_seconds": {
+        "baseline": 0.009947199607267976,
+        "observed_only": 0.009420900023542345,
+        "consensus_only": 0.01565579994348809,
+        "completion": 0.018070499296300113
+      }
+    },
+    {
+      "index": 5,
+      "fit_seconds": 0.04518839996308088,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0003570999833755195,
+      "policy_query_seconds": {
+        "baseline": 0.09256520011695102,
+        "observed_only": 0.09242559969425201,
+        "consensus_only": 0.10207030066521838,
+        "completion": 0.10896510013844818
+      }
+    },
+    {
+      "index": 6,
+      "fit_seconds": 0.04416379996109754,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005162999732419848,
+      "policy_query_seconds": {
+        "baseline": 0.09483039984479547,
+        "observed_only": 0.0942164994776249,
+        "consensus_only": 0.1047286000684835,
+        "completion": 0.11223250057082623
+      }
+    },
+    {
+      "index": 7,
+      "fit_seconds": 0.13608940003905445,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005480999825522304,
+      "policy_query_seconds": {
+        "baseline": 0.30210500000976026,
+        "observed_only": 0.2998856998165138,
+        "consensus_only": 0.31220619997475296,
+        "completion": 0.32431019988143817
+      }
+    },
+    {
+      "index": 8,
+      "fit_seconds": 0.13957489997847006,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005726999952457845,
+      "policy_query_seconds": {
+        "baseline": 0.3088370998739265,
+        "observed_only": 0.3094430996570736,
+        "consensus_only": 0.3243359003099613,
+        "completion": 0.33187849953537807
+      }
+    },
+    {
+      "index": 9,
+      "fit_seconds": 0.2499301999923773,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0002071999479085207,
+      "policy_query_seconds": {
+        "baseline": 0.010996300377883017,
+        "observed_only": 0.010220100230071694,
+        "consensus_only": 0.017216000414919108,
+        "completion": 0.019592499476857483
+      }
+    },
+    {
+      "index": 10,
+      "fit_seconds": 0.060253300005570054,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0007307000341825187,
+      "policy_query_seconds": {
+        "baseline": 0.10138540028128773,
+        "observed_only": 0.10005580028519034,
+        "consensus_only": 0.11113319935975596,
+        "completion": 0.1167207001708448
+      }
+    },
+    {
+      "index": 11,
+      "fit_seconds": 0.054209600028116256,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005732000572606921,
+      "policy_query_seconds": {
+        "baseline": 0.09973729972261935,
+        "observed_only": 0.09961819992167875,
+        "consensus_only": 0.10962909884983674,
+        "completion": 0.11610940040554851
+      }
+    },
+    {
+      "index": 12,
+      "fit_seconds": 0.13924129999941215,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0009111999534070492,
+      "policy_query_seconds": {
+        "baseline": 0.3718861004454084,
+        "observed_only": 0.37281850003637373,
+        "consensus_only": 0.4050679000793025,
+        "completion": 0.40135119995102286
+      }
+    },
+    {
+      "index": 13,
+      "fit_seconds": 0.20925900002475828,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0017401000368408859,
+      "policy_query_seconds": {
+        "baseline": 0.30700679967412725,
+        "observed_only": 0.30682240036549047,
+        "consensus_only": 0.32011899969074875,
+        "completion": 0.3299085997277871
+      }
+    },
+    {
+      "index": 14,
+      "fit_seconds": 4121.113719300018,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0003727999865077436,
+      "policy_query_seconds": {
+        "baseline": 0.018332199659198523,
+        "observed_only": 0.01745870045851916,
+        "consensus_only": 0.028312599170021713,
+        "completion": 0.03141340072033927
+      }
+    },
+    {
+      "index": 15,
+      "fit_seconds": 0.078368800051976,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0010849999962374568,
+      "policy_query_seconds": {
+        "baseline": 0.11522049957420677,
+        "observed_only": 0.11515930067980662,
+        "consensus_only": 0.13750719936797395,
+        "completion": 0.1332107000052929
+      }
+    },
+    {
+      "index": 16,
+      "fit_seconds": 0.05312850000336766,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005367000121623278,
+      "policy_query_seconds": {
+        "baseline": 0.13891239959048107,
+        "observed_only": 0.15053930110298097,
+        "consensus_only": 0.15873129916144535,
+        "completion": 0.17060529941227287
+      }
+    },
+    {
+      "index": 17,
+      "fit_seconds": 0.34793019999051467,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.009899099997710437,
+      "policy_query_seconds": {
+        "baseline": 0.7885971004143357,
+        "observed_only": 0.8225950000924058,
+        "consensus_only": 0.8973470000200905,
+        "completion": 0.9110290996031836
+      }
+    },
+    {
+      "index": 18,
+      "fit_seconds": 0.24520500004291534,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0015576999867334962,
+      "policy_query_seconds": {
+        "baseline": 0.4201789005892351,
+        "observed_only": 0.4205787006067112,
+        "consensus_only": 0.44904680049512535,
+        "completion": 0.4501971993013285
+      }
+    },
+    {
+      "index": 19,
+      "fit_seconds": 0.2447447000304237,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00018620002083480358,
+      "policy_query_seconds": {
+        "baseline": 0.019063100626226515,
+        "observed_only": 0.016990299918688834,
+        "consensus_only": 0.027396199700888246,
+        "completion": 0.028001400758512318
+      }
+    },
+    {
+      "index": 20,
+      "fit_seconds": 0.07768789998954162,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0010365999769419432,
+      "policy_query_seconds": {
+        "baseline": 0.12150159972952679,
+        "observed_only": 0.12064379983348772,
+        "consensus_only": 0.1574060006532818,
+        "completion": 0.17195190011989325
+      }
+    },
+    {
+      "index": 21,
+      "fit_seconds": 0.06451820000074804,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.000660700025036931,
+      "policy_query_seconds": {
+        "baseline": 0.11633449979126453,
+        "observed_only": 0.11564510018797591,
+        "consensus_only": 0.14552780042868108,
+        "completion": 0.1642241000663489
+      }
+    },
+    {
+      "index": 22,
+      "fit_seconds": 0.1479733000160195,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.001378399960231036,
+      "policy_query_seconds": {
+        "baseline": 0.41422239982057363,
+        "observed_only": 0.4185543008497916,
+        "consensus_only": 0.4790400002966635,
+        "completion": 0.5131914998055436
+      }
+    },
+    {
+      "index": 23,
+      "fit_seconds": 0.16384900000412017,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0009331000037491322,
+      "policy_query_seconds": {
+        "baseline": 0.3538727003033273,
+        "observed_only": 0.35104430007049814,
+        "consensus_only": 0.39416789991082624,
+        "completion": 0.4166236005257815
+      }
+    },
+    {
+      "index": 24,
+      "fit_seconds": 0.23802089999662712,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00015569996321573853,
+      "policy_query_seconds": {
+        "baseline": 0.012719099468085915,
+        "observed_only": 0.012445100815966725,
+        "consensus_only": 0.02899919991614297,
+        "completion": 0.03296649956610054
+      }
+    },
+    {
+      "index": 25,
+      "fit_seconds": 0.04386699997121468,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005530000198632479,
+      "policy_query_seconds": {
+        "baseline": 0.10727569984737784,
+        "observed_only": 0.10590240044984967,
+        "consensus_only": 0.13381809962447733,
+        "completion": 0.14888609963236377
+      }
+    },
+    {
+      "index": 26,
+      "fit_seconds": 0.047572000010404736,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005245999782346189,
+      "policy_query_seconds": {
+        "baseline": 0.11780110007384792,
+        "observed_only": 0.11989460041513667,
+        "consensus_only": 0.15533660002984107,
+        "completion": 0.16914719966007397
+      }
+    },
+    {
+      "index": 27,
+      "fit_seconds": 0.17224949999945238,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.001627200050279498,
+      "policy_query_seconds": {
+        "baseline": 0.4031369995791465,
+        "observed_only": 0.39838079997571185,
+        "consensus_only": 0.46726729965303093,
+        "completion": 0.48812930058920756
+      }
+    },
+    {
+      "index": 28,
+      "fit_seconds": 0.15543450001860037,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0010158999939449131,
+      "policy_query_seconds": {
+        "baseline": 0.36182809981983155,
+        "observed_only": 0.35960519954096526,
+        "consensus_only": 0.4079719003639184,
+        "completion": 0.4352946002036333
+      }
+    },
+    {
+      "index": 29,
+      "fit_seconds": 0.2458224999718368,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00016270001651719213,
+      "policy_query_seconds": {
+        "baseline": 0.01709109963849187,
+        "observed_only": 0.01610830007120967,
+        "consensus_only": 0.038508600322529674,
+        "completion": 0.10037200030637905
+      }
+    },
+    {
+      "index": 30,
+      "fit_seconds": 0.05393160000676289,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0010187000152654946,
+      "policy_query_seconds": {
+        "baseline": 0.12489520013332367,
+        "observed_only": 0.12609839998185635,
+        "consensus_only": 0.18259620026219636,
+        "completion": 0.20441539934836328
+      }
+    },
+    {
+      "index": 31,
+      "fit_seconds": 0.051146999991033226,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0008251999970525503,
+      "policy_query_seconds": {
+        "baseline": 0.1273308994132094,
+        "observed_only": 0.12391390069387853,
+        "consensus_only": 0.1831530999043025,
+        "completion": 0.20566640031756833
+      }
+    },
+    {
+      "index": 32,
+      "fit_seconds": 0.15166670002508909,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0013107999693602324,
+      "policy_query_seconds": {
+        "baseline": 0.3754687000182457,
+        "observed_only": 0.37504400056786835,
+        "consensus_only": 0.46467320050578564,
+        "completion": 0.48664620018098503
+      }
+    },
+    {
+      "index": 33,
+      "fit_seconds": 0.148008199990727,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0022695999941788614,
+      "policy_query_seconds": {
+        "baseline": 0.43341639963909984,
+        "observed_only": 0.44672419887501746,
+        "consensus_only": 0.5534136997885071,
+        "completion": 0.5936031002202071
+      }
+    },
+    {
+      "index": 34,
+      "fit_seconds": 0.25563199998578057,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00019480002811178565,
+      "policy_query_seconds": {
+        "baseline": 0.02091389987617731,
+        "observed_only": 0.020023699733428657,
+        "consensus_only": 0.054631899925880134,
+        "completion": 0.058940000424627215
+      }
+    },
+    {
+      "index": 35,
+      "fit_seconds": 0.059307599964085966,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0008923999848775566,
+      "policy_query_seconds": {
+        "baseline": 0.11999330035177991,
+        "observed_only": 0.12024850066518411,
+        "consensus_only": 0.17665310035226867,
+        "completion": 0.19378950004465878
+      }
+    },
+    {
+      "index": 36,
+      "fit_seconds": 0.04324039997300133,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0007835999713279307,
+      "policy_query_seconds": {
+        "baseline": 0.11770059971604496,
+        "observed_only": 0.11784909991547465,
+        "consensus_only": 0.16838129999814555,
+        "completion": 0.18817020050482824
+      }
+    },
+    {
+      "index": 37,
+      "fit_seconds": 0.13920049997977912,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0012811000342480838,
+      "policy_query_seconds": {
+        "baseline": 0.39248200034489855,
+        "observed_only": 0.3978899999638088,
+        "consensus_only": 0.4773172005661763,
+        "completion": 0.5115866991691291
+      }
+    },
+    {
+      "index": 38,
+      "fit_seconds": 0.16120069997850806,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0013217999949119985,
+      "policy_query_seconds": {
+        "baseline": 0.38166610075859353,
+        "observed_only": 0.382685600372497,
+        "consensus_only": 0.464534500206355,
+        "completion": 0.4950200994499028
+      }
+    },
+    {
+      "index": 39,
+      "fit_seconds": 0.24641620001057163,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00018609996186569333,
+      "policy_query_seconds": {
+        "baseline": 0.02195849909912795,
+        "observed_only": 0.02123060036683455,
+        "consensus_only": 0.055337799538392574,
+        "completion": 0.060930700215976685
+      }
+    },
+    {
+      "index": 40,
+      "fit_seconds": 0.04839109996100888,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0008219999726861715,
+      "policy_query_seconds": {
+        "baseline": 0.11961059953318909,
+        "observed_only": 0.11741210019681603,
+        "consensus_only": 0.13059160026023164,
+        "completion": 0.13771239976631477
+      }
+    },
+    {
+      "index": 41,
+      "fit_seconds": 0.044443100050557405,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0008111000061035156,
+      "policy_query_seconds": {
+        "baseline": 0.11358240060508251,
+        "observed_only": 0.11240169935626909,
+        "consensus_only": 0.12354310014052317,
+        "completion": 0.1315210999455303
+      }
+    },
+    {
+      "index": 42,
+      "fit_seconds": 0.1525061999564059,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.002053300035186112,
+      "policy_query_seconds": {
+        "baseline": 0.3839925000211224,
+        "observed_only": 0.3829792005708441,
+        "consensus_only": 0.4103547993581742,
+        "completion": 0.4169582999893464
+      }
+    },
+    {
+      "index": 43,
+      "fit_seconds": 0.16145819996017963,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00228009995771572,
+      "policy_query_seconds": {
+        "baseline": 0.417484599922318,
+        "observed_only": 0.41619039978832006,
+        "consensus_only": 0.4390078994911164,
+        "completion": 0.4557647003675811
+      }
+    },
+    {
+      "index": 44,
+      "fit_seconds": 0.23112839995883405,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00016649998724460602,
+      "policy_query_seconds": {
+        "baseline": 0.019698300457093865,
+        "observed_only": 0.019169800158124417,
+        "consensus_only": 0.02711999975144863,
+        "completion": 0.028543000167701393
+      }
+    },
+    {
+      "index": 45,
+      "fit_seconds": 0.04994080000324175,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0008602000307291746,
+      "policy_query_seconds": {
+        "baseline": 0.11459549964638427,
+        "observed_only": 0.11586919997353107,
+        "consensus_only": 0.12863210029900074,
+        "completion": 0.13217400008579716
+      }
+    },
+    {
+      "index": 46,
+      "fit_seconds": 0.052742899977602065,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0008650000090710819,
+      "policy_query_seconds": {
+        "baseline": 0.1388090003747493,
+        "observed_only": 0.14149729994824156,
+        "consensus_only": 0.15600630041444674,
+        "completion": 0.1619776003062725
+      }
+    },
+    {
+      "index": 47,
+      "fit_seconds": 0.18487880000611767,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0013165000127628446,
+      "policy_query_seconds": {
+        "baseline": 0.4464699001982808,
+        "observed_only": 0.5597843992873095,
+        "consensus_only": 0.4929689996642992,
+        "completion": 0.5081746998475865
+      }
+    },
+    {
+      "index": 48,
+      "fit_seconds": 0.17587699997238815,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0019192000036127865,
+      "policy_query_seconds": {
+        "baseline": 0.33136619901051745,
+        "observed_only": 0.338704600057099,
+        "consensus_only": 0.3558096995111555,
+        "completion": 0.3603790002525784
+      }
+    },
+    {
+      "index": 49,
+      "fit_seconds": 0.24050309997983277,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00017590000061318278,
+      "policy_query_seconds": {
+        "baseline": 0.019886000431142747,
+        "observed_only": 0.018767299538012594,
+        "consensus_only": 0.026690000668168068,
+        "completion": 0.028007399756461382
+      }
+    },
+    {
+      "index": 50,
+      "fit_seconds": 0.062454900005832314,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0011487000156193972,
+      "policy_query_seconds": {
+        "baseline": 0.1054489997914061,
+        "observed_only": 0.10467759898165241,
+        "consensus_only": 0.15732689993456006,
+        "completion": 0.17983679979806766
+      }
+    },
+    {
+      "index": 51,
+      "fit_seconds": 0.04728079994674772,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0008479999960400164,
+      "policy_query_seconds": {
+        "baseline": 0.10322950006229803,
+        "observed_only": 0.10291730001335964,
+        "consensus_only": 0.15071009966777638,
+        "completion": 0.17208660015603527
+      }
+    },
+    {
+      "index": 52,
+      "fit_seconds": 0.16350650001550093,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.001533999980892986,
+      "policy_query_seconds": {
+        "baseline": 0.32101910008350387,
+        "observed_only": 0.3228833999019116,
+        "consensus_only": 0.3935147008160129,
+        "completion": 0.41999769990798086
+      }
+    },
+    {
+      "index": 53,
+      "fit_seconds": 0.16269409999949858,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0018111999961547554,
+      "policy_query_seconds": {
+        "baseline": 0.32262309931684285,
+        "observed_only": 0.3245007997029461,
+        "consensus_only": 0.40102119994116947,
+        "completion": 0.4246271002339199
+      }
+    },
+    {
+      "index": 54,
+      "fit_seconds": 0.24311859998852015,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00019430002430453897,
+      "policy_query_seconds": {
+        "baseline": 0.02047959971241653,
+        "observed_only": 0.01989880041219294,
+        "consensus_only": 0.0546024992945604,
+        "completion": 0.06021720037097111
+      }
+    },
+    {
+      "index": 55,
+      "fit_seconds": 0.05461679998552427,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0006468999781645834,
+      "policy_query_seconds": {
+        "baseline": 0.12668880028650165,
+        "observed_only": 0.12534490000689402,
+        "consensus_only": 0.15083840006263927,
+        "completion": 0.16633179929340258
+      }
+    },
+    {
+      "index": 56,
+      "fit_seconds": 0.04462749999947846,
+      "training_term_cache_bytes": 13434880,
+      "estimated_term_complex_multiplications": 716800,
+      "estimated_bundle_complex_additions": 12124160,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.000651500013191253,
+      "policy_query_seconds": {
+        "baseline": 0.10281339951325208,
+        "observed_only": 0.10171299963258207,
+        "consensus_only": 0.1176812004414387,
+        "completion": 0.12495980015955865
+      }
+    },
+    {
+      "index": 57,
+      "fit_seconds": 0.14268029999220744,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0010040999623015523,
+      "policy_query_seconds": {
+        "baseline": 0.3466035999590531,
+        "observed_only": 0.3419168997788802,
+        "consensus_only": 0.36148039961699396,
+        "completion": 0.37050050031393766
+      }
+    },
+    {
+      "index": 58,
+      "fit_seconds": 0.15142759995069355,
+      "training_term_cache_bytes": 53739520,
+      "estimated_term_complex_multiplications": 2867200,
+      "estimated_bundle_complex_additions": 48496640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00150090001989156,
+      "policy_query_seconds": {
+        "baseline": 0.35085989988874644,
+        "observed_only": 0.34765999944647774,
+        "consensus_only": 0.38354929961496964,
+        "completion": 0.40220640029292554
+      }
+    },
+    {
+      "index": 59,
+      "fit_seconds": 0.24493369995616376,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.000311699986923486,
+      "policy_query_seconds": {
+        "baseline": 0.014085600094404072,
+        "observed_only": 0.013664400263223797,
+        "consensus_only": 0.020725200534798205,
+        "completion": 0.022395899810362607
+      }
+    },
+    {
+      "index": 60,
+      "fit_seconds": 0.03803390002576634,
+      "training_term_cache_bytes": 11755520,
+      "estimated_term_complex_multiplications": 627200,
+      "estimated_bundle_complex_additions": 10608640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00038079998921602964,
+      "policy_query_seconds": {
+        "baseline": 0.11454650026280433,
+        "observed_only": 0.11516599997412413,
+        "consensus_only": 0.12793369963765144,
+        "completion": 0.13482659996952862
+      }
+    },
+    {
+      "index": 61,
+      "fit_seconds": 0.03927130001829937,
+      "training_term_cache_bytes": 11755520,
+      "estimated_term_complex_multiplications": 627200,
+      "estimated_bundle_complex_additions": 10608640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0003972999984398484,
+      "policy_query_seconds": {
+        "baseline": 0.12294699996709824,
+        "observed_only": 0.11997639917535707,
+        "consensus_only": 0.13435389957157895,
+        "completion": 0.14342729991767555
+      }
+    },
+    {
+      "index": 62,
+      "fit_seconds": 0.13692409999202937,
+      "training_term_cache_bytes": 47022080,
+      "estimated_term_complex_multiplications": 2508800,
+      "estimated_bundle_complex_additions": 42434560,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005500999977812171,
+      "policy_query_seconds": {
+        "baseline": 0.4061476999777369,
+        "observed_only": 0.40200549963628873,
+        "consensus_only": 0.42514620046131313,
+        "completion": 0.4375691007007845
+      }
+    },
+    {
+      "index": 63,
+      "fit_seconds": 0.13991590001387522,
+      "training_term_cache_bytes": 47022080,
+      "estimated_term_complex_multiplications": 2508800,
+      "estimated_bundle_complex_additions": 42434560,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005478000384755433,
+      "policy_query_seconds": {
+        "baseline": 0.37495429965201765,
+        "observed_only": 0.37390040000900626,
+        "consensus_only": 0.3923110995092429,
+        "completion": 0.4080038004904054
+      }
+    },
+    {
+      "index": 64,
+      "fit_seconds": 0.23798059998080134,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0001976999919861555,
+      "policy_query_seconds": {
+        "baseline": 0.010391499730758369,
+        "observed_only": 0.009563600411638618,
+        "consensus_only": 0.016720400017220527,
+        "completion": 0.01836190017638728
+      }
+    },
+    {
+      "index": 65,
+      "fit_seconds": 0.03745990002062172,
+      "training_term_cache_bytes": 11755520,
+      "estimated_term_complex_multiplications": 627200,
+      "estimated_bundle_complex_additions": 10608640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0007031999994069338,
+      "policy_query_seconds": {
+        "baseline": 0.11738870001863688,
+        "observed_only": 0.11647599982097745,
+        "consensus_only": 0.12874729977920651,
+        "completion": 0.13776179967680946
+      }
+    },
+    {
+      "index": 66,
+      "fit_seconds": 0.04208799998741597,
+      "training_term_cache_bytes": 11755520,
+      "estimated_term_complex_multiplications": 627200,
+      "estimated_bundle_complex_additions": 10608640,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.00041859998600557446,
+      "policy_query_seconds": {
+        "baseline": 0.11087029910413548,
+        "observed_only": 0.11010140023427084,
+        "consensus_only": 0.12035660003311932,
+        "completion": 0.12848230061354116
+      }
+    },
+    {
+      "index": 67,
+      "fit_seconds": 0.12897590000648052,
+      "training_term_cache_bytes": 47022080,
+      "estimated_term_complex_multiplications": 2508800,
+      "estimated_bundle_complex_additions": 42434560,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0006407999899238348,
+      "policy_query_seconds": {
+        "baseline": 0.3839966998784803,
+        "observed_only": 0.3875956006231718,
+        "consensus_only": 0.4073886005207896,
+        "completion": 0.4160929000354372
+      }
+    },
+    {
+      "index": 68,
+      "fit_seconds": 0.13387910003075376,
+      "training_term_cache_bytes": 47022080,
+      "estimated_term_complex_multiplications": 2508800,
+      "estimated_bundle_complex_additions": 42434560,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0005723999929614365,
+      "policy_query_seconds": {
+        "baseline": 0.38603670010343194,
+        "observed_only": 0.38705180026590824,
+        "consensus_only": 0.4043237994774245,
+        "completion": 0.4138251008698717
+      }
+    },
+    {
+      "index": 69,
+      "fit_seconds": 0.21161659999052063,
+      "training_term_cache_bytes": 0,
+      "estimated_term_complex_multiplications": 0,
+      "estimated_bundle_complex_additions": 0,
+      "cost_counter_scope": "Term generation during selection only; excludes scoring BLAS, final refit, allocation and Python control.",
+      "attach_seconds": 0.0001373999984934926,
+      "policy_query_seconds": {
+        "baseline": 0.01058820023899898,
+        "observed_only": 0.009829899936448783,
+        "consensus_only": 0.016589800594374537,
+        "completion": 0.01899749948643148
+      }
+    }
+  ]
+}

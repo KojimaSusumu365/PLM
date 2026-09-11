@@ -1,0 +1,111 @@
+{
+  "source_freeze": "359df9740861a10533795b7eb9d943a72b686113904826680de6e3f93f61444b",
+  "two_full_numeric_runs": true,
+  "files": [
+    {
+      "file": "ambiguity-after/base/model.json",
+      "sha256": "0a9ae5e25f7a9210ce184ecb67f70f6be413ba9dc4d05ab4ba3e18cd03e30ff4",
+      "repeat_sha256": "0a9ae5e25f7a9210ce184ecb67f70f6be413ba9dc4d05ab4ba3e18cd03e30ff4",
+      "equal": true
+    },
+    {
+      "file": "ambiguity-after/base/weights.npz",
+      "sha256": "49f27967a538185b51e7d1101fb794dba395f3d2b2d67ae203c504d04ca612ef",
+      "repeat_sha256": "49f27967a538185b51e7d1101fb794dba395f3d2b2d67ae203c504d04ca612ef",
+      "equal": true
+    },
+    {
+      "file": "ambiguity-after/guard.json",
+      "sha256": "f9d4234ed8f70a0d7843e79c99f196023b4d977e209f4b3e1de14adedf6fb933",
+      "repeat_sha256": "f9d4234ed8f70a0d7843e79c99f196023b4d977e209f4b3e1de14adedf6fb933",
+      "equal": true
+    },
+    {
+      "file": "ambiguity-after/witnesses.npz",
+      "sha256": "0de33962fcde125717fdb755a387623fd3a48fd0e4774328858c70615daf05b9",
+      "repeat_sha256": "0de33962fcde125717fdb755a387623fd3a48fd0e4774328858c70615daf05b9",
+      "equal": true
+    },
+    {
+      "file": "ambiguity-before/base/model.json",
+      "sha256": "4b74b1f77c1cb4d5f135026f8681701d2c1157e89f6b128d15f64e348ca5d5fd",
+      "repeat_sha256": "4b74b1f77c1cb4d5f135026f8681701d2c1157e89f6b128d15f64e348ca5d5fd",
+      "equal": true
+    },
+    {
+      "file": "ambiguity-before/base/weights.npz",
+      "sha256": "fcf851ebb83e840e3313229f1a52905ead94a136ff04f1b53199002d52f11d46",
+      "repeat_sha256": "fcf851ebb83e840e3313229f1a52905ead94a136ff04f1b53199002d52f11d46",
+      "equal": true
+    },
+    {
+      "file": "ambiguity-before/guard.json",
+      "sha256": "77179fada1e23f6ef6bd95e93b489b1f296bdf4fe9252b3581704f6aba356cfe",
+      "repeat_sha256": "77179fada1e23f6ef6bd95e93b489b1f296bdf4fe9252b3581704f6aba356cfe",
+      "equal": true
+    },
+    {
+      "file": "ambiguity-before/witnesses.npz",
+      "sha256": "0a73a35007a718003f7c21e20fd3d084780c221ae3881c6da2c4f96af35f1ecf",
+      "repeat_sha256": "0a73a35007a718003f7c21e20fd3d084780c221ae3881c6da2c4f96af35f1ecf",
+      "equal": true
+    },
+    {
+      "file": "and2/base/model.json",
+      "sha256": "f2ff877a286d8e7f74260f0db67e236df40480592edc7af87a3439f4f7b51a30",
+      "repeat_sha256": "f2ff877a286d8e7f74260f0db67e236df40480592edc7af87a3439f4f7b51a30",
+      "equal": true
+    },
+    {
+      "file": "and2/base/weights.npz",
+      "sha256": "e20a3a2c6142dbb163de6fc012fc007c993a8789706dc188b76622773c86ce4d",
+      "repeat_sha256": "e20a3a2c6142dbb163de6fc012fc007c993a8789706dc188b76622773c86ce4d",
+      "equal": true
+    },
+    {
+      "file": "and2/guard.json",
+      "sha256": "dcfb475e5953d8f019c627888b2effbecaad70be336e36f210da74a42233887b",
+      "repeat_sha256": "dcfb475e5953d8f019c627888b2effbecaad70be336e36f210da74a42233887b",
+      "equal": true
+    },
+    {
+      "file": "and2/witnesses.npz",
+      "sha256": "cabee3978ce761fa69fa6d2c5cabe01cd9c5891fc2f23f4bc695bd04cd61264a",
+      "repeat_sha256": "cabee3978ce761fa69fa6d2c5cabe01cd9c5891fc2f23f4bc695bd04cd61264a",
+      "equal": true
+    },
+    {
+      "file": "EVALUATION.json",
+      "sha256": "0ae31bba6819bf6ed3285771830a688951259a389296e4c56b133f4b6c9d8495",
+      "repeat_sha256": "0ae31bba6819bf6ed3285771830a688951259a389296e4c56b133f4b6c9d8495",
+      "equal": true
+    },
+    {
+      "file": "roles/base/model.json",
+      "sha256": "0c0a8ec779ce21ebf76fb9db2d612d4e4965cbd953422cb3f2acddf8135324f7",
+      "repeat_sha256": "0c0a8ec779ce21ebf76fb9db2d612d4e4965cbd953422cb3f2acddf8135324f7",
+      "equal": true
+    },
+    {
+      "file": "roles/base/weights.npz",
+      "sha256": "af847005fbbeb8d5868c25c9573ef5e433932c2b23fae919cb18efb7c906eeee",
+      "repeat_sha256": "af847005fbbeb8d5868c25c9573ef5e433932c2b23fae919cb18efb7c906eeee",
+      "equal": true
+    },
+    {
+      "file": "roles/guard.json",
+      "sha256": "4ececa923d142bc0c543789586333ee53464db1ccd34249817b5feff1fcf6d6f",
+      "repeat_sha256": "4ececa923d142bc0c543789586333ee53464db1ccd34249817b5feff1fcf6d6f",
+      "equal": true
+    },
+    {
+      "file": "roles/witnesses.npz",
+      "sha256": "70b805ac98641b1685de897e035e63c7be4069862a19042763f70d4764899ef1",
+      "repeat_sha256": "70b805ac98641b1685de897e035e63c7be4069862a19042763f70d4764899ef1",
+      "equal": true
+    }
+  ],
+  "excluded": [
+    "PERFORMANCE.json"
+  ]
+}

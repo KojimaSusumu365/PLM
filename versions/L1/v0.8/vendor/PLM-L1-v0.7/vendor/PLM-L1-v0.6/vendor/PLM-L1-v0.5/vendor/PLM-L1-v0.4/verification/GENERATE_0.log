@@ -1,0 +1,1 @@
+{"status": "generated", "text": "花子を太郎が助けなかった。", "trace": [{"anchor": "start", "markers": []}, {"anchor": "object", "markers": ["を"]}, {"anchor": "subject", "markers": ["が"]}, {"anchor": "predicate", "markers": ["なかった", "。"]}], "eligible_for_inference": false}

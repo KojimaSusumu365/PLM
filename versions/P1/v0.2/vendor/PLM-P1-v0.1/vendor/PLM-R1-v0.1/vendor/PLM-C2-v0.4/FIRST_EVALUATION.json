@@ -1,0 +1,1447 @@
+{
+  "holdout_labels": [
+    {
+      "id": "test_donate_perfect",
+      "template_group": "test_donate_perfect",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK",
+      "selection_confidence": 0.875,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_subsidize",
+      "template_group": "test_subsidize",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK",
+      "selection_confidence": 0.875,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_subsidize_passive",
+      "template_group": "test_subsidize_passive",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK",
+      "selection_confidence": 0.875,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_adverb",
+      "template_group": "test_adverb",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK",
+      "selection_confidence": 0.875,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_progressive",
+      "template_group": "test_progressive",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK",
+      "selection_confidence": 0.875,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_negative_passive",
+      "template_group": "test_negative_passive",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED",
+      "selection_confidence": 0.7778,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_contracted_negation",
+      "template_group": "test_contracted_negation",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED",
+      "selection_confidence": 0.7778,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_conditional_passive",
+      "template_group": "test_conditional_passive",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED",
+      "selection_confidence": 0.7778,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_patient_role",
+      "template_group": "test_patient_role",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED",
+      "selection_confidence": 0.7778,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_noun_structure",
+      "template_group": "test_noun_structure",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "predicted": "RIVER_BANK",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_water",
+      "template_group": "test_water",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "RIVER_BANK",
+      "predicted": "RIVER_BANK",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_passive_agent_manager",
+      "template_group": "test_passive_agent_manager",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "predicted": "RIVER_BANK",
+      "selection_confidence": 0.9286,
+      "rank": null,
+      "top1_correct": false,
+      "top5_hit": false,
+      "reciprocal_rank": 0.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_disbursed",
+      "template_group": "test_disbursed",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "UNRESOLVED",
+      "selection_confidence": 0.7778,
+      "rank": 1,
+      "top1_correct": false,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_nominal_finance",
+      "template_group": "test_nominal_finance",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_irrelevant_sentence",
+      "template_group": "test_irrelevant_sentence",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK",
+      "selection_confidence": 0.875,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_record_prefix",
+      "template_group": "test_record_prefix",
+      "split": "holdout",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "predicted": "FINANCIAL_BANK",
+      "selection_confidence": 0.875,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_two_cats_it",
+      "template_group": "test_two_cats_it",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "CAT",
+      "predicted": "CAT",
+      "selection_confidence": 0.5556,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_two_cats_they",
+      "template_group": "test_two_cats_they",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "CAT",
+      "predicted": "CAT",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_same_type_latter",
+      "template_group": "test_same_type_latter",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "CAT",
+      "predicted": "CAT",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_order_swapped",
+      "template_group": "test_order_swapped",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "CAT",
+      "predicted": "CAT",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_group_ambiguous",
+      "template_group": "test_group_ambiguous",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "CAT",
+      "predicted": "CAT",
+      "selection_confidence": 0.5556,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_plural_group",
+      "template_group": "test_plural_group",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "DOG",
+      "predicted": "DOG",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_japanese_same",
+      "template_group": "test_japanese_same",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "CAT",
+      "predicted": "CAT",
+      "selection_confidence": 0.5556,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_japanese_latter",
+      "template_group": "test_japanese_latter",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "DOG",
+      "predicted": "DOG",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_reference_noise",
+      "template_group": "test_reference_noise",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "CAT",
+      "predicted": "CAT",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_no_antecedent",
+      "template_group": "test_no_antecedent",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED",
+      "selection_confidence": 0.7778,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_japanese_reverse_revision",
+      "template_group": "test_japanese_reverse_revision",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "DOG",
+      "predicted": "DOG",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_revision_period",
+      "template_group": "test_revision_period",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "DOG",
+      "predicted": "DOG",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_no_correction_target",
+      "template_group": "test_no_correction_target",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "DOG",
+      "predicted": "DOG",
+      "selection_confidence": 0.9286,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_unregistered_predicate",
+      "template_group": "test_unregistered_predicate",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "DOG",
+      "predicted": "ANIMAL",
+      "selection_confidence": 0.5556,
+      "rank": 3,
+      "top1_correct": false,
+      "top5_hit": true,
+      "reciprocal_rank": 0.3333,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_new_species",
+      "template_group": "test_new_species",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED",
+      "selection_confidence": 0.7778,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    },
+    {
+      "id": "test_empty_list",
+      "template_group": "test_empty_list",
+      "split": "holdout",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "predicted": "UNRESOLVED",
+      "selection_confidence": 0.7778,
+      "rank": 1,
+      "top1_correct": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "contradiction_rejected": null,
+      "tags": [
+        "v04_semantic"
+      ]
+    }
+  ],
+  "holdout_semantics": {
+    "cases": 32,
+    "raw_candidates": {
+      "tp": 21,
+      "fp": 15,
+      "fn": 2,
+      "precision": 0.5833,
+      "recall": 0.913,
+      "f1": 0.7119
+    },
+    "rule_checked": {
+      "tp": 21,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.913,
+      "f1": 0.9545
+    },
+    "schema_errors": [],
+    "graph_errors": [],
+    "constraint_failures": [],
+    "inference_leaks": 0,
+    "quarantine_reasons": {
+      "legacy_association_not_semantically_verified": 13,
+      "unsupported_bank_role": 1,
+      "unverified_spatial_attachment": 1
+    },
+    "failures": [
+      {
+        "id": "test_donate_perfect",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "Equipment for river research has been donated by the bank",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_subsidize",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "The bank subsidized a river cleanup program",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_subsidize_passive",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "A river cleanup program was subsidized by the bank",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_adverb",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "The bank regularly supports river conservation projects",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_progressive",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "The bank is allocating resources to river research",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_negative_passive",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "Aid for river restoration was not granted by the bank",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_contracted_negation",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "The bank didn't support a river research project",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_conditional_passive",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "River research might be funded by the bank",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_patient_role",
+        "raw": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "The bank was awarded by a river association",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            },
+            {
+              "frame_id": "F0002",
+              "clause_id": "S001:C001",
+              "relation_type": "FINANCIAL_AFFORDANCE",
+              "subject": "a river association",
+              "predicate": "award",
+              "object_text": "bank",
+              "voice": "passive",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "FINANCIAL_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0002",
+              "source_reference_id": null,
+              "subject_mention_id": "MN000003",
+              "object_mention_id": "MN000004",
+              "subject_entity_id": "ENT000003",
+              "object_entity_id": "ENT000001",
+              "predicate_span": {
+                "start": 13,
+                "end": 20,
+                "text": "awarded"
+              },
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003"
+              ],
+              "extraction_rule": "bounded_bank_event",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_passive_agent_manager",
+        "raw": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "LOCATED_NEAR",
+              "object_text": "river",
+              "voice": "n/a",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": true,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": "MN000003",
+              "object_mention_id": "MN000004",
+              "subject_entity_id": "ENT000002",
+              "object_entity_id": "ENT000001",
+              "predicate_span": {
+                "start": 27,
+                "end": 29,
+                "text": "by"
+              },
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "bounded_spatial",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_disbursed",
+        "raw": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "missing": [
+            {
+              "relation_type": "FINANCIAL_AFFORDANCE",
+              "subject": "bank",
+              "predicate": "disburse",
+              "object_text": "grants for river restoration",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": true
+            }
+          ],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "The bank disbursed grants for river restoration",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "missing": [
+            {
+              "relation_type": "FINANCIAL_AFFORDANCE",
+              "subject": "bank",
+              "predicate": "disburse",
+              "object_text": "grants for river restoration",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": true
+            }
+          ],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_nominal_finance",
+        "raw": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "FINANCIAL_AFFORDANCE",
+              "subject": "bank",
+              "predicate": "account",
+              "object_text": "The bank account was reviewed",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": true,
+              "target_concept": "FINANCIAL_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_irrelevant_sentence",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C002",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "The bank backed river restoration plans",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_record_prefix",
+        "raw": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "unexpected": [
+            {
+              "frame_id": "F0001",
+              "clause_id": "S001:C001",
+              "relation_type": "SPATIAL_ASSOCIATION",
+              "subject": "bank",
+              "predicate": "river",
+              "object_text": "Record: A river study was financed by the bank",
+              "voice": "active",
+              "polarity": "positive",
+              "modality": "asserted",
+              "applied": false,
+              "target_concept": "RIVER_BANK",
+              "target_clause_id": null,
+              "source_relation_id": "R0001",
+              "source_reference_id": null,
+              "subject_mention_id": null,
+              "object_mention_id": null,
+              "subject_entity_id": null,
+              "object_entity_id": null,
+              "predicate_span": null,
+              "evidence_ids": [
+                "E0001",
+                "E0002",
+                "E0003",
+                "E0004",
+                "E0005"
+              ],
+              "extraction_rule": "legacy_context",
+              "semantic_status": "quarantined",
+              "target_text": null
+            }
+          ]
+        },
+        "checked": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      },
+      {
+        "id": "test_unregistered_predicate",
+        "raw": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "missing": [
+            {
+              "relation_type": "REVISION",
+              "predicate": "REVISES",
+              "target_text": "Originally marked cat",
+              "polarity": "positive",
+              "modality": "corrective",
+              "applied": true
+            }
+          ],
+          "unexpected": []
+        },
+        "checked": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "missing": [
+            {
+              "relation_type": "REVISION",
+              "predicate": "REVISES",
+              "target_text": "Originally marked cat",
+              "polarity": "positive",
+              "modality": "corrective",
+              "applied": true
+            }
+          ],
+          "unexpected": []
+        },
+        "constraint_failures": []
+      }
+    ]
+  },
+  "metamorphic": {
+    "passed": 9,
+    "total": 9,
+    "cases": [
+      {
+        "id": "voice_1",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "FINANCIAL_BANK"
+        ]
+      },
+      {
+        "id": "voice_2",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "FINANCIAL_BANK"
+        ]
+      },
+      {
+        "id": "voice_3",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "FINANCIAL_BANK"
+        ]
+      },
+      {
+        "id": "voice_4",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "FINANCIAL_BANK"
+        ]
+      },
+      {
+        "id": "voice_5",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "FINANCIAL_BANK"
+        ]
+      },
+      {
+        "id": "voice_6",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "FINANCIAL_BANK"
+        ]
+      },
+      {
+        "id": "prefix",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "FINANCIAL_BANK"
+        ]
+      },
+      {
+        "id": "sentence_noise",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "FINANCIAL_BANK"
+        ]
+      },
+      {
+        "id": "negation",
+        "passed": true,
+        "selected": [
+          "FINANCIAL_BANK",
+          "UNRESOLVED"
+        ]
+      }
+    ]
+  },
+  "freeze": {
+    "valid": true,
+    "errors": [],
+    "file_count": 67,
+    "manifest_sha256": "491e32e4e30438502e86633c903ed0743e2274bdc351a18e85d9a641421aa4b0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "packet_valid": true,
+  "frame_chips": 8480,
+  "observed_chips": 2120,
+  "inference_enabled": false
+}

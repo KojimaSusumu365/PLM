@@ -1,0 +1,4140 @@
+{
+  "scope": "Single process after both final evaluations. Three prelisted structured tasks, D2048/first seed, 3 repeats, warm queries. Not pure kernel time, whole language, RSS, power or general latency.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "rows": [
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0011959562507399824,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17110659996978939,
+      "attach_seconds": 0.0006500000017695129,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.001172437499917578,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17110659996978939,
+      "attach_seconds": 0.0006500000017695129,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0012518375006038696,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.17110659996978939,
+      "attach_seconds": 0.0006500000017695129,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0012693687531282194,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.17110659996978939,
+      "attach_seconds": 0.0006500000017695129,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.001113893103587773,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17110659996978939,
+      "attach_seconds": 0.0006500000017695129,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0011090137935564693,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17110659996978939,
+      "attach_seconds": 0.0006500000017695129,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0011560011497195597,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.17110659996978939,
+      "attach_seconds": 0.0006500000017695129,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0013122356318783057,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.17110659996978939,
+      "attach_seconds": 0.0006500000017695129,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.001112293750338722,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.14380050002364442,
+      "attach_seconds": 0.0005910999607294798,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0011151750004501082,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.14380050002364442,
+      "attach_seconds": 0.0005910999607294798,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0011876312491949648,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.14380050002364442,
+      "attach_seconds": 0.0005910999607294798,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0012198812510177959,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.14380050002364442,
+      "attach_seconds": 0.0005910999607294798,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0011921459768802442,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.14380050002364442,
+      "attach_seconds": 0.0005910999607294798,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0011279563213452354,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.14380050002364442,
+      "attach_seconds": 0.0005910999607294798,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.001197037930685984,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.14380050002364442,
+      "attach_seconds": 0.0005910999607294798,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0012153574712467433,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.14380050002364442,
+      "attach_seconds": 0.0005910999607294798,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0011328562504786532,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.14400239998940378,
+      "attach_seconds": 0.0005924000288359821,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0011143750016344711,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.14400239998940378,
+      "attach_seconds": 0.0005924000288359821,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0012118812519474886,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.14400239998940378,
+      "attach_seconds": 0.0005924000288359821,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0012089562515029684,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.14400239998940378,
+      "attach_seconds": 0.0005924000288359821,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0011778333332742854,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.14400239998940378,
+      "attach_seconds": 0.0005924000288359821,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0011529804598111872,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.14400239998940378,
+      "attach_seconds": 0.0005924000288359821,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0012258333334667158,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.14400239998940378,
+      "attach_seconds": 0.0005924000288359821,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.001370717241460907,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.14400239998940378,
+      "attach_seconds": 0.0005924000288359821,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1322,
+          "warm_codebook_array_bytes": 65536,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 65536,
+        "guard_metadata_utf8_bytes": 662,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 3.0506249458994716e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.25104649999411777,
+      "attach_seconds": 0.00023250002413988113,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 3.0606250220444053e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.25104649999411777,
+      "attach_seconds": 0.00023250002413988113,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 5.771249925601296e-05,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.25104649999411777,
+      "attach_seconds": 0.00023250002413988113,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 7.023750004009344e-05,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.25104649999411777,
+      "attach_seconds": 0.00023250002413988113,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 3.5390805121211486e-05,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.25104649999411777,
+      "attach_seconds": 0.00023250002413988113,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 3.244827605848168e-05,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.25104649999411777,
+      "attach_seconds": 0.00023250002413988113,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 6.563678161701423e-05,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.25104649999411777,
+      "attach_seconds": 0.00023250002413988113,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 6.817931031016098e-05,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.25104649999411777,
+      "attach_seconds": 0.00023250002413988113,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 3.61875027010683e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24535120005020872,
+      "attach_seconds": 0.00015209999401122332,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 5.0237500545335934e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24535120005020872,
+      "attach_seconds": 0.00015209999401122332,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 5.972500002826564e-05,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.24535120005020872,
+      "attach_seconds": 0.00015209999401122332,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 6.907499846420251e-05,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.24535120005020872,
+      "attach_seconds": 0.00015209999401122332,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 2.9060919367676152e-05,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24535120005020872,
+      "attach_seconds": 0.00015209999401122332,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 3.154942533001304e-05,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24535120005020872,
+      "attach_seconds": 0.00015209999401122332,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 5.956206888217351e-05,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.24535120005020872,
+      "attach_seconds": 0.00015209999401122332,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 7.567356337910925e-05,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.24535120005020872,
+      "attach_seconds": 0.00015209999401122332,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 3.3068747143261135e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.26060650002909824,
+      "attach_seconds": 0.00027439999394118786,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 3.375000233063474e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.26060650002909824,
+      "attach_seconds": 0.00027439999394118786,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 6.254999971133657e-05,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.26060650002909824,
+      "attach_seconds": 0.00027439999394118786,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 7.612500121467747e-05,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.26060650002909824,
+      "attach_seconds": 0.00027439999394118786,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 3.665977026517878e-05,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.26060650002909824,
+      "attach_seconds": 0.00027439999394118786,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 3.245747086174529e-05,
+      "queries": 87,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.26060650002909824,
+      "attach_seconds": 0.00027439999394118786,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 6.259770143306118e-05,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.26060650002909824,
+      "attach_seconds": 0.00027439999394118786,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 6.6250574710811e-05,
+      "queries": 87,
+      "maximum_completions": 1,
+      "mean_completions": 0.8275862068965517,
+      "base_fit_seconds": 0.26060650002909824,
+      "attach_seconds": 0.00027439999394118786,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 4,
+          "metadata_utf8_bytes": 1364,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 4,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 711,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0012143624990130775,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.1685684000258334,
+      "attach_seconds": 0.000971200002823025,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0012047687487211078,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.1685684000258334,
+      "attach_seconds": 0.000971200002823025,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0014004500008013565,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.1685684000258334,
+      "attach_seconds": 0.000971200002823025,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0013703562508453615,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.1685684000258334,
+      "attach_seconds": 0.000971200002823025,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0012347120881223907,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.1685684000258334,
+      "attach_seconds": 0.000971200002823025,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.001461400000562707,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.1685684000258334,
+      "attach_seconds": 0.000971200002823025,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.001716515385151769,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.1685684000258334,
+      "attach_seconds": 0.000971200002823025,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.001465558242001622,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.1685684000258334,
+      "attach_seconds": 0.000971200002823025,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0012035750005452428,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.1719126999960281,
+      "attach_seconds": 0.0009224999812431633,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.001176543748442782,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.1719126999960281,
+      "attach_seconds": 0.0009224999812431633,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0013386499995249324,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.1719126999960281,
+      "attach_seconds": 0.0009224999812431633,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0016784875006123912,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.1719126999960281,
+      "attach_seconds": 0.0009224999812431633,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0011951999999787453,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.1719126999960281,
+      "attach_seconds": 0.0009224999812431633,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.001289389011127731,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.1719126999960281,
+      "attach_seconds": 0.0009224999812431633,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.001393050549597899,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.1719126999960281,
+      "attach_seconds": 0.0009224999812431633,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0014120846152674037,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.1719126999960281,
+      "attach_seconds": 0.0009224999812431633,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0017270000025746413,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17915480001829565,
+      "attach_seconds": 0.0009777999948710203,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0011948562496399973,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17915480001829565,
+      "attach_seconds": 0.0009777999948710203,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.001252237500011688,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.17915480001829565,
+      "attach_seconds": 0.0009777999948710203,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0013502437504939735,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.17915480001829565,
+      "attach_seconds": 0.0009777999948710203,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0012249395604357943,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17915480001829565,
+      "attach_seconds": 0.0009777999948710203,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0012185659341432235,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17915480001829565,
+      "attach_seconds": 0.0009777999948710203,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0014224373626747875,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.17915480001829565,
+      "attach_seconds": 0.0009777999948710203,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0014545758239474598,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.17915480001829565,
+      "attach_seconds": 0.0009777999948710203,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1509,
+          "warm_codebook_array_bytes": 131072,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 131072,
+        "guard_metadata_utf8_bytes": 667,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 5.165625043446198e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24809549999190494,
+      "attach_seconds": 0.00015709997387602925,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 5.739375046687201e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24809549999190494,
+      "attach_seconds": 0.00015709997387602925,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00014411874872166663,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.24809549999190494,
+      "attach_seconds": 0.00015709997387602925,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00012588125173351727,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.24809549999190494,
+      "attach_seconds": 0.00015709997387602925,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 4.394945066811128e-05,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24809549999190494,
+      "attach_seconds": 0.00015709997387602925,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 4.71032965304023e-05,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24809549999190494,
+      "attach_seconds": 0.00015709997387602925,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00011538241792900058,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.24809549999190494,
+      "attach_seconds": 0.00015709997387602925,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00011241868148547608,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.24809549999190494,
+      "attach_seconds": 0.00015709997387602925,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 8.008750228327699e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.2506067999638617,
+      "attach_seconds": 0.0001653000363148749,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 8.128750050673261e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.2506067999638617,
+      "attach_seconds": 0.0001653000363148749,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00010550624938332476,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.2506067999638617,
+      "attach_seconds": 0.0001653000363148749,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00016902500283322297,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.2506067999638617,
+      "attach_seconds": 0.0001653000363148749,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 4.7399999527772376e-05,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.2506067999638617,
+      "attach_seconds": 0.0001653000363148749,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 4.93736262177373e-05,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.2506067999638617,
+      "attach_seconds": 0.0001653000363148749,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00012091318705723016,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.2506067999638617,
+      "attach_seconds": 0.0001653000363148749,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00013685164842652258,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.2506067999638617,
+      "attach_seconds": 0.0001653000363148749,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 5.348124977899715e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.27797220001230016,
+      "attach_seconds": 0.00015730003360658884,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 6.843125083833002e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.27797220001230016,
+      "attach_seconds": 0.00015730003360658884,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00010277500041411258,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.27797220001230016,
+      "attach_seconds": 0.00015730003360658884,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00012726250133709982,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.27797220001230016,
+      "attach_seconds": 0.00015730003360658884,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 4.5117582475950755e-05,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.27797220001230016,
+      "attach_seconds": 0.00015730003360658884,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 4.5060439823338617e-05,
+      "queries": 91,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.27797220001230016,
+      "attach_seconds": 0.00015730003360658884,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0001151714285907264,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.27797220001230016,
+      "attach_seconds": 0.00015730003360658884,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00013482967035967735,
+      "queries": 91,
+      "maximum_completions": 2,
+      "mean_completions": 1.2967032967032968,
+      "base_fit_seconds": 0.27797220001230016,
+      "attach_seconds": 0.00015730003360658884,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 16,
+          "metadata_utf8_bytes": 1709,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 8,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 826,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.001486799999838695,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.15990299999248236,
+      "attach_seconds": 0.0014112999779172242,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0014116812490101438,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.15990299999248236,
+      "attach_seconds": 0.0014112999779172242,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0015880624996498227,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.15990299999248236,
+      "attach_seconds": 0.0014112999779172242,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0015534375015704427,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.15990299999248236,
+      "attach_seconds": 0.0014112999779172242,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.001290261176387396,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.15990299999248236,
+      "attach_seconds": 0.0014112999779172242,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0012974694117848925,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.15990299999248236,
+      "attach_seconds": 0.0014112999779172242,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0014336764709750082,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.15990299999248236,
+      "attach_seconds": 0.0014112999779172242,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0015128835289300803,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.15990299999248236,
+      "attach_seconds": 0.0014112999779172242,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0013156812528904993,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.16298169997753575,
+      "attach_seconds": 0.001310099964030087,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.00134760625223862,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.16298169997753575,
+      "attach_seconds": 0.001310099964030087,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0016392875004385132,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.16298169997753575,
+      "attach_seconds": 0.001310099964030087,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0018975624989252537,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.16298169997753575,
+      "attach_seconds": 0.001310099964030087,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0013213317649548545,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.16298169997753575,
+      "attach_seconds": 0.001310099964030087,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0013857152943006334,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.16298169997753575,
+      "attach_seconds": 0.001310099964030087,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0014669788234374103,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.16298169997753575,
+      "attach_seconds": 0.001310099964030087,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0014631199999712407,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.16298169997753575,
+      "attach_seconds": 0.001310099964030087,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.001287737501115771,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17204979999223724,
+      "attach_seconds": 0.0021065999753773212,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0013588499969046097,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17204979999223724,
+      "attach_seconds": 0.0021065999753773212,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.001473512496886542,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.17204979999223724,
+      "attach_seconds": 0.0021065999753773212,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0016019124996091705,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.17204979999223724,
+      "attach_seconds": 0.0021065999753773212,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.0013675294118002056,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17204979999223724,
+      "attach_seconds": 0.0021065999753773212,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.0013218317646533251,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.17204979999223724,
+      "attach_seconds": 0.0021065999753773212,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.001637694117722704,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.17204979999223724,
+      "attach_seconds": 0.0021065999753773212,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "ss",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0014343694119495066,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.17204979999223724,
+      "attach_seconds": 0.0021065999753773212,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 65536,
+          "integer_count_entries": 0,
+          "metadata_utf8_bytes": 1759,
+          "warm_codebook_array_bytes": 196608,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 65536,
+        "witness_integer_entries": 0,
+        "witness_warm_codebook_bytes": 196608,
+        "guard_metadata_utf8_bytes": 672,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.00010638124877004884,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.2631367000285536,
+      "attach_seconds": 0.00018669996643438935,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.00012686249829130247,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.2631367000285536,
+      "attach_seconds": 0.00018669996643438935,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00017603124797460623,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.2631367000285536,
+      "attach_seconds": 0.00018669996643438935,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0001859125004557427,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.2631367000285536,
+      "attach_seconds": 0.00018669996643438935,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 7.732705870533691e-05,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.2631367000285536,
+      "attach_seconds": 0.00018669996643438935,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 7.32105882728801e-05,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.2631367000285536,
+      "attach_seconds": 0.00018669996643438935,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00014108705868506256,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.2631367000285536,
+      "attach_seconds": 0.00018669996643438935,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 0,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00013134705916266232,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.2631367000285536,
+      "attach_seconds": 0.00018669996643438935,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 0.00011960000119870529,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.25602709996746853,
+      "attach_seconds": 0.0001900999923236668,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 0.00013114999819663353,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.25602709996746853,
+      "attach_seconds": 0.0001900999923236668,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0001932062477862928,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.25602709996746853,
+      "attach_seconds": 0.0001900999923236668,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00025452499903622083,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.25602709996746853,
+      "attach_seconds": 0.0001900999923236668,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 7.419411764096688e-05,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.25602709996746853,
+      "attach_seconds": 0.0001900999923236668,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 7.901764748727574e-05,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.25602709996746853,
+      "attach_seconds": 0.0001900999923236668,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00016289529431720866,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.25602709996746853,
+      "attach_seconds": 0.0001900999923236668,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 1,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00013431529446011957,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.25602709996746853,
+      "attach_seconds": 0.0001900999923236668,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "baseline",
+      "query_seconds_per_request": 7.998749788384885e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24410320003516972,
+      "attach_seconds": 0.00027740001678466797,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_seconds_per_request": 8.024374983506277e-05,
+      "queries": 16,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24410320003516972,
+      "attach_seconds": 0.00027740001678466797,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.00015474374959012493,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.24410320003516972,
+      "attach_seconds": 0.00027740001678466797,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "complete",
+      "policy": "completion",
+      "query_seconds_per_request": 0.0001907562509586569,
+      "queries": 16,
+      "maximum_completions": 1,
+      "mean_completions": 1,
+      "base_fit_seconds": 0.24410320003516972,
+      "attach_seconds": 0.00027740001678466797,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_seconds_per_request": 8.499764714061337e-05,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24410320003516972,
+      "attach_seconds": 0.00027740001678466797,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_seconds_per_request": 8.027176509666092e-05,
+      "queries": 85,
+      "maximum_completions": 0,
+      "mean_completions": 0,
+      "base_fit_seconds": 0.24410320003516972,
+      "attach_seconds": 0.00027740001678466797,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_seconds_per_request": 0.0001256023533642292,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.24410320003516972,
+      "attach_seconds": 0.00027740001678466797,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "backend": "exact",
+      "trial": 2,
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_seconds_per_request": 0.00012909411795108635,
+      "queries": 85,
+      "maximum_completions": 1,
+      "mean_completions": 0.5294117647058824,
+      "base_fit_seconds": 0.24410320003516972,
+      "attach_seconds": 0.00027740001678466797,
+      "storage": {
+        "base": {
+          "members": 1,
+          "complex_weight_bytes": 0,
+          "integer_count_entries": 52,
+          "metadata_utf8_bytes": 2401,
+          "warm_codebook_array_bytes": 0,
+          "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+        },
+        "witness_complex_weight_bytes": 0,
+        "witness_integer_entries": 16,
+        "witness_warm_codebook_bytes": 0,
+        "guard_metadata_utf8_bytes": 1111,
+        "scope": "Owned arrays and serialized metadata only; not total RSS or energy."
+      }
+    }
+  ],
+  "medians": [
+    {
+      "backend": "ss",
+      "kind": "complete",
+      "policy": "baseline",
+      "query_ms": 1.2143624990130775
+    },
+    {
+      "backend": "ss",
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_ms": 1.1948562496399973
+    },
+    {
+      "backend": "ss",
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_ms": 1.3386499995249324
+    },
+    {
+      "backend": "ss",
+      "kind": "complete",
+      "policy": "completion",
+      "query_ms": 1.3703562508453615
+    },
+    {
+      "backend": "ss",
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_ms": 1.2249395604357942
+    },
+    {
+      "backend": "ss",
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_ms": 1.289389011127731
+    },
+    {
+      "backend": "ss",
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_ms": 1.4224373626747875
+    },
+    {
+      "backend": "ss",
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_ms": 1.4545758239474598
+    },
+    {
+      "backend": "exact",
+      "kind": "complete",
+      "policy": "baseline",
+      "query_ms": 0.05348124977899715
+    },
+    {
+      "backend": "exact",
+      "kind": "complete",
+      "policy": "observed_only",
+      "query_ms": 0.06843125083833002
+    },
+    {
+      "backend": "exact",
+      "kind": "complete",
+      "policy": "consensus_only",
+      "query_ms": 0.10550624938332476
+    },
+    {
+      "backend": "exact",
+      "kind": "complete",
+      "policy": "completion",
+      "query_ms": 0.12726250133709982
+    },
+    {
+      "backend": "exact",
+      "kind": "semantic_missing",
+      "policy": "baseline",
+      "query_ms": 0.045117582475950754
+    },
+    {
+      "backend": "exact",
+      "kind": "semantic_missing",
+      "policy": "observed_only",
+      "query_ms": 0.047103296530402294
+    },
+    {
+      "backend": "exact",
+      "kind": "semantic_missing",
+      "policy": "consensus_only",
+      "query_ms": 0.11538241792900059
+    },
+    {
+      "backend": "exact",
+      "kind": "semantic_missing",
+      "policy": "completion",
+      "query_ms": 0.13134705916266232
+    }
+  ]
+}

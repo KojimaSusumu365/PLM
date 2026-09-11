@@ -1,0 +1,56 @@
+{
+  "status": "recovered",
+  "selected": {
+    "kind": "entity",
+    "id": "animal-000",
+    "scope": "synthetic:doc"
+  },
+  "observed_components": 512,
+  "candidate_count": 96,
+  "score_kind": "coherent_matched_filter_amplitude_not_probability",
+  "eligible_for_inference": false,
+  "top_candidates": [
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-000",
+        "scope": "synthetic:doc"
+      },
+      "score": 1.1458606
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-081",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.44518907
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-023",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.40587008
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-070",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.36417084
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-050",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.2736808
+    }
+  ],
+  "margin": 0.70067153,
+  "reason": "numerical_recovery_only"
+}

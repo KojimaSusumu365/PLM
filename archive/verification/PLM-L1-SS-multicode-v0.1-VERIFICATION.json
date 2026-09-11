@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "unit_tests": 55,
+  "freeze_hash": "0175f480d4e37ab45347eb7bcb487979d47df6cdb2bc24e2061a64d8dc35aeb1",
+  "result_digest": "ef4f18a11531de2cf4003baabd170b1ccf2eb4a8bb1644c79c4a471a39902cf0",
+  "calibration_grid_rows_rechecked": 805,
+  "raw_arrays_rechecked": 4368,
+  "probe_snapshots_rechecked": 1976,
+  "clone_probe_checks": 304,
+  "isolated_sequential_presentations": 6272,
+  "models": {
+    "single128-A": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "single128-C": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "single128-drift": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "single512-A": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "single512-C": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "single512-drift": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "concat512-A": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "concat512-C": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "concat512-drift": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "multi4-A": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "multi4-C": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "multi4-drift": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "clone4-A": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "clone4-C": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "clone4-drift": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "checked-A": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "checked-C": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "checked-drift": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "exact-A": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "exact-C": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    },
+    "exact-drift": {
+      "contexts": 320,
+      "coefficient_max_difference": 0,
+      "strict_fingerprint_equal": true
+    }
+  },
+  "prediction_without_teacher_or_replay": true,
+  "cli_resume_matches": true,
+  "stale_and_pseudo_feedback_rejected_without_output": true,
+  "manifest_files": 155,
+  "all104_trajectories_retrained_here": false,
+  "linux_tested": false,
+  "p1_s1_integrated": false,
+  "eligible_for_inference": false,
+  "archive": {
+    "archive": "PLM-L1-SS-multicode-v0.1.zip",
+    "sha256": "66f0876a6b143bda19545a12a7a33f505b3944f403f43e79f47ddafdb4164676",
+    "bytes": 159546441,
+    "files": 156,
+    "freeze_hash": "0175f480d4e37ab45347eb7bcb487979d47df6cdb2bc24e2061a64d8dc35aeb1",
+    "result_digest": "ef4f18a11531de2cf4003baabd170b1ccf2eb4a8bb1644c79c4a471a39902cf0"
+  },
+  "archive_actually_extracted": true,
+  "crc_verified": true,
+  "full_evaluations_before_packaging": 2,
+  "repeat_equal_files": 65,
+  "preserved_previous_files": 5341
+}

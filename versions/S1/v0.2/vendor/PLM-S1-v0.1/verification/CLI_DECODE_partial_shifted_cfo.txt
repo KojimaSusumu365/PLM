@@ -1,0 +1,95 @@
+{
+  "status": "recovered",
+  "selected": {
+    "kind": "entity",
+    "id": "animal-000",
+    "scope": "synthetic:doc"
+  },
+  "reason": "numerical_recovery_only",
+  "observed_components": 1390,
+  "candidate_count": 96,
+  "eligible_for_inference": false,
+  "top_candidates": [
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-000",
+        "scope": "synthetic:doc"
+      },
+      "score": 1.02508029
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-049",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.17507772
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-026",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.17098021
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-011",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.13976494
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-032",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.10606972
+    }
+  ],
+  "margin": 0.85000257,
+  "score_kind": "projected_coherent_amplitude_not_probability",
+  "catalogue_hash": "f26a34aa5ee8a673791cd208bf629c4dcb8628f25c40ea22cc4dfea2adc91e02",
+  "policy": {
+    "min_components": 128,
+    "min_residual_dof": 128,
+    "min_retained_fraction": 0.5,
+    "min_amplitude": 0.4,
+    "family_alpha": 0.01,
+    "min_margin": 0.1,
+    "gap_z": 1.5
+  },
+  "nuisance_rank": 88,
+  "residual_dof": 1302,
+  "residual_power": 8.30259559,
+  "amplitude_threshold": 0.4,
+  "margin_threshold": 0.11716411,
+  "synchronization": {
+    "status": "aligned",
+    "reason": "pilot_estimate_only_not_a_truth_guarantee",
+    "estimated_delay_chips": -5,
+    "estimated_cfo_hz": 0.1241422828,
+    "estimated_phase_rad": 1.7907139885,
+    "pilot_coherence": 0.99461101,
+    "delay_score_gap": 0.7371363,
+    "pilot_observed_per_block": [
+      33,
+      29
+    ],
+    "eligible_for_inference": false,
+    "scope": "bounded_integer_delay_and_small_constant_cfo"
+  },
+  "despreading": {
+    "observed_payload_chips": 2048,
+    "observed_data_bearing_chips": 2048,
+    "recovered_coordinate_count": 1390,
+    "variance_note": "Partial-chip averaging is heteroscedastic; P1 thresholds are unchanged and empirically evaluated, not calibrated probabilities"
+  },
+  "ss_demodulation_implemented": true,
+  "spreading_applied": true,
+  "implementation_scope": "synthetic_discrete_complex_baseband_only"
+}

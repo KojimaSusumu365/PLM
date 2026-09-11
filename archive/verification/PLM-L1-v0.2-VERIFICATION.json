@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "source_freeze": "fae3ab8a9ea6df3f16474c7509b39d4e1aa59f19a6ec0dc91e8c8770b233e6bf",
+  "result_digest": "db96989624dffc442e9ff8fe0ed7bef68d6ba9d0f80cdc59e630b4fbd87449fc",
+  "test_counts": {
+    "new": 52,
+    "v01": 47
+  },
+  "acceptance_checks": 97,
+  "pair_only_fit_without_teacher_or_old_weights": true,
+  "isolated_fit_fingerprint_equal": true,
+  "fixed_generator_without_new_reader": true,
+  "isolated_roundtrips": [
+    {
+      "input": "太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。",
+      "meaning_exact": true
+    },
+    {
+      "input": "花子が太郎を助けた。",
+      "output": "太郎を花子が助けた。",
+      "meaning_exact": true
+    },
+    {
+      "input": "太郎が花子を助けなかった。",
+      "output": "花子を太郎が助けなかった。",
+      "meaning_exact": true
+    },
+    {
+      "input": "もし太郎が花子を助けなかったら。",
+      "output": "もし花子を太郎が助けなかったら。",
+      "meaning_exact": true
+    }
+  ],
+  "release_manifest_checked": true,
+  "full_numeric_rerun_in_this_command": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.2.zip",
+  "archive_sha256": "85be51958df16ededa0d8f5edf5e1d3738ff42de3786129a6578e320e835dab4",
+  "archive_bytes": 2332963,
+  "archive_files": 91,
+  "extracted_bytes_equal": true,
+  "source_and_archive_unchanged": true,
+  "convenience_generate_cli_passed": true,
+  "root_json_source_guard_passed": true
+}

@@ -1,0 +1,3123 @@
+{
+  "result_digest": "63c979c6b749c3c2e860021ff51fcf240ce10dfe900da71813000d62ceccd080",
+  "checks_by_kind": {
+    "capability": 23,
+    "regression": 12,
+    "integrity": 1,
+    "accounting": 1240,
+    "contract": 621,
+    "control": 10
+  },
+  "scalar_fitted_conditions": 620,
+  "scalar_aggregates": [
+    {
+      "category": "ambiguity",
+      "method": "ss_multi",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "2": 4
+      },
+      "state_bytes_range": [
+        12288,
+        12288
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_multi",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_multi",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "2": 4
+      },
+      "state_bytes_range": [
+        20480,
+        20480
+      ],
+      "numerical_weight_bytes_range": [
+        16384,
+        16384
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_multi",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "2": 4
+      },
+      "state_bytes_range": [
+        36864,
+        36864
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "2": 4
+      },
+      "state_bytes_range": [
+        69632,
+        69632
+      ],
+      "numerical_weight_bytes_range": [
+        65536,
+        65536
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_single",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_single",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_single",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_single",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_single",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_single",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_single",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "ss_single",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "symbolic_multi",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "2": 4
+      },
+      "state_bytes_range": [
+        12288,
+        12288
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "symbolic_multi",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "symbolic_multi",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "2": 4
+      },
+      "state_bytes_range": [
+        20480,
+        20480
+      ],
+      "numerical_weight_bytes_range": [
+        16384,
+        16384
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "symbolic_multi",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "2": 4
+      },
+      "state_bytes_range": [
+        36864,
+        36864
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 32,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "2": 4
+      },
+      "state_bytes_range": [
+        69632,
+        69632
+      ],
+      "numerical_weight_bytes_range": [
+        65536,
+        65536
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_pooled",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_pooled",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_pooled",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_pooled",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_single",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_single",
+      "dimension": 512,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_single",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_single",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_single",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_single",
+      "dimension": 2048,
+      "budget": "fixed_total",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_single",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 24,
+        "wrong": 8,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.25
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 1,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "ambiguity",
+      "method": "v09_single",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": true,
+      "runs": 4,
+      "ungated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 32,
+        "correct": 32,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 32,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 4
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 0,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "ss_multi",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "ss_single",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "ss_single",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "symbolic_multi",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "v09_pooled",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "v09_single",
+      "dimension": 512,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 314,
+        "wrong": 0,
+        "abstained": 6,
+        "accepted": 314,
+        "coverage": 0.98125,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        10240,
+        10240
+      ],
+      "numerical_weight_bytes_range": [
+        8192,
+        8192
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "standard",
+      "method": "v09_single",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 20,
+      "ungated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "calibrated": {
+        "requests": 320,
+        "correct": 320,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 320,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "candidate_counts": {
+        "1": 20
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 20,
+      "ood_accepted": 0
+    },
+    {
+      "category": "stress",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 50,
+      "ungated": {
+        "requests": 800,
+        "correct": 739,
+        "wrong": 20,
+        "abstained": 41,
+        "accepted": 759,
+        "coverage": 0.94875,
+        "selective_risk": 0.026350461133069828
+      },
+      "calibrated": {
+        "requests": 800,
+        "correct": 683,
+        "wrong": 1,
+        "abstained": 116,
+        "accepted": 684,
+        "coverage": 0.855,
+        "selective_risk": 0.0014619883040935672
+      },
+      "candidate_counts": {
+        "1": 49,
+        "2": 1
+      },
+      "state_bytes_range": [
+        34816,
+        69632
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        65536
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 50,
+      "ood_accepted": 0
+    },
+    {
+      "category": "stress",
+      "method": "ss_single",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 50,
+      "ungated": {
+        "requests": 800,
+        "correct": 741,
+        "wrong": 20,
+        "abstained": 39,
+        "accepted": 761,
+        "coverage": 0.95125,
+        "selective_risk": 0.026281208935611037
+      },
+      "calibrated": {
+        "requests": 800,
+        "correct": 685,
+        "wrong": 1,
+        "abstained": 114,
+        "accepted": 686,
+        "coverage": 0.8575,
+        "selective_risk": 0.0014577259475218659
+      },
+      "candidate_counts": {
+        "1": 50
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 50,
+      "ood_accepted": 0
+    },
+    {
+      "category": "stress",
+      "method": "symbolic_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 50,
+      "ungated": {
+        "requests": 800,
+        "correct": 740,
+        "wrong": 19,
+        "abstained": 41,
+        "accepted": 759,
+        "coverage": 0.94875,
+        "selective_risk": 0.025032938076416336
+      },
+      "calibrated": {
+        "requests": 800,
+        "correct": 695,
+        "wrong": 2,
+        "abstained": 103,
+        "accepted": 697,
+        "coverage": 0.87125,
+        "selective_risk": 0.0028694404591104736
+      },
+      "candidate_counts": {
+        "1": 49,
+        "2": 1
+      },
+      "state_bytes_range": [
+        34816,
+        69632
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        65536
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 50,
+      "ood_accepted": 0
+    },
+    {
+      "category": "stress",
+      "method": "v09_pooled",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 50,
+      "ungated": {
+        "requests": 800,
+        "correct": 553,
+        "wrong": 27,
+        "abstained": 220,
+        "accepted": 580,
+        "coverage": 0.725,
+        "selective_risk": 0.04655172413793104
+      },
+      "calibrated": {
+        "requests": 800,
+        "correct": 451,
+        "wrong": 13,
+        "abstained": 336,
+        "accepted": 464,
+        "coverage": 0.58,
+        "selective_risk": 0.028017241379310345
+      },
+      "candidate_counts": {
+        "1": 50
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 7,
+      "ood_requests": 50,
+      "ood_accepted": 0
+    },
+    {
+      "category": "stress",
+      "method": "v09_single",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 50,
+      "ungated": {
+        "requests": 800,
+        "correct": 501,
+        "wrong": 134,
+        "abstained": 165,
+        "accepted": 635,
+        "coverage": 0.79375,
+        "selective_risk": 0.2110236220472441
+      },
+      "calibrated": {
+        "requests": 800,
+        "correct": 347,
+        "wrong": 25,
+        "abstained": 428,
+        "accepted": 372,
+        "coverage": 0.465,
+        "selective_risk": 0.06720430107526881
+      },
+      "candidate_counts": {
+        "1": 50
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 12,
+      "ood_requests": 50,
+      "ood_accepted": 0
+    },
+    {
+      "category": "zero_phase",
+      "method": "ss_multi",
+      "dimension": 2048,
+      "budget": "per_candidate",
+      "after_added_examples": false,
+      "runs": 10,
+      "ungated": {
+        "requests": 160,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 160,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "calibrated": {
+        "requests": 160,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 160,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "candidate_counts": {
+        "1": 10
+      },
+      "state_bytes_range": [
+        34816,
+        34816
+      ],
+      "numerical_weight_bytes_range": [
+        32768,
+        32768
+      ],
+      "evaluation_risk_above_calibration_target_runs": 0,
+      "ood_requests": 10,
+      "ood_accepted": 0
+    }
+  ],
+  "matched_coverage": [
+    {
+      "comparison": "matched_new",
+      "stage": "ungated",
+      "category": "dependency",
+      "groups": 90,
+      "zero_common_coverage_groups": 0,
+      "accepted_per_method": 1390,
+      "wrong_by_method": {
+        "ss_multi": 19,
+        "symbolic_multi": 19,
+        "ss_single": 19
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "matched_new",
+      "stage": "ungated",
+      "category": "ambiguity_before",
+      "groups": 16,
+      "zero_common_coverage_groups": 16,
+      "accepted_per_method": 0,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 0,
+        "ss_single": 0
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "matched_new",
+      "stage": "ungated",
+      "category": "ambiguity_after",
+      "groups": 16,
+      "zero_common_coverage_groups": 0,
+      "accepted_per_method": 128,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 0,
+        "ss_single": 0
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "matched_new",
+      "stage": "calibrated",
+      "category": "dependency",
+      "groups": 90,
+      "zero_common_coverage_groups": 2,
+      "accepted_per_method": 1316,
+      "wrong_by_method": {
+        "ss_multi": 1,
+        "symbolic_multi": 2,
+        "ss_single": 1
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "matched_new",
+      "stage": "calibrated",
+      "category": "ambiguity_before",
+      "groups": 16,
+      "zero_common_coverage_groups": 16,
+      "accepted_per_method": 0,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 0,
+        "ss_single": 0
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "matched_new",
+      "stage": "calibrated",
+      "category": "ambiguity_after",
+      "groups": 16,
+      "zero_common_coverage_groups": 0,
+      "accepted_per_method": 128,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 0,
+        "ss_single": 0
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "all_five",
+      "stage": "ungated",
+      "category": "dependency",
+      "groups": 90,
+      "zero_common_coverage_groups": 6,
+      "accepted_per_method": 1154,
+      "wrong_by_method": {
+        "ss_multi": 11,
+        "symbolic_multi": 12,
+        "ss_single": 11,
+        "v09_single": 98,
+        "v09_pooled": 25
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "all_five",
+      "stage": "ungated",
+      "category": "ambiguity_before",
+      "groups": 16,
+      "zero_common_coverage_groups": 16,
+      "accepted_per_method": 0,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 0,
+        "ss_single": 0,
+        "v09_single": 0,
+        "v09_pooled": 0
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "all_five",
+      "stage": "ungated",
+      "category": "ambiguity_after",
+      "groups": 16,
+      "zero_common_coverage_groups": 0,
+      "accepted_per_method": 128,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 0,
+        "ss_single": 0,
+        "v09_single": 0,
+        "v09_pooled": 0
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "all_five",
+      "stage": "calibrated",
+      "category": "dependency",
+      "groups": 90,
+      "zero_common_coverage_groups": 21,
+      "accepted_per_method": 930,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 1,
+        "ss_single": 0,
+        "v09_single": 10,
+        "v09_pooled": 3
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "all_five",
+      "stage": "calibrated",
+      "category": "ambiguity_before",
+      "groups": 16,
+      "zero_common_coverage_groups": 16,
+      "accepted_per_method": 0,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 0,
+        "ss_single": 0,
+        "v09_single": 0,
+        "v09_pooled": 0
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    },
+    {
+      "comparison": "all_five",
+      "stage": "calibrated",
+      "category": "ambiguity_after",
+      "groups": 16,
+      "zero_common_coverage_groups": 0,
+      "accepted_per_method": 128,
+      "wrong_by_method": {
+        "ss_multi": 0,
+        "symbolic_multi": 0,
+        "ss_single": 0,
+        "v09_single": 0,
+        "v09_pooled": 0
+      },
+      "scope": "Equal number answered, not identical inputs; zero-common groups contribute no risk comparison."
+    }
+  ],
+  "ss_vs_symbolic_paired_conditions": 122,
+  "ss_vs_symbolic_prediction_differences": [
+    {
+      "condition": [
+        "evaluation/and2/0/24/3",
+        2048,
+        "candidate-evaluation-0",
+        "per_candidate",
+        false
+      ],
+      "ss_multi": {
+        "ungated": {
+          "requests": 16,
+          "correct": 14,
+          "wrong": 0,
+          "abstained": 2,
+          "accepted": 14,
+          "coverage": 0.875,
+          "selective_risk": 0.0
+        },
+        "calibrated": {
+          "requests": 16,
+          "correct": 14,
+          "wrong": 0,
+          "abstained": 2,
+          "accepted": 14,
+          "coverage": 0.875,
+          "selective_risk": 0.0
+        }
+      },
+      "symbolic_multi": {
+        "ungated": {
+          "requests": 16,
+          "correct": 12,
+          "wrong": 0,
+          "abstained": 4,
+          "accepted": 12,
+          "coverage": 0.75,
+          "selective_risk": 0.0
+        },
+        "calibrated": {
+          "requests": 16,
+          "correct": 12,
+          "wrong": 0,
+          "abstained": 4,
+          "accepted": 12,
+          "coverage": 0.75,
+          "selective_risk": 0.0
+        }
+      }
+    },
+    {
+      "condition": [
+        "evaluation/switch3/0/24/3",
+        2048,
+        "candidate-evaluation-0",
+        "per_candidate",
+        false
+      ],
+      "ss_multi": {
+        "ungated": {
+          "requests": 16,
+          "correct": 11,
+          "wrong": 2,
+          "abstained": 3,
+          "accepted": 13,
+          "coverage": 0.8125,
+          "selective_risk": 0.15384615384615385
+        },
+        "calibrated": {
+          "requests": 16,
+          "correct": 0,
+          "wrong": 0,
+          "abstained": 16,
+          "accepted": 0,
+          "coverage": 0.0,
+          "selective_risk": null
+        }
+      },
+      "symbolic_multi": {
+        "ungated": {
+          "requests": 16,
+          "correct": 12,
+          "wrong": 0,
+          "abstained": 4,
+          "accepted": 12,
+          "coverage": 0.75,
+          "selective_risk": 0.0
+        },
+        "calibrated": {
+          "requests": 16,
+          "correct": 12,
+          "wrong": 0,
+          "abstained": 4,
+          "accepted": 12,
+          "coverage": 0.75,
+          "selective_risk": 0.0
+        }
+      }
+    },
+    {
+      "condition": [
+        "evaluation/parity3/0/24/3",
+        2048,
+        "candidate-evaluation-0",
+        "per_candidate",
+        false
+      ],
+      "ss_multi": {
+        "ungated": {
+          "requests": 16,
+          "correct": 12,
+          "wrong": 0,
+          "abstained": 4,
+          "accepted": 12,
+          "coverage": 0.75,
+          "selective_risk": 0.0
+        },
+        "calibrated": {
+          "requests": 16,
+          "correct": 12,
+          "wrong": 0,
+          "abstained": 4,
+          "accepted": 12,
+          "coverage": 0.75,
+          "selective_risk": 0.0
+        }
+      },
+      "symbolic_multi": {
+        "ungated": {
+          "requests": 16,
+          "correct": 14,
+          "wrong": 1,
+          "abstained": 1,
+          "accepted": 15,
+          "coverage": 0.9375,
+          "selective_risk": 0.06666666666666667
+        },
+        "calibrated": {
+          "requests": 16,
+          "correct": 14,
+          "wrong": 1,
+          "abstained": 1,
+          "accepted": 15,
+          "coverage": 0.9375,
+          "selective_risk": 0.06666666666666667
+        }
+      }
+    }
+  ],
+  "language_standard": {
+    "read": {
+      "requests": 864,
+      "correct": 864,
+      "wrong": 0,
+      "abstained": 0,
+      "accepted": 864,
+      "coverage": 1.0,
+      "selective_risk": 0.0
+    },
+    "direct_generation": {
+      "requests": 432,
+      "correct": 432,
+      "wrong": 0,
+      "abstained": 0,
+      "accepted": 432,
+      "coverage": 1.0,
+      "selective_risk": 0.0
+    },
+    "roundtrip": {
+      "requests": 864,
+      "correct": 864,
+      "wrong": 0,
+      "abstained": 0,
+      "accepted": 864,
+      "coverage": 1.0,
+      "selective_risk": 0.0
+    },
+    "unique_input_texts": 816,
+    "unique_meanings": 216,
+    "storage": {
+      "members": 2,
+      "phase_block_bytes": 2662400,
+      "fixed_recall_cache_bytes": 2621440,
+      "codec_and_component_array_payload_bytes": 22544384,
+      "known_payload_total_bytes": 27828224,
+      "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+    },
+    "demos": [
+      {
+        "input": "太郎が由紀を助けた。花子が次郎を褒めた。",
+        "output": "次郎を花子が褒めた。太郎が由紀を助けた。",
+        "exact": true
+      },
+      {
+        "input": "太郎が由紀を助けた。次郎を花子が褒めた。",
+        "output": "次郎を花子が褒めた。太郎が由紀を助けた。",
+        "exact": true
+      },
+      {
+        "input": "由紀を太郎が助けた。花子が次郎を褒めた。",
+        "output": "次郎を花子が褒めた。太郎が由紀を助けた。",
+        "exact": true
+      }
+    ],
+    "member_count": 2,
+    "supported": true
+  },
+  "language_baselines": {
+    "ss_multi": {
+      "read": {
+        "requests": 54,
+        "correct": 54,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 54,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "direct_generation": {
+        "requests": 108,
+        "correct": 108,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 108,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "roundtrip": {
+        "requests": 54,
+        "correct": 54,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 54,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "unique_input_texts": 51,
+      "unique_meanings": 54,
+      "storage": {
+        "members": 2,
+        "phase_block_bytes": 2662400,
+        "fixed_recall_cache_bytes": 2621440,
+        "codec_and_component_array_payload_bytes": 22544384,
+        "known_payload_total_bytes": 27828224,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "demos": [
+        {
+          "input": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "output": "次郎を花子が褒めた。太郎が由紀を助けた。",
+          "exact": true
+        },
+        {
+          "input": "花子が次郎を褒めた。太郎が由紀を助けた。",
+          "output": "由紀を太郎が助けた。花子が次郎を褒めた。",
+          "exact": true
+        },
+        {
+          "input": "太郎が由紀を助けた。その後、花子が次郎を褒めた。",
+          "output": "次郎を花子が褒めた。その前に、太郎が由紀を助けた。",
+          "exact": true
+        }
+      ],
+      "member_count": 2,
+      "supported": true
+    },
+    "symbolic_multi": {
+      "read": {
+        "requests": 54,
+        "correct": 54,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 54,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "direct_generation": {
+        "requests": 108,
+        "correct": 108,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 108,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "roundtrip": {
+        "requests": 54,
+        "correct": 54,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 54,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "unique_input_texts": 51,
+      "unique_meanings": 54,
+      "storage": {
+        "members": 2,
+        "phase_block_bytes": 2662400,
+        "fixed_recall_cache_bytes": 2621440,
+        "codec_and_component_array_payload_bytes": 22544384,
+        "known_payload_total_bytes": 27828224,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "demos": [
+        {
+          "input": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "output": "次郎を花子が褒めた。太郎が由紀を助けた。",
+          "exact": true
+        },
+        {
+          "input": "花子が次郎を褒めた。太郎が由紀を助けた。",
+          "output": "由紀を太郎が助けた。花子が次郎を褒めた。",
+          "exact": true
+        },
+        {
+          "input": "太郎が由紀を助けた。その後、花子が次郎を褒めた。",
+          "output": "次郎を花子が褒めた。その前に、太郎が由紀を助けた。",
+          "exact": true
+        }
+      ],
+      "member_count": 2,
+      "supported": true
+    },
+    "ss_single": {
+      "read": {
+        "requests": 54,
+        "correct": 54,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 54,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "direct_generation": {
+        "requests": 108,
+        "correct": 108,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 108,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "roundtrip": {
+        "requests": 54,
+        "correct": 54,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 54,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "unique_input_texts": 51,
+      "unique_meanings": 54,
+      "storage": {
+        "members": 1,
+        "phase_block_bytes": 1331200,
+        "fixed_recall_cache_bytes": 1310720,
+        "codec_and_component_array_payload_bytes": 11272192,
+        "known_payload_total_bytes": 13914112,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "demos": [
+        {
+          "input": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "output": "次郎を花子が褒めた。太郎が由紀を助けた。",
+          "exact": true
+        },
+        {
+          "input": "花子が次郎を褒めた。太郎が由紀を助けた。",
+          "output": "由紀を太郎が助けた。花子が次郎を褒めた。",
+          "exact": true
+        },
+        {
+          "input": "太郎が由紀を助けた。その後、花子が次郎を褒めた。",
+          "output": "次郎を花子が褒めた。その前に、太郎が由紀を助けた。",
+          "exact": true
+        }
+      ],
+      "member_count": 1,
+      "supported": true
+    },
+    "v09_single": {
+      "read": {
+        "requests": 54,
+        "correct": 54,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 54,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "direct_generation": {
+        "requests": 108,
+        "correct": 108,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 108,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "roundtrip": {
+        "requests": 54,
+        "correct": 54,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 54,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "unique_input_texts": 51,
+      "unique_meanings": 54,
+      "storage": {
+        "members": 1,
+        "phase_block_bytes": 1331200,
+        "fixed_recall_cache_bytes": 1310720,
+        "codec_and_component_array_payload_bytes": 11272192,
+        "known_payload_total_bytes": 13914112,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "demos": [
+        {
+          "input": "太郎が由紀を助けた。花子が次郎を褒めた。",
+          "output": "次郎を花子が褒めた。太郎が由紀を助けた。",
+          "exact": true
+        },
+        {
+          "input": "花子が次郎を褒めた。太郎が由紀を助けた。",
+          "output": "由紀を太郎が助けた。花子が次郎を褒めた。",
+          "exact": true
+        },
+        {
+          "input": "太郎が由紀を助けた。その後、花子が次郎を褒めた。",
+          "output": "次郎を花子が褒めた。その前に、太郎が由紀を助けた。",
+          "exact": true
+        }
+      ],
+      "member_count": 1,
+      "supported": true
+    }
+  },
+  "language_ambiguity": {
+    "ss_multi/before": {
+      "generation": {
+        "requests": 36,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 36,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "component_training_pairs": 216,
+      "selection_validation_pairs": 96,
+      "temporal_training_pairs": 84,
+      "storage": {
+        "members": 4,
+        "phase_block_bytes": 5324800,
+        "fixed_recall_cache_bytes": 5242880,
+        "codec_and_component_array_payload_bytes": 45088768,
+        "known_payload_total_bytes": 55656448,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "joint_plausible_count": 8,
+      "joint_candidate_space_complete": false,
+      "member_count": 4,
+      "supported": false,
+      "single_candidate_ablation": false,
+      "reasons": {
+        "candidate_generation_disagreement": 36
+      }
+    },
+    "ss_multi/after": {
+      "generation": {
+        "requests": 36,
+        "correct": 36,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 36,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "component_training_pairs": 218,
+      "selection_validation_pairs": 96,
+      "temporal_training_pairs": 84,
+      "storage": {
+        "members": 2,
+        "phase_block_bytes": 2662400,
+        "fixed_recall_cache_bytes": 2621440,
+        "codec_and_component_array_payload_bytes": 22544384,
+        "known_payload_total_bytes": 27828224,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "joint_plausible_count": 2,
+      "joint_candidate_space_complete": true,
+      "member_count": 2,
+      "supported": true,
+      "single_candidate_ablation": false,
+      "reasons": {
+        "null": 36
+      }
+    },
+    "symbolic_multi/before": {
+      "generation": {
+        "requests": 36,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 36,
+        "accepted": 0,
+        "coverage": 0.0,
+        "selective_risk": null
+      },
+      "component_training_pairs": 216,
+      "selection_validation_pairs": 96,
+      "temporal_training_pairs": 84,
+      "storage": {
+        "members": 4,
+        "phase_block_bytes": 5324800,
+        "fixed_recall_cache_bytes": 5242880,
+        "codec_and_component_array_payload_bytes": 45088768,
+        "known_payload_total_bytes": 55656448,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "joint_plausible_count": 8,
+      "joint_candidate_space_complete": false,
+      "member_count": 4,
+      "supported": false,
+      "single_candidate_ablation": false,
+      "reasons": {
+        "candidate_generation_disagreement": 36
+      }
+    },
+    "symbolic_multi/after": {
+      "generation": {
+        "requests": 36,
+        "correct": 36,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 36,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "component_training_pairs": 218,
+      "selection_validation_pairs": 96,
+      "temporal_training_pairs": 84,
+      "storage": {
+        "members": 2,
+        "phase_block_bytes": 2662400,
+        "fixed_recall_cache_bytes": 2621440,
+        "codec_and_component_array_payload_bytes": 22544384,
+        "known_payload_total_bytes": 27828224,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "joint_plausible_count": 2,
+      "joint_candidate_space_complete": true,
+      "member_count": 2,
+      "supported": true,
+      "single_candidate_ablation": false,
+      "reasons": {
+        "null": 36
+      }
+    },
+    "ss_single/before": {
+      "generation": {
+        "requests": 36,
+        "correct": 0,
+        "wrong": 36,
+        "abstained": 0,
+        "accepted": 36,
+        "coverage": 1.0,
+        "selective_risk": 1.0
+      },
+      "component_training_pairs": 216,
+      "selection_validation_pairs": 96,
+      "temporal_training_pairs": 84,
+      "storage": {
+        "members": 1,
+        "phase_block_bytes": 1331200,
+        "fixed_recall_cache_bytes": 1310720,
+        "codec_and_component_array_payload_bytes": 11272192,
+        "known_payload_total_bytes": 13914112,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "joint_plausible_count": 8,
+      "joint_candidate_space_complete": true,
+      "member_count": 1,
+      "supported": true,
+      "single_candidate_ablation": true,
+      "reasons": {
+        "null": 36
+      }
+    },
+    "ss_single/after": {
+      "generation": {
+        "requests": 36,
+        "correct": 36,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 36,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "component_training_pairs": 218,
+      "selection_validation_pairs": 96,
+      "temporal_training_pairs": 84,
+      "storage": {
+        "members": 1,
+        "phase_block_bytes": 1331200,
+        "fixed_recall_cache_bytes": 1310720,
+        "codec_and_component_array_payload_bytes": 11272192,
+        "known_payload_total_bytes": 13914112,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "joint_plausible_count": 2,
+      "joint_candidate_space_complete": true,
+      "member_count": 1,
+      "supported": true,
+      "single_candidate_ablation": true,
+      "reasons": {
+        "null": 36
+      }
+    },
+    "v09_single/before": {
+      "generation": {
+        "requests": 36,
+        "correct": 0,
+        "wrong": 36,
+        "abstained": 0,
+        "accepted": 36,
+        "coverage": 1.0,
+        "selective_risk": 1.0
+      },
+      "component_training_pairs": 216,
+      "selection_validation_pairs": 0,
+      "temporal_training_pairs": 84,
+      "storage": {
+        "members": 1,
+        "phase_block_bytes": 1331200,
+        "fixed_recall_cache_bytes": 1310720,
+        "codec_and_component_array_payload_bytes": 11272192,
+        "known_payload_total_bytes": 13914112,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "joint_plausible_count": 1,
+      "joint_candidate_space_complete": true,
+      "member_count": 1,
+      "supported": true,
+      "single_candidate_ablation": false,
+      "reasons": {
+        "null": 36
+      }
+    },
+    "v09_single/after": {
+      "generation": {
+        "requests": 36,
+        "correct": 36,
+        "wrong": 0,
+        "abstained": 0,
+        "accepted": 36,
+        "coverage": 1.0,
+        "selective_risk": 0.0
+      },
+      "component_training_pairs": 218,
+      "selection_validation_pairs": 0,
+      "temporal_training_pairs": 84,
+      "storage": {
+        "members": 1,
+        "phase_block_bytes": 1331200,
+        "fixed_recall_cache_bytes": 1310720,
+        "codec_and_component_array_payload_bytes": 11272192,
+        "known_payload_total_bytes": 13914112,
+        "scope": "Warm owned payloads; excludes Python container/object overhead, interpreter, libraries, training temporaries and OS RSS."
+      },
+      "joint_plausible_count": 1,
+      "joint_candidate_space_complete": true,
+      "member_count": 1,
+      "supported": true,
+      "single_candidate_ablation": false,
+      "reasons": {
+        "null": 36
+      }
+    }
+  },
+  "scope": "Posthoc aggregation of frozen raw results; no new threshold or source changes."
+}

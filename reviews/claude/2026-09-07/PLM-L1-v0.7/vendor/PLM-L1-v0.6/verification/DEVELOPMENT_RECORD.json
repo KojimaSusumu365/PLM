@@ -1,0 +1,7 @@
+{
+  "scope": "Exploratory pre-freeze run. Final source added additional weight digests and count audits after this run; no thresholds or numerical algorithm were changed.",
+  "sha256": "574257b047bfdafa185a7a1e754aee5ec69774edfd824b615350e5b26a5bb75a",
+  "result_digest": "40042bde57daac278275dfee560a5d916e0ae7890570b02ca7c47011d72a0260",
+  "standard_conditions": 4,
+  "memory_conditions": 17
+}

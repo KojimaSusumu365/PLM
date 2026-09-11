@@ -1,0 +1,5177 @@
+=== generalized_revision ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "Originally marked dog: reclassified as cat."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.9286,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0,
+    "raw_selection_confidence": 0.8455,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8264,
+    "legacy_selection_confidence": 0.8613,
+    "reliability_signal": 0.9,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 12
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "Originally marked dog",
+      "assertion_status": "provisional",
+      "instance_scope": "instance:shared",
+      "discourse_state": "provisional",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "reclassified as cat",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "discourse_state": "corrective",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "SPLIT_REVISION_BOUNDARY",
+      "source_id": "S001",
+      "reason": "revision marker after colon"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C001",
+      "state": "provisional",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C002",
+      "state": "corrective",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0002",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 1
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S001:C002",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S001:C002",
+      "relation_type": "REVISION",
+      "subject": "S001:C002",
+      "predicate": "REVISES",
+      "object_text": "Originally marked dog",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "corrective",
+      "applied": true,
+      "target_concept": null,
+      "target_clause_id": "S001:C001",
+      "source_relation_id": null,
+      "source_reference_id": null,
+      "subject_mention_id": null,
+      "object_mention_id": null,
+      "subject_entity_id": null,
+      "object_entity_id": null,
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001",
+        "E0002"
+      ],
+      "extraction_rule": "ledger_supersession",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 1,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 18,
+        "end": 21,
+        "text": "dog"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C002",
+      "span": {
+        "start": 16,
+        "end": 19,
+        "text": "cat"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0001"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 2,
+      "EVENT": 2,
+      "EVIDENCE": 2,
+      "MENTION": 2,
+      "RELATION_FRAME": 1,
+      "SOURCE": 1,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 2,
+      "DENOTES": 2,
+      "DERIVED_FROM": 2,
+      "DESCRIBES": 2,
+      "HAS_MENTION": 2,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPERSEDES": 1,
+      "SUPERSEDES_CLAUSE": 1,
+      "SUPPORTS": 2,
+      "YIELDS": 3
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "Originally marked dog",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0002"
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "scope": "instance:shared/S001:C002",
+      "target_id": "T:shared:entity",
+      "source_text": "reclassified as cat",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 1,
+    "operations": 6,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 1,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 24,
+    "claim_graph_edges": 22
+  }
+}
+
+=== nominal_coreference ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "A dog and a cat were listed.",
+    "The earlier one was selected."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "DOG",
+    "candidate": "DOG",
+    "label_ja": "犬",
+    "confidence": 0.8838,
+    "selection_confidence": 0.9286,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.27,
+    "runner_up": null,
+    "margin": 1.27,
+    "raw_selection_confidence": 0.8838,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8359,
+    "legacy_selection_confidence": 0.8632,
+    "reliability_signal": 0.9,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 12
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "A dog and a cat were listed",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "The earlier one was selected",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RESOLVE_INSTANCE_REFERENCE",
+      "reference_id": "Q0001",
+      "antecedent_entity_id": "ENT000001"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "active_evidence_items": 3
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S002:C001",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [
+    {
+      "link_id": "Q0001",
+      "clause_id": "S002:C001",
+      "antecedent_clause_id": "S001:C001",
+      "cue": "The earlier one",
+      "concept": "DOG",
+      "antecedent_evidence_id": "E0001",
+      "antecedent_entity_id": "ENT000001",
+      "antecedent_mention_id": "MN000001",
+      "reference_mention_id": "MN000003"
+    }
+  ],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S002:C001",
+      "relation_type": "COREFERENCE",
+      "subject": "The earlier one",
+      "predicate": "REFERS_TO",
+      "object_text": "DOG",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "DOG",
+      "target_clause_id": "S001:C001",
+      "source_relation_id": null,
+      "source_reference_id": "Q0001",
+      "subject_mention_id": "MN000003",
+      "object_mention_id": "MN000001",
+      "subject_entity_id": "ENT000001",
+      "object_entity_id": "ENT000001",
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001"
+      ],
+      "extraction_rule": "instance_reference",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 1,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 2,
+        "end": 5,
+        "text": "dog"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 12,
+        "end": 15,
+        "text": "cat"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": "ENT000001",
+      "source_id": "S002",
+      "clause_id": "S002:C001",
+      "span": {
+        "start": 0,
+        "end": 15,
+        "text": "The earlier one"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "reference"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [
+    {
+      "clause_id": "S002:C001",
+      "cue": "The earlier one",
+      "mode": "ordered",
+      "status": "resolved",
+      "candidate_entity_ids": [
+        "ENT000001",
+        "ENT000002"
+      ],
+      "resolved_entity_ids": [
+        "ENT000001"
+      ]
+    }
+  ],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0001"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 2,
+      "EVENT": 2,
+      "EVIDENCE": 3,
+      "MENTION": 3,
+      "REFERENCE": 1,
+      "RELATION_FRAME": 1,
+      "SOURCE": 2,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 6,
+      "CONTAINS": 2,
+      "DENOTES": 3,
+      "DERIVED_FROM": 1,
+      "DESCRIBES": 2,
+      "FRAME_OF": 1,
+      "HAS_MENTION": 3,
+      "HAS_OBJECT": 1,
+      "HAS_SUBJECT": 1,
+      "MAPS_TO": 1,
+      "REFERS_BACK_TO": 2,
+      "RESOLVES_TO": 1,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPPORTS": 3,
+      "YIELDS": 5
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog and a cat were listed",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog and a cat were listed",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:shared/S002:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "The earlier one was selected",
+      "pattern": "[reference:The earlier one]",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.05,
+      "effective_weight": 1.05,
+      "reason": "instance coreference",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 3,
+    "active_evidence_items": 3,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 1,
+    "agentive_relation_items": 0,
+    "relation_frames": 1,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 28,
+    "claim_graph_edges": 33
+  }
+}
+
+=== bounded_pronoun ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "A cat entered the room.",
+    "It was photographed."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.9703,
+    "selection_confidence": 0.9286,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 2.05,
+    "runner_up": null,
+    "margin": 2.05,
+    "raw_selection_confidence": 0.9703,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8576,
+    "legacy_selection_confidence": 0.8675,
+    "reliability_signal": 0.9,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 12
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "A cat entered the room",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "It was photographed",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RESOLVE_INSTANCE_REFERENCE",
+      "reference_id": "Q0001",
+      "antecedent_entity_id": "ENT000001"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "active_evidence_items": 2
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S002:C001",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [
+    {
+      "link_id": "Q0001",
+      "clause_id": "S002:C001",
+      "antecedent_clause_id": "S001:C001",
+      "cue": "It",
+      "concept": "CAT",
+      "antecedent_evidence_id": "E0001",
+      "antecedent_entity_id": "ENT000001",
+      "antecedent_mention_id": "MN000001",
+      "reference_mention_id": "MN000002"
+    }
+  ],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S002:C001",
+      "relation_type": "COREFERENCE",
+      "subject": "It",
+      "predicate": "REFERS_TO",
+      "object_text": "CAT",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "CAT",
+      "target_clause_id": "S001:C001",
+      "source_relation_id": null,
+      "source_reference_id": "Q0001",
+      "subject_mention_id": "MN000002",
+      "object_mention_id": "MN000001",
+      "subject_entity_id": "ENT000001",
+      "object_entity_id": "ENT000001",
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001"
+      ],
+      "extraction_rule": "instance_reference",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 1,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 2,
+        "end": 5,
+        "text": "cat"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000001",
+      "source_id": "S002",
+      "clause_id": "S002:C001",
+      "span": {
+        "start": 0,
+        "end": 2,
+        "text": "It"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "reference"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [
+    {
+      "clause_id": "S002:C001",
+      "cue": "It",
+      "mode": "singular",
+      "status": "resolved",
+      "candidate_entity_ids": [
+        "ENT000001"
+      ],
+      "resolved_entity_ids": [
+        "ENT000001"
+      ]
+    }
+  ],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0001"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 1,
+      "EVENT": 2,
+      "EVIDENCE": 2,
+      "MENTION": 2,
+      "REFERENCE": 1,
+      "RELATION_FRAME": 1,
+      "SOURCE": 2,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 2,
+      "DENOTES": 2,
+      "DERIVED_FROM": 1,
+      "DESCRIBES": 2,
+      "FRAME_OF": 1,
+      "HAS_MENTION": 2,
+      "HAS_OBJECT": 1,
+      "HAS_SUBJECT": 1,
+      "MAPS_TO": 1,
+      "REFERS_BACK_TO": 2,
+      "RESOLVES_TO": 1,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPPORTS": 2,
+      "YIELDS": 4
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A cat entered the room",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:shared/S002:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "It was photographed",
+      "pattern": "[reference:It]",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.05,
+      "effective_weight": 1.05,
+      "reason": "instance coreference",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 1,
+    "accepted_surface_matches": 1,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 1,
+    "agentive_relation_items": 0,
+    "relation_frames": 1,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 25,
+    "claim_graph_edges": 27
+  }
+}
+
+=== plural_reference ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "A dog and a cat entered.",
+    "They were photographed."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "ANIMAL",
+    "candidate": "ANIMAL",
+    "label_ja": "動物",
+    "confidence": 0.9401,
+    "selection_confidence": 0.5556,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.704,
+    "runner_up": null,
+    "margin": 1.704,
+    "raw_selection_confidence": 0.9401,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.85,
+    "legacy_selection_confidence": 0.866,
+    "reliability_signal": 0.55,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 5
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "A dog and a cat entered",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "They were photographed",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RESOLVE_INSTANCE_REFERENCE",
+      "reference_id": "Q0001",
+      "antecedent_entity_id": "ENT000001"
+    },
+    {
+      "operation": "RESOLVE_INSTANCE_REFERENCE",
+      "reference_id": "Q0002",
+      "antecedent_entity_id": "ENT000002"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "active_evidence_items": 4
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S002:C001",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [
+    {
+      "link_id": "Q0001",
+      "clause_id": "S002:C001",
+      "antecedent_clause_id": "S001:C001",
+      "cue": "They",
+      "concept": "DOG",
+      "antecedent_evidence_id": "E0001",
+      "antecedent_entity_id": "ENT000001",
+      "antecedent_mention_id": "MN000001",
+      "reference_mention_id": "MN000003"
+    },
+    {
+      "link_id": "Q0002",
+      "clause_id": "S002:C001",
+      "antecedent_clause_id": "S001:C001",
+      "cue": "They",
+      "concept": "CAT",
+      "antecedent_evidence_id": "E0002",
+      "antecedent_entity_id": "ENT000002",
+      "antecedent_mention_id": "MN000002",
+      "reference_mention_id": "MN000004"
+    }
+  ],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S002:C001",
+      "relation_type": "COREFERENCE",
+      "subject": "They",
+      "predicate": "REFERS_TO",
+      "object_text": "DOG",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "DOG",
+      "target_clause_id": "S001:C001",
+      "source_relation_id": null,
+      "source_reference_id": "Q0001",
+      "subject_mention_id": "MN000003",
+      "object_mention_id": "MN000001",
+      "subject_entity_id": "ENT000001",
+      "object_entity_id": "ENT000001",
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001"
+      ],
+      "extraction_rule": "instance_reference",
+      "semantic_status": "rule_checked"
+    },
+    {
+      "frame_id": "F0002",
+      "clause_id": "S002:C001",
+      "relation_type": "COREFERENCE",
+      "subject": "They",
+      "predicate": "REFERS_TO",
+      "object_text": "CAT",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "CAT",
+      "target_clause_id": "S001:C001",
+      "source_relation_id": null,
+      "source_reference_id": "Q0002",
+      "subject_mention_id": "MN000004",
+      "object_mention_id": "MN000002",
+      "subject_entity_id": "ENT000002",
+      "object_entity_id": "ENT000002",
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0002"
+      ],
+      "extraction_rule": "instance_reference",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 2,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 2,
+        "end": 5,
+        "text": "dog"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 12,
+        "end": 15,
+        "text": "cat"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": "ENT000001",
+      "source_id": "S002",
+      "clause_id": "S002:C001",
+      "span": {
+        "start": 0,
+        "end": 4,
+        "text": "They"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "reference"
+    },
+    {
+      "mention_id": "MN000004",
+      "entity_id": "ENT000002",
+      "source_id": "S002",
+      "clause_id": "S002:C001",
+      "span": {
+        "start": 0,
+        "end": 4,
+        "text": "They"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "reference"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [
+    {
+      "clause_id": "S002:C001",
+      "cue": "They",
+      "mode": "plural",
+      "status": "resolved",
+      "candidate_entity_ids": [
+        "ENT000001",
+        "ENT000002"
+      ],
+      "resolved_entity_ids": [
+        "ENT000001",
+        "ENT000002"
+      ]
+    }
+  ],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      },
+      {
+        "frame_id": "F0002",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 2,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0001",
+      "F0002"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 2,
+      "EVENT": 2,
+      "EVIDENCE": 4,
+      "MENTION": 4,
+      "REFERENCE": 2,
+      "RELATION_FRAME": 2,
+      "SOURCE": 2,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 8,
+      "CONTAINS": 2,
+      "DENOTES": 4,
+      "DERIVED_FROM": 2,
+      "DESCRIBES": 2,
+      "FRAME_OF": 2,
+      "HAS_MENTION": 4,
+      "HAS_OBJECT": 2,
+      "HAS_SUBJECT": 2,
+      "MAPS_TO": 2,
+      "REFERS_BACK_TO": 4,
+      "RESOLVES_TO": 2,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPPORTS": 4,
+      "YIELDS": 8
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog and a cat entered",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog and a cat entered",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:shared/S002:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "They were photographed",
+      "pattern": "[reference:They]",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.05,
+      "effective_weight": 1.05,
+      "reason": "instance coreference",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0004",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:shared/S002:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "They were photographed",
+      "pattern": "[reference:They]",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.05,
+      "effective_weight": 1.05,
+      "reason": "instance coreference",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 4,
+    "active_evidence_items": 4,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 2,
+    "agentive_relation_items": 0,
+    "relation_frames": 2,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 32,
+    "claim_graph_edges": 49
+  }
+}
+
+=== japanese_correction ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "犬、いや、猫。"
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.9286,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0,
+    "raw_selection_confidence": 0.8455,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8264,
+    "legacy_selection_confidence": 0.8613,
+    "reliability_signal": 0.9,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 12
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "犬",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "いや",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "discourse_state": "corrective",
+      "correction_target": true
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C003",
+      "text": "猫",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "discourse_state": "corrective",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "MARK_CONTRASTIVE_CORRECTION",
+      "source_id": "S001",
+      "reason": "standalone correction connective"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C002",
+      "state": "corrective",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C003",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "PROPAGATE_CORRECTION_SCOPE",
+      "from_clause_id": "S001:C002",
+      "to_clause_id": "S001:C003",
+      "reason": "standalone Japanese correction marker"
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0002",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 1
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S001:C002",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    },
+    {
+      "link_id": "L0002",
+      "source_event": "EV:S001:C002",
+      "target_event": "EV:S001:C003",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S001:C003",
+      "relation_type": "REVISION",
+      "subject": "S001:C003",
+      "predicate": "REVISES",
+      "object_text": "犬",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "corrective",
+      "applied": true,
+      "target_concept": null,
+      "target_clause_id": "S001:C001",
+      "source_relation_id": null,
+      "source_reference_id": null,
+      "subject_mention_id": null,
+      "object_mention_id": null,
+      "subject_entity_id": null,
+      "object_entity_id": null,
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001",
+        "E0002"
+      ],
+      "extraction_rule": "ledger_supersession",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 1,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 0,
+        "end": 1,
+        "text": "犬"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C003",
+      "span": {
+        "start": 0,
+        "end": 1,
+        "text": "猫"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0001"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 3,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 2,
+      "EVENT": 3,
+      "EVIDENCE": 2,
+      "MENTION": 2,
+      "RELATION_FRAME": 1,
+      "SOURCE": 1,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 3,
+      "DENOTES": 2,
+      "DERIVED_FROM": 2,
+      "DESCRIBES": 3,
+      "HAS_MENTION": 2,
+      "SAME_TARGET_SEQUENCE": 2,
+      "SUPERSEDES": 1,
+      "SUPERSEDES_CLAUSE": 1,
+      "SUPPORTS": 2,
+      "YIELDS": 3
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "犬",
+      "pattern": "犬",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0002"
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C003",
+      "scope": "instance:shared/S001:C003",
+      "target_id": "T:shared:entity",
+      "source_text": "猫",
+      "pattern": "猫",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 3,
+    "patterns_checked": 126,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 1,
+    "operations": 7,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 1,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 2,
+    "claim_graph_nodes": 26,
+    "claim_graph_edges": 25
+  }
+}
+
+=== japanese_reference ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "犬と猫を登録した。",
+    "後者を選んだ。"
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8838,
+    "selection_confidence": 0.9286,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.27,
+    "runner_up": null,
+    "margin": 1.27,
+    "raw_selection_confidence": 0.8838,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8359,
+    "legacy_selection_confidence": 0.8632,
+    "reliability_signal": 0.9,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 12
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "犬と猫を登録した",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "後者を選んだ",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RESOLVE_INSTANCE_REFERENCE",
+      "reference_id": "Q0001",
+      "antecedent_entity_id": "ENT000002"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "active_evidence_items": 3
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S002:C001",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [
+    {
+      "link_id": "Q0001",
+      "clause_id": "S002:C001",
+      "antecedent_clause_id": "S001:C001",
+      "cue": "後者",
+      "concept": "CAT",
+      "antecedent_evidence_id": "E0002",
+      "antecedent_entity_id": "ENT000002",
+      "antecedent_mention_id": "MN000002",
+      "reference_mention_id": "MN000003"
+    }
+  ],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S002:C001",
+      "relation_type": "COREFERENCE",
+      "subject": "後者",
+      "predicate": "REFERS_TO",
+      "object_text": "CAT",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "CAT",
+      "target_clause_id": "S001:C001",
+      "source_relation_id": null,
+      "source_reference_id": "Q0001",
+      "subject_mention_id": "MN000003",
+      "object_mention_id": "MN000002",
+      "subject_entity_id": "ENT000002",
+      "object_entity_id": "ENT000002",
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0002"
+      ],
+      "extraction_rule": "instance_reference",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 1,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 0,
+        "end": 1,
+        "text": "犬"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 2,
+        "end": 3,
+        "text": "猫"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": "ENT000002",
+      "source_id": "S002",
+      "clause_id": "S002:C001",
+      "span": {
+        "start": 0,
+        "end": 2,
+        "text": "後者"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "reference"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [
+    {
+      "clause_id": "S002:C001",
+      "cue": "後者",
+      "mode": "ordered",
+      "status": "resolved",
+      "candidate_entity_ids": [
+        "ENT000001",
+        "ENT000002"
+      ],
+      "resolved_entity_ids": [
+        "ENT000002"
+      ]
+    }
+  ],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0001"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 2,
+      "EVENT": 2,
+      "EVIDENCE": 3,
+      "MENTION": 3,
+      "REFERENCE": 1,
+      "RELATION_FRAME": 1,
+      "SOURCE": 2,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 6,
+      "CONTAINS": 2,
+      "DENOTES": 3,
+      "DERIVED_FROM": 1,
+      "DESCRIBES": 2,
+      "FRAME_OF": 1,
+      "HAS_MENTION": 3,
+      "HAS_OBJECT": 1,
+      "HAS_SUBJECT": 1,
+      "MAPS_TO": 1,
+      "REFERS_BACK_TO": 2,
+      "RESOLVES_TO": 1,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPPORTS": 3,
+      "YIELDS": 5
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "犬と猫を登録した",
+      "pattern": "犬",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "犬と猫を登録した",
+      "pattern": "猫",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 1,
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "scope": "instance:shared/S002:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "後者を選んだ",
+      "pattern": "[reference:後者]",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.05,
+      "effective_weight": 1.05,
+      "reason": "instance coreference",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 3,
+    "active_evidence_items": 3,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 1,
+    "agentive_relation_items": 0,
+    "relation_frames": 1,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 28,
+    "claim_graph_edges": 33
+  }
+}
+
+=== role_affordance ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "The bank granted aid to a river project."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "FINANCIAL_BANK",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.9011,
+    "selection_confidence": 0.875,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.3,
+    "runner_up": null,
+    "margin": 1.3,
+    "raw_selection_confidence": 0.9011,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8403,
+    "legacy_selection_confidence": 0.8641,
+    "reliability_signal": 0.8,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 6
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The bank granted aid to a river project",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    },
+    {
+      "operation": "EXTRACT_SEMANTIC_ROLE",
+      "relation_id": "R0002",
+      "voice": "active",
+      "bank_role": "agent",
+      "applied": true
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0005",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "polarity_depth": 0,
+      "amount": 0.45,
+      "reason": "semantic role contradiction"
+    },
+    {
+      "operation": "RELATION_GATE",
+      "evidence_id": "E0003",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "reason": "river mention lacks a spatial bank-of relation"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "ambiguous_pattern": "bank",
+      "trigger": "river",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    },
+    {
+      "relation_id": "R0002",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "ambiguous_pattern": "bank",
+      "trigger": "granted",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": true,
+      "reason": "supported_institutional_role"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 4
+    }
+  },
+  "normalizations": [],
+  "event_links": [],
+  "reference_links": [],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S001:C001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "subject": "bank",
+      "predicate": "river",
+      "object_text": "The bank granted aid to a river project",
+      "voice": "active",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": false,
+      "target_concept": "RIVER_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0001",
+      "source_reference_id": null,
+      "subject_mention_id": null,
+      "object_mention_id": null,
+      "subject_entity_id": null,
+      "object_entity_id": null,
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003",
+        "E0004",
+        "E0005"
+      ],
+      "extraction_rule": "legacy_context",
+      "semantic_status": "quarantined"
+    },
+    {
+      "frame_id": "F0002",
+      "clause_id": "S001:C001",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "subject": "bank",
+      "predicate": "grant",
+      "object_text": "aid to a river project",
+      "voice": "active",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "FINANCIAL_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0002",
+      "source_reference_id": null,
+      "subject_mention_id": "MN000003",
+      "object_mention_id": "MN000004",
+      "subject_entity_id": "ENT000001",
+      "object_entity_id": "ENT000003",
+      "predicate_span": {
+        "start": 9,
+        "end": 16,
+        "text": "granted"
+      },
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003",
+        "E0004",
+        "E0005"
+      ],
+      "extraction_rule": "bounded_bank_event",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 2,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 4,
+        "end": 8,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001",
+        "E0002"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 26,
+        "end": 31,
+        "text": "river"
+      },
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0003"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 4,
+        "end": 8,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "FINANCIAL_BANK"
+      ],
+      "number": "singular",
+      "kind": "argument"
+    },
+    {
+      "mention_id": "MN000004",
+      "entity_id": "ENT000003",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 17,
+        "end": 39,
+        "text": "aid to a river project"
+      },
+      "concept_candidates": [],
+      "number": "singular",
+      "kind": "argument"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000003",
+      "concept_candidates": [],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "argument"
+    }
+  ],
+  "reference_resolutions": [],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "quarantined",
+        "reasons": [
+          "legacy_association_not_semantically_verified"
+        ]
+      },
+      {
+        "frame_id": "F0002",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 1,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0002"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 1,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 3,
+      "EVENT": 1,
+      "EVIDENCE": 5,
+      "MENTION": 4,
+      "RELATION": 2,
+      "RELATION_FRAME": 2,
+      "SOURCE": 1,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 12,
+      "CONTAINS": 1,
+      "CONTRADICTS": 1,
+      "DENOTES": 4,
+      "DERIVED_FROM": 10,
+      "DESCRIBES": 1,
+      "DOES_NOT_GROUND": 1,
+      "FRAME_OF": 2,
+      "GROUNDS": 1,
+      "HAS_MENTION": 4,
+      "HAS_OBJECT": 1,
+      "HAS_SUBJECT": 1,
+      "MAPS_TO": 2,
+      "SUPPORTS": 4,
+      "YIELDS": 9
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank granted aid to a river project",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank granted aid to a river project",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank granted aid to a river project",
+      "pattern": "river",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.75,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "relation_gated",
+      "active": false,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0004",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank granted aid to a river project",
+      "pattern": "[role:grant]",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.85,
+      "effective_weight": 0.85,
+      "reason": "semantic role support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0005",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank granted aid to a river project",
+      "pattern": "[role:grant]",
+      "concept": "RIVER_BANK",
+      "vote": -1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "semantic role contradiction",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 5,
+    "active_evidence_items": 4,
+    "superseded_evidence_items": 1,
+    "operations": 5,
+    "relation_items": 2,
+    "applied_relation_items": 1,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 1,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 2,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "entity"
+    ],
+    "event_links": 0,
+    "claim_graph_nodes": 31,
+    "claim_graph_edges": 54
+  }
+}
+
+=== passive_agent ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "Aid to a river project was granted by the bank."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "FINANCIAL_BANK",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.9011,
+    "selection_confidence": 0.875,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.3,
+    "runner_up": null,
+    "margin": 1.3,
+    "raw_selection_confidence": 0.9011,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8403,
+    "legacy_selection_confidence": 0.8641,
+    "reliability_signal": 0.8,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 6
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "Aid to a river project was granted by the bank",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    },
+    {
+      "operation": "EXTRACT_SEMANTIC_ROLE",
+      "relation_id": "R0002",
+      "voice": "passive",
+      "bank_role": "agent",
+      "applied": true
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0005",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "polarity_depth": 0,
+      "amount": 0.45,
+      "reason": "semantic role contradiction"
+    },
+    {
+      "operation": "RELATION_GATE",
+      "evidence_id": "E0001",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "reason": "river mention lacks a spatial bank-of relation"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "ambiguous_pattern": "bank",
+      "trigger": "river",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    },
+    {
+      "relation_id": "R0002",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "ambiguous_pattern": "bank",
+      "trigger": "granted",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": true,
+      "reason": "supported_institutional_role"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 4
+    }
+  },
+  "normalizations": [],
+  "event_links": [],
+  "reference_links": [],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S001:C001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "subject": "bank",
+      "predicate": "river",
+      "object_text": "Aid to a river project was granted by the bank",
+      "voice": "active",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": false,
+      "target_concept": "RIVER_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0001",
+      "source_reference_id": null,
+      "subject_mention_id": null,
+      "object_mention_id": null,
+      "subject_entity_id": null,
+      "object_entity_id": null,
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003",
+        "E0004",
+        "E0005"
+      ],
+      "extraction_rule": "legacy_context",
+      "semantic_status": "quarantined"
+    },
+    {
+      "frame_id": "F0002",
+      "clause_id": "S001:C001",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "subject": "bank",
+      "predicate": "grant",
+      "object_text": "Aid to a river project",
+      "voice": "passive",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "FINANCIAL_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0002",
+      "source_reference_id": null,
+      "subject_mention_id": "MN000003",
+      "object_mention_id": "MN000004",
+      "subject_entity_id": "ENT000002",
+      "object_entity_id": "ENT000003",
+      "predicate_span": {
+        "start": 27,
+        "end": 34,
+        "text": "granted"
+      },
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003",
+        "E0004",
+        "E0005"
+      ],
+      "extraction_rule": "bounded_bank_event",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 2,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 9,
+        "end": 14,
+        "text": "river"
+      },
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 42,
+        "end": 46,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002",
+        "E0003"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 42,
+        "end": 46,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "FINANCIAL_BANK"
+      ],
+      "number": "singular",
+      "kind": "argument"
+    },
+    {
+      "mention_id": "MN000004",
+      "entity_id": "ENT000003",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 0,
+        "end": 22,
+        "text": "Aid to a river project"
+      },
+      "concept_candidates": [],
+      "number": "singular",
+      "kind": "argument"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000003",
+      "concept_candidates": [],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "argument"
+    }
+  ],
+  "reference_resolutions": [],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "quarantined",
+        "reasons": [
+          "legacy_association_not_semantically_verified"
+        ]
+      },
+      {
+        "frame_id": "F0002",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 1,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0002"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 1,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 3,
+      "EVENT": 1,
+      "EVIDENCE": 5,
+      "MENTION": 4,
+      "RELATION": 2,
+      "RELATION_FRAME": 2,
+      "SOURCE": 1,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 12,
+      "CONTAINS": 1,
+      "CONTRADICTS": 1,
+      "DENOTES": 4,
+      "DERIVED_FROM": 10,
+      "DESCRIBES": 1,
+      "DOES_NOT_GROUND": 1,
+      "FRAME_OF": 2,
+      "GROUNDS": 1,
+      "HAS_MENTION": 4,
+      "HAS_OBJECT": 1,
+      "HAS_SUBJECT": 1,
+      "MAPS_TO": 2,
+      "SUPPORTS": 4,
+      "YIELDS": 9
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Aid to a river project was granted by the bank",
+      "pattern": "river",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.75,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "relation_gated",
+      "active": false,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Aid to a river project was granted by the bank",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Aid to a river project was granted by the bank",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0004",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Aid to a river project was granted by the bank",
+      "pattern": "[role:grant]",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.85,
+      "effective_weight": 0.85,
+      "reason": "semantic role support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0005",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "Aid to a river project was granted by the bank",
+      "pattern": "[role:grant]",
+      "concept": "RIVER_BANK",
+      "vote": -1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "semantic role contradiction",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 5,
+    "active_evidence_items": 4,
+    "superseded_evidence_items": 1,
+    "operations": 5,
+    "relation_items": 2,
+    "applied_relation_items": 1,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 1,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 2,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "entity"
+    ],
+    "event_links": 0,
+    "claim_graph_nodes": 31,
+    "claim_graph_edges": 54
+  }
+}
+
+=== noun_support ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "The bank support structure stands near the river."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "RIVER_BANK",
+    "candidate": "RIVER_BANK",
+    "label_ja": "川岸",
+    "confidence": 0.9703,
+    "selection_confidence": 0.9286,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 2.05,
+    "runner_up": null,
+    "margin": 2.05,
+    "raw_selection_confidence": 0.9703,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8576,
+    "legacy_selection_confidence": 0.8675,
+    "reliability_signal": 0.9,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 12
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The bank support structure stands near the river",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "applied": true,
+      "reason": "relation accepted"
+    },
+    {
+      "operation": "NEGATE",
+      "evidence_id": "E0005",
+      "concept": "FINANCIAL_BANK",
+      "clause_id": "S001:C001",
+      "polarity_depth": 0,
+      "amount": 0.45,
+      "reason": "context contradiction"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "ambiguous_pattern": "bank",
+      "trigger": "river",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": true,
+      "reason": "relation accepted"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 5
+    }
+  },
+  "normalizations": [],
+  "event_links": [],
+  "reference_links": [],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S001:C001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "subject": "bank",
+      "predicate": "LOCATED_NEAR",
+      "object_text": "river",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": true,
+      "target_concept": "RIVER_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0001",
+      "source_reference_id": null,
+      "subject_mention_id": "MN000003",
+      "object_mention_id": "MN000004",
+      "subject_entity_id": "ENT000001",
+      "object_entity_id": "ENT000002",
+      "predicate_span": {
+        "start": 34,
+        "end": 38,
+        "text": "near"
+      },
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003",
+        "E0004",
+        "E0005"
+      ],
+      "extraction_rule": "bounded_spatial",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 1,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 4,
+        "end": 8,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001",
+        "E0002"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 43,
+        "end": 48,
+        "text": "river"
+      },
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0003"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 4,
+        "end": 8,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "argument"
+    },
+    {
+      "mention_id": "MN000004",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 43,
+        "end": 48,
+        "text": "river"
+      },
+      "concept_candidates": [],
+      "number": "singular",
+      "kind": "argument"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0001"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 1,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 2,
+      "EVENT": 1,
+      "EVIDENCE": 5,
+      "MENTION": 4,
+      "RELATION": 1,
+      "RELATION_FRAME": 1,
+      "SOURCE": 1,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 11,
+      "CONTAINS": 1,
+      "CONTRADICTS": 1,
+      "DENOTES": 4,
+      "DERIVED_FROM": 5,
+      "DESCRIBES": 1,
+      "FRAME_OF": 1,
+      "GROUNDS": 1,
+      "HAS_MENTION": 4,
+      "HAS_OBJECT": 1,
+      "HAS_SUBJECT": 1,
+      "MAPS_TO": 1,
+      "SUPPORTS": 4,
+      "YIELDS": 7
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank support structure stands near the river",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank support structure stands near the river",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank support structure stands near the river",
+      "pattern": "river",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.75,
+      "effective_weight": 0.75,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0004",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank support structure stands near the river",
+      "pattern": "[relation:river]",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.85,
+      "effective_weight": 0.85,
+      "reason": "context boost",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0005",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank support structure stands near the river",
+      "pattern": "[relation:river]",
+      "concept": "FINANCIAL_BANK",
+      "vote": -1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "context contradiction",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 5,
+    "active_evidence_items": 5,
+    "superseded_evidence_items": 0,
+    "operations": 3,
+    "relation_items": 1,
+    "applied_relation_items": 1,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 1,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "entity"
+    ],
+    "event_links": 0,
+    "claim_graph_nodes": 28,
+    "claim_graph_edges": 43
+  }
+}
+
+=== same_concept_distinct_instances ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "A dog and another dog entered.",
+    "It was photographed."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "DOG",
+    "candidate": "DOG",
+    "label_ja": "犬",
+    "confidence": 0.9677,
+    "selection_confidence": 0.5556,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 2.0,
+    "runner_up": null,
+    "margin": 2.0,
+    "raw_selection_confidence": 0.9677,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8569,
+    "legacy_selection_confidence": 0.8674,
+    "reliability_signal": 0.45,
+    "risk_flags": [
+      "unresolved_instance_reference"
+    ],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 5
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "A dog and another dog entered",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    },
+    {
+      "source_id": "S002",
+      "source_order": 1,
+      "clause_id": "S002:C001",
+      "text": "It was photographed",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S002:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 2
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S002:C001",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [],
+  "relation_frames": [],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 0,
+    "schema_valid": true,
+    "observation_ready": false,
+    "inference_ready": false,
+    "ready_for_r1_experiment": false,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 2,
+        "end": 5,
+        "text": "dog"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 18,
+        "end": 21,
+        "text": "dog"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": null,
+      "source_id": "S002",
+      "clause_id": "S002:C001",
+      "span": {
+        "start": 0,
+        "end": 2,
+        "text": "It"
+      },
+      "concept_candidates": [],
+      "number": "singular",
+      "kind": "unresolved_reference"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [
+    {
+      "clause_id": "S002:C001",
+      "cue": "It",
+      "mode": "singular",
+      "status": "ambiguous",
+      "candidate_entity_ids": [
+        "ENT000001",
+        "ENT000002"
+      ],
+      "resolved_entity_ids": []
+    }
+  ],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [],
+    "rule_checked_count": 0,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": false,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 2,
+      "EVENT": 2,
+      "EVIDENCE": 2,
+      "MENTION": 3,
+      "SOURCE": 2,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 2,
+      "DENOTES": 2,
+      "DESCRIBES": 2,
+      "HAS_MENTION": 3,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPPORTS": 2,
+      "YIELDS": 2
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog and another dog entered",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "A dog and another dog entered",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 0,
+    "operations": 2,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 0,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 25,
+    "claim_graph_edges": 18
+  }
+}
+
+=== passive_role_guard ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "The bank was supported by a river alliance."
+  ],
+  "domain": "place",
+  "selection": {
+    "domain": "place",
+    "selected": "UNRESOLVED",
+    "candidate": "FINANCIAL_BANK",
+    "label_ja": "銀行",
+    "confidence": 0.6266,
+    "selection_confidence": 0.7778,
+    "ambiguous": true,
+    "reason": "evidence below selection threshold",
+    "score": 0.45,
+    "runner_up": "RIVER_BANK",
+    "margin": 0.0,
+    "raw_selection_confidence": 0.3734,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.7083,
+    "legacy_selection_confidence": 0.8377,
+    "reliability_signal": 0.65,
+    "risk_flags": [
+      "unsupported_role"
+    ],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 7
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "The bank was supported by a river alliance",
+      "assertion_status": "asserted",
+      "instance_scope": "instance:shared",
+      "discourse_state": "asserted",
+      "correction_target": false
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "RELATE",
+      "relation_id": "R0001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    },
+    {
+      "operation": "EXTRACT_SEMANTIC_ROLE",
+      "relation_id": "R0002",
+      "voice": "passive",
+      "bank_role": "patient",
+      "applied": false
+    },
+    {
+      "operation": "RELATION_GATE",
+      "evidence_id": "E0003",
+      "concept": "RIVER_BANK",
+      "clause_id": "S001:C001",
+      "reason": "river mention lacks a spatial bank-of relation"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R0001",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "ambiguous_pattern": "bank",
+      "trigger": "river",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": false,
+      "reason": "no supported relation between ambiguous term and trigger"
+    },
+    {
+      "relation_id": "R0002",
+      "clause_id": "S001:C001",
+      "target_id": "T:shared:place",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "ambiguous_pattern": "bank",
+      "trigger": "supported",
+      "polarity": 1,
+      "assertion_status": "asserted",
+      "applied": false,
+      "reason": "bank_is_patient"
+    }
+  ],
+  "targets": {
+    "T:shared:place": {
+      "concepts": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 2
+    }
+  },
+  "normalizations": [],
+  "event_links": [],
+  "reference_links": [],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S001:C001",
+      "relation_type": "SPATIAL_ASSOCIATION",
+      "subject": "bank",
+      "predicate": "river",
+      "object_text": "The bank was supported by a river alliance",
+      "voice": "active",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": false,
+      "target_concept": "RIVER_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0001",
+      "source_reference_id": null,
+      "subject_mention_id": null,
+      "object_mention_id": null,
+      "subject_entity_id": null,
+      "object_entity_id": null,
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003"
+      ],
+      "extraction_rule": "legacy_context",
+      "semantic_status": "quarantined"
+    },
+    {
+      "frame_id": "F0002",
+      "clause_id": "S001:C001",
+      "relation_type": "FINANCIAL_AFFORDANCE",
+      "subject": "a river alliance",
+      "predicate": "support",
+      "object_text": "bank",
+      "voice": "passive",
+      "polarity": "positive",
+      "modality": "asserted",
+      "applied": false,
+      "target_concept": "FINANCIAL_BANK",
+      "target_clause_id": null,
+      "source_relation_id": "R0002",
+      "source_reference_id": null,
+      "subject_mention_id": "MN000003",
+      "object_mention_id": "MN000004",
+      "subject_entity_id": "ENT000003",
+      "object_entity_id": "ENT000001",
+      "predicate_span": {
+        "start": 13,
+        "end": 22,
+        "text": "supported"
+      },
+      "evidence_ids": [
+        "E0001",
+        "E0002",
+        "E0003"
+      ],
+      "extraction_rule": "bounded_bank_event",
+      "semantic_status": "quarantined"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 2,
+    "schema_valid": true,
+    "observation_ready": false,
+    "inference_ready": false,
+    "ready_for_r1_experiment": false,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 4,
+        "end": 8,
+        "text": "bank"
+      },
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001",
+        "E0002"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 28,
+        "end": 33,
+        "text": "river"
+      },
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0003"
+      ]
+    },
+    {
+      "mention_id": "MN000003",
+      "entity_id": "ENT000003",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 26,
+        "end": 42,
+        "text": "a river alliance"
+      },
+      "concept_candidates": [],
+      "number": "singular",
+      "kind": "argument"
+    },
+    {
+      "mention_id": "MN000004",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 4,
+        "end": 8,
+        "text": "bank"
+      },
+      "concept_candidates": [],
+      "number": "singular",
+      "kind": "argument"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "FINANCIAL_BANK",
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "RIVER_BANK"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000003",
+      "concept_candidates": [],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "argument"
+    }
+  ],
+  "reference_resolutions": [],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "quarantined",
+        "reasons": [
+          "legacy_association_not_semantically_verified"
+        ]
+      },
+      {
+        "frame_id": "F0002",
+        "semantic_status": "quarantined",
+        "reasons": [
+          "unsupported_bank_role"
+        ]
+      }
+    ],
+    "rule_checked_count": 0,
+    "quarantined_count": 2,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": false,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 1,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 3,
+      "EVENT": 1,
+      "EVIDENCE": 3,
+      "MENTION": 4,
+      "RELATION": 2,
+      "RELATION_FRAME": 2,
+      "SOURCE": 1,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 8,
+      "CONTAINS": 1,
+      "DENOTES": 4,
+      "DERIVED_FROM": 6,
+      "DESCRIBES": 1,
+      "DOES_NOT_GROUND": 2,
+      "FRAME_OF": 2,
+      "HAS_MENTION": 4,
+      "HAS_OBJECT": 1,
+      "HAS_SUBJECT": 1,
+      "MAPS_TO": 2,
+      "SUPPORTS": 3,
+      "YIELDS": 7
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank was supported by a river alliance",
+      "pattern": "bank",
+      "concept": "FINANCIAL_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank was supported by a river alliance",
+      "pattern": "bank",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.45,
+      "effective_weight": 0.45,
+      "reason": "ambiguous lexical candidate",
+      "assertion_status": "asserted",
+      "active": true,
+      "superseded_by": null
+    },
+    {
+      "evidence_id": "E0003",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:place",
+      "source_text": "The bank was supported by a river alliance",
+      "pattern": "river",
+      "concept": "RIVER_BANK",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 0.75,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "relation_gated",
+      "active": false,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 1,
+    "patterns_checked": 42,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 3,
+    "active_evidence_items": 2,
+    "superseded_evidence_items": 1,
+    "operations": 4,
+    "relation_items": 2,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 1,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 2,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "entity"
+    ],
+    "event_links": 0,
+    "claim_graph_nodes": 29,
+    "claim_graph_edges": 42
+  }
+}
+
+=== known_gap_reidentified_fixed ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    "Originally marked dog: reidentified as cat."
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "CAT",
+    "candidate": "CAT",
+    "label_ja": "猫",
+    "confidence": 0.8455,
+    "selection_confidence": 0.9286,
+    "ambiguous": false,
+    "reason": "hierarchy-aware ternary consensus",
+    "score": 1.0,
+    "runner_up": null,
+    "margin": 1.0,
+    "raw_selection_confidence": 0.8455,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.8264,
+    "legacy_selection_confidence": 0.8613,
+    "reliability_signal": 0.9,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 12
+  },
+  "clauses": [
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "text": "Originally marked dog",
+      "assertion_status": "provisional",
+      "instance_scope": "instance:shared",
+      "discourse_state": "provisional",
+      "correction_target": false
+    },
+    {
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "text": "reidentified as cat",
+      "assertion_status": "corrective",
+      "instance_scope": "instance:shared",
+      "discourse_state": "corrective",
+      "correction_target": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "SPLIT_REVISION_BOUNDARY",
+      "source_id": "S001",
+      "reason": "revision marker after colon"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C001",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C001",
+      "state": "provisional",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "ISOLATE",
+      "clause_id": "S001:C002",
+      "scope": "instance:shared",
+      "reason": "typed sentence/clause boundary"
+    },
+    {
+      "operation": "STATE_TRANSITION",
+      "clause_id": "S001:C002",
+      "state": "corrective",
+      "reason": "bounded discourse role"
+    },
+    {
+      "operation": "SUPERSEDE",
+      "evidence_id": "E0001",
+      "concept": "DOG",
+      "replacement_evidence_id": "E0002",
+      "replacement_concept": "CAT",
+      "residual_removed": 1.0
+    }
+  ],
+  "relations": [],
+  "targets": {
+    "T:shared:entity": {
+      "concepts": [
+        "CAT",
+        "DOG"
+      ],
+      "source_ids": [
+        "S001"
+      ],
+      "active_evidence_items": 1
+    }
+  },
+  "normalizations": [],
+  "event_links": [
+    {
+      "link_id": "L0001",
+      "source_event": "EV:S001:C001",
+      "target_event": "EV:S001:C002",
+      "relation": "SAME_TARGET_SEQUENCE",
+      "same_target": true
+    }
+  ],
+  "reference_links": [],
+  "relation_frames": [
+    {
+      "frame_id": "F0001",
+      "clause_id": "S001:C002",
+      "relation_type": "REVISION",
+      "subject": "S001:C002",
+      "predicate": "REVISES",
+      "object_text": "Originally marked dog",
+      "voice": "n/a",
+      "polarity": "positive",
+      "modality": "corrective",
+      "applied": true,
+      "target_concept": null,
+      "target_clause_id": "S001:C001",
+      "source_relation_id": null,
+      "source_reference_id": null,
+      "subject_mention_id": null,
+      "object_mention_id": null,
+      "subject_entity_id": null,
+      "object_entity_id": null,
+      "predicate_span": null,
+      "evidence_ids": [
+        "E0001",
+        "E0002"
+      ],
+      "extraction_rule": "ledger_supersession",
+      "semantic_status": "rule_checked"
+    }
+  ],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 1,
+    "schema_valid": true,
+    "observation_ready": true,
+    "inference_ready": false,
+    "ready_for_r1_experiment": true,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [
+    {
+      "mention_id": "MN000001",
+      "entity_id": "ENT000001",
+      "source_id": "S001",
+      "clause_id": "S001:C001",
+      "span": {
+        "start": 18,
+        "end": 21,
+        "text": "dog"
+      },
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0001"
+      ]
+    },
+    {
+      "mention_id": "MN000002",
+      "entity_id": "ENT000002",
+      "source_id": "S001",
+      "clause_id": "S001:C002",
+      "span": {
+        "start": 16,
+        "end": 19,
+        "text": "cat"
+      },
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "kind": "nominal",
+      "evidence_ids": [
+        "E0002"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENT000001",
+      "concept_candidates": [
+        "DOG"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    },
+    {
+      "entity_id": "ENT000002",
+      "concept_candidates": [
+        "CAT"
+      ],
+      "number": "singular",
+      "identity_status": "local_mention",
+      "kind": "nominal"
+    }
+  ],
+  "reference_resolutions": [],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [
+      {
+        "frame_id": "F0001",
+        "semantic_status": "rule_checked",
+        "reasons": []
+      }
+    ],
+    "rule_checked_count": 1,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": true,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [
+      "F0001"
+    ],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CLAUSE": 2,
+      "CONCEPT": 11,
+      "ENTITY_INSTANCE": 2,
+      "EVENT": 2,
+      "EVIDENCE": 2,
+      "MENTION": 2,
+      "RELATION_FRAME": 1,
+      "SOURCE": 1,
+      "TARGET_SCOPE": 1
+    },
+    "edge_relations": {
+      "ABOUT": 4,
+      "CONTAINS": 2,
+      "DENOTES": 2,
+      "DERIVED_FROM": 2,
+      "DESCRIBES": 2,
+      "HAS_MENTION": 2,
+      "SAME_TARGET_SEQUENCE": 1,
+      "SUPERSEDES": 1,
+      "SUPERSEDES_CLAUSE": 1,
+      "SUPPORTS": 2,
+      "YIELDS": 3
+    },
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "E0001",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C001",
+      "scope": "instance:shared/S001:C001",
+      "target_id": "T:shared:entity",
+      "source_text": "Originally marked dog",
+      "pattern": "dog",
+      "concept": "DOG",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 0.0,
+      "reason": "direct lexical support",
+      "assertion_status": "superseded",
+      "active": false,
+      "superseded_by": "E0002"
+    },
+    {
+      "evidence_id": "E0002",
+      "text_index": 0,
+      "source_id": "S001",
+      "source_order": 0,
+      "clause_id": "S001:C002",
+      "scope": "instance:shared/S001:C002",
+      "target_id": "T:shared:entity",
+      "source_text": "reidentified as cat",
+      "pattern": "cat",
+      "concept": "CAT",
+      "vote": 1,
+      "polarity_depth": 0,
+      "weight": 1.0,
+      "effective_weight": 1.0,
+      "reason": "direct lexical support",
+      "assertion_status": "corrective",
+      "active": true,
+      "superseded_by": null
+    }
+  ],
+  "diagnostics": {
+    "clauses": 2,
+    "patterns_checked": 84,
+    "raw_surface_matches": 2,
+    "accepted_surface_matches": 2,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 2,
+    "active_evidence_items": 1,
+    "superseded_evidence_items": 1,
+    "operations": 6,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 1,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 1,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "place"
+    ],
+    "event_links": 1,
+    "claim_graph_nodes": 24,
+    "claim_graph_edges": 22
+  }
+}
+
+=== empty_not_ready ===
+{
+  "version": "PLM-C2 v0.4",
+  "inputs": [
+    ""
+  ],
+  "domain": "entity",
+  "selection": {
+    "domain": "entity",
+    "selected": "UNRESOLVED",
+    "confidence": 0.0,
+    "selection_confidence": 0.7778,
+    "ambiguous": true,
+    "reason": "open-set abstention: no matching evidence",
+    "open_set": true,
+    "raw_selection_confidence": 0.35,
+    "calibration": "heldout_calibration_isotonic_beta_smoothed",
+    "v02_selection_confidence": 0.7025,
+    "legacy_selection_confidence": 0.8365,
+    "reliability_signal": 0.65,
+    "risk_flags": [],
+    "confidence_target": "correctness_of_selected_label_including_abstention",
+    "calibration_samples": 7
+  },
+  "clauses": [],
+  "operations": [],
+  "relations": [],
+  "targets": {},
+  "normalizations": [],
+  "event_links": [],
+  "reference_links": [],
+  "relation_frames": [],
+  "relation_contract": {
+    "schema_version": 2,
+    "frame_count": 0,
+    "schema_valid": true,
+    "observation_ready": false,
+    "inference_ready": false,
+    "ready_for_r1_experiment": false,
+    "readiness_scope": "observation_only; no inference promotion"
+  },
+  "mentions": [],
+  "entities": [],
+  "reference_resolutions": [],
+  "semantic_audit": {
+    "schema_valid": true,
+    "graph_valid": true,
+    "schema_errors": [],
+    "graph_errors": [],
+    "frames": [],
+    "rule_checked_count": 0,
+    "quarantined_count": 0,
+    "meaning": "runtime rule consistency, not independently established semantic truth"
+  },
+  "r1_boundary": {
+    "mode": "observe_only",
+    "observation_ready": false,
+    "schema_valid": true,
+    "graph_valid": true,
+    "positive_rule_checked_frame_ids": [],
+    "inference_enabled": false,
+    "inference_ready": false,
+    "eligible_for_inference": [],
+    "external_semantic_validation": "not_performed",
+    "promotion_requirements": [
+      "independent_semantic_evaluation",
+      "consumer_acceptance_tests",
+      "explicit_new_release"
+    ]
+  },
+  "claim_graph": {
+    "schema_version": 3,
+    "node_types": {
+      "CONCEPT": 11,
+      "SOURCE": 1
+    },
+    "edge_relations": {},
+    "invariants": {
+      "unique_node_ids": true,
+      "edges_resolve": true,
+      "unique_relation_frame_ids": true,
+      "relation_frame_required_fields": true
+    }
+  },
+  "evidence": [],
+  "diagnostics": {
+    "clauses": 0,
+    "patterns_checked": 0,
+    "raw_surface_matches": 0,
+    "accepted_surface_matches": 0,
+    "overlap_matches_suppressed": 0,
+    "evidence_items": 0,
+    "active_evidence_items": 0,
+    "superseded_evidence_items": 0,
+    "operations": 0,
+    "relation_items": 0,
+    "applied_relation_items": 0,
+    "target_ids": 0,
+    "normalization_events": 0,
+    "morphology_events": 0,
+    "compound_events": 0,
+    "relation_gated_evidence": 0,
+    "irregular_lemma_events": 0,
+    "closed_compound_events": 0,
+    "reference_resolutions": 0,
+    "agentive_relation_items": 0,
+    "relation_frames": 0,
+    "extended_reference_resolutions": 0,
+    "role_affordance_items": 0,
+    "concepts_scored": 11,
+    "candidates_by_domain": {
+      "action": 3,
+      "entity": 6,
+      "place": 2
+    },
+    "forced_unresolved_domains": [],
+    "open_set_domains": [
+      "action",
+      "entity",
+      "place"
+    ],
+    "event_links": 0,
+    "claim_graph_nodes": 12,
+    "claim_graph_edges": 0
+  }
+}

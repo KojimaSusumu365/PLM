@@ -1,0 +1,79 @@
+{
+  "status": "generated",
+  "text": "花子を太郎が助けなかった。",
+  "trace": [
+    {
+      "position": 0,
+      "action": {
+        "value": "slot:object",
+        "score": 1.07819991,
+        "margin": 0.97383956,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 1,
+      "action": {
+        "value": "emit:literal:を",
+        "score": 0.86649244,
+        "margin": 0.77434502,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 2,
+      "action": {
+        "value": "slot:subject",
+        "score": 0.9366676,
+        "margin": 0.87058206,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 3,
+      "action": {
+        "value": "emit:literal:が",
+        "score": 0.96001857,
+        "margin": 0.8527229,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 4,
+      "action": {
+        "value": "slot:predicate",
+        "score": 1.00066537,
+        "margin": 0.78806395,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 5,
+      "action": {
+        "value": "emit:literal:なかった",
+        "score": 0.96884516,
+        "margin": 0.9443319,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 6,
+      "action": {
+        "value": "emit:literal:。",
+        "score": 0.99777568,
+        "margin": 0.94872083,
+        "reason": "recovered"
+      }
+    },
+    {
+      "position": 7,
+      "action": {
+        "value": "stop",
+        "score": 0.93407327,
+        "margin": 0.85799879,
+        "reason": "recovered"
+      }
+    }
+  ],
+  "eligible_for_inference": false
+}

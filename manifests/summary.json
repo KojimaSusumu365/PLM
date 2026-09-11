@@ -1,0 +1,17 @@
+{
+  "source_files": 52225,
+  "source_bytes": 14167352222,
+  "unique_blobs": 10675,
+  "unique_bytes": 4922412958,
+  "browseable_original_files": 15140,
+  "browseable_original_bytes": 375225666,
+  "versions": 45,
+  "asset_count": 52,
+  "asset_bytes": 3154125137,
+  "scopes": {
+    "outputs": 18570,
+    "work": 33646,
+    "inputs": 9
+  },
+  "excluded_source_files": 0
+}

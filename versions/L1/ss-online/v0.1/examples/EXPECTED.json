@@ -1,0 +1,32 @@
+{
+  "scope": "Artificial teacher answer, separate from prediction/request. API source is a declaration, not authentication.",
+  "before": {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.33406074972548927,
+    "scores": [
+      0.22442642911802954,
+      0.5595908405957801,
+      0.22553009087029086,
+      0.07137637620009243
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  "after": {
+    "tentative": "1",
+    "accepted": "1",
+    "reason": "accepted",
+    "margin": 0.6670303748627447,
+    "scores": [
+      0.11221321455901453,
+      0.7797954202978901,
+      0.11276504543514534,
+      0.035688188100046224
+    ],
+    "score_is_probability": false,
+    "eligible_for_inference": false
+  },
+  "next_state_fingerprint": "5410528ed959459ed1454fea2af9159495dd4e713c242b30586f80ea9ec09bc0"
+}

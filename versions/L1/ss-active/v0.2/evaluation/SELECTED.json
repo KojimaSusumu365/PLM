@@ -1,0 +1,83 @@
+{
+  "config": {
+    "explore_every": 4,
+    "revisit_every": 4,
+    "cooldown": 64,
+    "drop_margin": 0.15,
+    "max_visits": 2
+  },
+  "config_index": 3,
+  "development_rows": [
+    {
+      "config_index": 0,
+      "config": {
+        "explore_every": 2,
+        "revisit_every": 4,
+        "cooldown": 64,
+        "drop_margin": 0.05,
+        "max_visits": 2
+      },
+      "utility": 0.880859375,
+      "per_size_world_utilities": [
+        1.296875,
+        1.0625,
+        0.62890625,
+        0.53515625
+      ]
+    },
+    {
+      "config_index": 1,
+      "config": {
+        "explore_every": 2,
+        "revisit_every": 4,
+        "cooldown": 64,
+        "drop_margin": 0.15,
+        "max_visits": 2
+      },
+      "utility": 0.8837890625,
+      "per_size_world_utilities": [
+        1.296875,
+        1.046875,
+        0.62890625,
+        0.5625
+      ]
+    },
+    {
+      "config_index": 2,
+      "config": {
+        "explore_every": 4,
+        "revisit_every": 4,
+        "cooldown": 64,
+        "drop_margin": 0.05,
+        "max_visits": 2
+      },
+      "utility": 0.8837890625,
+      "per_size_world_utilities": [
+        1.3046875,
+        0.9296875,
+        0.72265625,
+        0.578125
+      ]
+    },
+    {
+      "config_index": 3,
+      "config": {
+        "explore_every": 4,
+        "revisit_every": 4,
+        "cooldown": 64,
+        "drop_margin": 0.15,
+        "max_visits": 2
+      },
+      "utility": 0.900390625,
+      "per_size_world_utilities": [
+        1.3125,
+        0.9765625,
+        0.72265625,
+        0.58984375
+      ]
+    }
+  ],
+  "development_result_digest": "30eb3e4ce17e88fce36f569a635d4ae67823c3b0763722b30094d51f5c66f6b3",
+  "selection_rule": "Before final evaluation, maximize development mixed_revisit post_E mean utility: (old accepted_correct -4*old accepted_wrong)/(2g) - unseen_false_accept/128 +0.5*protected_old accepted_correct/g. Equal weight for both sizes/worlds. Ties within1e-12: lower exploration frequency then higher drop threshold, then grid index. Other strategies are development controls, not separate tunable configurations. No claim that this subjective scalar is universal; report every component and all four grid rows. No final-data tuning.",
+  "eligible_for_inference": false
+}

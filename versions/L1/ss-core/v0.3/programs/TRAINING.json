@@ -1,0 +1,19 @@
+{
+  "document": {
+    "persistent_weight_bytes": 262144,
+    "teaching_sequences": 4,
+    "teaching_transitions": 12,
+    "write_ticks": 98304,
+    "written_complex_coefficients": 196608
+  },
+  "grammar_discovery": false,
+  "sentence": {
+    "persistent_weight_bytes": 262144,
+    "teaching_sequences": 8,
+    "teaching_transitions": 68,
+    "write_ticks": 557056,
+    "written_complex_coefficients": 1114112
+  },
+  "sequences_saved_in_inference_model": false,
+  "source": "frozen_v09_learned_gaps_order_plus_explicit_document_order_teacher"
+}

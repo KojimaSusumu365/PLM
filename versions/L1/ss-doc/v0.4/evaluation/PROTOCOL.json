@@ -1,0 +1,19 @@
+{
+ "version":"PLM-L1-SS-doc v0.4","data_seeds":[200,201],"code_seeds":["revision-code-0","revision-code-1"],
+ "focal_per_data":24,"background_per_data":256,"background_loads":[64,256],"background_passes":2,
+ "methods":["none","legacy_context","stable_overwrite","versioned_shared","versioned_pair","versioned_bank"],
+ "focal_teacher_sequence":"A1 B1 A2 B2 A3;120 confirmations per condition; teach all24 at each step before advancing",
+ "background_teacher_sequence":"one target, two successive confirmations of same value, each with next revision;128 or512 presentations",
+ "checkpoint":"first2 focal cases after each of5 steps, semantic completion only, before background",
+ "primary":"24 fresh two-target partial queries after background and actual save/reload;missing/ambiguous/mixed unreadable cycling",
+ "output_policies":["preserve all subject-first","reverse alternating object-first/subject-first"],
+ "secondary":"first6 focal: only-A, only-B, other-episode, changed-fixed-context, conflict, explicit-old; all modes produce text if completed",
+ "stale_confirmation":"first6 focal, old revision, future revision gap and duplicate-current revision against final state;reject without memory change",
+ "comparison":"legacy_context retains v0.3 exact-other-cell key, wrapped in same ordinary scope/revision guard;not unchanged full v0.3 pipeline",
+ "capacity":"all five SS methods94208 coefficient bytes; none0; equal coefficients not equal metadata,RAM,compute or key counts",
+ "metadata":"explicit episode ID and <=2 declared mutable addresses;fixed-context hash;per-target revisions;protection flag;no stored answer table",
+ "acceptance":"inherited4 channels,mean>=0.5,one above threshold,margin>=0.15,votes>=3;shared/protected disagreement holds",
+ "limits":"new revision is explicit external confirmation,not automatic truth check; scope and IDs not learned;SS-active/P1/S1 not integrated",
+ "statistics":"48 unique focal scenes repeatedly paired across48 conditions,not1152 independent documents;two code seeds only",
+ "eligible_for_inference":false
+}

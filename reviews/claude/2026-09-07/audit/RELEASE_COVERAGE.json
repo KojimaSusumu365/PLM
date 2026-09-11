@@ -1,0 +1,472 @@
+[
+  {
+    "version": "PLM-L1-v0.1",
+    "canonical_directory": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2/vendor/PLM-L1-v0.1",
+    "files_including_vendor": 35,
+    "original_archive_bytes": 1153071,
+    "original_archive_sha256": "3376c00ce78a6686db0a56112fc28afb3a53059545c7df73c4d6eb4d8edb32a3",
+    "original_zip_crc_and_content_checked": true,
+    "recursive_vendor_equals_original": true,
+    "original_zip_container_included": false,
+    "all_original_file_bytes_included": true,
+    "release_verification": {
+      "status": "passed",
+      "source_freeze": "4537592a6caa61021b87210a5b25e30f122067f747eae52e2d5d7aa3bc56a06a",
+      "result_digest": "c2795aea8777f5bda4e9b427b1dafac31e849b822fa6aba93cd418e56f422e44",
+      "acceptance_checks": 88,
+      "unit_tests": 47,
+      "isolated_cli_roundtrips": 4,
+      "unknown_input_cli_exit": 2,
+      "release_manifest_checked": true,
+      "numeric_full_evaluation_rerun_in_this_command": false,
+      "demos": [
+        {
+          "input": "太郎が花子を助けた。",
+          "output": "花子を太郎が助けた。",
+          "meaning_exact": true
+        },
+        {
+          "input": "花子が太郎を褒めた。",
+          "output": "太郎を花子が褒めた。",
+          "meaning_exact": true
+        },
+        {
+          "input": "太郎が花子を助けなかった。",
+          "output": "花子を太郎が助けなかった。",
+          "meaning_exact": true
+        },
+        {
+          "input": "もし太郎が花子を助けなかったら。",
+          "output": "もし花子を太郎が助けなかったら。",
+          "meaning_exact": true
+        }
+      ],
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "C:\\Users\\kojim\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.1.zip",
+      "archive_sha256": "3376c00ce78a6686db0a56112fc28afb3a53059545c7df73c4d6eb4d8edb32a3",
+      "archive_bytes": 1153071,
+      "archive_files": 35,
+      "extracted_bytes_equal": true,
+      "source_and_archive_unchanged": true,
+      "cli_root_packet_source_guard_regression_passed": true
+    }
+  },
+  {
+    "version": "PLM-L1-v0.2",
+    "canonical_directory": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3/vendor/PLM-L1-v0.2",
+    "files_including_vendor": 91,
+    "original_archive_bytes": 2332963,
+    "original_archive_sha256": "85be51958df16ededa0d8f5edf5e1d3738ff42de3786129a6578e320e835dab4",
+    "original_zip_crc_and_content_checked": true,
+    "recursive_vendor_equals_original": true,
+    "original_zip_container_included": false,
+    "all_original_file_bytes_included": true,
+    "release_verification": {
+      "status": "passed",
+      "source_freeze": "fae3ab8a9ea6df3f16474c7509b39d4e1aa59f19a6ec0dc91e8c8770b233e6bf",
+      "result_digest": "db96989624dffc442e9ff8fe0ed7bef68d6ba9d0f80cdc59e630b4fbd87449fc",
+      "test_counts": {
+        "new": 52,
+        "v01": 47
+      },
+      "acceptance_checks": 97,
+      "pair_only_fit_without_teacher_or_old_weights": true,
+      "isolated_fit_fingerprint_equal": true,
+      "fixed_generator_without_new_reader": true,
+      "isolated_roundtrips": [
+        {
+          "input": "太郎が花子を助けた。",
+          "output": "花子を太郎が助けた。",
+          "meaning_exact": true
+        },
+        {
+          "input": "花子が太郎を助けた。",
+          "output": "太郎を花子が助けた。",
+          "meaning_exact": true
+        },
+        {
+          "input": "太郎が花子を助けなかった。",
+          "output": "花子を太郎が助けなかった。",
+          "meaning_exact": true
+        },
+        {
+          "input": "もし太郎が花子を助けなかったら。",
+          "output": "もし花子を太郎が助けなかったら。",
+          "meaning_exact": true
+        }
+      ],
+      "release_manifest_checked": true,
+      "full_numeric_rerun_in_this_command": false,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.2.zip",
+      "archive_sha256": "85be51958df16ededa0d8f5edf5e1d3738ff42de3786129a6578e320e835dab4",
+      "archive_bytes": 2332963,
+      "archive_files": 91,
+      "extracted_bytes_equal": true,
+      "source_and_archive_unchanged": true,
+      "convenience_generate_cli_passed": true,
+      "root_json_source_guard_passed": true
+    }
+  },
+  {
+    "version": "PLM-L1-v0.3",
+    "canonical_directory": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4/vendor/PLM-L1-v0.3",
+    "files_including_vendor": 143,
+    "original_archive_bytes": 3389570,
+    "original_archive_sha256": "00665a299d1d3746124508049adbdefb44ca9ae09a6683a6392f90d8f6e6f955",
+    "original_zip_crc_and_content_checked": true,
+    "recursive_vendor_equals_original": true,
+    "original_zip_container_included": false,
+    "all_original_file_bytes_included": true,
+    "release_verification": {
+      "status": "passed",
+      "preflight": false,
+      "source_freeze": "7064dcc99ac3420c51f6e2aff9d94539e0663ceb55e6364e4eedfb429223cb18",
+      "result_digest": "e3d7ba6d747e4c6035025a42aa1b0037024638bb4e767af1d545c4a1ab179e17",
+      "acceptance_checks": 113,
+      "test_counts": {
+        "NEW_TESTS": 53,
+        "V02_TESTS": 52,
+        "V01_TESTS": 47
+      },
+      "writer_pair_fit_without_reader_teacher_legacy_weights": true,
+      "reader_pair_fit_without_teacher_legacy_weights": true,
+      "isolated_writer_and_reader_fingerprints_equal": true,
+      "generation_without_reader_training_code_or_old_generator": true,
+      "isolated_roundtrips": [
+        {
+          "input": "太郎が花子を助けた。",
+          "output": "花子を太郎が助けた。",
+          "meaning_exact": true
+        },
+        {
+          "input": "花子が太郎を助けた。",
+          "output": "太郎を花子が助けた。",
+          "meaning_exact": true
+        },
+        {
+          "input": "太郎が花子を助けなかった。",
+          "output": "花子を太郎が助けなかった。",
+          "meaning_exact": true
+        },
+        {
+          "input": "もし太郎が花子を助けなかったら。",
+          "output": "もし花子を太郎が助けなかったら。",
+          "meaning_exact": true
+        }
+      ],
+      "release_manifest_checked": true,
+      "full_numeric_rerun_in_this_command": false,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.3.zip",
+      "archive_sha256": "00665a299d1d3746124508049adbdefb44ca9ae09a6683a6392f90d8f6e6f955",
+      "archive_bytes": 3389570,
+      "archive_files": 143,
+      "extracted_bytes_equal": true,
+      "source_and_archive_unchanged": true,
+      "convenience_read_generate_cli_passed": true,
+      "direct_encode_generate_cli_passed": true,
+      "root_json_source_guard_passed": true
+    }
+  },
+  {
+    "version": "PLM-L1-v0.4",
+    "canonical_directory": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5/vendor/PLM-L1-v0.4",
+    "files_including_vendor": 203,
+    "original_archive_bytes": 5562057,
+    "original_archive_sha256": "9883fb2a30d32f8baa6d0feda32f08de5b9de69a1a8b1a2cdd48b61ecf16cbf1",
+    "original_zip_crc_and_content_checked": true,
+    "recursive_vendor_equals_original": true,
+    "original_zip_container_included": false,
+    "all_original_file_bytes_included": true,
+    "release_verification": {
+      "status": "passed",
+      "preflight": false,
+      "source_freeze": "17902d564d809a1f7588bb9f5d82057ff3a29300894e3649bb9d11a189631344",
+      "result_digest": "e7269f9578767fd5a3494bf39921b43e8fc2e02c190b5efe360f8e6d335ddf02",
+      "acceptance_checks": 209,
+      "test_counts": {
+        "NEW_TESTS": 46,
+        "V03_TESTS": 53,
+        "V02_TESTS": 52,
+        "V01_TESTS": 47
+      },
+      "pair_training_without_legacy_teacher_or_evaluation_data": true,
+      "isolated_model_fingerprint_equal": true,
+      "model_fingerprint": "a0aefb5f070db8ed4b8a0e87f21d09f0f76f98fc78469428e76011a604ba57a4",
+      "generation_without_reader_or_training_entrypoint_or_corpora": true,
+      "numerical_packet_only_transfer": true,
+      "no_runtime_feature_learning": true,
+      "boundary_limit": "Shared full numerical model and feature helpers remain in generation-only environment.",
+      "isolated_roundtrips": [
+        {
+          "input_for_verifier_only": "花子を太郎が助けなかった。",
+          "output": "花子を太郎が助けなかった。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "もし花子を太郎が助けなかったら。",
+          "output": "もし花子を太郎が助けなかったら。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "太郎を花子が助けなかった。",
+          "output": "太郎を花子が助けなかった。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "太郎が花子を助けた。",
+          "output": "花子を太郎が助けた。",
+          "meaning_and_goal_exact": true
+        }
+      ],
+      "release_manifest_checked": true,
+      "full_numeric_rerun_in_this_command": false,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.4.zip",
+      "archive_sha256": "9883fb2a30d32f8baa6d0feda32f08de5b9de69a1a8b1a2cdd48b61ecf16cbf1",
+      "archive_bytes": 5562057,
+      "archive_files": 203,
+      "extracted_bytes_equal": true,
+      "source_and_archive_unchanged": true,
+      "heldout_read_generate_cli_passed": true,
+      "direct_encode_heldout_generate_cli_passed": true,
+      "root_json_source_guard_passed": true
+    }
+  },
+  {
+    "version": "PLM-L1-v0.5",
+    "canonical_directory": "PLM-L1-v0.7/vendor/PLM-L1-v0.6/vendor/PLM-L1-v0.5",
+    "files_including_vendor": 268,
+    "original_archive_bytes": 8360580,
+    "original_archive_sha256": "9b653488396b2953b0d6e13be74896ff5b66c31aac18bcbef0c6705b14012670",
+    "original_zip_crc_and_content_checked": true,
+    "recursive_vendor_equals_original": true,
+    "original_zip_container_included": false,
+    "all_original_file_bytes_included": true,
+    "release_verification": {
+      "status": "passed",
+      "preflight": false,
+      "source_freeze": "0d488ef6e6ca3e9bcaa40bf6f6c49956f64e83388144f765914ec6d0055e2a5d",
+      "result_digest": "dd6c30dd07dc8df64d7874900a3eef897423ad9c7bcf5efd3d750d879c758eee",
+      "acceptance_checks": 283,
+      "test_counts": {
+        "NEW_TESTS": 70,
+        "V04_TESTS": 46,
+        "V03_TESTS": 53,
+        "V02_TESTS": 52,
+        "V01_TESTS": 47
+      },
+      "pair_training_without_legacy_teacher_or_evaluation_data": true,
+      "isolated_model_fingerprint_equal": true,
+      "model_fingerprint": "537ebf168a0b0d5cb7f074d61f884c9fd28f0c17a87a5fb53e9bc38e5a437b35",
+      "generation_without_reader_or_training_entrypoint_or_corpora": true,
+      "numerical_packet_only_transfer": true,
+      "no_runtime_feature_learning": true,
+      "known_low_dimension_cli_regressions": [
+        {
+          "input": "花子が健太を褒めた。",
+          "status": "abstain",
+          "reason": "meaning_signal_unrecoverable",
+          "packet_file_absent": true
+        },
+        {
+          "input": "健太を花子が褒めた。",
+          "status": "abstain",
+          "reason": "meaning_signal_unrecoverable",
+          "packet_file_absent": true
+        }
+      ],
+      "boundary_limit": "Shared full numerical model and feature helpers remain in generation-only environment.",
+      "isolated_roundtrips": [
+        {
+          "input_for_verifier_only": "花子を太郎が助けなかった。",
+          "output": "花子を太郎が助けなかった。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "もし花子を太郎が助けなかったら。",
+          "output": "もし花子を太郎が助けなかったら。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "太郎を花子が助けなかった。",
+          "output": "太郎を花子が助けなかった。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "太郎が花子を助けた。",
+          "output": "花子を太郎が助けた。",
+          "meaning_and_goal_exact": true
+        }
+      ],
+      "release_manifest_checked": true,
+      "full_numeric_rerun_in_this_command": false,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.5.zip",
+      "archive_sha256": "9b653488396b2953b0d6e13be74896ff5b66c31aac18bcbef0c6705b14012670",
+      "archive_bytes": 8360580,
+      "archive_files": 268,
+      "extracted_bytes_equal": true,
+      "source_and_archive_unchanged": true,
+      "heldout_read_generate_cli_passed": true,
+      "direct_encode_heldout_generate_cli_passed": true,
+      "root_json_source_guard_passed": true
+    }
+  },
+  {
+    "version": "PLM-L1-v0.6",
+    "canonical_directory": "PLM-L1-v0.7/vendor/PLM-L1-v0.6",
+    "files_including_vendor": 337,
+    "original_archive_bytes": 11658706,
+    "original_archive_sha256": "63e8e31784def18d241cf7585a590dfaa636cfd3f76fccd7d67da58323169ce7",
+    "original_zip_crc_and_content_checked": true,
+    "recursive_vendor_equals_original": true,
+    "original_zip_container_included": false,
+    "all_original_file_bytes_included": true,
+    "release_verification": {
+      "status": "passed",
+      "preflight": false,
+      "source_freeze": "b93a336681390697e1ab9bcb96101a857c83b8e565dbd56ea5e0f5feb0ba2b6c",
+      "result_digest": "0552b771977a377d4fd144a0d84a0682c89414b555e782be7e39e04c4ed15a16",
+      "acceptance_checks": 351,
+      "test_counts": {
+        "NEW_TESTS": 73,
+        "V05_TESTS": 70,
+        "V04_TESTS": 46,
+        "V03_TESTS": 53,
+        "V02_TESTS": 52,
+        "V01_TESTS": 47
+      },
+      "pair_training_without_legacy_teacher_or_evaluation_data": true,
+      "isolated_model_fingerprint_equal": true,
+      "model_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+      "generation_without_reader_or_training_entrypoint_or_corpora": true,
+      "numerical_packet_only_transfer": true,
+      "no_runtime_feature_learning": true,
+      "known_low_dimension_cli_regressions": [
+        {
+          "input": "花子が健太を褒めた。",
+          "mode": "single_legacy_equations_regression",
+          "status": "abstain",
+          "reason": "meaning_signal_unrecoverable",
+          "packet_file_absent": true
+        },
+        {
+          "input": "健太を花子が褒めた。",
+          "mode": "single_legacy_equations_regression",
+          "status": "abstain",
+          "reason": "meaning_signal_unrecoverable",
+          "packet_file_absent": true
+        }
+      ],
+      "boundary_limit": "Shared full numerical model and feature helpers remain in generation-only environment.",
+      "isolated_roundtrips": [
+        {
+          "input_for_verifier_only": "花子を太郎が助けなかった。",
+          "output": "花子を太郎が助けなかった。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "もし花子を太郎が助けなかったら。",
+          "output": "もし花子を太郎が助けなかったら。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "太郎を花子が助けなかった。",
+          "output": "太郎を花子が助けなかった。",
+          "meaning_and_goal_exact": true
+        },
+        {
+          "input_for_verifier_only": "太郎が花子を助けた。",
+          "output": "花子を太郎が助けた。",
+          "meaning_and_goal_exact": true
+        }
+      ],
+      "release_manifest_checked": true,
+      "full_numeric_rerun_in_this_command": false,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.6.zip",
+      "archive_sha256": "63e8e31784def18d241cf7585a590dfaa636cfd3f76fccd7d67da58323169ce7",
+      "archive_bytes": 11658706,
+      "archive_files": 337,
+      "extracted_bytes_equal": true,
+      "source_and_archive_unchanged": true,
+      "heldout_read_generate_cli_passed": true,
+      "direct_encode_heldout_generate_cli_passed": true,
+      "source_freeze_checked_after_cli": true
+    }
+  },
+  {
+    "version": "PLM-L1-v0.7",
+    "canonical_directory": "PLM-L1-v0.7",
+    "files_including_vendor": 411,
+    "original_archive_bytes": 13674865,
+    "original_archive_sha256": "7a76ca3f85d26fc0f38bc99c3d6ae9f43e3859f899ec6867d3e93e53b485a393",
+    "original_zip_crc_and_content_checked": true,
+    "recursive_vendor_equals_original": true,
+    "original_zip_container_included": false,
+    "all_original_file_bytes_included": true,
+    "release_verification": {
+      "status": "passed",
+      "preflight": false,
+      "source_freeze": "321a049d5e38d4b6103c6666baf8a3084319a41087902b1823a64f0a4c697dc8",
+      "result_digest": "cd2169e4efa51bfd207e8688a9dd16a86c424fe6340ae2e2ed63069d05c6be3c",
+      "acceptance_checks": 364,
+      "test_counts": {
+        "NEW_TESTS": 40,
+        "V06_TESTS": 73,
+        "V05_TESTS": 70,
+        "V04_TESTS": 46,
+        "V03_TESTS": 53,
+        "V02_TESTS": 52,
+        "V01_TESTS": 47
+      },
+      "single_event_pair_training_only": true,
+      "two_event_training_examples": 0,
+      "isolated_model_fingerprint_equal": true,
+      "model_fingerprint": "a9a901bebbfd378fd8d782da5b8a5216aca0759febdf759f53f301cc19a9f0b0",
+      "component_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+      "generation_without_both_reader_and_training_entrypoints": true,
+      "single_numerical_packet_only_transfer": true,
+      "atomic_abstention_without_partial_packet": true,
+      "no_runtime_feature_learning": true,
+      "isolated_roundtrips": [
+        {
+          "input_for_verifier_only": "太郎が花子を助けた。花子が太郎を助けなかった。",
+          "output": "花子を太郎が助けた。花子が太郎を助けなかった。",
+          "both_events_meaning_and_goals_exact": true
+        },
+        {
+          "input_for_verifier_only": "もし太郎が花子を助けたら。花子が健太を褒めなかった。",
+          "output": "もし花子を太郎が助けたら。花子が健太を褒めなかった。",
+          "both_events_meaning_and_goals_exact": true
+        },
+        {
+          "input_for_verifier_only": "太郎が花子を助けた。太郎が美咲を訪ねた。",
+          "output": "花子を太郎が助けた。太郎が美咲を訪ねた。",
+          "both_events_meaning_and_goals_exact": true
+        },
+        {
+          "input_for_verifier_only": "太郎が花子を助けた。太郎が花子を助けた。",
+          "output": "花子を太郎が助けた。太郎が花子を助けた。",
+          "both_events_meaning_and_goals_exact": true
+        }
+      ],
+      "boundary_limit": "Shared learned v0.6 component weights and helpers remain; two-event boundaries/bindings are designed, not learned.",
+      "release_manifest_checked": true,
+      "full_numeric_rerun_in_this_command": false,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "archive": "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\outputs\\PLM-L1-v0.7.zip",
+      "archive_sha256": "7a76ca3f85d26fc0f38bc99c3d6ae9f43e3859f899ec6867d3e93e53b485a393",
+      "archive_bytes": 13674865,
+      "archive_files": 411,
+      "extracted_bytes_equal": true,
+      "source_and_archive_unchanged": true,
+      "two_event_read_generate_cli_passed": true,
+      "two_event_direct_encode_generate_cli_passed": true,
+      "source_freeze_checked_after_cli": true
+    }
+  }
+]

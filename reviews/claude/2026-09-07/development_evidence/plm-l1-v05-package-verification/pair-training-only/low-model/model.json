@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "dependency_selection": "deterministic categorical information gain during training only",
+    "dimension": 128,
+    "eligible_for_inference": false,
+    "kinds": {
+      "。": "marker",
+      "が": "marker",
+      "た": "marker",
+      "たら": "marker",
+      "なかった": "marker",
+      "なかったら": "marker",
+      "もし": "marker",
+      "を": "marker",
+      "健太": "entity",
+      "助け": "predicate",
+      "太郎": "entity",
+      "次郎": "entity",
+      "由紀": "entity",
+      "美咲": "entity",
+      "花子": "entity",
+      "褒め": "predicate",
+      "見つめ": "predicate",
+      "訪ね": "predicate"
+    },
+    "learning": true,
+    "lexicon_digest": "cface7154ad6e3f5a1f036ab65bdd30dde013d1e55d3f9700bcdc8a2a38972f1",
+    "pair_count": 432,
+    "pairs_digest": "9ab3d9e1af22a43d797d6c43fc4fc023131cbb1f83f842de514462a816215161",
+    "partial": true,
+    "read_acceptance": "recover_equals_candidate_v1",
+    "schema": "plm-l1-checked-v1",
+    "seed": "parts-stress-0",
+    "slot_candidates": {
+      "modality": [
+        "modality:asserted",
+        "modality:hypothetical"
+      ],
+      "object": [
+        "entity:太郎",
+        "entity:花子",
+        "entity:次郎",
+        "entity:美咲",
+        "entity:健太",
+        "entity:由紀"
+      ],
+      "polarity": [
+        "polarity:positive",
+        "polarity:negative"
+      ],
+      "predicate": [
+        "predicate:help",
+        "predicate:praise",
+        "predicate:visit",
+        "predicate:gaze_at"
+      ],
+      "subject": [
+        "entity:太郎",
+        "entity:花子",
+        "entity:次郎",
+        "entity:美咲",
+        "entity:健太",
+        "entity:由紀"
+      ]
+    },
+    "statistics": {
+      "gaps": {
+        "complete_contexts": 24,
+        "masks": [
+          [
+            "anchor"
+          ],
+          [
+            "anchor",
+            "modality"
+          ],
+          [
+            "anchor",
+            "modality",
+            "polarity"
+          ]
+        ],
+        "observations": 1728,
+        "projected_contexts": 8,
+        "vectors": 3
+      },
+      "lexical_read": {
+        "complete_contexts": 10,
+        "masks": [
+          [
+            "surface"
+          ]
+        ],
+        "observations": 10,
+        "projected_contexts": 10,
+        "vectors": 1
+      },
+      "lexical_write": {
+        "complete_contexts": 10,
+        "masks": [
+          [
+            "meaning_value"
+          ]
+        ],
+        "observations": 10,
+        "projected_contexts": 10,
+        "vectors": 1
+      },
+      "modality": {
+        "complete_contexts": 6,
+        "masks": [
+          [
+            "leading_markers"
+          ]
+        ],
+        "observations": 432,
+        "projected_contexts": 2,
+        "vectors": 1
+      },
+      "order_output": {
+        "complete_contexts": 2,
+        "masks": [
+          [
+            "goal"
+          ]
+        ],
+        "observations": 432,
+        "projected_contexts": 2,
+        "vectors": 1
+      },
+      "order_support": {
+        "complete_contexts": 2,
+        "masks": [
+          [
+            "order"
+          ]
+        ],
+        "observations": 432,
+        "projected_contexts": 2,
+        "vectors": 1
+      },
+      "polarity": {
+        "complete_contexts": 6,
+        "masks": [
+          [
+            "predicate_markers"
+          ]
+        ],
+        "observations": 432,
+        "projected_contexts": 4,
+        "vectors": 1
+      },
+      "roles": {
+        "complete_contexts": 18,
+        "masks": [
+          [
+            "right"
+          ]
+        ],
+        "observations": 1296,
+        "projected_contexts": 6,
+        "vectors": 1
+      }
+    },
+    "supervision_fields": [
+      "text",
+      "meaning"
+    ],
+    "supplied_trace_supervision": false
+  },
+  "fingerprint": "bc1e4db1dbd9a43ce8b65cfd63f5266ad3323248cc5829b73e1d3fa913bfbc4d",
+  "groups": {
+    "roles": [
+      {
+        "mask": [
+          "right"
+        ],
+        "candidates": [
+          "object",
+          "predicate",
+          "subject"
+        ],
+        "weight": "roles_0"
+      }
+    ],
+    "polarity": [
+      {
+        "mask": [
+          "predicate_markers"
+        ],
+        "candidates": [
+          "polarity:negative",
+          "polarity:positive"
+        ],
+        "weight": "polarity_0"
+      }
+    ],
+    "modality": [
+      {
+        "mask": [
+          "leading_markers"
+        ],
+        "candidates": [
+          "modality:asserted",
+          "modality:hypothetical"
+        ],
+        "weight": "modality_0"
+      }
+    ],
+    "order_support": [
+      {
+        "mask": [
+          "order"
+        ],
+        "candidates": [
+          "supported"
+        ],
+        "weight": "order_support_0"
+      }
+    ],
+    "order_output": [
+      {
+        "mask": [
+          "goal"
+        ],
+        "candidates": [
+          "[\"object\",\"subject\",\"predicate\"]",
+          "[\"subject\",\"object\",\"predicate\"]"
+        ],
+        "weight": "order_output_0"
+      }
+    ],
+    "gaps": [
+      {
+        "mask": [
+          "anchor"
+        ],
+        "candidates": [
+          "[\"が\"]",
+          "[\"を\"]"
+        ],
+        "weight": "gaps_0"
+      },
+      {
+        "mask": [
+          "anchor",
+          "modality"
+        ],
+        "candidates": [
+          "[\"もし\"]",
+          "[]"
+        ],
+        "weight": "gaps_1"
+      },
+      {
+        "mask": [
+          "anchor",
+          "modality",
+          "polarity"
+        ],
+        "candidates": [
+          "[\"た\",\"。\"]",
+          "[\"たら\",\"。\"]",
+          "[\"なかった\",\"。\"]",
+          "[\"なかったら\",\"。\"]"
+        ],
+        "weight": "gaps_2"
+      }
+    ],
+    "lexical_read": [
+      {
+        "mask": [
+          "surface"
+        ],
+        "candidates": [
+          "entity:健太",
+          "entity:太郎",
+          "entity:次郎",
+          "entity:由紀",
+          "entity:美咲",
+          "entity:花子",
+          "predicate:gaze_at",
+          "predicate:help",
+          "predicate:praise",
+          "predicate:visit"
+        ],
+        "weight": "lexical_read_0"
+      }
+    ],
+    "lexical_write": [
+      {
+        "mask": [
+          "meaning_value"
+        ],
+        "candidates": [
+          "健太",
+          "助け",
+          "太郎",
+          "次郎",
+          "由紀",
+          "美咲",
+          "花子",
+          "褒め",
+          "見つめ",
+          "訪ね"
+        ],
+        "weight": "lexical_write_0"
+      }
+    ]
+  }
+}

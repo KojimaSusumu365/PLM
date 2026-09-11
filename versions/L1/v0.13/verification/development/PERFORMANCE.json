@@ -1,0 +1,189 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "runs": [
+    {
+      "index": 0,
+      "fit_and_request_revalidation_seconds": 0.24576729984255508,
+      "acquisition_seconds": 0.07868889992823824,
+      "evaluation_seconds": 0.15906679996987805
+    },
+    {
+      "index": 1,
+      "fit_and_request_revalidation_seconds": 0.21569429989904165,
+      "acquisition_seconds": 0.07756229990627617,
+      "evaluation_seconds": 0.15771449997555465
+    },
+    {
+      "index": 2,
+      "fit_and_request_revalidation_seconds": 0.21825579996220767,
+      "acquisition_seconds": 0.07726869982434437,
+      "evaluation_seconds": 0.15463840001029894
+    },
+    {
+      "index": 3,
+      "fit_and_request_revalidation_seconds": 0.2140229000360705,
+      "acquisition_seconds": 0.07653139985632151,
+      "evaluation_seconds": 0.14857050002319738
+    },
+    {
+      "index": 4,
+      "fit_and_request_revalidation_seconds": 0.3035620000446215,
+      "acquisition_seconds": 0.12186379998456687,
+      "evaluation_seconds": 0.1889343000948429
+    },
+    {
+      "index": 5,
+      "fit_and_request_revalidation_seconds": 0.3056533000199124,
+      "acquisition_seconds": 0.11812339996686205,
+      "evaluation_seconds": 0.18608729995321482
+    },
+    {
+      "index": 6,
+      "fit_and_request_revalidation_seconds": 0.31175480014644563,
+      "acquisition_seconds": 0.12314180005341768,
+      "evaluation_seconds": 0.18748369999229908
+    },
+    {
+      "index": 7,
+      "fit_and_request_revalidation_seconds": 0.2985171998734586,
+      "acquisition_seconds": 0.11936030024662614,
+      "evaluation_seconds": 0.1882076000329107
+    },
+    {
+      "index": 8,
+      "fit_and_request_revalidation_seconds": 0.1124355000210926,
+      "acquisition_seconds": 0.02644220006186515,
+      "evaluation_seconds": 0.12060920003568754
+    },
+    {
+      "index": 9,
+      "fit_and_request_revalidation_seconds": 0.10971040005097166,
+      "acquisition_seconds": 0.026149099925532937,
+      "evaluation_seconds": 0.12060469994321465
+    },
+    {
+      "index": 10,
+      "fit_and_request_revalidation_seconds": 0.162045200006105,
+      "acquisition_seconds": 0.002233500068541616,
+      "evaluation_seconds": 0.16583680006442592
+    },
+    {
+      "index": 11,
+      "fit_and_request_revalidation_seconds": 0.15108160028466955,
+      "acquisition_seconds": 0.0019304000888951123,
+      "evaluation_seconds": 0.15213659999426454
+    },
+    {
+      "index": 12,
+      "fit_and_request_revalidation_seconds": 0.15437520010164008,
+      "acquisition_seconds": 0.0019911000272259116,
+      "evaluation_seconds": 0.14839780004695058
+    },
+    {
+      "index": 13,
+      "fit_and_request_revalidation_seconds": 0.15278880001278594,
+      "acquisition_seconds": 0.0020221000304445624,
+      "evaluation_seconds": 0.16586099995765835
+    },
+    {
+      "index": 14,
+      "fit_and_request_revalidation_seconds": 0.21176249999552965,
+      "acquisition_seconds": 0.00204660021699965,
+      "evaluation_seconds": 0.20420989993726835
+    },
+    {
+      "index": 15,
+      "fit_and_request_revalidation_seconds": 0.20652910001808777,
+      "acquisition_seconds": 0.0022185000707395375,
+      "evaluation_seconds": 0.18058350001228973
+    },
+    {
+      "index": 16,
+      "fit_and_request_revalidation_seconds": 0.21172570006456226,
+      "acquisition_seconds": 0.0019466000376269221,
+      "evaluation_seconds": 0.20549129991559312
+    },
+    {
+      "index": 17,
+      "fit_and_request_revalidation_seconds": 0.20716109994100407,
+      "acquisition_seconds": 0.0023214001557789743,
+      "evaluation_seconds": 0.18878059991402552
+    },
+    {
+      "index": 18,
+      "fit_and_request_revalidation_seconds": 0.08369699987815693,
+      "acquisition_seconds": 0.001889800012577325,
+      "evaluation_seconds": 0.11743169999681413
+    },
+    {
+      "index": 19,
+      "fit_and_request_revalidation_seconds": 0.10113579989410937,
+      "acquisition_seconds": 0.00219849991844967,
+      "evaluation_seconds": 0.12037429999327287
+    },
+    {
+      "index": 20,
+      "fit_and_request_revalidation_seconds": 0.08480120007880032,
+      "acquisition_seconds": 0.006330499949399382,
+      "evaluation_seconds": 0.02313809999031946
+    },
+    {
+      "index": 21,
+      "fit_and_request_revalidation_seconds": 0.09400729998014867,
+      "acquisition_seconds": 0.006888100004289299,
+      "evaluation_seconds": 0.026010299974586815
+    },
+    {
+      "index": 22,
+      "fit_and_request_revalidation_seconds": 0.08830540004419163,
+      "acquisition_seconds": 0.0071260001277551055,
+      "evaluation_seconds": 0.026277099968865514
+    },
+    {
+      "index": 23,
+      "fit_and_request_revalidation_seconds": 0.14006820000940934,
+      "acquisition_seconds": 0.009762799832969904,
+      "evaluation_seconds": 0.02588790003210306
+    },
+    {
+      "index": 24,
+      "fit_and_request_revalidation_seconds": 0.1012948999996297,
+      "acquisition_seconds": 0.010524599987547845,
+      "evaluation_seconds": 0.031823999946936965
+    },
+    {
+      "index": 25,
+      "fit_and_request_revalidation_seconds": 0.09204340010182932,
+      "acquisition_seconds": 0.008091600087936968,
+      "evaluation_seconds": 0.025092800031416118
+    },
+    {
+      "index": 26,
+      "fit_and_request_revalidation_seconds": 0.09579620015574619,
+      "acquisition_seconds": 0.008710400143172592,
+      "evaluation_seconds": 0.024840500089339912
+    },
+    {
+      "index": 27,
+      "fit_and_request_revalidation_seconds": 0.09584799996810034,
+      "acquisition_seconds": 0.00889120006468147,
+      "evaluation_seconds": 0.02554589993087575
+    },
+    {
+      "index": 28,
+      "fit_and_request_revalidation_seconds": 0.08067579992348328,
+      "acquisition_seconds": 0.00393799995072186,
+      "evaluation_seconds": 0.02163889998337254
+    },
+    {
+      "index": 29,
+      "fit_and_request_revalidation_seconds": 0.09686709992820397,
+      "acquisition_seconds": 0.004862299945671111,
+      "evaluation_seconds": 0.02370570000493899
+    }
+  ]
+}

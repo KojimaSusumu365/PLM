@@ -1,0 +1,7 @@
+{
+  "explore_every": 4,
+  "revisit_every": 4,
+  "cooldown": 64,
+  "drop_margin": 0.15,
+  "max_visits": 2
+}

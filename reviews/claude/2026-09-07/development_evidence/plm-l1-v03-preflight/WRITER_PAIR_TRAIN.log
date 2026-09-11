@@ -1,0 +1,1 @@
+{"status": "trained", "writer_fingerprint": "9cc236eaef0177f856f667e974ee07aa042373f791eb6732c3e82fe442f235ee", "statistics": {"lexical": {"conflicting_contexts": 0, "contexts": 10, "observations": 10}, "steps": {"conflicting_contexts": 0, "contexts": 68, "observations": 4896}, "support": {"conflicting_contexts": 0, "contexts": 8, "observations": 576}}}

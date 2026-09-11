@@ -1,0 +1,22 @@
+PLM-C0 v0.3 regression/evaluation tests: 22 passed
+PLM-C1 v0.1 scoped-evidence/residual tests: 16 passed
+
+----------------------------------------------------------------------
+Ran 38 tests
+
+OK
+
+Verified areas:
+- C0 v0.1 behavior regression
+- C0 v0.3 boundary, overlap, dataset, metric, bootstrap, and ablation behavior
+- C1 scoped Evidence schema
+- NEGATE operation and long/local predicate negation
+- SUPERSEDE operation within and across sources
+- residual-removal ablation
+- clause-local context and cross-input context isolation
+- context polarity
+- discourse-instance conflict abstention
+- mixed ASCII/Japanese boundaries
+- frozen 288-case regression score
+- frozen 60-case post-implementation challenge score
+- C1 suite and required ablations

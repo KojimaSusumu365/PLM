@@ -1,0 +1,17 @@
+{
+  "schema": "ss-core-01-protocol",
+  "scope": "Two events and two externally specified mutable fields; bounded existing language only",
+  "memory_seeds": [0, 1, 2],
+  "main_modes": ["batch", "stream1", "stream37", "stream_phase"],
+  "teacher_sequence": "12 protected focal documents, then 12 nonprotected background documents; no final-query receipts",
+  "outer_transport": "Existing P1/S1 spread receiver, partial25 condition; numeric received inputs paired across memories",
+  "numerical_tolerance": 1e-10,
+  "minimum_main_correct_rate": 0.95,
+  "arithmetic_updates_per_seed": 24,
+  "query_faults": ["drop25", "drop50", "tail_drift", "pilot_missing", "truncate", "reorder", "payload_noise"],
+  "hard_query_faults": ["drop50", "tail_drift", "pilot_missing", "truncate", "reorder"],
+  "stress_cases": 4,
+  "payload_noise_policy": "Exploratory; pilot-valid payload corruption is not authenticated or guaranteed detectable",
+  "frozen_before_final_evaluation": true,
+  "eligible_for_inference": false
+}

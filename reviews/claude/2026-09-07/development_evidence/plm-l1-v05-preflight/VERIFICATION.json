@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "preflight": true,
+  "source_freeze": "preflight_not_frozen",
+  "result_digest": null,
+  "acceptance_checks": 0,
+  "test_counts": {
+    "NEW_TESTS": 70,
+    "V04_TESTS": 46,
+    "V03_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "pair_training_without_legacy_teacher_or_evaluation_data": true,
+  "isolated_model_fingerprint_equal": true,
+  "model_fingerprint": "36b3fc5b5bb9b779df27102c046331dc63f2450efbd6ca4e0596321958490e43",
+  "generation_without_reader_or_training_entrypoint_or_corpora": true,
+  "numerical_packet_only_transfer": true,
+  "no_runtime_feature_learning": true,
+  "known_low_dimension_cli_regressions": [
+    {
+      "input": "花子が健太を褒めた。",
+      "status": "abstain",
+      "reason": "meaning_signal_unrecoverable",
+      "packet_file_absent": true
+    },
+    {
+      "input": "健太を花子が褒めた。",
+      "status": "abstain",
+      "reason": "meaning_signal_unrecoverable",
+      "packet_file_absent": true
+    }
+  ],
+  "boundary_limit": "Shared full numerical model and feature helpers remain in generation-only environment.",
+  "isolated_roundtrips": [
+    {
+      "input_for_verifier_only": "花子を太郎が助けなかった。",
+      "output": "花子を太郎が助けなかった。",
+      "meaning_and_goal_exact": true
+    },
+    {
+      "input_for_verifier_only": "もし花子を太郎が助けなかったら。",
+      "output": "もし花子を太郎が助けなかったら。",
+      "meaning_and_goal_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎を花子が助けなかった。",
+      "output": "太郎を花子が助けなかった。",
+      "meaning_and_goal_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。",
+      "meaning_and_goal_exact": true
+    }
+  ],
+  "release_manifest_checked": false,
+  "full_numeric_rerun_in_this_command": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

@@ -1,0 +1,81 @@
+{
+  "source_freeze": "17902d564d809a1f7588bb9f5d82057ff3a29300894e3649bb9d11a189631344",
+  "result_digest": "e7269f9578767fd5a3494bf39921b43e8fc2e02c190b5efe360f8e6d335ddf02",
+  "policy": "Diagnostic replay of frozen stress settings; no retraining data, threshold or acceptance-gate change.",
+  "details": [
+    {
+      "seed": "parts-stress-0",
+      "dimension": 128,
+      "fold": "object_negative",
+      "fingerprint": "a78a8502ee2b11cb3abc6d088f292a5c49adc9f208c3309d3b986fc5d9f421a4",
+      "read_accepted_but_meaning_not_exact": [
+        {
+          "frozen_record": {
+            "stage": "read",
+            "bucket": "seen",
+            "input": "花子が健太を褒めた。",
+            "expected": {
+              "subject": "entity:花子",
+              "object": "entity:健太",
+              "predicate": "predicate:praise",
+              "polarity": "polarity:positive",
+              "modality": "modality:asserted"
+            },
+            "recovered": null,
+            "status": "read",
+            "reason": null
+          },
+          "recovery": {
+            "status": "abstain",
+            "reason": "ambiguous_meaning",
+            "text": null,
+            "packet": null,
+            "eligible_for_inference": false,
+            "meaning": null
+          },
+          "generation_from_packet": {
+            "status": "abstain",
+            "reason": "ambiguous_meaning",
+            "text": null,
+            "packet": null,
+            "eligible_for_inference": false
+          }
+        },
+        {
+          "frozen_record": {
+            "stage": "read",
+            "bucket": "seen",
+            "input": "健太を花子が褒めた。",
+            "expected": {
+              "subject": "entity:花子",
+              "object": "entity:健太",
+              "predicate": "predicate:praise",
+              "polarity": "polarity:positive",
+              "modality": "modality:asserted"
+            },
+            "recovered": null,
+            "status": "read",
+            "reason": null
+          },
+          "recovery": {
+            "status": "abstain",
+            "reason": "ambiguous_meaning",
+            "text": null,
+            "packet": null,
+            "eligible_for_inference": false,
+            "meaning": null
+          },
+          "generation_from_packet": {
+            "status": "abstain",
+            "reason": "ambiguous_meaning",
+            "text": null,
+            "packet": null,
+            "eligible_for_inference": false
+          }
+        }
+      ],
+      "invalid_text_false_acceptances": [],
+      "invalid_packet_false_acceptances": []
+    }
+  ]
+}

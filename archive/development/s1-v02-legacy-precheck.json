@@ -1,0 +1,10 @@
+{
+  "scope": "S1 v0.1: all 12 conditions x 5 methods x one code/channel seed pair, not full old numerical replay",
+  "queries": 1440,
+  "sync_audits": 60,
+  "code_seed": 41001,
+  "channel_seed": 52001,
+  "exact_reference_match": true,
+  "reference_hash": "326473dfba48f77997ddbb3a34b2868e4cc3afb2104061d624a97c7b4c2b9e4c",
+  "replay_hash": "326473dfba48f77997ddbb3a34b2868e4cc3afb2104061d624a97c7b4c2b9e4c"
+}

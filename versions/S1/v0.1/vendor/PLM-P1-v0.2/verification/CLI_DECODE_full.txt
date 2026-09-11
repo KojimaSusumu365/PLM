@@ -1,0 +1,71 @@
+{
+  "status": "recovered",
+  "selected": {
+    "kind": "entity",
+    "id": "animal-000",
+    "scope": "synthetic:doc"
+  },
+  "reason": "numerical_recovery_only",
+  "observed_components": 2048,
+  "candidate_count": 96,
+  "eligible_for_inference": false,
+  "top_candidates": [
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-000",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.98484365
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-063",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.14965316
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-070",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.09263638
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-068",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.08278236
+    },
+    {
+      "symbol": {
+        "kind": "entity",
+        "id": "animal-031",
+        "scope": "synthetic:doc"
+      },
+      "score": 0.08250006
+    }
+  ],
+  "margin": 0.8351905,
+  "score_kind": "projected_coherent_amplitude_not_probability",
+  "catalogue_hash": "f26a34aa5ee8a673791cd208bf629c4dcb8628f25c40ea22cc4dfea2adc91e02",
+  "policy": {
+    "min_components": 128,
+    "min_residual_dof": 128,
+    "min_retained_fraction": 0.5,
+    "min_amplitude": 0.4,
+    "family_alpha": 0.01,
+    "min_margin": 0.1,
+    "gap_z": 1.5
+  },
+  "nuisance_rank": 88,
+  "residual_dof": 1960,
+  "residual_power": 7.98406884,
+  "amplitude_threshold": 0.4,
+  "margin_threshold": 0.1
+}

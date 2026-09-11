@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "source_freeze": "dabba4f6282e892aade0f253b725a32fa4b621a4d04b69ec4a6478e11d8f9806",
+  "result_digest": "aeea4e895d014680873310ecde520e075f3677ef9641bac2a0df856c5cd82c9a",
+  "acceptance_checks": 88,
+  "unit_tests": 47,
+  "isolated_cli_roundtrips": 4,
+  "unknown_input_cli_exit": 2,
+  "release_manifest_checked": false,
+  "numeric_full_evaluation_rerun_in_this_command": false,
+  "demos": [
+    {
+      "input": "太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。",
+      "meaning_exact": true
+    },
+    {
+      "input": "花子が太郎を褒めた。",
+      "output": "太郎を花子が褒めた。",
+      "meaning_exact": true
+    },
+    {
+      "input": "太郎が花子を助けなかった。",
+      "output": "花子を太郎が助けなかった。",
+      "meaning_exact": true
+    },
+    {
+      "input": "もし太郎が花子を助けなかったら。",
+      "output": "もし花子を太郎が助けなかったら。",
+      "meaning_exact": true
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\kojim\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe"
+}

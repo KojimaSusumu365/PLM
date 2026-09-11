@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "schema": "plm-dependency-memory-v013",
+    "config": {
+      "fields": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "vocabulary": {
+        "a": [
+          "0",
+          "1"
+        ],
+        "b": [
+          "0",
+          "1"
+        ],
+        "c": [
+          "0",
+          "1"
+        ],
+        "d": [
+          "0",
+          "1"
+        ],
+        "e": [
+          "0",
+          "1"
+        ],
+        "f": [
+          "0",
+          "1"
+        ]
+      },
+      "labels": [
+        "0",
+        "1"
+      ],
+      "backend": "ss",
+      "dimension": 128,
+      "seed": "evaluation-0",
+      "retention": "all",
+      "max_order": 3,
+      "support_threshold": 0.5
+    },
+    "training": {
+      "rows": 21,
+      "unique_contexts": 21,
+      "digest": "113d3dd1603ae86a45f1ab6d1b88fc40113ba7565d21be0e3088446246c8b12e",
+      "mask_selection": "All exact teacher-consistent masks up to fixed order; optional smallest-order ablation.",
+      "ss_runtime_has_training_key_table": false,
+      "unobserved_cell_means_unknown": true,
+      "experimental_weighting": {
+        "version": "0.1",
+        "method": "residual",
+        "candidate_and_acceptance_control": "unchanged v0.13",
+        "online_teacher_session_integrated": false
+      }
+    },
+    "members": [
+      {
+        "mask": [
+          "c"
+        ],
+        "known_keys": 2,
+        "total_keys": 2,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "a",
+          "c"
+        ],
+        "known_keys": 4,
+        "total_keys": 4,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "b",
+          "c"
+        ],
+        "known_keys": 4,
+        "total_keys": 4,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "c",
+          "d"
+        ],
+        "known_keys": 4,
+        "total_keys": 4,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "c",
+          "e"
+        ],
+        "known_keys": 4,
+        "total_keys": 4,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "c",
+          "f"
+        ],
+        "known_keys": 4,
+        "total_keys": 4,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "a",
+          "b",
+          "c"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "a",
+          "c",
+          "d"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "a",
+          "c",
+          "e"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "a",
+          "c",
+          "f"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "b",
+          "c",
+          "d"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "b",
+          "c",
+          "e"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "b",
+          "c",
+          "f"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "c",
+          "d",
+          "e"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "c",
+          "d",
+          "f"
+        ],
+        "known_keys": 7,
+        "total_keys": 8,
+        "entries": {}
+      },
+      {
+        "mask": [
+          "c",
+          "e",
+          "f"
+        ],
+        "known_keys": 8,
+        "total_keys": 8,
+        "entries": {}
+      }
+    ],
+    "eligible_for_inference": false
+  },
+  "fingerprint": "1dfe7bbb1a9629930d3f65516a76427a9355e161240a07e6e3a465fee9e6ac3f"
+}

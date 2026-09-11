@@ -1,0 +1,4 @@
+# Preserve historical evidence bytes, including CRLF, without normalization.
+* -text
+
+# Historical payloads are immutable snapshots, not Git LFS pointers.

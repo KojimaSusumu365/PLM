@@ -1,0 +1,97 @@
+{
+  "demos": [
+    {
+      "generated": {
+        "eligible_for_inference": false,
+        "event_count": 2,
+        "status": "generated",
+        "text": "花子を太郎が助けた。花子が太郎を助けなかった。"
+      },
+      "input": "太郎が花子を助けた。花子が太郎を助けなかった。",
+      "meaning": {
+        "events": [
+          {
+            "modality": "modality:asserted",
+            "object": "entity:花子",
+            "polarity": "polarity:positive",
+            "predicate": "predicate:help",
+            "subject": "entity:太郎"
+          },
+          {
+            "modality": "modality:asserted",
+            "object": "entity:太郎",
+            "polarity": "polarity:negative",
+            "predicate": "predicate:help",
+            "subject": "entity:花子"
+          }
+        ]
+      },
+      "reason": null,
+      "status": "read"
+    },
+    {
+      "generated": {
+        "eligible_for_inference": false,
+        "event_count": 2,
+        "status": "generated",
+        "text": "もし花子を太郎が助けたら。花子が健太を褒めなかった。"
+      },
+      "input": "もし太郎が花子を助けたら。花子が健太を褒めなかった。",
+      "meaning": {
+        "events": [
+          {
+            "modality": "modality:hypothetical",
+            "object": "entity:花子",
+            "polarity": "polarity:positive",
+            "predicate": "predicate:help",
+            "subject": "entity:太郎"
+          },
+          {
+            "modality": "modality:asserted",
+            "object": "entity:健太",
+            "polarity": "polarity:negative",
+            "predicate": "predicate:praise",
+            "subject": "entity:花子"
+          }
+        ]
+      },
+      "reason": null,
+      "status": "read"
+    },
+    {
+      "generated": {
+        "eligible_for_inference": false,
+        "event_count": 2,
+        "status": "generated",
+        "text": "花子を太郎が助けた。太郎が花子を助けた。"
+      },
+      "input": "太郎が花子を助けた。太郎が花子を助けた。",
+      "meaning": {
+        "events": [
+          {
+            "modality": "modality:asserted",
+            "object": "entity:花子",
+            "polarity": "polarity:positive",
+            "predicate": "predicate:help",
+            "subject": "entity:太郎"
+          },
+          {
+            "modality": "modality:asserted",
+            "object": "entity:花子",
+            "polarity": "polarity:positive",
+            "predicate": "predicate:help",
+            "subject": "entity:太郎"
+          }
+        ]
+      },
+      "reason": null,
+      "status": "read"
+    },
+    {
+      "input": "太郎が花子を助けた。彼が太郎を助けた。",
+      "reason": "event_read_failed:1:unknown_token",
+      "status": "abstain"
+    }
+  ],
+  "scope": "Human/evaluator only; original text is not generator input"
+}

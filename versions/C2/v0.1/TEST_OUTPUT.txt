@@ -1,0 +1,12 @@
+PLM-C2 v0.1 verification
+Command: python -m unittest discover -s tests -v
+Result: OK
+Tests run: 92
+Elapsed: 15.094s
+
+Suites:
+- PLM-C0 v0.3 regression/evaluation: 22 passed
+- Frozen PLM-C1 v0.1 compatibility: 16 passed
+- Frozen PLM-C1 v0.2 compatibility: 16 passed
+- Frozen PLM-C1 v0.3 compatibility: 18 passed
+- PLM-C2 v0.1 engine/evaluation: 20 passed

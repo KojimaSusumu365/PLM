@@ -1,0 +1,998 @@
+{
+  "source_result_digest": "73143a3ccf913be8f9eac7d3b3452a132420d8b35ecdad68af562e4f387a551b",
+  "aggregates": [
+    {
+      "condition": "stress",
+      "method": "ss",
+      "dimension": 2048,
+      "selection_enabled": true,
+      "runs": 50,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 400,
+      "symbolic_projection/correct": 264,
+      "symbolic_projection/wrong": 48,
+      "symbolic_projection/abstained": 88,
+      "phase_retrieval/requests": 400,
+      "phase_retrieval/correct": 264,
+      "phase_retrieval/wrong": 47,
+      "phase_retrieval/abstained": 89,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 50
+    },
+    {
+      "condition": "stress",
+      "method": "symbolic",
+      "dimension": 2048,
+      "selection_enabled": true,
+      "runs": 50,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 400,
+      "symbolic_projection/correct": 264,
+      "symbolic_projection/wrong": 48,
+      "symbolic_projection/abstained": 88,
+      "phase_retrieval/requests": 400,
+      "phase_retrieval/correct": 264,
+      "phase_retrieval/wrong": 47,
+      "phase_retrieval/abstained": 89,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 50
+    },
+    {
+      "condition": "stress",
+      "method": "id3",
+      "dimension": 2048,
+      "selection_enabled": true,
+      "runs": 50,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 400,
+      "symbolic_projection/correct": 294,
+      "symbolic_projection/wrong": 106,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 400,
+      "phase_retrieval/correct": 294,
+      "phase_retrieval/wrong": 106,
+      "phase_retrieval/abstained": 0,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 50
+    },
+    {
+      "condition": "stress",
+      "method": "full",
+      "dimension": 2048,
+      "selection_enabled": true,
+      "runs": 50,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 400,
+      "symbolic_projection/correct": 0,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 400,
+      "phase_retrieval/requests": 400,
+      "phase_retrieval/correct": 0,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 400,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 50
+    },
+    {
+      "condition": "standard",
+      "method": "ss",
+      "dimension": 128,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 2,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 144,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 16,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 131,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 29,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "symbolic",
+      "dimension": 128,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 160,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 145,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 15,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "id3",
+      "dimension": 128,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 134,
+      "symbolic_projection/wrong": 26,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 121,
+      "phase_retrieval/wrong": 24,
+      "phase_retrieval/abstained": 15,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "full",
+      "dimension": 128,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 0,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 160,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 0,
+      "phase_retrieval/wrong": 1,
+      "phase_retrieval/abstained": 159,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "ss",
+      "dimension": 512,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 160,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 160,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 0,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "symbolic",
+      "dimension": 512,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 160,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 160,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 0,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "id3",
+      "dimension": 512,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 134,
+      "symbolic_projection/wrong": 26,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 133,
+      "phase_retrieval/wrong": 26,
+      "phase_retrieval/abstained": 1,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "full",
+      "dimension": 512,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 0,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 160,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 0,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 160,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "ss",
+      "dimension": 2048,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 160,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 160,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 0,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "symbolic",
+      "dimension": 2048,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 160,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 160,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 0,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "id3",
+      "dimension": 2048,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 134,
+      "symbolic_projection/wrong": 26,
+      "symbolic_projection/abstained": 0,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 134,
+      "phase_retrieval/wrong": 26,
+      "phase_retrieval/abstained": 0,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "full",
+      "dimension": 2048,
+      "selection_enabled": true,
+      "runs": 20,
+      "fallback_full_context": 0,
+      "symbolic_projection/requests": 160,
+      "symbolic_projection/correct": 0,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 160,
+      "phase_retrieval/requests": 160,
+      "phase_retrieval/correct": 0,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 160,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 20
+    },
+    {
+      "condition": "standard",
+      "method": "ss",
+      "dimension": 2048,
+      "selection_enabled": false,
+      "runs": 10,
+      "fallback_full_context": 10,
+      "symbolic_projection/requests": 80,
+      "symbolic_projection/correct": 0,
+      "symbolic_projection/wrong": 0,
+      "symbolic_projection/abstained": 80,
+      "phase_retrieval/requests": 80,
+      "phase_retrieval/correct": 0,
+      "phase_retrieval/wrong": 0,
+      "phase_retrieval/abstained": 80,
+      "unregistered_accepted": 0,
+      "unregistered_requests": 10
+    }
+  ],
+  "selected_failure_conditions": [
+    {
+      "task_id": "evaluation/unary/0/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      }
+    },
+    {
+      "task_id": "evaluation/unary/1/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f2",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 5,
+        "wrong": 1,
+        "abstained": 2
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 5,
+        "wrong": 1,
+        "abstained": 2
+      }
+    },
+    {
+      "task_id": "evaluation/unary/1/16/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f1",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 4,
+        "wrong": 2,
+        "abstained": 2
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 4,
+        "wrong": 2,
+        "abstained": 2
+      }
+    },
+    {
+      "task_id": "evaluation/unary/1/24/2",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f1",
+          "f2",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 1
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f2",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f2"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 4,
+        "wrong": 1,
+        "abstained": 3
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 4,
+        "wrong": 1,
+        "abstained": 3
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0/24/2",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f2",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f2"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/1/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f2",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f2",
+        "f4"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 3,
+        "wrong": 1,
+        "abstained": 4
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 3,
+        "wrong": 1,
+        "abstained": 4
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/1/16/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f2",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f2",
+        "f4"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 5,
+        "wrong": 1,
+        "abstained": 2
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 5,
+        "wrong": 1,
+        "abstained": 2
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/1/24/2",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f1",
+          "f2",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f2",
+        "f4"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f2",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f2",
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 0
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 0
+      }
+    },
+    {
+      "task_id": "evaluation/and2/0/16/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f2",
+          "f3"
+        ]
+      ],
+      "true_dependencies": [
+        "f2",
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 5,
+        "wrong": 1,
+        "abstained": 2
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 5,
+        "wrong": 1,
+        "abstained": 2
+      }
+    },
+    {
+      "task_id": "evaluation/and2/1/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f1",
+          "f2",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 3,
+        "wrong": 3,
+        "abstained": 2
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 3,
+        "wrong": 3,
+        "abstained": 2
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/0/8/0",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f2",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f4"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 1
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 1
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/0/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f4"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 0
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 0
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/0/24/0",
+      "dimension": 128,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f4"
+      ],
+      "fallback_full_context": true,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 8
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 8
+      }
+    },
+    {
+      "task_id": "evaluation/switch3/1/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f2"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f2"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 0
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 0
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0/8/0",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f1",
+        "f2",
+        "f4"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 2,
+        "wrong": 5,
+        "abstained": 1
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 2,
+        "wrong": 5,
+        "abstained": 1
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f1",
+        "f2",
+        "f4"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 1,
+        "wrong": 6,
+        "abstained": 1
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 1,
+        "wrong": 6,
+        "abstained": 1
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/1/8/0",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f1",
+          "f2",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 0,
+        "wrong": 7,
+        "abstained": 1
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 0,
+        "wrong": 7,
+        "abstained": 1
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/1/8/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f2",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 1,
+        "wrong": 5,
+        "abstained": 2
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 1,
+        "wrong": 5,
+        "abstained": 2
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/1/16/1",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f2",
+          "f3"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 4,
+        "wrong": 1,
+        "abstained": 3
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 4,
+        "wrong": 1,
+        "abstained": 3
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/1/24/0",
+      "dimension": 128,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f3"
+      ],
+      "fallback_full_context": true,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 8
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 8
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/1/24/2",
+      "dimension": 2048,
+      "seed": "selection-evaluation-0",
+      "selected_masks": [
+        [
+          "f0",
+          "f1",
+          "f3",
+          "f4"
+        ]
+      ],
+      "true_dependencies": [
+        "f0",
+        "f1",
+        "f3"
+      ],
+      "fallback_full_context": false,
+      "symbolic_projection": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "phase_retrieval": {
+        "requests": 8,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 0
+      }
+    }
+  ],
+  "counting_note": "450 fitted conditions are repeated combinations of 10 task variants, training sizes, flips, seeds, dimensions and methods, not 450 independent linguistic tasks. Standard D rows contain 80 task-specific heldout examples repeated over two code seeds. All-2 OOD probes are only one artificial key per condition."
+}

@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "schema": "plm-temporal-model-v09",
+    "component_fingerprint": "95f41f002d0d20cfa3909fe4e2fe96652fa292e21c94f92035700a23164cd904",
+    "dimension": 8192,
+    "seed": "temporal-evaluation-0",
+    "mode": "bound",
+    "training": {
+      "dependency_selection": "full designed relation-context keys; no temporal feature selection",
+      "learning": true,
+      "marker_inventory": [
+        "",
+        "その前に、",
+        "その後、"
+      ],
+      "memory_dimension": 8192,
+      "pair_count": 216,
+      "pairs_digest": "17559dc579ba02cabb36c2fa5443ef9f7f3f85711c903f331cd408c68cf9dea7",
+      "seed": "temporal-evaluation-0",
+      "statistics": {
+        "temporal_read": {
+          "bank_counts": [
+            1
+          ],
+          "bank_loads": [
+            [
+              6
+            ]
+          ],
+          "cache_capacity_bytes": 131072,
+          "complete_contexts": 6,
+          "groups": 1,
+          "masks": [
+            [
+              "marker",
+              "presentation"
+            ]
+          ],
+          "numerical_weight_bytes": 131072,
+          "observations": 216,
+          "projected_contexts": 6,
+          "state_bytes": 133120
+        },
+        "temporal_write": {
+          "bank_counts": [
+            1
+          ],
+          "bank_loads": [
+            [
+              6
+            ]
+          ],
+          "cache_capacity_bytes": 131072,
+          "complete_contexts": 6,
+          "groups": 1,
+          "masks": [
+            [
+              "kind",
+              "presentation",
+              "source",
+              "target"
+            ]
+          ],
+          "numerical_weight_bytes": 131072,
+          "observations": 216,
+          "projected_contexts": 6,
+          "state_bytes": 133120
+        }
+      },
+      "supervision": [
+        "text",
+        "meaning"
+      ],
+      "supplied_operation_traces": false
+    },
+    "event_identity": "local_occurrence_id_stable_within_packet_not_cross_document",
+    "presentation": "separate_from_identity_and_temporal_edge",
+    "relation": "explicit_before_or_unknown_only",
+    "binding_and_boundaries": "designed_not_learned",
+    "read_acceptance": "recover_equals_own_full_candidate",
+    "thresholds": {
+      "MIN_SCORE": 0.65,
+      "MIN_MARGIN": 0.25,
+      "MIN_PRESENCE": 0.65,
+      "MIN_PROOF": 0.65,
+      "MAX_RESIDUAL": 0.2,
+      "LEGACY_MIN_SCORE": 0.6,
+      "SELECTION_REQUIRED_ACCURACY": 1.0,
+      "NUMERIC_ATOL": 1e-12,
+      "NUMERIC_RTOL": 1e-12
+    },
+    "eligible_for_inference": false
+  },
+  "fingerprint": "dc7252b44f273f265198e7a441afff7de3dea7c2dcbf1327c67e35a6fca8a073",
+  "groups": {
+    "temporal_read": [
+      "temporal_read_0"
+    ],
+    "temporal_write": [
+      "temporal_write_0"
+    ]
+  }
+}

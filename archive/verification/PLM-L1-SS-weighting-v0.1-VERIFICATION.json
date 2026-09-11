@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "unit_tests": 87,
+  "new_tests": 33,
+  "inherited_v013_tests": 54,
+  "freeze_hash": "b0a32cf5a107215a2a89c5e4214256b89f0a8985cbb31c24347df03461428421",
+  "result_digest": "880b19bb86d1e454675b02dd8f80201b10b4a7a2153cac4394babf6c55937c85",
+  "score_arrays_rechecked": 1152,
+  "isolated_refits": {
+    "memory-uniform": {
+      "contexts": 512,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "memory-positive": {
+      "contexts": 512,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "memory-residual": {
+      "contexts": 512,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "memory-gain2": {
+      "contexts": 512,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "structured-uniform-b0": {
+      "contexts": 154,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "structured-positive-b0": {
+      "contexts": 154,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "structured-residual-b0": {
+      "contexts": 154,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "structured-uniform-b1": {
+      "contexts": 154,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "structured-positive-b1": {
+      "contexts": 154,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    },
+    "structured-residual-b1": {
+      "contexts": 154,
+      "coefficient_difference": 0.0,
+      "strict_fingerprint_equal": true,
+      "functional_predictions_equal": true
+    }
+  },
+  "prediction_only_models": [
+    "memory-uniform",
+    "memory-positive",
+    "memory-residual",
+    "memory-gain2",
+    "structured-uniform-b0",
+    "structured-positive-b0",
+    "structured-residual-b0",
+    "structured-uniform-b1",
+    "structured-positive-b1",
+    "structured-residual-b1"
+  ],
+  "runtime_has_no_training_or_teacher_data": true,
+  "manifest_files": 113,
+  "old_v013_vendor_manifest_files": 83,
+  "full_evaluation_rerun_by_this_command": false,
+  "linux_tested": false,
+  "p1_s1_integrated": false,
+  "eligible_for_inference": false,
+  "archive": {
+    "archive": "PLM-L1-SS-weighting-v0.1.zip",
+    "sha256": "74603cf710373c0cc34cba8f52f8db2ffb00352f5672483481778fc6e4306525",
+    "bytes": 64198584,
+    "files": 114,
+    "freeze_hash": "b0a32cf5a107215a2a89c5e4214256b89f0a8985cbb31c24347df03461428421",
+    "result_digest": "880b19bb86d1e454675b02dd8f80201b10b4a7a2153cac4394babf6c55937c85"
+  },
+  "archive_actually_extracted": true,
+  "crc_verified": true,
+  "full_evaluations_before_packaging": 2
+}

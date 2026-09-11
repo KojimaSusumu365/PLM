@@ -1,0 +1,19 @@
+{
+ "version":"PLM-L1-SS-doc v0.5","data_splits":["300","301"],"code_seeds":["reconfirmation-code-0","reconfirmation-code-1"],
+ "memory_methods":["versioned_shared","versioned_pair"],"policies":["legacy","always","ss_selective"],
+ "global_teacher_budget_caps":[0,6,24],"focal_per_split":12,"background_per_split":256,"background_passes":2,
+ "initial_memory":"5 confirmations per focal episode(A1 B1 A2 B2 A3), then256 background episodes x2=512 confirmations; save/reload before conditions",
+ "primary":"12 mixed observation queries in frozen shuffled order, one sequential memory stream per policy/budget;2 output styles;budget is global ceiling per stream,not forced equal actual usage",
+ "query_kinds":["current_known","stale_known","stale_partial","missing","conflict","ambiguous"],
+ "feedback":"Only requested fields answered from isolated evaluator truth;current-session provenance permits using formally confirmed numeric cells;predictions are never teachers",
+ "question_selection":"designed priority: conflict100,memory disagreement95,explicit disagreement or outside candidates90,unverified explicit80,unsupported partial70;lexical target tie break;no learned priority claim",
+ "cold_requery":"after full stream, save/reload memory;fresh both-unobserved packets;no teacher, no session receipts;common ss_selective assessor for all policies",
+ "matched_baseline":"same both-unobserved probes before feedback for confirmation-target counts and semantic completion;no text generation at baseline",
+ "capacity":"both SS methods94208 coefficient bytes; no language model retraining; metadata and compute not equalized",
+ "acceptance":"inherited4 channels,mean>=0.5,exactly one above threshold,margin>=0.15,votes>=3,shared/protected disagreement holds",
+ "regression":"3 frozen v0.4 explicit-old failure cases, separate from new primary;legacy error,selective hold,external confirmation recovery",
+ "data":"all initial/revision/stale-known coarse scene footprints disjoint between episodes/splits and from1279 prior-scene exclusions;frozen before evaluation",
+ "statistics":"24 unique focal episodes repeated across72 conditions=864 main episodes and864 cold probes;not864 independent language samples;two code seeds",
+ "scope":"external episode ID and two declared mutable targets;trusted local session provenance is not authentication;question wording is template control;not truth detection",
+ "eligible_for_inference":false
+}

@@ -1,0 +1,18 @@
+{
+  "tests": {
+    "R1": 92,
+    "C2": 186
+  },
+  "acceptance": {
+    "r1_tests_passed": true,
+    "all_186_c2_tests_passed": true,
+    "c2_evaluation_exact_reproduction": true,
+    "c2_acceptance_preserved": true,
+    "vendor_bytes_unchanged_by_verification": true,
+    "source_freeze_valid": true,
+    "cli_import_and_persistent_export": true,
+    "cli_repeat_idempotent": true,
+    "inference_disabled": true,
+    "independent_evaluation_correctly_pending": true
+  }
+}

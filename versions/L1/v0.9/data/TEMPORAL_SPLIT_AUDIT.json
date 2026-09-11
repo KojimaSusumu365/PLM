@@ -1,0 +1,83 @@
+{
+  "schema": "plm-temporal-splits-v1",
+  "splits": {
+    "train": {
+      "base_event_pairs": 36,
+      "documents": 216,
+      "unique_texts": 204,
+      "unique_meanings": 216,
+      "digest": "b3f2fc7fc00e739df8de51705373b04510a18bb90ad7a06977d264639a802898",
+      "categories": {
+        "separate_participants": 24,
+        "shared_subject": 24,
+        "shared_object": 24,
+        "role_chain": 24,
+        "role_reversal": 24,
+        "polarity_scope": 24,
+        "modality_scope": 24,
+        "identical_mentions": 24,
+        "predicate_scope": 24
+      }
+    },
+    "development": {
+      "base_event_pairs": 36,
+      "documents": 864,
+      "unique_texts": 816,
+      "unique_meanings": 216,
+      "digest": "5d95c6ae0c67af8babbbaaaf084362a5f878928854a9a7b0d92edee2694cd90b",
+      "categories": {
+        "separate_participants": 96,
+        "shared_subject": 96,
+        "shared_object": 96,
+        "role_chain": 96,
+        "role_reversal": 96,
+        "polarity_scope": 96,
+        "modality_scope": 96,
+        "identical_mentions": 96,
+        "predicate_scope": 96
+      }
+    },
+    "evaluation": {
+      "base_event_pairs": 36,
+      "documents": 864,
+      "unique_texts": 816,
+      "unique_meanings": 216,
+      "digest": "3d1a8386fc638296d638d2e8ccefac748f399660e9697175bc242f1d58d658e3",
+      "categories": {
+        "separate_participants": 96,
+        "shared_subject": 96,
+        "shared_object": 96,
+        "role_chain": 96,
+        "role_reversal": 96,
+        "polarity_scope": 96,
+        "modality_scope": 96,
+        "identical_mentions": 96,
+        "predicate_scope": 96
+      }
+    }
+  },
+  "unordered_event_pair_overlap_between_splits": 0,
+  "component_training_pairs": 432,
+  "temporal_training_pairs": 216,
+  "temporal_training_word_orders": [
+    [
+      "subject",
+      "subject"
+    ]
+  ],
+  "heldout_word_order_pairs": [
+    [
+      "subject",
+      "object"
+    ],
+    [
+      "object",
+      "subject"
+    ],
+    [
+      "object",
+      "object"
+    ]
+  ],
+  "scope": "Synthetic new relation labels and combinations using old fixed grammar and lexical splits. Not human-independent or unknown grammar. Local event IDs are alpha-renamable; duplicate surface texts counted explicitly."
+}

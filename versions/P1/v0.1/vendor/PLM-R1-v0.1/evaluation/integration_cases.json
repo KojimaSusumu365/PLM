@@ -1,0 +1,18 @@
+[
+  {"case_id":"active","inputs":["The bank granted aid."],"purpose":"active financial roles"},
+  {"case_id":"passive","inputs":["Grants for a river restoration were awarded by the bank."],"purpose":"passive roles and quarantined legacy spatial association"},
+  {"case_id":"negative","inputs":["The bank did not grant aid."],"purpose":"negative relation stays non-factual"},
+  {"case_id":"hypothetical","inputs":["If the bank grants aid."],"purpose":"hypothetical relation stays non-factual"},
+  {"case_id":"quoted","inputs":["\"The bank granted aid.\""],"purpose":"quoted observation quarantined"},
+  {"case_id":"spatial","inputs":["The bank is near the river."],"purpose":"bounded spatial relation"},
+  {"case_id":"singular_reference","inputs":["A cat entered.","It was photographed."],"purpose":"single reference"},
+  {"case_id":"plural_reference","inputs":["A dog and another dog entered.","They were photographed."],"purpose":"two same-concept instances remain distinct"},
+  {"case_id":"ambiguous_reference","inputs":["A dog and another dog entered.","It was photographed."],"purpose":"unresolved/ambiguous reference visible even without relation"},
+  {"case_id":"revision","inputs":["Originally marked dog: reclassified as cat."],"purpose":"old and replacement evidence preserved"},
+  {"case_id":"japanese_revision","inputs":["犬、いや、猫。"],"purpose":"Japanese source codepoint spans"},
+  {"case_id":"no_relation","inputs":["Clouds gather overhead."],"purpose":"no extraction is not proof of absence"},
+  {"case_id":"empty","inputs":[],"purpose":"valid empty observation document"},
+  {"case_id":"known_passive_agent_manager","inputs":["A river plan was supported by the bank manager."],"purpose":"C2 known classification error is retained","known_issue":{"error_types":["classification","subject_role"],"note":"C2 holdout policy expected UNRESOLVED but selected RIVER_BANK at 0.9286 selection_confidence. Policy-dependent expected label; Relation is quarantined. R1 does not repair this."}},
+  {"case_id":"known_disbursed","inputs":["The bank disbursed grants for river restoration."],"purpose":"unknown financial predicate is retained","known_issue":{"error_types":["unknown_predicate","missing_relation"],"note":"C2 known gap: disbursed is unsupported; expected financial relation is absent. R1 displays the document and does not invent the missing relation."}},
+  {"case_id":"known_reassessed","inputs":["Originally marked cat: reassessed as dog."],"purpose":"unknown revision predicate is retained","known_issue":{"error_types":["unknown_predicate","revision_target","missing_relation"],"note":"C2 known gap: reassessed is unsupported; no grounded revision. R1 retains source and classification without repairing C2."}}
+]

@@ -1,0 +1,13 @@
+{
+  "version": "PLM-S1 v0.2",
+  "created_at_utc": "2026-09-06T19:30:48.861481+00:00",
+  "release_kind": "experimental_target_met",
+  "implementation_complete": true,
+  "functional_verification_passed": true,
+  "numerical_acceptance_passed": true,
+  "unmet_criteria": [],
+  "inference_enabled": false,
+  "implementation_scope": "synthetic_discrete_complex_baseband_only",
+  "independent_semantic_evaluation": "not_performed",
+  "authentication": "not_implemented"
+}

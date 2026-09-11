@@ -1,0 +1,1004 @@
+{
+  "dataset": "PLM-C1-v0.1-post-implementation-challenge",
+  "schema_version": 2,
+  "construction": "20 unseen semantic seeds x 3 deterministic wrappers",
+  "limitations": [
+    "Authored in the same development session; not an external corpus.",
+    "Frozen before the first run and not used to tune PLM-C1 v0.1.",
+    "Wrappers are dependent and must be cluster-bootstrapped by template_group."
+  ],
+  "splits": {
+    "dev": 0,
+    "test": 60,
+    "all": 60
+  },
+  "cases": [
+    {
+      "id": "correction_initially_en__raw",
+      "inputs": "Initially it was identified as a dog; later it was confirmed to be a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_initially_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_initially_en__record",
+      "inputs": "Record: Initially it was identified as a dog; later it was confirmed to be a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_initially_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_initially_en__note",
+      "inputs": "Note: Initially it was identified as a dog; later it was confirmed to be a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_initially_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_initially_ja__raw",
+      "inputs": "当初は犬、後に猫と判明した",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_initially_ja",
+      "split": "test"
+    },
+    {
+      "id": "correction_initially_ja__record",
+      "inputs": "Record: 当初は犬、後に猫と判明した",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_initially_ja",
+      "split": "test"
+    },
+    {
+      "id": "correction_initially_ja__note",
+      "inputs": "Note: 当初は犬、後に猫と判明した",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_initially_ja",
+      "split": "test"
+    },
+    {
+      "id": "correction_update_en__raw",
+      "inputs": [
+        "It is a dog.",
+        "Update: it is a cat."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "source_order",
+        "test"
+      ],
+      "template_group": "correction_update_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_update_en__record",
+      "inputs": [
+        "Record: It is a dog.",
+        "Record: Update: it is a cat."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "source_order",
+        "test"
+      ],
+      "template_group": "correction_update_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_update_en__note",
+      "inputs": [
+        "Note: It is a dog.",
+        "Note: Update: it is a cat."
+      ],
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "source_order",
+        "test"
+      ],
+      "template_group": "correction_update_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_however_en__raw",
+      "inputs": "It was called a dog; however, it was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_however_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_however_en__record",
+      "inputs": "Record: It was called a dog; however, it was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_however_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_however_en__note",
+      "inputs": "Note: It was called a dog; however, it was a cat.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_however_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_actually_dash_en__raw",
+      "inputs": "The dog—actually, the cat—was seen.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_actually_dash_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_actually_dash_en__record",
+      "inputs": "Record: The dog—actually, the cat—was seen.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_actually_dash_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_actually_dash_en__note",
+      "inputs": "Note: The dog—actually, the cat—was seen.",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "en",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_actually_dash_en",
+      "split": "test"
+    },
+    {
+      "id": "correction_iya_ja__raw",
+      "inputs": "犬、いや猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_iya_ja",
+      "split": "test"
+    },
+    {
+      "id": "correction_iya_ja__record",
+      "inputs": "Record: 犬、いや猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_iya_ja",
+      "split": "test"
+    },
+    {
+      "id": "correction_iya_ja__note",
+      "inputs": "Note: 犬、いや猫だった",
+      "domain": "entity",
+      "expected": "CAT",
+      "tags": [
+        "challenge",
+        "correction",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "correction_iya_ja",
+      "split": "test"
+    },
+    {
+      "id": "double_negation_en__raw",
+      "inputs": "It is not impossible that this is a dog.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge",
+        "double_negation",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "double_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "double_negation_en__record",
+      "inputs": "Record: It is not impossible that this is a dog.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge",
+        "double_negation",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "double_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "double_negation_en__note",
+      "inputs": "Note: It is not impossible that this is a dog.",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge",
+        "double_negation",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "double_negation_en",
+      "split": "test"
+    },
+    {
+      "id": "double_negation_ja__raw",
+      "inputs": "犬でないとは言えない",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge",
+        "double_negation",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "double_negation_ja",
+      "split": "test"
+    },
+    {
+      "id": "double_negation_ja__record",
+      "inputs": "Record: 犬でないとは言えない",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge",
+        "double_negation",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "double_negation_ja",
+      "split": "test"
+    },
+    {
+      "id": "double_negation_ja__note",
+      "inputs": "Note: 犬でないとは言えない",
+      "domain": "entity",
+      "expected": "DOG",
+      "tags": [
+        "challenge",
+        "double_negation",
+        "ja",
+        "negation",
+        "test"
+      ],
+      "template_group": "double_negation_ja",
+      "split": "test"
+    },
+    {
+      "id": "reported_denial_en__raw",
+      "inputs": "The report denied that it was a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "negation",
+        "reported_speech",
+        "test"
+      ],
+      "template_group": "reported_denial_en",
+      "split": "test"
+    },
+    {
+      "id": "reported_denial_en__record",
+      "inputs": "Record: The report denied that it was a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "negation",
+        "reported_speech",
+        "test"
+      ],
+      "template_group": "reported_denial_en",
+      "split": "test"
+    },
+    {
+      "id": "reported_denial_en__note",
+      "inputs": "Note: The report denied that it was a dog.",
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "DOG"
+      ],
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "negation",
+        "reported_speech",
+        "test"
+      ],
+      "template_group": "reported_denial_en",
+      "split": "test"
+    },
+    {
+      "id": "predicate_scope_ja__raw",
+      "inputs": "犬は吠えたわけではなかった",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "challenge",
+        "ja",
+        "negation",
+        "predicate",
+        "test"
+      ],
+      "template_group": "predicate_scope_ja",
+      "split": "test"
+    },
+    {
+      "id": "predicate_scope_ja__record",
+      "inputs": "Record: 犬は吠えたわけではなかった",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "challenge",
+        "ja",
+        "negation",
+        "predicate",
+        "test"
+      ],
+      "template_group": "predicate_scope_ja",
+      "split": "test"
+    },
+    {
+      "id": "predicate_scope_ja__note",
+      "inputs": "Note: 犬は吠えたわけではなかった",
+      "domain": "action",
+      "expected": "UNRESOLVED",
+      "forbidden": [
+        "BARK"
+      ],
+      "tags": [
+        "abstention",
+        "challenge",
+        "ja",
+        "negation",
+        "predicate",
+        "test"
+      ],
+      "template_group": "predicate_scope_ja",
+      "split": "test"
+    },
+    {
+      "id": "context_plural_account__raw",
+      "inputs": "The bank stopped opening accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge",
+        "context_scope",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "context_plural_account",
+      "split": "test"
+    },
+    {
+      "id": "context_plural_account__record",
+      "inputs": "Record: The bank stopped opening accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge",
+        "context_scope",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "context_plural_account",
+      "split": "test"
+    },
+    {
+      "id": "context_plural_account__note",
+      "inputs": "Note: The bank stopped opening accounts.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge",
+        "context_scope",
+        "en",
+        "morphology",
+        "test"
+      ],
+      "template_group": "context_plural_account",
+      "split": "test"
+    },
+    {
+      "id": "context_conditional_water__raw",
+      "inputs": "If there were water, the bank would flood.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "conditional",
+        "context_scope",
+        "en",
+        "test"
+      ],
+      "template_group": "context_conditional_water",
+      "split": "test"
+    },
+    {
+      "id": "context_conditional_water__record",
+      "inputs": "Record: If there were water, the bank would flood.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "conditional",
+        "context_scope",
+        "en",
+        "test"
+      ],
+      "template_group": "context_conditional_water",
+      "split": "test"
+    },
+    {
+      "id": "context_conditional_water__note",
+      "inputs": "Note: If there were water, the bank would flood.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "conditional",
+        "context_scope",
+        "en",
+        "test"
+      ],
+      "template_group": "context_conditional_water",
+      "split": "test"
+    },
+    {
+      "id": "context_nowhere_river__raw",
+      "inputs": "The bank is nowhere near a river.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "context_scope",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "context_nowhere_river",
+      "split": "test"
+    },
+    {
+      "id": "context_nowhere_river__record",
+      "inputs": "Record: The bank is nowhere near a river.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "context_scope",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "context_nowhere_river",
+      "split": "test"
+    },
+    {
+      "id": "context_nowhere_river__note",
+      "inputs": "Note: The bank is nowhere near a river.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "context_scope",
+        "en",
+        "negation",
+        "test"
+      ],
+      "template_group": "context_nowhere_river",
+      "split": "test"
+    },
+    {
+      "id": "context_negated_river_ja__raw",
+      "inputs": "bankの近くに川はない",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "context_scope",
+        "mixed",
+        "negation",
+        "test"
+      ],
+      "template_group": "context_negated_river_ja",
+      "split": "test"
+    },
+    {
+      "id": "context_negated_river_ja__record",
+      "inputs": "Record: bankの近くに川はない",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "context_scope",
+        "mixed",
+        "negation",
+        "test"
+      ],
+      "template_group": "context_negated_river_ja",
+      "split": "test"
+    },
+    {
+      "id": "context_negated_river_ja__note",
+      "inputs": "Note: bankの近くに川はない",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "context_scope",
+        "mixed",
+        "negation",
+        "test"
+      ],
+      "template_group": "context_negated_river_ja",
+      "split": "test"
+    },
+    {
+      "id": "context_separate_sentences__raw",
+      "inputs": "The bank was mentioned. Water spilled from a glass.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "clause_boundary",
+        "context_scope",
+        "en",
+        "test"
+      ],
+      "template_group": "context_separate_sentences",
+      "split": "test"
+    },
+    {
+      "id": "context_separate_sentences__record",
+      "inputs": "Record: The bank was mentioned. Water spilled from a glass.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "clause_boundary",
+        "context_scope",
+        "en",
+        "test"
+      ],
+      "template_group": "context_separate_sentences",
+      "split": "test"
+    },
+    {
+      "id": "context_separate_sentences__note",
+      "inputs": "Note: The bank was mentioned. Water spilled from a glass.",
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "clause_boundary",
+        "context_scope",
+        "en",
+        "test"
+      ],
+      "template_group": "context_separate_sentences",
+      "split": "test"
+    },
+    {
+      "id": "scope_afterward_sources__raw",
+      "inputs": [
+        "I visited a bank.",
+        "Afterward I crossed a river."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "instance_scope",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "scope_afterward_sources",
+      "split": "test"
+    },
+    {
+      "id": "scope_afterward_sources__record",
+      "inputs": [
+        "Record: I visited a bank.",
+        "Record: Afterward I crossed a river."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "instance_scope",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "scope_afterward_sources",
+      "split": "test"
+    },
+    {
+      "id": "scope_afterward_sources__note",
+      "inputs": [
+        "Note: I visited a bank.",
+        "Note: Afterward I crossed a river."
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "instance_scope",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "scope_afterward_sources",
+      "split": "test"
+    },
+    {
+      "id": "scope_sonogo_sources__raw",
+      "inputs": [
+        "銀行へ行った",
+        "その後、川岸を歩いた"
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "instance_scope",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "scope_sonogo_sources",
+      "split": "test"
+    },
+    {
+      "id": "scope_sonogo_sources__record",
+      "inputs": [
+        "Record: 銀行へ行った",
+        "Record: その後、川岸を歩いた"
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "instance_scope",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "scope_sonogo_sources",
+      "split": "test"
+    },
+    {
+      "id": "scope_sonogo_sources__note",
+      "inputs": [
+        "Note: 銀行へ行った",
+        "Note: その後、川岸を歩いた"
+      ],
+      "domain": "place",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "instance_scope",
+        "ja",
+        "test",
+        "unseen_marker"
+      ],
+      "template_group": "scope_sonogo_sources",
+      "split": "test"
+    },
+    {
+      "id": "scope_separately_entities__raw",
+      "inputs": [
+        "A dog was recorded.",
+        "Separately, a cat was recorded."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "instance_scope",
+        "test"
+      ],
+      "template_group": "scope_separately_entities",
+      "split": "test"
+    },
+    {
+      "id": "scope_separately_entities__record",
+      "inputs": [
+        "Record: A dog was recorded.",
+        "Record: Separately, a cat was recorded."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "instance_scope",
+        "test"
+      ],
+      "template_group": "scope_separately_entities",
+      "split": "test"
+    },
+    {
+      "id": "scope_separately_entities__note",
+      "inputs": [
+        "Note: A dog was recorded.",
+        "Note: Separately, a cat was recorded."
+      ],
+      "domain": "entity",
+      "expected": "UNRESOLVED",
+      "tags": [
+        "abstention",
+        "challenge",
+        "en",
+        "instance_scope",
+        "test"
+      ],
+      "template_group": "scope_separately_entities",
+      "split": "test"
+    },
+    {
+      "id": "correction_financial__raw",
+      "inputs": "It seemed to be a river bank; actually it was a bank account.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge",
+        "context_scope",
+        "correction",
+        "en",
+        "test"
+      ],
+      "template_group": "correction_financial",
+      "split": "test"
+    },
+    {
+      "id": "correction_financial__record",
+      "inputs": "Record: It seemed to be a river bank; actually it was a bank account.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge",
+        "context_scope",
+        "correction",
+        "en",
+        "test"
+      ],
+      "template_group": "correction_financial",
+      "split": "test"
+    },
+    {
+      "id": "correction_financial__note",
+      "inputs": "Note: It seemed to be a river bank; actually it was a bank account.",
+      "domain": "place",
+      "expected": "FINANCIAL_BANK",
+      "tags": [
+        "challenge",
+        "context_scope",
+        "correction",
+        "en",
+        "test"
+      ],
+      "template_group": "correction_financial",
+      "split": "test"
+    },
+    {
+      "id": "multiple_instances_parent__raw",
+      "inputs": [
+        "A dog was recorded.",
+        "A cat was recorded."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge",
+        "consensus",
+        "en",
+        "hierarchy",
+        "test"
+      ],
+      "template_group": "multiple_instances_parent",
+      "split": "test"
+    },
+    {
+      "id": "multiple_instances_parent__record",
+      "inputs": [
+        "Record: A dog was recorded.",
+        "Record: A cat was recorded."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge",
+        "consensus",
+        "en",
+        "hierarchy",
+        "test"
+      ],
+      "template_group": "multiple_instances_parent",
+      "split": "test"
+    },
+    {
+      "id": "multiple_instances_parent__note",
+      "inputs": [
+        "Note: A dog was recorded.",
+        "Note: A cat was recorded."
+      ],
+      "domain": "entity",
+      "expected": "ANIMAL",
+      "tags": [
+        "challenge",
+        "consensus",
+        "en",
+        "hierarchy",
+        "test"
+      ],
+      "template_group": "multiple_instances_parent",
+      "split": "test"
+    }
+  ]
+}

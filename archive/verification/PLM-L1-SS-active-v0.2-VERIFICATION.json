@@ -1,0 +1,377 @@
+{
+  "status": "passed",
+  "unit_tests": 62,
+  "freeze_hash": "0a57371d27733f3ba2aed8feed4e07d4eccabb52cafcdf2c9b4299b3f28246fa",
+  "result_digest": "6b4cd82d5849aaa34bccf3a5266e0b64a25575839a6035a13fc0ceedcdff55e8",
+  "development": {
+    "raw_arrays": 646,
+    "checkpoints": 480,
+    "world_first_requests": 40,
+    "factorial_prefix_checks": 32,
+    "actual_revisit_teachers": 118
+  },
+  "final": {
+    "raw_arrays": 2608,
+    "checkpoints": 1920,
+    "world_first_requests": 160,
+    "factorial_prefix_checks": 128,
+    "actual_revisit_teachers": 482
+  },
+  "development_choice_recomputed": true,
+  "isolated_teacher_presentations": 7232,
+  "models": {
+    "base-s64": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "control-s64-D": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "control-s64-E": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "base-s128": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "control-s128-D": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "control-s128-E": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random_once-q4": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random_once-q16": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random_once-post_D": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random_once-q20": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random_once-q32": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-random_once-post_E": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_once-q4": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_once-q16": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_once-post_D": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_once-q20": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_once-q32": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_once-post_E": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_once-q4": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_once-q16": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_once-post_D": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_once-q20": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_once-q32": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_once-post_E": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_revisit-q4": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_revisit-q16": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_revisit-post_D": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_revisit-q20": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_revisit-q32": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-ambiguity_revisit-post_E": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_revisit-q4": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_revisit-q16": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_revisit-post_D": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_revisit-q20": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_revisit-q32": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s64-mixed_revisit-post_E": {
+      "contexts": 448,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random_once-q4": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random_once-q16": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random_once-post_D": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random_once-q20": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random_once-q32": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-random_once-post_E": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_once-q4": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_once-q16": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_once-post_D": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_once-q20": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_once-q32": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_once-post_E": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_once-q4": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_once-q16": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_once-post_D": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_once-q20": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_once-q32": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_once-post_E": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_revisit-q4": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_revisit-q16": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_revisit-post_D": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_revisit-q20": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_revisit-q32": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-ambiguity_revisit-post_E": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_revisit-q4": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_revisit-q16": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_revisit-post_D": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_revisit-q20": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_revisit-q32": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    },
+    "s128-mixed_revisit-post_E": {
+      "contexts": 768,
+      "coefficient_max_difference": 0,
+      "fingerprint_equal": true
+    }
+  },
+  "isolated_selection_calls": 60,
+  "isolated_revisit_teachers": 16,
+  "prediction_and_selection_without_teachers": true,
+  "cli_resume_matches": true,
+  "stale_and_pseudo_feedback_rejected_without_output": true,
+  "manifest_files": 808,
+  "all320_trajectories_retrained_here": false,
+  "linux_tested": false,
+  "p1_s1_integrated": false,
+  "eligible_for_inference": false,
+  "archive": {
+    "archive": "PLM-L1-SS-active-v0.2.zip",
+    "sha256": "23e8dceb7d1c333210823b456b6cb29be540a1fbb8a892f80432a1ae3238186f",
+    "bytes": 493069615,
+    "files": 809,
+    "freeze_hash": "0a57371d27733f3ba2aed8feed4e07d4eccabb52cafcdf2c9b4299b3f28246fa",
+    "result_digest": "6b4cd82d5849aaa34bccf3a5266e0b64a25575839a6035a13fc0ceedcdff55e8"
+  },
+  "archive_actually_extracted": true,
+  "crc_verified": true,
+  "full_final_evaluations_before_packaging": 2,
+  "repeat_equal_files": 260,
+  "preserved_previous_files": 6021
+}

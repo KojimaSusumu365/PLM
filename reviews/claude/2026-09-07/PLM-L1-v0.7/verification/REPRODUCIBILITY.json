@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "source_freeze": "321a049d5e38d4b6103c6666baf8a3084319a41087902b1823a64f0a4c697dc8",
+  "source_files": 377,
+  "result_digest": "cd2169e4efa51bfd207e8688a9dd16a86c424fe6340ae2e2ed63069d05c6be3c",
+  "complete_numeric_runs": 2,
+  "equal_file_bytes": {
+    "EVALUATION.json": true,
+    "REPORT.md": true,
+    "model/model.json": true,
+    "model/component/model.json": true
+  },
+  "equal_component_weight_arrays": {
+    "roles_0": true,
+    "polarity_0": true,
+    "modality_0": true,
+    "order_support_0": true,
+    "order_output_0": true,
+    "gaps_0": true,
+    "gaps_1": true,
+    "gaps_2": true,
+    "lexical_read_0": true,
+    "lexical_write_0": true
+  },
+  "unchanged_component_code": {
+    "algebra.py": true,
+    "banked.py": true,
+    "features.py": true,
+    "lexicon.py": true,
+    "projection.py": true,
+    "reader.py": true,
+    "runtime.py": true,
+    "training.py": true,
+    "__init__.py": true,
+    "__main__.py": true
+  },
+  "primary_model_fingerprint": "a9a901bebbfd378fd8d782da5b8a5216aca0759febdf759f53f301cc19a9f0b0",
+  "component_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+  "test_counts": {
+    "NEW_TESTS": 40,
+    "V06_TESTS": 73,
+    "V05_TESTS": 70,
+    "V04_TESTS": 46,
+    "V03_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "acceptance_checks": 364,
+  "preserved_previous_release_files": 1759,
+  "standard_conditions": 8,
+  "codec_conditions": 48,
+  "noise_conditions": 20,
+  "numpy": "2.3.5",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "note": "NPZ arrays compared exactly, not ZIP-container timestamps; fixed event basis reconstructed from seed. No two-event examples supplied to fitting."
+}

@@ -1,0 +1,874 @@
+{
+  "scope": "Standalone single process after full evaluations. Three prelisted standard tasks, D2048, first seed, 3 repeats. Warm complete-context query includes encoding and packet validation, excludes calibration. Not a full-language or total-energy benchmark.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "rows": [
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "additive/off/ss",
+      "fit_seconds": [
+        0.03076860000146553,
+        0.012809699983336031,
+        0.012189599976409227
+      ],
+      "warm_query_seconds": [
+        0.001232034375789226,
+        0.0012082843750249594,
+        0.0012086437491234392
+      ],
+      "median_fit_seconds": 0.012809699983336031,
+      "median_warm_query_seconds": 0.0012086437491234392,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 897,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "additive/off/exact",
+      "fit_seconds": [
+        0.0032872000010684133,
+        0.0032190000056289136,
+        0.0029636999825015664
+      ],
+      "warm_query_seconds": [
+        7.353124965447932e-05,
+        6.741250035702251e-05,
+        6.769375067960937e-05
+      ],
+      "median_fit_seconds": 0.0032190000056289136,
+      "median_warm_query_seconds": 6.769375067960937e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 24,
+        "metadata_utf8_bytes": 1198,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "additive/validation/ss",
+      "fit_seconds": [
+        0.09742050000932068,
+        0.1008237000205554,
+        0.1025299999746494
+      ],
+      "warm_query_seconds": [
+        0.0010731687489169417,
+        0.0011404281249269843,
+        0.0010711906252254266
+      ],
+      "median_fit_seconds": 0.1008237000205554,
+      "median_warm_query_seconds": 0.0010731687489169417,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 942,
+        "warm_codebook_array_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "additive/validation/exact",
+      "fit_seconds": [
+        0.07826380000915378,
+        0.07940139999845996,
+        0.08370550000108778
+      ],
+      "warm_query_seconds": [
+        2.6687499484978616e-05,
+        2.9293749321368523e-05,
+        2.9440625439747237e-05
+      ],
+      "median_fit_seconds": 0.07940139999845996,
+      "median_warm_query_seconds": 2.9293749321368523e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 4,
+        "metadata_utf8_bytes": 993,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "product/off/ss",
+      "fit_seconds": [
+        0.011714100022800267,
+        0.012069999997038394,
+        0.011659900017548352
+      ],
+      "warm_query_seconds": [
+        0.001239878125488758,
+        0.0011032343754777685,
+        0.001097012500395067
+      ],
+      "median_fit_seconds": 0.011714100022800267,
+      "median_warm_query_seconds": 0.0011032343754777685,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 896,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "product/off/exact",
+      "fit_seconds": [
+        0.0011703000054694712,
+        0.0010436000302433968,
+        0.001063500007148832
+      ],
+      "warm_query_seconds": [
+        2.8174999897601083e-05,
+        2.8246875444892794e-05,
+        2.8362499506329186e-05
+      ],
+      "median_fit_seconds": 0.001063500007148832,
+      "median_warm_query_seconds": 2.8246875444892794e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 48,
+        "metadata_utf8_bytes": 3295,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "product/validation/ss",
+      "fit_seconds": [
+        0.10480740002822131,
+        0.10657740000169724,
+        0.10925859998678789
+      ],
+      "warm_query_seconds": [
+        0.0010668312497728039,
+        0.0011085749993071659,
+        0.0011232093747821636
+      ],
+      "median_fit_seconds": 0.10657740000169724,
+      "median_warm_query_seconds": 0.0011085749993071659,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 941,
+        "warm_codebook_array_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "product/validation/exact",
+      "fit_seconds": [
+        0.04056069999933243,
+        0.04162370000267401,
+        0.04053370002657175
+      ],
+      "warm_query_seconds": [
+        2.8390624720486812e-05,
+        2.8412499887053855e-05,
+        2.8362499506329186e-05
+      ],
+      "median_fit_seconds": 0.04056069999933243,
+      "median_warm_query_seconds": 2.8390624720486812e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 4,
+        "metadata_utf8_bytes": 992,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "hybrid3/off/ss",
+      "fit_seconds": [
+        0.051002099993638694,
+        0.050886199984233826,
+        0.05104089999804273
+      ],
+      "warm_query_seconds": [
+        0.001960940626304364,
+        0.0019687499989231583,
+        0.0022254687482927693
+      ],
+      "median_fit_seconds": 0.051002099993638694,
+      "median_warm_query_seconds": 0.0019687499989231583,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 896,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "hybrid3/off/exact",
+      "fit_seconds": [
+        0.020642499963287264,
+        0.019064299995079637,
+        0.01906089996919036
+      ],
+      "warm_query_seconds": [
+        0.00034847187453124207,
+        0.0003494000011414755,
+        0.0003526906257320661
+      ],
+      "median_fit_seconds": 0.019064299995079637,
+      "median_warm_query_seconds": 0.0003494000011414755,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 464,
+        "metadata_utf8_bytes": 12397,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "hybrid3/validation/ss",
+      "fit_seconds": [
+        0.13876729999901727,
+        0.1454407999990508,
+        0.14154099998995662
+      ],
+      "warm_query_seconds": [
+        0.0010867187502299203,
+        0.0012740343736368231,
+        0.0011342375000822358
+      ],
+      "median_fit_seconds": 0.14154099998995662,
+      "median_warm_query_seconds": 0.0011342375000822358,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 941,
+        "warm_codebook_array_bytes": 65536,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/unary/0",
+      "method": "hybrid3/validation/exact",
+      "fit_seconds": [
+        0.2514913000050001,
+        0.24208589998306707,
+        0.2449728999636136
+      ],
+      "warm_query_seconds": [
+        2.7153126211487688e-05,
+        5.0671875214902684e-05,
+        2.879999919969123e-05
+      ],
+      "median_fit_seconds": 0.2449728999636136,
+      "median_warm_query_seconds": 2.879999919969123e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 4,
+        "metadata_utf8_bytes": 992,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "additive/off/ss",
+      "fit_seconds": [
+        0.012123799999244511,
+        0.014215499977581203,
+        0.011947399994824082
+      ],
+      "warm_query_seconds": [
+        0.0012815781265089754,
+        0.001494228125011432,
+        0.001164334375062026
+      ],
+      "median_fit_seconds": 0.012123799999244511,
+      "median_warm_query_seconds": 0.0012815781265089754,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 897,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "additive/off/exact",
+      "fit_seconds": [
+        0.0030091999797150493,
+        0.0029209000058472157,
+        0.002897099999245256
+      ],
+      "warm_query_seconds": [
+        6.680624937871471e-05,
+        6.629999916185625e-05,
+        6.837187538621947e-05
+      ],
+      "median_fit_seconds": 0.0029209000058472157,
+      "median_warm_query_seconds": 6.680624937871471e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 24,
+        "metadata_utf8_bytes": 1196,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "additive/validation/ss",
+      "fit_seconds": [
+        0.11650599999120459,
+        0.11358730000210926,
+        0.09958840004401281
+      ],
+      "warm_query_seconds": [
+        0.0015284062501450535,
+        0.001339978123723995,
+        0.0011837437486974522
+      ],
+      "median_fit_seconds": 0.11358730000210926,
+      "median_warm_query_seconds": 0.001339978123723995,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 968,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "additive/validation/exact",
+      "fit_seconds": [
+        0.08862130000488833,
+        0.0857271000277251,
+        0.07927520002704114
+      ],
+      "warm_query_seconds": [
+        6.739062337146606e-05,
+        9.408437472302467e-05,
+        6.773437598894816e-05
+      ],
+      "median_fit_seconds": 0.0857271000277251,
+      "median_warm_query_seconds": 6.773437598894816e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 24,
+        "metadata_utf8_bytes": 1267,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "product/off/ss",
+      "fit_seconds": [
+        0.010961600055452436,
+        0.013529399991966784,
+        0.011391800013370812
+      ],
+      "warm_query_seconds": [
+        0.0011580749996937811,
+        0.0013130156257830095,
+        0.0011064156242355239
+      ],
+      "median_fit_seconds": 0.011391800013370812,
+      "median_warm_query_seconds": 0.0011580749996937811,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 896,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "product/off/exact",
+      "fit_seconds": [
+        0.0011851000017486513,
+        0.0010522000375203788,
+        0.0010583000257611275
+      ],
+      "warm_query_seconds": [
+        2.7634374418994412e-05,
+        2.8590624424396083e-05,
+        3.0493751182802953e-05
+      ],
+      "median_fit_seconds": 0.0010583000257611275,
+      "median_warm_query_seconds": 2.8590624424396083e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 48,
+        "metadata_utf8_bytes": 3295,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "product/validation/ss",
+      "fit_seconds": [
+        0.1259788999450393,
+        0.10728060000110418,
+        0.11864970001624897
+      ],
+      "warm_query_seconds": [
+        0.0012787937503162539,
+        0.0014320062491606222,
+        0.0014242687484511407
+      ],
+      "median_fit_seconds": 0.11864970001624897,
+      "median_warm_query_seconds": 0.0014242687484511407,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 946,
+        "warm_codebook_array_bytes": 131072,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "product/validation/exact",
+      "fit_seconds": [
+        0.04977039998630062,
+        0.041072499996516854,
+        0.037411299999803305
+      ],
+      "warm_query_seconds": [
+        3.8350000977516174e-05,
+        2.610312367323786e-05,
+        3.0018749384908006e-05
+      ],
+      "median_fit_seconds": 0.041072499996516854,
+      "median_warm_query_seconds": 3.0018749384908006e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 8,
+        "metadata_utf8_bytes": 1105,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "hybrid3/off/ss",
+      "fit_seconds": [
+        0.047102499986067414,
+        0.04704580001998693,
+        0.04749760002596304
+      ],
+      "warm_query_seconds": [
+        0.0019590406263887417,
+        0.0018670218742045108,
+        0.0019072937502642162
+      ],
+      "median_fit_seconds": 0.047102499986067414,
+      "median_warm_query_seconds": 0.0019072937502642162,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 896,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "hybrid3/off/exact",
+      "fit_seconds": [
+        0.021198200003709644,
+        0.019287100003566593,
+        0.019458799972198904
+      ],
+      "warm_query_seconds": [
+        0.0003493687490845332,
+        0.0003763343756872928,
+        0.00044179062388138846
+      ],
+      "median_fit_seconds": 0.019458799972198904,
+      "median_warm_query_seconds": 0.0003763343756872928,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 440,
+        "metadata_utf8_bytes": 11750,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "hybrid3/validation/ss",
+      "fit_seconds": [
+        0.1534638000302948,
+        0.13674129999708384,
+        0.1484299000003375
+      ],
+      "warm_query_seconds": [
+        0.0011493906240502838,
+        0.0011343281257722992,
+        0.001137587500124937
+      ],
+      "median_fit_seconds": 0.1484299000003375,
+      "median_warm_query_seconds": 0.001137587500124937,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 946,
+        "warm_codebook_array_bytes": 131072,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/xor2/0",
+      "method": "hybrid3/validation/exact",
+      "fit_seconds": [
+        0.2410970000200905,
+        0.23257599998032674,
+        0.2542937999824062
+      ],
+      "warm_query_seconds": [
+        4.5378124923445284e-05,
+        4.632812488125637e-05,
+        6.520624992845114e-05
+      ],
+      "median_fit_seconds": 0.2410970000200905,
+      "median_warm_query_seconds": 4.632812488125637e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 16,
+        "metadata_utf8_bytes": 1205,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "additive/off/ss",
+      "fit_seconds": [
+        0.014061399968340993,
+        0.011127700039651245,
+        0.014297200017608702
+      ],
+      "warm_query_seconds": [
+        0.0013854968747182284,
+        0.0011621781250141794,
+        0.001165643749118317
+      ],
+      "median_fit_seconds": 0.014061399968340993,
+      "median_warm_query_seconds": 0.001165643749118317,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 897,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "additive/off/exact",
+      "fit_seconds": [
+        0.0030826000147499144,
+        0.0029063000110909343,
+        0.0030445000156760216
+      ],
+      "warm_query_seconds": [
+        6.685937478323467e-05,
+        6.804999975429382e-05,
+        6.829374979133718e-05
+      ],
+      "median_fit_seconds": 0.0030445000156760216,
+      "median_warm_query_seconds": 6.804999975429382e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 24,
+        "metadata_utf8_bytes": 1196,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "additive/validation/ss",
+      "fit_seconds": [
+        0.09930060000624508,
+        0.11103789997287095,
+        0.11841280001681298
+      ],
+      "warm_query_seconds": [
+        0.0011672843756969087,
+        0.0011553281256055925,
+        0.0011642593763099285
+      ],
+      "median_fit_seconds": 0.11103789997287095,
+      "median_warm_query_seconds": 0.0011642593763099285,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 968,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "additive/validation/exact",
+      "fit_seconds": [
+        0.10442349995719269,
+        0.1019535000086762,
+        0.08409019996179268
+      ],
+      "warm_query_seconds": [
+        6.683124956907704e-05,
+        6.651562580373138e-05,
+        9.045937440532725e-05
+      ],
+      "median_fit_seconds": 0.1019535000086762,
+      "median_warm_query_seconds": 6.683124956907704e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 24,
+        "metadata_utf8_bytes": 1267,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "product/off/ss",
+      "fit_seconds": [
+        0.013606599997729063,
+        0.01123489998281002,
+        0.011121599993202835
+      ],
+      "warm_query_seconds": [
+        0.0011255062509007985,
+        0.0011034937488147989,
+        0.001112731250032084
+      ],
+      "median_fit_seconds": 0.01123489998281002,
+      "median_warm_query_seconds": 0.001112731250032084,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 896,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "product/off/exact",
+      "fit_seconds": [
+        0.0011599999852478504,
+        0.0010463999933563173,
+        0.0011340000201016665
+      ],
+      "warm_query_seconds": [
+        2.876250073313713e-05,
+        3.116875086561777e-05,
+        2.8865624699392356e-05
+      ],
+      "median_fit_seconds": 0.0011340000201016665,
+      "median_warm_query_seconds": 2.8865624699392356e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 48,
+        "metadata_utf8_bytes": 3295,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "product/validation/ss",
+      "fit_seconds": [
+        0.10667989996727556,
+        0.10753720003413036,
+        0.14856599998893216
+      ],
+      "warm_query_seconds": [
+        0.0010885249994316837,
+        0.0013144968761480413,
+        0.0013279343747854
+      ],
+      "median_fit_seconds": 0.10753720003413036,
+      "median_warm_query_seconds": 0.0013144968761480413,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 951,
+        "warm_codebook_array_bytes": 196608,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "product/validation/exact",
+      "fit_seconds": [
+        0.054030400002375245,
+        0.04521459998795763,
+        0.04105090000666678
+      ],
+      "warm_query_seconds": [
+        3.6928126064594835e-05,
+        2.6559375328361057e-05,
+        4.279687527741771e-05
+      ],
+      "median_fit_seconds": 0.04521459998795763,
+      "median_warm_query_seconds": 3.6928126064594835e-05,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 16,
+        "metadata_utf8_bytes": 1390,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "hybrid3/off/ss",
+      "fit_seconds": [
+        0.06414790003327653,
+        0.054680900007952005,
+        0.05534380004974082
+      ],
+      "warm_query_seconds": [
+        0.002644096875883406,
+        0.0022902593736944254,
+        0.002026671874773456
+      ],
+      "median_fit_seconds": 0.05534380004974082,
+      "median_warm_query_seconds": 0.0022902593736944254,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 896,
+        "warm_codebook_array_bytes": 393216,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "hybrid3/off/exact",
+      "fit_seconds": [
+        0.01948010001797229,
+        0.020590299973264337,
+        0.028818399994634092
+      ],
+      "warm_query_seconds": [
+        0.0004726343759102747,
+        0.000475499999083695,
+        0.0005592968755081529
+      ],
+      "median_fit_seconds": 0.020590299973264337,
+      "median_warm_query_seconds": 0.000475499999083695,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 460,
+        "metadata_utf8_bytes": 12285,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "hybrid3/validation/ss",
+      "fit_seconds": [
+        0.174677699978929,
+        0.1448073000065051,
+        0.1650101999985054
+      ],
+      "warm_query_seconds": [
+        0.0014599999994970858,
+        0.0012025437499687541,
+        0.0016644062507111812
+      ],
+      "median_fit_seconds": 0.1650101999985054,
+      "median_warm_query_seconds": 0.0014599999994970858,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 65536,
+        "integer_count_entries": 0,
+        "metadata_utf8_bytes": 951,
+        "warm_codebook_array_bytes": 196608,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    },
+    {
+      "task_id": "evaluation/parity3/0",
+      "method": "hybrid3/validation/exact",
+      "fit_seconds": [
+        0.25898939999751747,
+        0.252811299986206,
+        0.27294500003336
+      ],
+      "warm_query_seconds": [
+        0.00010694062439142726,
+        0.00010577812645351514,
+        7.924062629172113e-05
+      ],
+      "median_fit_seconds": 0.25898939999751747,
+      "median_warm_query_seconds": 0.00010577812645351514,
+      "storage": {
+        "members": 1,
+        "complex_weight_bytes": 0,
+        "integer_count_entries": 52,
+        "metadata_utf8_bytes": 2020,
+        "warm_codebook_array_bytes": 0,
+        "scope": "Owned arrays and serialized metadata, not Python heap, temporaries or process RSS."
+      }
+    }
+  ]
+}

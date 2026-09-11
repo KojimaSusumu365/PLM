@@ -1,0 +1,12 @@
+{
+  "protocol_version": "PLM-R1-independent-pilot-1",
+  "protocol_hash": "002f9d23603e2380234ebe9036808563d1b70ff5231bcbbbaf0fd5af155f3081",
+  "dataset_kind": "real_world",
+  "process_declaration": {
+    "independent_of_implementation": false,
+    "blind_to_predictions": false,
+    "near_duplicate_audit_complete": false,
+    "statement": null
+  },
+  "items": []
+}

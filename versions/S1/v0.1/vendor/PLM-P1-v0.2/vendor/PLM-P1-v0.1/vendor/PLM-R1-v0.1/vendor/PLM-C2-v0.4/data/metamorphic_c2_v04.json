@@ -1,0 +1,78 @@
+[
+  {
+    "id": "voice_1",
+    "relation": "voice_invariance",
+    "a": "The bank granted aid for a river project.",
+    "b": "Aid for a river project was granted by the bank.",
+    "expected": "FINANCIAL_BANK",
+    "predicate": "grant",
+    "object_text": "aid for a river project"
+  },
+  {
+    "id": "voice_2",
+    "relation": "voice_invariance",
+    "a": "The bank awarded grants for river research.",
+    "b": "Grants for river research was awarded by the bank.",
+    "expected": "FINANCIAL_BANK",
+    "predicate": "award",
+    "object_text": "grants for river research"
+  },
+  {
+    "id": "voice_3",
+    "relation": "voice_invariance",
+    "a": "The bank funded a river conservation study.",
+    "b": "A river conservation study was funded by the bank.",
+    "expected": "FINANCIAL_BANK",
+    "predicate": "fund",
+    "object_text": "a river conservation study"
+  },
+  {
+    "id": "voice_4",
+    "relation": "voice_invariance",
+    "a": "The bank donated equipment for river cleanup.",
+    "b": "Equipment for river cleanup was donated by the bank.",
+    "expected": "FINANCIAL_BANK",
+    "predicate": "donate",
+    "object_text": "equipment for river cleanup"
+  },
+  {
+    "id": "voice_5",
+    "relation": "voice_invariance",
+    "a": "The bank supported a river restoration plan.",
+    "b": "A river restoration plan was supported by the bank.",
+    "expected": "FINANCIAL_BANK",
+    "predicate": "support",
+    "object_text": "a river restoration plan"
+  },
+  {
+    "id": "voice_6",
+    "relation": "voice_invariance",
+    "a": "The bank financed a river research program.",
+    "b": "A river research program was financed by the bank.",
+    "expected": "FINANCIAL_BANK",
+    "predicate": "finance",
+    "object_text": "a river research program"
+  },
+  {
+    "id": "prefix",
+    "relation": "noise_invariance",
+    "a": "The bank granted aid for river research.",
+    "b": "Observation: The bank granted aid for river research.",
+    "expected": "FINANCIAL_BANK"
+  },
+  {
+    "id": "sentence_noise",
+    "relation": "noise_invariance",
+    "a": "The bank funded river research.",
+    "b": "The sky is clear. The bank funded river research.",
+    "expected": "FINANCIAL_BANK"
+  },
+  {
+    "id": "negation",
+    "relation": "polarity_flip",
+    "a": "The bank awarded grants for river research.",
+    "b": "The bank did not award grants for river research.",
+    "expected": "FINANCIAL_BANK",
+    "expected_b": "UNRESOLVED"
+  }
+]

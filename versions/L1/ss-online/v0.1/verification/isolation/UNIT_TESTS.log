@@ -1,0 +1,55 @@
+test_36_disjoint_keys (test_online.EvaluationTests.test_36_disjoint_keys) ... ok
+test_37_exact_presentation_count (test_online.EvaluationTests.test_37_exact_presentation_count) ... ok
+test_38_corrupt_only_first_eight (test_online.EvaluationTests.test_38_corrupt_only_first_eight) ... ok
+test_39_scenarios_same_context_order (test_online.EvaluationTests.test_39_scenarios_same_context_order) ... ok
+test_40_drift_only_selected_keys (test_online.EvaluationTests.test_40_drift_only_selected_keys) ... ok
+test_41_unseen_guess_not_registered_fact (test_online.EvaluationTests.test_41_unseen_guess_not_registered_fact) ... ok
+test_42_multiple_support_abstains (test_online.EvaluationTests.test_42_multiple_support_abstains) ... ok
+test_43_tentative_can_exist_when_abstaining (test_online.EvaluationTests.test_43_tentative_can_exist_when_abstaining) ... ok
+test_44_uniform_add_and_delta_differ (test_online.EvaluationTests.test_44_uniform_add_and_delta_differ) ... ok
+test_45_zero_prediction_does_not_read_replay (test_online.EvaluationTests.test_45_zero_prediction_does_not_read_replay) ... ok
+test_46_tentative_abstention_not_wrong (test_online.EvaluationTests.test_46_tentative_abstention_not_wrong) ... ok
+test_47_teacher_can_be_wrong (test_online.EvaluationTests.test_47_teacher_can_be_wrong) ... ok
+test_48_drift_not_counted_as_stable_forgetting (test_online.EvaluationTests.test_48_drift_not_counted_as_stable_forgetting) ... ok
+test_49_empty_anchor_is_not_perfect_retention (test_online.EvaluationTests.test_49_empty_anchor_is_not_perfect_retention) ... ok
+test_50_nonreplay_state_has_no_teacher_contexts (test_online.EvaluationTests.test_50_nonreplay_state_has_no_teacher_contexts) ... ok
+test_14_prediction_source_rejected (test_online.FeedbackTests.test_14_prediction_source_rejected) ... ok
+test_15_unknown_label_rejected (test_online.FeedbackTests.test_15_unknown_label_rejected) ... ok
+test_16_stale_request (test_online.FeedbackTests.test_16_stale_request) ... ok
+test_17_tampered_request (test_online.FeedbackTests.test_17_tampered_request) ... ok
+test_18_feedback_id_mismatch (test_online.FeedbackTests.test_18_feedback_id_mismatch) ... ok
+test_19_oracle_field_rejected (test_online.FeedbackTests.test_19_oracle_field_rejected) ... ok
+test_20_prediction_envelope_not_request (test_online.FeedbackTests.test_20_prediction_envelope_not_request) ... ok
+test_21_incomplete_input_rejected (test_online.FeedbackTests.test_21_incomplete_input_rejected) ... ok
+test_22_unknown_value_rejected (test_online.FeedbackTests.test_22_unknown_value_rejected) ... ok
+test_29_model_roundtrip (test_online.PersistenceTests.test_29_model_roundtrip) ... ok
+test_30_learner_resume (test_online.PersistenceTests.test_30_learner_resume) ... ok
+test_31_tamper_detected (test_online.PersistenceTests.test_31_tamper_detected) ... ok
+test_32_buffer_tamper_detected (test_online.PersistenceTests.test_32_buffer_tamper_detected) ... ok
+test_33_no_overwrite (test_online.PersistenceTests.test_33_no_overwrite) ... ok
+test_34_nonfinite_weight_rejected (test_online.PersistenceTests.test_34_nonfinite_weight_rejected) ... ok
+test_35_prediction_does_not_open_inference (test_online.PersistenceTests.test_35_prediction_does_not_open_inference) ... ok
+test_23_capacity_bounded (test_online.ReplayTests.test_23_capacity_bounded) ... ok
+test_24_initial_empty_buffer_cost (test_online.ReplayTests.test_24_initial_empty_buffer_cost) ... ok
+test_25_nonreplay_has_no_buffer (test_online.ReplayTests.test_25_nonreplay_has_no_buffer) ... ok
+test_26_corrected_label_updates_same_key_buffer (test_online.ReplayTests.test_26_corrected_label_updates_same_key_buffer) ... ok
+test_27_deterministic_replay (test_online.ReplayTests.test_27_deterministic_replay) ... ok
+test_28_buffer_accounted_separately (test_online.ReplayTests.test_28_buffer_accounted_separately) ... ok
+test_01_initial_has_no_answer (test_online.UpdateTests.test_01_initial_has_no_answer) ... ok
+test_02_delta_corrects_own_response (test_online.UpdateTests.test_02_delta_corrects_own_response) ... ok
+test_03_repeated_delta_converges (test_online.UpdateTests.test_03_repeated_delta_converges) ... ok
+test_04_delta5_counts_and_response (test_online.UpdateTests.test_04_delta5_counts_and_response) ... ok
+test_05_new_feedback_supersedes_wrong_answer (test_online.UpdateTests.test_05_new_feedback_supersedes_wrong_answer) ... ok
+test_06_accumulation_is_not_error_correction (test_online.UpdateTests.test_06_accumulation_is_not_error_correction) ... ok
+test_07_exact_preserves_other_keys (test_online.UpdateTests.test_07_exact_preserves_other_keys) ... ok
+test_08_exact_corrects_not_accumulates (test_online.UpdateTests.test_08_exact_corrects_not_accumulates) ... ok
+test_09_no_feedback_means_no_learning (test_online.UpdateTests.test_09_no_feedback_means_no_learning) ... ok
+test_10_old_state_unchanged (test_online.UpdateTests.test_10_old_state_unchanged) ... ok
+test_11_complex_update_orientation (test_online.UpdateTests.test_11_complex_update_orientation) ... ok
+test_12_ss_saves_no_exact_key_table (test_online.UpdateTests.test_12_ss_saves_no_exact_key_table) ... ok
+test_13_duplicate_feedback_still_counts_experience (test_online.UpdateTests.test_13_duplicate_feedback_still_counts_experience) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.602s
+
+OK

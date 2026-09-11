@@ -1,0 +1,1972 @@
+{
+  "rows": [
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "clean",
+      "architecture": "concat512",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.0022768142284297515,
+          -0.020042685758389717,
+          0.06674984366533179
+        ],
+        [
+          -0.0022768142284297515,
+          1.0,
+          -0.018912640605193598,
+          -0.005978381814074977
+        ],
+        [
+          -0.02004268575838972,
+          -0.018912640605193598,
+          1.0,
+          0.02487514408840511
+        ],
+        [
+          0.0667498436653318,
+          -0.005978381814074977,
+          0.024875144088405115,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "clean",
+      "architecture": "concat512",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.03281433599837228,
+          -0.0033887696643618297,
+          -0.0015331498149177654
+        ],
+        [
+          0.03281433599837228,
+          1.0,
+          0.04540801526873535,
+          -0.030072626380806218
+        ],
+        [
+          -0.0033887696643618292,
+          0.04540801526873535,
+          1.0,
+          -0.028678649333736903
+        ],
+        [
+          -0.0015331498149177656,
+          -0.030072626380806215,
+          -0.028678649333736903,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "clean",
+      "architecture": "multi4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.013780572582765584,
+          -0.053392634424789795,
+          0.06482073981798982
+        ],
+        [
+          0.013780572582765584,
+          1.0,
+          -0.025989568945441476,
+          -0.07536751341729696
+        ],
+        [
+          -0.0533926344247898,
+          -0.025989568945441476,
+          1.0,
+          0.015908961881825744
+        ],
+        [
+          0.06482073981798982,
+          -0.07536751341729696,
+          0.015908961881825744,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "clean",
+      "architecture": "multi4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.010478726231452786,
+          0.006606295439234345,
+          0.05230125589473932
+        ],
+        [
+          -0.010478726231452788,
+          1.0,
+          0.06216191690402791,
+          -0.05605370114261132
+        ],
+        [
+          0.006606295439234345,
+          0.06216191690402792,
+          1.0,
+          -0.01052472617420769
+        ],
+        [
+          0.05230125589473933,
+          -0.056053701142611316,
+          -0.010524726174207688,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "clean",
+      "architecture": "clone4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "clean",
+      "architecture": "clone4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "clean",
+      "architecture": "checked",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.013780572582765584,
+          -0.053392634424789795
+        ],
+        [
+          0.013780572582765584,
+          1.0,
+          -0.025989568945441476
+        ],
+        [
+          -0.0533926344247898,
+          -0.025989568945441476,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "clean",
+      "architecture": "checked",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.010478726231452786,
+          0.006606295439234345
+        ],
+        [
+          -0.010478726231452788,
+          1.0,
+          0.06216191690402791
+        ],
+        [
+          0.006606295439234345,
+          0.06216191690402792,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "noisy_first",
+      "architecture": "concat512",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          -0.0007829989127388752,
+          -0.01874774448722545,
+          0.06684975477650225
+        ],
+        [
+          -0.0007829989127388752,
+          1.0,
+          -0.019125902219065963,
+          -0.00600246582767865
+        ],
+        [
+          -0.01874774448722545,
+          -0.019125902219065963,
+          0.9999999999999999,
+          0.026966430828879655
+        ],
+        [
+          0.06684975477650225,
+          -0.00600246582767865,
+          0.02696643082887966,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "noisy_first",
+      "architecture": "concat512",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.03126879804793394,
+          -0.00418279048152966,
+          -0.001997919893445034
+        ],
+        [
+          0.03126879804793394,
+          1.0,
+          0.04718086117035458,
+          -0.028305453409334075
+        ],
+        [
+          -0.0041827904815296595,
+          0.04718086117035458,
+          1.0,
+          -0.029504577441356636
+        ],
+        [
+          -0.001997919893445034,
+          -0.028305453409334075,
+          -0.029504577441356636,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "noisy_first",
+      "architecture": "multi4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.013263186785623876,
+          -0.05380347371903443,
+          0.06738999858697532
+        ],
+        [
+          0.013263186785623875,
+          1.0,
+          -0.02652593841979687,
+          -0.07428257607783827
+        ],
+        [
+          -0.05380347371903442,
+          -0.026525938419796866,
+          1.0,
+          0.01595658783013345
+        ],
+        [
+          0.06738999858697534,
+          -0.07428257607783827,
+          0.01595658783013345,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "noisy_first",
+      "architecture": "multi4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          -0.011764534571044677,
+          0.005696250646446408,
+          0.05338719131892257
+        ],
+        [
+          -0.011764534571044675,
+          1.0,
+          0.06352949830442386,
+          -0.0545980403488602
+        ],
+        [
+          0.005696250646446407,
+          0.06352949830442386,
+          1.0,
+          -0.012457826476358649
+        ],
+        [
+          0.053387191318922576,
+          -0.0545980403488602,
+          -0.012457826476358649,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "noisy_first",
+      "architecture": "clone4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "noisy_first",
+      "architecture": "clone4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "noisy_first",
+      "architecture": "checked",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.013263186785623876,
+          -0.05380347371903443
+        ],
+        [
+          0.013263186785623875,
+          1.0,
+          -0.02652593841979687
+        ],
+        [
+          -0.05380347371903442,
+          -0.026525938419796866,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-0",
+      "scenario": "noisy_first",
+      "architecture": "checked",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          -0.011764534571044677,
+          0.005696250646446408
+        ],
+        [
+          -0.011764534571044675,
+          1.0,
+          0.06352949830442386
+        ],
+        [
+          0.005696250646446407,
+          0.06352949830442386,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "clean",
+      "architecture": "concat512",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.08590761190644426,
+          0.062129519373492106,
+          -0.014883412849525084
+        ],
+        [
+          -0.08590761190644426,
+          1.0,
+          0.056246679090641,
+          -0.00033797404644977854
+        ],
+        [
+          0.062129519373492106,
+          0.05624667909064101,
+          1.0,
+          0.008579808183860617
+        ],
+        [
+          -0.014883412849525084,
+          -0.00033797404644977854,
+          0.008579808183860617,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "clean",
+      "architecture": "concat512",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.029696289765602454,
+          -0.033694939687516405,
+          0.033867869659190676
+        ],
+        [
+          0.029696289765602457,
+          0.9999999999999999,
+          0.012153862105584433,
+          -0.008193134088829865
+        ],
+        [
+          -0.033694939687516405,
+          0.012153862105584433,
+          1.0,
+          -0.01147243726808437
+        ],
+        [
+          0.033867869659190676,
+          -0.008193134088829865,
+          -0.01147243726808437,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "clean",
+      "architecture": "multi4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.07786277616037005,
+          0.05860819989274198,
+          0.005479588637251375
+        ],
+        [
+          -0.07786277616037005,
+          1.0,
+          0.060238913345161224,
+          -0.013705519125875707
+        ],
+        [
+          0.05860819989274198,
+          0.06023891334516123,
+          1.0,
+          0.028226012569577043
+        ],
+        [
+          0.005479588637251375,
+          -0.013705519125875707,
+          0.028226012569577043,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "clean",
+      "architecture": "multi4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.00783923159967258,
+          -0.022261607963129433,
+          0.02833157390654077
+        ],
+        [
+          0.00783923159967258,
+          1.0,
+          0.037450974686606804,
+          -0.023896422299532184
+        ],
+        [
+          -0.02226160796312943,
+          0.03745097468660681,
+          1.0,
+          -0.038634697567902714
+        ],
+        [
+          0.02833157390654077,
+          -0.023896422299532184,
+          -0.038634697567902714,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "clean",
+      "architecture": "clone4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "clean",
+      "architecture": "clone4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "clean",
+      "architecture": "checked",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.07786277616037005,
+          0.05860819989274198
+        ],
+        [
+          -0.07786277616037005,
+          1.0,
+          0.060238913345161224
+        ],
+        [
+          0.05860819989274198,
+          0.06023891334516123,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "clean",
+      "architecture": "checked",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.00783923159967258,
+          -0.022261607963129433
+        ],
+        [
+          0.00783923159967258,
+          1.0,
+          0.037450974686606804
+        ],
+        [
+          -0.02226160796312943,
+          0.03745097468660681,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "noisy_first",
+      "architecture": "concat512",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.08789357557745608,
+          0.06256266653807852,
+          -0.014844577538002383
+        ],
+        [
+          -0.08789357557745608,
+          0.9999999999999999,
+          0.053713428490072976,
+          -0.002673109935653684
+        ],
+        [
+          0.06256266653807852,
+          0.05371342849007297,
+          0.9999999999999999,
+          0.010288606718406906
+        ],
+        [
+          -0.014844577538002383,
+          -0.0026731099356536838,
+          0.010288606718406906,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "noisy_first",
+      "architecture": "concat512",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.03209955491446549,
+          -0.03389026628345659,
+          0.03544143330641405
+        ],
+        [
+          0.03209955491446549,
+          0.9999999999999999,
+          0.011675824641191304,
+          -0.009658373301653632
+        ],
+        [
+          -0.03389026628345659,
+          0.011675824641191304,
+          1.0,
+          -0.011036734518402336
+        ],
+        [
+          0.03544143330641405,
+          -0.009658373301653632,
+          -0.011036734518402338,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "noisy_first",
+      "architecture": "multi4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.07681828861312409,
+          0.05927092881828669,
+          0.006170031702081553
+        ],
+        [
+          -0.0768182886131241,
+          1.0,
+          0.05706002803882221,
+          -0.013880021429132538
+        ],
+        [
+          0.05927092881828669,
+          0.05706002803882221,
+          1.0,
+          0.029792705420478818
+        ],
+        [
+          0.006170031702081553,
+          -0.013880021429132538,
+          0.029792705420478818,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "noisy_first",
+      "architecture": "multi4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.00991494817636307,
+          -0.02366663177429958,
+          0.029080663294747965
+        ],
+        [
+          0.00991494817636307,
+          1.0,
+          0.03748147294933469,
+          -0.0243262040325523
+        ],
+        [
+          -0.023666631774299583,
+          0.03748147294933469,
+          1.0,
+          -0.03865138663972483
+        ],
+        [
+          0.029080663294747962,
+          -0.024326204032552305,
+          -0.03865138663972483,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "noisy_first",
+      "architecture": "clone4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "noisy_first",
+      "architecture": "clone4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "noisy_first",
+      "architecture": "checked",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.07681828861312409,
+          0.05927092881828669
+        ],
+        [
+          -0.0768182886131241,
+          1.0,
+          0.05706002803882221
+        ],
+        [
+          0.05927092881828669,
+          0.05706002803882221,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-1",
+      "scenario": "noisy_first",
+      "architecture": "checked",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.00991494817636307,
+          -0.02366663177429958
+        ],
+        [
+          0.00991494817636307,
+          1.0,
+          0.03748147294933469
+        ],
+        [
+          -0.023666631774299583,
+          0.03748147294933469,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "clean",
+      "architecture": "concat512",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.00315914261949467,
+          0.026376221322593322,
+          0.04924417833892943
+        ],
+        [
+          -0.0031591426194946706,
+          1.0,
+          -0.03002265907282106,
+          -0.0336640834438123
+        ],
+        [
+          0.026376221322593322,
+          -0.03002265907282106,
+          1.0,
+          0.04582913565582127
+        ],
+        [
+          0.049244178338929426,
+          -0.0336640834438123,
+          0.04582913565582127,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "clean",
+      "architecture": "concat512",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.06661044758781641,
+          0.013161879245652298,
+          0.022383941138716175
+        ],
+        [
+          0.06661044758781641,
+          1.0,
+          0.039563701371039206,
+          0.02933161739509171
+        ],
+        [
+          0.013161879245652298,
+          0.039563701371039206,
+          1.0,
+          -0.0281304787637739
+        ],
+        [
+          0.022383941138716175,
+          0.02933161739509171,
+          -0.028130478763773895,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "clean",
+      "architecture": "multi4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.011859494119606693,
+          -0.03312061373005207,
+          0.06433359109848616
+        ],
+        [
+          0.01185949411960669,
+          1.0,
+          -0.025393532590638708,
+          -0.013251528416543958
+        ],
+        [
+          -0.03312061373005207,
+          -0.025393532590638708,
+          0.9999999999999999,
+          0.041043221686100494
+        ],
+        [
+          0.06433359109848617,
+          -0.01325152841654396,
+          0.041043221686100494,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "clean",
+      "architecture": "multi4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.056989524200553504,
+          0.04737521827619785,
+          0.04958626054671458
+        ],
+        [
+          0.05698952420055351,
+          1.0,
+          -0.011583539603156825,
+          0.05389801562903026
+        ],
+        [
+          0.04737521827619786,
+          -0.011583539603156825,
+          0.9999999999999999,
+          0.0016600688277824834
+        ],
+        [
+          0.04958626054671459,
+          0.05389801562903026,
+          0.0016600688277824832,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "clean",
+      "architecture": "clone4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "clean",
+      "architecture": "clone4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "clean",
+      "architecture": "checked",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.011859494119606693,
+          -0.03312061373005207
+        ],
+        [
+          0.01185949411960669,
+          1.0,
+          -0.025393532590638708
+        ],
+        [
+          -0.03312061373005207,
+          -0.025393532590638708,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "clean",
+      "architecture": "checked",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.056989524200553504,
+          0.04737521827619785
+        ],
+        [
+          0.05698952420055351,
+          1.0,
+          -0.011583539603156825
+        ],
+        [
+          0.04737521827619786,
+          -0.011583539603156825,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "noisy_first",
+      "architecture": "concat512",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.0034710248263127826,
+          0.02475815319976337,
+          0.050014416649786717
+        ],
+        [
+          -0.003471024826312782,
+          1.0,
+          -0.030362696133038894,
+          -0.034286399934840436
+        ],
+        [
+          0.02475815319976337,
+          -0.030362696133038894,
+          1.0,
+          0.045906646846032316
+        ],
+        [
+          0.050014416649786717,
+          -0.034286399934840436,
+          0.045906646846032316,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "noisy_first",
+      "architecture": "concat512",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.06515678321510215,
+          0.013758770445985578,
+          0.024861600634140935
+        ],
+        [
+          0.06515678321510215,
+          1.0,
+          0.037904338593192595,
+          0.030381484697334198
+        ],
+        [
+          0.013758770445985578,
+          0.037904338593192595,
+          1.0,
+          -0.02846390404231921
+        ],
+        [
+          0.024861600634140935,
+          0.030381484697334198,
+          -0.02846390404231921,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "noisy_first",
+      "architecture": "multi4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.012022762477441346,
+          -0.036349530070491715,
+          0.06362059533103152
+        ],
+        [
+          0.012022762477441344,
+          0.9999999999999999,
+          -0.02510760544295729,
+          -0.014432734257095443
+        ],
+        [
+          -0.036349530070491715,
+          -0.02510760544295729,
+          1.0,
+          0.04084320376497704
+        ],
+        [
+          0.06362059533103152,
+          -0.014432734257095445,
+          0.04084320376497704,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "noisy_first",
+      "architecture": "multi4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.05863023162396152,
+          0.048864366969808226,
+          0.05255915820096008
+        ],
+        [
+          0.058630231623961526,
+          1.0,
+          -0.009724822300331224,
+          0.053687093643706336
+        ],
+        [
+          0.04886436696980823,
+          -0.009724822300331224,
+          1.0,
+          0.002049930619105795
+        ],
+        [
+          0.05255915820096008,
+          0.05368709364370633,
+          0.002049930619105795,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "noisy_first",
+      "architecture": "clone4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "noisy_first",
+      "architecture": "clone4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "noisy_first",
+      "architecture": "checked",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.012022762477441346,
+          -0.036349530070491715
+        ],
+        [
+          0.012022762477441344,
+          0.9999999999999999,
+          -0.02510760544295729
+        ],
+        [
+          -0.036349530070491715,
+          -0.02510760544295729,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-2",
+      "scenario": "noisy_first",
+      "architecture": "checked",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.05863023162396152,
+          0.048864366969808226
+        ],
+        [
+          0.058630231623961526,
+          1.0,
+          -0.009724822300331224
+        ],
+        [
+          0.04886436696980823,
+          -0.009724822300331224,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "clean",
+      "architecture": "concat512",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          -0.04412409257392099,
+          -0.0013770666712453908,
+          0.0634653653928059
+        ],
+        [
+          -0.044124092573920984,
+          1.0,
+          0.073945514957629,
+          -0.03528108067126294
+        ],
+        [
+          -0.0013770666712453908,
+          0.073945514957629,
+          0.9999999999999999,
+          0.010837365855966816
+        ],
+        [
+          0.0634653653928059,
+          -0.03528108067126294,
+          0.010837365855966816,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "clean",
+      "architecture": "concat512",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.004641624340450981,
+          0.04029096694496513,
+          -0.01986030420512897
+        ],
+        [
+          -0.004641624340450981,
+          1.0,
+          -0.03487743750993235,
+          0.004501412694965613
+        ],
+        [
+          0.04029096694496513,
+          -0.03487743750993235,
+          1.0,
+          -0.020945795641430176
+        ],
+        [
+          -0.01986030420512897,
+          0.004501412694965613,
+          -0.020945795641430176,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "clean",
+      "architecture": "multi4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.058403965437609874,
+          0.010349982073128703,
+          0.08083593743412192
+        ],
+        [
+          -0.05840396543760988,
+          0.9999999999999999,
+          0.02515629642582196,
+          -0.05224241221355965
+        ],
+        [
+          0.010349982073128703,
+          0.02515629642582196,
+          1.0,
+          -0.02098423580458495
+        ],
+        [
+          0.08083593743412192,
+          -0.05224241221355965,
+          -0.020984235804584955,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "clean",
+      "architecture": "multi4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.024197683374776128,
+          0.02923833149144978,
+          0.026628359472383827
+        ],
+        [
+          0.024197683374776124,
+          1.0,
+          -0.05495121500893219,
+          0.04258833232040839
+        ],
+        [
+          0.02923833149144978,
+          -0.0549512150089322,
+          0.9999999999999999,
+          -0.0231456448256664
+        ],
+        [
+          0.026628359472383824,
+          0.042588332320408394,
+          -0.0231456448256664,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "clean",
+      "architecture": "clone4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "clean",
+      "architecture": "clone4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "clean",
+      "architecture": "checked",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.058403965437609874,
+          0.010349982073128703
+        ],
+        [
+          -0.05840396543760988,
+          0.9999999999999999,
+          0.02515629642582196
+        ],
+        [
+          0.010349982073128703,
+          0.02515629642582196,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "clean",
+      "architecture": "checked",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          0.024197683374776128,
+          0.02923833149144978
+        ],
+        [
+          0.024197683374776124,
+          1.0,
+          -0.05495121500893219
+        ],
+        [
+          0.02923833149144978,
+          -0.0549512150089322,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "noisy_first",
+      "architecture": "concat512",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          -0.047421292008145155,
+          -0.0020262763757677186,
+          0.06304608175028435
+        ],
+        [
+          -0.047421292008145155,
+          1.0,
+          0.0726740959221061,
+          -0.03421091465540095
+        ],
+        [
+          -0.002026276375767719,
+          0.0726740959221061,
+          1.0,
+          0.010596904309391943
+        ],
+        [
+          0.06304608175028435,
+          -0.03421091465540095,
+          0.010596904309391943,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "noisy_first",
+      "architecture": "concat512",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.004068509764500671,
+          0.04160164012461514,
+          -0.018923301313402772
+        ],
+        [
+          -0.004068509764500671,
+          1.0,
+          -0.0331904848657727,
+          0.002641524820080137
+        ],
+        [
+          0.04160164012461514,
+          -0.0331904848657727,
+          1.0,
+          -0.020573056501734573
+        ],
+        [
+          -0.018923301313402776,
+          0.0026415248200801376,
+          -0.02057305650173457,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "noisy_first",
+      "architecture": "multi4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.060798392860129884,
+          0.009452874168819616,
+          0.07870029527020123
+        ],
+        [
+          -0.060798392860129884,
+          1.0,
+          0.024597742279851793,
+          -0.05085493460302854
+        ],
+        [
+          0.009452874168819618,
+          0.024597742279851797,
+          1.0,
+          -0.02212565634889738
+        ],
+        [
+          0.07870029527020123,
+          -0.05085493460302854,
+          -0.022125656348897384,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "noisy_first",
+      "architecture": "multi4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.024579201868525965,
+          0.030780121996865625,
+          0.027631734962687633
+        ],
+        [
+          0.024579201868525965,
+          1.0,
+          -0.05337957918769027,
+          0.03847077252318905
+        ],
+        [
+          0.030780121996865625,
+          -0.053379579187690276,
+          0.9999999999999999,
+          -0.022700168716059115
+        ],
+        [
+          0.027631734962687633,
+          0.03847077252318905,
+          -0.022700168716059118,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "noisy_first",
+      "architecture": "clone4",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "noisy_first",
+      "architecture": "clone4",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        [
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "noisy_first",
+      "architecture": "checked",
+      "seed": "code-final-0",
+      "unknown_query_label_score_correlation": [
+        [
+          1.0,
+          -0.060798392860129884,
+          0.009452874168819616
+        ],
+        [
+          -0.060798392860129884,
+          1.0,
+          0.024597742279851793
+        ],
+        [
+          0.009452874168819618,
+          0.024597742279851797,
+          1.0
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    },
+    {
+      "data_seed": "multi-final-3",
+      "scenario": "noisy_first",
+      "architecture": "checked",
+      "seed": "code-final-1",
+      "unknown_query_label_score_correlation": [
+        [
+          0.9999999999999999,
+          0.024579201868525965,
+          0.030780121996865625
+        ],
+        [
+          0.024579201868525965,
+          1.0,
+          -0.05337957918769027
+        ],
+        [
+          0.030780121996865625,
+          -0.053379579187690276,
+          0.9999999999999999
+        ]
+      ],
+      "scope": "Correlations over128 query*4 candidate scores. Not independence proof or independent datasets."
+    }
+  ]
+}

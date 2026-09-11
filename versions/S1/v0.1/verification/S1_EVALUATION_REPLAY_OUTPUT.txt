@@ -1,0 +1,18 @@
+completed evaluation nominal
+completed evaluation phase_only
+completed evaluation integer_delay
+completed evaluation small_cfo
+completed evaluation combined
+completed evaluation partial_combined
+completed evaluation tone_interference
+completed evaluation missing_pilots
+completed evaluation sparse_observation
+completed evaluation out_of_delay
+completed evaluation aliased_cfo
+completed evaluation no_observation
+{
+  "split": "evaluation",
+  "queries": 46080,
+  "acceptance_passed": true,
+  "failed": []
+}

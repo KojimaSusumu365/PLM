@@ -1,0 +1,38 @@
+{
+  "scope": "one deterministic noiseless numerical example, not a physical RF spectrum measurement",
+  "controls": [
+    {
+      "mode": "direct_sparse",
+      "frame_chips": 8480,
+      "duration_seconds": 1.06,
+      "total_energy": 57343.999999999985,
+      "pilot_energy": 1737.6969696969697,
+      "payload_dft_energy_fraction_above_symbol_nyquist": 0.7499126494794279,
+      "discrete_cutoff_cycles_per_chip": 0.125,
+      "full_observation_noise_variance_multiplier_min": 0.9952284986757634,
+      "full_observation_noise_variance_multiplier_max": 0.9952284986757634
+    },
+    {
+      "mode": "repeat",
+      "frame_chips": 8480,
+      "duration_seconds": 1.06,
+      "total_energy": 57344.0,
+      "pilot_energy": 1737.6969696969697,
+      "payload_dft_energy_fraction_above_symbol_nyquist": 0.21147607382107772,
+      "discrete_cutoff_cycles_per_chip": 0.125,
+      "full_observation_noise_variance_multiplier_min": 0.9952284986757634,
+      "full_observation_noise_variance_multiplier_max": 0.9952284986757634
+    },
+    {
+      "mode": "spread",
+      "frame_chips": 8480,
+      "duration_seconds": 1.06,
+      "total_energy": 57344.0,
+      "pilot_energy": 1737.6969696969697,
+      "payload_dft_energy_fraction_above_symbol_nyquist": 0.9303994323189707,
+      "discrete_cutoff_cycles_per_chip": 0.125,
+      "full_observation_noise_variance_multiplier_min": 0.9952284986757634,
+      "full_observation_noise_variance_multiplier_max": 0.9952284986757634
+    }
+  ]
+}

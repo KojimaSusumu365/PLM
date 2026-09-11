@@ -1,0 +1,11 @@
+{
+  "state": {
+    "schema": "plm-ss-multicode-learner-01",
+    "step": 912,
+    "history": "ae68ac16b71f0cfd6effc0f8067af8d7f4b818e9508ca00a1c6ff5cabbe63c54",
+    "model_fingerprint": "9cbc22719f1a44a6b236994d7084b18f95c39be9b659f2d4fd7adebc0d7b91c2",
+    "learning_rate": 0.5,
+    "eligible_for_inference": false
+  },
+  "fingerprint": "8c33e1e3b51e68645dddc764967fe408a6be1e5a2a997e5bf149b119703a71ba"
+}

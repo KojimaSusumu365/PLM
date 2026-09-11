@@ -1,0 +1,494 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "single_process_warm_cache": true,
+  "rows": [
+    {
+      "rep": 0,
+      "strategy": "random_once",
+      "times": {
+        "selection_seconds": 0.12171159987337887,
+        "response_seconds_including_revalidation": 0.261483300186228,
+        "background_seconds": 1.9904227000079118
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19999,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 32,
+        "route_counts": {
+          "random": 32
+        }
+      }
+    },
+    {
+      "rep": 0,
+      "strategy": "ambiguity_once",
+      "times": {
+        "selection_seconds": 0.5475103000062518,
+        "response_seconds_including_revalidation": 0.6740078001166694,
+        "background_seconds": 1.9583260999643244
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 20003,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 4096,
+        "route_counts": {
+          "ambiguity": 32
+        }
+      }
+    },
+    {
+      "rep": 0,
+      "strategy": "mixed_once",
+      "times": {
+        "selection_seconds": 0.4340209999936633,
+        "response_seconds_including_revalidation": 0.5659783000010066,
+        "background_seconds": 1.9424400000134483
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19994,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 3080,
+        "route_counts": {
+          "explore": 8,
+          "ambiguity": 24
+        }
+      }
+    },
+    {
+      "rep": 0,
+      "strategy": "ambiguity_revisit",
+      "times": {
+        "selection_seconds": 0.5501626000041142,
+        "response_seconds_including_revalidation": 0.6823814999661408,
+        "background_seconds": 1.942574499931652
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19484,
+        "ledger_entries": 28,
+        "logical_selection_contexts_scored": 4096,
+        "route_counts": {
+          "ambiguity": 28,
+          "revisit": 4
+        }
+      }
+    },
+    {
+      "rep": 0,
+      "strategy": "mixed_revisit",
+      "times": {
+        "selection_seconds": 0.449182000127621,
+        "response_seconds_including_revalidation": 0.5815203999518417,
+        "background_seconds": 1.9375510000390932
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19479,
+        "ledger_entries": 28,
+        "logical_selection_contexts_scored": 3080,
+        "route_counts": {
+          "explore": 8,
+          "ambiguity": 20,
+          "revisit": 4
+        }
+      }
+    },
+    {
+      "rep": 1,
+      "strategy": "random_once",
+      "times": {
+        "selection_seconds": 0.12124310014769435,
+        "response_seconds_including_revalidation": 0.2508754998561926,
+        "background_seconds": 2.000237800006289
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19999,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 32,
+        "route_counts": {
+          "random": 32
+        }
+      }
+    },
+    {
+      "rep": 1,
+      "strategy": "ambiguity_once",
+      "times": {
+        "selection_seconds": 0.5470416999305598,
+        "response_seconds_including_revalidation": 0.6877924000727944,
+        "background_seconds": 1.9947189000085928
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 20003,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 4096,
+        "route_counts": {
+          "ambiguity": 32
+        }
+      }
+    },
+    {
+      "rep": 1,
+      "strategy": "mixed_once",
+      "times": {
+        "selection_seconds": 0.47861010022461414,
+        "response_seconds_including_revalidation": 0.6147142998524942,
+        "background_seconds": 2.0939703000476584
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19994,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 3080,
+        "route_counts": {
+          "explore": 8,
+          "ambiguity": 24
+        }
+      }
+    },
+    {
+      "rep": 1,
+      "strategy": "ambiguity_revisit",
+      "times": {
+        "selection_seconds": 0.5447302997927181,
+        "response_seconds_including_revalidation": 0.6824369000387378,
+        "background_seconds": 1.99166979995789
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19484,
+        "ledger_entries": 28,
+        "logical_selection_contexts_scored": 4096,
+        "route_counts": {
+          "ambiguity": 28,
+          "revisit": 4
+        }
+      }
+    },
+    {
+      "rep": 1,
+      "strategy": "mixed_revisit",
+      "times": {
+        "selection_seconds": 0.438003099989146,
+        "response_seconds_including_revalidation": 0.5667360001243651,
+        "background_seconds": 2.0105433999560773
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19479,
+        "ledger_entries": 28,
+        "logical_selection_contexts_scored": 3080,
+        "route_counts": {
+          "explore": 8,
+          "ambiguity": 20,
+          "revisit": 4
+        }
+      }
+    },
+    {
+      "rep": 2,
+      "strategy": "random_once",
+      "times": {
+        "selection_seconds": 0.12161100015509874,
+        "response_seconds_including_revalidation": 0.24652969982707873,
+        "background_seconds": 2.058566300023813
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19999,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 32,
+        "route_counts": {
+          "random": 32
+        }
+      }
+    },
+    {
+      "rep": 2,
+      "strategy": "ambiguity_once",
+      "times": {
+        "selection_seconds": 0.5497623000410385,
+        "response_seconds_including_revalidation": 0.6742622001911514,
+        "background_seconds": 1.9718696999480017
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 20003,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 4096,
+        "route_counts": {
+          "ambiguity": 32
+        }
+      }
+    },
+    {
+      "rep": 2,
+      "strategy": "mixed_once",
+      "times": {
+        "selection_seconds": 0.4425674000522122,
+        "response_seconds_including_revalidation": 0.5770504001411609,
+        "background_seconds": 1.9723864000407048
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19994,
+        "ledger_entries": 32,
+        "logical_selection_contexts_scored": 3080,
+        "route_counts": {
+          "explore": 8,
+          "ambiguity": 24
+        }
+      }
+    },
+    {
+      "rep": 2,
+      "strategy": "ambiguity_revisit",
+      "times": {
+        "selection_seconds": 0.5697129999171011,
+        "response_seconds_including_revalidation": 0.7112457999610342,
+        "background_seconds": 2.225375499983784
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19484,
+        "ledger_entries": 28,
+        "logical_selection_contexts_scored": 4096,
+        "route_counts": {
+          "ambiguity": 28,
+          "revisit": 4
+        }
+      }
+    },
+    {
+      "rep": 2,
+      "strategy": "mixed_revisit",
+      "times": {
+        "selection_seconds": 0.4857581002288498,
+        "response_seconds_including_revalidation": 0.6142292000586167,
+        "background_seconds": 2.0021705999970436
+      },
+      "resources_final": {
+        "coefficient_bytes": 32768,
+        "reader_coefficient_bytes": 32768,
+        "checker_coefficient_bytes": 0,
+        "warm_atom_bytes": 262144,
+        "metadata_utf8_bytes": 217,
+        "exact_entries": 0,
+        "replay_entries": 0,
+        "scope": "Owned arrays/serialized metadata; not peak RSS, power or full FLOPs.",
+        "teacher_presentations": 2080,
+        "reader_vector_updates": 8320,
+        "pair_vector_updates": 0,
+        "reader_coefficient_update_elements": 4259840,
+        "pair_correlation_elements": 0,
+        "learner_utf8_bytes": 267,
+        "selection_state_json_bytes": 19479,
+        "ledger_entries": 28,
+        "logical_selection_contexts_scored": 3080,
+        "route_counts": {
+          "explore": 8,
+          "ambiguity": 20,
+          "revisit": 4
+        }
+      }
+    }
+  ],
+  "extra_teacher_presentations": 8160,
+  "not_measured": [
+    "total_process_RSS",
+    "total_FLOPs",
+    "other_OS"
+  ],
+  "logical_context_counts_exclude_selection_revalidation_and_evaluation": true
+}

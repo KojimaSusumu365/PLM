@@ -1,0 +1,368 @@
+{
+  "status": "passed",
+  "preflight_boundary_only": false,
+  "source_freeze": "7459fd648b187f6f9c298e5a951b3a0eb2489e345893ea7d25d40da39f638df9",
+  "result_digest": "10446ccfc7d48d220886d3c660e134d261fbc5582dc29fb2c1df51aa6e636dd0",
+  "acceptance_checks": 456,
+  "test_counts": {
+    "NEW_TESTS": 60,
+    "V07_TESTS": 40,
+    "V06_TESTS": 73,
+    "V05_TESTS": 70,
+    "V04_TESTS": 46,
+    "V03_TESTS": 53,
+    "V02_TESTS": 52,
+    "V01_TESTS": 47
+  },
+  "component_pairs": 432,
+  "temporal_pairs": 216,
+  "model_fingerprint": "5bfaf41a6e196bc0233ad696f39bd638e3a426d3be1ac7aa27137a3943768a82",
+  "component_fingerprint": "7f57228b39cacbc466cd6a88b13acb5d16b51f0178112ea1ea70552571f5564d",
+  "isolated_training_without_reader_or_oracle": true,
+  "isolated_training_fingerprint_equal": true,
+  "generation_without_both_reader_and_training_entrypoints": true,
+  "single_numeric_packet_only_transfer": true,
+  "reversed_presentation_without_reversing_time": true,
+  "atomic_abstention": true,
+  "no_runtime_feature_learning": true,
+  "isolated_roundtrips": [
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。その後、花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。その前に、太郎が花子を助けた。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "花子が健太を褒めた。その前に、太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。その後、花子が健太を褒めた。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。太郎が花子を助けた。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "もし太郎が花子を助けなかったら。その後、花子が健太を褒めた。",
+      "output": "健太を花子が褒めた。その前に、もし太郎が花子を助けなかったら。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。その後、太郎が花子を助けた。",
+      "output": "花子を太郎が助けた。その前に、太郎が花子を助けた。",
+      "events_time_and_reversed_presentation_exact": true
+    },
+    {
+      "input_for_verifier_only": "太郎が花子を助けた。その前に、太郎が美咲を訪ねた。",
+      "output": "美咲を太郎が訪ねた。その後、太郎が花子を助けた。",
+      "events_time_and_reversed_presentation_exact": true
+    }
+  ],
+  "release_manifest_checked": true,
+  "full_numeric_rerun_in_this_command": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "Designed graph/bindings/boundaries; six full temporal contexts per direction learned; local IDs not cross-document identity; shared component model/helpers remain.",
+  "archive": "PLM-L1-v0.8.zip",
+  "archive_sha256": "b672639e0e734230ffe1c4fef781aeafe10e4b68e9ba5ce9fc34b0c5646fd751",
+  "archive_bytes": 16499232,
+  "archive_files": 493,
+  "extracted_bytes_equal": true,
+  "source_and_archive_unchanged": true,
+  "temporal_read_reverse_generate_cli_passed": true,
+  "temporal_direct_encode_generate_cli_passed": true,
+  "unknown_relation_not_invented": true,
+  "unsupported_connective_abstained": true,
+  "no_overwrite_cli_passed": true,
+  "source_freeze_checked_after_cli": true,
+  "cli_verification": {
+    "status": "passed",
+    "commands": [
+      {
+        "arguments": [
+          "read",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--text",
+          "太郎が花子を助けた。その後、花子が健太を褒めた。",
+          "--out",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\read-packet.json"
+        ],
+        "exit_code": 0,
+        "output": {
+          "status": "read",
+          "signal_verified": true,
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "recover",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--packet",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\read-packet.json"
+        ],
+        "exit_code": 0,
+        "output": {
+          "status": "recovered",
+          "meaning": {
+            "events": [
+              {
+                "id": "event:0",
+                "subject": "entity:太郎",
+                "object": "entity:花子",
+                "predicate": "predicate:help",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              },
+              {
+                "id": "event:1",
+                "subject": "entity:花子",
+                "object": "entity:健太",
+                "predicate": "predicate:praise",
+                "polarity": "polarity:positive",
+                "modality": "modality:asserted"
+              }
+            ],
+            "presentation": [
+              "event:0",
+              "event:1"
+            ],
+            "temporal": {
+              "kind": "before",
+              "source": "event:0",
+              "target": "event:1"
+            }
+          },
+          "residual": 0.0,
+          "event_audit": [
+            {
+              "id": "event:0",
+              "presence": 0.94304194,
+              "slots": {
+                "subject": {
+                  "score": 0.97708836,
+                  "margin": 0.93420887
+                },
+                "object": {
+                  "score": 0.98968802,
+                  "margin": 0.93999541
+                },
+                "predicate": {
+                  "score": 1.01803599,
+                  "margin": 0.98780657
+                },
+                "polarity": {
+                  "score": 1.02431262,
+                  "margin": 0.99285735
+                },
+                "modality": {
+                  "score": 1.01445753,
+                  "margin": 0.99458534
+                }
+              }
+            },
+            {
+              "id": "event:1",
+              "presence": 1.02020338,
+              "slots": {
+                "subject": {
+                  "score": 1.0190664,
+                  "margin": 0.9605078
+                },
+                "object": {
+                  "score": 0.97642378,
+                  "margin": 0.93615867
+                },
+                "predicate": {
+                  "score": 1.03253848,
+                  "margin": 1.00004651
+                },
+                "polarity": {
+                  "score": 0.97630618,
+                  "margin": 0.97630618
+                },
+                "modality": {
+                  "score": 1.02398341,
+                  "margin": 0.9954901
+                }
+              }
+            }
+          ],
+          "temporal_audit": {
+            "score": 1.03705208,
+            "margin": 1.03705208
+          },
+          "presentation_audit": {
+            "score": 0.99675897,
+            "margin": 0.99675897
+          },
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "generate",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--packet",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\read-packet.json",
+          "--order",
+          "reverse",
+          "--goals",
+          "subject",
+          "subject"
+        ],
+        "exit_code": 0,
+        "output": {
+          "status": "generated",
+          "text": "花子が健太を褒めた。その前に、太郎が花子を助けた。",
+          "event_order": [
+            "event:1",
+            "event:0"
+          ],
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "generate",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--packet",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\read-packet.json",
+          "--order",
+          "reverse",
+          "--goals",
+          "object",
+          "subject"
+        ],
+        "exit_code": 0,
+        "output": {
+          "status": "generated",
+          "text": "健太を花子が褒めた。その前に、太郎が花子を助けた。",
+          "event_order": [
+            "event:1",
+            "event:0"
+          ],
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "encode",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--meaning",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\examples\\MEANING.json",
+          "--out",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\direct-packet.json"
+        ],
+        "exit_code": 0,
+        "output": {
+          "status": "encoded",
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "generate",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--packet",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\direct-packet.json",
+          "--order",
+          "reverse",
+          "--goals",
+          "subject",
+          "object"
+        ],
+        "exit_code": 0,
+        "output": {
+          "status": "generated",
+          "text": "花子が健太を褒めた。その前に、花子を太郎が助けた。",
+          "event_order": [
+            "event:1",
+            "event:0"
+          ],
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "read",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--text",
+          "太郎が花子を助けた。花子が健太を褒めた。",
+          "--out",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\unknown-packet.json"
+        ],
+        "exit_code": 0,
+        "output": {
+          "status": "read",
+          "signal_verified": true,
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "generate",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--packet",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\unknown-packet.json",
+          "--order",
+          "reverse"
+        ],
+        "exit_code": 0,
+        "output": {
+          "status": "generated",
+          "text": "花子が健太を褒めた。太郎が花子を助けた。",
+          "event_order": [
+            "event:1",
+            "event:0"
+          ],
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "read",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--text",
+          "太郎が花子を助けた。だから、花子が健太を褒めた。",
+          "--out",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\unsupported-must-not-exist.json"
+        ],
+        "exit_code": 2,
+        "output": {
+          "status": "abstain",
+          "reason": "unregistered_link_marker",
+          "text": null,
+          "packet": null,
+          "eligible_for_inference": false
+        }
+      },
+      {
+        "arguments": [
+          "read",
+          "--model",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v8x\\PLM-L1-v0.8\\results\\model",
+          "--text",
+          "太郎が花子を助けた。その後、花子が健太を褒めた。",
+          "--out",
+          "C:\\Users\\kojim\\Documents\\Codex\\2026-09-05\\new-chat\\work\\v08-package-cli\\read-packet.json"
+        ],
+        "exit_code": 2,
+        "output": {
+          "status": "abstain",
+          "reason": "[Errno 17] File exists: 'C:\\\\Users\\\\kojim\\\\Documents\\\\Codex\\\\2026-09-05\\\\new-chat\\\\work\\\\v08-package-cli\\\\read-packet.json'",
+          "packet": null,
+          "text": null,
+          "eligible_for_inference": false
+        }
+      }
+    ]
+  }
+}

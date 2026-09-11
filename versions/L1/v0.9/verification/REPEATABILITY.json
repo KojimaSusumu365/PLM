@@ -1,0 +1,40 @@
+{
+  "two_full_v09_numeric_runs": true,
+  "files": [
+    {
+      "file": "EVALUATION.json",
+      "sha256": "e3feb35223fb9e1bbbcd50ef25b59ef322ba277b2e2c859a1ffdab1a41dd51ce",
+      "repeat_sha256": "e3feb35223fb9e1bbbcd50ef25b59ef322ba277b2e2c859a1ffdab1a41dd51ce",
+      "equal": true
+    },
+    {
+      "file": "model/model.json",
+      "sha256": "d49bf2d1dd8df583972cd161ddd62f30931094bfd8f5cf3db8ca231503cc7632",
+      "repeat_sha256": "d49bf2d1dd8df583972cd161ddd62f30931094bfd8f5cf3db8ca231503cc7632",
+      "equal": true
+    },
+    {
+      "file": "model/weights.npz",
+      "sha256": "08741c79ffd3ce198dd146b7d43f006361007823f68b49b5534e97aa67ec0fae",
+      "repeat_sha256": "08741c79ffd3ce198dd146b7d43f006361007823f68b49b5534e97aa67ec0fae",
+      "equal": true
+    },
+    {
+      "file": "model/component/model.json",
+      "sha256": "32b046b1446a76809f033289c66b29deb0c828fe589848be9c1c197ae0f4ed65",
+      "repeat_sha256": "32b046b1446a76809f033289c66b29deb0c828fe589848be9c1c197ae0f4ed65",
+      "equal": true
+    },
+    {
+      "file": "model/component/weights.npz",
+      "sha256": "4c3cadd67abff3a07b5a94ce38e32db5aad0a4b159bbe0a4235dac649dc73cb9",
+      "repeat_sha256": "4c3cadd67abff3a07b5a94ce38e32db5aad0a4b159bbe0a4235dac649dc73cb9",
+      "equal": true
+    }
+  ],
+  "same_source_freeze": "fa65e4cb1490c6ad3f666e6250af2cfe70ec266bee8336910012ab0c1ba2d7fe",
+  "excluded_from_deterministic_comparison": [
+    "PERFORMANCE.json wall times and environment"
+  ],
+  "old_v08_full_numeric_evaluation_repeated": false
+}

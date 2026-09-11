@@ -1,0 +1,54 @@
+{
+  "scope": "Separate demo answers, never pass this file to selection.",
+  "first_request_id": "963ab058b51ccf5cf89a",
+  "first_teacher_label": "0",
+  "before": {
+    "status": "abstain",
+    "value": null,
+    "possible_labels": [
+      "0",
+      "1"
+    ],
+    "reason": "learning_insufficient",
+    "input_insufficient": false,
+    "learning_insufficient": true,
+    "candidate_count": 16,
+    "unknown_cells": 1,
+    "conflicting_cells": 0,
+    "dependency_disagreement": false,
+    "completion_count": 1,
+    "eligible_for_inference": false
+  },
+  "after_one": {
+    "status": "accepted",
+    "value": "0",
+    "possible_labels": [
+      "0"
+    ],
+    "reason": "accepted",
+    "input_insufficient": false,
+    "learning_insufficient": false,
+    "candidate_count": 1,
+    "unknown_cells": 0,
+    "conflicting_cells": 0,
+    "dependency_disagreement": false,
+    "completion_count": 1,
+    "eligible_for_inference": false
+  },
+  "after_full": {
+    "status": "accepted",
+    "value": "0",
+    "possible_labels": [
+      "0"
+    ],
+    "reason": "accepted",
+    "input_insufficient": false,
+    "learning_insufficient": false,
+    "candidate_count": 1,
+    "unknown_cells": 0,
+    "conflicting_cells": 0,
+    "dependency_disagreement": false,
+    "completion_count": 1,
+    "eligible_for_inference": false
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "mode": "functional",
+  "unit_tests": 97,
+  "source_freeze": "359df9740861a10533795b7eb9d943a72b686113904826680de6e3f93f61444b",
+  "result_digest": "2805dfed8b6ea0496dc9fab210baa7729d8a84c45bfeafefc3617a2acd4349e0",
+  "comparisons": {
+    "and2": {
+      "functional_passed": true,
+      "base": {
+        "functional_passed": true,
+        "metadata_equal": true,
+        "coefficients_within_tolerance": true,
+        "max_coefficient_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "discrete_decisions_equal": true,
+        "probes": 291,
+        "strict_fingerprint_equal": true,
+        "linux_execution_performed": false
+      },
+      "guard_metadata_equal": true,
+      "witness_coefficients_within_tolerance": true,
+      "max_witness_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_guard_decisions_equal": true,
+      "context_count": 292,
+      "policy_probes": 1168,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "roles": {
+      "functional_passed": true,
+      "base": {
+        "functional_passed": true,
+        "metadata_equal": true,
+        "coefficients_within_tolerance": true,
+        "max_coefficient_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "discrete_decisions_equal": true,
+        "probes": 278,
+        "strict_fingerprint_equal": true,
+        "linux_execution_performed": false
+      },
+      "guard_metadata_equal": true,
+      "witness_coefficients_within_tolerance": true,
+      "max_witness_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_guard_decisions_equal": true,
+      "context_count": 279,
+      "policy_probes": 1116,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "ambiguity-before": {
+      "functional_passed": true,
+      "base": {
+        "functional_passed": true,
+        "metadata_equal": true,
+        "coefficients_within_tolerance": true,
+        "max_coefficient_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "discrete_decisions_equal": true,
+        "probes": 159,
+        "strict_fingerprint_equal": true,
+        "linux_execution_performed": false
+      },
+      "guard_metadata_equal": true,
+      "witness_coefficients_within_tolerance": true,
+      "max_witness_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_guard_decisions_equal": true,
+      "context_count": 160,
+      "policy_probes": 640,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    },
+    "ambiguity-after": {
+      "functional_passed": true,
+      "base": {
+        "functional_passed": true,
+        "metadata_equal": true,
+        "coefficients_within_tolerance": true,
+        "max_coefficient_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "discrete_decisions_equal": true,
+        "probes": 159,
+        "strict_fingerprint_equal": true,
+        "linux_execution_performed": false
+      },
+      "guard_metadata_equal": true,
+      "witness_coefficients_within_tolerance": true,
+      "max_witness_coefficient_difference": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12,
+      "discrete_guard_decisions_equal": true,
+      "context_count": 160,
+      "policy_probes": 640,
+      "strict_fingerprint_equal": true,
+      "linux_execution_performed": false
+    }
+  },
+  "isolated_training_without_evaluator": true,
+  "guard_queries_without_trainers_or_oracle": true,
+  "query_demos": [
+    {
+      "name": "sufficient",
+      "context": {
+        "f2": "0",
+        "f4": "0",
+        "f5": "0",
+        "f1": "0",
+        "f3": "1"
+      },
+      "status": "accepted",
+      "value": "class:1"
+    },
+    {
+      "name": "ambiguous",
+      "context": {
+        "f2": "1",
+        "f4": "0",
+        "f5": "0",
+        "f1": "1",
+        "f3": "0"
+      },
+      "status": "abstain",
+      "value": null
+    },
+    {
+      "name": "empty",
+      "context": {},
+      "status": "abstain",
+      "value": null
+    }
+  ],
+  "vendor": {
+    "v011_sha256": "73c87a79af05acbbd9cc04400c36afdbbe5594534d31e4dc83baf72fd0193c21",
+    "manifest_files": 72,
+    "legacy_runtime_unchanged": true,
+    "crc_verified": true
+  },
+  "manifest_files": 86,
+  "linux_execution_performed": false,
+  "numeric_only_guard_implemented": false,
+  "p1_s1_integration_performed": false,
+  "full_numeric_evaluation_rerun_by_this_command": false,
+  "archive": {
+    "archive": "PLM-L1-v0.12.zip",
+    "sha256": "ac77bd1073110b270d17b5b55939fc7bf079cd0f1b5c8202e1b6cfb2137cc68a",
+    "bytes": 38170488,
+    "files": 87,
+    "manifest_files": 86,
+    "source_freeze": "359df9740861a10533795b7eb9d943a72b686113904826680de6e3f93f61444b",
+    "result_digest": "2805dfed8b6ea0496dc9fab210baa7729d8a84c45bfeafefc3617a2acd4349e0"
+  },
+  "archive_actually_extracted": true,
+  "crc_verified": true,
+  "platform_scope": "Same Windows host, fresh temporary directories; not Linux.",
+  "v011_own_tests_run_before_packaging": 57,
+  "older_nested_tests_repeated_this_turn": false
+}

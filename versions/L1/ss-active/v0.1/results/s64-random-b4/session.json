@@ -1,0 +1,560 @@
+{
+  "state": {
+    "schema": "plm-ss-active-session-01",
+    "learner_fingerprint": "d82e3484fde66e7211fc4aee406d63625dec35d33409a07dc7cb1ec4cd6f1eed",
+    "pool": [
+      {
+        "id": "09de90cb79dddede86ff4506e6a63341817d982a5a0ecab86adc53bf3640d3af",
+        "context": {
+          "f0": "7",
+          "f1": "4",
+          "f2": "1",
+          "f3": "7"
+        }
+      },
+      {
+        "id": "1c5fcd123d58a32655e67ce15616690fe2501d8599d02442bb4a4deb490e6311",
+        "context": {
+          "f0": "3",
+          "f1": "7",
+          "f2": "4",
+          "f3": "0"
+        }
+      },
+      {
+        "id": "1d76a0b5340a90cd58ed3a606cc21648d8bdff4ec4f8eb8b9b21e6d1fc87e0e2",
+        "context": {
+          "f0": "1",
+          "f1": "2",
+          "f2": "5",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "23680d3046eef479574d73be02227ce19ba99ccfd884b1f61d8f5b0255e22bcf",
+        "context": {
+          "f0": "3",
+          "f1": "4",
+          "f2": "6",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "24e515e587f26ee5a570a2103fe7a9a7e1388c243eb230d89971d6f317ec3a6f",
+        "context": {
+          "f0": "5",
+          "f1": "1",
+          "f2": "0",
+          "f3": "7"
+        }
+      },
+      {
+        "id": "2819232c4049938df19fea2b1546f8d81645fc76ccc52737ead24b4f9632ddc4",
+        "context": {
+          "f0": "7",
+          "f1": "3",
+          "f2": "4",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "2887613f17ec2f35241b0ac8b1921aec8f2f6fa8f68f68427b53eb332dd54ab9",
+        "context": {
+          "f0": "1",
+          "f1": "2",
+          "f2": "6",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "2b894d5e8b7c592805311eddd8dfe3c66ce1f15cbc8a64eae40308e023229feb",
+        "context": {
+          "f0": "3",
+          "f1": "7",
+          "f2": "5",
+          "f3": "3"
+        }
+      },
+      {
+        "id": "300b670ee179208af611a457db826d25d55be40c939c1fb57d23e513ac9e3298",
+        "context": {
+          "f0": "4",
+          "f1": "4",
+          "f2": "7",
+          "f3": "7"
+        }
+      },
+      {
+        "id": "3019959bd20f21387751d28d02780cb54fe070c0ad9a620fe787d943fbb72491",
+        "context": {
+          "f0": "7",
+          "f1": "5",
+          "f2": "5",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "34040c0b368d6801597c36b40e284356e6ec0caf789fbce13aad8ca8ae43f631",
+        "context": {
+          "f0": "2",
+          "f1": "3",
+          "f2": "5",
+          "f3": "4"
+        }
+      },
+      {
+        "id": "340faa55defcbd0470c276172ee15fbb3ee54f8e322b267f45c93d973c64dc8b",
+        "context": {
+          "f0": "3",
+          "f1": "6",
+          "f2": "3",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "34f724e0fe948d5a62881ccb75e521f27216b093f9a2ea2a03e6f3085f929e36",
+        "context": {
+          "f0": "1",
+          "f1": "5",
+          "f2": "2",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "392db7ebe18610f398f60ae2af0709848188f1c93640a373f85b965194cc75c3",
+        "context": {
+          "f0": "3",
+          "f1": "0",
+          "f2": "2",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "3c2325d82ac4c5315a289482926c732491eb5cdfb24417a97d41483b36a93747",
+        "context": {
+          "f0": "2",
+          "f1": "2",
+          "f2": "1",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "3c90d69e9b6d8f46ef63fdd01fe17dcfccd3e1f86db38bfbc52ac91cdf10936a",
+        "context": {
+          "f0": "5",
+          "f1": "6",
+          "f2": "2",
+          "f3": "0"
+        }
+      },
+      {
+        "id": "4264c9fe2488f6e0a27133d7fe29e675b6cb73d283793826fc39cf52e7820541",
+        "context": {
+          "f0": "1",
+          "f1": "3",
+          "f2": "7",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "4415865f769c41a5c64878d971c31f49bc1ff1e779fd4e25eae455bb48ad07f5",
+        "context": {
+          "f0": "2",
+          "f1": "1",
+          "f2": "2",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "46acb5f1231093e6266ad8fdcc7541f24247f5a8a6a4c7122642df2c8c7e2ab5",
+        "context": {
+          "f0": "3",
+          "f1": "4",
+          "f2": "3",
+          "f3": "3"
+        }
+      },
+      {
+        "id": "4d0ddbaf7d77c84c4c8b1688bf0e89ad4e5487316502f4028fb8bc0b7678eb6c",
+        "context": {
+          "f0": "3",
+          "f1": "4",
+          "f2": "3",
+          "f3": "5"
+        }
+      },
+      {
+        "id": "4d9574a4c04577e2ddb7b3ba264b4a467936427d207d433f6ec496ec04c08271",
+        "context": {
+          "f0": "1",
+          "f1": "1",
+          "f2": "5",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "5ccf364df0a8cb24dff3cc2cbf00332c083965f83e2bef901a08d41dc9f414e9",
+        "context": {
+          "f0": "0",
+          "f1": "4",
+          "f2": "7",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "5d301db547a70e48d3fb754fb695afc7d2d8aee12de474cae1767976a24ed9a6",
+        "context": {
+          "f0": "1",
+          "f1": "6",
+          "f2": "5",
+          "f3": "7"
+        }
+      },
+      {
+        "id": "668bf5b1479d656b6b1b48665c38055e147b0c7cca0ddc04c0c3018329a92372",
+        "context": {
+          "f0": "7",
+          "f1": "7",
+          "f2": "4",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "6747c8b519415bc228fc2b56c64e243e0a99addb2bfd06a0eaf34a58496de606",
+        "context": {
+          "f0": "4",
+          "f1": "1",
+          "f2": "2",
+          "f3": "5"
+        }
+      },
+      {
+        "id": "67e131b815aac7f4cac3568ffca373460b5e8dd1989cc16e543314edbdaaf42f",
+        "context": {
+          "f0": "5",
+          "f1": "6",
+          "f2": "5",
+          "f3": "0"
+        }
+      },
+      {
+        "id": "6e45800585093a18f9c9d311c4c98bd3ed53e200ec04f5f001619b3225ea3ea8",
+        "context": {
+          "f0": "5",
+          "f1": "3",
+          "f2": "5",
+          "f3": "5"
+        }
+      },
+      {
+        "id": "6e7f431f9cbca030ef2d908607248070426675154a75b6f77d20f800ed56a3b0",
+        "context": {
+          "f0": "5",
+          "f1": "3",
+          "f2": "0",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "7441de153aa5b4d2d31de5f5372e077368c310dc0f04670332e5ad2950594808",
+        "context": {
+          "f0": "0",
+          "f1": "2",
+          "f2": "4",
+          "f3": "3"
+        }
+      },
+      {
+        "id": "74e0b7f9d0e48b0fac6fa301bf569c9bf2b217ccedc268ac3ad9b20f5dd44606",
+        "context": {
+          "f0": "3",
+          "f1": "1",
+          "f2": "6",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "7c26f10e1bcbd3ed3c29b4b25d68a364c4cc5593c058191601125d1a50361cf7",
+        "context": {
+          "f0": "0",
+          "f1": "6",
+          "f2": "7",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "7efd8025c538d56b0f60f79a88c71ae539c702ff4d1584ed2b9bd2dd3ab9fd77",
+        "context": {
+          "f0": "0",
+          "f1": "6",
+          "f2": "1",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "8407edf12e7811b1921ab15fbe812affe01d8fbb89541e91f3b3d34fa586405a",
+        "context": {
+          "f0": "4",
+          "f1": "3",
+          "f2": "2",
+          "f3": "7"
+        }
+      },
+      {
+        "id": "8a8106a3ff8b7edc3d94526114a9ffe3c38848cee6f3e4e723547e08faa01164",
+        "context": {
+          "f0": "1",
+          "f1": "5",
+          "f2": "1",
+          "f3": "3"
+        }
+      },
+      {
+        "id": "8af25a41cecc6e5677dd2484ce78ff6644292a6e760cdabc80e3ec98a1bf4c47",
+        "context": {
+          "f0": "3",
+          "f1": "7",
+          "f2": "7",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "9ad3be0a4a5ee6b0fad0542ac4e892c9b4f4d3485e0103cdb3d9b7dd01741f1a",
+        "context": {
+          "f0": "3",
+          "f1": "1",
+          "f2": "4",
+          "f3": "7"
+        }
+      },
+      {
+        "id": "9cc6db11689b15bb4ad0f2aeb68a3e96b6080db851bbfd73dbdad8c25e4a2e8f",
+        "context": {
+          "f0": "4",
+          "f1": "7",
+          "f2": "7",
+          "f3": "0"
+        }
+      },
+      {
+        "id": "a8717e5237ee301118f4c062537f871588aa5a65bc505cfe82df02796430bfdd",
+        "context": {
+          "f0": "3",
+          "f1": "0",
+          "f2": "1",
+          "f3": "7"
+        }
+      },
+      {
+        "id": "b27e8cb84c9a2962bced966c11496cd0f083098f2c35e7d1615342e504889062",
+        "context": {
+          "f0": "0",
+          "f1": "7",
+          "f2": "0",
+          "f3": "7"
+        }
+      },
+      {
+        "id": "b5789fdbcecce656006cc84b7f8f8098ce6b629b1e86b08b25aa6bd32d2e5e71",
+        "context": {
+          "f0": "3",
+          "f1": "2",
+          "f2": "2",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "b660dad6139e80e55c1fb3f5dc5a18b99cc15030ebd455f6e0a0ae48af5b8bb2",
+        "context": {
+          "f0": "5",
+          "f1": "2",
+          "f2": "7",
+          "f3": "3"
+        }
+      },
+      {
+        "id": "b771aade76be7576498359121ec9d85e897c07cf9b2bfcf491507922e745aa11",
+        "context": {
+          "f0": "6",
+          "f1": "5",
+          "f2": "2",
+          "f3": "5"
+        }
+      },
+      {
+        "id": "b9be4f77b39e8cf0448121269d46ece7f2d1ee66e5190a82d479e2af170fc8df",
+        "context": {
+          "f0": "3",
+          "f1": "0",
+          "f2": "5",
+          "f3": "4"
+        }
+      },
+      {
+        "id": "bad65479a2f4d9e3ab39284c36a0cae23fe2bb1d3d11807373c30cea4349aafe",
+        "context": {
+          "f0": "0",
+          "f1": "4",
+          "f2": "5",
+          "f3": "0"
+        }
+      },
+      {
+        "id": "cad909158f84baa3d9acb061b8bc6e1936f148396519c39f81b29f5bb9687ae6",
+        "context": {
+          "f0": "5",
+          "f1": "3",
+          "f2": "1",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "cb9241a854380c359222bab8ba153bf6abd38d3e8a3d5cc737e9efecbc185fca",
+        "context": {
+          "f0": "3",
+          "f1": "0",
+          "f2": "4",
+          "f3": "5"
+        }
+      },
+      {
+        "id": "ce48a493c8e985c7d76b9a13bb952aaec537c055f5040e47977915ac81896fd2",
+        "context": {
+          "f0": "4",
+          "f1": "1",
+          "f2": "2",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "d6916e59015af0397e06c76625d742bb422fcf185f1749688af0fdda1511b8aa",
+        "context": {
+          "f0": "7",
+          "f1": "1",
+          "f2": "3",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "d74e9899f3e852c29991a339efc381894b5f00efd0c422a822f0c38fc88d3af7",
+        "context": {
+          "f0": "5",
+          "f1": "5",
+          "f2": "6",
+          "f3": "2"
+        }
+      },
+      {
+        "id": "d9e9a0bb710d0126b955b53f0e40840d87d454a03fee5f0b87fbd677f77494ca",
+        "context": {
+          "f0": "3",
+          "f1": "3",
+          "f2": "1",
+          "f3": "5"
+        }
+      },
+      {
+        "id": "dd1dc606095b36ff853dc112c21948c789628ed5a0c908ad4da7667f7324b18d",
+        "context": {
+          "f0": "1",
+          "f1": "5",
+          "f2": "0",
+          "f3": "0"
+        }
+      },
+      {
+        "id": "dd7ddaf71dbe87d729c5a1463b39a3ae9c04a5c97e906f61dfdc90085ef28ff4",
+        "context": {
+          "f0": "4",
+          "f1": "3",
+          "f2": "1",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "dec5dc44a31b524841afe88bc2ace6e8446dcd806a50ab9e5fe9aea382f9fd42",
+        "context": {
+          "f0": "0",
+          "f1": "0",
+          "f2": "7",
+          "f3": "3"
+        }
+      },
+      {
+        "id": "e30e262e1f3a5251d3af029d9a89f2b93da7c8b79a95ab209507041403f201b3",
+        "context": {
+          "f0": "1",
+          "f1": "7",
+          "f2": "2",
+          "f3": "1"
+        }
+      },
+      {
+        "id": "e528128cd2c2cf985e23d1567a0c36fce28da2d90480beecf1a80ac48f01d7ac",
+        "context": {
+          "f0": "5",
+          "f1": "3",
+          "f2": "6",
+          "f3": "4"
+        }
+      },
+      {
+        "id": "e8934fd03982685fd6b465fcb0717a728aaba9aeb97f4966c7bdf305a44fdc7f",
+        "context": {
+          "f0": "1",
+          "f1": "5",
+          "f2": "3",
+          "f3": "4"
+        }
+      },
+      {
+        "id": "ef9c91fb36074ddfe38f5500346b11d8e55a1d4f896ad3cc5036c2ef68612796",
+        "context": {
+          "f0": "5",
+          "f1": "4",
+          "f2": "2",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "f539ff2b6525ef71eedfc9e59af7829d4e08a4d55d358630ad7b201312bcf605",
+        "context": {
+          "f0": "0",
+          "f1": "7",
+          "f2": "1",
+          "f3": "6"
+        }
+      },
+      {
+        "id": "f5c244fe111fa3a9339ab265a0759f3e2f2b1fb5dd0c3ec118f6ef388f45a5ae",
+        "context": {
+          "f0": "1",
+          "f1": "1",
+          "f2": "4",
+          "f3": "5"
+        }
+      },
+      {
+        "id": "fbb86d4c50f8452048912b389b2efb3de50fde3454ac85125e231be50042d3c5",
+        "context": {
+          "f0": "2",
+          "f1": "5",
+          "f2": "6",
+          "f3": "4"
+        }
+      }
+    ],
+    "strategy": "random",
+    "seed": "active-acq-0",
+    "acquired_ids": [
+      "e6225a88a81d9b2d0c82b4781650c42e135e411770fef71244418ca010e873d4",
+      "c78e5564bc92d80e2f76ee6a5500ae372a0de925eaa250dc86cd59d202dd6efa",
+      "38f8f27de49d0604e9856e46c5d32bb7a20c852252405ae87a1a9845853fedcb",
+      "0e2ef4051ed8dcccb2ec8eec529b374deac452bf476b14733bc6d21624969a30"
+    ],
+    "original_pool_digest": "e4ea37111b7f938da08bdd558b8dc75b696357df81119eea50073233a86724be",
+    "history": "15b3188f140ef766199fb8fcab856c429cef9af2eb96154cd7f7dfb5339cf1ea",
+    "eligible_for_inference": false
+  },
+  "fingerprint": "af58e7dd1cb30d0ada8c66618a0698f1053817a216c68d086bc188108d544e0b"
+}

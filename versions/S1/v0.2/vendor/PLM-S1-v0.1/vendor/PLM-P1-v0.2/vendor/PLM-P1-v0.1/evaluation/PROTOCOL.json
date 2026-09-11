@@ -1,0 +1,30 @@
+{
+  "version": "PLM-P1-v0.1-numerical-protocol-1",
+  "meaning": "internal synthetic numerical experiment, not independent semantic evaluation",
+  "partial_correlation_definition": "coherent correlation over an observed coordinate mask; NOT statistical partial correlation",
+  "phase_definition": "unit complex phasors; NOT physical oscillator hardware or merely pipeline stages",
+  "policy": {"min_components": 64, "min_score": 0.65, "min_margin": 0.20},
+  "policy_origin": "initial 0.55/0.15 produced 2 false accepts out of 64 masked development negatives; revised using development seeds only, frozen before evaluation; not calibrated probabilities",
+  "dimensions": [512, 2048],
+  "candidate_count": 96,
+  "query_events_per_trial": 4,
+  "development_seeds": [1101, 1102, 1103, 1104],
+  "evaluation_seeds": [7101, 7102, 7103, 7104, 7105, 7106, 7107, 7108],
+  "conditions": [
+    {"name":"nominal", "events":4, "keep_fraction":1.0, "noise_std":0.0, "phase_offset":0.0, "jitter_std":0.0},
+    {"name":"masked_noise", "events":4, "keep_fraction":0.25, "noise_std":0.15, "phase_offset":0.0, "jitter_std":0.10},
+    {"name":"partial_only", "events":4, "keep_fraction":0.25, "noise_std":0.0, "phase_offset":0.0, "jitter_std":0.0},
+    {"name":"noise_only", "events":4, "keep_fraction":1.0, "noise_std":1.0, "phase_offset":0.0, "jitter_std":0.0},
+    {"name":"load_only", "events":16, "keep_fraction":1.0, "noise_std":0.0, "phase_offset":0.0, "jitter_std":0.0},
+    {"name":"jitter_only", "events":4, "keep_fraction":1.0, "noise_std":0.0, "phase_offset":0.0, "jitter_std":0.7},
+    {"name":"higher_load", "events":12, "keep_fraction":0.125, "noise_std":0.5, "phase_offset":0.0, "jitter_std":0.3},
+    {"name":"overload", "events":32, "keep_fraction":0.03125, "noise_std":1.0, "phase_offset":0.0, "jitter_std":0.5},
+    {"name":"unreferenced_quarter_turn", "events":4, "keep_fraction":1.0, "noise_std":0.0, "phase_offset":1.5707963267948966, "jitter_std":0.0},
+    {"name":"no_observation", "events":4, "keep_fraction":0.0, "noise_std":0.0, "phase_offset":0.0, "jitter_std":0.0}
+  ],
+  "acceptance_scope": "2048-dimensional nominal and masked_noise only, plus functional invariants; stress cases are measured limitations",
+  "minimum_masked_recovery_rate": 0.95,
+  "maximum_masked_false_accept_rate": 0.02,
+  "inference_enabled": false,
+  "ss_demodulation_implemented": false
+}

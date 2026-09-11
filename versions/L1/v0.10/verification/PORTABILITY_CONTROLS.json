@@ -1,0 +1,86 @@
+{
+  "one_ulp": {
+    "functional_passed": true,
+    "metadata_contract_equal": true,
+    "candidate_count_equal": true,
+    "member_comparisons": [
+      {
+        "functional_passed": true,
+        "contract_equal": true,
+        "headers_equal": true,
+        "coefficients_within_tolerance": true,
+        "decision_signatures_equal": true,
+        "signature_requests": 0,
+        "blocks_compared": 10,
+        "max_abs_coefficient_difference": 4.440892098500626e-16,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "exact_weight_bytes_equal": false,
+        "exact_model_fingerprint_equal": false,
+        "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+      },
+      {
+        "functional_passed": true,
+        "contract_equal": true,
+        "headers_equal": true,
+        "coefficients_within_tolerance": true,
+        "decision_signatures_equal": true,
+        "signature_requests": 0,
+        "blocks_compared": 10,
+        "max_abs_coefficient_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "exact_weight_bytes_equal": true,
+        "exact_model_fingerprint_equal": true,
+        "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+      }
+    ],
+    "decision_signatures_equal": true,
+    "signature_requests": 3,
+    "exact_fingerprint_equal": false,
+    "scope": "Finite same-machine probes; not universal equivalence or an actual Linux run."
+  },
+  "large_change": {
+    "functional_passed": false,
+    "metadata_contract_equal": true,
+    "candidate_count_equal": true,
+    "member_comparisons": [
+      {
+        "functional_passed": false,
+        "contract_equal": true,
+        "headers_equal": true,
+        "coefficients_within_tolerance": false,
+        "decision_signatures_equal": true,
+        "signature_requests": 0,
+        "blocks_compared": 10,
+        "max_abs_coefficient_difference": 0.009999999999999787,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "exact_weight_bytes_equal": false,
+        "exact_model_fingerprint_equal": false,
+        "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+      },
+      {
+        "functional_passed": true,
+        "contract_equal": true,
+        "headers_equal": true,
+        "coefficients_within_tolerance": true,
+        "decision_signatures_equal": true,
+        "signature_requests": 0,
+        "blocks_compared": 10,
+        "max_abs_coefficient_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12,
+        "exact_weight_bytes_equal": true,
+        "exact_model_fingerprint_equal": true,
+        "scope": "These finite probes only; no proof of identical decisions for every input or cross-platform execution."
+      }
+    ],
+    "decision_signatures_equal": true,
+    "signature_requests": 3,
+    "exact_fingerprint_equal": false,
+    "scope": "Finite same-machine probes; not universal equivalence or an actual Linux run."
+  },
+  "linux_execution_performed": false,
+  "scope": "Controlled local perturbation only, not cross-OS validation."
+}

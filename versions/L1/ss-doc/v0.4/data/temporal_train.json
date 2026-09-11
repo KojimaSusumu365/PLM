@@ -1,0 +1,6914 @@
+[
+  {
+    "text": "由紀が美咲を見つめた。太郎が花子を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "太郎が花子を助けた。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、太郎が花子を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "太郎が花子を助けた。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、太郎が花子を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "太郎が花子を助けた。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。太郎が花子を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "太郎が花子を見つめなかった。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、太郎が花子を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "太郎が花子を見つめなかった。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、太郎が花子を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "太郎が花子を見つめなかった。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし太郎が花子を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし太郎が花子を訪ねたら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし太郎が花子を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし太郎が花子を訪ねたら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし太郎が花子を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし太郎が花子を訪ねたら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし太郎が花子を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし太郎が花子を見つめなかったら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし太郎が花子を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし太郎が花子を見つめなかったら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし太郎が花子を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし太郎が花子を見つめなかったら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:花子",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。由紀が太郎を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が太郎を助けた。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、由紀が太郎を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が太郎を助けた。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、由紀が太郎を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が太郎を助けた。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。美咲が太郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が太郎を見つめなかった。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、美咲が太郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が太郎を見つめなかった。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、美咲が太郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が太郎を見つめなかった。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし健太が太郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が太郎を訪ねたら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし健太が太郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が太郎を訪ねたら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし健太が太郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が太郎を訪ねたら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし次郎が太郎を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が太郎を見つめなかったら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし次郎が太郎を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が太郎を見つめなかったら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし次郎が太郎を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が太郎を見つめなかったら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。太郎が美咲を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "太郎が美咲を助けた。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、太郎が美咲を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "太郎が美咲を助けた。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、太郎が美咲を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "太郎が美咲を助けた。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。太郎が次郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "太郎が次郎を見つめなかった。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、太郎が次郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "太郎が次郎を見つめなかった。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、太郎が次郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "太郎が次郎を見つめなかった。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし太郎が次郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし太郎が次郎を訪ねたら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし太郎が次郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし太郎が次郎を訪ねたら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし太郎が次郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし太郎が次郎を訪ねたら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし太郎が健太を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし太郎が健太を見つめなかったら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし太郎が健太を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし太郎が健太を見つめなかったら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし太郎が健太を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし太郎が健太を見つめなかったら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:太郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。美咲が太郎を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が太郎を助けた。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、美咲が太郎を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が太郎を助けた。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、美咲が太郎を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が太郎を助けた。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:太郎",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。次郎が太郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "次郎が太郎を見つめなかった。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、次郎が太郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "次郎が太郎を見つめなかった。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、次郎が太郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "次郎が太郎を見つめなかった。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし次郎が太郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が太郎を訪ねたら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし次郎が太郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が太郎を訪ねたら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし次郎が太郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が太郎を訪ねたら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:太郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし健太が太郎を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が太郎を見つめなかったら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし健太が太郎を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が太郎を見つめなかったら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし健太が太郎を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が太郎を見つめなかったら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:太郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。美咲が由紀を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:由紀",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が由紀を見つめた。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:由紀",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、美咲が由紀を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:由紀",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が由紀を見つめた。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:由紀",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、美咲が由紀を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:由紀",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が由紀を見つめた。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:由紀",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。次郎が美咲を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "次郎が美咲を訪ねなかった。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、次郎が美咲を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "次郎が美咲を訪ねなかった。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、次郎が美咲を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "次郎が美咲を訪ねなかった。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:美咲",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし次郎が健太を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を褒めたら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし次郎が健太を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を褒めたら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし次郎が健太を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を褒めたら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし健太が次郎を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を訪ねなかったら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし健太が次郎を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を訪ねなかったら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし健太が次郎を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を訪ねなかったら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。由紀が美咲を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめなかった。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、由紀が美咲を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめなかった。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、由紀が美咲を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめなかった。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。美咲が次郎を訪ねた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねた。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、美咲が次郎を訪ねた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねた。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、美咲が次郎を訪ねた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねた。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし健太が次郎を褒めなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めなかったら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし健太が次郎を褒めなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めなかったら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし健太が次郎を褒めなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めなかったら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし次郎が健太を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねたら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし次郎が健太を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねたら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし次郎が健太を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねたら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。もし由紀が美咲を見つめたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし由紀が美咲を見つめたら。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、もし由紀が美咲を見つめたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし由紀が美咲を見つめたら。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、もし由紀が美咲を見つめたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし由紀が美咲を見つめたら。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。もし美咲が次郎を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし美咲が次郎を訪ねなかったら。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、もし美咲が次郎を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし美咲が次郎を訪ねなかったら。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、もし美咲が次郎を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし美咲が次郎を訪ねなかったら。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。健太が次郎を褒めた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "健太が次郎を褒めた。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、健太が次郎を褒めた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "健太が次郎を褒めた。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、健太が次郎を褒めた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "健太が次郎を褒めた。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。次郎が健太を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "次郎が健太を訪ねなかった。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、次郎が健太を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "次郎が健太を訪ねなかった。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、次郎が健太を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "次郎が健太を訪ねなかった。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。由紀が美咲を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を助けた。由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その後、由紀が美咲を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を助けた。その前に、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を見つめた。その前に、由紀が美咲を助けた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "由紀が美咲を助けた。その後、由紀が美咲を見つめた。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:由紀",
+          "object": "entity:美咲",
+          "predicate": "predicate:help",
+          "polarity": "polarity:positive",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。美咲が次郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を見つめなかった。美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その後、美咲が次郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を見つめなかった。その前に、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を訪ねなかった。その前に、美咲が次郎を見つめなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "美咲が次郎を見つめなかった。その後、美咲が次郎を訪ねなかった。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:美咲",
+          "object": "entity:次郎",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:asserted"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。もし健太が次郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を訪ねたら。もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その後、もし健太が次郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を訪ねたら。その前に、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を褒めたら。その前に、もし健太が次郎を訪ねたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし健太が次郎を訪ねたら。その後、もし健太が次郎を褒めたら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:praise",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:健太",
+          "object": "entity:次郎",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:positive",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。もし次郎が健太を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を見つめなかったら。もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "unknown",
+        "source": null,
+        "target": null
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その後、もし次郎が健太を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を見つめなかったら。その前に、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:0",
+        "target": "event:1"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を訪ねなかったら。その前に、もし次郎が健太を見つめなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:0",
+        "event:1"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  },
+  {
+    "text": "もし次郎が健太を見つめなかったら。その後、もし次郎が健太を訪ねなかったら。",
+    "meaning": {
+      "events": [
+        {
+          "id": "event:0",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:visit",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        },
+        {
+          "id": "event:1",
+          "subject": "entity:次郎",
+          "object": "entity:健太",
+          "predicate": "predicate:gaze_at",
+          "polarity": "polarity:negative",
+          "modality": "modality:hypothetical"
+        }
+      ],
+      "presentation": [
+        "event:1",
+        "event:0"
+      ],
+      "temporal": {
+        "kind": "before",
+        "source": "event:1",
+        "target": "event:0"
+      }
+    }
+  }
+]

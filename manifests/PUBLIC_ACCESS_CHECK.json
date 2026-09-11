@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-09-11T04:55:44.810270+00:00",
+  "authentication_used": false,
+  "repository_public": true,
+  "verified_commit": "1ee5d9efc1e4a30f5b738e0a95bbc5ddbd2c2000",
+  "git_tree_complete": true,
+  "git_blob_entries": 15209,
+  "readme_matches_local": true,
+  "published_release": "https://github.com/KojimaSusumu365/PLM/releases/tag/archive-c0-v0.1-to-ss-core-v0.4",
+  "release_assets_sha256_verified": 52,
+  "downloaded_asset": "PLM-L1-SS-core-v0.4.zip",
+  "downloaded_bytes": 43056474,
+  "downloaded_sha256": "d31c06907fce29390ad8ddbf14bf73f0c0d8f1a72ff38d3635a7a6239c0cad78",
+  "restored_and_hashed_files": 1002,
+  "restored_bytes": 70999582,
+  "status": "passed"
+}
